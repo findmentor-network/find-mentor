@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cagatay Cali",
+    "twitter_handle": "https://twitter.com/cagataycali",
+    "github": "https://github.com/cagataycali",
+    "linkedin": "https://www.linkedin.com/in/cagataycali/",
+    "interests": "frontend, backend, devops, secops",
+    "slug": "cagatay-cali"
+  },
+  {
+    "name": "Fatih Yavuz",
+    "twitter_handle": "https://twitter.com/fatih24yavuz",
+    "github": "https://github.com/fatih-yavuz",
+    "linkedin": "https://www.linkedin.com/in/fyvz/",
+    "interests": "Backend, Automation for Productivity ",
+    "slug": "fatih-yavuz"
+  },
+  {
+    "name": "Bilal Koçak",
+    "twitter_handle": "https://twitter.com/bilalkocak04",
+    "github": "https://github.com/bilalkocak",
+    "linkedin": "https://www.linkedin.com/in/bilalkocak/",
+    "interests": "Frontend, backend",
+    "slug": "bilal-kocak"
+  },
+  {
+    "name": "Burak Kepüç",
+    "twitter_handle": "https://twitter.com/cokdegisigim",
+    "github": "https://github.com/Burakkepuc",
+    "linkedin": "https://www.linkedin.com/in/burakkepuc/",
+    "interests": "Backend",
+    "slug": "burak-kepuc"
+  },
+  {
+    "name": "Nevzat Günay",
+    "twitter_handle": "https://twitter.com/nevzatgunay",
+    "github": "https://github.com/nevzatgunay",
+    "linkedin": "https://www.linkedin.com/in/nevzatgunay/",
+    "interests": "Frontend",
+    "slug": "nevzat-gunay"
+  },
+  {
+    "name": "Baris Ceviz",
+    "twitter_handle": "https://twitter.com/peacecwz",
+    "github": "https://github.com/peacecwz",
+    "linkedin": "https://linkedin.com/in/peacecwz",
+    "interests": "Frontend, Backend, Mobile App, SDS, Product Development",
+    "slug": "baris-ceviz"
+  },
+  {
+    "name": "Mustafa Karakus",
+    "twitter_handle": "https://twitter.com/_mustafakarakus",
+    "github": "https://github.com/mustafakarakus",
+    "linkedin": "https://www.linkedin.com/in/mustafakarakus/",
+    "interests": "Mobile(iOS/Android - Swift/Kotlin)",
+    "slug": "mustafa-karakus"
+  }
+]

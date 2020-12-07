@@ -1,0 +1,768 @@
+[
+  {
+    "name": "Cagatay Cali",
+    "twitter_handle": "https://twitter.com/cagataycali",
+    "github": "https://github.com/cagataycali",
+    "linkedin": "https://www.linkedin.com/in/cagataycali/",
+    "interests": "frontend, backend, devops, secops",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here.",
+    "mentor": "- mentor handle",
+    "slug": "cagatay-cali"
+  },
+  {
+    "name": "Emsal Cengiz",
+    "twitter_handle": "https://twitter.com/emsalcngz",
+    "github": "https://github.com/emsalcengiz",
+    "linkedin": "https://www.linkedin.com/in/emsalcengiz/",
+    "interests": "frontend, backend, data and NLP",
+    "goals": "I believe there is a lot more to learn. That's why I'm here. ",
+    "mentor": "-mentee",
+    "slug": "emsal-cengiz"
+  },
+  {
+    "name": "Süha Can Uluer ",
+    "twitter_handle": "https://twitter.com/suhacanuluer",
+    "github": "https://github.com/suhacanuluer",
+    "linkedin": "https://www.linkedin.com/in/suhacanuluer/",
+    "interests": "backend, devops, frontend, mobile",
+    "goals": "I need a mentor to take stronger steps, become a professional and enter the business world",
+    "mentor": "-mentee",
+    "slug": "suha-can-uluer"
+  },
+  {
+    "name": "Altay Şimşek",
+    "twitter_handle": "https://twitter.com/altitans",
+    "github": "https://github.com/altaysimsek",
+    "linkedin": "https://www.linkedin.com/in/altaysimsek/",
+    "interests": "Frontend, backend",
+    "goals": "I need a roadmapper to be better frontend developer and getting first internship or job",
+    "slug": "altay-simsek"
+  },
+  {
+    "name": "İlter Köse",
+    "twitter_handle": "https://twitter.com/koseilteer",
+    "github": "https://github.com/ilter",
+    "linkedin": "https://www.linkedin.com/in/ilterkose/",
+    "interests": "Mobile, Backend, DevOps",
+    "goals": "All I want is establish a FAANG company from Turkey.",
+    "slug": "ilter-kose"
+  },
+  {
+    "name": "Özgün Doğuş CAN",
+    "twitter_handle": "https://twitter.com/ozgun_dogus",
+    "github": "https://github.com/Ozgundogus",
+    "linkedin": " https://www.linkedin.com/in/özgün-doğuş-can-",
+    "interests": "Mobile,Backend,frontend,AR&VR",
+    "goals": " ı want to ımprove my self and be a good developer",
+    "slug": "ozgun-dogus-can"
+  },
+  {
+    "name": "Mustafa Sakallı",
+    "twitter_handle": "https://twitter.com/mstfsakalli",
+    "github": "https://github.com/mustafasakalli",
+    "linkedin": "https://tr.linkedin.com/in/mustafasakalli",
+    "interests": "Backend, DevOps",
+    "goals": "Trying to be a good developer at backend side with knowledge of devops",
+    "slug": "mustafa-sakalli"
+  },
+  {
+    "name": "Emrehan Kısacık",
+    "twitter_handle": "https://twitter.com/EmrehanKsack",
+    "github": "https://github.com/emrhnksck",
+    "linkedin": "https://www.linkedin.com/in/emrhnksck/",
+    "interests": "Data science",
+    "goals": "I want to join software world in my early years of my education i need to mentor who is gonna help me about accomplish my goals",
+    "slug": "emrehan-kisacik"
+  },
+  {
+    "name": "Ali Osman Beşinci",
+    "twitter_handle": "https://twitter.com/aobesinci",
+    "github": "https://github.com/besinci",
+    "linkedin": "https://www.linkedin.com/in/aliosmanbesinci/",
+    "interests": "Backend, Mobile",
+    "goals": "",
+    "mentor": "both",
+    "slug": "ali-osman-besinci"
+  },
+  {
+    "name": "Rıdvan Akca",
+    "twitter_handle": "https://twitter.com/ridvannakca",
+    "github": "https://github.com/ridvanakca",
+    "linkedin": "http://linkedin.com/in/ridvanakca",
+    "interests": "Frontend",
+    "goals": "i want to improve myself in frontend development.",
+    "slug": "ridvan-akca"
+  },
+  {
+    "name": "Bilal Koçak",
+    "twitter_handle": "https://twitter.com/bilalkocak04",
+    "github": "https://github.com/bilalkocak",
+    "linkedin": "https://www.linkedin.com/in/bilalkocak/",
+    "interests": "Frontend, backend",
+    "goals": "This year I want to improve myself on backend and if you want  I can mentor you for frontend.",
+    "mentor": "both :)",
+    "slug": "bilal-kocak"
+  },
+  {
+    "name": "Fadile Avcı",
+    "twitter_handle": "https://twitter.com/fadileavci1",
+    "github": "https://github.com/fadileavci",
+    "linkedin": "https://www.linkedin.com/in/fadileavci",
+    "interests": "Backend,Frontend,Devops",
+    "goals": "I want to get help and share information from better than developers then me",
+    "mentor": "-mentee",
+    "slug": "fadile-avci"
+  },
+  {
+    "name": "Rengin Akbor",
+    "twitter_handle": "https://twitter.com/rockkbor",
+    "github": "https://github.com/renginozgun",
+    "linkedin": "https://tr.linkedin.com/in/renginozgun",
+    "interests": "Backend, Frontend, Machine Learning",
+    "goals": "I want to work with a mentor and achieve at least one of my goals this year ",
+    "slug": "rengin-akbor"
+  },
+  {
+    "name": "İlker Demir",
+    "twitter_handle": "https://twitter.com/ilkerdemirx",
+    "github": "https://github.com/ilker0",
+    "linkedin": "https://www.linkedin.com/in/ilkerdemirr/",
+    "interests": "Frontend, DevOps",
+    "goals": "Experience in frontend architectures and test-driven development",
+    "slug": "ilker-demir"
+  },
+  {
+    "name": "Emre Taner Çetinkaya ",
+    "twitter_handle": "twitter.com/emretanerc",
+    "github": "github.com/emretanerc",
+    "linkedin": "https://www.linkedin.com/in/emre-taner-%C3%A7etinkaya-59b68469/",
+    "interests": "Mobile Developer ",
+    "slug": "emre-taner-cetinkaya"
+  },
+  {
+    "name": "Furkan Cabbar",
+    "twitter_handle": "https://twitter.com/imloods",
+    "github": "https://github.com/ffcabbar",
+    "linkedin": "https://www.linkedin.com/in/ffcabbar/",
+    "interests": "Frontend, backend(JavaScript)",
+    "goals": "My first goal is to be very good at javascript and css. Additionally, I want to be very good at developing mern stack and nodejs.",
+    "mentor": "-mentee",
+    "slug": "furkan-cabbar"
+  },
+  {
+    "name": "Ümit Yıldırım",
+    "twitter_handle": "https://twitter.com/umit_yildirim1",
+    "github": "https://github.com/mehtiumit/ESShopReact.NetCore",
+    "linkedin": "https://www.linkedin.com/feed/",
+    "interests": "Front-end(React) Back-end(.net Core)",
+    "goals": "i need a mentor who is gonna tell me my level and code quality",
+    "slug": "umit-yildirim"
+  },
+  {
+    "name": "Burak Kepüç",
+    "twitter_handle": "https://twitter.com/cokdegisigim",
+    "github": "https://github.com/Burakkepuc",
+    "linkedin": "https://www.linkedin.com/in/burakkepuc/",
+    "interests": "Back-end",
+    "goals": "I want to start my career as a front end dev. Currently studying software engineering in university.",
+    "mentor": "Both.",
+    "slug": "burak-kepuc"
+  },
+  {
+    "name": "Selcuk Tatar",
+    "twitter_handle": "twitter.com/tansionline",
+    "github": "github.com/tansionline/",
+    "linkedin": "https://www.linkedin.com/in/selcuk-tatar-7b25b61a5/",
+    "interests": "Frontend, Backend (Nodejs, React or Vue)",
+    "goals": "I wanna start to work somewhere. I wanna earn my money.",
+    "mentor": "-mentee",
+    "slug": "selcuk-tatar"
+  },
+  {
+    "name": "Ümit Kaan Usta",
+    "twitter_handle": "http://twitter.com/umitkaanusta",
+    "github": "https://github.com/umitkaanusta",
+    "linkedin": "http://linkedin.com/in/umitkaanusta",
+    "interests": "backend, data, nlp, graph databases",
+    "goals": "Working on an open-source graph ETL and analytics library for Reddit data with a goal to make it a widely-used library in 6-18 months, would like to get some feedback and support from experienced people",
+    "mentor": "mentee",
+    "slug": "umit-kaan-usta"
+  },
+  {
+    "name": "Mert Can Bilgiç",
+    "twitter_handle": "https://twitter.com/mertcbilgic",
+    "github": "https://github.com/mertcb",
+    "linkedin": "https://linkedin.com/in/mertcb",
+    "interests": "backend, linux sysadmin, devops",
+    "goals": "I want to handle distributed systems, develop myself as a SysAdmin and improve my knowledge about Backend Technologies",
+    "mentor": "mentee",
+    "slug": "mert-can-bilgic"
+  },
+  {
+    "name": "Alperen Öz",
+    "twitter_handle": "https://twitter.com/alperenoz14",
+    "github": "https://github.com/alperenoz14",
+    "linkedin": "https://www.linkedin.com/in/alperen-%C3%B6z-7b9997186/",
+    "interests": "frontend,backend,(.Net Core),ML",
+    "goals": "I really need someone to consult about my way to be a good web developer and working techniques. I'm working with .Net techs.",
+    "mentor": "-mentee",
+    "slug": "alperen-oz"
+  },
+  {
+    "name": "Batuhan Işıldak",
+    "twitter_handle": "https://twitter.com/batuhan_isildak",
+    "github": "https://github.com/Fexyler",
+    "linkedin": "https://www.linkedin.com/in/batuhanisildak/",
+    "interests": "frontend,backend, devops",
+    "goals": "This year I want to be full capable backend and frontend developer. I use React on frontend, NodeJS on backend and want to add new technologies, skills to my skillset.",
+    "slug": "batuhan-isildak"
+  },
+  {
+    "name": "Hacı Kandemir",
+    "twitter_handle": "https://twitter.com/Haci_kandemir",
+    "github": "https://github.com/HaciKandemir",
+    "linkedin": "https://www.linkedin.com/in/haci-kandemir/",
+    "interests": "Backend",
+    "slug": "haci-kandemir"
+  },
+  {
+    "name": "Nurgül Çakoğlu",
+    "twitter_handle": "https://twitter.com/recurspirit",
+    "github": "https://github.com/sucremad",
+    "linkedin": "linkedin.com/in/nurgülçakoğlu",
+    "interests": "Cyber Securityy",
+    "goals": "I want to go into this field and deepen. I want to be an artist..",
+    "slug": "nurgul-cakoglu"
+  },
+  {
+    "name": "Nurgül Yücel",
+    "twitter_handle": "https://twitter.com/narsistolmayan",
+    "github": "https://github.com/nurgulyucel",
+    "linkedin": "https://www.linkedin.com/in/nurgul-yucel-37b96a1b6/",
+    "interests": "html,css,js... (web developer)",
+    "goals": "The first,I started to interested with software.I want to develop myself in the web section.",
+    "slug": "nurgul-yucel"
+  },
+  {
+    "name": "Birol Furkan Karadağ",
+    "twitter_handle": "https://twitter.com/bfkaradag",
+    "github": "https://github.com/bfkaradag",
+    "linkedin": "https://www.linkedin.com/in/bfkaradag/",
+    "interests": "Frontend(React), Backend(ASP.NET Core)",
+    "goals": "I'm already graduated from Marmara University-Computer Programming, im working as fullstack web developer(ASP.NET). I wanna be a person who is trying to help his country and its people in software development world.",
+    "slug": "birol-furkan-karadag"
+  },
+  {
+    "name": "Esma Haber",
+    "twitter_handle": "https://twitter.com/esyy2",
+    "github": "https://github.com/esmahaber",
+    "linkedin": "https://www.linkedin.com/in/esmahaber/",
+    "interests": "Frontend, Backend, Java",
+    "goals": "I want to improve myself in frontend, backend and Java technologies and learn best practices in these technologies.",
+    "mentor": "mentee",
+    "slug": "esma-haber"
+  },
+  {
+    "name": "Damla Çim",
+    "twitter_handle": "https://twitter.com/elowendark",
+    "github": "https://github.com/damlacim",
+    "linkedin": "https://www.linkedin.com/in/damla-çim-39b6a2178/",
+    "interests": "Android development",
+    "goals": "I want a mentor who is gonna help me with creating my roadmap and help me to improve myself",
+    "mentor": "mentee",
+    "slug": "damla-cim"
+  },
+  {
+    "name": "Ahmet ÇAKIR",
+    "twitter_handle": "https://twitter.com/_ahmet_cakir",
+    "github": "https://github.com/aahmetcakir",
+    "linkedin": "https://www.linkedin.com/in/aahmetcakir/",
+    "interests": "Frontend(React) Backend(NodeJS)",
+    "goals": "I want to develop applications in front-end and back-end area",
+    "slug": "ahmet-cakir"
+  },
+  {
+    "name": "Vuslat Sena Emre",
+    "twitter_handle": "https://twitter.com/NightmaresTown",
+    "github": "https://github.com/VuslatSena",
+    "linkedin": "https://www.linkedin.com/in/vuslat-sena-emre/",
+    "interests": "Mobile,Backend, ML",
+    "goals": "I want to improve my competencies and to clear up my confusion with a mentor while progressing in areas I am curious about, and to equip myself as much as possible before graduating.",
+    "mentor": "mentee",
+    "slug": "vuslat-sena-emre"
+  },
+  {
+    "name": "Halit KARA",
+    "twitter_handle": "https://twitter.com/hltbrcn",
+    "slug": "halit-kara"
+  },
+  {
+    "name": "Onur Şabanoğlu",
+    "twitter_handle": "https://twitter.com/10ursabanoglu",
+    "github": "https://github.com/10ursabanoglu",
+    "linkedin": "https://www.linkedin.com/in/onur-%C5%9Fabano%C4%9Flu-816b49144/",
+    "interests": "Frontend Developer & Product Designer",
+    "goals": "",
+    "mentor": "mentee",
+    "slug": "onur-sabanoglu"
+  },
+  {
+    "name": "Volkan Yılmaz",
+    "twitter_handle": "https://twitter.com/0xVolcano",
+    "github": "https://github.com/yilmazvolkan",
+    "linkedin": "https://www.linkedin.com/in/yilmaz-volkan/",
+    "interests": "Andorid & Backend Development",
+    "goals": "Learning key concepts especially unit testing and dagger.",
+    "slug": "volkan-yilmaz"
+  },
+  {
+    "name": "Büşra Alasya",
+    "twitter_handle": "https://twitter.com/busralasya",
+    "github": "https://github.com/busralasya",
+    "linkedin": "https://www.linkedin.com/in/busraalasya/",
+    "interests": "NLP, Reinforcement Learning, Data Science, Deep Learning",
+    "goals": "My goals are to develop myself in the fields of nlp and reinforcement and to establish startup my own.",
+    "mentor": "mentee",
+    "slug": "busra-alasya"
+  },
+  {
+    "name": "Burak Adıgüzel",
+    "twitter_handle": "https://twitter.com/adigzlburak",
+    "github": "https://github.com/adiguzelburak",
+    "linkedin": "https://www.linkedin.com/in/adiguzelburak/",
+    "interests": "Frontend Developer (Css,Js,ReactJs,NextJs)",
+    "goals": "I want to improve myself and i want to web-develop in front end.",
+    "slug": "burak-adiguzel"
+  },
+  {
+    "name": "Nevzat Günay",
+    "twitter_handle": "https://twitter.com/nevzatgunay",
+    "github": "https://github.com/nevzatgunay",
+    "linkedin": "https://www.linkedin.com/in/nevzatgunay/",
+    "interests": "Frontend",
+    "slug": "nevzat-gunay"
+  },
+  {
+    "name": "Utku Şengün",
+    "twitter_handle": "https://twitter.com/Utkusengunn",
+    "github": "https://github.com/UtkuSengun",
+    "linkedin": "https://www.linkedin.com/in/utku-%C5%9Feng%C3%BCn-702441168/",
+    "interests": "Frontend&Backend Development",
+    "goals": "",
+    "mentor": "mentee",
+    "slug": "utku-sengun"
+  },
+  {
+    "name": "Ersin Coşkun",
+    "twitter_handle": "https://twitter.com/ersincoskn",
+    "github": "https://github.com/ersincoskun",
+    "linkedin": "https://www.linkedin.com/in/ersin-coskun-6590a41b8/",
+    "interests": "Android Developer",
+    "goals": "i want to improve myself about android development and find a job.There is so much thing i should know about business , about tips finding job , about become a developer who is so much company wants",
+    "slug": "ersin-coskun"
+  },
+  {
+    "name": "Muhammet Akbulut",
+    "twitter_handle": "https://twitter.com/muhammedakb68",
+    "github": "https://github.com/muhammedakb",
+    "linkedin": "https://www.linkedin.com/in/muhammet-akbulut-21a472187/",
+    "interests": "Full stack(mostly front end)",
+    "goals": "I am a software engineering 4th grade student. I love frontend coding and want to advance in this field.",
+    "mentor": "Mentee",
+    "slug": "muhammet-akbulut"
+  },
+  {
+    "name": "Elif Çelik",
+    "twitter_handle": "https://twitter.com/elificlk",
+    "github": "https://github.com/eelifcelik",
+    "linkedin": "https://www.linkedin.com/in/elif-%C3%A7elik-126484172/",
+    "interests": "ML, Computer Vision, Backend",
+    "goals": "",
+    "mentor": "mentee",
+    "slug": "elif-celik"
+  },
+  {
+    "name": "Ali ÇORAK",
+    "twitter_handle": "https://twitter.com/aliicorak",
+    "github": "https://github.com/alicorak",
+    "linkedin": "https://www.linkedin.com/in/ali-corak/",
+    "interests": "Web and Mobile development, UI design",
+    "goals": "Briefly; I aim to be experienced enough in development and design.",
+    "mentor": "Mentee",
+    "slug": "ali-corak"
+  },
+  {
+    "name": "Hasan Tezcan",
+    "twitter_handle": "https://twitter.com/hasantezcann",
+    "github": "https://www.github.com/hasantezcan",
+    "linkedin": "https://www.linkedin.com/in/hasantezcann/",
+    "interests": "Fullstack web development",
+    "goals": "I already try to develop my my web development skills like everyone. But I need to learn best practices, understanding connections, follow the right path and discuss all that topics with someone experienced beforehand. On that point I need a mentor.",
+    "mentor": "Mentee",
+    "slug": "hasan-tezcan"
+  },
+  {
+    "name": "Efkan Gökbaş",
+    "twitter_handle": "https://twitter.com/mefkansec",
+    "github": "https://github.com/b21827445/",
+    "linkedin": "",
+    "interests": "Web development, Design, Front-End ( React, Gatsby)",
+    "goals": "",
+    "mentor": "Mentee",
+    "slug": "efkan-gokbas"
+  },
+  {
+    "name": "Ebru Boyacı",
+    "twitter_handle": "https://twitter.com/EbruBoyac1",
+    "github": "https://github.com/ebabe3",
+    "linkedin": "https://www.linkedin.com/in/ebru-boyac%C4%B1-/",
+    "interests": "Data science",
+    "goals": "",
+    "mentor": "Mentee",
+    "slug": "ebru-boyaci"
+  },
+  {
+    "name": "Sakir Tufan",
+    "twitter_handle": "https://twitter.com/tufan_sakir",
+    "github": "https://github.com/sakirtufan",
+    "linkedin": "https://de.linkedin.com/in/%C5%9Fakir-tufan-699814196/tr-tr?trk=people-guest_people_search-card",
+    "interests": "Fullstack-Web-Developer",
+    "goals": "My goal is to reach a level that can work with frontend (React), backend (Node.js, Express.js).",
+    "mentor": "Mentee",
+    "slug": "sakir-tufan"
+  },
+  {
+    "name": "Selin Bulut",
+    "twitter_handle": "https://twitter.com/nilesayy",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/selinnbulut/",
+    "interests": "ML, Data Science",
+    "goals": "I am an industrial engineering student. I am learning Python. I want to improve myself more in these areas in 2021.",
+    "mentor": "Mentee",
+    "slug": "selin-bulut"
+  },
+  {
+    "name": "Mert Tosun",
+    "twitter_handle": "https://twitter.com/katetespofte",
+    "github": "https://github.com/merttosun",
+    "linkedin": "https://www.linkedin.com/in/mert-tosun-39777b193/",
+    "interests": "fe, be, devops",
+    "goals": "My experience so far has been mainly frontend, I want to improve myself as a full stack.",
+    "mentor": "Mentee",
+    "slug": "mert-tosun"
+  },
+  {
+    "name": "Şamil Kahraman",
+    "twitter_handle": "https://twitter.com/kahramanjj",
+    "github": "https://github.com/samilkahraman",
+    "linkedin": "https://www.linkedin.com/in/samil-kahraman/",
+    "interests": "NodeJS - ExpressJS - MongoDB",
+    "goals": "I need mentoring for my current user role based backend application",
+    "mentor": "Mentee",
+    "slug": "samil-kahraman"
+  },
+  {
+    "name": "Besim Gürbüz",
+    "twitter_handle": "https://twitter.com/mbesimgurbuz",
+    "github": "https://github.com/besimgurbuz",
+    "linkedin": "https://www.linkedin.com/in/besimgurbuz/",
+    "interests": "Backend (java, spring boot, node), frontend(angular, react), mobile (flutter), docker and kubernetes",
+    "goals": "",
+    "mentor": "Mentee",
+    "slug": "besim-gurbuz"
+  },
+  {
+    "name": "Cem Nisan",
+    "twitter_handle": "https://twitter.com/nisanc_db",
+    "github": "https://github.com/cemnisan",
+    "linkedin": "https://www.linkedin.com/in/cem-nisan-2009731bb/",
+    "interests": "Django,NodeJS,MongoDB,ExpressJS ",
+    "goals": "",
+    "mentor": "Mentee",
+    "slug": "cem-nisan"
+  },
+  {
+    "name": "Mesut Çifci",
+    "twitter_handle": "https://twitter.com/MesutCifci9",
+    "github": "https://github.com/mesutcifci",
+    "linkedin": "https://www.linkedin.com/in/mesut-cifci/",
+    "interests": "Html - Css - JavaScript(front-end)",
+    "goals": "I want to improve my front-end web design skills. I need a mentor for career advice.",
+    "mentor": "Mentee",
+    "slug": "mesut-cifci"
+  },
+  {
+    "name": "Hakan Kural",
+    "twitter_handle": "https://twitter.com/hakankurall",
+    "github": "https://github.com/hakands",
+    "linkedin": "https://www.linkedin.com/in/hakan-kural-9942b01b5/",
+    "interests": "Frontend-Backend Dev",
+    "goals": "I need more support than ever at the beginning of my coding journey\r",
+    "slug": "hakan-kural"
+  },
+  {
+    "name": "Oğulcan Erişti",
+    "twitter_handle": "https://twitter.com/ogulcaanX",
+    "github": "https://github.com/olcaneristi",
+    "linkedin": "https://www.linkedin.com/in/ogulcaneristi/",
+    "interests": "Frontend (React), MERN Stack",
+    "goals": "I am a Senior grade MIS student and I am trying to improve myself on Frontend (React). I need a mentor who can guide me on behalf of my career and share his experiences with me.",
+    "slug": "ogulcan-eristi"
+  },
+  {
+    "name": "Fatma Özdemir",
+    "twitter_handle": "https://twitter.com/fatmaozdemir__",
+    "github": "https://github.com/ozdmrfatma",
+    "linkedin": "https://www.linkedin.com/in/fatma-%C3%B6zdemir-67039a175/",
+    "interests": "Mobile development,React,js",
+    "goals": "i want to improve my programming skills for become a good mobile developer",
+    "mentor": "Mentee",
+    "slug": "fatma-ozdemir"
+  },
+  {
+    "name": "Furkan Keskinkılıç",
+    "twitter_handle": "https://twitter.com/frknksknklc97",
+    "github": "https://github.com/frknksknklc",
+    "linkedin": "https://www.linkedin.com/in/furkan-keskink%C4%B1l%C4%B1%C3%A7-5923a9181/",
+    "interests": "Front-end,Backend,Data Science",
+    "slug": "furkan-keskinkilic"
+  },
+  {
+    "name": "Bedirhan Argün",
+    "twitter_handle": "https://twitter.com/BedirhanArgnn",
+    "github": "https://github.com/BedirhanArgn",
+    "linkedin": "https://www.linkedin.com/in/bedirhan-argun/",
+    "interests": "Frontend, Backend Development",
+    "goals": "I want to improve myself about web technologies and work with big companies.",
+    "slug": "bedirhan-argun"
+  },
+  {
+    "name": "Umut Keskin",
+    "twitter_handle": "https://twitter.com/umutkesk1n",
+    "github": "https://github.com/ukeskin",
+    "linkedin": "https://www.linkedin.com/in/umutdev/",
+    "interests": "Frontend",
+    "goals": "I need a mentor. Being a mentor will make my job easier. homework etc.",
+    "mentor": "Mentee",
+    "slug": "umut-keskin"
+  },
+  {
+    "name": "Mert Gül",
+    "twitter_handle": "https://twitter.com/imertgul",
+    "github": "github.com/imertgul",
+    "linkedin": "tr.linkedin.com/in/imertgul",
+    "interests": "Flutter Developer",
+    "goals": "I want to do best.",
+    "mentor": "Mentee",
+    "slug": "mert-gul"
+  },
+  {
+    "name": "Kemal Ayhan",
+    "twitter_handle": "https://twitter.com/kemalayhn",
+    "github": "https://github.com/kemalayhan/",
+    "linkedin": "https://www.linkedin.com/in/kemal-ayhan-5345b4172/",
+    "interests": "Backend Developer (Python / Django)",
+    "goals": "I want to improve myself about backend development, i need a mentor for careed advice",
+    "slug": "kemal-ayhan"
+  },
+  {
+    "name": "Yunus Talip EROL",
+    "twitter_handle": "https://twitter.com/Yte24799407",
+    "github": "https://github.com/yerol89",
+    "linkedin": "https://www.linkedin.com/in/yunus-talip-erol-37159a1a2/",
+    "interests": "OOP with C#, ASP.NET CORE, \nafter all these react orAngular maybe",
+    "goals": "I am a 3rd grade Software Engineering student and 31 years old. Trying to do my best for my second life. \nMy goal is providing a peaceful life to my family and software seems as the only way for my dreams come through. \nAnd the most important thing in this software world is a MENTOR who will just tell me which way I should go. \nI know what a mentor means for a person who is eager to learn in this software world.",
+    "slug": "yunus-talip-erol"
+  },
+  {
+    "name": "Onur Akşar",
+    "twitter_handle": "https://twitter.com/onraksr",
+    "github": "https://github.com/onuraksar",
+    "linkedin": "https://www.linkedin.com/in/onuraksar/",
+    "interests": "Front-End Development",
+    "goals": "I need guidance that will show me the ways to become a better self-taught front-end developer. I'd like to learn from people's mistakes and listen to their experiences.",
+    "slug": "onur-aksar"
+  },
+  {
+    "name": "Naim Enis TÜFEKCI",
+    "twitter_handle": "https://twitter.com/gsqweyt",
+    "github": "https://github.com/enistfkcii",
+    "linkedin": "https://www.linkedin.com/in/enis-t%C3%BCfekci-995305182/",
+    "interests": "PHP-HTML-CSS(FrontEnd) Java(Andoid)",
+    "goals": "\r\nAs a 4th grade computer engineering student, something is working with the information I learned from the courses and still learning. I am open to all kinds of advice and ideas from people who know this job in a real sense. It is my biggest dream to be a good software developer.",
+    "slug": "naim-enis-tufekci"
+  },
+  {
+    "name": "Talha Karaca",
+    "twitter_handle": "https://twitter.com/Perhand1903",
+    "github": "",
+    "linkedin": "",
+    "interests": "C#, C++, HTML, Java",
+    "goals": "I am a 23 year old computer engineering student. There are so many things I want to do. For this, I have to improve myself very well. I have a lot of things to learn. I want to write my name in Turkish and World history with golden letters.",
+    "slug": "talha-karaca"
+  },
+  {
+    "name": "Furkan Portakal",
+    "twitter_handle": "https://twitter.com/furkanportakalx",
+    "github": "https://github.com/FurkanPortakal",
+    "linkedin": "https://www.linkedin.com/in/furkanportakal/",
+    "interests": "Frontend Backend",
+    "goals": "I want to improve myself about frontend and backend. I need a mentor to take stronger steps",
+    "mentor": "Mentee",
+    "slug": "furkan-portakal"
+  },
+  {
+    "name": "Alper Çün",
+    "twitter_handle": "https://twitter.com/alpercun_",
+    "github": "https://github.com/alpercun",
+    "linkedin": "https://www.linkedin.com/in/alpercun/",
+    "interests": "Frontend(Css, React)",
+    "goals": "I want to learn what I can do in the frontend area and create good products with it. I need a mentor for this.",
+    "mentor": "Mentee",
+    "slug": "alper-cun"
+  },
+  {
+    "name": "Üneys Ahmet Alkış",
+    "twitter_handle": "https://twitter.com/uneysalkis",
+    "github": "https://github.com/uneyss",
+    "linkedin": "https://www.linkedin.com/in/%C3%BCneys-ahmet-alk%C4%B1%C5%9F-9a7a281a3/",
+    "interests": "Frontend,Backend",
+    "goals": "I want to improve myself in Frontend and BackendHow should a website be designed? Web - Mobile How to develop applications. JavaScript Framework",
+    "slug": "uneys-ahmet-alkis"
+  },
+  {
+    "name": "Fatma Betül UYAR",
+    "twitter_handle": "https://twitter.com/fatmabetuluyar",
+    "github": "https://github.com/FatmaBetulUyar",
+    "linkedin": "https://www.linkedin.com/in/fatma-bet%C3%BCl-uyar-22202b1aa/",
+    "interests": "c#, C++, Java",
+    "goals": "i want to improve my programming skills for",
+    "slug": "fatma-betul-uyar"
+  },
+  {
+    "name": "Mertcan Uçtu",
+    "twitter_handle": "https://twitter.com/MUctu",
+    "github": "https://github.com/mertcanuctu",
+    "linkedin": "https://www.linkedin.com/in/mertcanuctu/",
+    "interests": "Frontend, Backend, Mobile App,Product Development",
+    "goals": "I'm 3rd year Electrical-Electronics Student who shifted his interest to software development. Last summer I had an internship as an Unity Game Developer. I want to broaden my horizons in software dev and experience different fields.",
+    "slug": "mertcan-uctu"
+  },
+  {
+    "name": "Batuhan Karababa",
+    "twitter_handle": "https://twitter.com/batuhankrbb",
+    "github": "https://github.com/batuhankrbb",
+    "linkedin": "https://www.linkedin.com/in/batuhan-karababa-49190b189/",
+    "interests": "iOS Development, Swift, SwiftUI, Mobile Growth",
+    "goals": "I'm 17 y.o iOS dev. I want to hit the books and improve myself. My biggest dream is to travel around the world and experience everything. I work more than 8 - 10 hours to improve myself. I also have a website where I share my journey. You can take a look at batuhankarababa.com",
+    "slug": "batuhan-karababa"
+  },
+  {
+    "name": "Can ÇİLEK",
+    "twitter_handle": "https://twitter.com/CanCilek",
+    "github": "https://github.com/cancilek-edu",
+    "linkedin": "https://www.linkedin.com/in/can-%C3%A7ilek-730ba2155/",
+    "interests": "Mobile App (Flutter,Java)",
+    "goals": "I am a 3rd year computer engineering student, I think that if my interest in mobile programming is a supporter and a guide (MENTOR), I will take better steps on this path.",
+    "slug": "can-cilek"
+  },
+  {
+    "name": "Parla YERLİ",
+    "twitter_handle": "https://twitter.com/parlayrl",
+    "github": "https://github.com/ParlaYerli",
+    "linkedin": "https://www.linkedin.com/in/parlayerli/",
+    "interests": "Asp.Net Core Backend Developer",
+    "goals": "I'm junior developer. I want to improve myselft with mentor and \r\ni think I will be a better software developer with the experience of my mentor and the assignments.",
+    "slug": "parla-yerli"
+  },
+  {
+    "name": "Şevki Oruç",
+    "twitter_handle": "https://twitter.com/sevkiorc",
+    "github": "https://github.com/sevkioruc",
+    "linkedin": "https://www.linkedin.com/in/%C5%9Fevki-oru%C3%A7-b108a313a/",
+    "interests": "Frontend",
+    "goals": "I want to improve myself in web technologies and my expectations this year are OOP, TDD and design patterns.",
+    "mentor": "Mentee",
+    "slug": "sevki-oruc"
+  },
+  {
+    "name": "Merve Dürül",
+    "twitter_handle": "https://twitter.com/merw70",
+    "github": "https://github.com/merwe70",
+    "linkedin": "https://www.linkedin.com/in/merve-d%C3%BCr%C3%BCl-200769173/",
+    "interests": "Frontend",
+    "goals": " i want to improve myself in the fronted field",
+    "slug": "merve-durul"
+  },
+  {
+    "name": "Rumeysa Aydoğdu",
+    "twitter_handle": "https://mobile.twitter.com/rmysaydogdu",
+    "github": "https://github.com/rumeysaaydogdu",
+    "linkedin": "https://www.linkedin.com/in/rumeysaaydogdu",
+    "interests": "Frontend (JavaScript) & Backend (PHP, ASP.net, MVC) ",
+    "goals": "It is my third year in my department. I feel like I'm on the rise, but it's a bit difficult alone. I'm trying to find my way by trying different things. Now I have to make up my mind and move forward with what I started. Can you help me?",
+    "slug": "rumeysa-aydogdu"
+  },
+  {
+    "name": "Ozan Deniz Öneş",
+    "twitter_handle": "https://mobile.twitter.com/OzanDenizz",
+    "github": "https://github.com/ozanones",
+    "linkedin": "http://linkedin.com/in/ozandenizones",
+    "interests": "IOS Swift/Swift UI",
+    "goals": "I am a junior and want to improve my skills.",
+    "slug": "ozan-deniz-ones"
+  },
+  {
+    "name": "Ege Cavusoglu",
+    "twitter_handle": "https://twitter.com/egecavusoglu_",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/egecavusoglu",
+    "interests": "JS and Swift, full stack. entrepreneurship",
+    "goals": "I can build stuff, but need assistance with planning and best practises.",
+    "slug": "ege-cavusoglu"
+  },
+  {
+    "name": "Beyza Nur Güneş",
+    "twitter_handle": "https://twitter.com/beyzderleer",
+    "github": "https://github.com/beyzanurgunes1",
+    "linkedin": "https://www.linkedin.com/in/beyza-nur-g%C3%BCne%C5%9F-261a291a1/",
+    "interests": "Frontend,Backend, Mobil App, C, Java, javascript",
+    "slug": "beyza-nur-gunes"
+  },
+  {
+    "name": "Ozan Ergön",
+    "twitter_handle": "https://twitter.com/ozanergon",
+    "github": "https://github.com/ozanergon",
+    "linkedin": "https://www.linkedin.com/in/ozanergon/",
+    "interests": "Backend Technologies (C #, .NET)",
+    "goals": "I am a junior developer and want to improve my skills.",
+    "slug": "ozan-ergon"
+  },
+  {
+    "name": "Göker Güner",
+    "twitter_handle": "https://twitter.com/gokerguner",
+    "github": "https://github.com/gokerguner/",
+    "linkedin": "https://www.linkedin.com/in/gokerguner/",
+    "interests": "Python, MongoDB, SQL, ML&Data Science",
+    "goals": "I work as a Python developer. In 2021, I want to direct my career to Machine Learning & Data Science.",
+    "slug": "goker-guner"
+  },
+  {
+    "name": "Burak BAYLAN",
+    "twitter_handle": "https://twitter.com/BurakByln0",
+    "github": "https://github.com/Burak-Baylan",
+    "linkedin": "https://www.linkedin.com/in/burak-baylan-0395bb201/",
+    "interests": "Android Development, Java, Kotlin",
+    "goals": "I'm 17 y.o. I want to improve my self in android development and i working hard on it.",
+    "slug": "burak-baylan"
+  },
+  {
+    "name": "Burak Emre Özer",
+    "twitter_handle": "https://twitter.com/burakemreozer",
+    "github": "https://t.co/lkB952jMyI?amp=1",
+    "linkedin": "https://www.linkedin.com/in/burakemreozer/",
+    "interests": "Backend",
+    "goals": "With this mentoring, I want to develop 2 different web projects in 2021 in order to develop in backend programming and become a better software developer. In this way, I need your experiences and answers that you can give to my questions.",
+    "slug": "burak-emre-ozer"
+  }
+]
