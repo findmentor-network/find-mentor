@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/halit-kara", {data:[{doc:{slug:"halit-kara",name:"Halit KARA",twitter_handle:"https:\u002F\u002Ftwitter.com\u002Fhltbrcn",dir:"\u002Fmentees",path:"\u002Fmentees\u002Fhalit-kara",extension:".json",createdAt:"2020-12-07T19:05:50.896Z",updatedAt:"2020-12-07T19:07:51.481Z"}}],fetch:[],mutations:void 0});

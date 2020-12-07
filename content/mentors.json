@@ -54,5 +54,37 @@
     "linkedin": "https://www.linkedin.com/in/mustafakarakus/",
     "interests": "Mobile(iOS/Android - Swift/Kotlin)",
     "slug": "mustafa-karakus"
+  },
+  {
+    "name": "Erhan Yakut",
+    "twitter_handle": "https://twitter.com/yakuter",
+    "github": "https://github.com/yakuter",
+    "linkedin": "https://www.linkedin.com/in/erhan-yakut/",
+    "interests": "Go",
+    "slug": "erhan-yakut"
+  },
+  {
+    "name": "Saffet Bulut",
+    "twitter_handle": "https://twitter.com/saffetblt",
+    "github": "https://github.com/saffetblt",
+    "linkedin": "https://www.linkedin.com/in/saffetblt/",
+    "interests": "Embedded Software",
+    "slug": "saffet-bulut"
+  },
+  {
+    "name": "Onur Burak Yildirim",
+    "twitter_handle": "https://twitter.com/onurburak9 (personal account)",
+    "github": "https://github.com/onur-yildirim",
+    "linkedin": "https://www.linkedin.com/in/onurburak/",
+    "interests": "backend, frontend, working abroad",
+    "slug": "onur-burak-yildirim"
+  },
+  {
+    "name": "Recai Cingöz",
+    "twitter_handle": "",
+    "github": "https://github.com/Cingozr",
+    "linkedin": "https://www.linkedin.com/in/cingozr/",
+    "interests": "Go, Win32 Api Development",
+    "slug": "recai-cingoz"
   }
 ]

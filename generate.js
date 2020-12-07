@@ -1,3 +1,4 @@
+const { log } = require('console')
 const fs = require('fs')
 const got = require('got')
 const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
@@ -36,7 +37,7 @@ async function getData () {
     let response = await got(url)
     response = JSON.parse(response.body)
     let [mentees, mentors] = response.valueRanges
-    mentees = mapper(mentees.values.slice(3).filter(r => r.length))
+    mentees = mapper(mentees.values.slice(4).filter(r => r.length))
     mentors = mapper(mentors.values.filter(r => r.length))
     const data = { mentees, mentors }
     return { status: 200, data }
