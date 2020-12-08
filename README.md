@@ -3,8 +3,10 @@
 
 ## Contributors
 
-[Kemal Ayhan](https://github.com/kemalayhan)
-[Selcuk Tatar](https://github.com/tansionline)
+- [Kemal Ayhan](https://github.com/kemalayhan)
+- [Mücahit Bircan](https://github.com/mucahitbircan)
+- [Selcuk Tatar](https://github.com/tansionline)
+
 
 ## Build Setup
 
