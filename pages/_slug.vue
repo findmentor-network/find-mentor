@@ -6,7 +6,7 @@
         <li><a :href="doc.github">Github</a></li>
         <li><a :href="doc.linkedin">Linkedin</a></li>
         <li>Interests: {{doc.interests}}</li>
-        <li v-if='doc.goals.length > 1'>Goals: {{doc.goals}}</li>
+        <li v-if='doc.goals'>Goals: {{doc.goals}}</li>
         <li v-else>Goals: Unspecified</li>
         <li>Mentor: {{doc.mentor}}</li>
     </ul>
