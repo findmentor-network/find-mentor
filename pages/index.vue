@@ -18,7 +18,7 @@
       <ul class="persons">
         <li v-for="mentor in mentors" :key="mentor.slug" class="person">
           <b-avatar
-            :src="fixProtocol(mentor.name, mentor.github)"
+            :src="mentor.avatar"
             size="6rem"
           />
           <NuxtLink :to="'/mentor/' + mentor.slug">
@@ -39,7 +39,7 @@
       <ul class="persons">
         <li v-for="mentee in mentees" :key="mentee.slug" class="person">
           <b-avatar
-            :src="fixProtocol(mentee.name, mentee.github)"
+            :src="mentee.avatar"
             size="6rem"
           />
           <NuxtLink :to="'/mentee/' + mentee.slug">
@@ -65,17 +65,6 @@ export default {
     const mentees = await $content('mentees').fetch()
     const mentors = await $content('mentors').fetch()
     return { mentees, mentors }
-  },
-  methods: {
-    fixProtocol (name, url) {
-      if (!url) {
-        url = 'https://ui-avatars.com/api/?name=' + name
-        return url
-      }
-      return url
-        ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') + '.png?size=200'
-        : 'javascript:void(0)'
-    }
   }
 }
 </script>

@@ -5,10 +5,7 @@
       <h1>Mentors</h1>
       <ul class="persons">
         <li v-for="mentor in mentors" :key="mentor.slug" class="person">
-          <b-avatar
-            :src="fixProtocol(mentor.name, mentor.github)"
-            size="6rem"
-          />
+          <b-avatar :src="mentor.avatar" size="6rem" />
           <NuxtLink :to="'/mentor/' + mentor.slug">
             <h3 class="name">
               {{ mentor.name }}
@@ -31,21 +28,10 @@ export default {
   async asyncData ({ $content, params }) {
     const mentors = await $content('mentors').fetch()
     return { mentors }
-  },
-  methods: {
-    fixProtocol (name, url) {
-      if (!url) {
-        url = 'https://ui-avatars.com/api/?name=' + name
-        return url
-      }
-
-      return url
-        ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') + '.png?size=200'
-        : 'javascript:void(0)'
-    }
   }
 }
 </script>
+
 <style>
 * {
   box-sizing: border-box;

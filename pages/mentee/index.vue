@@ -5,17 +5,14 @@
       <h1>Mentees</h1>
       <ul class="persons">
         <li v-for="mentee in mentees" :key="mentee.slug" class="person">
-          <b-avatar
-            :src="fixProtocol(mentee.name, mentee.github)"
-            size="6rem"
-          />
+          <b-avatar :src="mentee.avatar" size="6rem" />
           <NuxtLink :to="'/mentee/' + mentee.slug">
             <h3 class="name">
               {{ mentee.name }}
             </h3>
           </NuxtLink>
           <p class="head">
-            Interest:
+            Interests:
           </p>
           <p class="interestContent">
             {{ mentee.interests }}
@@ -31,21 +28,10 @@ export default {
   async asyncData ({ $content, params }) {
     const mentees = await $content('mentees').fetch()
     return { mentees }
-  },
-  methods: {
-    fixProtocol (name, url) {
-      if (!url) {
-        url = 'https://ui-avatars.com/api/?name=' + name
-        return url
-      }
-
-      return url
-        ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') + '.png?size=200'
-        : 'javascript:void(0)'
-    }
   }
 }
 </script>
+
 <style>
 * {
   box-sizing: border-box;
