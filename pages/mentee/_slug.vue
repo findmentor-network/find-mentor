@@ -6,7 +6,7 @@
       :twitter="doc.twitter_handle"
       :linkedin="doc.linkedin"
       :github="doc.github"
-      :picture="doc.picture"
+      :avatar="doc.avatar"
       :interests="doc.interests"
       :goals="doc.goals"
     />
@@ -18,7 +18,7 @@
 export default {
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
-    doc.picture = `https://github.com/${doc.github.split('/').pop()}.png?size=200`
+    doc.avatar = doc.github ? `https://github.com/${doc.github.split('/').pop()}.png?size=200` : `https://ui-avatars.com/api/?name=${doc.name}`
     if (!doc) {
       return error({ statusCode: 404, message: 'Not found' })
     }

@@ -2,8 +2,12 @@
   <div>
     <div class="container">
       <ul class="profile">
-        <li v-if="picture.length">
-          <img :src="picture" class="avatar">
+        <li v-if="avatar.length">
+          <img
+            :src="avatar"
+            class="avatar"
+            :alt="name"
+          >
         </li>
         <li v-if="name" class="name">{{ name }}</li>
         <li v-if="twitter.length" class="links">
@@ -52,7 +56,7 @@ export default {
       type: String,
       default: ''
     },
-    picture: {
+    avatar: {
       type: String,
       default: ''
 
