@@ -16,11 +16,11 @@
       <h4>Mentors</h4>
       <ul class="persons">
         <li v-for="mentor in mentors" :key="mentor.slug" class="person">
-          <b-avatar
-            :src="mentor.avatar"
-            size="6rem"
-          />
           <NuxtLink :to="'/mentor/' + mentor.slug">
+            <b-avatar
+              :src="mentor.avatar"
+              size="6rem"
+            />
             <h3 class="name">
               {{ mentor.name }}
             </h3>
@@ -37,11 +37,11 @@
       <h4>Mentees</h4>
       <ul class="persons">
         <li v-for="mentee in mentees" :key="mentee.slug" class="person">
-          <b-avatar
-            :src="mentee.avatar"
-            size="6rem"
-          />
           <NuxtLink :to="'/mentee/' + mentee.slug">
+            <b-avatar
+              :src="mentee.avatar"
+              size="6rem"
+            />
             <h3 class="name">
               {{ mentee.name }}
             </h3>
