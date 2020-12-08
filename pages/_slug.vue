@@ -1,6 +1,13 @@
 <template>
   <div class="container">
-    {{ doc.name }}
+    <ul>
+        <li>{{ doc.name }}</li>
+        <li><a :href="doc.twitter_handle ">Twitter</a></li>
+        <li><a :href="doc.github ">Github</a></li>
+        <li><a :href="doc.linkedin ">Linkedin</a></li>
+        <li>Interests: {{doc.interests}}</li>
+
+    </ul>
   </div>
 </template>
 
