@@ -4,8 +4,8 @@
     <input v-model="filter" class="filter" placeholder="Filter Mentees">
     <ul class="persons">
       <li v-for="(mentee, index) in filteredMentees" :key="index" class="person">
-        <b-avatar :src="mentee.avatar" size="6rem" />
         <NuxtLink :to="'/mentee/' + mentee.slug">
+          <b-avatar :src="mentee.avatar" size="6rem" />
           <h3 class="name">
             {{ mentee.name }}
           </h3>
@@ -23,25 +23,25 @@
 
 <script>
 export default {
-  data() {
+  async asyncData ({ $content, params }) {
+    const mentees = await $content('mentees').fetch()
+    return { mentees }
+  },
+  data () {
     return {
       filter: null
     }
   },
   computed: {
-    filteredMentees() {
+    filteredMentees () {
       if (this.filter) {
         return this.mentees.filter((mentee) => {
-          return this.filter.toLowerCase().split(' ').every(v => mentee.name.toLowerCase().includes(v));
-        });
+          return this.filter.toLowerCase().split(' ').every(v => mentee.name.toLowerCase().includes(v))
+        })
       } else {
-        return this.mentees;
+        return this.mentees
       }
     }
-  },
-  async asyncData ({ $content, params }) {
-    const mentees = await $content('mentees').fetch()
-    return { mentees }
   }
 }
 </script>

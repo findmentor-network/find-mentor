@@ -1,6 +1,7 @@
 <template>
   <div>
     <Person
+      :slug="doc.slug"
       :name="doc.name"
       :twitter="doc.twitter_handle"
       :linkedin="doc.linkedin"

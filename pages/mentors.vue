@@ -4,8 +4,8 @@
     <input v-model="filter" class="filter" placeholder="Filter Mentors">
     <ul class="persons">
       <li v-for="(mentor, index) in filteredMentors" :key="index" class="person">
-        <b-avatar :src="mentor.avatar" size="6rem" />
         <NuxtLink :to="'/mentor/' + mentor.slug">
+          <b-avatar :src="mentor.avatar" size="6rem" />
           <h3 class="name">
             {{ mentor.name }}
           </h3>
@@ -23,25 +23,25 @@
 
 <script>
 export default {
-  data() {
+  async asyncData ({ $content, params }) {
+    const mentors = await $content('mentors').fetch()
+    return { mentors }
+  },
+  data () {
     return {
       filter: null
     }
   },
   computed: {
-    filteredMentors() {
+    filteredMentors () {
       if (this.filter) {
         return this.mentors.filter((mentor) => {
-          return this.filter.toLowerCase().split(' ').every(v => mentor.name.toLowerCase().includes(v));
-        });
+          return this.filter.toLowerCase().split(' ').every(v => mentor.name.toLowerCase().includes(v))
+        })
       } else {
-        return this.mentors;
+        return this.mentors
       }
     }
-  },
-  async asyncData ({ $content, params }) {
-    const mentors = await $content('mentors').fetch()
-    return { mentors }
   }
 }
 </script>

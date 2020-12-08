@@ -12,8 +12,8 @@
           Mentors
         </b-nav-item>
         <b-nav-item
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc3uWpEeBUCXMoGAJ5qm31p9URBppxXT5L4RJFrTOJee9TFjQ/viewform?usp=send_form"
-          rigth
+          href="https://forms.gle/pQwFZBXEyqBRDU2H9"
+          target="_blank"
         >
           Register
         </b-nav-item>

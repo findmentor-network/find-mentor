@@ -29,6 +29,11 @@
         <li v-if="goals && goals.length" class="text">
           Goals: {{ goals }}
         </li>
+        <li class="text">
+          <a :href="`https://findmentor.network/`+slug" target="_blank" rel="noopener noreferrer">
+            <qrcode :value="`https://findmentor.network/`+slug" :options="{ width: 200 }" />
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -37,6 +42,10 @@
 <script>
 export default {
   props: {
+    slug: {
+      type: String,
+      default: ''
+    },
     name: {
       type: String,
       default: ''
