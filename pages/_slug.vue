@@ -1,14 +1,22 @@
 <template>
   <div class="container">
     <ul>
-        <li>{{ doc.name }}</li>
-        <li><a :href="doc.twitter_handle">Twitter</a></li>
-        <li><a :href="doc.github">Github</a></li>
-        <li><a :href="doc.linkedin">Linkedin</a></li>
-        <li>Interests: {{doc.interests}}</li>
-        <li v-if='doc.goals.length > 1'>Goals: {{doc.goals}}</li>
-        <li v-else>Goals: Unspecified</li>
-        <li>Mentor: {{doc.mentor}}</li>
+      <li>{{ doc.name }}</li>
+      <li v-if="doc.twitter_handle.length">
+        <a :href="doc.twitter_handle">Twitter</a>
+      </li>
+      <li v-if="doc.github.length">
+        <a :href="doc.github">Github</a>
+      </li>
+      <li v-if="doc.linkedin.length">
+        <a :href="doc.linkedin">Linkedin</a>
+      </li>
+      <li v-if="doc.interests.length">
+        Interests: {{ doc.interests }}
+      </li>
+      <li v-if="doc.goals.length">
+        Goals: {{ doc.goals }}
+      </li>
     </ul>
   </div>
 </template>
