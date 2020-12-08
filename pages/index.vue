@@ -11,7 +11,7 @@
           <NuxtLink :to="'/mentor/'+mentor.slug">
             <h3 class="name"> {{ mentor.name }}</h3>
           </NuxtLink>
-          <p class="head">Interest:</p>
+          <p class="head">Interests:</p>
           <p class="interestContent">{{mentor.interests}}</p>
         </li>
       </ul>
