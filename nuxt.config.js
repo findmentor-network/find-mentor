@@ -53,7 +53,9 @@ export default {
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {},
+  content: {
+    apiPrefix: 'api'
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
