@@ -2,6 +2,7 @@
   <div>
     <Person
       :slug="doc.slug"
+      :mentor="true"
       :name="doc.name"
       :twitter="doc.twitter_handle"
       :linkedin="doc.linkedin"

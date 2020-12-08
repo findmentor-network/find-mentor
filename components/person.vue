@@ -30,8 +30,23 @@
           Goals: {{ goals }}
         </li>
         <li class="text">
-          <a :href="`https://findmentor.network/`+slug" target="_blank" rel="noopener noreferrer">
-            <qrcode :value="`https://findmentor.network/`+slug" :options="{ width: 200 }" />
+          <a
+            :href="
+              `https://findmentor.network/` + (mentor
+                ? 'mentor/'
+                : 'mentee/') + slug
+            "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <qrcode
+              :value="
+                `https://findmentor.network/` + (mentor
+                  ? 'mentor/'
+                  : 'mentee/') + slug
+              "
+              :options="{ width: 200 }"
+            />
           </a>
         </li>
       </ul>
@@ -45,6 +60,10 @@ export default {
     slug: {
       type: String,
       default: ''
+    },
+    mentor: {
+      type: Boolean,
+      default: false
     },
     name: {
       type: String,
