@@ -102,5 +102,13 @@
     "linkedin": "https://www.linkedin.com/in/izniburak/",
     "interests": "Backend (PHP), Frontend (React, Vue), Mobile (React Native), Software Architecture",
     "slug": "izni-burak-demirtas"
+  },
+  {
+    "name": "Sinan Turgut",
+    "twitter_handle": "twitter.com/zinaney",
+    "github": "github.com/zinan",
+    "linkedin": "www.linkedin.com/in/sinanturgut",
+    "interests": "SDLC, Design Patterns, Symfony, React Native",
+    "slug": "sinan-turgut"
   }
 ]
