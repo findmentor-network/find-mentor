@@ -1,29 +1,27 @@
 <template>
   <div>
     <Navbar />
-    <div class="container">
-      <ul>
-        <li>Mentor: {{ doc.name }}</li>
-        <li v-if="doc.twitter_handle.length">
-          <a :href="doc.twitter_handle">Twitter</a>
-        </li>
-        <li v-if="doc.github.length">
-          <a :href="doc.github">Github</a>
-        </li>
-        <li v-if="doc.linkedin.length">
-          <a :href="doc.linkedin">Linkedin</a>
-        </li>
-      </ul>
-    </div>
+    <person
+      :name="doc.name"
+      :twitter="doc.twitter_handle"
+      :linkedin="doc.linkedin"
+      :github="doc.github"
+      :avatar="doc.avatar"
+    />
   </div>
 </template>
 
 <script>
 export default {
   async asyncData ({ $content, params, error }) {
+<<<<<<< HEAD
     const [doc] = await $content('mentors')
       .where({ slug: { $eq: params.slug } })
       .fetch()
+=======
+    const [doc] = await $content('mentors').where({ slug: { $eq: params.slug } }).fetch()
+    doc.avatar = doc.github ? `https://github.com/${doc.github.split('/').pop()}.png?size=200` : `https://ui-avatars.com/api/?name=${doc.name}`
+>>>>>>> 1c8cb229b51d5f55f2bba007895b913af62ab780
     if (!doc) {
       return error({ statusCode: 404, message: 'Not found' })
     }

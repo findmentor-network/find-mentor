@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <div class="container">
       <h1>
         <a
@@ -103,6 +102,7 @@ export default {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  padding: 0 3px;
   overflow: hidden;
 }
 </style>
