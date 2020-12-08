@@ -5,13 +5,13 @@
       <ul>
         <li>Mentee: {{ doc.name }}</li>
         <li v-if="doc.twitter_handle && doc.twitter_handle.length">
-          <a :href="doc.twitter_handle">Twitter</a>
+          <a :href="isValidURL.twitter_handle">Twitter</a>
         </li>
         <li v-if="doc.github && doc.github.length">
-          <a :href="doc.github">Github</a>
+          <a :href="isValidURL.github">Github</a>
         </li>
         <li v-if="doc.linkedin && doc.linkedin.length">
-          <a :href="doc.linkedin">Linkedin</a>
+          <a :href="isValidURL.linkedin">Linkedin</a>
         </li>
         <li v-if="doc.interests && doc.interests.length">
           Interests: {{ doc.interests }}
@@ -27,6 +27,16 @@
 <script>
 
 export default {
+  computed: {
+    isValidURL() {
+      if (this.doc) {
+        !this.doc.github.startsWith('http') ? this.doc.github = `https://${this.doc.github}` : this.doc.github;
+        !this.doc.twitter_handle.startsWith('http') ? this.doc.twitter_handle = `https://${this.doc.twitter_handle}` : this.doc.twitter_handle;
+        !this.doc.linkedin.startsWith('http') ? this.doc.linkedin = `https://${this.doc.linkedin}` : this.doc.linkedin;
+      }
+      return this.doc;
+    }
+  },
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
     if (!doc) {
