@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Cagatay Cali",
+    "twitter_handle": "https://twitter.com/cagataycali",
+    "github": "https://github.com/cagataycali",
+    "linkedin": "https://www.linkedin.com/in/cagataycali",
+    "interests": "frontend, backend, devops, secops",
+    "slug": "cagatay-cali",
+    "avatar": "https://github.com/cagataycali.png?size=200"
+  },
+  {
+    "name": "Fatih Yavuz",
+    "twitter_handle": "https://twitter.com/fatih24yavuz",
+    "github": "https://github.com/fatih-yavuz",
+    "linkedin": "https://www.linkedin.com/in/fyvz",
+    "interests": "Backend, Automation for Productivity ",
+    "slug": "fatih-yavuz",
+    "avatar": "https://github.com/fatih-yavuz.png?size=200"
+  },
+  {
+    "name": "Bilal Koçak",
+    "twitter_handle": "https://twitter.com/bilalkocak04",
+    "github": "https://github.com/bilalkocak",
+    "linkedin": "https://www.linkedin.com/in/bilalkocak",
+    "interests": "Frontend, backend",
+    "slug": "bilal-kocak",
+    "avatar": "https://github.com/bilalkocak.png?size=200"
+  },
+  {
+    "name": "Burak Kepüç",
+    "twitter_handle": "https://twitter.com/cokdegisigim",
+    "github": "https://github.com/Burakkepuc",
+    "linkedin": "https://www.linkedin.com/in/burakkepuc",
+    "interests": "Backend",
+    "slug": "burak-kepuc",
+    "avatar": "https://github.com/Burakkepuc.png?size=200"
+  },
+  {
+    "name": "Nevzat Günay",
+    "twitter_handle": "https://twitter.com/nevzatgunay",
+    "github": "https://github.com/nevzatgunay",
+    "linkedin": "https://www.linkedin.com/in/nevzatgunay",
+    "interests": "Frontend",
+    "slug": "nevzat-gunay",
+    "avatar": "https://github.com/nevzatgunay.png?size=200"
+  },
+  {
+    "name": "Baris Ceviz",
+    "twitter_handle": "https://twitter.com/peacecwz",
+    "github": "https://github.com/peacecwz",
+    "linkedin": "https://linkedin.com/in/peacecwz",
+    "interests": "Frontend, Backend, Mobile App, SDS, Product Development",
+    "slug": "baris-ceviz",
+    "avatar": "https://github.com/peacecwz.png?size=200"
+  },
+  {
+    "name": "Mustafa Karakus",
+    "twitter_handle": "https://twitter.com/_mustafakarakus",
+    "github": "https://github.com/mustafakarakus",
+    "linkedin": "https://www.linkedin.com/in/mustafakarakus",
+    "interests": "Mobile(iOS/Android - Swift/Kotlin)",
+    "slug": "mustafa-karakus",
+    "avatar": "https://github.com/mustafakarakus.png?size=200"
+  },
+  {
+    "name": "Erhan Yakut",
+    "twitter_handle": "https://twitter.com/yakuter",
+    "github": "https://github.com/yakuter",
+    "linkedin": "https://www.linkedin.com/in/erhan-yakut",
+    "interests": "Go",
+    "slug": "erhan-yakut",
+    "avatar": "https://github.com/yakuter.png?size=200"
+  },
+  {
+    "name": "Saffet Bulut",
+    "twitter_handle": "https://twitter.com/saffetblt",
+    "github": "https://github.com/saffetblt",
+    "linkedin": "https://www.linkedin.com/in/saffetblt",
+    "interests": "Embedded Software",
+    "slug": "saffet-bulut",
+    "avatar": "https://github.com/saffetblt.png?size=200"
+  },
+  {
+    "name": "Onur Burak Yildirim",
+    "twitter_handle": "https://twitter.com/onurburak9 (personal account)",
+    "github": "https://github.com/onur-yildirim",
+    "linkedin": "https://www.linkedin.com/in/onurburak",
+    "interests": "backend, frontend, working abroad",
+    "slug": "onur-burak-yildirim",
+    "avatar": "https://github.com/onur-yildirim.png?size=200"
+  },
+  {
+    "name": "Recai Cingöz",
+    "twitter_handle": "",
+    "github": "https://github.com/Cingozr",
+    "linkedin": "https://www.linkedin.com/in/cingozr",
+    "interests": "Go, Win32 Api Development",
+    "slug": "recai-cingoz",
+    "avatar": "https://github.com/Cingozr.png?size=200"
+  },
+  {
+    "name": "Cagatay Kurt",
+    "twitter_handle": "https://twitter.com/cagataykurt",
+    "github": "https://github.com/kurtprp",
+    "linkedin": "https://www.linkedin.com/in/cagatayk",
+    "interests": "Backend, Firebase, GCP, entrepreneurship, startups, Coding Interviews ",
+    "slug": "cagatay-kurt",
+    "avatar": "https://github.com/kurtprp.png?size=200"
+  },
+  {
+    "name": "İzni Burak Demirtaş",
+    "twitter_handle": "https://twitter.com/izniburak",
+    "github": "https://github.com/izniburak",
+    "linkedin": "https://www.linkedin.com/in/izniburak",
+    "interests": "Backend (PHP), Frontend (React, Vue), Mobile (React Native), Software Architecture",
+    "slug": "izni-burak-demirtas",
+    "avatar": "https://github.com/izniburak.png?size=200"
+  },
+  {
+    "name": "Sinan Turgut",
+    "twitter_handle": "https://twitter.com/zinaney",
+    "github": "https://github.com/zinan",
+    "linkedin": "https://www.linkedin.com/in/sinanturgut",
+    "interests": "SDLC, Design Patterns, Symfony, React Native",
+    "slug": "sinan-turgut",
+    "avatar": "https://github.com/zinan.png?size=200"
+  },
+  {
+    "name": "Murat Demirci",
+    "twitter_handle": "",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/recursiveself",
+    "interests": "Frontend, Backend (LAMP & MERN Stack)",
+    "slug": "murat-demirci",
+    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci"
+  },
+  {
+    "name": "Yiğit Darçın",
+    "twitter_handle": "https://twitter.com/yigitdarcin",
+    "github": "https://github.com/yigit-darcin",
+    "linkedin": "https://www.linkedin.com/in/yigitdarcin",
+    "interests": "Ios, android, backend, startup",
+    "slug": "yigit-darcin",
+    "avatar": "https://github.com/yigit-darcin.png?size=200"
+  },
+  {
+    "name": "Hossam Mohamed",
+    "twitter_handle": "https://twitter.com/safe_buffer",
+    "github": "https://github.com/wazehell",
+    "linkedin": "https://www.linkedin.com/in/wazehell",
+    "interests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
+    "slug": "hossam-mohamed",
+    "avatar": "https://github.com/wazehell.png?size=200"
+  },
+  {
+    "name": "Orhan Ozalp",
+    "twitter_handle": "https://twitter.com/ocozalp",
+    "github": "https://github.com/ocozalp",
+    "linkedin": "https://www.linkedin.com/in/ocozalp",
+    "interests": "Backend, CS, Working Aboard, Job Interviews",
+    "slug": "orhan-ozalp",
+    "avatar": "https://github.com/ocozalp.png?size=200"
+  },
+  {
+    "name": "Giray BATITÜRK",
+    "twitter_handle": "https://twitter.com/giraybatiturk",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/giraybatiturk",
+    "interests": "Product Design, UX Design, UI Design, UX and UI Career Coaching",
+    "slug": "giray-batiturk",
+    "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK"
+  },
+  {
+    "name": "Tahsin Safa Elmalı",
+    "twitter_handle": "https://twitter.com/SafaElmali",
+    "github": "https://github.com/SafaElmali",
+    "linkedin": "https://www.linkedin.com/in/tsafaelmali",
+    "interests": "Frontend, Backend",
+    "slug": "tahsin-safa-elmali",
+    "avatar": "https://github.com/SafaElmali.png?size=200"
+  },
+  {
+    "name": "Ümit Kütük",
+    "twitter_handle": "https://twitter.com/umitkutuk",
+    "github": "https://github.com/umitkutuk",
+    "linkedin": "https://www.linkedin.com/in/umitkutuk",
+    "interests": "backend, PHP, Go, React, ",
+    "slug": "umit-kutuk",
+    "avatar": "https://github.com/umitkutuk.png?size=200"
+  },
+  {
+    "name": "Batuhan Saka",
+    "twitter_handle": "https://twitter.com/strawb3rryx7",
+    "github": "https://github.com/strawb3rryx7",
+    "linkedin": "https://linkedin.com/in/batuhansaka",
+    "interests": "Mobile (iOS) Development",
+    "slug": "batuhan-saka",
+    "avatar": "https://github.com/strawb3rryx7.png?size=200"
+  },
+  {
+    "name": "Cengiz Bursalıoğlu",
+    "twitter_handle": "https://twitter.com/cengizbursali",
+    "github": "https://github.com/cengizbursali",
+    "linkedin": "https://www.linkedin.com/in/cengizbursali",
+    "interests": "Backend Development, Java, Spring Boot, Microservices.",
+    "slug": "cengiz-bursalioglu",
+    "avatar": "https://github.com/cengizbursali.png?size=200"
+  },
+  {
+    "name": "Ender Ahmet Yurt",
+    "twitter_handle": "https://twitter.com/eayurt",
+    "github": "https://github.com/enderahmetyurt",
+    "linkedin": "https://www.linkedin.com/in/enderahmetyurt",
+    "interests": "backend, ruby, ruby on rails, web programming, clean code",
+    "slug": "ender-ahmet-yurt",
+    "avatar": "https://github.com/enderahmetyurt.png?size=200"
+  },
+  {
+    "name": "Ali Osman Beşinci",
+    "twitter_handle": "https://twitter.com/aobesinci",
+    "github": "https://github.com/besinci",
+    "linkedin": "https://www.linkedin.com/in/aliosmanbesinci",
+    "interests": "Backend, Mobile",
+    "slug": "ali-osman-besinci",
+    "avatar": "https://github.com/besinci.png?size=200"
+  },
+  {
+    "name": "Samet Aylak",
+    "twitter_handle": "https://twitter.com/sametaylak_",
+    "github": "https://github.com/sametaylak",
+    "linkedin": "https://www.linkedin.com/in/samet-aylak-358586b5",
+    "interests": "game development, shader development, frontend",
+    "slug": "samet-aylak",
+    "avatar": "https://github.com/sametaylak.png?size=200"
+  },
+  {
+    "name": "Adem Furkan ÖZCAN",
+    "twitter_handle": "https://twitter.com/AdemOzcanTR",
+    "github": "https://github.com/Adem68",
+    "linkedin": "https://www.linkedin.com/in/ademozcan",
+    "interests": "Flutter",
+    "slug": "adem-furkan-ozcan",
+    "avatar": "https://github.com/Adem68.png?size=200"
+  }
+]
