@@ -748,6 +748,83 @@
     "slug": "samet-aylak"
   },
   {
+    "": "08.12.2020 20:45:08",
+    "name": "Murat Çay",
+    "twitter_handle": "https://twitter.com/Murat_Cay24",
+    "github": "https://github.com/MuratCAY",
+    "linkedin": "https://www.linkedin.com/in/murat-cay24/",
+    "interests": "Android(Kotlin)",
+    "goals": "Yazılım dünyasına yeni atılmaktayım ve daha yolun başındayım. İnternette milyonlarca bilgi arasında bir yerlerde kaybolmaktayım. Yolumu en kısa ve en iyi şekilde devam ettirmem için sizlerin tecrübelerinden faydalanmam gerektiğini düşünmekteyim.",
+    "mentor": "Mentor",
+    "slug": "murat-cay"
+  },
+  {
+    "": "08.12.2020 20:47:54",
+    "name": "Esma Aydoğdu",
+    "twitter_handle": "https://twitter.com/oridolores",
+    "github": "https://github.com/esmaydogdu",
+    "linkedin": "https://www.linkedin.com/in/esma-aydogdu-8831a3161/",
+    "interests": "Front End Development",
+    "goals": "I want to be very good at what I am doing and create great stuff!",
+    "mentor": "Mentee",
+    "slug": "esma-aydogdu"
+  },
+  {
+    "": "08.12.2020 20:54:09",
+    "name": "Büşra Balaban",
+    "twitter_handle": "https://twitter.com/bxb0010",
+    "github": "https://github.com/bxbalaban",
+    "linkedin": "www.linkedin.com/in/busrabalaban",
+    "interests": "software development , backend, mobile , devops",
+    "goals": "I wonder about new technologies and my itch to learn always new things got me to the computer engineering field which is continuously developing and I want to have solid success out of what I develop. Thus I need help to achive the most of my performance by someone who has experience and would share tips with me.",
+    "mentor": "Mentee",
+    "slug": "busra-balaban"
+  },
+  {
+    "": "08.12.2020 20:59:07",
+    "name": "Ender Ahmet Yurt",
+    "twitter_handle": "https://twitter.com/eayurt",
+    "github": "https://github.com/enderahmetyurt",
+    "linkedin": "https://www.linkedin.com/in/enderahmetyurt/",
+    "interests": "backend, ruby, ruby on rails, web programming, clean code",
+    "goals": "I really want to help people who eager to learn web programing and clean code.",
+    "mentor": "Mentor",
+    "slug": "ender-ahmet-yurt"
+  },
+  {
+    "": "08.12.2020 21:07:53",
+    "name": "nafi durmuş",
+    "twitter_handle": "https://twitter.com/nafidurmus",
+    "github": "https://github.com/nafidurmus",
+    "linkedin": "https://www.linkedin.com/in/nafidurmus/",
+    "interests": "rails, flutter",
+    "goals": "I want to improve myself mobile programing ",
+    "mentor": "Mentee",
+    "slug": "nafi-durmus"
+  },
+  {
+    "": "08.12.2020 21:17:01",
+    "name": "Hüseyin GÖZTOK",
+    "twitter_handle": "https://twitter.com/HuseyinGoztok",
+    "github": "https://github.com/huseyingoztok",
+    "linkedin": "https://www.linkedin.com/in/huseyingoztok/",
+    "interests": "backend (.Net Core, NodeJs),  frontend (React, Vue)",
+    "goals": "Developing myself in backend and frontend technologies and being a good software engineer.",
+    "mentor": "Mentee",
+    "slug": "huseyin-goztok"
+  },
+  {
+    "": "08.12.2020 21:23:21",
+    "name": "Nurettin Abacı",
+    "twitter_handle": "https://twitter.com/NurettinAbaci",
+    "github": "https://github.com/nurettinabaci",
+    "linkedin": "https://www.linkedin.com/in/nurettinabaci",
+    "interests": "Backend (Python, Node.js)",
+    "goals": "Just look at my GitHub! I need a mentor for my backend open-source projects.",
+    "mentor": "Mentee",
+    "slug": "nurettin-abaci"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
