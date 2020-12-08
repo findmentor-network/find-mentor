@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Navbar />
     <div class="container">
+      <Navbar />
       <h1><a href="https://github.com/cagataycali/find-mentor" target="_blank">Feel free to contribute!</a></h1>
       <h2>Exactly this project is 0km.</h2>
       <h3>Every night & every deploy, the spread sheet will be parsed by GitHub actions, then generate this beauty.</h3>
@@ -51,7 +51,10 @@ export default {
 .person {
   width:250px;
   height: 250px;
-  align-items:start;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   text-align:center;
   border: 1px solid grey;
   border-radius:4px;
@@ -66,6 +69,7 @@ export default {
 .head{
   color: #1d2124;
   font-size: large;
+  font-weight: bold;
   margin-bottom:0;
   display:inline-flex;
 }
@@ -73,6 +77,7 @@ export default {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  padding: 0 3px;
   overflow: hidden;
 }
 

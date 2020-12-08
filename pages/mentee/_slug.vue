@@ -1,26 +1,15 @@
 <template>
   <div>
     <Navbar />
-    <div class="container">
-      <ul>
-        <li>Mentee: {{ doc.name }}</li>
-        <li v-if="doc.twitter_handle && doc.twitter_handle.length">
-          <a :href="doc.twitter_handle">Twitter</a>
-        </li>
-        <li v-if="doc.github && doc.github.length">
-          <a :href="doc.github">Github</a>
-        </li>
-        <li v-if="doc.linkedin && doc.linkedin.length">
-          <a :href="doc.linkedin">Linkedin</a>
-        </li>
-        <li v-if="doc.interests && doc.interests.length">
-          Interests: {{ doc.interests }}
-        </li>
-        <li v-if="doc.goals && doc.goals.length">
-          Goals: {{ doc.goals }}
-        </li>
-      </ul>
-    </div>
+    <person
+      :name="doc.name"
+      :twitter="doc.twitter_handle"
+      :linkedin="doc.linkedin"
+      :github="doc.github"
+      :picture="doc.picture"
+      :interests="doc.interests"
+      :goals="doc.goals"
+    />
   </div>
 </template>
 
@@ -29,6 +18,7 @@
 export default {
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
+    doc.picture = await fetch(`https://api.github.com/users/${doc.github.substring(19)}`).then(res => res.json()).then(data => data.avatar_url)
     if (!doc) {
       return error({ statusCode: 404, message: 'Not found' })
     }
