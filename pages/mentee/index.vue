@@ -40,7 +40,7 @@ export default {
       }
 
       return url
-        ? 'https://' + url.replace(/https?:\/\//gi, '') + '.png?size=200'
+        ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') + '.png?size=200'
         : 'javascript:void(0)'
     }
   }
