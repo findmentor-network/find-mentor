@@ -44,6 +44,94 @@
     "slug": "irem-uzun"
   },
   {
+    "": "08.12.2020 01:28:43",
+    "name": "Burakcan Dizieğri",
+    "twitter_handle": "https://twitter.com/burakdzgrrr",
+    "github": "https://github.com/burakdzgr",
+    "linkedin": "https://www.linkedin.com/in/burak-dizieğri-447652201",
+    "interests": "frontend",
+    "goals": "Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.",
+    "mentor": "Mentee",
+    "slug": "burakcan-diziegri"
+  },
+  {
+    "": "08.12.2020 01:37:05",
+    "name": "Ahmet Can AYDEMİR",
+    "twitter_handle": "https://twitter.com/ahmetcnaydemir",
+    "github": "https://github.com/ahmetcanaydemir",
+    "linkedin": "https://www.linkedin.com/in/ahmetcanaydemir/",
+    "interests": "frontend, backend, abroad (github for technology details)",
+    "goals": "I have been developing software with bunch of languages for a long time. I am a senior computer engineering student and I also work part-time in a company remotely. But I after greduate I want to go abroad and continue my life there as software developer or entrepreneur. I would love to benefit from your valuable experiences.",
+    "mentor": "Mentee",
+    "slug": "ahmet-can-aydemir"
+  },
+  {
+    "": "08.12.2020 02:03:52",
+    "name": "cem donmez",
+    "twitter_handle": "https://twitter.com/dnmzcem",
+    "github": "",
+    "linkedin": "http://linkedin.com/in/ahmet-cem-d%C3%B6nmez-84599866",
+    "interests": "frontend backend mobile development",
+    "goals": "I would like to improve programming skills and i believe that more solid steps can be taken with the exchange of ideas",
+    "mentor": "Mentee",
+    "slug": "cem-donmez"
+  },
+  {
+    "": "08.12.2020 02:09:04",
+    "name": "Emre Harman",
+    "twitter_handle": "https://twitter.com/yazilimci1baba",
+    "github": "https://github.com/emreharman",
+    "linkedin": "https://www.linkedin.com/in/emre-harman-2671481a6/",
+    "interests": "Backend, .Net Core MVC",
+    "goals": "Bilgisayar Mühendisliği 3. sınıf öğrencisiyim, 30 yaşındayım. Backend developer alanında ilerlemek istiyorum. Bu sıralar .Net Core MVC ile ilgileniyorum.",
+    "mentor": "Mentee",
+    "slug": "emre-harman"
+  },
+  {
+    "": "08.12.2020 02:09:30",
+    "name": "Kayra Berk Tuncer",
+    "twitter_handle": "https://twitter.com/kayraberktuncer",
+    "github": "https://github.com/kayraberktuncer",
+    "linkedin": "https://www.linkedin.com/in/kayraberktuncer/",
+    "interests": "Backend, go, node.js, sql, nosql",
+    "goals": "I have been dealing with javascript libraries and databases for a year. Since I had a university entrance exam, I couldn't concentrate on it too much. I have been uploading projects to the githuba for a month now, developing myself and studying in the Ege University computer programming department.",
+    "mentor": "Mentee",
+    "slug": "kayra-berk-tuncer"
+  },
+  {
+    "": "08.12.2020 02:17:58",
+    "name": "Orhan Ozalp",
+    "twitter_handle": "https://twitter.com/ocozalp",
+    "github": "https://github.com/ocozalp",
+    "linkedin": "https://www.linkedin.com/in/ocozalp/",
+    "interests": "Backend, CS, Working Aboard, Job Interviews",
+    "goals": " ",
+    "mentor": "Mentor",
+    "slug": "orhan-ozalp"
+  },
+  {
+    "": "08.12.2020 02:33:20",
+    "name": "Burak Çolak",
+    "twitter_handle": "https://twitter.com/barakkolak?s=09",
+    "github": "https://github.com/Barakolak",
+    "linkedin": "https://www.linkedin.com/mwlite/in/burakcolak",
+    "interests": "Embedded systems, backend, C, Python, go, linux.",
+    "goals": "I Want to learn more about embedded systems, backend and use this knowledge in my electric engineering career. I want to know more about machine learning and the internet of things.",
+    "mentor": "Mentee",
+    "slug": "burak-colak"
+  },
+  {
+    "": "08.12.2020 02:24:31",
+    "name": "Tolga Çobanoğlu",
+    "twitter_handle": "https://mobile.twitter.com/1tolgacobanoglu",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/tolga-%C3%A7obano%C4%9Flu-423662199/",
+    "interests": "biggest one mobile app development,a bit of web development o web development and full stack",
+    "goals": "I won't say a pretty words.I'm third year of undergraduate software engineering student.My university experince probably the worst.I failed all lectures and after the third semester I found myself with corona break as if reboot.I learnt about myself lots of thing like how can my brain work,how can i learn anything,doing research,keeping simple everything and challenge it etc.In brief if you accept me i will discover the software world with your help and my works but if don't happened dont worry this is just a luck maybe you wont read or do something.Take care.",
+    "mentor": "Mentee",
+    "slug": "tolga-cobanoglu"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -212,7 +300,7 @@
     "": "",
     "name": "Ümit Yıldırım",
     "twitter_handle": "https://twitter.com/umit_yildirim1",
-    "github": "https://github.com/mehtiumit/ESShopReact.NetCore",
+    "github": "https://github.com/mehtiumit",
     "linkedin": "https://www.linkedin.com/feed/",
     "interests": "Front-end(React) Back-end(.net Core)",
     "goals": "i need a mentor who is gonna tell me my level and code quality",
