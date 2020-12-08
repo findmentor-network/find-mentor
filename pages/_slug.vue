@@ -26,6 +26,7 @@
 <script>
 
 export default {
+
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
     if (!doc) {
