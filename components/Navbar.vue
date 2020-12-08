@@ -5,10 +5,10 @@
         <b-nav-item href="/" left>
           Find Mentor
         </b-nav-item>
-        <b-nav-item href="/mentee/">
+        <b-nav-item href="/mentees/">
           Mentees
         </b-nav-item>
-        <b-nav-item href="/mentor/">
+        <b-nav-item href="/mentors/">
           Mentors
         </b-nav-item>
       </b-navbar-nav>
