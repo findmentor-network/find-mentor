@@ -86,5 +86,13 @@
     "linkedin": "https://www.linkedin.com/in/cingozr/",
     "interests": "Go, Win32 Api Development",
     "slug": "recai-cingoz"
+  },
+  {
+    "name": "Cagatay Kurt",
+    "twitter_handle": "https://twitter.com/cagataykurt",
+    "github": "github.com/kurtprp/",
+    "linkedin": "https://www.linkedin.com/in/cagatayk/",
+    "interests": "Backend, Firebase, GCP, entrepreneurship, startups, Coding Interviews ",
+    "slug": "cagatay-kurt"
   }
 ]
