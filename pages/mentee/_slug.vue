@@ -18,7 +18,7 @@
 export default {
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
-    doc.picture = await fetch(`https://api.github.com/users/${doc.github.substring(19)}`).then(res => res.json()).then(data => data.avatar_url)
+    doc.picture = `https://github.com/${doc.github.split('/').pop()}.png?size=200`
     if (!doc) {
       return error({ statusCode: 404, message: 'Not found' })
     }
