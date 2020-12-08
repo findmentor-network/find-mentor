@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="primary">
+    <b-navbar>
       <b-navbar-nav>
-        <b-nav-item href="../" left>
+        <b-nav-item href="/" left>
           Find Mentor
         </b-nav-item>
 

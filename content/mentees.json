@@ -605,6 +605,61 @@
     "slug": "taner-sekmen"
   },
   {
+    "": "08.12.2020 16:38:51",
+    "name": "Ahmet Buğra Yiğiter",
+    "twitter_handle": "www.twitter.com/yigiterdev",
+    "github": "https://github.com/yigiterdev",
+    "linkedin": "https://www.linkedin.com/in/yigiterbugra/",
+    "interests": "My main area of interest is web space. These days, I'm focusing on the frontend. I want to write backend with go in the future.",
+    "goals": "I want to improve myself in the field of web and find a part-time job in my university time and a full-time job after graduation. And in the future, I want to support young people in my current situation as much as I can.",
+    "mentor": "Mentee",
+    "slug": "ahmet-bugra-yigiter"
+  },
+  {
+    "": "08.12.2020 16:47:52",
+    "name": "Mehmet Selcuk Candan",
+    "twitter_handle": "https://twitter.com/mscandandev",
+    "github": "https://github.com/mscandan",
+    "linkedin": "https://www.linkedin.com/in/mehmetselcukcandan/",
+    "interests": "frontend, backend",
+    "goals": "I want to make people's life easier with the products that I produced.",
+    "mentor": "Mentee",
+    "slug": "mehmet-selcuk-candan"
+  },
+  {
+    "": "08.12.2020 16:51:07",
+    "name": "Uğur Erol",
+    "twitter_handle": "https://twitter.com/geceugur",
+    "github": "https://github.com/concers",
+    "linkedin": "https://www.linkedin.com/in/geceugurerol/",
+    "interests": "Mobile Developer (Kotlin) -  IOT ",
+    "goals": "Using mobile and iot as a tool for the livable world.",
+    "mentor": "Mentee",
+    "slug": "ugur-erol"
+  },
+  {
+    "": "08.12.2020 17:04:39",
+    "name": "Hüseyin Bera Bulut",
+    "twitter_handle": "https://twitter.com/berabulut",
+    "github": "https://github.com/berabulut",
+    "linkedin": "https://www.linkedin.com/in/h%C3%BCseyin-bera-bulut-329171169/",
+    "interests": "Frontend (React), Backend(Node.js, Django), Devops(AWS Lambda, Docker)",
+    "goals": "I want to be able to develop user friendly, accessible applications and being able to code clean as much as I can.",
+    "mentor": "Mentee",
+    "slug": "huseyin-bera-bulut"
+  },
+  {
+    "": "08.12.2020 17:06:50",
+    "name": "Samet Yıldırım",
+    "twitter_handle": "https://twitter.com/j0hnnylesh",
+    "github": "https://github.com/yildirimsamet",
+    "linkedin": "https://www.linkedin.com/in/yildirimsamet/",
+    "interests": "MERN STACK ,frontend ,backend",
+    "goals": "I want to be a legit developer",
+    "mentor": "Mentee",
+    "slug": "samet-yildirim"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
