@@ -1,25 +1,22 @@
 <template>
-  <div>
-    <Navbar />
-    <div class="container">
-      <h1>Mentors</h1>
-      <ul class="persons">
-        <li v-for="mentor in mentors" :key="mentor.slug" class="person">
-          <b-avatar :src="mentor.avatar" size="6rem" />
-          <NuxtLink :to="'/mentor/' + mentor.slug">
-            <h3 class="name">
-              {{ mentor.name }}
-            </h3>
-          </NuxtLink>
-          <p class="head">
-            Interests:
-          </p>
-          <p class="interestContent">
-            {{ mentor.interests }}
-          </p>
-        </li>
-      </ul>
-    </div>
+  <div class="container">
+    <h1>Mentors</h1>
+    <ul class="persons">
+      <li v-for="mentor in mentors" :key="mentor.slug" class="person">
+        <b-avatar :src="mentor.avatar" size="6rem" />
+        <NuxtLink :to="'/mentor/' + mentor.slug">
+          <h3 class="name">
+            {{ mentor.name }}
+          </h3>
+        </NuxtLink>
+        <p class="head">
+          Interests:
+        </p>
+        <p class="interestContent">
+          {{ mentor.interests }}
+        </p>
+      </li>
+    </ul>
   </div>
 </template>
 

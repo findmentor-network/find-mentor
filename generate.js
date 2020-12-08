@@ -1,4 +1,3 @@
-const { log } = require('console')
 const fs = require('fs')
 const got = require('got')
 const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
