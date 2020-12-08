@@ -312,18 +312,6 @@
     "avatar": "https://github.com/barisbabahan.png?size=200"
   },
   {
-    "": "08.12.2020 10:58:27",
-    "name": "Baris Babahan",
-    "twitter_handle": "https://twitter.com/?lang=en",
-    "github": "https://github.com/barisbabahan",
-    "linkedin": "https://www.linkedin.com/in/barisbabahan",
-    "interests": "Frontend, Backend, Project management",
-    "goals": "I desire to earn good skills that help to work in big companies and being part of awesome projects",
-    "mentor": "Mentee",
-    "slug": "baris-babahan",
-    "avatar": "https://github.com/barisbabahan.png?size=200"
-  },
-  {
     "": "08.12.2020 11:00:28",
     "name": "Ömer faruk Genç",
     "twitter_handle": "https://twitter.com/omerfarukgenc34",
@@ -934,6 +922,18 @@
     "mentor": "Mentee",
     "slug": "huseyin-kaya",
     "avatar": "https://github.com/huseyinkayaa.png?size=200"
+  },
+  {
+    "": "08.12.2020 23:20:35",
+    "name": "Yusuf Can TURK",
+    "twitter_handle": "https://twitter.com/iamcanturk",
+    "github": "https://github.com/iamcanturk",
+    "linkedin": "https://www.linkedin.com/in/yusufcanturk",
+    "interests": "Backend, PHP, Laravel, Go",
+    "goals": "I would like to be a successful developer, finding a job that makes me happy and improve myself everyday.",
+    "mentor": "Mentee",
+    "slug": "yusuf-can-turk",
+    "avatar": "https://github.com/iamcanturk.png?size=200"
   },
   {
     "": "",

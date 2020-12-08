@@ -232,5 +232,14 @@
     "interests": "game development, shader development, frontend",
     "slug": "samet-aylak",
     "avatar": "https://github.com/sametaylak.png?size=200"
+  },
+  {
+    "name": "Adem Furkan ÖZCAN",
+    "twitter_handle": "https://twitter.com/AdemOzcanTR",
+    "github": "https://github.com/Adem68",
+    "linkedin": "https://www.linkedin.com/in/ademozcan",
+    "interests": "Flutter",
+    "slug": "adem-furkan-ozcan",
+    "avatar": "https://github.com/Adem68.png?size=200"
   }
 ]
