@@ -4,6 +4,7 @@
 ## Contributors
 
 [Kemal Ayhan](https://github.com/kemalayhan)
+[Selcuk Tatar](https://github.com/tansionline)
 
 ## Build Setup
 
