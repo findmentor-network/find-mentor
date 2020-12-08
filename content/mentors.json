@@ -118,5 +118,13 @@
     "linkedin": "https://www.linkedin.com/in/recursiveself/",
     "interests": "Frontend, Backend (LAMP & MERN Stack)",
     "slug": "murat-demirci"
+  },
+  {
+    "name": "Yiğit Darçın",
+    "twitter_handle": "https://twitter.com/yigitdarcin",
+    "github": "https://github.com/yigit-darcin",
+    "linkedin": "https://www.linkedin.com/in/yigitdarcin",
+    "interests": "Ios, android, backend, startup",
+    "slug": "yigit-darcin"
   }
 ]
