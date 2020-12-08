@@ -70,4 +70,6 @@ getData().then(({ status, data: { mentees, mentors } }) => {
   }
   fs.writeFileSync('content/mentees.json', JSON.stringify(clearData(mentees), null, 2))
   fs.writeFileSync('content/mentors.json', JSON.stringify(clearData(mentors), null, 2))
+  fs.writeFileSync('static/mentees.json', JSON.stringify(clearData(mentees), null, 2))
+  fs.writeFileSync('static/mentors.json', JSON.stringify(clearData(mentors), null, 2))
 })

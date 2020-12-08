@@ -49,8 +49,6 @@ jobs:
         run: |
           yarn generate
           echo 'findmentor.network' > ./docs/CNAME
-          cp content/mentees.json > docs/mentees.json
-          cp content/mentors.json > docs/mentors.json
           git add .
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
