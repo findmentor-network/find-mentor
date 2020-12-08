@@ -24,9 +24,27 @@ const mapper = (posts) => {
   })
 }
 
-const generateSlug = (posts) => {
+const generateAvatar = ({ name, github }) => {
+  let avatar
+  if (github) {
+    avatar = github + '.png?size=200'
+  } else {
+    avatar = `https://ui-avatars.com/api/?name=${name}`
+  }
+  return avatar
+}
+
+const fixProtocol = (url) => {
+  return url ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') : ''
+}
+
+const clearData = (posts) => {
   return posts.map((post) => {
     post.slug = slugger(post.name)
+    post.github = fixProtocol(post.github)
+    post.twitter_handle = fixProtocol(post.twitter_handle)
+    post.linkedin = fixProtocol(post.linkedin)
+    post.avatar = generateAvatar(post)
     return post
   })
 }
@@ -51,6 +69,6 @@ getData().then(({ status, data: { mentees, mentors } }) => {
   if (status !== 200) {
     throw new Error('Error when fetching data from spreadsheet')
   }
-  fs.writeFileSync('content/mentees.json', JSON.stringify(generateSlug(mentees), null, 2))
-  fs.writeFileSync('content/mentors.json', JSON.stringify(generateSlug(mentors), null, 2))
+  fs.writeFileSync('content/mentees.json', JSON.stringify(clearData(mentees), null, 2))
+  fs.writeFileSync('content/mentors.json', JSON.stringify(clearData(mentors), null, 2))
 })
