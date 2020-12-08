@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <h1>Mentors</h1>
+    <input v-model="filter" class="filter" placeholder="Filter Mentors">
     <ul class="persons">
-      <li v-for="mentor in mentors" :key="mentor.slug" class="person">
+      <li v-for="(mentor, index) in filteredMentors" :key="index" class="person">
         <b-avatar :src="mentor.avatar" size="6rem" />
         <NuxtLink :to="'/mentor/' + mentor.slug">
           <h3 class="name">
@@ -22,6 +23,22 @@
 
 <script>
 export default {
+  data() {
+    return {
+      filter: null
+    }
+  },
+  computed: {
+    filteredMentors() {
+      if (this.filter) {
+        return this.mentors.filter((mentor) => {
+          return this.filter.toLowerCase().split(' ').every(v => mentor.name.toLowerCase().includes(v));
+        });
+      } else {
+        return this.mentors;
+      }
+    }
+  },
   async asyncData ({ $content, params }) {
     const mentors = await $content('mentors').fetch()
     return { mentors }
@@ -32,6 +49,14 @@ export default {
 <style>
 * {
   box-sizing: border-box;
+}
+.filter {
+  width: 40%;
+  font-size: 14px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 35px;
 }
 .persons {
   list-style-type: none;
