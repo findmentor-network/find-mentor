@@ -737,17 +737,6 @@
     "slug": "melek-zurnaci"
   },
   {
-    "": "08.12.2020 20:43:07",
-    "name": "Samet Aylak",
-    "twitter_handle": "https://twitter.com/sametaylak_",
-    "github": "https://github.com/sametaylak",
-    "linkedin": "https://www.linkedin.com/in/samet-aylak-358586b5/",
-    "interests": "game development, shader development, frontend",
-    "goals": "I just want to meet with more people and I wanna hear their stories",
-    "mentor": "Mentor",
-    "slug": "samet-aylak"
-  },
-  {
     "": "08.12.2020 20:45:08",
     "name": "Murat Çay",
     "twitter_handle": "https://twitter.com/Murat_Cay24",
@@ -755,7 +744,7 @@
     "linkedin": "https://www.linkedin.com/in/murat-cay24/",
     "interests": "Android(Kotlin)",
     "goals": "Yazılım dünyasına yeni atılmaktayım ve daha yolun başındayım. İnternette milyonlarca bilgi arasında bir yerlerde kaybolmaktayım. Yolumu en kısa ve en iyi şekilde devam ettirmem için sizlerin tecrübelerinden faydalanmam gerektiğini düşünmekteyim.",
-    "mentor": "Mentor",
+    "mentor": "Mentee",
     "slug": "murat-cay"
   },
   {
@@ -779,17 +768,6 @@
     "goals": "I wonder about new technologies and my itch to learn always new things got me to the computer engineering field which is continuously developing and I want to have solid success out of what I develop. Thus I need help to achive the most of my performance by someone who has experience and would share tips with me.",
     "mentor": "Mentee",
     "slug": "busra-balaban"
-  },
-  {
-    "": "08.12.2020 20:59:07",
-    "name": "Ender Ahmet Yurt",
-    "twitter_handle": "https://twitter.com/eayurt",
-    "github": "https://github.com/enderahmetyurt",
-    "linkedin": "https://www.linkedin.com/in/enderahmetyurt/",
-    "interests": "backend, ruby, ruby on rails, web programming, clean code",
-    "goals": "I really want to help people who eager to learn web programing and clean code.",
-    "mentor": "Mentor",
-    "slug": "ender-ahmet-yurt"
   },
   {
     "": "08.12.2020 21:07:53",
@@ -823,6 +801,50 @@
     "goals": "Just look at my GitHub! I need a mentor for my backend open-source projects.",
     "mentor": "Mentee",
     "slug": "nurettin-abaci"
+  },
+  {
+    "": "08.12.2020 21:49:00",
+    "name": "Muhammed Serdar Oygen",
+    "twitter_handle": "https://twitter.com/mserdaroygen",
+    "github": "https://github.com/msoygen",
+    "linkedin": "https://www.linkedin.com/in/muhammed-serdar-oygen/",
+    "interests": "backend, game development",
+    "goals": "My aim in this website is to talk with mentors about career/educational decisions and showing my work to them to get feedback. ",
+    "mentor": "Mentee",
+    "slug": "muhammed-serdar-oygen"
+  },
+  {
+    "": "08.12.2020 22:12:35",
+    "name": "Abdülkadir Aslan",
+    "twitter_handle": "https://twitter.com/akadirasl4n",
+    "github": "https://github.com/akadiraslan",
+    "linkedin": "linkedin.com/in/akadiraslan",
+    "interests": "Front-End, React, Vue, JavaScript",
+    "goals": "Aranan Front-End developer olmak istiyorum",
+    "mentor": "Mentee",
+    "slug": "abdulkadir-aslan"
+  },
+  {
+    "": "08.12.2020 22:20:07",
+    "name": "Sema Karataş",
+    "twitter_handle": "https://twitter.com/semakaratas96",
+    "github": "https://github.com/semakaratas",
+    "linkedin": "https://www.linkedin.com/in/semakaratas/",
+    "interests": "Frontend, backend",
+    "goals": "I am learning software for 1 year and I am graduating soon in food engineering department. I want to blend food and software. I am new for two issue I need some experiences for my purposes.",
+    "mentor": "Mentee",
+    "slug": "sema-karatas"
+  },
+  {
+    "": "08.12.2020 22:26:25",
+    "name": "Batuhan Yenidunya",
+    "twitter_handle": "https://twitter.com/batuhanyndny",
+    "github": "https://github.com/batuhanyndny",
+    "linkedin": "https://www.linkedin.com/in/batuhanyndny/",
+    "interests": "Frontend, Backend (Vuejs, Nuxtjs, Laravel, OpenGL)",
+    "goals": "Starting my own company as a fullstack developer.",
+    "mentor": "Mentee",
+    "slug": "batuhan-yenidunya"
   },
   {
     "": "",
@@ -1708,7 +1730,7 @@
     "": "",
     "name": "Burak Emre Özer",
     "twitter_handle": "https://twitter.com/burakemreozer",
-    "github": "https://t.co/lkB952jMyI?amp=1",
+    "github": "https://github.com/bubabi",
     "linkedin": "https://www.linkedin.com/in/burakemreozer/",
     "interests": "Backend",
     "goals": "With this mentoring, I want to develop 2 different web projects in 2021 in order to develop in backend programming and become a better software developer. In this way, I need your experiences and answers that you can give to my questions.",

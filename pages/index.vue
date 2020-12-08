@@ -2,14 +2,26 @@
   <div>
     <Navbar />
     <div class="container">
-      <h1><a href="https://github.com/cagataycali/find-mentor" target="_blank">Feel free to contribute!</a></h1>
+      <h1>
+        <a
+          href="https://github.com/cagataycali/find-mentor"
+          target="_blank"
+        >Feel free to contribute!</a>
+      </h1>
       <h2>Exactly this project is 0km.</h2>
-      <h3>Every night & every deploy, the spread sheet will be parsed by GitHub actions, then generate this beauty.</h3>
+      <h3>
+        Every night & every deploy, the spread sheet will be parsed by GitHub
+        actions, then generate this beauty.
+      </h3>
+      <hr>
       <h4>Mentors</h4>
       <ul class="persons">
         <li v-for="mentor in mentors" :key="mentor.slug" class="person">
-          <b-avatar :src=" fixProtocol(mentor.name, mentor.github)" size="6rem" />
-          <NuxtLink :to="'/mentor/'+mentor.slug">
+          <b-avatar
+            :src="fixProtocol(mentor.name, mentor.github)"
+            size="6rem"
+          />
+          <NuxtLink :to="'/mentor/' + mentor.slug">
             <h3 class="name">
               {{ mentor.name }}
             </h3>
@@ -22,11 +34,15 @@
           </p>
         </li>
       </ul>
+      <hr>
       <h4>Mentees</h4>
       <ul class="persons">
         <li v-for="mentee in mentees" :key="mentee.slug" class="person">
-          <b-avatar :src=" fixProtocol(mentee.name, mentee.github)" size="6rem" />
-          <NuxtLink :to="'/mentee/'+mentee.slug">
+          <b-avatar
+            :src="fixProtocol(mentee.name, mentee.github)"
+            size="6rem"
+          />
+          <NuxtLink :to="'/mentee/' + mentee.slug">
             <h3 class="name">
               {{ mentee.name }}
             </h3>
@@ -56,8 +72,9 @@ export default {
         url = 'https://ui-avatars.com/api/?name=' + name
         return url
       }
-
-      return url ? 'https://' + url.replace(/https?:\/\//gi, '') + '.png?size=200' : 'javascript:void(0)'
+      return url
+        ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') + '.png?size=200'
+        : 'javascript:void(0)'
     }
   }
 }
@@ -73,31 +90,30 @@ export default {
   flex-wrap: wrap;
 }
 .person {
-  width:250px;
+  width: 250px;
   height: 250px;
-  align-items:start;
-  text-align:center;
+  align-items: start;
+  text-align: center;
   border: 1px solid grey;
-  border-radius:4px;
-  padding-top:10px;
+  border-radius: 4px;
+  padding-top: 10px;
   margin: 20px 10px 0 0;
   overflow: hidden;
 }
-.name{
-  font-size:26px;
+.name {
+  font-size: 26px;
   color: chocolate;
 }
-.head{
+.head {
   color: #1d2124;
   font-size: large;
-  margin-bottom:0;
-  display:inline-flex;
+  margin-bottom: 0;
+  display: inline-flex;
 }
-.interestContent{
+.interestContent {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 </style>
