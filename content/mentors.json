@@ -110,5 +110,13 @@
     "linkedin": "http://www.linkedin.com/in/sinanturgut",
     "interests": "SDLC, Design Patterns, Symfony, React Native",
     "slug": "sinan-turgut"
+  },
+  {
+    "name": "Murat Demirci",
+    "twitter_handle": "",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/recursiveself/",
+    "interests": "Frontend, Backend (LAMP & MERN Stack)",
+    "slug": "murat-demirci"
   }
 ]
