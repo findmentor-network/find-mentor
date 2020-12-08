@@ -704,12 +704,12 @@
     "slug": "murat-yalkabov"
   },
   {
-    "": "08.12.2020 18:30:11",
+    "": "08.12.2020 19:54:21",
     "name": "Mücahit Bircan",
     "twitter_handle": "https://twitter.com/mucahitbircan",
     "github": "https://github.com/mucahitbircan",
     "linkedin": "https://www.linkedin.com/in/mücahit-bircan/",
-    "interests": "frontend, backend, react-native cyber security",
+    "interests": "frontend, backend, react-native cyber security,c++",
     "goals": "Yeni mezunumun. Web ve mobil üzerine ilgim var. Yeni teknolojileri denemeyi severim. Kendimi daha da geliştirip bir iş bulmak istiyorum. Bu anlamda bana katkı sağlayacak yol gösterecek bir mentöre ihtiyacım var",
     "mentor": "Mentee",
     "slug": "mucahit-bircan"
@@ -746,6 +746,39 @@
     "goals": "I want to be improve my backend skills. Such as software architecture, laravel, RabbitMQ, elasticsearch, GraphQL.",
     "mentor": "Mentee",
     "slug": "murat-ahmet-korkmaz"
+  },
+  {
+    "": "08.12.2020 19:47:22",
+    "name": "Melih Düzgün",
+    "twitter_handle": "https://twitter.com/melih_dzgn",
+    "github": "https://github.com/Mduzgunn",
+    "linkedin": "https://www.linkedin.com/in/melih-d%C3%BCzg%C3%BCn-177a8419a/",
+    "interests": "Java, Spring , Backend ",
+    "goals": "I'm looking for someone to help me improve myself in Spring ",
+    "mentor": "Mentee",
+    "slug": "melih-duzgun"
+  },
+  {
+    "": "08.12.2020 19:54:02",
+    "name": "Melek Zurnacı",
+    "twitter_handle": "https://twitter.com/mlkzrnc",
+    "github": "https://github.com/melekzurnaci",
+    "linkedin": "https://www.linkedin.com/in/melek-zurnaci-3a3707181/",
+    "interests": "Frontend , Backend(Java)",
+    "goals": "I am trying to improve myself to become a full stack web developer. In a few years, I want to see myself among the best in this area (mostly in the backend part).",
+    "mentor": "Mentee",
+    "slug": "melek-zurnaci"
+  },
+  {
+    "": "08.12.2020 20:08:15",
+    "name": "Hossam Mohamed",
+    "twitter_handle": "https://twitter.com/safe_buffer",
+    "github": "https://github.com/wazehell",
+    "linkedin": "https://www.linkedin.com/in/wazehell/",
+    "interests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
+    "goals": "-",
+    "mentor": "Mentor",
+    "slug": "hossam-mohamed"
   },
   {
     "": "",

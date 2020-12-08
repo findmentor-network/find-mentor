@@ -126,5 +126,13 @@
     "linkedin": "https://www.linkedin.com/in/yigitdarcin",
     "interests": "Ios, android, backend, startup",
     "slug": "yigit-darcin"
+  },
+  {
+    "name": "Hossam Mohamed",
+    "twitter_handle": "https://twitter.com/safe_buffer",
+    "github": "https://github.com/wazehell",
+    "linkedin": "https://www.linkedin.com/in/wazehell",
+    "interests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
+    "slug": "hossam-mohamed"
   }
 ]
