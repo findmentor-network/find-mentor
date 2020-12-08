@@ -1,6 +1,15 @@
 <template>
   <div class="container">
-    {{ doc.name }}
+    <ul>
+        <li>{{ doc.name }}</li>
+        <li><a :href="doc.twitter_handle">Twitter</a></li>
+        <li><a :href="doc.github">Github</a></li>
+        <li><a :href="doc.linkedin">Linkedin</a></li>
+        <li>Interests: {{doc.interests}}</li>
+        <li v-if='doc.goals.length > 1'>Goals: {{doc.goals}}</li>
+        <li v-else>Goals: Unspecified</li>
+        <li>Mentor: {{doc.mentor}}</li>
+    </ul>
   </div>
 </template>
 
