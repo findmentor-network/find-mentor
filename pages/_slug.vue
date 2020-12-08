@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <Navbar />
+    {{ doc.name }}
     <ul>
       <li>{{ doc.name }}</li>
       <li v-if="doc.twitter_handle.length">
@@ -22,6 +24,7 @@
 </template>
 
 <script>
+
 export default {
   async asyncData ({ $content, params, error }) {
     const [doc] = await $content('mentees').where({ slug: { $eq: params.slug } }).fetch()
@@ -31,4 +34,5 @@ export default {
     return { doc }
   }
 }
+
 </script>
