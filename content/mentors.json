@@ -134,5 +134,53 @@
     "linkedin": "https://www.linkedin.com/in/wazehell",
     "interests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
     "slug": "hossam-mohamed"
+  },
+  {
+    "name": "Orhan Ozalp",
+    "twitter_handle": "https://twitter.com/ocozalp",
+    "github": "https://github.com/ocozalp",
+    "linkedin": "https://www.linkedin.com/in/ocozalp/",
+    "interests": "Backend, CS, Working Aboard, Job Interviews",
+    "slug": "orhan-ozalp"
+  },
+  {
+    "name": "Giray BATITÜRK",
+    "twitter_handle": "https://twitter.com/giraybatiturk",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/giraybatiturk/",
+    "interests": "Product Design, UX Design, UI Design, UX and UI Career Coaching",
+    "slug": "giray-batiturk"
+  },
+  {
+    "name": "Tahsin Safa Elmalı",
+    "twitter_handle": "https://twitter.com/SafaElmali",
+    "github": "https://github.com/SafaElmali",
+    "linkedin": "https://www.linkedin.com/in/tsafaelmali/",
+    "interests": "Frontend, Backend",
+    "slug": "tahsin-safa-elmali"
+  },
+  {
+    "name": "Ümit Kütük",
+    "twitter_handle": "https://twitter.com/umitkutuk",
+    "github": "https://github.com/umitkutuk",
+    "linkedin": "https://www.linkedin.com/in/umitkutuk/",
+    "interests": "backend, PHP, Go, React, ",
+    "slug": "umit-kutuk"
+  },
+  {
+    "name": "Batuhan Saka",
+    "twitter_handle": "https://twitter.com/strawb3rryx7",
+    "github": "https://github.com/strawb3rryx7",
+    "linkedin": "https://linkedin.com/in/batuhansaka",
+    "interests": "Mobile (iOS) Development",
+    "slug": "batuhan-saka"
+  },
+  {
+    "name": "Cengiz Bursalıoğlu",
+    "twitter_handle": "https://twitter.com/cengizbursali",
+    "github": "https://github.com/cengizbursali",
+    "linkedin": "https://www.linkedin.com/in/cengizbursali/",
+    "interests": "Backend Development, Java, Spring Boot, Microservices.",
+    "slug": "cengiz-bursalioglu"
   }
 ]
