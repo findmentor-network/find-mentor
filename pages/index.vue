@@ -7,22 +7,36 @@
       <h3>Every night & every deploy, the spread sheet will be parsed by GitHub actions, then generate this beauty.</h3>
       <h4>Mentors</h4>
       <ul class="persons">
-        <li class="person" v-for="mentor in mentors" :key="mentor.slug">
+        <li v-for="mentor in mentors" :key="mentor.slug" class="person">
+          <b-avatar :src=" fixProtocol(mentor.name, mentor.github)" size="6rem" />
           <NuxtLink :to="'/mentor/'+mentor.slug">
-            <h3 class="name"> {{ mentor.name }}</h3>
+            <h3 class="name">
+              {{ mentor.name }}
+            </h3>
           </NuxtLink>
-          <p class="head">Interests:</p>
-          <p class="interestContent">{{mentor.interests}}</p>
+          <p class="head">
+            Interests:
+          </p>
+          <p class="interestContent">
+            {{ mentor.interests }}
+          </p>
         </li>
       </ul>
       <h4>Mentees</h4>
       <ul class="persons">
-        <li class="person" v-for="mentee in mentees" :key="mentee.slug">
+        <li v-for="mentee in mentees" :key="mentee.slug" class="person">
+          <b-avatar :src=" fixProtocol(mentee.name, mentee.github)" size="6rem" />
           <NuxtLink :to="'/mentee/'+mentee.slug">
-            <h3 class="name">{{ mentee.name }}</h3>
+            <h3 class="name">
+              {{ mentee.name }}
+            </h3>
           </NuxtLink>
-          <p class="head">Interest:</p>
-          <p class="interestContent">{{mentee.interests}}</p>
+          <p class="head">
+            Interest:
+          </p>
+          <p class="interestContent">
+            {{ mentee.interests }}
+          </p>
         </li>
       </ul>
     </div>
@@ -35,6 +49,16 @@ export default {
     const mentees = await $content('mentees').fetch()
     const mentors = await $content('mentors').fetch()
     return { mentees, mentors }
+  },
+  methods: {
+    fixProtocol (name, url) {
+      if (!url) {
+        url = 'https://ui-avatars.com/api/?name=' + name
+        return url
+      }
+
+      return url ? 'https://' + url.replace(/https?:\/\//gi, '') + '.png?size=200' : 'javascript:void(0)'
+    }
   }
 }
 </script>
@@ -57,7 +81,7 @@ export default {
   border-radius:4px;
   padding-top:10px;
   margin: 20px 10px 0 0;
-
+  overflow: hidden;
 }
 .name{
   font-size:26px;
