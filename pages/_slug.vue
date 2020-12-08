@@ -6,7 +6,8 @@
         <li><a :href="doc.github ">Github</a></li>
         <li><a :href="doc.linkedin ">Linkedin</a></li>
         <li>Interests: {{doc.interests}}</li>
-
+        <li>Goals: {{doc.goals}}</li>
+        <li>Mentor: {{doc.goals}}</li>
     </ul>
   </div>
 </template>
