@@ -182,5 +182,29 @@
     "linkedin": "https://www.linkedin.com/in/cengizbursali/",
     "interests": "Backend Development, Java, Spring Boot, Microservices.",
     "slug": "cengiz-bursalioglu"
+  },
+  {
+    "name": "Ender Ahmet Yurt",
+    "twitter_handle": "https://twitter.com/eayurt",
+    "github": "https://github.com/enderahmetyurt",
+    "linkedin": "https://www.linkedin.com/in/enderahmetyurt/",
+    "interests": "backend, ruby, ruby on rails, web programming, clean code",
+    "slug": "ender-ahmet-yurt"
+  },
+  {
+    "name": "Ali Osman Beşinci",
+    "twitter_handle": "https://twitter.com/aobesinci",
+    "github": "https://github.com/besinci",
+    "linkedin": "https://www.linkedin.com/in/aliosmanbesinci/",
+    "interests": "Backend, Mobile",
+    "slug": "ali-osman-besinci"
+  },
+  {
+    "name": "Samet Aylak",
+    "twitter_handle": "https://twitter.com/sametaylak_",
+    "github": "https://github.com/sametaylak",
+    "linkedin": "https://www.linkedin.com/in/samet-aylak-358586b5/",
+    "interests": "game development, shader development, frontend",
+    "slug": "samet-aylak"
   }
 ]

@@ -5,15 +5,12 @@
         <b-nav-item href="/" left>
           Find Mentor
         </b-nav-item>
-
-        <b-nav-item-dropdown text="Mentors" right>
-          <b-dropdown-item href="#">
-            Mentees
-          </b-dropdown-item>
-          <b-dropdown-item href="#">
-            Mentors
-          </b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item href="/mentee/">
+          Mentees
+        </b-nav-item>
+        <b-nav-item href="/mentor/">
+          Mentors
+        </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>
