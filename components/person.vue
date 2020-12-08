@@ -9,18 +9,25 @@
           {{ name }}
         </li>
         <li v-if="twitter.length" class="links">
-          <a :href="twitter">
-            <button class="button twitter">Twitter</button>
+          <a :href="twitter" target="_blank">
+            <button class="button twitter">
+              <font-awesome-icon :icon="['fab', 'twitter']" color="white"/>
+              Twitter
+            </button>
           </a>
         </li>
         <li v-if="github.length" class="links">
-          <a :href="github">
-            <button class="button github">GitHub</button>
+          <a :href="github" target="_blank">
+            <button class="button github">
+              <font-awesome-icon :icon="['fab', 'github']" color="white"/>
+              GitHub</button>
           </a>
         </li>
         <li v-if="linkedin.length" class="links">
-          <a :href="linkedin">
-            <button class="button linkedin">LinkedIn</button>
+          <a :href="linkedin" target="_blank">
+            <button class="button linkedin">
+              <font-awesome-icon :icon="['fab', 'linkedin']" color="white"/>
+              LinkedIn</button>
           </a>
         </li>
         <li v-if="interests && interests.length" class="text">
