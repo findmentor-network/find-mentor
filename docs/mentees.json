@@ -1068,6 +1068,42 @@
     "avatar": "https://github.com/MustDo12.png?size=200"
   },
   {
+    "": "09.12.2020 11:42:24",
+    "name": "Kemal Aydın",
+    "twitter_handle": "https://www.twitter.com/archysenos",
+    "github": "https://www.github.com/kemalaydin",
+    "linkedin": "https://www.linkedin.com/in/kmlaydin",
+    "interests": "backend, frontend, php, laravel",
+    "goals": "İnsanlık yararına en az 1 başarılı girişim geliştirebilmek. ",
+    "mentor": "İkisi de",
+    "slug": "kemal-aydin",
+    "avatar": "https://www.github.com/kemalaydin.png?size=200"
+  },
+  {
+    "": "09.12.2020 11:48:04",
+    "name": "Betül Görünmez",
+    "twitter_handle": "https://mobile.twitter.com/gorunmez_betul",
+    "github": "https://github.com/Betul-HR",
+    "linkedin": "https://www.linkedin.com/in/betulgorunmez",
+    "interests": "Pyhton,linux,c#,sql.",
+    "goals": "I want to be a developer in the field of Human Resources in the global, I am currently studying management information systems in the second year. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "betul-gorunmez",
+    "avatar": "https://github.com/Betul-HR.png?size=200"
+  },
+  {
+    "": "09.12.2020 12:37:32",
+    "name": "Süleyman Çalık",
+    "twitter_handle": "https://twitter.com/suleymancalik",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/suleymancalik",
+    "interests": "iOS & Flutter Development",
+    "goals": "I want to discuss about mobile application development, based on my 12 years experience on this field.",
+    "mentor": "Mentor",
+    "slug": "suleyman-calik",
+    "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
