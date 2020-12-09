@@ -250,5 +250,14 @@
     "interests": "backend, PHP, Go, React, ",
     "slug": "umit-kutuk",
     "avatar": "https://github.com/umitkutuk.png?size=200"
+  },
+  {
+    "name": "Ali Murat ÜNSAL",
+    "twitter_handle": "https://twitter.com/alimuratunsal",
+    "github": "https://github.com/alimuratunsal",
+    "linkedin": "https://www.linkedin.com/in/alimuratunsal",
+    "interests": "DevOps",
+    "slug": "ali-murat-unsal",
+    "avatar": "https://github.com/alimuratunsal.png?size=200"
   }
 ]
