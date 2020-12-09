@@ -53,10 +53,20 @@ async function getData () {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Mentors`
     let response = await got(url)
     response = JSON.parse(response.body)
-    let [mentees, mentors] = response.valueRanges
-    mentees = mapper(mentees.values.slice(4).filter(r => r.length))
-    mentors = mapper(mentors.values.filter(r => r.length))
-    const data = { mentees, mentors }
+    let [persons] = response.valueRanges
+    persons = mapper(persons.values.slice(4).filter(r => r.length))
+    const mentors = persons.filter((person) => {
+      if (person.mentor === 'Mentor' || person.mentor === 'İkisi de') {
+        return person
+      }
+    })
+    const mentees = persons.filter((person) => {
+      if (person.mentor === 'Mentee' || person.mentor === 'İkisi de') {
+        return person
+      }
+    })
+
+    const data = { persons, mentees, mentors }
     return { status: 200, data }
   } catch (err) {
     console.log(err)
@@ -64,12 +74,12 @@ async function getData () {
   }
 }
 
-getData().then(({ status, data: { mentees, mentors } }) => {
+getData().then(({ status, data: { persons, mentees, mentors } }) => {
   if (status !== 200) {
     throw new Error('Error when fetching data from spreadsheet')
   }
-  fs.writeFileSync('content/mentees.json', JSON.stringify(clearData(mentees), null, 2))
-  fs.writeFileSync('content/mentors.json', JSON.stringify(clearData(mentors), null, 2))
+  fs.writeFileSync('content/persons.json', JSON.stringify(clearData(persons), null, 2))
+  fs.writeFileSync('static/persons.json', JSON.stringify(clearData(persons), null, 2))
   fs.writeFileSync('static/mentees.json', JSON.stringify(clearData(mentees), null, 2))
   fs.writeFileSync('static/mentors.json', JSON.stringify(clearData(mentors), null, 2))
 })

@@ -5,7 +5,9 @@
       <hr>
       <!-- Mentors -->
       <h2 class="title">
-        Mentors
+        <NuxtLink to="/mentors/">
+          Mentors
+        </NuxtLink>
       </h2>
       <ul class="persons">
         <Card
@@ -13,14 +15,19 @@
           :key="mentor.slug"
           class="person"
           :person="mentor"
-          person-type="mentor"
+          person-type="Mentor"
         />
       </ul>
+      <client-only>
+        <infinite-loading @infinite="loadMoreMentors" />
+      </client-only>
       <hr>
 
       <!-- Mentees -->
       <h2 class="title">
-        Mentees
+        <NuxtLink to="/mentees/">
+          Mentees
+        </NuxtLink>
       </h2>
       <ul class="persons">
         <Card
@@ -41,8 +48,11 @@
 <script>
 export default {
   async fetch () {
-    this.postList.mentor.items = await this.$content('mentors').fetch()
-    this.postList.mentee.items = await this.$content('mentees')
+    this.postList.mentor.items = await this.$content('persons').where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+      .limit(this.postList.mentor.limit)
+      .skip(this.postList.mentor.skip)
+      .fetch()
+    this.postList.mentee.items = await this.$content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
@@ -58,7 +68,9 @@ export default {
     return {
       postList: {
         mentor: {
-          items: []
+          items: [],
+          limit: 16,
+          skip: 0
         },
         mentee: {
           items: [],
@@ -72,7 +84,8 @@ export default {
     async loadMoreMentees ($state) {
       this.postList.mentee.skip += this.postList.mentee.limit
 
-      const mentees = await this.$content('mentees')
+      const mentees = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
         .limit(this.postList.mentee.limit)
         .skip(this.postList.mentee.skip)
         .fetch()
@@ -81,6 +94,22 @@ export default {
       $state.loaded()
 
       if (mentees.length <= 0) {
+        $state.complete()
+      }
+    },
+    async loadMoreMentors ($state) {
+      this.postList.mentor.skip += this.postList.mentor.limit
+
+      const mentors = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+        .limit(this.postList.mentor.limit)
+        .skip(this.postList.mentor.skip)
+        .fetch()
+
+      this.postList.mentor.items.push(...mentors)
+      $state.loaded()
+
+      if (mentors.length <= 0) {
         $state.complete()
       }
     }
