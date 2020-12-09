@@ -41,7 +41,7 @@ export default {
       const regex = /github.com\/([\w\d-]+)(.+)?/;
       let response = githubLink.match(regex);
       if(!response){
-        return "../assets/social-icons/dummy.png"
+        return "https://raw.githubusercontent.com/cagataycali/find-mentor/master/assets/images/dummy.png"
       }
       let githubImage = `https://avatars.githubusercontent.com/${response[1]}`;
       console.log(githubImage);
