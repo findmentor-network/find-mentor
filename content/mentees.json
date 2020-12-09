@@ -996,18 +996,6 @@
     "avatar": "https://github.com/kubrakurt.png?size=200"
   },
   {
-    "": "09.12.2020 03:33:44",
-    "name": "Erhan Büte",
-    "twitter_handle": "https://twitter.com/erhanbute",
-    "github": "https://github.com/erhan",
-    "linkedin": "https://www.linkedin.com/in/erhanbute",
-    "interests": "backend(python + flask)",
-    "goals": "-",
-    "mentor": "Mentor",
-    "slug": "erhan-bute",
-    "avatar": "https://github.com/erhan.png?size=200"
-  },
-  {
     "": "09.12.2020 04:56:58",
     "name": "Mustafa B. Yildiz",
     "twitter_handle": "https://twitter.com/iamflurach",
@@ -1030,6 +1018,18 @@
     "mentor": "Mentee",
     "slug": "engin-karatas",
     "avatar": "https://github.com/EnginKARATAS.png?size=200"
+  },
+  {
+    "": "09.12.2020 09:05:00",
+    "name": "Oğuzcan Genç",
+    "twitter_handle": "https://twitter.com/Oguzgnc7",
+    "github": "https://github.com/ouzdev",
+    "linkedin": "https://www.linkedin.com/in/oguzcan-genc",
+    "interests": "Backend & Frontend",
+    "goals": "İyi bir Full Stack yazılımcı olmak",
+    "mentor": "Mentee",
+    "slug": "oguzcan-genc",
+    "avatar": "https://github.com/ouzdev.png?size=200"
   },
   {
     "": "",
