@@ -117,7 +117,6 @@ export default {
   margin-top: 15px;
 }
 .name {
-  color: #ffffff;
   font-size: 27px;
 }
 .button {
@@ -141,7 +140,6 @@ export default {
   border-radius: 50%;
 }
 .text {
-  color: #ffffff;
   font-size: 17px;
   margin-top: 10px;
 }
