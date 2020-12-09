@@ -1128,6 +1128,42 @@
     "avatar": "https://ui-avatars.com/api/?name=kadir kara"
   },
   {
+    "": "09.12.2020 13:48:13",
+    "name": "Umut Can Altın",
+    "twitter_handle": "https://twitter.com/UCAltin",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/umut-can-altin-507455103",
+    "interests": "Artificial intelligence",
+    "goals": "Alana giriş yapmak isteyen öğrenci veya geliştiricilere katkı sağlamak.",
+    "mentor": "Mentor",
+    "slug": "umut-can-altin",
+    "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın"
+  },
+  {
+    "": "09.12.2020 14:04:59",
+    "name": "Bartu OZEL",
+    "twitter_handle": "https://twitter.com/mr_brtzl",
+    "github": "https://github.com/BRTZL",
+    "linkedin": "https://www.linkedin.com/in/brtzl",
+    "interests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
+    "goals": "I want to be worldwide developer in the future. And build my own startup.",
+    "mentor": "İkisi de",
+    "slug": "bartu-ozel",
+    "avatar": "https://github.com/BRTZL.png?size=200"
+  },
+  {
+    "": "09.12.2020 14:14:41",
+    "name": "Eliz Kılıç",
+    "twitter_handle": "https://twitter.com/eliz_kilic",
+    "github": "https://github.com/el",
+    "linkedin": "https://linkedin.com/in/eliz",
+    "interests": "Frontend, typescript, react",
+    "goals": "Create software that touches people's lives",
+    "mentor": "Mentee",
+    "slug": "eliz-kilic",
+    "avatar": "https://github.com/el.png?size=200"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
