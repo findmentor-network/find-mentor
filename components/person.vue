@@ -56,12 +56,13 @@
             />
           </a>
         </li>
-        <Timeline v-if="twitter.length" :id="twitterHandle" sourceType="profile" :options="{ tweetLimit: '5' }"/>
       </ul>
       <h2 v-if="markdown.length">
         GitHub
       </h2>
       <div v-html="markdown" />
+      <hr>
+      <Timeline v-if="twitter.length" :id="twitterHandle" source-type="profile" :options="{ tweetLimit: '5' }" />
     </div>
   </div>
 </template>
@@ -72,11 +73,6 @@ import Markdown from '@nuxt/markdown'
 const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
-  computed: {
-    twitterHandle () {
-      return this.twitter.split('twitter.com/')[1]
-    }
-  },
   components: {
     Timeline
   },
@@ -121,6 +117,11 @@ export default {
   data () {
     return {
       markdown: ''
+    }
+  },
+  computed: {
+    twitterHandle () {
+      return this.twitter.split('twitter.com/')[1]
     }
   },
   created () {
