@@ -10,6 +10,7 @@
 - [Alihan Yılmaz](https://github.com/alihan)
 - [Adem Furkan ÖZCAN](https://github.com/Adem68)
 - [Mücahit Bircan](https://github.com/mucahitbircan)
+- [Selim Doyranlı](https://github.com/selimdoyranli)
 
 
 
