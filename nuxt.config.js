@@ -48,6 +48,10 @@ export default {
         href: '/feed.xml'
       },
       { rel: 'alternate', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: '/disqus.js' },
+      { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' }
     ]
   },
 
