@@ -103,7 +103,9 @@ export default {
     // https://github.com/nuxt-community/feed-module
     '@nuxtjs/feed',
     // https://content.nuxtjs.org/integrations#nuxtjssitemap
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    // https://github.com/nuxt-community/robots-module
+    '@nuxtjs/robots'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -136,6 +138,7 @@ export default {
     }
   ],
 
+  // Sitemap module configuration (https://content.nuxtjs.org/integrations/)
   sitemap: {
     hostname: 'https://findmentor.network',
     path: '/sitemap.xml',
@@ -154,6 +157,12 @@ export default {
 
       return routes
     }
+  },
+
+  // Robots module configuration (https://github.com/nuxt-community/robots-module/)
+  robots: {
+    UserAgent: '*',
+    Disallow: ''
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
