@@ -295,5 +295,23 @@
     "interests": "Backend, frontend, GNU/Linux, devops",
     "slug": "ali-ilteris-keskin",
     "avatar": "https://github.com/ilteriskeskin.png?size=200"
+  },
+  {
+    "name": "Eliz Kılıç",
+    "twitter_handle": "https://twitter.com/eliz_kilic",
+    "github": "https://github.com/el",
+    "linkedin": "https://linkedin.com/in/eliz",
+    "interests": "Frontend, typescript, react",
+    "slug": "eliz-kilic",
+    "avatar": "https://github.com/el.png?size=200"
+  },
+  {
+    "name": "Bartu OZEL",
+    "twitter_handle": "https://twitter.com/mr_brtzl",
+    "github": "https://github.com/BRTZL",
+    "linkedin": "https://www.linkedin.com/in/brtzl",
+    "interests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
+    "slug": "bartu-ozel",
+    "avatar": "https://github.com/BRTZL.png?size=200"
   }
 ]
