@@ -3,7 +3,7 @@
     <div class="container">
       <ul class="profile">
         <div class="left-main">
-          <li v-if="avatar.length">
+          <li v-if="avatar.length" loading="lazy">
             <img :src="avatar" class="avatar" :alt="name" />
           </li>
           <div class="main">
