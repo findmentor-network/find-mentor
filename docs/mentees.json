@@ -1272,6 +1272,30 @@
     "avatar": "https://www.github.com/selvianl.png?size=200"
   },
   {
+    "": "09.12.2020 17:35:55",
+    "name": "Ahmet Karamanoğlu",
+    "twitter_handle": "https://twitter.com/aahmetkaramann",
+    "github": "https://github.com/aahmetkaraman",
+    "linkedin": "https://linkedin.com/in/aahmetkaraman",
+    "interests": "backend",
+    "goals": "I want to be worldwide developer in the future. That’s why I’m here.",
+    "mentor": "Mentee",
+    "slug": "ahmet-karamanoglu",
+    "avatar": "https://github.com/aahmetkaraman.png?size=200"
+  },
+  {
+    "": "09.12.2020 17:39:49",
+    "name": "Ezgi Cirdi",
+    "twitter_handle": "https://twitter.com/CirdiEzgi",
+    "github": "https://github.com/ezgicirdi13",
+    "linkedin": "https://www.linkedin.com/in/ezgi-cirdi-608313180",
+    "interests": "Frontend, Design, HTML, CSS, JavaScript",
+    "goals": "I want to improve on the issues I have set and I think this will be a better option for me with a mentor. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "ezgi-cirdi",
+    "avatar": "https://github.com/ezgicirdi13.png?size=200"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
