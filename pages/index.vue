@@ -1,19 +1,8 @@
 <template>
   <div>
+    <header><nuxt-content :document="page" /></header>
     <div class="container">
-      <header>
-        <h1 class="contrib">
-          <a href="https://github.com/cagataycali/find-mentor" target="_blank">
-            Feel free to contribute!
-          </a>
-        </h1>
-        <p class="information">
-          Every night & every deploy, the spread sheet will be parsed by GitHub
-          actions, then generate this beauty.
-        </p>
-      </header>
       <hr>
-
       <!-- Mentors -->
       <h2 class="title">
         Mentors
@@ -57,6 +46,13 @@ export default {
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
+  },
+  async asyncData ({ $content }) {
+    const page = await $content('readme').fetch()
+
+    return {
+      page
+    }
   },
   data () {
     return {
