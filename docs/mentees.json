@@ -984,6 +984,30 @@
     "avatar": "https://github.com/Gamzesavcioglu.png?size=200"
   },
   {
+    "": "09.12.2020 03:26:05",
+    "name": "Kübra Kurt",
+    "twitter_handle": "https://twitter.com/kubrakurtk",
+    "github": "https://github.com/kubrakurt",
+    "linkedin": "https://linkedin.com/in/kubrakurtk",
+    "interests": "frontend, backend, devops, secops",
+    "goals": "Yetkin bir Veri Bilimci olup, ortaya yeni şeyler koymak istiyorum. Aynı zaman faydalı ve heyecan verici alanlarda da çalışmak istiyorum. ",
+    "mentor": "Mentee",
+    "slug": "kubra-kurt",
+    "avatar": "https://github.com/kubrakurt.png?size=200"
+  },
+  {
+    "": "09.12.2020 03:33:44",
+    "name": "Erhan Büte",
+    "twitter_handle": "https://twitter.com/erhanbute",
+    "github": "https://github.com/erhan",
+    "linkedin": "https://www.linkedin.com/in/erhanbute",
+    "interests": "backend(python + flask)",
+    "goals": "-",
+    "mentor": "Mentor",
+    "slug": "erhan-bute",
+    "avatar": "https://github.com/erhan.png?size=200"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
