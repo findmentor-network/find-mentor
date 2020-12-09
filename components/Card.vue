@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <NuxtLink :to="`/${personType}/${person.slug}`" itemprop="url">
+    <NuxtLink :to="`/peer/${person.slug}`" itemprop="url">
       <div class="profile-photo">
         <img :src="getProfilePicture(person.github)" alt="mentee-profile-picture" itemprop="image">
       </div>

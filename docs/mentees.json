@@ -1308,6 +1308,54 @@
     "avatar": "https://ui-avatars.com/api/?name=Mustafa ŞEN"
   },
   {
+    "": "09.12.2020 20:41:46",
+    "name": "Turan Kılıç",
+    "twitter_handle": "https://twitter.com/Toour_",
+    "github": "https://github.com/levi-ackermn",
+    "linkedin": "https://www.linkedin.com/in/turan-kılıç-376b99171",
+    "interests": "Cyber Security",
+    "goals": "I want to be a security manager of a company.",
+    "mentor": "Mentee",
+    "slug": "turan-kilic",
+    "avatar": "https://github.com/levi-ackermn.png?size=200"
+  },
+  {
+    "": "09.12.2020 20:42:08",
+    "name": "Zafer Çalışkan",
+    "twitter_handle": "https://twitter.com/zfrclskn_",
+    "github": "https://github.com/caliskanzafer",
+    "linkedin": "https://www.linkedin.com/in/caliskanzafer",
+    "interests": "mobile",
+    "goals": "To have a professional mobile application and find job opportunities until the end of January. I want to start my own startup in 1 year",
+    "mentor": "Mentee",
+    "slug": "zafer-caliskan",
+    "avatar": "https://github.com/caliskanzafer.png?size=200"
+  },
+  {
+    "": "09.12.2020 21:02:18",
+    "name": "Enes Malik DUMAN",
+    "twitter_handle": "https://twitter.com/soxhenes",
+    "github": "https://github.com/enesmalikdmn",
+    "linkedin": "https://www.linkedin.com/in/enes-malik-duman-1077b0151",
+    "interests": "frontend,devops",
+    "goals": "I am student. I want to improve myself about software development. I want to teach that which way should i follow ?",
+    "mentor": "Mentee",
+    "slug": "enes-malik-duman",
+    "avatar": "https://github.com/enesmalikdmn.png?size=200"
+  },
+  {
+    "": "09.12.2020 22:15:58",
+    "name": "Yasemin BAŞKÖSE",
+    "twitter_handle": "https://twitter.com/Baskosee",
+    "github": "https://github.com/yasebaskose",
+    "linkedin": "https://www.linkedin.com/in/aquiluss",
+    "interests": "data science, AI, Machine Learning, Deep Learning, frontend, backend, Phyton,Java, C#, SQL",
+    "goals": "I want to be senior artificial intelligence engineer and I want to learn well Python ",
+    "mentor": "Mentee",
+    "slug": "yasemin-baskose",
+    "avatar": "https://github.com/yasebaskose.png?size=200"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",

@@ -2,21 +2,20 @@
 const create = async (feed, args) => {
   const [name, description] = args
   const niceName = name.charAt(0).toLocaleUpperCase() + name.slice(1)
-  const singularName = name.slice(name.length - 1)
 
   feed.options = {
     title: niceName + ' - Find Mentor',
-    link: `https://findmentor.network${name === 'mentors' ? '' : '/' + name}/feed.xml`,
+    link: `https://findmentor.network/peer/${name}/feed.xml`,
     description
   }
 
   const { $content } = require('@nuxt/content')
-  const items = await $content(name).fetch()
+  const items = await $content('persons').fetch()
 
   items.forEach((item) => {
     const itemObject = {
       title: item.name,
-      link: `https://findmentor.network/${singularName}/${item.slug}`,
+      link: `https://findmentor.network/peer/${item.slug}`,
       description: item.interests
     }
 
@@ -47,12 +46,6 @@ export default {
         type: 'application/rss+xml',
         title: 'RSS Feed for findmentor.network Mentors',
         href: '/feed.xml'
-      },
-      {
-        rel: 'alternate',
-        type: 'application/rss+xml',
-        title: 'RSS Feed for findmentor.network Mentees',
-        href: 'mentees/feed.xml'
       },
       { rel: 'alternate', type: 'image/x-icon', href: '/favicon.ico' }
     ]
@@ -116,25 +109,11 @@ export default {
   // Feed module configuration (https://content.nuxtjs.org/integrations/)
   feed: [
     {
-      path: 'feed.xml',
+      path: '/feed.xml',
       create,
       cacheTime: 1000 * 60 * 15,
       type: 'rss2',
-      data: ['mentors', 'Find your professional mentor.']
-    },
-    {
-      path: 'mentors/feed.xml',
-      create,
-      cacheTime: 1000 * 60 * 15,
-      type: 'rss2',
-      data: ['mentors', 'Find your professional mentor.']
-    },
-    {
-      path: 'mentees/feed.xml',
-      create,
-      cacheTime: 1000 * 60 * 15,
-      type: 'rss2',
-      data: ['mentees', 'Find a mentee.']
+      data: ['persons', 'Find a mentee or mentor.']
     }
   ],
 
@@ -149,11 +128,9 @@ export default {
       const routes = []
       const { $content } = require('@nuxt/content')
 
-      const mentors = await $content('mentors').fetch()
-      const mentees = await $content('mentees').fetch()
+      const persons = await $content('persons').fetch()
 
-      mentors.forEach(mentor => routes.push(`mentor/${mentor.slug}`))
-      mentees.forEach(mentee => routes.push(`mentee/${mentee.slug}`))
+      persons.forEach(person => routes.push(`persons/${person.slug}`))
 
       return routes
     }

@@ -50,7 +50,7 @@ const clearData = (posts) => {
 
 async function getData () {
   try {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Mentors`
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees`
     let response = await got(url)
     response = JSON.parse(response.body)
     let [persons] = response.valueRanges
