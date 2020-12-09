@@ -1,13 +1,14 @@
 <template>
   <div class="container">
     <h1>Mentors</h1>
-    <input v-model="filter" class="filter" placeholder="Filter Mentors" />
+    <input v-model="filter" class="filter" placeholder="Filter Mentors">
     <ul class="persons">
-      <MentorCard
+      <Card
         v-for="(mentor, index) in filteredMentors"
         :key="index"
         class="person"
-        :mentor="mentor"
+        :person="mentor"
+        person-type="mentor"
       />
     </ul>
   </div>
@@ -15,30 +16,30 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const mentors = await $content("mentors").fetch();
-    return { mentors };
+  async asyncData ({ $content, params }) {
+    const mentors = await $content('mentors').fetch()
+    return { mentors }
   },
-  data() {
+  data () {
     return {
       filter: null
-    };
+    }
   },
   computed: {
-    filteredMentors() {
+    filteredMentors () {
       if (this.filter) {
-        return this.mentors.filter(mentor => {
+        return this.mentors.filter((mentor) => {
           return this.filter
             .toLowerCase()
-            .split(" ")
-            .every(v => mentor.name.toLowerCase().includes(v));
-        });
+            .split(' ')
+            .every(v => mentor.name.toLowerCase().includes(v))
+        })
       } else {
-        return this.mentors;
+        return this.mentors
       }
     }
   }
-};
+}
 </script>
 
 <style>
