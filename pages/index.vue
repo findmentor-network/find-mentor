@@ -1,16 +1,17 @@
 <template>
   <div>
     <div class="container">
-      <h1>
-        <a href="https://github.com/cagataycali/find-mentor" target="_blank">
-          Feel free to contribute!
-        </a>
-      </h1>
-      <h4>Exactly this project is 0km.</h4>
-      <h4>
-        Every night & every deploy, the spread sheet will be parsed by GitHub
-        actions, then generate this beauty.
-      </h4>
+      <header>
+        <h1 class="contrib">
+          <a href="https://github.com/cagataycali/find-mentor" target="_blank">
+            Feel free to contribute!
+          </a>
+        </h1>
+        <p class="information">
+          Every night & every deploy, the spread sheet will be parsed by GitHub
+          actions, then generate this beauty.
+        </p>
+      </header>
       <hr>
       <h2 class="title">
         Mentors
@@ -53,6 +54,21 @@ export default {
 <style>
 * {
   box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0px;
+}
+.contrib {
+  text-decoration: underline;
+  text-decoration-color: dodgerblue;
+}
+.information {
+  padding: 10px;
+  font-size: 16px;
 }
 .persons {
   list-style-type: none;
