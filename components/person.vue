@@ -11,7 +11,7 @@
         <li v-if="twitter.length" class="links">
           <a :href="twitter" target="_blank">
             <button class="button twitter">
-              <font-awesome-icon :icon="['fab', 'twitter']" color="white"/>
+              <font-awesome-icon :icon="['fab', 'twitter']" color="white" />
               Twitter
             </button>
           </a>
@@ -19,14 +19,14 @@
         <li v-if="github.length" class="links">
           <a :href="github" target="_blank">
             <button class="button github">
-              <font-awesome-icon :icon="['fab', 'github']" color="white"/>
+              <font-awesome-icon :icon="['fab', 'github']" color="white" />
               GitHub</button>
           </a>
         </li>
         <li v-if="linkedin.length" class="links">
           <a :href="linkedin" target="_blank">
             <button class="button linkedin">
-              <font-awesome-icon :icon="['fab', 'linkedin']" color="white"/>
+              <font-awesome-icon :icon="['fab', 'linkedin']" color="white" />
               LinkedIn</button>
           </a>
         </li>
@@ -56,16 +56,23 @@
             />
           </a>
         </li>
-        <a class="twitter-timeline" :v-if="twitter.length" data-width="50%" :href="twitter +'?ref_src=twsrc%5Etfw'">Tweets
-          by
-          {{ name }}</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </ul>
+      <h2 v-if="markdown.length">
+        GitHub
+      </h2>
+      <div v-html="markdown" />
+      <a class="twitter-timeline" :v-if="twitter.length" data-width="50%" :href="twitter +'?ref_src=twsrc%5Etfw'">Tweets
+        by
+        {{ name }}</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
     </div>
   </div>
 </template>
 
 <script>
+import Markdown from '@nuxt/markdown'
+const md = new Markdown({ toc: true, sanitize: true })
+
 export default {
   props: {
     slug: {
@@ -103,6 +110,30 @@ export default {
     goals: {
       type: String,
       default: ''
+    }
+  },
+  data () {
+    return {
+      markdown: ''
+    }
+  },
+  created () {
+    if (this.github.length) {
+      this.renderMarkdown()
+    }
+  },
+  methods: {
+    async renderMarkdown () {
+      const username = this.github.replace(/\/$/gi, '').split('/').pop()
+      const markdownContent = await fetch(`https://raw.githubusercontent.com/${username}/${username}/master/README.md`).then((res) => {
+        if (res.status === 200) {
+          return res.text()
+        } else {
+          return ''
+        }
+      })
+      const { html } = await md.toMarkup(markdownContent)
+      this.markdown = html
     }
   }
 }
