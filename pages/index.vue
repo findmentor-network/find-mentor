@@ -95,36 +95,6 @@ export default {
 * {
   box-sizing: border-box;
 }
-
-body {
-    background: linear-gradient(328deg,#17aa90, #32475b);
-    background-size: 600% 600%;
-
-    -webkit-animation: changeBackgroundColor 14s ease infinite;
-    -moz-animation: changeBackgroundColor 14s ease infinite;
-    -o-animation: changeBackgroundColor 14s ease infinite;
-    animation: changeBackgroundColor 14s ease infinite;
-}
-@-webkit-keyframes changeBackgroundColor {
-    0%{background-position:26% 0%}
-    50%{background-position:75% 100%}
-    100%{background-position:26% 0%}
-}
-@-moz-keyframes changeBackgroundColor {
-    0%{background-position:26% 0%}
-    50%{background-position:75% 100%}
-    100%{background-position:26% 0%}
-}
-@-o-keyframes changeBackgroundColor {
-    0%{background-position:26% 0%}
-    50%{background-position:75% 100%}
-    100%{background-position:26% 0%}
-}
-@keyframes changeBackgroundColor {
-    0%{background-position:26% 0%}
-    50%{background-position:75% 100%}
-    100%{background-position:26% 0%}
-}
 header {
   display: flex;
   flex-direction: column;
@@ -132,13 +102,10 @@ header {
   text-align: center;
   padding: 80px 0px;
 }
-.contrib a{
-  text-decoration: none;
+.contrib {
+  text-decoration: underline;
+  text-decoration-color: dodgerblue;
 }
-.contrib a, .title, .information {
-  color: #ffffff;
-}
-
 .information {
   padding: 10px;
   font-size: 16px;
