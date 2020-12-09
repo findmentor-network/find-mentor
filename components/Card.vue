@@ -43,7 +43,7 @@ export default {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
-        return 'https://raw.githubusercontent.com/cagataycali/find-mentor/master/assets/images/dummy.png'
+        return 'https://findmentor.network/dummy.png'
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
     }
