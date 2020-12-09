@@ -12,23 +12,27 @@
           actions, then generate this beauty.
         </p>
       </header>
-      <hr />
-      <h2 class="title">Mentors</h2>
+      <hr>
+      <h2 class="title">
+        Mentors
+      </h2>
       <ul class="persons">
         <MentorCard
-          class="person"
           v-for="mentor in mentors"
           :key="mentor.slug"
+          class="person"
           :mentor="mentor"
         />
       </ul>
-      <hr />
-      <h2 class="title">Mentees</h2>
+      <hr>
+      <h2 class="title">
+        Mentees
+      </h2>
       <ul class="persons">
         <MenteeCard
-          class="person"
           v-for="mentee in mentees"
           :key="mentee.slug"
+          class="person"
           :mentee="mentee"
         />
       </ul>
@@ -38,12 +42,12 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const mentees = await $content("mentees").fetch();
-    const mentors = await $content("mentors").fetch();
-    return { mentees, mentors };
+  async asyncData ({ $content, params }) {
+    const mentees = await $content('mentees').fetch()
+    const mentors = await $content('mentors').fetch()
+    return { mentees, mentors }
   }
-};
+}
 </script>
 <style>
 * {
