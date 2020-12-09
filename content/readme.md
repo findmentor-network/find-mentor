@@ -14,6 +14,6 @@ Every night & every deploy, the spread sheet will be parsed by GitHub actions, t
 	</a>
 </p>
 
-[![Support Server](https://img.shields.io/discord/591914197219016707.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/qN6eH769hS)
+<iframe src="https://discord.com/widget?id=786277089577402418&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 You can join this channel to communicate with each other.
