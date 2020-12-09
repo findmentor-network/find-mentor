@@ -11,24 +11,30 @@
         Every night & every deploy, the spread sheet will be parsed by GitHub
         actions, then generate this beauty.
       </h4>
-      <hr />
-      <h2 class="title">Mentors</h2>
+      <hr>
+      <h2 class="title">
+        Mentors
+      </h2>
       <ul class="persons">
-        <MentorCard
-          class="person"
+        <Card
           v-for="mentor in mentors"
           :key="mentor.slug"
-          :mentor="mentor"
+          class="person"
+          :person="mentor"
+          person-type="mentor"
         />
       </ul>
-      <hr />
-      <h2 class="title">Mentees</h2>
+      <hr>
+      <h2 class="title">
+        Mentees
+      </h2>
       <ul class="persons">
-        <MenteeCard
-          class="person"
+        <Card
           v-for="mentee in mentees"
           :key="mentee.slug"
-          :mentee="mentee"
+          class="person"
+          :person="mentee"
+          person-type="mentee"
         />
       </ul>
     </div>
@@ -37,12 +43,12 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const mentees = await $content("mentees").fetch();
-    const mentors = await $content("mentors").fetch();
-    return { mentees, mentors };
+  async asyncData ({ $content, params }) {
+    const mentees = await $content('mentees').fetch()
+    const mentors = await $content('mentors').fetch()
+    return { mentees, mentors }
   }
-};
+}
 </script>
 <style>
 * {
