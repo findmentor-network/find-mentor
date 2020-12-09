@@ -25,7 +25,8 @@
     "got": "^11.8.0",
     "nuxt": "^2.14.6",
     "slugify": "^1.4.6",
-    "vue-infinite-loading": "^2.4.5"
+    "vue-infinite-loading": "^2.4.5",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

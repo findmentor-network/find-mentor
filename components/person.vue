@@ -56,24 +56,30 @@
             />
           </a>
         </li>
+        <Timeline v-if="twitter.length" :id="twitterHandle" sourceType="profile" :options="{ tweetLimit: '5' }"/>
       </ul>
       <h2 v-if="markdown.length">
         GitHub
       </h2>
       <div v-html="markdown" />
-      <a class="twitter-timeline" :v-if="twitter.length" data-width="50%" :href="twitter +'?ref_src=twsrc%5Etfw'">Tweets
-        by
-        {{ name }}</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
     </div>
   </div>
 </template>
 
 <script>
+import { Timeline } from 'vue-tweet-embed'
 import Markdown from '@nuxt/markdown'
 const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
+  computed: {
+    twitterHandle () {
+      return this.twitter.split('twitter.com/')[1]
+    }
+  },
+  components: {
+    Timeline
+  },
   props: {
     slug: {
       type: String,
@@ -146,34 +152,42 @@ export default {
   flex-direction: column;
   align-items: center;
 }
+
 .avatar,
 .name,
 .links {
   margin-top: 15px;
 }
+
 .name {
   font-size: 27px;
 }
+
 .button {
   padding: 10px 30px;
   border: 2px solid transparent;
   border-radius: 4px;
   color: white;
 }
+
 .twitter {
   background-color: #00acee;
 }
+
 .github {
   background-color: #24292e;
 }
+
 .linkedin {
   background-color: #0e76a8;
 }
+
 .avatar {
   width: 250px;
   height: 250px;
   border-radius: 50%;
 }
+
 .text {
   font-size: 17px;
   margin-top: 10px;
