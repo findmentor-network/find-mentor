@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const mentors = await $content('mentors').fetch()
+    const mentors = await $content('persons').where({ mentor: { $in: ['Mentor', 'İkisi de'] } }).fetch()
     return { mentors }
   },
   data () {

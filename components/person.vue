@@ -4,13 +4,13 @@
       <ul class="profile">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" :alt="name" />
+            <img :src="avatar" class="avatar" :alt="name">
           </li>
           <div class="main">
             <li v-if="name" class="name">
               {{ name }}
             </li>
-            <hr />
+            <hr>
             <li v-if="interests && interests.length" class="text">
               <b>Interests:</b> {{ interests }}
             </li>
@@ -56,21 +56,13 @@
         </div>
         <li class="text">
           <a
-            :href="
-              `https://findmentor.network/` +
-              (mentor ? 'mentor/' : 'mentee/') +
-              slug
-            "
+            :href="`https://findmentor.network/peer/` + slug"
             target="_blank"
             rel="noopener noreferrer"
           >
             <qrcode
               class="qrcode"
-              :value="
-                `https://findmentor.network/` +
-                (mentor ? 'mentor/' : 'mentee/') +
-                slug
-              "
+              :value="`https://findmentor.network/peer/` + slug"
               :options="{ width: 200 }"
             />
           </a>
@@ -78,10 +70,10 @@
       </ul>
       <h2 v-if="markdown.length">
         GitHub
-        <hr />
+        <hr>
       </h2>
       <div v-html="markdown" />
-      <hr />
+      <hr>
       <Timeline
         v-if="twitter.length"
         :id="twitterHandle"
@@ -93,84 +85,88 @@
 </template>
 
 <script>
-import { Timeline } from "vue-tweet-embed";
-import Markdown from "@nuxt/markdown";
-const md = new Markdown({ toc: true, sanitize: true });
+import { Timeline } from 'vue-tweet-embed'
+import Markdown from '@nuxt/markdown'
+const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    Timeline,
+    Timeline
   },
   props: {
     slug: {
       type: String,
-      default: "",
+      default: ''
     },
     mentor: {
       type: Boolean,
-      default: false,
+      default: false
+    },
+    both: {
+      type: Boolean,
+      default: false
     },
     name: {
       type: String,
-      default: "",
+      default: ''
     },
     twitter: {
       type: String,
-      default: "",
+      default: ''
     },
     github: {
       type: String,
-      default: "",
+      default: ''
     },
     linkedin: {
       type: String,
-      default: "",
+      default: ''
     },
     avatar: {
       type: String,
-      default: "",
+      default: ''
     },
     interests: {
       type: String,
-      default: "",
+      default: ''
     },
     goals: {
       type: String,
-      default: "",
-    },
+      default: ''
+    }
   },
-  data() {
+  data () {
     return {
-      markdown: "",
-    };
+      markdown: ''
+    }
   },
   computed: {
-    twitterHandle() {
-      return this.twitter.split("twitter.com/")[1];
-    },
+    twitterHandle () {
+      return this.twitter.split('twitter.com/')[1]
+    }
   },
-  created() {
+  created () {
     if (this.github.length) {
-      this.renderMarkdown();
+      this.renderMarkdown()
     }
   },
   methods: {
-    async renderMarkdown() {
-      const username = this.github.replace(/\/$/gi, "").split("/").pop();
+    async renderMarkdown () {
+      const username = this.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
       ).then((res) => {
         if (res.status === 200) {
-          return res.text();
+          return res.text()
         } else {
-          return "";
+          return ''
         }
-      });
-      const { html } = await md.toMarkup(markdownContent);
-      this.markdown = html;
-    },
-  },
-};
+      })
+      const { html } = await md.toMarkup(markdownContent)
+      this.markdown = html
+    }
+  }
+}
 </script>
 
 <style>
