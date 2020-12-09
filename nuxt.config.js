@@ -130,7 +130,7 @@ export default {
 
       const persons = await $content('persons').fetch()
 
-      persons.forEach(person => routes.push(`persons/${person.slug}`))
+      persons.forEach(person => routes.push(`person/${person.slug}`))
 
       return routes
     }
