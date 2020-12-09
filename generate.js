@@ -26,7 +26,8 @@ const mapper = (posts) => {
 const generateAvatar = ({ name, github }) => {
   let avatar
   if (github) {
-    avatar = github + '.png?size=200'
+    const githubUsername = github.split('/')[3];
+    avatar = `https://avatars.githubusercontent.com/${githubUsername}`
   } else {
     avatar = `https://ui-avatars.com/api/?name=${name}`
   }
