@@ -1104,6 +1104,30 @@
     "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık"
   },
   {
+    "": "09.12.2020 13:17:23",
+    "name": "Emine Yüksek",
+    "twitter_handle": "https://twitter.com/eyuuksek",
+    "github": "https://github.com/eyuuksek",
+    "linkedin": "https://www.linkedin.com/in/emineyuksek",
+    "interests": "Mobile Application (Flutter), Game Development with Unity, Fronted or Backend",
+    "goals": "I want to develop an application which is know around the world. After that I want to establish a company where I can get more efficiency from the employees with I development new a working system.",
+    "mentor": "Mentee",
+    "slug": "emine-yuksek",
+    "avatar": "https://github.com/eyuuksek.png?size=200"
+  },
+  {
+    "": "09.12.2020 13:22:57",
+    "name": "kadir kara",
+    "twitter_handle": "https://\ttwitter.com/kadirkara22",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/kadir-kara-850716201",
+    "interests": "Frontend,Backend",
+    "goals": "I want to improve myself in modern web development. \t\nI want to improve myself on Frontend Development and Backend Development.",
+    "mentor": "Mentee",
+    "slug": "kadir-kara",
+    "avatar": "https://ui-avatars.com/api/?name=kadir kara"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",

@@ -277,5 +277,23 @@
     "interests": "Compilers",
     "slug": "mustafa-b.-yildiz",
     "avatar": "https://github.com/flurach.png?size=200"
+  },
+  {
+    "name": "Kemal Aydın",
+    "twitter_handle": "https://www.twitter.com/archysenos",
+    "github": "https://www.github.com/kemalaydin",
+    "linkedin": "https://www.linkedin.com/in/kmlaydin",
+    "interests": "backend, frontend, php, laravel",
+    "slug": "kemal-aydin",
+    "avatar": "https://www.github.com/kemalaydin.png?size=200"
+  },
+  {
+    "name": "Ali İlteriş Keskin",
+    "twitter_handle": "https://twitter.com/ilteriskeskin",
+    "github": "https://github.com/ilteriskeskin",
+    "linkedin": "https://www.linkedin.com/in/aliilteriskeskin",
+    "interests": "Backend, frontend, GNU/Linux, devops",
+    "slug": "ali-ilteris-keskin",
+    "avatar": "https://github.com/ilteriskeskin.png?size=200"
   }
 ]
