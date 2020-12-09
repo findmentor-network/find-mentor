@@ -19,11 +19,12 @@
         Mentors
       </h2>
       <ul class="persons">
-        <MentorCard
+        <Card
           v-for="mentor in postList.mentor.items"
           :key="mentor.slug"
           class="person"
-          :mentor="mentor"
+          :person="mentor"
+          person-type="mentor"
         />
       </ul>
       <hr>
@@ -33,11 +34,12 @@
         Mentees
       </h2>
       <ul class="persons">
-        <MenteeCard
+        <Card
           v-for="mentee in postList.mentee.items"
           :key="mentee.slug"
           class="person"
-          :mentee="mentee"
+          :person="mentee"
+          person-type="mentee"
         />
       </ul>
       <client-only>
