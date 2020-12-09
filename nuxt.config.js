@@ -20,7 +20,8 @@ export default {
   plugins: [
     { src: '~plugins/ga.js', mode: 'client' },
     { src: '~plugins/qr.js' },
-    { src: '~plugins/fa.js' }
+    { src: '~plugins/fa.js' },
+    { src: '~plugins/vue-infinite-loading.js', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

@@ -13,12 +13,14 @@
         </p>
       </header>
       <hr>
+
+      <!-- Mentors -->
       <h2 class="title">
         Mentors
       </h2>
       <ul class="persons">
         <Card
-          v-for="mentor in mentors"
+          v-for="mentor in postList.mentor.items"
           :key="mentor.slug"
           class="person"
           :person="mentor"
@@ -26,28 +28,66 @@
         />
       </ul>
       <hr>
+
+      <!-- Mentees -->
       <h2 class="title">
         Mentees
       </h2>
       <ul class="persons">
         <Card
-          v-for="mentee in mentees"
+          v-for="mentee in postList.mentee.items"
           :key="mentee.slug"
           class="person"
           :person="mentee"
           person-type="mentee"
         />
       </ul>
+      <client-only>
+        <infinite-loading @infinite="loadMoreMentees" />
+      </client-only>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const mentees = await $content('mentees').fetch()
-    const mentors = await $content('mentors').fetch()
-    return { mentees, mentors }
+  async fetch () {
+    this.postList.mentor.items = await this.$content('mentors').fetch()
+    this.postList.mentee.items = await this.$content('mentees')
+      .limit(this.postList.mentee.limit)
+      .skip(this.postList.mentee.skip)
+      .fetch()
+  },
+  data () {
+    return {
+      postList: {
+        mentor: {
+          items: []
+        },
+        mentee: {
+          items: [],
+          limit: 16,
+          skip: 0
+        }
+      }
+    }
+  },
+  methods: {
+    async loadMoreMentees ($state) {
+      this.postList.mentee.skip += this.postList.mentee.limit
+
+      const mentees = await this.$content('mentees')
+        .limit(this.postList.mentee.limit)
+        .skip(this.postList.mentee.skip)
+        .fetch()
+
+      this.postList.mentee.items.push(...mentees)
+      $state.loaded()
+
+      if (mentees.length <= 0) {
+        $state.complete()
+      }
+    }
   }
 }
 </script>
