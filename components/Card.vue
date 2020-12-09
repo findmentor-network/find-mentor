@@ -2,17 +2,17 @@
   <div v-if="person" :class="`item ${personType}`" itemscope itemtype="https://schema.org/Person">
     <div class="social-media">
       <div v-if="person.twitter_handle.length" class="twitter">
-        <a :href="person.twitter_handle" itemprop="sameAs">
+        <a :href="person.twitter_handle" target="_blank" :title="`${person.name} twitter`" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" color="white" />
         </a>
       </div>
       <div v-if="person.github.length" class="github">
-        <a :href="person.github" itemprop="sameAs">
+        <a :href="person.github" target="_blank" :title="`${person.name} github`" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" color="white" />
         </a>
       </div>
       <div v-if="person.linkedin.length" class="linkedin">
-        <a :href="person.linkedin" itemprop="sameAs">
+        <a :href="person.linkedin" target="_blank" :title="`${person.name} linkedin`" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'linkedin']" color="white" />
         </a>
       </div>
