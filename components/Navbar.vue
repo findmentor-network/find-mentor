@@ -32,4 +32,9 @@ export default {
 .actve {
   color: red
 }
+
+.navbar-nav *, .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
 </style>
