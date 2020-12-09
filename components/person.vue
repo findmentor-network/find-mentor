@@ -1,25 +1,25 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile">
+      <ul class="profile" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" :alt="name" />
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
           </li>
           <div class="main">
-            <li v-if="name" class="name">
+            <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
             <hr />
-            <li v-if="interests && interests.length" class="text">
+            <li v-if="interests && interests.length" class="text" itemprop="seeks">
               <b>Interests:</b> {{ interests }}
             </li>
-            <li v-if="goals && goals.length" class="text">
+            <li v-if="goals && goals.length" class="text" itemprop="description">
               <b>Goals:</b> {{ goals }}
             </li>
             <div class="social-media-button">
               <li v-if="twitter.length" class="links">
-                <a :href="twitter" target="_blank">
+                <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
                     <font-awesome-icon
                       :icon="['fab', 'twitter']"
@@ -30,7 +30,7 @@
                 </a>
               </li>
               <li v-if="github.length" class="links">
-                <a :href="github" target="_blank">
+                <a :href="github" target="_blank" itemprop="sameAs">
                   <button class="button github">
                     <font-awesome-icon
                       :icon="['fab', 'github']"
@@ -41,7 +41,7 @@
                 </a>
               </li>
               <li v-if="linkedin.length" class="links">
-                <a :href="linkedin" target="_blank">
+                <a :href="linkedin" target="_blank" itemprop="sameAs">
                   <button class="button linkedin">
                     <font-awesome-icon
                       :icon="['fab', 'linkedin']"
@@ -63,6 +63,7 @@
             "
             target="_blank"
             rel="noopener noreferrer"
+            itemprop="url"
           >
             <qrcode
               class="qrcode"
