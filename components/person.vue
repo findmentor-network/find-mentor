@@ -56,6 +56,10 @@
             />
           </a>
         </li>
+        <a class="twitter-timeline" :v-if="twitter.length" data-width="50%" :href="twitter +'?ref_src=twsrc%5Etfw'">Tweets
+          by
+          {{ name }}</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </ul>
     </div>
   </div>
