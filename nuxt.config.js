@@ -101,7 +101,9 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // https://github.com/nuxt-community/feed-module
-    '@nuxtjs/feed'
+    '@nuxtjs/feed',
+    // https://content.nuxtjs.org/integrations#nuxtjssitemap
+    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -133,6 +135,26 @@ export default {
       data: ['mentees', 'Find a mentee.']
     }
   ],
+
+  sitemap: {
+    hostname: 'https://findmentor.network',
+    path: '/sitemap.xml',
+    cacheTime: 1000 * 60 * 60 * 2,
+    trailingSlash: true,
+    gzip: true,
+    routes: async () => {
+      const routes = []
+      const { $content } = require('@nuxt/content')
+
+      const mentors = await $content('mentors').fetch()
+      const mentees = await $content('mentees').fetch()
+
+      mentors.forEach(mentor => routes.push(`mentor/${mentor.slug}`))
+      mentees.forEach(mentee => routes.push(`mentee/${mentee.slug}`))
+
+      return routes
+    }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
