@@ -73,7 +73,7 @@
   },
   {
     "": "08.12.2020 02:03:52",
-    "name": "cem donmez",
+    "name": "Cem Dönmez",
     "twitter_handle": "https://twitter.com/dnmzcem",
     "github": "",
     "linkedin": "https://linkedin.com/in/ahmet-cem-d%C3%B6nmez-84599866",
@@ -81,7 +81,7 @@
     "goals": "I would like to improve programming skills and i believe that more solid steps can be taken with the exchange of ideas",
     "mentor": "Mentee",
     "slug": "cem-donmez",
-    "avatar": "https://ui-avatars.com/api/?name=cem donmez"
+    "avatar": "https://ui-avatars.com/api/?name=Cem Dönmez"
   },
   {
     "": "08.12.2020 02:09:04",
@@ -229,7 +229,7 @@
   },
   {
     "": "08.12.2020 10:07:04",
-    "name": "saadet yurt",
+    "name": "Saadet Yurt",
     "twitter_handle": "https://twitter.com/saaadetyurt",
     "github": "https://github.com/saadetyurt",
     "linkedin": "https://www.linkedin.com/in/saadet-yurt-064212181",
@@ -1034,7 +1034,7 @@
   {
     "": "09.12.2020 09:36:14",
     "name": "SİMAY YILMAZ",
-    "twitter_handle": "https://yilmazzsimay@twitter.com",
+    "twitter_handle": "https://twitter.com/yilmazzsimay",
     "github": "https://github.com/simayyilmaz",
     "linkedin": "https://www.linkedin.com/in/simay-yilmaz-",
     "interests": "fronted",
@@ -1117,7 +1117,7 @@
   },
   {
     "": "09.12.2020 13:22:57",
-    "name": "kadir kara",
+    "name": "Kadir Kara",
     "twitter_handle": "https://\ttwitter.com/kadirkara22",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/kadir-kara-850716201",
@@ -1125,7 +1125,7 @@
     "goals": "I want to improve myself in modern web development. \t\nI want to improve myself on Frontend Development and Backend Development.",
     "mentor": "Mentee",
     "slug": "kadir-kara",
-    "avatar": "https://ui-avatars.com/api/?name=kadir kara"
+    "avatar": "https://ui-avatars.com/api/?name=Kadir Kara"
   },
   {
     "": "09.12.2020 13:48:13",
@@ -1210,6 +1210,66 @@
     "mentor": "Mentee",
     "slug": "ufuk-cam",
     "avatar": "https://github.com/ufukcam.png?size=200"
+  },
+  {
+    "": "09.12.2020 15:48:02",
+    "name": "Kubilay Ürün",
+    "twitter_handle": "https://twitter.com/kubilayrn",
+    "github": "https://github.com/kubilayrn",
+    "linkedin": "https://www.linkedin.com/in/kubilayrn",
+    "interests": "backend,python,django",
+    "goals": "I want to learn ios development and then I will be freelance ios developer.",
+    "mentor": "Mentee",
+    "slug": "kubilay-urun",
+    "avatar": "https://github.com/kubilayrn.png?size=200"
+  },
+  {
+    "": "09.12.2020 16:14:09",
+    "name": "Özgür Özer",
+    "twitter_handle": "https://twitter.com/ozgrozer",
+    "github": "https://github.com/ozgrozer",
+    "linkedin": "https://www.linkedin.com/in/ozgrozer",
+    "interests": "Node.js, React.js",
+    "goals": "I want to be the world's first trillionaire.",
+    "mentor": "İkisi de",
+    "slug": "ozgur-ozer",
+    "avatar": "https://github.com/ozgrozer.png?size=200"
+  },
+  {
+    "": "09.12.2020 16:19:45",
+    "name": "Hüseyin Mert Öztürk",
+    "twitter_handle": "https://twitter.com/Desnf",
+    "github": "https://github.com/huseyinmertozturk",
+    "linkedin": "https://www.linkedin.com/in/huseyinmertozturk1991",
+    "interests": "Game Developlent, Mobile Application Development",
+    "goals": "I want to create my own 2D (or maybe 3D) games. ",
+    "mentor": "Mentee",
+    "slug": "huseyin-mert-ozturk",
+    "avatar": "https://github.com/huseyinmertozturk.png?size=200"
+  },
+  {
+    "": "09.12.2020 16:54:32",
+    "name": "Mustafa Akçakaya",
+    "twitter_handle": "https://twitter.com/mgsmus",
+    "github": "https://github.com/mgsmus",
+    "linkedin": "https://www.linkedin.com/in/mustafa-akcakaya",
+    "interests": "PHP, Laravel, Go",
+    "goals": "I want to learn Go before turning 40 :)",
+    "mentor": "İkisi de",
+    "slug": "mustafa-akcakaya",
+    "avatar": "https://github.com/mgsmus.png?size=200"
+  },
+  {
+    "": "09.12.2020 16:56:10",
+    "name": "Anıl",
+    "twitter_handle": "https://twitter.com/selvianl",
+    "github": "https://www.github.com/selvianl",
+    "linkedin": "https://www.linkedin.com/in/selvianl",
+    "interests": "go, python, js, docker",
+    "goals": "gain experience",
+    "mentor": "Mentee",
+    "slug": "anil",
+    "avatar": "https://www.github.com/selvianl.png?size=200"
   },
   {
     "": "",

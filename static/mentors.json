@@ -322,5 +322,23 @@
     "interests": "iOS, Swift, AUv3, MIDI, Indie Development",
     "slug": "cem-olcay",
     "avatar": "https://github.com/cemolcay.png?size=200"
+  },
+  {
+    "name": "Özgür Özer",
+    "twitter_handle": "https://twitter.com/ozgrozer",
+    "github": "https://github.com/ozgrozer",
+    "linkedin": "https://www.linkedin.com/in/ozgrozer",
+    "interests": "Node.js, React.js",
+    "slug": "ozgur-ozer",
+    "avatar": "https://github.com/ozgrozer.png?size=200"
+  },
+  {
+    "name": "Mustafa Akçakaya",
+    "twitter_handle": "https://twitter.com/mgsmus",
+    "github": "https://github.com/mgsmus",
+    "linkedin": "https://www.linkedin.com/in/mustafa-akcakaya",
+    "interests": "PHP, Laravel, Go",
+    "slug": "mustafa-akcakaya",
+    "avatar": "https://github.com/mgsmus.png?size=200"
   }
 ]
