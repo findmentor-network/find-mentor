@@ -1,26 +1,42 @@
 <template>
   <div class="mentor-item">
     <div class="social-media">
-      <div class="twitter">
+      <div v-if="mentor.twitter_handle.length" class="twitter">
         <a :href="mentor.twitter_handle">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'twitter']"
+            color="white"
+          />
         </a>
       </div>
-      <div class="github">
+      <div v-if="mentor.github.length" class="github">
         <a :href="mentor.github">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'github']"
+            color="white"
+          />
         </a>
       </div>
-      <div class="linkedin">
+      <div v-if="mentor.linkedin.length" class="linkedin">
         <a :href="mentor.linkedin">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'linkedin']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'linkedin']"
+            color="white"
+          />
         </a>
       </div>
     </div>
-    <div class="profile-photo">
-      <img :src="getProfilePicture(mentor.github)" alt="mentor-profile-picture" />
-    </div>
+
     <NuxtLink :to="'/mentor/' + mentor.slug">
+      <div class="profile-photo">
+        <img
+          :src="getProfilePicture(mentor.github)"
+          alt="mentor-profile-picture"
+        />
+      </div>
       <div class="name">
         {{ mentor.name }}
       </div>
@@ -37,11 +53,11 @@ export default {
   name: "mentor-card",
   props: ["mentor"],
   methods: {
-     getProfilePicture(githubLink) {
+    getProfilePicture(githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/;
       let response = githubLink.match(regex);
-      if(!response){
-        return "../assets/social-icons/dummy.png"
+      if (!response) {
+        return "https://raw.githubusercontent.com/cagataycali/find-mentor/master/assets/images/dummy.png";
       }
       let githubImage = `https://avatars.githubusercontent.com/${response[1]}`;
       console.log(githubImage);
@@ -57,12 +73,12 @@ export default {
   height: 320px;
   background-color: #17aa90;
   border-radius: 20px;
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   overflow: hidden;
 }
 
-.mentor-item:hover{
-  box-shadow: 16px 16px 16px rgba(11,11,11,.2); 
+.mentor-item:hover {
+  box-shadow: 16px 16px 16px rgba(11, 11, 11, 0.2);
 }
 
 .social-media {
@@ -108,13 +124,12 @@ export default {
   border: 2px solid white;
 }
 
-
 .name {
   color: white;
 }
 
 .mentor-interests {
-  color: #D6D5D5;
+  color: #d6d5d5;
 }
 
 .profile-photo,
@@ -125,5 +140,24 @@ export default {
   align-items: center;
 }
 
+@media (max-width: 626px) {
+  .mentor-item {
+    width: 300px;
+    height: 350px;
+  }
+  .twitter,
+  .github,
+  .linkedin {
+    width: 40px;
+    height: 46px;
+    margin-right: 20px;
+  }
 
+  .social-media-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 25px;
+  }
+}
 </style>

@@ -3,7 +3,7 @@
     <b-navbar>
       <b-navbar-nav>
         <b-nav-item href="/" left>
-          Find Mentor
+          <b>Find Mentor</b>
         </b-nav-item>
         <b-nav-item href="/mentees/">
           Mentees

@@ -1,26 +1,41 @@
 <template>
   <div class="item">
     <div class="social-media">
-      <div class="twitter">
+      <div v-if="mentee.twitter_handle.length" class="twitter">
         <a :href="mentee.twitter_handle">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'twitter']"
+            color="white"
+          />
         </a>
       </div>
-      <div class="github">
+      <div v-if="mentee.github.length" class="github">
         <a :href="mentee.github">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'github']"
+            color="white"
+          />
         </a>
       </div>
-      <div class="linkedin">
+      <div v-if="mentee.linkedin.length" class="linkedin">
         <a :href="mentee.linkedin">
-          <font-awesome-icon class="social-media-icon" :icon="['fab', 'linkedin']" color="white"/>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'linkedin']"
+            color="white"
+          />
         </a>
       </div>
-    </div>
-    <div class="profile-photo">
-      <img :src="getProfilePicture(mentee.github)" alt="mentee-profile-picture" />
     </div>
     <NuxtLink :to="'/mentee/' + mentee.slug">
+      <div class="profile-photo">
+        <img
+          :src="getProfilePicture(mentee.github)"
+          alt="mentee-profile-picture"
+        />
+      </div>
       <div class="name">
         {{ mentee.name }}
       </div>
@@ -37,11 +52,11 @@ export default {
   name: "mente-card",
   props: ["mentee"],
   methods: {
-     getProfilePicture(githubLink) {
+    getProfilePicture(githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/;
       let response = githubLink.match(regex);
-      if(!response){
-        return "../assets/social-icons/dummy.png"
+      if (!response) {
+        return "https://raw.githubusercontent.com/cagataycali/find-mentor/master/assets/images/dummy.png";
       }
       let githubImage = `https://avatars.githubusercontent.com/${response[1]}`;
       console.log(githubImage);
@@ -57,12 +72,12 @@ export default {
   height: 320px;
   background-color: #32475b;
   border-radius: 20px;
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   overflow: hidden;
 }
 
-.item:hover{
-  box-shadow: 16px 16px 16px rgba(11,11,11,.2); 
+.item:hover {
+  box-shadow: 16px 16px 16px rgba(11, 11, 11, 0.2);
 }
 
 .social-media {
@@ -122,5 +137,27 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 626px) {
+  .item {
+    width: 300px;
+    height: 350px;
+  }
+
+  .twitter,
+  .github,
+  .linkedin {
+    width: 40px;
+    height: 46px;
+    margin-right: 20px;
+  }
+
+  .social-media-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 25px;
+  }
 }
 </style>
