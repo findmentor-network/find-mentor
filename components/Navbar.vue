@@ -2,13 +2,13 @@
   <div>
     <b-navbar>
       <b-navbar-nav>
-        <b-nav-item href="/" left>
-          <b>Find Mentor</b>
-        </b-nav-item>
-        <b-nav-item href="/mentees/">
+        <b-navbar-brand to="/" left>
+          Find Mentor
+        </b-navbar-brand>
+        <b-nav-item exact active-class="active" to="/mentees/">
           Mentees
         </b-nav-item>
-        <b-nav-item href="/mentors/">
+        <b-nav-item exact active-class="active" to="/mentors/">
           Mentors
         </b-nav-item>
         <b-nav-item
@@ -28,6 +28,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.actve {
+  color: red
+}
 </style>
