@@ -13,7 +13,7 @@
     "twitter_handle": "https://twitter.com/fatih24yavuz",
     "github": "https://github.com/fatih-yavuz",
     "linkedin": "https://www.linkedin.com/in/fyvz",
-    "interests": "Backend, Python, JavaScript, Java",
+    "interests": "Backend, AWS, Python, JavaScript, Java",
     "slug": "fatih-yavuz",
     "avatar": "https://github.com/fatih-yavuz.png?size=200"
   },
@@ -313,5 +313,14 @@
     "interests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
     "slug": "bartu-ozel",
     "avatar": "https://github.com/BRTZL.png?size=200"
+  },
+  {
+    "name": "Cem Olcay",
+    "twitter_handle": "https://twitter.com/cem_olcay",
+    "github": "https://github.com/cemolcay",
+    "linkedin": "https://www.linkedin.com/in/cem-olcay-479a402a",
+    "interests": "iOS, Swift, AUv3, MIDI, Indie Development",
+    "slug": "cem-olcay",
+    "avatar": "https://github.com/cemolcay.png?size=200"
   }
 ]

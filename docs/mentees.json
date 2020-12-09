@@ -1164,6 +1164,54 @@
     "avatar": "https://github.com/el.png?size=200"
   },
   {
+    "": "09.12.2020 14:31:20",
+    "name": "Tayfun Şaan",
+    "twitter_handle": "https://twitter.com/tayfunsaan",
+    "github": "https://github.com/Senius",
+    "linkedin": "https://www.linkedin.com/in/tayfunsaan",
+    "interests": "Data Analysis, Marketing, Python",
+    "goals": "I want improve my programming skills in order to use them for academic purposes and create a new career path for myself.",
+    "mentor": "Mentee",
+    "slug": "tayfun-saan",
+    "avatar": "https://github.com/Senius.png?size=200"
+  },
+  {
+    "": "09.12.2020 14:43:39",
+    "name": "Burak Yılmaz",
+    "twitter_handle": "https://twitter.com/bbburakb",
+    "github": "https://github.com/burakyilmaz55",
+    "linkedin": "https://www.linkedin.com/in/burakyilmaz9765",
+    "interests": "Go Lang, Python, Django, Flask, pyinstaller",
+    "goals": "I am planning to make my real job software developer and been trying to learn coding since the beggining of pandemic.",
+    "mentor": "Mentee",
+    "slug": "burak-yilmaz",
+    "avatar": "https://github.com/burakyilmaz55.png?size=200"
+  },
+  {
+    "": "09.12.2020 14:59:06",
+    "name": "Enes Alper Balta",
+    "twitter_handle": "https://twitter.com/eabalta",
+    "github": "https://github.com/eabalta",
+    "linkedin": "https://www.linkedin.com/in/eabalta",
+    "interests": "Machine Learning, Image Processing, Frontend, Cyber Security",
+    "goals": "I wanna improve my programming skills before I graduate. ",
+    "mentor": "Mentee",
+    "slug": "enes-alper-balta",
+    "avatar": "https://github.com/eabalta.png?size=200"
+  },
+  {
+    "": "09.12.2020 15:09:24",
+    "name": "Ufuk Çam",
+    "twitter_handle": "https://twitter.com/ufukcam",
+    "github": "https://github.com/ufukcam",
+    "linkedin": "https://www.linkedin.com/in/ufukcam",
+    "interests": "frontend,backend",
+    "goals": "I want to further improve my entry-level knowledge.",
+    "mentor": "Mentee",
+    "slug": "ufuk-cam",
+    "avatar": "https://github.com/ufukcam.png?size=200"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
