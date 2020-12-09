@@ -5,7 +5,12 @@
 
 - [Kemal Ayhan](https://github.com/kemalayhan)
 - [Mücahit Bircan](https://github.com/mucahitbircan)
-- [Selcuk Tatar](https://github.com/tansionline)
+- [Selçuk Tatar](https://github.com/tansionline)
+- [Şevki ORUÇ](https://github.com/sevkioruc)
+- [Alihan Yılmaz](https://github.com/alihan)
+- [Adem Furkan ÖZCAN](https://github.com/Adem68)
+- [Mücahit Bircan](https://github.com/mucahitbircan)
+
 
 
 ## Build Setup
