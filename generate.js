@@ -26,7 +26,8 @@ const mapper = (posts) => {
 const generateAvatar = ({ name, github }) => {
   let avatar
   if (github) {
-    avatar = github + '.png?size=200'
+    const githubUsername = github.split('/')[3];
+    avatar = `https://avatars.githubusercontent.com/${githubUsername}`
   } else {
     avatar = `https://ui-avatars.com/api/?name=${name}`
   }
@@ -50,7 +51,7 @@ const clearData = (posts) => {
 
 async function getData () {
   try {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Mentors`
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees`
     let response = await got(url)
     response = JSON.parse(response.body)
     let [persons] = response.valueRanges

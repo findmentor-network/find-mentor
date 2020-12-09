@@ -79,6 +79,10 @@ export default {
           property: 'og:image:alt',
           content: this.doc.name
         }
+      ],
+      script: [
+        { src: '/disqus.js' },
+        { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' }
       ]
     }
   }

@@ -1,25 +1,25 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile">
+      <ul class="profile" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" :alt="name">
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
           </li>
           <div class="main">
-            <li v-if="name" class="name">
+            <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
             <hr>
-            <li v-if="interests && interests.length" class="text">
+            <li v-if="interests && interests.length" class="text" itemprop="seeks">
               <b>Interests:</b> {{ interests }}
             </li>
-            <li v-if="goals && goals.length" class="text">
+            <li v-if="goals && goals.length" class="text" itemprop="description">
               <b>Goals:</b> {{ goals }}
             </li>
             <div class="social-media-button">
               <li v-if="twitter.length" class="links">
-                <a :href="twitter" target="_blank">
+                <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
                     <font-awesome-icon
                       :icon="['fab', 'twitter']"
@@ -30,7 +30,7 @@
                 </a>
               </li>
               <li v-if="github.length" class="links">
-                <a :href="github" target="_blank">
+                <a :href="github" target="_blank" itemprop="sameAs">
                   <button class="button github">
                     <font-awesome-icon
                       :icon="['fab', 'github']"
@@ -41,7 +41,7 @@
                 </a>
               </li>
               <li v-if="linkedin.length" class="links">
-                <a :href="linkedin" target="_blank">
+                <a :href="linkedin" target="_blank" itemprop="sameAs">
                   <button class="button linkedin">
                     <font-awesome-icon
                       :icon="['fab', 'linkedin']"
@@ -59,6 +59,7 @@
             :href="`https://findmentor.network/peer/` + slug"
             target="_blank"
             rel="noopener noreferrer"
+            itemprop="url"
           >
             <qrcode
               class="qrcode"
@@ -78,25 +79,6 @@
         Gave Feedback
       </h2>
       <div id="disqus_thread" />
-      <script id="dsq-count-scr" src="//findmentor.disqus.com/count.js" async />
-      <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = window.location.href; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://findmentor.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       <hr>
       <Timeline
         v-if="twitter.length"

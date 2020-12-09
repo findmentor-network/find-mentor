@@ -1,41 +1,80 @@
 <template>
   <div class="container">
     <h1>Mentees</h1>
-    <input v-model="filter" class="filter" placeholder="Filter Mentees">
+    <input v-model="search.keyword" class="filter" placeholder="Search in Mentees" @input="searchMentee">
     <ul class="persons">
+      <h5 v-if="postList.mentee.items.length <= 0">
+        No results...
+      </h5>
       <Card
-        v-for="(mentee, index) in filteredMentees"
+        v-for="(mentee, index) in postList.mentee.items"
+        v-else
         :key="index"
         class="person"
         :person="mentee"
         person-type="mentee"
       />
     </ul>
+    <client-only>
+      <infinite-loading v-if="postList.mentee.items.length >= postList.mentee.limit && !search.isFilled" @infinite="loadMoreMentees" />
+    </client-only>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const mentees = await $content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } }).fetch()
-    return { mentees }
+  async fetch () {
+    this.postList.mentee.items = await this.$content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+      .limit(this.postList.mentee.limit)
+      .skip(this.postList.mentee.skip)
+      .fetch()
   },
   data () {
     return {
-      filter: null
+      search: {
+        keyword: null,
+        isFilled: false
+      },
+      postList: {
+        mentee: {
+          items: [],
+          limit: 16,
+          skip: 0
+        }
+      }
     }
   },
-  computed: {
-    filteredMentees () {
-      if (this.filter) {
-        return this.mentees.filter((mentee) => {
-          return this.filter
-            .toLowerCase()
-            .split(' ')
-            .every(v => mentee.name.toLowerCase().includes(v))
-        })
+  methods: {
+    async loadMoreMentees ($state) {
+      this.postList.mentee.skip += this.postList.mentee.limit
+
+      const mentees = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .limit(this.postList.mentee.limit)
+        .skip(this.postList.mentee.skip)
+        .fetch()
+
+      this.postList.mentee.items.push(...mentees)
+      $state.loaded()
+
+      if (mentees.length <= 0) {
+        $state.complete()
+      }
+    },
+    async searchMentee () {
+      const result = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .search(this.search.keyword)
+        .fetch()
+
+      if (this.search.keyword.length > 0) {
+        this.search.isFilled = true
+
+        this.postList.mentee.items = result
       } else {
-        return this.mentees
+        this.postList.mentee.skip = 0
+        this.$fetch()
+        this.search.isFilled = false
       }
     }
   }

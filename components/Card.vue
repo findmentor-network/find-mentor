@@ -1,26 +1,26 @@
 <template>
-  <div v-if="person" :class="`item ${personType}`">
+  <div v-if="person" :class="`item ${personType}`" itemscope itemtype="https://schema.org/Person">
     <div class="social-media">
       <div v-if="person.twitter_handle.length" class="twitter">
-        <a :href="person.twitter_handle">
+        <a :href="person.twitter_handle" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" color="white" />
         </a>
       </div>
       <div v-if="person.github.length" class="github">
-        <a :href="person.github">
+        <a :href="person.github" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" color="white" />
         </a>
       </div>
       <div v-if="person.linkedin.length" class="linkedin">
-        <a :href="person.linkedin">
+        <a :href="person.linkedin" itemprop="sameAs">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'linkedin']" color="white" />
         </a>
       </div>
     </div>
 
-    <NuxtLink :to="`/peer/${person.slug}`">
+    <NuxtLink :to="`/peer/${person.slug}`" itemprop="url">
       <div class="profile-photo">
-        <img :src="getProfilePicture(person.github)" alt="mentee-profile-picture">
+        <img :src="getProfilePicture(person.github)" alt="mentee-profile-picture" itemprop="image">
       </div>
 
       <div class="name">
@@ -28,7 +28,7 @@
       </div>
     </NuxtLink>
 
-    <div class="interests">
+    <div class="interests" itemprop="seeks">
       {{ person.interests }}
     </div>
   </div>
@@ -43,7 +43,7 @@ export default {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
-        return 'https://raw.githubusercontent.com/cagataycali/find-mentor/master/assets/images/dummy.png'
+        return 'https://findmentor.network/dummy.png'
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
     }
