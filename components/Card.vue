@@ -2,17 +2,17 @@
   <div v-if="person" :class="`item ${personType}`">
     <div class="social-media">
       <div v-if="person.twitter_handle.length" class="twitter">
-        <a :href="person.twitter_handle">
+        <a :href="person.twitter_handle" target="_blank" :title="`${person.name} twitter`">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" color="white" />
         </a>
       </div>
       <div v-if="person.github.length" class="github">
-        <a :href="person.github">
+        <a :href="person.github" target="_blank" :title="`${person.name} github`">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" color="white" />
         </a>
       </div>
       <div v-if="person.linkedin.length" class="linkedin">
-        <a :href="person.linkedin">
+        <a :href="person.linkedin" target="_blank" :title="`${person.name} linkedin`">
           <font-awesome-icon class="social-media-icon" :icon="['fab', 'linkedin']" color="white" />
         </a>
       </div>
