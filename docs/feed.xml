@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 13:38:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 14:27:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -880,6 +880,27 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <guid>https://findmentor.network/peer/alican-akca</guid>
             <description><![CDATA[ML and DL, Data Analyst(Python), C#]]></description>
             <content:encoded><![CDATA[I want to work in Data Science and Machine learning.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tolga Cesur]]></title>
+            <link>https://findmentor.network/peer/tolga-cesur</link>
+            <guid>https://findmentor.network/peer/tolga-cesur</guid>
+            <description><![CDATA[Javascript, Node.js React, React Native, IOT]]></description>
+            <content:encoded><![CDATA[I want to be worldwide developer in the future. That's why I'm here too.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hasan Soysal]]></title>
+            <link>https://findmentor.network/peer/hasan-soysal</link>
+            <guid>https://findmentor.network/peer/hasan-soysal</guid>
+            <description><![CDATA[iOS, Swift]]></description>
+            <content:encoded><![CDATA[I want to give a chance to those who have just graduated and have not yet gained experience. I want to create a class for 2 people and I want one of them to be a woman in order to increase the number of women in this mobile world.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Sedat Sipahi]]></title>
+            <link>https://findmentor.network/peer/sedat-sipahi</link>
+            <guid>https://findmentor.network/peer/sedat-sipahi</guid>
+            <description><![CDATA[Data Science, Big Data]]></description>
+            <content:encoded><![CDATA[I want to work in the field of Artificial Intelligence in the future]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
