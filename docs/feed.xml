@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 18:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 20:09:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -924,6 +924,14 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <content:encoded><![CDATA[I want to develop projects that will be followed around the world. That's why I'm here.]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Sıla SAVAŞ]]></title>
+            <link>https://findmentor.network/peer/sila-savas</link>
+            <guid>https://findmentor.network/peer/sila-savas</guid>
+            <description><![CDATA[Data analysis, deep learning, machine learning, business development ]]></description>
+            <content:encoded><![CDATA[ı want to learn more data analysis and python . 
+I want to learn what I can do]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Emsal Cengiz]]></title>
             <link>https://findmentor.network/peer/emsal-cengiz</link>
             <guid>https://findmentor.network/peer/emsal-cengiz</guid>
@@ -955,7 +963,7 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <title><![CDATA[Özgün Doğuş CAN]]></title>
             <link>https://findmentor.network/peer/ozgun-dogus-can</link>
             <guid>https://findmentor.network/peer/ozgun-dogus-can</guid>
-            <description><![CDATA[Mobile,Backend,frontend,AR&VR]]></description>
+            <description><![CDATA[Mobile, Backend, frontend, AR&VR]]></description>
             <content:encoded><![CDATA[ ı want to ımprove my self and be a good developer]]></content:encoded>
         </item>
         <item>
