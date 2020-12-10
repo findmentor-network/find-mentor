@@ -1416,6 +1416,30 @@
     "avatar": "https://avatars.githubusercontent.com/serbestemre"
   },
   {
+    "": "10.12.2020 11:59:00",
+    "name": "Adem Furkan ÖZCAN",
+    "twitter_handle": "https://twitter.com/AdemOzcanTR",
+    "github": "https://github.com/Adem68",
+    "linkedin": "https://www.linkedin.com/in/ademozcan",
+    "interests": "flutter, swiftui, frontend, backend",
+    "goals": "I can help with you about Flutter as a mentor. I want to learn golang as a mentee.",
+    "mentor": "İkisi de",
+    "slug": "adem-furkan-ozcan",
+    "avatar": "https://avatars.githubusercontent.com/Adem68"
+  },
+  {
+    "": "10.12.2020 12:57:41",
+    "name": "Raşit Çolakel",
+    "twitter_handle": "https://twitter.com/rasitcolakel",
+    "github": "https://github.com/rasitcolakel",
+    "linkedin": "https://tr.linkedin.com/in/rasitcolakel",
+    "interests": "Frontend(React JS, React Native), Backend(PHP, Node JS), devops",
+    "goals": "Full stack developer",
+    "mentor": "Mentee",
+    "slug": "rasit-colakel",
+    "avatar": "https://avatars.githubusercontent.com/rasitcolakel"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",

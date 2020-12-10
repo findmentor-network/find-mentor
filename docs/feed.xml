@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 08:24:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 10:11:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -859,6 +859,20 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <guid>https://findmentor.network/peer/emre-serbest</guid>
             <description><![CDATA[backend - javaScript & Java]]></description>
             <content:encoded><![CDATA[I want to be sure of what I know and be able to learn how to learn things in a quick and efficient way so that I can find my way in the new adventures.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Adem Furkan ÖZCAN]]></title>
+            <link>https://findmentor.network/peer/adem-furkan-ozcan</link>
+            <guid>https://findmentor.network/peer/adem-furkan-ozcan</guid>
+            <description><![CDATA[flutter, swiftui, frontend, backend]]></description>
+            <content:encoded><![CDATA[I can help with you about Flutter as a mentor. I want to learn golang as a mentee.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Raşit Çolakel]]></title>
+            <link>https://findmentor.network/peer/rasit-colakel</link>
+            <guid>https://findmentor.network/peer/rasit-colakel</guid>
+            <description><![CDATA[Frontend(React JS, React Native), Backend(PHP, Node JS), devops]]></description>
+            <content:encoded><![CDATA[Full stack developer]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
