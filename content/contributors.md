@@ -6,9 +6,15 @@
     .contr-image {
         border-radius: 100%;
         width: 8%; 
+        opacity: 0.7;
+        
     }
     .contr-image:hover {
-        width: 11%
+        opacity: 1;
+        transition: 0.7s;
+    }
+    .contr-a:hover {
+        color: white
     }
     
 </style>
