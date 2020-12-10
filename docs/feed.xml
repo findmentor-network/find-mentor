@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 22:24:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 22:27:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -958,6 +958,20 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/eyup-altindal</guid>
             <description><![CDATA[frontend, fullstack, devops]]></description>
             <content:encoded><![CDATA[i want to work full time remote, then i could move my hometown antalya]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatih Yavuz]]></title>
+            <link>https://findmentor.network/peer/fatih-yavuz</link>
+            <guid>https://findmentor.network/peer/fatih-yavuz</guid>
+            <description><![CDATA[Backend, AWS, Python, JavaScript, Java]]></description>
+            <content:encoded><![CDATA[Contribute to the community]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kerem Adalı]]></title>
+            <link>https://findmentor.network/peer/kerem-adali</link>
+            <guid>https://findmentor.network/peer/kerem-adali</guid>
+            <description><![CDATA[Game Development]]></description>
+            <content:encoded><![CDATA[I want to be a successfull game developer]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
