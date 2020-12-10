@@ -17,6 +17,11 @@
         >
           Register
         </b-nav-item>
+        <b-nav-item
+          to="/guide/"
+        >
+          How to Work?
+        </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>
