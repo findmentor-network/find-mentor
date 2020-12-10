@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 21:20:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 22:24:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -618,7 +618,7 @@ healthy, peaceful philosophist and person who eat good food at good restaurant :
             <title><![CDATA[SİMAY YILMAZ]]></title>
             <link>https://findmentor.network/peer/simay-yilmaz</link>
             <guid>https://findmentor.network/peer/simay-yilmaz</guid>
-            <description><![CDATA[fronted]]></description>
+            <description><![CDATA[frontend]]></description>
             <content:encoded><![CDATA[I want to change the world!]]></content:encoded>
         </item>
         <item>
@@ -1543,12 +1543,6 @@ i think I will be a better software developer with the experience of my mentor a
             <guid>https://findmentor.network/peer/bora-tanrikulu</guid>
             <description><![CDATA[Backend, Golang, Devops]]></description>
             <content:encoded><![CDATA[Kendini backend ve cloud native teknolojileri üzerine geliştirmek isteyen biri.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fatih Yavuz]]></title>
-            <link>https://findmentor.network/peer/fatih-yavuz</link>
-            <guid>https://findmentor.network/peer/fatih-yavuz</guid>
-            <description><![CDATA[Go :) ]]></description>
         </item>
         <item>
             <title><![CDATA[Erhan Yakut]]></title>
