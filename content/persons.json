@@ -81,7 +81,7 @@
     "goals": "I would like to improve programming skills and i believe that more solid steps can be taken with the exchange of ideas",
     "mentor": "Mentee",
     "slug": "cem-donmez",
-    "avatar": "https://ui-avatars.com/api/?name=Cem Dönmez"
+    "avatar": "https://ui-avatars.com/api/?name=Cem Dönmez&size=256"
   },
   {
     "": "08.12.2020 02:09:04",
@@ -129,7 +129,7 @@
     "goals": "I won't say a pretty words.I'm third year of undergraduate software engineering student.My university experince probably the worst.I failed all lectures and after the third semester I found myself with corona break as if reboot.I learnt about myself lots of thing like how can my brain work,how can i learn anything,doing research,keeping simple everything and challenge it etc.In brief if you accept me i will discover the software world with your help and my works but if don't happened dont worry this is just a luck maybe you wont read or do something.Take care.",
     "mentor": "Mentee",
     "slug": "tolga-cobanoglu",
-    "avatar": "https://ui-avatars.com/api/?name=Tolga Çobanoğlu"
+    "avatar": "https://ui-avatars.com/api/?name=Tolga Çobanoğlu&size=256"
   },
   {
     "": "08.12.2020 04:02:10",
@@ -273,7 +273,7 @@
     "goals": "I'm an enthusiastic, responsible and hard working person. I started learning myself to code a few years ago. I need a mentor for improve myself. ",
     "mentor": "Mentee",
     "slug": "mert-yigitcan",
-    "avatar": "https://ui-avatars.com/api/?name=Mert Yigitcan"
+    "avatar": "https://ui-avatars.com/api/?name=Mert Yigitcan&size=256"
   },
   {
     "": "08.12.2020 10:42:23",
@@ -441,7 +441,7 @@
     "goals": "I want to specialize in the topics I am interested in.",
     "mentor": "Mentee",
     "slug": "cem-acar",
-    "avatar": "https://ui-avatars.com/api/?name=Cem Acar"
+    "avatar": "https://ui-avatars.com/api/?name=Cem Acar&size=256"
   },
   {
     "": "08.12.2020 13:35:35",
@@ -470,14 +470,14 @@
   {
     "": "08.12.2020 13:56:38",
     "name": "Batuhan LÜLECİ",
-    "twitter_handle": "https://null.twitter.com",
-    "github": "https://null.github.com",
+    "twitter_handle": "",
+    "github": "",
     "linkedin": "https://www.linkedin.com/in/batuhan-luleci",
     "interests": "Game Developer",
     "goals": "Networking is everything,that is bring me into where i am stand now.",
     "mentor": "Mentee",
     "slug": "batuhan-luleci",
-    "avatar": "https://avatars.githubusercontent.com/undefined"
+    "avatar": "https://ui-avatars.com/api/?name=Batuhan LÜLECİ&size=256"
   },
   {
     "": "08.12.2020 14:35:19",
@@ -693,7 +693,7 @@
     "goals": "I am a 3rd grade student in management information systems. I want to develop myself in SQL, Python, Data Science. I am open to learning and development. I adapt to team work.",
     "mentor": "Mentee",
     "slug": "zeynep-aydemir",
-    "avatar": "https://ui-avatars.com/api/?name=Zeynep Aydemir"
+    "avatar": "https://ui-avatars.com/api/?name=Zeynep Aydemir&size=256"
   },
   {
     "": "08.12.2020 17:57:37",
@@ -1101,7 +1101,7 @@
     "goals": "I want to discuss about mobile application development, based on my 12 years experience on this field.",
     "mentor": "Mentor",
     "slug": "suleyman-calik",
-    "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık"
+    "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık&size=256"
   },
   {
     "": "09.12.2020 13:17:23",
@@ -1125,7 +1125,7 @@
     "goals": "I want to improve myself in modern web development. \t\nI want to improve myself on Frontend Development and Backend Development.",
     "mentor": "Mentee",
     "slug": "kadir-kara",
-    "avatar": "https://ui-avatars.com/api/?name=Kadir Kara"
+    "avatar": "https://ui-avatars.com/api/?name=Kadir Kara&size=256"
   },
   {
     "": "09.12.2020 13:48:13",
@@ -1137,7 +1137,7 @@
     "goals": "Alana giriş yapmak isteyen öğrenci veya geliştiricilere katkı sağlamak.",
     "mentor": "Mentor",
     "slug": "umut-can-altin",
-    "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın"
+    "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın&size=256"
   },
   {
     "": "09.12.2020 14:04:59",
@@ -1329,7 +1329,7 @@
     "goals": "Kendi projelerim için programlama yapmak",
     "mentor": "Mentee",
     "slug": "mustafa-sen",
-    "avatar": "https://ui-avatars.com/api/?name=Mustafa ŞEN"
+    "avatar": "https://ui-avatars.com/api/?name=Mustafa ŞEN&size=256"
   },
   {
     "": "09.12.2020 20:41:46",
@@ -1390,6 +1390,162 @@
     "mentor": "Mentor",
     "slug": "ali-murat-unsal",
     "avatar": "https://avatars.githubusercontent.com/alimuratunsal"
+  },
+  {
+    "": "10.12.2020 03:17:16",
+    "name": "Abdurrahman YILDIZ",
+    "twitter_handle": "https://twitter.com/akons99",
+    "github": "https://github.com/a-yldz",
+    "linkedin": "https://www.linkedin.com/in/abdurrahman-y%C4%B1ld%C4%B1z-506835182",
+    "interests": "embedded systems, risc-v",
+    "goals": "developing projects on risc-v",
+    "mentor": "Mentee",
+    "slug": "abdurrahman-yildiz",
+    "avatar": "https://avatars.githubusercontent.com/a-yldz"
+  },
+  {
+    "": "10.12.2020 09:23:31",
+    "name": "Alper Tabak",
+    "twitter_handle": "https://twitter.com/alpertab",
+    "github": "https://github.com/befy",
+    "linkedin": "https://linkedin.com/in/alpertabak",
+    "interests": "mobile (iOS), backend (go, js)",
+    "goals": "I will be a worldwide entrepreneur. I can be a mentor to people who need technical consultancy, I am here to learn new things and meet new people",
+    "mentor": "İkisi de",
+    "slug": "alper-tabak",
+    "avatar": "https://avatars.githubusercontent.com/befy"
+  },
+  {
+    "": "10.12.2020 10:12:26",
+    "name": "Ahmet Faruk Acar",
+    "twitter_handle": "https://twitter.com/ametacarr",
+    "github": "https://github.com/faacar",
+    "linkedin": "https://www.linkedin.com/in/ahmet-faruk-acar-8630aa141",
+    "interests": "IOS development ",
+    "goals": "I want to improve my skills and gain experience until graduate cs",
+    "mentor": "Mentee",
+    "slug": "ahmet-faruk-acar",
+    "avatar": "https://avatars.githubusercontent.com/faacar"
+  },
+  {
+    "": "10.12.2020 10:16:49",
+    "name": "Ali Gündoğdu",
+    "twitter_handle": "https://twitter.com/aligundogdu",
+    "github": "https://github.com/aligundogdu",
+    "linkedin": "https://www.linkedin.com/in/aligundogdu",
+    "interests": "frontend, backend",
+    "goals": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "mentor": "İkisi de",
+    "slug": "ali-gundogdu",
+    "avatar": "https://avatars.githubusercontent.com/aligundogdu"
+  },
+  {
+    "": "10.12.2020 11:10:36",
+    "name": "Emre Serbest",
+    "twitter_handle": "https://twitter.com/_emreserbest",
+    "github": "https://github.com/serbestemre",
+    "linkedin": "https://www.linkedin.com/in/serbestemre",
+    "interests": "backend - javaScript & Java",
+    "goals": "I want to be sure of what I know and be able to learn how to learn things in a quick and efficient way so that I can find my way in the new adventures.",
+    "mentor": "Mentee",
+    "slug": "emre-serbest",
+    "avatar": "https://avatars.githubusercontent.com/serbestemre"
+  },
+  {
+    "": "10.12.2020 11:59:00",
+    "name": "Adem Furkan ÖZCAN",
+    "twitter_handle": "https://twitter.com/AdemOzcanTR",
+    "github": "https://github.com/Adem68",
+    "linkedin": "https://www.linkedin.com/in/ademozcan",
+    "interests": "flutter, swiftui, frontend, backend",
+    "goals": "I can help with you about Flutter as a mentor. I want to learn golang as a mentee.",
+    "mentor": "İkisi de",
+    "slug": "adem-furkan-ozcan",
+    "avatar": "https://avatars.githubusercontent.com/Adem68"
+  },
+  {
+    "": "10.12.2020 12:57:41",
+    "name": "Raşit Çolakel",
+    "twitter_handle": "https://twitter.com/rasitcolakel",
+    "github": "https://github.com/rasitcolakel",
+    "linkedin": "https://tr.linkedin.com/in/rasitcolakel",
+    "interests": "Frontend(React JS, React Native), Backend(PHP, Node JS), devops",
+    "goals": "Full stack developer",
+    "mentor": "Mentee",
+    "slug": "rasit-colakel",
+    "avatar": "https://avatars.githubusercontent.com/rasitcolakel"
+  },
+  {
+    "": "10.12.2020 14:34:41",
+    "name": "Alican AKCA",
+    "twitter_handle": "https://twitter.com/alicanakca_",
+    "github": "https://github.com/AlicanAKCA",
+    "linkedin": "https://www.linkedin.com/in/alican-akca-123736190",
+    "interests": "ML and DL, Data Analyst(Python), C#",
+    "goals": "I want to work in Data Science and Machine learning.",
+    "mentor": "Mentor",
+    "slug": "alican-akca",
+    "avatar": "https://avatars.githubusercontent.com/AlicanAKCA"
+  },
+  {
+    "": "10.12.2020 16:43:41",
+    "name": "Tolga Cesur",
+    "twitter_handle": "https://twitter.com/tolga_cesur",
+    "github": "https://github.com/tolgacesur",
+    "linkedin": "https://www.linkedin.com/in/tolgacesur",
+    "interests": "Javascript, Node.js React, React Native, IOT",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here too.",
+    "mentor": "İkisi de",
+    "slug": "tolga-cesur",
+    "avatar": "https://avatars.githubusercontent.com/tolgacesur"
+  },
+  {
+    "": "10.12.2020 17:16:03",
+    "name": "Hasan Soysal",
+    "twitter_handle": "https://twitter.com/hsnsysl",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/hasan-soysal",
+    "interests": "iOS, Swift",
+    "goals": "I want to give a chance to those who have just graduated and have not yet gained experience. I want to create a class for 2 people and I want one of them to be a woman in order to increase the number of women in this mobile world.",
+    "mentor": "Mentor",
+    "slug": "hasan-soysal",
+    "avatar": "https://ui-avatars.com/api/?name=Hasan Soysal&size=256"
+  },
+  {
+    "": "10.12.2020 17:18:47",
+    "name": "Sedat Sipahi",
+    "twitter_handle": "https://twitter.com/mr_sipahii",
+    "github": "https://github.com/MrSipahi",
+    "linkedin": "https://www.linkedin.com/in/sedat-sipahi",
+    "interests": "Data Science, Big Data",
+    "goals": "I want to work in the field of Artificial Intelligence in the future",
+    "mentor": "Mentee",
+    "slug": "sedat-sipahi",
+    "avatar": "https://avatars.githubusercontent.com/MrSipahi"
+  },
+  {
+    "": "10.12.2020 19:05:46",
+    "name": "Volkan Oluc",
+    "twitter_handle": "https://twitter.com/olucvolkan",
+    "github": "https://github.com/olucvolkan",
+    "linkedin": "https://www.linkedin.com/in/volkan-oluc",
+    "interests": "backend, symfony,php, golang, devops",
+    "goals": "I want to be awesome backend developer. I also want to improve myself in the field of devops.",
+    "mentor": "İkisi de",
+    "slug": "volkan-oluc",
+    "avatar": "https://avatars.githubusercontent.com/olucvolkan"
+  },
+  {
+    "": "10.12.2020 19:28:24",
+    "name": "Mahmut Yıldız",
+    "twitter_handle": "https://twitter.com/mahmuttyildiz",
+    "github": "https://github.com/mahmuttyildiz",
+    "linkedin": "https://www.linkedin.com/in/mahmut-yildiz",
+    "interests": "frontend",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "mahmut-yildiz",
+    "avatar": "https://avatars.githubusercontent.com/mahmuttyildiz"
   },
   {
     "": "",
@@ -1761,7 +1917,7 @@
     "goals": "",
     "mentor": "Mentee",
     "slug": "halit-kara",
-    "avatar": "https://ui-avatars.com/api/?name=Halit KARA"
+    "avatar": "https://ui-avatars.com/api/?name=Halit KARA&size=256"
   },
   {
     "": "",
@@ -1941,7 +2097,7 @@
     "goals": "I am an industrial engineering student. I am learning Python. I want to improve myself more in these areas in 2021.",
     "mentor": "Mentee",
     "slug": "selin-bulut",
-    "avatar": "https://ui-avatars.com/api/?name=Selin Bulut"
+    "avatar": "https://ui-avatars.com/api/?name=Selin Bulut&size=256"
   },
   {
     "": "",
@@ -2145,7 +2301,7 @@
     "goals": "I am a 23 year old computer engineering student. There are so many things I want to do. For this, I have to improve myself very well. I have a lot of things to learn. I want to write my name in Turkish and World history with golden letters.",
     "mentor": "Mentee",
     "slug": "talha-karaca",
-    "avatar": "https://ui-avatars.com/api/?name=Talha Karaca"
+    "avatar": "https://ui-avatars.com/api/?name=Talha Karaca&size=256"
   },
   {
     "": "",
@@ -2295,13 +2451,13 @@
     "": "",
     "name": "Ege Cavusoglu",
     "twitter_handle": "https://twitter.com/egecavusoglu_",
-    "github": "https://github.com",
+    "github": "",
     "linkedin": "https://www.linkedin.com/in/egecavusoglu",
     "interests": "JS and Swift, full stack. entrepreneurship",
     "goals": "I can build stuff, but need assistance with planning and best practises.",
     "mentor": "Mentee",
     "slug": "ege-cavusoglu",
-    "avatar": "https://avatars.githubusercontent.com/undefined"
+    "avatar": "https://ui-avatars.com/api/?name=Ege Cavusoglu&size=256"
   },
   {
     "": "",
@@ -2373,7 +2529,7 @@
     "goals": "Front-end development alanında kendimi geliştirmek ve  bu alanda iş sahibi olmak istiyorum. ",
     "mentor": "Mentee",
     "slug": "seyma-keskin",
-    "avatar": "https://ui-avatars.com/api/?name=Seyma Keskin"
+    "avatar": "https://ui-avatars.com/api/?name=Seyma Keskin&size=256"
   },
   {
     "": "",
@@ -2425,30 +2581,6 @@
   },
   {
     "": "",
-    "name": "Adem Furkan ÖZCAN",
-    "twitter_handle": "https://twitter.com/AdemOzcanTR",
-    "github": "https://github.com/Adem68",
-    "linkedin": "",
-    "interests": "Go",
-    "goals": "I want to learn Golang (:",
-    "mentor": "İkisi de",
-    "slug": "adem-furkan-ozcan",
-    "avatar": "https://avatars.githubusercontent.com/Adem68"
-  },
-  {
-    "": "",
-    "name": "Furkan BAYRAM",
-    "twitter_handle": "https://twitter.com/frknbayram1",
-    "github": "https://github.com/fbayram",
-    "linkedin": "https://www.linkedin.com/in/furkan-bayram-313124137",
-    "interests": "Frontend, Backend, Devops, PMI",
-    "goals": "I am currently working as a  mainly Software Project Manager. Besides i am working as a developer. But my improve slow as a developer. So i want to improve my tech skills while working as a Project manager. ",
-    "mentor": "Mentee",
-    "slug": "furkan-bayram",
-    "avatar": "https://avatars.githubusercontent.com/fbayram"
-  },
-  {
-    "": "",
     "name": "Erhan Yakut",
     "twitter_handle": "https://twitter.com/yakuter",
     "github": "https://github.com/yakuter",
@@ -2485,18 +2617,6 @@
   },
   {
     "": "",
-    "name": "Alihan SARAÇ",
-    "twitter_handle": "https://twitter.com/saracaIihan",
-    "github": "https://github.com/saracalihan",
-    "linkedin": "https://www.linkedin.com/in/alihan-sara%C3%A7-ba75a319a",
-    "interests": "Frontend, Backend, Robotic, Node.js, Vue.js, React-Native, Electron.js, Cross platform, Embedded systems, C/C++",
-    "goals": "I am a 2nd grade computer science student. I am interested in the cross platform, so I enjoy developing javascript based applications. I am at the level to develop projects on my own with Node.js and Vue.js. I am try code react-native. I have recently started learning Electron.js.I need someone with experience to ask a question and will give advice.On the free time i am coding robotic and embedded systems.I use raspberry, esp32 and arduino as a board.Todays i try to code 2d mapping controoled robot with solar sensor.It will comminicate with compuetr, db and control it self otomaticly or human based",
-    "mentor": "Mentee",
-    "slug": "alihan-sarac",
-    "avatar": "https://avatars.githubusercontent.com/saracalihan"
-  },
-  {
-    "": "",
     "name": "Emir MERTOĞLU",
     "twitter_handle": "https://twitter.com/emirxmertoglu",
     "github": "https://github.com/emirxmertoglu",
@@ -2529,7 +2649,7 @@
     "goals": "Go, Vue.js",
     "mentor": "Mentee",
     "slug": "nesibe-elif-onder",
-    "avatar": "https://ui-avatars.com/api/?name=Nesibe Elif Önder"
+    "avatar": "https://ui-avatars.com/api/?name=Nesibe Elif Önder&size=256"
   },
   {
     "": "",
@@ -2669,7 +2789,7 @@
     "twitter_handle": "https://twitter.com/05karayel05",
     "github": "https://github.com/ogulcankarayel5",
     "linkedin": "https://www.linkedin.com/in/ogulcan-karayell",
-    "interests": "Frontend(react),Mobile development(react native)",
+    "interests": "Frontend (React), Mobile development (React Native)",
     "goals": "I've now graduated and I want to improve myself and I think with a mentor it will be better option for me",
     "mentor": "Mentee",
     "slug": "ogulcan-karayel",
@@ -2697,7 +2817,7 @@
     "goals": "Python bilgim temel düzeydedir. İstatistik 2. Sınıf öğrencisiyim. Ayrıca açıktan Yönetim Bilişim Sistemleri okuyorum. Veri Bilimi alanında projeler geliştirmek istiyorum. ",
     "mentor": "Mentee",
     "slug": "halil-ozgur-celik",
-    "avatar": "https://ui-avatars.com/api/?name=Halil Özgür Çelik"
+    "avatar": "https://ui-avatars.com/api/?name=Halil Özgür Çelik&size=256"
   },
   {
     "": "",
@@ -2709,7 +2829,7 @@
     "goals": "I haven't graduated yet and I want to improve software development. I want to experience by participating in project groups",
     "mentor": "Mentee",
     "slug": "furkan-yilmaz",
-    "avatar": "https://ui-avatars.com/api/?name=Furkan Yılmaz"
+    "avatar": "https://ui-avatars.com/api/?name=Furkan Yılmaz&size=256"
   },
   {
     "": "",
@@ -2741,7 +2861,7 @@
     "twitter_handle": "https://twitter.com/nowo1",
     "github": "https://github.com/nowo",
     "linkedin": "https://www.linkedin.com/in/erdal-burak-cinar",
-    "interests": "Go ,DevOps",
+    "interests": "Go, DevOps",
     "goals": "I am a student who works full time and working on big side project. I push my self really hard and i need mentor on this way",
     "mentor": "Mentee",
     "slug": "erdal-burak-cinar",
@@ -2757,7 +2877,7 @@
     "goals": "As a 4th grade Electrical&Electronics Engineering student, I want to improve my embedded software skills before I graduate.",
     "mentor": "Mentee",
     "slug": "melih-goner",
-    "avatar": "https://ui-avatars.com/api/?name=Melih Goner"
+    "avatar": "https://ui-avatars.com/api/?name=Melih Goner&size=256"
   },
   {
     "": "",
@@ -2907,13 +3027,13 @@
     "": "",
     "name": "Ömer Aksu",
     "twitter_handle": "https://twitter.com/aksuomeer",
-    "github": "https://github.com/omeraksu, behance.com/omeraksu, www.figma.com/@omeraksu",
+    "github": "https://github.com/omeraksu",
     "linkedin": "https://www.linkedin.com/in/aksuomeer",
     "interests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
     "goals": "I am telling stories by design and coding.",
     "mentor": "İkisi de",
     "slug": "omer-aksu",
-    "avatar": "https://avatars.githubusercontent.com/omeraksu, behance.com"
+    "avatar": "https://avatars.githubusercontent.com/omeraksu"
   },
   {
     "": "",
@@ -2949,7 +3069,7 @@
     "goals": "4 yıldır dijital pazarlama danışmanlığı veren startup ajansta çalılşıyorum. Kendime zorlayıcı challengelar arıyorum",
     "mentor": "Mentee",
     "slug": "aydan-deniz-taskiran",
-    "avatar": "https://ui-avatars.com/api/?name=Aydan Deniz Taşkıran"
+    "avatar": "https://ui-avatars.com/api/?name=Aydan Deniz Taşkıran&size=256"
   },
   {
     "": "",
@@ -3093,7 +3213,7 @@
     "goals": "",
     "mentor": "Mentor",
     "slug": "murat-demirci",
-    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci"
+    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci&size=256"
   },
   {
     "": "",
@@ -3141,7 +3261,7 @@
     "goals": "I'm here to help companies and individuals do things that unlock their potential.",
     "mentor": "Mentor",
     "slug": "giray-batiturk",
-    "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK"
+    "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK&size=256"
   },
   {
     "": "",

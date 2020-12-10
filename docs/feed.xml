@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Wed, 09 Dec 2020 21:48:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 16:53:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -826,6 +826,97 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <content:encoded><![CDATA[I want to share my experiences and knowledge about DevOps with young talents. That’s why I’m here.]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Abdurrahman YILDIZ]]></title>
+            <link>https://findmentor.network/peer/abdurrahman-yildiz</link>
+            <guid>https://findmentor.network/peer/abdurrahman-yildiz</guid>
+            <description><![CDATA[embedded systems, risc-v]]></description>
+            <content:encoded><![CDATA[developing projects on risc-v]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Alper Tabak]]></title>
+            <link>https://findmentor.network/peer/alper-tabak</link>
+            <guid>https://findmentor.network/peer/alper-tabak</guid>
+            <description><![CDATA[mobile (iOS), backend (go, js)]]></description>
+            <content:encoded><![CDATA[I will be a worldwide entrepreneur. I can be a mentor to people who need technical consultancy, I am here to learn new things and meet new people]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ahmet Faruk Acar]]></title>
+            <link>https://findmentor.network/peer/ahmet-faruk-acar</link>
+            <guid>https://findmentor.network/peer/ahmet-faruk-acar</guid>
+            <description><![CDATA[IOS development ]]></description>
+            <content:encoded><![CDATA[I want to improve my skills and gain experience until graduate cs]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ali Gündoğdu]]></title>
+            <link>https://findmentor.network/peer/ali-gundogdu</link>
+            <guid>https://findmentor.network/peer/ali-gundogdu</guid>
+            <description><![CDATA[frontend, backend]]></description>
+            <content:encoded><![CDATA[Live as if you were to die tomorrow. Learn as if you were to live forever.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Emre Serbest]]></title>
+            <link>https://findmentor.network/peer/emre-serbest</link>
+            <guid>https://findmentor.network/peer/emre-serbest</guid>
+            <description><![CDATA[backend - javaScript & Java]]></description>
+            <content:encoded><![CDATA[I want to be sure of what I know and be able to learn how to learn things in a quick and efficient way so that I can find my way in the new adventures.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Adem Furkan ÖZCAN]]></title>
+            <link>https://findmentor.network/peer/adem-furkan-ozcan</link>
+            <guid>https://findmentor.network/peer/adem-furkan-ozcan</guid>
+            <description><![CDATA[flutter, swiftui, frontend, backend]]></description>
+            <content:encoded><![CDATA[I can help with you about Flutter as a mentor. I want to learn golang as a mentee.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Raşit Çolakel]]></title>
+            <link>https://findmentor.network/peer/rasit-colakel</link>
+            <guid>https://findmentor.network/peer/rasit-colakel</guid>
+            <description><![CDATA[Frontend(React JS, React Native), Backend(PHP, Node JS), devops]]></description>
+            <content:encoded><![CDATA[Full stack developer]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Alican AKCA]]></title>
+            <link>https://findmentor.network/peer/alican-akca</link>
+            <guid>https://findmentor.network/peer/alican-akca</guid>
+            <description><![CDATA[ML and DL, Data Analyst(Python), C#]]></description>
+            <content:encoded><![CDATA[I want to work in Data Science and Machine learning.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tolga Cesur]]></title>
+            <link>https://findmentor.network/peer/tolga-cesur</link>
+            <guid>https://findmentor.network/peer/tolga-cesur</guid>
+            <description><![CDATA[Javascript, Node.js React, React Native, IOT]]></description>
+            <content:encoded><![CDATA[I want to be worldwide developer in the future. That's why I'm here too.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hasan Soysal]]></title>
+            <link>https://findmentor.network/peer/hasan-soysal</link>
+            <guid>https://findmentor.network/peer/hasan-soysal</guid>
+            <description><![CDATA[iOS, Swift]]></description>
+            <content:encoded><![CDATA[I want to give a chance to those who have just graduated and have not yet gained experience. I want to create a class for 2 people and I want one of them to be a woman in order to increase the number of women in this mobile world.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Sedat Sipahi]]></title>
+            <link>https://findmentor.network/peer/sedat-sipahi</link>
+            <guid>https://findmentor.network/peer/sedat-sipahi</guid>
+            <description><![CDATA[Data Science, Big Data]]></description>
+            <content:encoded><![CDATA[I want to work in the field of Artificial Intelligence in the future]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Volkan Oluc]]></title>
+            <link>https://findmentor.network/peer/volkan-oluc</link>
+            <guid>https://findmentor.network/peer/volkan-oluc</guid>
+            <description><![CDATA[backend, symfony,php, golang, devops]]></description>
+            <content:encoded><![CDATA[I want to be awesome backend developer. I also want to improve myself in the field of devops.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mahmut Yıldız]]></title>
+            <link>https://findmentor.network/peer/mahmut-yildiz</link>
+            <guid>https://findmentor.network/peer/mahmut-yildiz</guid>
+            <description><![CDATA[frontend]]></description>
+            <content:encoded><![CDATA[I want to be worldwide developer in the future. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Emsal Cengiz]]></title>
             <link>https://findmentor.network/peer/emsal-cengiz</link>
             <guid>https://findmentor.network/peer/emsal-cengiz</guid>
@@ -1417,20 +1508,6 @@ i think I will be a better software developer with the experience of my mentor a
             <description><![CDATA[Go :) ]]></description>
         </item>
         <item>
-            <title><![CDATA[Adem Furkan ÖZCAN]]></title>
-            <link>https://findmentor.network/peer/adem-furkan-ozcan</link>
-            <guid>https://findmentor.network/peer/adem-furkan-ozcan</guid>
-            <description><![CDATA[Go]]></description>
-            <content:encoded><![CDATA[I want to learn Golang (:]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Furkan BAYRAM]]></title>
-            <link>https://findmentor.network/peer/furkan-bayram</link>
-            <guid>https://findmentor.network/peer/furkan-bayram</guid>
-            <description><![CDATA[Frontend, Backend, Devops, PMI]]></description>
-            <content:encoded><![CDATA[I am currently working as a  mainly Software Project Manager. Besides i am working as a developer. But my improve slow as a developer. So i want to improve my tech skills while working as a Project manager. ]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Erhan Yakut]]></title>
             <link>https://findmentor.network/peer/erhan-yakut</link>
             <guid>https://findmentor.network/peer/erhan-yakut</guid>
@@ -1450,13 +1527,6 @@ i think I will be a better software developer with the experience of my mentor a
             <guid>https://findmentor.network/peer/ahmet-selim-kaya</guid>
             <description><![CDATA[Go, Backend]]></description>
             <content:encoded><![CDATA[I am currently working with Golang in my job. I want to improve myself at Golang.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Alihan SARAÇ]]></title>
-            <link>https://findmentor.network/peer/alihan-sarac</link>
-            <guid>https://findmentor.network/peer/alihan-sarac</guid>
-            <description><![CDATA[Frontend, Backend, Robotic, Node.js, Vue.js, React-Native, Electron.js, Cross platform, Embedded systems, C/C++]]></description>
-            <content:encoded><![CDATA[I am a 2nd grade computer science student. I am interested in the cross platform, so I enjoy developing javascript based applications. I am at the level to develop projects on my own with Node.js and Vue.js. I am try code react-native. I have recently started learning Electron.js.I need someone with experience to ask a question and will give advice.On the free time i am coding robotic and embedded systems.I use raspberry, esp32 and arduino as a board.Todays i try to code 2d mapping controoled robot with solar sensor.It will comminicate with compuetr, db and control it self otomaticly or human based]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emir MERTOĞLU]]></title>
@@ -1559,7 +1629,7 @@ i think I will be a better software developer with the experience of my mentor a
             <title><![CDATA[Oğulcan KARAYEL]]></title>
             <link>https://findmentor.network/peer/ogulcan-karayel</link>
             <guid>https://findmentor.network/peer/ogulcan-karayel</guid>
-            <description><![CDATA[Frontend(react),Mobile development(react native)]]></description>
+            <description><![CDATA[Frontend (React), Mobile development (React Native)]]></description>
             <content:encoded><![CDATA[I've now graduated and I want to improve myself and I think with a mentor it will be better option for me]]></content:encoded>
         </item>
         <item>
@@ -1601,7 +1671,7 @@ i think I will be a better software developer with the experience of my mentor a
             <title><![CDATA[Erdal Burak Çınar]]></title>
             <link>https://findmentor.network/peer/erdal-burak-cinar</link>
             <guid>https://findmentor.network/peer/erdal-burak-cinar</guid>
-            <description><![CDATA[Go ,DevOps]]></description>
+            <description><![CDATA[Go, DevOps]]></description>
             <content:encoded><![CDATA[I am a student who works full time and working on big side project. I push my self really hard and i need mentor on this way]]></content:encoded>
         </item>
         <item>

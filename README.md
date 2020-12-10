@@ -11,11 +11,14 @@
 - [Şevki ORUÇ](https://github.com/sevkioruc)
 - [Alihan Yılmaz](https://github.com/alihan)
 - [Adem Furkan ÖZCAN](https://github.com/Adem68)
-- [Mücahit Bircan](https://github.com/mucahitbircan)
-- [Selim Doyranlı](https://github.com/selimdoyranli)
 - [Alper Çün](https://github.com/alpercun)
-
-
+- [Selim Doyranlı](https://github.com/selimdoyranli)
+- [Hasan Tezcan](https://github.com/hasantezcan)
+- [Mevlüt Canvar](https://github.com/crx4)
+- [Onur Aksar](https://github.com/onuraksar)
+- [Mesut Çifci](https://github.com/mesutcifci)
+- [Buğra Yıldız](https://github.com/flurach)
+- [Ahmet Elgün](https://github.com/ahmetelgun)
 
 ## Build Setup
 

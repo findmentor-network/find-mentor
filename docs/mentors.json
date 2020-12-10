@@ -129,7 +129,7 @@
     "goals": "I want to discuss about mobile application development, based on my 12 years experience on this field.",
     "mentor": "Mentor",
     "slug": "suleyman-calik",
-    "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık"
+    "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık&size=256"
   },
   {
     "": "09.12.2020 13:48:13",
@@ -141,7 +141,7 @@
     "goals": "Alana giriş yapmak isteyen öğrenci veya geliştiricilere katkı sağlamak.",
     "mentor": "Mentor",
     "slug": "umut-can-altin",
-    "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın"
+    "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın&size=256"
   },
   {
     "": "09.12.2020 14:04:59",
@@ -204,6 +204,90 @@
     "avatar": "https://avatars.githubusercontent.com/alimuratunsal"
   },
   {
+    "": "10.12.2020 09:23:31",
+    "name": "Alper Tabak",
+    "twitter_handle": "https://twitter.com/alpertab",
+    "github": "https://github.com/befy",
+    "linkedin": "https://linkedin.com/in/alpertabak",
+    "interests": "mobile (iOS), backend (go, js)",
+    "goals": "I will be a worldwide entrepreneur. I can be a mentor to people who need technical consultancy, I am here to learn new things and meet new people",
+    "mentor": "İkisi de",
+    "slug": "alper-tabak",
+    "avatar": "https://avatars.githubusercontent.com/befy"
+  },
+  {
+    "": "10.12.2020 10:16:49",
+    "name": "Ali Gündoğdu",
+    "twitter_handle": "https://twitter.com/aligundogdu",
+    "github": "https://github.com/aligundogdu",
+    "linkedin": "https://www.linkedin.com/in/aligundogdu",
+    "interests": "frontend, backend",
+    "goals": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "mentor": "İkisi de",
+    "slug": "ali-gundogdu",
+    "avatar": "https://avatars.githubusercontent.com/aligundogdu"
+  },
+  {
+    "": "10.12.2020 11:59:00",
+    "name": "Adem Furkan ÖZCAN",
+    "twitter_handle": "https://twitter.com/AdemOzcanTR",
+    "github": "https://github.com/Adem68",
+    "linkedin": "https://www.linkedin.com/in/ademozcan",
+    "interests": "flutter, swiftui, frontend, backend",
+    "goals": "I can help with you about Flutter as a mentor. I want to learn golang as a mentee.",
+    "mentor": "İkisi de",
+    "slug": "adem-furkan-ozcan",
+    "avatar": "https://avatars.githubusercontent.com/Adem68"
+  },
+  {
+    "": "10.12.2020 14:34:41",
+    "name": "Alican AKCA",
+    "twitter_handle": "https://twitter.com/alicanakca_",
+    "github": "https://github.com/AlicanAKCA",
+    "linkedin": "https://www.linkedin.com/in/alican-akca-123736190",
+    "interests": "ML and DL, Data Analyst(Python), C#",
+    "goals": "I want to work in Data Science and Machine learning.",
+    "mentor": "Mentor",
+    "slug": "alican-akca",
+    "avatar": "https://avatars.githubusercontent.com/AlicanAKCA"
+  },
+  {
+    "": "10.12.2020 16:43:41",
+    "name": "Tolga Cesur",
+    "twitter_handle": "https://twitter.com/tolga_cesur",
+    "github": "https://github.com/tolgacesur",
+    "linkedin": "https://www.linkedin.com/in/tolgacesur",
+    "interests": "Javascript, Node.js React, React Native, IOT",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here too.",
+    "mentor": "İkisi de",
+    "slug": "tolga-cesur",
+    "avatar": "https://avatars.githubusercontent.com/tolgacesur"
+  },
+  {
+    "": "10.12.2020 17:16:03",
+    "name": "Hasan Soysal",
+    "twitter_handle": "https://twitter.com/hsnsysl",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/hasan-soysal",
+    "interests": "iOS, Swift",
+    "goals": "I want to give a chance to those who have just graduated and have not yet gained experience. I want to create a class for 2 people and I want one of them to be a woman in order to increase the number of women in this mobile world.",
+    "mentor": "Mentor",
+    "slug": "hasan-soysal",
+    "avatar": "https://ui-avatars.com/api/?name=Hasan Soysal&size=256"
+  },
+  {
+    "": "10.12.2020 19:05:46",
+    "name": "Volkan Oluc",
+    "twitter_handle": "https://twitter.com/olucvolkan",
+    "github": "https://github.com/olucvolkan",
+    "linkedin": "https://www.linkedin.com/in/volkan-oluc",
+    "interests": "backend, symfony,php, golang, devops",
+    "goals": "I want to be awesome backend developer. I also want to improve myself in the field of devops.",
+    "mentor": "İkisi de",
+    "slug": "volkan-oluc",
+    "avatar": "https://avatars.githubusercontent.com/olucvolkan"
+  },
+  {
     "": "",
     "name": "Ali Osman Beşinci",
     "twitter_handle": "https://twitter.com/aobesinci",
@@ -250,18 +334,6 @@
     "mentor": "İkisi de",
     "slug": "nevzat-gunay",
     "avatar": "https://avatars.githubusercontent.com/nevzatgunay"
-  },
-  {
-    "": "",
-    "name": "Adem Furkan ÖZCAN",
-    "twitter_handle": "https://twitter.com/AdemOzcanTR",
-    "github": "https://github.com/Adem68",
-    "linkedin": "",
-    "interests": "Go",
-    "goals": "I want to learn Golang (:",
-    "mentor": "İkisi de",
-    "slug": "adem-furkan-ozcan",
-    "avatar": "https://avatars.githubusercontent.com/Adem68"
   },
   {
     "": "",
@@ -315,13 +387,13 @@
     "": "",
     "name": "Ömer Aksu",
     "twitter_handle": "https://twitter.com/aksuomeer",
-    "github": "https://github.com/omeraksu, behance.com/omeraksu, www.figma.com/@omeraksu",
+    "github": "https://github.com/omeraksu",
     "linkedin": "https://www.linkedin.com/in/aksuomeer",
     "interests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
     "goals": "I am telling stories by design and coding.",
     "mentor": "İkisi de",
     "slug": "omer-aksu",
-    "avatar": "https://avatars.githubusercontent.com/omeraksu, behance.com"
+    "avatar": "https://avatars.githubusercontent.com/omeraksu"
   },
   {
     "": "",
@@ -429,7 +501,7 @@
     "goals": "",
     "mentor": "Mentor",
     "slug": "murat-demirci",
-    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci"
+    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci&size=256"
   },
   {
     "": "",
@@ -477,7 +549,7 @@
     "goals": "I'm here to help companies and individuals do things that unlock their potential.",
     "mentor": "Mentor",
     "slug": "giray-batiturk",
-    "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK"
+    "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK&size=256"
   },
   {
     "": "",
