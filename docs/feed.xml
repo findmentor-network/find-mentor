@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 22:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 22:45:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -972,6 +972,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/kerem-adali</guid>
             <description><![CDATA[Game Development]]></description>
             <content:encoded><![CDATA[I want to be a successfull game developer]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatma Özdemir]]></title>
+            <link>https://findmentor.network/peer/fatma-ozdemir</link>
+            <guid>https://findmentor.network/peer/fatma-ozdemir</guid>
+            <description><![CDATA[frontend , backend]]></description>
+            <content:encoded><![CDATA[I want to be a good programmer in the future . That's why i am here.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
