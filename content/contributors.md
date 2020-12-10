@@ -4,4 +4,4 @@
 
 `(TO-DO)`
 
-[Contribute this page!](https://github.com/cagataycali/find-mentor/blob/master/content/contributors-practises.md)
+[Contribute this page!](https://github.com/cagataycali/find-mentor/blob/master/content/contributors.md)
