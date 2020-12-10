@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 20:28:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 21:20:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -937,6 +937,27 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/ibrahim-kus</guid>
             <description><![CDATA[backend, java, api development, spring framework, golang]]></description>
             <content:encoded><![CDATA[I want to improve myself in the field of backend and cloud technologies.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Okan Çiftçi]]></title>
+            <link>https://findmentor.network/peer/okan-ciftci</link>
+            <guid>https://findmentor.network/peer/okan-ciftci</guid>
+            <description><![CDATA[nlp]]></description>
+            <content:encoded><![CDATA[I want to be full stack learner.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[M.Nurullah Torun]]></title>
+            <link>https://findmentor.network/peer/m.nurullah-torun</link>
+            <guid>https://findmentor.network/peer/m.nurullah-torun</guid>
+            <description><![CDATA[frontend, backend. Gnu/Linux, Tauri, Rust]]></description>
+            <content:encoded><![CDATA[I want to be a digital nomad in the future. I am here for job tips from mentors.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eyüp ALTINDAL]]></title>
+            <link>https://findmentor.network/peer/eyup-altindal</link>
+            <guid>https://findmentor.network/peer/eyup-altindal</guid>
+            <description><![CDATA[frontend, fullstack, devops]]></description>
+            <content:encoded><![CDATA[i want to work full time remote, then i could move my hometown antalya]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
