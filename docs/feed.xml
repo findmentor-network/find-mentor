@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Wed, 09 Dec 2020 22:24:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 00:53:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -824,6 +824,13 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <guid>https://findmentor.network/peer/ali-murat-unsal</guid>
             <description><![CDATA[DevOps]]></description>
             <content:encoded><![CDATA[I want to share my experiences and knowledge about DevOps with young talents. That’s why I’m here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Abdurrahman YILDIZ]]></title>
+            <link>https://findmentor.network/peer/abdurrahman-yildiz</link>
+            <guid>https://findmentor.network/peer/abdurrahman-yildiz</guid>
+            <description><![CDATA[embedded systems, risc-v]]></description>
+            <content:encoded><![CDATA[developing projects on risc-v]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
