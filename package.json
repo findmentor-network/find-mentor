@@ -29,6 +29,7 @@
     "got": "^11.8.0",
     "nuxt": "^2.14.6",
     "slugify": "^1.4.6",
+    "vue-clamp": "^0.3.1",
     "vue-infinite-loading": "^2.4.5",
     "vue-tweet-embed": "^2.4.0"
   },
