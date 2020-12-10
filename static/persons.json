@@ -470,14 +470,14 @@
   {
     "": "08.12.2020 13:56:38",
     "name": "Batuhan LÜLECİ",
-    "twitter_handle": "https://null.twitter.com",
-    "github": "https://null.github.com",
+    "twitter_handle": "",
+    "github": "",
     "linkedin": "https://www.linkedin.com/in/batuhan-luleci",
     "interests": "Game Developer",
     "goals": "Networking is everything,that is bring me into where i am stand now.",
     "mentor": "Mentee",
     "slug": "batuhan-luleci",
-    "avatar": "https://avatars.githubusercontent.com/undefined"
+    "avatar": "https://ui-avatars.com/api/?name=Batuhan LÜLECİ"
   },
   {
     "": "08.12.2020 14:35:19",
@@ -1476,6 +1476,18 @@
     "avatar": "https://avatars.githubusercontent.com/rasitcolakel"
   },
   {
+    "": "10.12.2020 14:34:41",
+    "name": "Alican AKCA",
+    "twitter_handle": "https://twitter.com/alicanakca_",
+    "github": "https://github.com/AlicanAKCA",
+    "linkedin": "https://www.linkedin.com/in/alican-akca-123736190",
+    "interests": "ML and DL, Data Analyst(Python), C#",
+    "goals": "I want to work in Data Science and Machine learning.",
+    "mentor": "Mentor",
+    "slug": "alican-akca",
+    "avatar": "https://avatars.githubusercontent.com/AlicanAKCA"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -2379,13 +2391,13 @@
     "": "",
     "name": "Ege Cavusoglu",
     "twitter_handle": "https://twitter.com/egecavusoglu_",
-    "github": "https://github.com",
+    "github": "",
     "linkedin": "https://www.linkedin.com/in/egecavusoglu",
     "interests": "JS and Swift, full stack. entrepreneurship",
     "goals": "I can build stuff, but need assistance with planning and best practises.",
     "mentor": "Mentee",
     "slug": "ege-cavusoglu",
-    "avatar": "https://avatars.githubusercontent.com/undefined"
+    "avatar": "https://ui-avatars.com/api/?name=Ege Cavusoglu"
   },
   {
     "": "",
@@ -2506,30 +2518,6 @@
     "mentor": "Mentee",
     "slug": "fatih-yavuz",
     "avatar": "https://avatars.githubusercontent.com/fatih-yavuz"
-  },
-  {
-    "": "",
-    "name": "Adem Furkan ÖZCAN",
-    "twitter_handle": "https://twitter.com/AdemOzcanTR",
-    "github": "https://github.com/Adem68",
-    "linkedin": "",
-    "interests": "Go",
-    "goals": "I want to learn Golang (:",
-    "mentor": "İkisi de",
-    "slug": "adem-furkan-ozcan",
-    "avatar": "https://avatars.githubusercontent.com/Adem68"
-  },
-  {
-    "": "",
-    "name": "Furkan BAYRAM",
-    "twitter_handle": "https://twitter.com/frknbayram1",
-    "github": "https://github.com/fbayram",
-    "linkedin": "https://www.linkedin.com/in/furkan-bayram-313124137",
-    "interests": "Frontend, Backend, Devops, PMI",
-    "goals": "I am currently working as a  mainly Software Project Manager. Besides i am working as a developer. But my improve slow as a developer. So i want to improve my tech skills while working as a Project manager. ",
-    "mentor": "Mentee",
-    "slug": "furkan-bayram",
-    "avatar": "https://avatars.githubusercontent.com/fbayram"
   },
   {
     "": "",
@@ -2753,7 +2741,7 @@
     "twitter_handle": "https://twitter.com/05karayel05",
     "github": "https://github.com/ogulcankarayel5",
     "linkedin": "https://www.linkedin.com/in/ogulcan-karayell",
-    "interests": "Frontend(react),Mobile development(react native)",
+    "interests": "Frontend (React), Mobile development (React Native)",
     "goals": "I've now graduated and I want to improve myself and I think with a mentor it will be better option for me",
     "mentor": "Mentee",
     "slug": "ogulcan-karayel",
@@ -2825,7 +2813,7 @@
     "twitter_handle": "https://twitter.com/nowo1",
     "github": "https://github.com/nowo",
     "linkedin": "https://www.linkedin.com/in/erdal-burak-cinar",
-    "interests": "Go ,DevOps",
+    "interests": "Go, DevOps",
     "goals": "I am a student who works full time and working on big side project. I push my self really hard and i need mentor on this way",
     "mentor": "Mentee",
     "slug": "erdal-burak-cinar",
@@ -2991,13 +2979,13 @@
     "": "",
     "name": "Ömer Aksu",
     "twitter_handle": "https://twitter.com/aksuomeer",
-    "github": "https://github.com/omeraksu, behance.com/omeraksu, www.figma.com/@omeraksu",
+    "github": "https://github.com/omeraksu",
     "linkedin": "https://www.linkedin.com/in/aksuomeer",
     "interests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
     "goals": "I am telling stories by design and coding.",
     "mentor": "İkisi de",
     "slug": "omer-aksu",
-    "avatar": "https://avatars.githubusercontent.com/omeraksu, behance.com"
+    "avatar": "https://avatars.githubusercontent.com/omeraksu"
   },
   {
     "": "",

@@ -240,6 +240,18 @@
     "avatar": "https://avatars.githubusercontent.com/Adem68"
   },
   {
+    "": "10.12.2020 14:34:41",
+    "name": "Alican AKCA",
+    "twitter_handle": "https://twitter.com/alicanakca_",
+    "github": "https://github.com/AlicanAKCA",
+    "linkedin": "https://www.linkedin.com/in/alican-akca-123736190",
+    "interests": "ML and DL, Data Analyst(Python), C#",
+    "goals": "I want to work in Data Science and Machine learning.",
+    "mentor": "Mentor",
+    "slug": "alican-akca",
+    "avatar": "https://avatars.githubusercontent.com/AlicanAKCA"
+  },
+  {
     "": "",
     "name": "Ali Osman Beşinci",
     "twitter_handle": "https://twitter.com/aobesinci",
@@ -286,18 +298,6 @@
     "mentor": "İkisi de",
     "slug": "nevzat-gunay",
     "avatar": "https://avatars.githubusercontent.com/nevzatgunay"
-  },
-  {
-    "": "",
-    "name": "Adem Furkan ÖZCAN",
-    "twitter_handle": "https://twitter.com/AdemOzcanTR",
-    "github": "https://github.com/Adem68",
-    "linkedin": "",
-    "interests": "Go",
-    "goals": "I want to learn Golang (:",
-    "mentor": "İkisi de",
-    "slug": "adem-furkan-ozcan",
-    "avatar": "https://avatars.githubusercontent.com/Adem68"
   },
   {
     "": "",
@@ -351,13 +351,13 @@
     "": "",
     "name": "Ömer Aksu",
     "twitter_handle": "https://twitter.com/aksuomeer",
-    "github": "https://github.com/omeraksu, behance.com/omeraksu, www.figma.com/@omeraksu",
+    "github": "https://github.com/omeraksu",
     "linkedin": "https://www.linkedin.com/in/aksuomeer",
     "interests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
     "goals": "I am telling stories by design and coding.",
     "mentor": "İkisi de",
     "slug": "omer-aksu",
-    "avatar": "https://avatars.githubusercontent.com/omeraksu, behance.com"
+    "avatar": "https://avatars.githubusercontent.com/omeraksu"
   },
   {
     "": "",
