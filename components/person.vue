@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile" itemscope itemtype="https://schema.org/Person">
+      <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
           </li>
           <div class="main">
             <li v-if="name" class="name" itemprop="name">
@@ -25,7 +25,7 @@
             >
               <b>Goals:</b> {{ goals }}
             </li>
-            <div class="social-media-button">
+            <div class="social-media">
               <li v-if="twitter.length" class="links">
                 <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
@@ -99,9 +99,9 @@
 </template>
 
 <script>
-import { Timeline } from "vue-tweet-embed";
-import Markdown from "@nuxt/markdown";
-const md = new Markdown({ toc: true, sanitize: true });
+import { Timeline } from 'vue-tweet-embed'
+import Markdown from '@nuxt/markdown'
+const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
@@ -110,7 +110,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ""
+      default: ''
     },
     mentor: {
       type: Boolean,
@@ -122,101 +122,111 @@ export default {
     },
     name: {
       type: String,
-      default: ""
+      default: ''
     },
     twitter: {
       type: String,
-      default: ""
+      default: ''
     },
     github: {
       type: String,
-      default: ""
+      default: ''
     },
     linkedin: {
       type: String,
-      default: ""
+      default: ''
     },
     avatar: {
       type: String,
-      default: ""
+      default: ''
     },
     interests: {
       type: String,
-      default: ""
+      default: ''
     },
     goals: {
       type: String,
-      default: ""
+      default: ''
     }
   },
-  data() {
+  data () {
     return {
-      markdown: ""
-    };
+      markdown: ''
+    }
   },
   computed: {
-    twitterHandle() {
-      return this.twitter.split("twitter.com/")[1];
+    twitterHandle () {
+      return this.twitter.split('twitter.com/')[1]
     }
   },
-  created() {
+  created () {
     if (this.github.length) {
-      this.renderMarkdown();
+      this.renderMarkdown()
     }
   },
   methods: {
-    async renderMarkdown() {
+    async renderMarkdown () {
       const username = this.github
-        .replace(/\/$/gi, "")
-        .split("/")
-        .pop();
+        .replace(/\/$/gi, '')
+        .split('/')
+        .pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then(res => {
+      ).then((res) => {
         if (res.status === 200) {
-          return res.text();
+          return res.text()
         } else {
-          return "";
+          return ''
         }
-      });
-      const { html } = await md.toMarkup(markdownContent);
-      this.markdown = html;
+      })
+      const { html } = await md.toMarkup(markdownContent)
+      this.markdown = html
     }
   }
-};
+}
 </script>
 
 <style>
-.profile {
+.profile-card {
   list-style: none;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
-  padding-bottom: 14px;
+  min-height: 36vh;
+  background-color: var(--color-ui-02);
+  margin: 18px auto;
+  padding: 28px 16px;
+  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
 }
 
 .avatar,
 .name,
 .links {
-  margin-top: 15px;
+  margin-top: 14px;
 }
 
 .name {
-  font-size: 27px;
+  font-size: 26px;
+  color: var(--color-text-01);
 }
 
-.button {
-  padding: 10px 30px;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  color: white;
-  margin-right: 30px;
+.seeks,
+.description {
+  color: var(--color-text-02);
 }
 
-.social-media-button {
+.social-media {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.social-media .button {
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  color: #fff;
+  margin-right: 16px;
 }
 
 .twitter {
@@ -234,8 +244,9 @@ export default {
 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-right: 30px;
+  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
 }
 
 .left-main {
@@ -250,10 +261,6 @@ export default {
 .text {
   font-size: 17px;
   margin-top: 10px;
-}
-
-.profile {
-  justify-content: space-between;
 }
 
 .markdown {

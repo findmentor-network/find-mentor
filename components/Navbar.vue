@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-navbar">
     <b-navbar>
       <b-navbar-nav>
         <b-navbar-brand to="/" left>
@@ -33,8 +33,20 @@ export default {
 }
 </script>
 
-<style scoped>
-.actve {
-  color: red
+<style>
+.app-navbar .navbar-light .navbar-brand {
+  color: var(--color-text-01)
+}
+
+.app-navbar .navbar-light .nav-link {
+  color: var(--color-text-02)
+}
+
+.app-navbar .navbar-light .nav-link:hover {
+  color: var(--color-text-03)
+}
+
+.app-navbar .navbar-light .nav-link.active {
+  color: var(--color-text-01)
 }
 </style>
