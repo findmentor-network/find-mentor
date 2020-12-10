@@ -15,7 +15,6 @@
 </template>
 
 <script>
-
 export default {
   async asyncData ({ $content, params }) {
     const mentees = await $content('mentees').fetch()

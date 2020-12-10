@@ -2,7 +2,7 @@
   <div>
     <b-navbar type="dark" variant="primary">
       <b-navbar-nav>
-        <b-nav-item href="/" left>
+        <b-nav-item href="../" left>
           Find Mentor
         </b-nav-item>
 
@@ -18,9 +18,13 @@
     </b-navbar>
   </div>
 </template>
+
 <script>
 export default {
+
 }
 </script>
+
 <style>
+
 </style>
