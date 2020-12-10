@@ -1,19 +1,22 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="primary">
+    <b-navbar>
       <b-navbar-nav>
-        <b-nav-item href="../" left>
+        <b-navbar-brand to="/" left>
           Find Mentor
+        </b-navbar-brand>
+        <b-nav-item exact active-class="active" to="/mentees/">
+          Mentees
         </b-nav-item>
-
-        <b-nav-item-dropdown text="Mentors" right>
-          <b-dropdown-item href="#">
-            Mentees
-          </b-dropdown-item>
-          <b-dropdown-item href="#">
-            Mentors
-          </b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item exact active-class="active" to="/mentors/">
+          Mentors
+        </b-nav-item>
+        <b-nav-item
+          href="https://forms.gle/pQwFZBXEyqBRDU2H9"
+          target="_blank"
+        >
+          Register
+        </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>
@@ -25,6 +28,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.actve {
+  color: red
+}
 </style>
