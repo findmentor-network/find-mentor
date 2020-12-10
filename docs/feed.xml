@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 06:44:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 07:26:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -838,6 +838,20 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <guid>https://findmentor.network/peer/alper-tabak</guid>
             <description><![CDATA[mobile (iOS), backend (go, js)]]></description>
             <content:encoded><![CDATA[I will be a worldwide entrepreneur. I can be a mentor to people who need technical consultancy, I am here to learn new things and meet new people]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ahmet Faruk Acar]]></title>
+            <link>https://findmentor.network/peer/ahmet-faruk-acar</link>
+            <guid>https://findmentor.network/peer/ahmet-faruk-acar</guid>
+            <description><![CDATA[IOS development ]]></description>
+            <content:encoded><![CDATA[I want to improve my skills and gain experience until graduate cs]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ali Gündoğdu]]></title>
+            <link>https://findmentor.network/peer/ali-gundogdu</link>
+            <guid>https://findmentor.network/peer/ali-gundogdu</guid>
+            <description><![CDATA[frontend, backend]]></description>
+            <content:encoded><![CDATA[Live as if you were to die tomorrow. Learn as if you were to live forever.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
