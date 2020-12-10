@@ -2,6 +2,7 @@
   <div class="container">
     <h1>Mentors</h1>
     <input v-model="search.keyword" class="filter" placeholder="Search in Mentors" @input="searchMentor">
+    <input v-model="search2.keyword" class="filter" placeholder="Search in Topics" @input="searchTopic">
     <ul class="persons">
       <h5 v-if="postList.mentor.items.length <= 0">
         No results...
@@ -35,6 +36,10 @@ export default {
         keyword: null,
         isFilled: false
       },
+      search2: {
+        keyword: null,
+        isFilled: false
+      },
       postList: {
         mentor: {
           items: [],
@@ -62,6 +67,7 @@ export default {
       }
     },
     async searchMentor () {
+      this.search2.keyword = ""
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
         .search(this.search.keyword)
@@ -75,6 +81,22 @@ export default {
         this.postList.mentor.skip = 0
         this.$fetch()
         this.search.isFilled = false
+      }
+    },
+    async searchTopic () {
+      this.search.keyword = ""
+      const result = await this.$content('persons')
+        .where({ interests: { $contains: this.search2.keyword}, mentor: {$in: ['Mentor', 'İkisi de']} })
+        .fetch()
+
+      if (this.search2.keyword.length > 0) {
+        this.search2.isFilled = true
+
+        this.postList.mentor.items = result
+      } else {
+        this.postList.mentor.skip = 0
+        this.$fetch()
+        this.search2.isFilled = false
       }
     }
   }
