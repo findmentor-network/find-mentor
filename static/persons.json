@@ -1524,6 +1524,30 @@
     "avatar": "https://avatars.githubusercontent.com/MrSipahi"
   },
   {
+    "": "10.12.2020 19:05:46",
+    "name": "Volkan Oluc",
+    "twitter_handle": "https://twitter.com/olucvolkan",
+    "github": "https://github.com/olucvolkan",
+    "linkedin": "https://www.linkedin.com/in/volkan-oluc",
+    "interests": "backend, symfony,php, golang, devops",
+    "goals": "I want to be awesome backend developer. I also want to improve myself in the field of devops.",
+    "mentor": "İkisi de",
+    "slug": "volkan-oluc",
+    "avatar": "https://avatars.githubusercontent.com/olucvolkan"
+  },
+  {
+    "": "10.12.2020 19:28:24",
+    "name": "Mahmut Yıldız",
+    "twitter_handle": "https://twitter.com/mahmuttyildiz",
+    "github": "https://github.com/mahmuttyildiz",
+    "linkedin": "https://www.linkedin.com/in/mahmut-yildiz",
+    "interests": "frontend",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "mahmut-yildiz",
+    "avatar": "https://avatars.githubusercontent.com/mahmuttyildiz"
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",

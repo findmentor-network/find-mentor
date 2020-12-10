@@ -276,6 +276,18 @@
     "avatar": "https://ui-avatars.com/api/?name=Hasan Soysal&size=256"
   },
   {
+    "": "10.12.2020 19:05:46",
+    "name": "Volkan Oluc",
+    "twitter_handle": "https://twitter.com/olucvolkan",
+    "github": "https://github.com/olucvolkan",
+    "linkedin": "https://www.linkedin.com/in/volkan-oluc",
+    "interests": "backend, symfony,php, golang, devops",
+    "goals": "I want to be awesome backend developer. I also want to improve myself in the field of devops.",
+    "mentor": "İkisi de",
+    "slug": "volkan-oluc",
+    "avatar": "https://avatars.githubusercontent.com/olucvolkan"
+  },
+  {
     "": "",
     "name": "Ali Osman Beşinci",
     "twitter_handle": "https://twitter.com/aobesinci",

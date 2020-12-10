@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 15:05:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 16:31:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -901,6 +901,20 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <guid>https://findmentor.network/peer/sedat-sipahi</guid>
             <description><![CDATA[Data Science, Big Data]]></description>
             <content:encoded><![CDATA[I want to work in the field of Artificial Intelligence in the future]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Volkan Oluc]]></title>
+            <link>https://findmentor.network/peer/volkan-oluc</link>
+            <guid>https://findmentor.network/peer/volkan-oluc</guid>
+            <description><![CDATA[backend, symfony,php, golang, devops]]></description>
+            <content:encoded><![CDATA[I want to be awesome backend developer. I also want to improve myself in the field of devops.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mahmut Yıldız]]></title>
+            <link>https://findmentor.network/peer/mahmut-yildiz</link>
+            <guid>https://findmentor.network/peer/mahmut-yildiz</guid>
+            <description><![CDATA[frontend]]></description>
+            <content:encoded><![CDATA[I want to be worldwide developer in the future. That's why I'm here.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
