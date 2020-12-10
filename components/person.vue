@@ -4,17 +4,25 @@
       <ul class="profile" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
           </li>
           <div class="main">
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
             <hr>
-            <li v-if="interests && interests.length" class="text" itemprop="seeks">
+            <li
+              v-if="interests && interests.length"
+              class="text"
+              itemprop="seeks"
+            >
               <b>Interests:</b> {{ interests }}
             </li>
-            <li v-if="goals && goals.length" class="text" itemprop="description">
+            <li
+              v-if="goals && goals.length"
+              class="text"
+              itemprop="description"
+            >
               <b>Goals:</b> {{ goals }}
             </li>
             <div class="social-media-button">
@@ -91,9 +99,9 @@
 </template>
 
 <script>
-import { Timeline } from 'vue-tweet-embed'
-import Markdown from '@nuxt/markdown'
-const md = new Markdown({ toc: true, sanitize: true })
+import { Timeline } from "vue-tweet-embed";
+import Markdown from "@nuxt/markdown";
+const md = new Markdown({ toc: true, sanitize: true });
 
 export default {
   components: {
@@ -102,7 +110,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ''
+      default: ""
     },
     mentor: {
       type: Boolean,
@@ -114,65 +122,68 @@ export default {
     },
     name: {
       type: String,
-      default: ''
+      default: ""
     },
     twitter: {
       type: String,
-      default: ''
+      default: ""
     },
     github: {
       type: String,
-      default: ''
+      default: ""
     },
     linkedin: {
       type: String,
-      default: ''
+      default: ""
     },
     avatar: {
       type: String,
-      default: ''
+      default: ""
     },
     interests: {
       type: String,
-      default: ''
+      default: ""
     },
     goals: {
       type: String,
-      default: ''
+      default: ""
     }
   },
-  data () {
+  data() {
     return {
-      markdown: ''
-    }
+      markdown: ""
+    };
   },
   computed: {
-    twitterHandle () {
-      return this.twitter.split('twitter.com/')[1]
+    twitterHandle() {
+      return this.twitter.split("twitter.com/")[1];
     }
   },
-  created () {
+  created() {
     if (this.github.length) {
-      this.renderMarkdown()
+      this.renderMarkdown();
     }
   },
   methods: {
-    async renderMarkdown () {
-      const username = this.github.replace(/\/$/gi, '').split('/').pop()
+    async renderMarkdown() {
+      const username = this.github
+        .replace(/\/$/gi, "")
+        .split("/")
+        .pop();
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then((res) => {
+      ).then(res => {
         if (res.status === 200) {
-          return res.text()
+          return res.text();
         } else {
-          return ''
+          return "";
         }
-      })
-      const { html } = await md.toMarkup(markdownContent)
-      this.markdown = html
+      });
+      const { html } = await md.toMarkup(markdownContent);
+      this.markdown = html;
     }
   }
-}
+};
 </script>
 
 <style>
@@ -284,6 +295,5 @@ export default {
   border: 8px;
   border-radius: 15px;
   padding: 5px;
-
 }
 </style>
