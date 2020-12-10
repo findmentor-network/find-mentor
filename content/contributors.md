@@ -2,9 +2,6 @@
 
 *As contributors are the actual founders of this collaborative artwork.*
 
-# Founders
-
-*As contributors are the actual founders of this collaborative artwork.*
 <style>
     .contr-image {
         border-radius: 100%;
