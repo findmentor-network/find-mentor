@@ -20,7 +20,7 @@
         <b-nav-item
           to="/guide/"
         >
-          How to Work?
+          How It's Work?
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
