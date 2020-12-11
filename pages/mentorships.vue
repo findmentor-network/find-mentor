@@ -24,9 +24,12 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params, error }) {
-    const mentorships = await $content('activeMentorships').fetch()
-    return { mentorships }
+  data() {
+    return { mentorships: [] }
+  },
+  async fetch() {
+    const data = await this.$content('activeMentorships').fetch()
+    this.mentorships = data.mentorships
   }
 }
 </script>
