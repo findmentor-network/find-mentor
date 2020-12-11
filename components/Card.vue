@@ -166,15 +166,13 @@ export default {
   background-color: #0e76a8;
 }
 
-<<<<<<< HEAD
 .profile-photo {
   margin: 0 0 10px 0;
-=======
+}
 .person-info {
   display: flex;
   justify-content: center;
   flex-direction: column;
->>>>>>> 1ea8cf7931edc0a16827dc63e45e2c140e5b5a58
 }
 
 .profile-photo img {
