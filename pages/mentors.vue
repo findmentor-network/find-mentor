@@ -67,7 +67,7 @@ export default {
       }
     },
     async searchMentor () {
-      this.search2.keyword = ""
+      this.search2.keyword = ''
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
         .search(this.search.keyword)
@@ -84,9 +84,9 @@ export default {
       }
     },
     async searchTopic () {
-      this.search.keyword = ""
+      this.search.keyword = ''
       const result = await this.$content('persons')
-        .where({ interests: { $contains: this.search2.keyword}, mentor: {$in: ['Mentor', 'İkisi de']} })
+        .where({ interests: { $contains: this.search2.keyword }, mentor: { $in: ['Mentor', 'İkisi de'] } })
         .fetch()
 
       if (this.search2.keyword.length > 0) {
@@ -102,58 +102,3 @@ export default {
   }
 }
 </script>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.filter {
-  width: 40%;
-  font-size: 14px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-  margin-left: 35px;
-}
-
-.persons {
-  list-style-type: none;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-left: 0;
-}
-
-.mentor-item {
-  width: 248px;
-  height: 320px;
-  background-color: #17aa90;
-  border-radius: 20px;
-  transition: box-shadow 0.3s;
-  border: 1px solid #ccc;
-  overflow: hidden;
-}
-
-.mentor-item:hover {
-  box-shadow: 16px 16px 16px rgba(11, 11, 11, 0.2);
-}
-
-.person {
-  width: 250px;
-  height: 250px;
-  text-align: center;
-  margin: 30px 7.5px 0 7.5px;
-}
-.name {
-  font-size: 26px;
-}
-
-.interestContent {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-</style>

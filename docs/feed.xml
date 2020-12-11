@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 18:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Dec 2020 22:45:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -618,7 +618,7 @@ healthy, peaceful philosophist and person who eat good food at good restaurant :
             <title><![CDATA[SİMAY YILMAZ]]></title>
             <link>https://findmentor.network/peer/simay-yilmaz</link>
             <guid>https://findmentor.network/peer/simay-yilmaz</guid>
-            <description><![CDATA[fronted]]></description>
+            <description><![CDATA[frontend]]></description>
             <content:encoded><![CDATA[I want to change the world!]]></content:encoded>
         </item>
         <item>
@@ -924,6 +924,63 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <content:encoded><![CDATA[I want to develop projects that will be followed around the world. That's why I'm here.]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Sıla SAVAŞ]]></title>
+            <link>https://findmentor.network/peer/sila-savas</link>
+            <guid>https://findmentor.network/peer/sila-savas</guid>
+            <description><![CDATA[Data analysis, deep learning, machine learning, business development ]]></description>
+            <content:encoded><![CDATA[ı want to learn more data analysis and python . 
+I want to learn what I can do]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ibrahim KUS]]></title>
+            <link>https://findmentor.network/peer/ibrahim-kus</link>
+            <guid>https://findmentor.network/peer/ibrahim-kus</guid>
+            <description><![CDATA[backend, java, api development, spring framework, golang]]></description>
+            <content:encoded><![CDATA[I want to improve myself in the field of backend and cloud technologies.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Okan Çiftçi]]></title>
+            <link>https://findmentor.network/peer/okan-ciftci</link>
+            <guid>https://findmentor.network/peer/okan-ciftci</guid>
+            <description><![CDATA[nlp]]></description>
+            <content:encoded><![CDATA[I want to be full stack learner.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[M.Nurullah Torun]]></title>
+            <link>https://findmentor.network/peer/m.nurullah-torun</link>
+            <guid>https://findmentor.network/peer/m.nurullah-torun</guid>
+            <description><![CDATA[frontend, backend. Gnu/Linux, Tauri, Rust]]></description>
+            <content:encoded><![CDATA[I want to be a digital nomad in the future. I am here for job tips from mentors.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eyüp ALTINDAL]]></title>
+            <link>https://findmentor.network/peer/eyup-altindal</link>
+            <guid>https://findmentor.network/peer/eyup-altindal</guid>
+            <description><![CDATA[frontend, fullstack, devops]]></description>
+            <content:encoded><![CDATA[i want to work full time remote, then i could move my hometown antalya]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatih Yavuz]]></title>
+            <link>https://findmentor.network/peer/fatih-yavuz</link>
+            <guid>https://findmentor.network/peer/fatih-yavuz</guid>
+            <description><![CDATA[Backend, AWS, Python, JavaScript, Java]]></description>
+            <content:encoded><![CDATA[Contribute to the community]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kerem Adalı]]></title>
+            <link>https://findmentor.network/peer/kerem-adali</link>
+            <guid>https://findmentor.network/peer/kerem-adali</guid>
+            <description><![CDATA[Game Development]]></description>
+            <content:encoded><![CDATA[I want to be a successfull game developer]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatma Özdemir]]></title>
+            <link>https://findmentor.network/peer/fatma-ozdemir</link>
+            <guid>https://findmentor.network/peer/fatma-ozdemir</guid>
+            <description><![CDATA[frontend , backend]]></description>
+            <content:encoded><![CDATA[I want to be a good programmer in the future . That's why i am here.]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Emsal Cengiz]]></title>
             <link>https://findmentor.network/peer/emsal-cengiz</link>
             <guid>https://findmentor.network/peer/emsal-cengiz</guid>
@@ -955,7 +1012,7 @@ I want to improve myself on Frontend Development and Backend Development.]]></co
             <title><![CDATA[Özgün Doğuş CAN]]></title>
             <link>https://findmentor.network/peer/ozgun-dogus-can</link>
             <guid>https://findmentor.network/peer/ozgun-dogus-can</guid>
-            <description><![CDATA[Mobile,Backend,frontend,AR&VR]]></description>
+            <description><![CDATA[Mobile, Backend, frontend, AR&VR]]></description>
             <content:encoded><![CDATA[ ı want to ımprove my self and be a good developer]]></content:encoded>
         </item>
         <item>
@@ -1507,12 +1564,6 @@ i think I will be a better software developer with the experience of my mentor a
             <guid>https://findmentor.network/peer/bora-tanrikulu</guid>
             <description><![CDATA[Backend, Golang, Devops]]></description>
             <content:encoded><![CDATA[Kendini backend ve cloud native teknolojileri üzerine geliştirmek isteyen biri.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fatih Yavuz]]></title>
-            <link>https://findmentor.network/peer/fatih-yavuz</link>
-            <guid>https://findmentor.network/peer/fatih-yavuz</guid>
-            <description><![CDATA[Go :) ]]></description>
         </item>
         <item>
             <title><![CDATA[Erhan Yakut]]></title>

@@ -6,6 +6,7 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
+
       <b-navbar-nav>
          <b-nav-item exact active-class="active" to="/mentees/">
             Mentees
@@ -32,17 +33,21 @@
 export default {};
 </script>
 
-<style scoped>
+
+<style>
 .app-navbar .navbar-light .navbar-brand {
-  color: var(--color-text-01);
+  color: var(--color-text-01)
 }
+
 .app-navbar .navbar-light .nav-link {
-  color: var(--color-text-02);
+  color: var(--color-text-02)
 }
+
 .app-navbar .navbar-light .nav-link:hover {
-  color: var(--color-text-03);
+  color: var(--color-text-03)
 }
+
 .app-navbar .navbar-light .nav-link.active {
-  color: var(--color-text-01);
+  color: var(--color-text-01)
 }
 </style>
