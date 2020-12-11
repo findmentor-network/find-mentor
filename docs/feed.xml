@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 21:12:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 21:45:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1098,6 +1098,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/atamyrat-abdyrahmanov</guid>
             <description><![CDATA[Devops, Backend, Frontend, Machine Learning....]]></description>
             <content:encoded><![CDATA[I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hale Nisa Nur Kuş]]></title>
+            <link>https://findmentor.network/peer/hale-nisa-nur-kus</link>
+            <guid>https://findmentor.network/peer/hale-nisa-nur-kus</guid>
+            <description><![CDATA[frontend(html,css,js) ,,backend,reactjs,web programming,C#,SQL,]]></description>
+            <content:encoded><![CDATA[I am fresh graduate. I am computer engineer. Actually I am a junior developer and I want to improve my skills. We can do great things together! :)]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
