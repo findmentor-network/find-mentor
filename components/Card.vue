@@ -76,7 +76,7 @@
       </div>
     </NuxtLink>
   </div>
-  </div>
+
 </template>
 
 <script>

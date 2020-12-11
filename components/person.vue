@@ -4,13 +4,13 @@
       <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
           </li>
           <div class="main">
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
-            <hr>
+            <hr />
             <li
               v-if="interests && interests.length"
               class="text"
@@ -79,15 +79,25 @@
       </ul>
       <h2 v-if="markdown.length">
         GitHub
-        <hr>
+        <hr />
       </h2>
       <div v-html="markdown" />
-      <hr>
+      <hr />
       <h2>
         Gave Feedback
       </h2>
+
+      <hr />
+      <h2>
+        Active Mentorships
+      </h2>
+      <div
+        v-for="(mentorship, index) in mentorships"
+        :key="mentorship.slug"
+        v-html="projects[index]"
+      />
       <div id="disqus_thread" />
-      <hr>
+      <hr />
       <Timeline
         v-if="twitter.length"
         :id="twitterHandle"
@@ -99,9 +109,9 @@
 </template>
 
 <script>
-import { Timeline } from 'vue-tweet-embed'
-import Markdown from '@nuxt/markdown'
-const md = new Markdown({ toc: true, sanitize: true })
+import { Timeline } from "vue-tweet-embed";
+import Markdown from "@nuxt/markdown";
+const md = new Markdown({ toc: true, sanitize: true });
 
 export default {
   components: {
@@ -110,7 +120,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ''
+      default: ""
     },
     mentor: {
       type: Boolean,
@@ -122,68 +132,100 @@ export default {
     },
     name: {
       type: String,
-      default: ''
+      default: ""
     },
     twitter: {
       type: String,
-      default: ''
+      default: ""
     },
     github: {
       type: String,
-      default: ''
+      default: ""
     },
     linkedin: {
       type: String,
-      default: ''
+      default: ""
     },
     avatar: {
       type: String,
-      default: ''
+      default: ""
     },
     interests: {
       type: String,
-      default: ''
+      default: ""
     },
     goals: {
       type: String,
-      default: ''
+      default: ""
+    },
+    mentorships: {
+      type: Array,
+      default: []
     }
   },
-  data () {
+  data() {
     return {
-      markdown: ''
-    }
+      markdown: "",
+      projects: []
+    };
   },
   computed: {
-    twitterHandle () {
-      return this.twitter.split('twitter.com/')[1]
+    twitterHandle() {
+      return this.twitter.split("twitter.com/")[1];
     }
   },
-  created () {
+  created() {
     if (this.github.length) {
-      this.renderMarkdown()
+      this.renderMarkdown();
+    }
+    if (this.mentorships.length) {
+      this.renderMentorshipProjects();
     }
   },
   methods: {
-    async renderMarkdown () {
+    async renderMarkdown() {
       const username = this.github
-        .replace(/\/$/gi, '')
-        .split('/')
-        .pop()
+        .replace(/\/$/gi, "")
+        .split("/")
+        .pop();
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then((res) => {
+      ).then(res => {
         if (res.status === 200) {
-          return res.text()
+          return res.text();
         } else {
-          return ''
+          return "";
         }
-      })
-      const { html } = await md.toMarkup(markdownContent)
-      this.markdown = html
+      });
+      const { html } = await md.toMarkup(markdownContent);
+      this.markdown = html;
+    },
+    async renderMentorshipProjects() {
+      const requests = [];
+      this.mentorships.map(mentorship => {
+        const url = mentorship.project_adress
+          .split("/")
+          .slice(3)
+          .join("/");
+        requests.push(
+          fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
+            .then(res => {
+              if (res.status === 200) {
+                return res.text();
+              } else {
+                return "";
+              }
+            })
+            .then(async markdownContent => {
+              const { html } = await md.toMarkup(markdownContent);
+              return html;
+            })
+        );
+      });
+      this.projects = await Promise.all(requests);
     }
   }
-}
+};
 </script>
 
 <style>
@@ -196,7 +238,7 @@ export default {
   background-color: var(--color-ui-02);
   margin: 18px auto;
   padding: 28px 16px;
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .avatar,
@@ -246,7 +288,7 @@ export default {
   height: 200px;
   border-radius: 100%;
   margin-right: 30px;
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .left-main {
@@ -298,7 +340,7 @@ export default {
 }
 
 #disqus_thread {
-  background:var(--color-disqus-thread);
+  background: var(--color-disqus-thread);
   border: 8px;
   border-radius: 15px;
   padding: 5px;
