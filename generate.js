@@ -4,7 +4,7 @@ const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
 const apiKey = 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
 const slugify = require('slugify')
 
-const slugger = text =>
+const slugger = (text) =>
   slugify(text, {
     replacement: '-',
     lower: true,
@@ -64,16 +64,16 @@ const clearMentorships = (posts) => {
   })
 }
 
-async function getData () {
+async function getData() {
   try {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
     let response = await got(url)
     response = JSON.parse(response.body)
     let [persons, activeMentorships] = response.valueRanges
-    persons = clearData(mapper(persons.values.slice(4).filter(r => r.length)))
-    activeMentorships = clearMentorships(mapper(
-      activeMentorships.values.slice(1).filter(r => r.length)
-    ))
+    persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
+    activeMentorships = clearMentorships(
+      mapper(activeMentorships.values.slice(1).filter((r) => r.length))
+    )
 
     persons.map((person) => {
       person.mentorships = activeMentorships.filter((mentorship) => {
@@ -91,26 +91,18 @@ async function getData () {
   }
 }
 
-getData().then(
-  ({ status, data: { persons, activeMentorships } }) => {
-    if (status !== 200) {
-      throw new Error('Error when fetching data from spreadsheet')
-    }
-    fs.writeFileSync(
-      'content/persons.json',
-      JSON.stringify(persons, null, 2)
-    )
-    fs.writeFileSync(
-      'static/persons.json',
-      JSON.stringify(persons, null, 2)
-    )
-    fs.writeFileSync(
-      'content/activeMentorships.json',
-      JSON.stringify({ mentorships: activeMentorships }, null, 2)
-    )
-    fs.writeFileSync(
-      'static/activeMentorships.json',
-      JSON.stringify({ mentorships: activeMentorships }, null, 2)
-    )
+getData().then(({ status, data: { persons, activeMentorships } }) => {
+  if (status !== 200) {
+    throw new Error('Error when fetching data from spreadsheet')
   }
-)
+  fs.writeFileSync('content/persons.json', JSON.stringify(persons, null, 2))
+  fs.writeFileSync('static/persons.json', JSON.stringify(persons, null, 2))
+  fs.writeFileSync(
+    'content/activeMentorships.json',
+    JSON.stringify({ mentorships: activeMentorships }, null, 2)
+  )
+  fs.writeFileSync(
+    'static/activeMentorships.json',
+    JSON.stringify({ mentorships: activeMentorships }, null, 2)
+  )
+})

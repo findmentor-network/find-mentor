@@ -1,11 +1,12 @@
 <template>
   <div class="dark-mode-toggle">
-    <button v-if="$colorMode.value === 'light'" @click="$colorMode.preference = 'dark'">
+    <button
+      v-if="$colorMode.value === 'light'"
+      @click="$colorMode.preference = 'dark'"
+    >
       🌚
     </button>
-    <button v-else @click="$colorMode.preference = 'light'">
-      ☀️
-    </button>
+    <button v-else @click="$colorMode.preference = 'light'">☀️</button>
   </div>
 </template>
 
@@ -33,7 +34,7 @@ export default {
   outline: 0;
   border-radius: 100%;
   background-color: var(--color-ui-02);
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   -webkit-user-select: none;
   -webkit-user-drag: none;
 }

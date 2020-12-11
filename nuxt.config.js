@@ -19,7 +19,9 @@ const create = async (feed, args) => {
       description: item.interests
     }
 
-    if (item.goals) { itemObject.content = item.goals }
+    if (item.goals) {
+      itemObject.content = item.goals
+    }
 
     feed.addItem(itemObject)
   })
@@ -131,7 +133,7 @@ export default {
 
       const persons = await $content('persons').fetch()
 
-      persons.forEach(person => routes.push(`peer/${person.slug}`))
+      persons.forEach((person) => routes.push(`peer/${person.slug}`))
 
       return routes
     }

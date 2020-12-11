@@ -9,7 +9,8 @@
     "data": "node generate.js",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^1.0.2",
@@ -38,6 +39,7 @@
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
-    "eslint-plugin-nuxt": "^1.0.0"
+    "eslint-plugin-nuxt": "^1.0.0",
+    "prettier": "2.2.1"
   }
 }
