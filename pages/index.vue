@@ -2,12 +2,10 @@
   <div>
     <header><nuxt-content :document="page" /></header>
     <div class="container">
-      <hr>
+      <hr />
       <!-- Mentors -->
       <h2 class="title">
-        <NuxtLink to="/mentors/">
-          Mentors
-        </NuxtLink>
+        <NuxtLink to="/mentors/"> Mentors </NuxtLink>
       </h2>
       <ul class="persons">
         <Card
@@ -21,13 +19,11 @@
       <client-only>
         <infinite-loading @infinite="loadMoreMentors" />
       </client-only>
-      <hr>
+      <hr />
 
       <!-- Mentees -->
       <h2 class="title">
-        <NuxtLink to="/mentees/">
-          Mentees
-        </NuxtLink>
+        <NuxtLink to="/mentees/"> Mentees </NuxtLink>
       </h2>
       <ul class="persons">
         <Card
@@ -47,24 +43,26 @@
 
 <script>
 export default {
-  async fetch () {
-    this.postList.mentor.items = await this.$content('persons').where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+  async fetch() {
+    this.postList.mentor.items = await this.$content('persons')
+      .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
       .limit(this.postList.mentor.limit)
       .skip(this.postList.mentor.skip)
       .fetch()
-    this.postList.mentee.items = await this.$content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+    this.postList.mentee.items = await this.$content('persons')
+      .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
   },
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const page = await $content('readme').fetch()
 
     return {
       page
     }
   },
-  data () {
+  data() {
     return {
       postList: {
         mentor: {
@@ -81,7 +79,7 @@ export default {
     }
   },
   methods: {
-    async loadMoreMentees ($state) {
+    async loadMoreMentees($state) {
       this.postList.mentee.skip += this.postList.mentee.limit
 
       const mentees = await this.$content('persons')
@@ -97,7 +95,7 @@ export default {
         $state.complete()
       }
     },
-    async loadMoreMentors ($state) {
+    async loadMoreMentors($state) {
       this.postList.mentor.skip += this.postList.mentor.limit
 
       const mentors = await this.$content('persons')

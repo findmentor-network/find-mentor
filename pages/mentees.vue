@@ -1,12 +1,20 @@
 <template>
   <div class="container">
     <h1>Mentees</h1>
-    <input v-model="search.keyword" class="filter" placeholder="Search in Mentees" @input="searchMentee">
-    <input v-model="search2.keyword" class="filter" placeholder="Search in Topics" @input="searchTopic">
+    <input
+      v-model="search.keyword"
+      class="filter"
+      placeholder="Search in Mentees"
+      @input="searchMentee"
+    />
+    <input
+      v-model="search2.keyword"
+      class="filter"
+      placeholder="Search in Topics"
+      @input="searchTopic"
+    />
     <ul class="persons">
-      <h5 v-if="postList.mentee.items.length <= 0">
-        No results...
-      </h5>
+      <h5 v-if="postList.mentee.items.length <= 0">No results...</h5>
       <Card
         v-for="(mentee, index) in postList.mentee.items"
         v-else
@@ -17,20 +25,27 @@
       />
     </ul>
     <client-only>
-      <infinite-loading v-if="postList.mentee.items.length >= postList.mentee.limit && !search.isFilled" @infinite="loadMoreMentees" />
+      <infinite-loading
+        v-if="
+          postList.mentee.items.length >= postList.mentee.limit &&
+          !search.isFilled
+        "
+        @infinite="loadMoreMentees"
+      />
     </client-only>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch () {
-    this.postList.mentee.items = await this.$content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+  async fetch() {
+    this.postList.mentee.items = await this.$content('persons')
+      .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
   },
-  data () {
+  data() {
     return {
       search: {
         keyword: null,
@@ -50,7 +65,7 @@ export default {
     }
   },
   methods: {
-    async loadMoreMentees ($state) {
+    async loadMoreMentees($state) {
       this.postList.mentee.skip += this.postList.mentee.limit
 
       const mentees = await this.$content('persons')
@@ -66,7 +81,7 @@ export default {
         $state.complete()
       }
     },
-    async searchMentee () {
+    async searchMentee() {
       this.search2.keyword = ''
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
@@ -83,10 +98,13 @@ export default {
         this.search.isFilled = false
       }
     },
-    async searchTopic () {
+    async searchTopic() {
       this.search.keyword = ''
       const result = await this.$content('persons')
-        .where({ interests: { $contains: this.search2.keyword }, mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .where({
+          interests: { $contains: this.search2.keyword },
+          mentor: { $in: ['Mentee', 'İkisi de'] }
+        })
         .fetch()
 
       if (this.search2.keyword.length > 0) {

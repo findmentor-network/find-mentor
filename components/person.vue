@@ -4,13 +4,13 @@
       <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
           </li>
           <div class="main">
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
-            <hr>
+            <hr />
             <li
               v-if="interests && interests.length"
               class="text"
@@ -79,27 +79,25 @@
       </ul>
       <h2 v-if="markdown.length">
         GitHub
-        <hr>
+        <hr />
       </h2>
       <div v-html="markdown" />
-      <hr>
-      <h2>
-        Gave Feedback
-      </h2>
+      <hr />
+      <h2>Gave Feedback</h2>
       <div id="disqus_thread" />
-      <hr>
+      <hr />
       <template v-if="twitter.length">
         <Timeline
-          v-show="$colorMode.value==='dark'"
+          v-show="$colorMode.value === 'dark'"
           :id="twitterHandle"
           source-type="profile"
-          :options="{ tweetLimit: '5', theme:'dark'}"
+          :options="{ tweetLimit: '5', theme: 'dark' }"
         />
         <Timeline
-          v-show="$colorMode.value==='light'"
+          v-show="$colorMode.value === 'light'"
           :id="twitterHandle"
           source-type="profile"
-          :options="{ tweetLimit: '5', theme:'light'}"
+          :options="{ tweetLimit: '5', theme: 'light' }"
         />
       </template>
     </div>
@@ -157,27 +155,24 @@ export default {
       default: ''
     }
   },
-  data () {
+  data() {
     return {
       markdown: ''
     }
   },
   computed: {
-    twitterHandle () {
+    twitterHandle() {
       return this.twitter.split('twitter.com/')[1]
     }
   },
-  created () {
+  created() {
     if (this.github.length) {
       this.renderMarkdown()
     }
   },
   methods: {
-    async renderMarkdown () {
-      const username = this.github
-        .replace(/\/$/gi, '')
-        .split('/')
-        .pop()
+    async renderMarkdown() {
+      const username = this.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
       ).then((res) => {
@@ -204,7 +199,7 @@ export default {
   background-color: var(--color-ui-02);
   margin: 18px auto;
   padding: 28px 16px;
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .avatar,
@@ -254,7 +249,7 @@ export default {
   height: 200px;
   border-radius: 100%;
   margin-right: 30px;
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .left-main {
@@ -306,7 +301,7 @@ export default {
 }
 
 #disqus_thread {
-  background:var(--color-disqus-thread);
+  background: var(--color-disqus-thread);
   border: 8px;
   border-radius: 15px;
   padding: 5px;

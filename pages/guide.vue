@@ -1,6 +1,11 @@
 <template>
   <div id="jumbotron-mentor" class="container">
-    <b-jumbotron v-for="(row, index) in rows" :key="index" text-variant="black" border-variant="dark">
+    <b-jumbotron
+      v-for="(row, index) in rows"
+      :key="index"
+      text-variant="black"
+      border-variant="dark"
+    >
       <nuxt-content :document="row" />
     </b-jumbotron>
   </div>
@@ -8,7 +13,7 @@
 
 <script>
 export default {
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const rows = await Promise.all([
       $content('contributors').fetch(),
       $content('mentees').fetch(),
