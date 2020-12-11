@@ -1,6 +1,7 @@
+
 <template>
 <div>
-  <b-navbar toggleable="lg" type="light" variant="light">
+  <b-navbar toggleable="lg"  v-bind:type=" $colorMode.value"  v-bind:variant=" $colorMode.value" >
     <b-navbar-brand to="/">Find Mentor</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -29,25 +30,11 @@
 
 </template>
 
+
 <script>
 export default {};
 </script>
 
+<style scoped>
 
-<style>
-.app-navbar .navbar-light .navbar-brand {
-  color: var(--color-text-01)
-}
-
-.app-navbar .navbar-light .nav-link {
-  color: var(--color-text-02)
-}
-
-.app-navbar .navbar-light .nav-link:hover {
-  color: var(--color-text-03)
-}
-
-.app-navbar .navbar-light .nav-link.active {
-  color: var(--color-text-01)
-}
 </style>
