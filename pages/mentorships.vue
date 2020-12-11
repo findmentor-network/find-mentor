@@ -10,7 +10,7 @@
     <p>Pick one & contribute. You're mentee now.</p>
     <ul>
       <li v-for="mentorship in mentorships" :key="mentorship.slug">
-        <NuxtLink :to="`/mentorship/${mentorship.slug}`" itemprop="url">
+        <NuxtLink :to="`/peer/${mentorship.mentor.split('/').pop()}`" itemprop="url">
           {{ mentorship.goal }}
         </NuxtLink>
       </li>
@@ -24,12 +24,12 @@
 
 <script>
 export default {
-  data() {
-    return { mentorships: [] }
-  },
-  async fetch() {
+  async fetch () {
     const data = await this.$content('activeMentorships').fetch()
     this.mentorships = data.mentorships
+  },
+  data () {
+    return { mentorships: [] }
   }
 }
 </script>
