@@ -101,3 +101,15 @@ src="https://avatars.githubusercontent.com/flurach">
 src="https://avatars1.githubusercontent.com/u/17314041?s=400&u=41bf90b0113a76f0140aae197569307de624da61&v=4"
 >
 </a>
+
+<a class="contr-a" href="https://findmentor.network/peer/furkan-portakal" target="_blank">
+<img class="contr-image" 
+src="https://avatars.githubusercontent.com/FurkanPortakal"
+>
+</a>
+
+<a class="contr-a" href="https://findmentor.network/peer/yilmaz-ogras" target="_blank">
+<img class="contr-image" 
+src="https://avatars.githubusercontent.com/ograsyilmaz"
+>
+</a>
