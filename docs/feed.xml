@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 15:27:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 17:24:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1063,6 +1063,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/huseyin-gulcu</guid>
             <description><![CDATA[frontend(javascript, reactjs), nodejs, mongodb]]></description>
             <content:encoded><![CDATA[I have to choose right way to learn how to code with clean way, nowadays nobody has more time to keep traacking wrong way to do learn. thus, i have a mentor to help me while i learn to learn frontend.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bekir Tatar]]></title>
+            <link>https://findmentor.network/peer/bekir-tatar</link>
+            <guid>https://findmentor.network/peer/bekir-tatar</guid>
+            <description><![CDATA[frontend and backend]]></description>
+            <content:encoded><![CDATA[web tasarım]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
