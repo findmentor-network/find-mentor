@@ -1919,6 +1919,32 @@
     "mentorships": []
   },
   {
+    "": "11.12.2020 14:59:18",
+    "name": "Huseyin Gulcu",
+    "twitter_handle": "https://twitter.com/hgulcu0",
+    "github": "https://github.com/hsglc",
+    "linkedin": "https://www.linkedin.com/in/huseyin-gulcu-79859a1b7",
+    "interests": "frontend(javascript, reactjs), nodejs, mongodb",
+    "goals": "I have to choose right way to learn how to code with a clean way, as today nobody has more time to keep tracking wrong way. thus, i need a mentor with more experiences.",
+    "mentor": "Mentee",
+    "slug": "huseyin-gulcu",
+    "avatar": "https://avatars.githubusercontent.com/hsglc",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 15:10:40",
+    "name": "Ali ERGEÇER",
+    "twitter_handle": "https://twitter.com/aliergcr",
+    "github": "https://github.com/aliergcr",
+    "linkedin": "https://www.linkedin.com/in/ali-erge%C3%A7er-bb848b6b",
+    "interests": "mobile dev., react native, reactjs, frontend, javascript",
+    "goals": "I want to be worldwide mobile developer",
+    "mentor": "Mentee",
+    "slug": "ali-ergecer",
+    "avatar": "https://avatars.githubusercontent.com/aliergcr",
+    "mentorships": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
