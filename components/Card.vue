@@ -166,6 +166,9 @@ export default {
   background-color: #0e76a8;
 }
 
+.profile-photo {
+  margin: 0 0 10px 0;
+}
 .person-info {
   display: flex;
   justify-content: center;
