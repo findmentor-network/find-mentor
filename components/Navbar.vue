@@ -28,6 +28,7 @@
           <b-nav-item to="/guide/"> How It Works? </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
+
     </b-navbar>
   </div>
 </template>
