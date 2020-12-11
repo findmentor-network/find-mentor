@@ -19,6 +19,10 @@
           <b-nav-item exact active-class="active" to="/mentors/">
             Mentors
           </b-nav-item>
+          <b-nav-item exact active-class="active" to="/mentorships/">
+            Mentorships
+          </b-nav-item>
+        
           <b-nav-item
             href="https://forms.gle/pQwFZBXEyqBRDU2H9"
             target="_blank"
