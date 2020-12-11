@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Thu, 10 Dec 2020 22:45:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 08:25:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -979,6 +979,27 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/fatma-ozdemir</guid>
             <description><![CDATA[frontend , backend]]></description>
             <content:encoded><![CDATA[I want to be a good programmer in the future . That's why i am here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Furkan Gürcan]]></title>
+            <link>https://findmentor.network/peer/furkan-gurcan</link>
+            <guid>https://findmentor.network/peer/furkan-gurcan</guid>
+            <description><![CDATA[Python, machine learning, data science]]></description>
+            <content:encoded><![CDATA[I want to join exciting artificial intelligence and data science world]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Arp]]></title>
+            <link>https://findmentor.network/peer/arp</link>
+            <guid>https://findmentor.network/peer/arp</guid>
+            <description><![CDATA[AI, cloud, Python, backend, frontend]]></description>
+            <content:encoded><![CDATA[Learn basics well enough to cobble together something that works sometimes.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Halil Çiğay]]></title>
+            <link>https://findmentor.network/peer/halil-cigay</link>
+            <guid>https://findmentor.network/peer/halil-cigay</guid>
+            <description><![CDATA[Frontend backend]]></description>
+            <content:encoded><![CDATA[Yazılım ve programcılıkta kendimi geliştirmek istiyorum]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
