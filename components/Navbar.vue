@@ -5,10 +5,13 @@
         <b-navbar-brand to="/" left>
           Find Mentor
         </b-navbar-brand>
-        <b-nav-item exact active-class="active" to="/mentees/">
+        <b-nav-item exact active-class="active" to="/mentorships/">
+          Active Mentorships
+        </b-nav-item>
+        <b-nav-item exact to="/mentees/">
           Mentees
         </b-nav-item>
-        <b-nav-item exact active-class="active" to="/mentors/">
+        <b-nav-item exact to="/mentors/">
           Mentors
         </b-nav-item>
         <b-nav-item

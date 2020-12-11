@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 10:24:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 11:53:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1014,6 +1014,34 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/cenk-civici</guid>
             <description><![CDATA[TDD, Unit Testing, Clean Code, Refactoring, Design Patterns]]></description>
             <content:encoded><![CDATA[Retire]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[onur coskun]]></title>
+            <link>https://findmentor.network/peer/onur-coskun</link>
+            <guid>https://findmentor.network/peer/onur-coskun</guid>
+            <description><![CDATA[frontend]]></description>
+            <content:encoded><![CDATA[being an example, being one of the exceptional cases of becoming a developer after mid-30s ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Emre Savcı]]></title>
+            <link>https://findmentor.network/peer/emre-savci</link>
+            <guid>https://findmentor.network/peer/emre-savci</guid>
+            <description><![CDATA[go, kubernetes, devops, sre, software architecture, ddd, scalability, couchbase, rabbitmq, java...]]></description>
+            <content:encoded><![CDATA[Contributing to community...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Onur Şahin]]></title>
+            <link>https://findmentor.network/peer/onur-sahin</link>
+            <guid>https://findmentor.network/peer/onur-sahin</guid>
+            <description><![CDATA[Mobile , Android]]></description>
+            <content:encoded><![CDATA[Although I only work on Android Right now, I want to be a Full Mobile Dev.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bilal Arslan]]></title>
+            <link>https://findmentor.network/peer/bilal-arslan</link>
+            <guid>https://findmentor.network/peer/bilal-arslan</guid>
+            <description><![CDATA[iOS development, problem solving, algorithms]]></description>
+            <content:encoded><![CDATA[-]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
