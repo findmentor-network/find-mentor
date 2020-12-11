@@ -40,9 +40,7 @@ const generateAvatar = ({ name, github }) => {
 
 const fixProtocol = (url) => {
   return url
-    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '')
-    : ''
-}
+    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') : '' }
 
 const clearData = (posts) => {
   return posts.map((post) => {
@@ -83,7 +81,14 @@ async function getData() {
       })
     })
 
-    const data = { persons, activeMentorships }
+    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
+    const contribs_res = await got(contribs_url)
+    const contribs = JSON.parse(contribs_res.body)
+
+    // remove the bot
+    contribs.splice(0, 1)
+
+    const data = { persons, activeMentorships, contribs }
     return { status: 200, data }
   } catch (err) {
     console.log(err)
@@ -91,7 +96,7 @@ async function getData() {
   }
 }
 
-getData().then(({ status, data: { persons, activeMentorships } }) => {
+getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
   if (status !== 200) {
     throw new Error('Error when fetching data from spreadsheet')
   }
@@ -105,4 +110,5 @@ getData().then(({ status, data: { persons, activeMentorships } }) => {
     'static/activeMentorships.json',
     JSON.stringify({ mentorships: activeMentorships }, null, 2)
   )
+  fs.writeFileSync('content/contribs.json', JSON.stringify({ contribs }, null, 2))
 })
