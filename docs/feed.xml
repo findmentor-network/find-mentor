@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 08:25:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 20:23:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -34,13 +34,6 @@
             <guid>https://findmentor.network/peer/irem-uzun</guid>
             <description><![CDATA[pyhton,c++,illustrations]]></description>
             <content:encoded><![CDATA[I really want to improve my coding skills and spend time informed about this topic. I want to improve myself, have great knowledge in one topic, and explore whole around the world in  future.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Burakcan Dizieğri]]></title>
-            <link>https://findmentor.network/peer/burakcan-diziegri</link>
-            <guid>https://findmentor.network/peer/burakcan-diziegri</guid>
-            <description><![CDATA[frontend]]></description>
-            <content:encoded><![CDATA[Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Ahmet Can AYDEMİR]]></title>
@@ -348,13 +341,6 @@ I am a new graduate and I want to enter the business life. I am interested in we
             <content:encoded><![CDATA[I am a second year student of Marmara Computer Sciences. I develop hobby projects in my spare time. I want to be experienced in backend development and also dealing with iOS development. I work scheduled and hard. I know I will be a successful software developer with the right guidance. That's why I'm here.]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Ahmet Buğra Yiğiter]]></title>
-            <link>https://findmentor.network/peer/ahmet-bugra-yigiter</link>
-            <guid>https://findmentor.network/peer/ahmet-bugra-yigiter</guid>
-            <description><![CDATA[Genel olarak Web alanına ilgim var. Şu anda frontend ile uğraşıyorum. İlerleyen günlerde Go ile backend kısmına girmek istiyorum.]]></description>
-            <content:encoded><![CDATA[Bilgisayar Mühendisliği 2. Sınıf öğrencisiyim. Kendimi Web alanında geliştirerek burada part-time ve ilerleyen zamanlarda full-time olmak üzere iş bulmayı hedefliyorum.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Alihan Yilmaz]]></title>
             <link>https://findmentor.network/peer/alihan-yilmaz</link>
             <guid>https://findmentor.network/peer/alihan-yilmaz</guid>
@@ -435,7 +421,7 @@ I am a new graduate and I want to enter the business life. I am interested in we
             <title><![CDATA[Mücahit Bircan]]></title>
             <link>https://findmentor.network/peer/mucahit-bircan</link>
             <guid>https://findmentor.network/peer/mucahit-bircan</guid>
-            <description><![CDATA[frontend, backend, react-native cyber security,c++]]></description>
+            <description><![CDATA[frontend, backend, mobile( react-native )]]></description>
             <content:encoded><![CDATA[Yeni mezunumun. Web ve mobil üzerine ilgim var. Yeni teknolojileri denemeyi severim. Kendimi daha da geliştirip bir iş bulmak istiyorum. Bu anlamda bana katkı sağlayacak yol gösterecek bir mentöre ihtiyacım var]]></content:encoded>
         </item>
         <item>
@@ -1000,6 +986,118 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/halil-cigay</guid>
             <description><![CDATA[Frontend backend]]></description>
             <content:encoded><![CDATA[Yazılım ve programcılıkta kendimi geliştirmek istiyorum]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Emrah Akgül]]></title>
+            <link>https://findmentor.network/peer/emrah-akgul</link>
+            <guid>https://findmentor.network/peer/emrah-akgul</guid>
+            <description><![CDATA[Frontend,backend,rails,Django,nodejs]]></description>
+            <content:encoded><![CDATA[I want to build a web site with best practices in the industry so that I can take freelance jobs.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ahmet Can KARAOĞLAN]]></title>
+            <link>https://findmentor.network/peer/ahmet-can-karaoglan</link>
+            <guid>https://findmentor.network/peer/ahmet-can-karaoglan</guid>
+            <description><![CDATA[Data Science, Deep Learning, Computer Vision]]></description>
+            <content:encoded><![CDATA[I want to be worldwide Data Science expert in the future. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cenk Çivici]]></title>
+            <link>https://findmentor.network/peer/cenk-civici</link>
+            <guid>https://findmentor.network/peer/cenk-civici</guid>
+            <description><![CDATA[TDD, Unit Testing, Clean Code, Refactoring, Design Patterns]]></description>
+            <content:encoded><![CDATA[Retire]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[onur coskun]]></title>
+            <link>https://findmentor.network/peer/onur-coskun</link>
+            <guid>https://findmentor.network/peer/onur-coskun</guid>
+            <description><![CDATA[frontend]]></description>
+            <content:encoded><![CDATA[being an example, being one of the exceptional cases of becoming a developer after mid-30s ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Emre Savcı]]></title>
+            <link>https://findmentor.network/peer/emre-savci</link>
+            <guid>https://findmentor.network/peer/emre-savci</guid>
+            <description><![CDATA[go, kubernetes, devops, sre, software architecture, ddd, scalability, couchbase, rabbitmq, java...]]></description>
+            <content:encoded><![CDATA[Contributing to community...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Onur Şahin]]></title>
+            <link>https://findmentor.network/peer/onur-sahin</link>
+            <guid>https://findmentor.network/peer/onur-sahin</guid>
+            <description><![CDATA[Mobile , Android]]></description>
+            <content:encoded><![CDATA[Although I only work on Android Right now, I want to be a Full Mobile Dev.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bilal Arslan]]></title>
+            <link>https://findmentor.network/peer/bilal-arslan</link>
+            <guid>https://findmentor.network/peer/bilal-arslan</guid>
+            <description><![CDATA[iOS development, problem solving, algorithms]]></description>
+            <content:encoded><![CDATA[-]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Huseyin Gulcu]]></title>
+            <link>https://findmentor.network/peer/huseyin-gulcu</link>
+            <guid>https://findmentor.network/peer/huseyin-gulcu</guid>
+            <description><![CDATA[frontend(javascript, reactjs), nodejs, mongodb]]></description>
+            <content:encoded><![CDATA[I have to choose right way to learn how to code with a clean way, as today nobody has more time to keep tracking wrong way. thus, i need a mentor with more experiences.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ali ERGEÇER]]></title>
+            <link>https://findmentor.network/peer/ali-ergecer</link>
+            <guid>https://findmentor.network/peer/ali-ergecer</guid>
+            <description><![CDATA[mobile dev., react native, reactjs, frontend, javascript]]></description>
+            <content:encoded><![CDATA[I want to be worldwide mobile developer]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Huseyin Gulcu]]></title>
+            <link>https://findmentor.network/peer/huseyin-gulcu</link>
+            <guid>https://findmentor.network/peer/huseyin-gulcu</guid>
+            <description><![CDATA[frontend(javascript, reactjs), nodejs, mongodb]]></description>
+            <content:encoded><![CDATA[I have to choose right way to learn how to code with clean way, nowadays nobody has more time to keep traacking wrong way to do learn. thus, i have a mentor to help me while i learn to learn frontend.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bekir Tatar]]></title>
+            <link>https://findmentor.network/peer/bekir-tatar</link>
+            <guid>https://findmentor.network/peer/bekir-tatar</guid>
+            <description><![CDATA[frontend and backend]]></description>
+            <content:encoded><![CDATA[web tasarım]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ali Aydın]]></title>
+            <link>https://findmentor.network/peer/ali-aydin</link>
+            <guid>https://findmentor.network/peer/ali-aydin</guid>
+            <description><![CDATA[Backend, Frontend, JavaScript (React, Node.js)]]></description>
+            <content:encoded><![CDATA[I am a 4th grade student and I was interested in .net , java before , now I am focusing javascript and typescript ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Yılmaz Oğraş]]></title>
+            <link>https://findmentor.network/peer/yilmaz-ogras</link>
+            <guid>https://findmentor.network/peer/yilmaz-ogras</guid>
+            <description><![CDATA[Frontend , Backend]]></description>
+            <content:encoded><![CDATA[Yeni  bilgiler öğrenip yeni bilgiler anlatmak. ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Burakcan Dizieğri]]></title>
+            <link>https://findmentor.network/peer/burakcan-diziegri</link>
+            <guid>https://findmentor.network/peer/burakcan-diziegri</guid>
+            <description><![CDATA[Frontend,SEO,AMP]]></description>
+            <content:encoded><![CDATA[Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hakkı Cengiz]]></title>
+            <link>https://findmentor.network/peer/hakki-cengiz</link>
+            <guid>https://findmentor.network/peer/hakki-cengiz</guid>
+            <description><![CDATA[frontend, backend, design ui, ux]]></description>
+            <content:encoded><![CDATA[I want others to see  what I dreamt and built. ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Atamyrat Abdyrahmanov]]></title>
+            <link>https://findmentor.network/peer/atamyrat-abdyrahmanov</link>
+            <guid>https://findmentor.network/peer/atamyrat-abdyrahmanov</guid>
+            <description><![CDATA[Devops, Backend, Frontend, Machine Learning....]]></description>
+            <content:encoded><![CDATA[I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>

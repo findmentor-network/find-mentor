@@ -1,7 +1,7 @@
 name: SpreadSheet To Site
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */5 * * *'
   push:
     branches:
       - master
