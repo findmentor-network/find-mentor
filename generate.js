@@ -92,7 +92,7 @@ async function getData() {
     contribs.forEach(contrib => {
       for (let person of persons) {
         if (person.github == contrib.html_url) {
-          contrib.fmn_url = `https://findmentor.network/${person.slug}`
+          contrib.fmn_url = `https://findmentor.network/peer/${person.slug}`
           break;
         }
       }
