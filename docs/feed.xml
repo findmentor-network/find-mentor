@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 18:26:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 18:40:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1077,6 +1077,20 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/yilmaz-ogras</guid>
             <description><![CDATA[Frontend , Backend]]></description>
             <content:encoded><![CDATA[Yeni  bilgiler öğrenip yeni bilgiler anlatmak. ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Burakcan Dizieğri]]></title>
+            <link>https://findmentor.network/peer/burakcan-diziegri</link>
+            <guid>https://findmentor.network/peer/burakcan-diziegri</guid>
+            <description><![CDATA[Frontend,SEO,AMP]]></description>
+            <content:encoded><![CDATA[Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hakkı Cengiz]]></title>
+            <link>https://findmentor.network/peer/hakki-cengiz</link>
+            <guid>https://findmentor.network/peer/hakki-cengiz</guid>
+            <description><![CDATA[frontend, backend, design ui, ux]]></description>
+            <content:encoded><![CDATA[I want others to see  what I dreamt and built. ]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
