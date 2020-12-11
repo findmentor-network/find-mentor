@@ -1,40 +1,118 @@
 <template>
   <div>
-    <Navbar />
+    <header><nuxt-content :document="page" /></header>
     <div class="container">
-      <h1><a href="https://github.com/cagataycali/find-mentor" target="_blank">Feel free to contribute!</a></h1>
-      <h2>Exactly this project is 0km.</h2>
-      <h3>Every night & every deploy, the spread sheet will be parsed by GitHub actions, then generate this beauty.</h3>
-      <h4>Mentors</h4>
+      <hr>
+      <!-- Mentors -->
+      <h2 class="title">
+        <NuxtLink to="/mentors/">
+          Mentors
+        </NuxtLink>
+      </h2>
       <ul class="persons">
-        <li class="person" v-for="mentor in mentors" :key="mentor.slug">
-          <NuxtLink :to="'/mentor/'+mentor.slug">
-            <h3 class="name"> {{ mentor.name }}</h3>
-          </NuxtLink>
-          <p class="head">Interests:</p>
-          <p class="interestContent">{{mentor.interests}}</p>
-        </li>
+        <Card
+          v-for="mentor in postList.mentor.items"
+          :key="mentor.slug"
+          class="person"
+          :person="mentor"
+          person-type="mentor"
+        />
       </ul>
-      <h4>Mentees</h4>
+      <client-only>
+        <infinite-loading @infinite="loadMoreMentors" />
+      </client-only>
+      <hr>
+
+      <!-- Mentees -->
+      <h2 class="title">
+        <NuxtLink to="/mentees/">
+          Mentees
+        </NuxtLink>
+      </h2>
       <ul class="persons">
-        <li class="person" v-for="mentee in mentees" :key="mentee.slug">
-          <NuxtLink :to="'/mentee/'+mentee.slug">
-            <h3 class="name">{{ mentee.name }}</h3>
-          </NuxtLink>
-          <p class="head">Interest:</p>
-          <p class="interestContent">{{mentee.interests}}</p>
-        </li>
+        <Card
+          v-for="mentee in postList.mentee.items"
+          :key="mentee.slug"
+          class="person"
+          :person="mentee"
+          person-type="mentee"
+        />
       </ul>
+      <client-only>
+        <infinite-loading @infinite="loadMoreMentees" />
+      </client-only>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const mentees = await $content('mentees').fetch()
-    const mentors = await $content('mentors').fetch()
-    return { mentees, mentors }
+  async fetch () {
+    this.postList.mentor.items = await this.$content('persons').where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+      .limit(this.postList.mentor.limit)
+      .skip(this.postList.mentor.skip)
+      .fetch()
+    this.postList.mentee.items = await this.$content('persons').where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+      .limit(this.postList.mentee.limit)
+      .skip(this.postList.mentee.skip)
+      .fetch()
+  },
+  async asyncData ({ $content }) {
+    const page = await $content('readme').fetch()
+
+    return {
+      page
+    }
+  },
+  data () {
+    return {
+      postList: {
+        mentor: {
+          items: [],
+          limit: 16,
+          skip: 0
+        },
+        mentee: {
+          items: [],
+          limit: 16,
+          skip: 0
+        }
+      }
+    }
+  },
+  methods: {
+    async loadMoreMentees ($state) {
+      this.postList.mentee.skip += this.postList.mentee.limit
+
+      const mentees = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .limit(this.postList.mentee.limit)
+        .skip(this.postList.mentee.skip)
+        .fetch()
+
+      this.postList.mentee.items.push(...mentees)
+      $state.loaded()
+
+      if (mentees.length <= 0) {
+        $state.complete()
+      }
+    },
+    async loadMoreMentors ($state) {
+      this.postList.mentor.skip += this.postList.mentor.limit
+
+      const mentors = await this.$content('persons')
+        .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+        .limit(this.postList.mentor.limit)
+        .skip(this.postList.mentor.skip)
+        .fetch()
+
+      this.postList.mentor.items.push(...mentors)
+      $state.loaded()
+
+      if (mentors.length <= 0) {
+        $state.complete()
+      }
+    }
   }
 }
 </script>
@@ -42,38 +120,43 @@ export default {
 * {
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0px;
+}
+.contrib {
+  text-decoration: underline;
+  text-decoration-color: dodgerblue;
+}
+.information {
+  padding: 10px;
+  font-size: 16px;
+}
 .persons {
   list-style-type: none;
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 .person {
-  width:250px;
+  width: 250px;
   height: 250px;
-  align-items:start;
-  text-align:center;
-  border: 1px solid grey;
-  border-radius:4px;
-  padding-top:10px;
-  margin: 20px 10px 0 0;
+  text-align: center;
+  margin: 30px 7.5px 0 7.5px;
+}
+.name {
+  font-size: 26px;
+}
 
-}
-.name{
-  font-size:26px;
-  color: chocolate;
-}
-.head{
-  color: #1d2124;
-  font-size: large;
-  margin-bottom:0;
-  display:inline-flex;
-}
-.interestContent{
+.interestContent {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 </style>
