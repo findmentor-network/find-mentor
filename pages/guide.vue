@@ -4,7 +4,7 @@
     <b-jumbotron text-variant="black" border-variant="dark" >
       <h1>Founders</h1>
       <p><i>As contributors are the actual founders of this collaborative artwork.</i></p>
-      <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.html_url" target="_blank">
+      <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.fmn_url || c.html_url" target="_blank">
         <img class="contr-image" :src="c.avatar_url">
       </a>
     </b-jumbotron>
