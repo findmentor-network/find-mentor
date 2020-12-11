@@ -88,6 +88,16 @@ async function getData() {
     // remove the bot
     contribs.splice(0, 1)
 
+    // check if contributor has find-mentor profile
+    contribs.forEach(contrib => {
+      for (let person of persons) {
+        if (person.github == contrib.html_url) {
+          contrib.fmn_url = `https://findmentor.network/peer/${person.slug}`
+          break;
+        }
+      }
+    })
+
     const data = { persons, activeMentorships, contribs }
     return { status: 200, data }
   } catch (err) {
