@@ -88,7 +88,7 @@
       </h2>
       <div id="disqus_thread" />
       <hr>
-      <div v-if="twitter.length">
+      <template v-if="twitter.length">
         <Timeline
           v-show="$colorMode.value==='dark'"
           :id="twitterHandle"
@@ -101,7 +101,7 @@
           source-type="profile"
           :options="{ tweetLimit: '5', theme:'light'}"
         />
-      </div>
+      </template>
     </div>
   </div>
 </template>
