@@ -8,13 +8,13 @@
     <p>As you can see, this project is the mentorship project. Developed by mentees.</p>
     <p>You can find the mentors active mentorship campaigns below.</p>
     <p>Pick one & contribute. You're mentee now.</p>
-    <ul>
-      <li v-for="mentorship in mentorships" :key="mentorship.slug">
+    
+      <div v-for="mentorship in mentorships" :key="mentorship.slug">
         <NuxtLink :to="`/peer/${mentorship.mentor.split('/').pop()}`" itemprop="url">
-          {{ mentorship.goal }}
+          <active-mentorship-card :mentorship="mentorship"></active-mentorship-card>
         </NuxtLink>
-      </li>
-    </ul>
+      </div>
+    
     <hr>
     <h4>
       <a href="https://github.com/cagataycali/find-mentor/blob/master/pages/mentorships.vue">Contribute this page</a>
@@ -23,7 +23,9 @@
 </template>
 
 <script>
+import ActiveMentorshipCard from '../components/ActiveMentorshipCard.vue'
 export default {
+  
   async fetch () {
     const data = await this.$content('activeMentorships').fetch()
     this.mentorships = data.mentorships
