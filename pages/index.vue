@@ -15,7 +15,7 @@
           :key="mentor.slug"
           class="person"
           :person="mentor"
-          person-type="Mentor"
+          person-type="mentor"
         />
       </ul>
       <client-only>

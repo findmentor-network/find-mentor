@@ -18,6 +18,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.0",
     "@nuxt/content": "^1.9.0",
     "@nuxt/markdown": "^0.0.21",
+    "@nuxtjs/color-mode": "1.1.1",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/robots": "^2.4.2",
@@ -28,6 +29,7 @@
     "got": "^11.8.0",
     "nuxt": "^2.14.6",
     "slugify": "^1.4.6",
+    "vue-clamp": "^0.3.1",
     "vue-infinite-loading": "^2.4.5",
     "vue-tweet-embed": "^2.4.0"
   },

@@ -51,87 +51,107 @@
     </div>
 
     <NuxtLink :to="`/peer/${person.slug}`" itemprop="url">
-      <div class="profile-photo">
-        <img
-          v-if="person.github.length"
-          :src="getProfilePicture(person.github)"
-          alt="mentee-profile-picture"
-          itemprop="image"
-          loading="lazy"
-        />
-        <div v-if="!person.github.length" class="non-image" />
-      </div>
+      <div class="person-info">
+        <!-- Profile Photo -->
+        <div class="profile-photo">
+          <img
+            v-if="person.github.length"
+            :src="getProfilePicture(person.github)"
+            alt="mentee-profile-picture"
+            itemprop="image"
+            loading="lazy"
+          >
+          <div v-if="!person.github.length" class="non-image" />
+        </div>
 
-      <div class="name">
-        {{ person.name }}
+        <!-- Name -->
+        <v-clamp class="name" autoresize :max-lines="1">
+          {{ person.name }}
+        </v-clamp>
+
+        <!-- Interests -->
+        <v-clamp class="interests" autoresize :max-lines="3" itemprop="seeks">
+          {{ person.interests }}
+        </v-clamp>
       </div>
     </NuxtLink>
-
-    <div class="interests" itemprop="seeks">
-      {{ person.interests }}
-    </div>
+  </div>
   </div>
 </template>
 
 <script>
+import VClamp from 'vue-clamp'
+
 export default {
-  name: "Card",
-  props: ["person", "personType"],
+  name: 'Card',
+  components: {
+    VClamp
+  },
+  props: {
+    person: {
+      type: Object,
+      required: true
+    },
+    personType: {
+      type: String,
+      required: true
+    }
+  },
   methods: {
-    getProfilePicture(githubLink) {
-      const regex = /github.com\/([\w\d-]+)(.+)?/;
-      const response = githubLink.match(regex);
+    getProfilePicture (githubLink) {
+      const regex = /github.com\/([\w\d-]+)(.+)?/
+      const response = githubLink.match(regex)
       if (!response) {
-        return "";
+        return ''
       }
-      return `https://avatars.githubusercontent.com/${response[1]}`;
+      return `https://avatars.githubusercontent.com/${response[1]}`
     }
   }
-};
+}
 </script>
 
 <style scoped>
 .item {
+  display: block;
   width: 248px;
-  height: 320px;
-  border-radius: 20px;
-  transition: box-shadow 0.3s;
+  height: 340px;
+  padding: 18px 12px;
+  background-color: var(--color-ui-02);
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
   overflow: hidden;
 }
 
-.item.mentee {
-  background-color: #32475b;
-}
-
 .item.mentor {
-  background-color: #17aa90;
+  border-top: 4px solid var(--color-ui-03);
 }
 
-.item.mentee:hover {
-  box-shadow: 16px 16px 16px rgba(11, 11, 11, 0.2);
-}
-.item.mentor:hover {
-  box-shadow: 16px 16px 16px rgba(11, 11, 11, 0.2);
+.item.mentee {
+  border-top: 4px solid var(--color-ui-04);
 }
 
 .social-media {
   display: flex;
   justify-content: center;
-  margin: 0px 0px 15px 20px;
+  margin: 0 0 26px 0;
 }
 
 .twitter,
 .github,
 .linkedin {
-  width: 30px;
-  height: 36px;
-  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  border-radius: 100%;
 }
 
 .social-media-icon {
-  width: 20px;
-  height: 20px;
-  margin-top: 8px;
+  width: 16px;
+  height: 16px;
 }
 
 .twitter {
@@ -146,22 +166,31 @@ export default {
   background-color: #0e76a8;
 }
 
+<<<<<<< HEAD
 .profile-photo {
   margin: 0 0 10px 0;
+=======
+.person-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+>>>>>>> 1ea8cf7931edc0a16827dc63e45e2c140e5b5a58
 }
 
 .profile-photo img {
   border-radius: 100%;
   width: 120px;
   height: 120px;
-  border: 2px solid white;
+  border: 2px solid var(--color-ui-02);
 }
 
 .non-image {
+  display: block;
+  margin: 0 auto;
   border-radius: 100%;
   width: 120px;
   height: 120px;
-  border: 2px solid white;
+  border: 2px solid var(--color-ui-02);
   background-image: url(https://findmentor.network/dummy.png);
   background-repeat: no-repeat, repeat;
   background-position: center;
@@ -169,41 +198,26 @@ export default {
 }
 
 .name {
-  color: white;
+  color: var(--color-text-01);
 }
 
-.mentee .interests {
-  color: #a4a4a4;
-}
-.mentor .interests {
-  color: #d6d5d5;
+.mentor .name {
+  color: var(--color-ui-03);
 }
 
-.profile-photo,
-.name,
+.mentee .name {
+  color: var(--color-ui-04);
+}
+
 .interests {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  color: var(--color-text-02);
 }
 
-@media (max-width: 626px) {
+@media (max-width: 768px) {
   .item {
-    width: 300px;
-    height: 350px;
-  }
-  .twitter,
-  .github,
-  .linkedin {
-    width: 40px;
-    height: 46px;
-    margin-right: 20px;
-  }
-  .social-media-icon {
-    width: 30px;
-    height: 30px;
-    margin-top: 8px;
-    font-size: 25px;
+    width: 100%;
+    max-width: 340px;
   }
 }
 </style>
