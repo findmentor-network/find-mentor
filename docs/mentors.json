@@ -360,6 +360,30 @@
     "avatar": "https://avatars.githubusercontent.com/KEREMADALI"
   },
   {
+    "": "11.12.2020 12:35:43",
+    "name": "Emrah Akgül",
+    "twitter_handle": "https://twitter.com/akgulem",
+    "github": "",
+    "linkedin": "https://tr.linkedin.com/in/emrah-akg%C3%BCl-a888a554?trk=pub-pbmap",
+    "interests": "Frontend,backend,rails,Django,nodejs",
+    "goals": "I want to build a web site with best practices in the industry so that I can take freelance jobs.",
+    "mentor": "İkisi de",
+    "slug": "emrah-akgul",
+    "avatar": "https://ui-avatars.com/api/?name=Emrah Akgül&size=256"
+  },
+  {
+    "": "11.12.2020 13:04:49",
+    "name": "Cenk Çivici",
+    "twitter_handle": "https://twitter.com/cenkcivici",
+    "github": "https://github.com/cenkcivici",
+    "linkedin": "https://www.linkedin.com/in/cenkcivici",
+    "interests": "TDD, Unit Testing, Clean Code, Refactoring, Design Patterns",
+    "goals": "Retire",
+    "mentor": "İkisi de",
+    "slug": "cenk-civici",
+    "avatar": "https://avatars.githubusercontent.com/cenkcivici"
+  },
+  {
     "": "",
     "name": "Ali Osman Beşinci",
     "twitter_handle": "https://twitter.com/aobesinci",

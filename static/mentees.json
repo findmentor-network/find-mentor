@@ -576,18 +576,6 @@
     "avatar": "https://avatars.githubusercontent.com/bahadirseyfi"
   },
   {
-    "": "08.12.2020 16:34:33",
-    "name": "Ahmet Buğra Yiğiter",
-    "twitter_handle": "https://twitter.com/yigiterdev",
-    "github": "https://github.com/yigiterdev",
-    "linkedin": "https://www.linkedin.com/in/yigiterbugra",
-    "interests": "Genel olarak Web alanına ilgim var. Şu anda frontend ile uğraşıyorum. İlerleyen günlerde Go ile backend kısmına girmek istiyorum.",
-    "goals": "Bilgisayar Mühendisliği 2. Sınıf öğrencisiyim. Kendimi Web alanında geliştirerek burada part-time ve ilerleyen zamanlarda full-time olmak üzere iş bulmayı hedefliyorum.",
-    "mentor": "Mentee",
-    "slug": "ahmet-bugra-yigiter",
-    "avatar": "https://avatars.githubusercontent.com/yigiterdev"
-  },
-  {
     "": "08.12.2020 16:34:58",
     "name": "Alihan Yilmaz",
     "twitter_handle": "https://twitter.com/_alihanyilmaz",
@@ -1610,14 +1598,14 @@
   {
     "": "11.12.2020 04:15:16",
     "name": "Arp",
-    "twitter_handle": "https://Matt20334382@twitter.com",
-    "github": "https://matsura8@github.com",
+    "twitter_handle": "https://twitter.com/Matt20334382",
+    "github": "https://github.com/matsura8",
     "linkedin": "https://www.linkedin.com/in/matthew-a-arp",
     "interests": "AI, cloud, Python, backend, frontend",
     "goals": "Learn basics well enough to cobble together something that works sometimes.",
     "mentor": "Mentee",
     "slug": "arp",
-    "avatar": ""
+    "avatar": "https://avatars.githubusercontent.com/matsura8"
   },
   {
     "": "11.12.2020 10:26:04",
@@ -1630,6 +1618,42 @@
     "mentor": "Mentee",
     "slug": "halil-cigay",
     "avatar": "https://ui-avatars.com/api/?name=Halil Çiğay&size=256"
+  },
+  {
+    "": "11.12.2020 12:35:43",
+    "name": "Emrah Akgül",
+    "twitter_handle": "https://twitter.com/akgulem",
+    "github": "",
+    "linkedin": "https://tr.linkedin.com/in/emrah-akg%C3%BCl-a888a554?trk=pub-pbmap",
+    "interests": "Frontend,backend,rails,Django,nodejs",
+    "goals": "I want to build a web site with best practices in the industry so that I can take freelance jobs.",
+    "mentor": "İkisi de",
+    "slug": "emrah-akgul",
+    "avatar": "https://ui-avatars.com/api/?name=Emrah Akgül&size=256"
+  },
+  {
+    "": "11.12.2020 12:54:24",
+    "name": "Ahmet Can KARAOĞLAN",
+    "twitter_handle": "https://twitter.com/AhmetCanKaraol",
+    "github": "https://github.com/ahmetcankaraoglan",
+    "linkedin": "https://www.linkedin.com/in/ahmetcankaraoglan",
+    "interests": "Data Science, Deep Learning, Computer Vision",
+    "goals": "I want to be worldwide Data Science expert in the future. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "ahmet-can-karaoglan",
+    "avatar": "https://avatars.githubusercontent.com/ahmetcankaraoglan"
+  },
+  {
+    "": "11.12.2020 13:04:49",
+    "name": "Cenk Çivici",
+    "twitter_handle": "https://twitter.com/cenkcivici",
+    "github": "https://github.com/cenkcivici",
+    "linkedin": "https://www.linkedin.com/in/cenkcivici",
+    "interests": "TDD, Unit Testing, Clean Code, Refactoring, Design Patterns",
+    "goals": "Retire",
+    "mentor": "İkisi de",
+    "slug": "cenk-civici",
+    "avatar": "https://avatars.githubusercontent.com/cenkcivici"
   },
   {
     "": "",

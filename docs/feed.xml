@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 08:25:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 10:24:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -346,13 +346,6 @@ I am a new graduate and I want to enter the business life. I am interested in we
             <guid>https://findmentor.network/peer/bahadir-seyfi</guid>
             <description><![CDATA[Backend(Golang), iOS Development(Swift)]]></description>
             <content:encoded><![CDATA[I am a second year student of Marmara Computer Sciences. I develop hobby projects in my spare time. I want to be experienced in backend development and also dealing with iOS development. I work scheduled and hard. I know I will be a successful software developer with the right guidance. That's why I'm here.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ahmet Buğra Yiğiter]]></title>
-            <link>https://findmentor.network/peer/ahmet-bugra-yigiter</link>
-            <guid>https://findmentor.network/peer/ahmet-bugra-yigiter</guid>
-            <description><![CDATA[Genel olarak Web alanına ilgim var. Şu anda frontend ile uğraşıyorum. İlerleyen günlerde Go ile backend kısmına girmek istiyorum.]]></description>
-            <content:encoded><![CDATA[Bilgisayar Mühendisliği 2. Sınıf öğrencisiyim. Kendimi Web alanında geliştirerek burada part-time ve ilerleyen zamanlarda full-time olmak üzere iş bulmayı hedefliyorum.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Alihan Yilmaz]]></title>
@@ -1000,6 +993,27 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/halil-cigay</guid>
             <description><![CDATA[Frontend backend]]></description>
             <content:encoded><![CDATA[Yazılım ve programcılıkta kendimi geliştirmek istiyorum]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Emrah Akgül]]></title>
+            <link>https://findmentor.network/peer/emrah-akgul</link>
+            <guid>https://findmentor.network/peer/emrah-akgul</guid>
+            <description><![CDATA[Frontend,backend,rails,Django,nodejs]]></description>
+            <content:encoded><![CDATA[I want to build a web site with best practices in the industry so that I can take freelance jobs.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ahmet Can KARAOĞLAN]]></title>
+            <link>https://findmentor.network/peer/ahmet-can-karaoglan</link>
+            <guid>https://findmentor.network/peer/ahmet-can-karaoglan</guid>
+            <description><![CDATA[Data Science, Deep Learning, Computer Vision]]></description>
+            <content:encoded><![CDATA[I want to be worldwide Data Science expert in the future. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cenk Çivici]]></title>
+            <link>https://findmentor.network/peer/cenk-civici</link>
+            <guid>https://findmentor.network/peer/cenk-civici</guid>
+            <description><![CDATA[TDD, Unit Testing, Clean Code, Refactoring, Design Patterns]]></description>
+            <content:encoded><![CDATA[Retire]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
