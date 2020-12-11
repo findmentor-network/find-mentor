@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{735:function(n,t,e){"use strict";e.r(t);var l=e(45),component=Object(l.a)({},(function(){var n=this.$createElement;return(this._self._c||n)("div",[this._v("\n  Aktif mentorluklar\n")])}),[],!1,null,null,null);t.default=component.exports}}]);
