@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 17:24:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 18:06:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -34,13 +34,6 @@
             <guid>https://findmentor.network/peer/irem-uzun</guid>
             <description><![CDATA[pyhton,c++,illustrations]]></description>
             <content:encoded><![CDATA[I really want to improve my coding skills and spend time informed about this topic. I want to improve myself, have great knowledge in one topic, and explore whole around the world in  future.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Burakcan Dizieğri]]></title>
-            <link>https://findmentor.network/peer/burakcan-diziegri</link>
-            <guid>https://findmentor.network/peer/burakcan-diziegri</guid>
-            <description><![CDATA[frontend]]></description>
-            <content:encoded><![CDATA[Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Ahmet Can AYDEMİR]]></title>
@@ -1070,6 +1063,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/bekir-tatar</guid>
             <description><![CDATA[frontend and backend]]></description>
             <content:encoded><![CDATA[web tasarım]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ali Aydın]]></title>
+            <link>https://findmentor.network/peer/ali-aydin</link>
+            <guid>https://findmentor.network/peer/ali-aydin</guid>
+            <description><![CDATA[Backend, Frontend, JavaScript (React, Node.js)]]></description>
+            <content:encoded><![CDATA[I am a 4th grade student and I was interested in .net , java before , now I am focusing javascript and typescript ]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>

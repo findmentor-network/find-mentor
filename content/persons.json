@@ -60,19 +60,6 @@
     "mentorships": []
   },
   {
-    "": "08.12.2020 01:28:43",
-    "name": "Burakcan Dizieğri",
-    "twitter_handle": "https://twitter.com/burakdzgrrr",
-    "github": "https://github.com/burakdzgr",
-    "linkedin": "https://www.linkedin.com/in/burak-dizieğri-447652201",
-    "interests": "frontend",
-    "goals": "Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.",
-    "mentor": "Mentee",
-    "slug": "burakcan-diziegri",
-    "avatar": "https://avatars.githubusercontent.com/burakdzgr",
-    "mentorships": []
-  },
-  {
     "": "08.12.2020 01:37:05",
     "name": "Ahmet Can AYDEMİR",
     "twitter_handle": "https://twitter.com/ahmetcnaydemir",
@@ -1968,6 +1955,19 @@
     "mentor": "Mentee",
     "slug": "bekir-tatar",
     "avatar": "https://avatars.githubusercontent.com/bekirtatar0",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 20:53:41",
+    "name": "Ali Aydın",
+    "twitter_handle": "https://twitter.com/aliaydins",
+    "github": "https://github.com/aliaydins",
+    "linkedin": "https://www.linkedin.com/in/aliaydins",
+    "interests": "Backend, Frontend, JavaScript (React, Node.js)",
+    "goals": "I am a 4th grade student and I was interested in .net , java before , now I am focusing javascript and typescript ",
+    "mentor": "Mentee",
+    "slug": "ali-aydin",
+    "avatar": "https://avatars.githubusercontent.com/aliaydins",
     "mentorships": []
   },
   {
