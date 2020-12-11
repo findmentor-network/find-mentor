@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 06:26:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 08:25:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -993,6 +993,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/arp</guid>
             <description><![CDATA[AI, cloud, Python, backend, frontend]]></description>
             <content:encoded><![CDATA[Learn basics well enough to cobble together something that works sometimes.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Halil Çiğay]]></title>
+            <link>https://findmentor.network/peer/halil-cigay</link>
+            <guid>https://findmentor.network/peer/halil-cigay</guid>
+            <description><![CDATA[Frontend backend]]></description>
+            <content:encoded><![CDATA[Yazılım ve programcılıkta kendimi geliştirmek istiyorum]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
