@@ -298,7 +298,7 @@ export default {
 }
 
 #disqus_thread {
-  background: #161616;
+  background:var(--color-disqus-thread);
   border: 8px;
   border-radius: 15px;
   padding: 5px;

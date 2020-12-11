@@ -15,6 +15,7 @@
 
   /* Field */
   --color-field-01: #fff;
+  --color-disqus-thread: #a9a9a9;
 }
 
 .dark-mode {
@@ -34,4 +35,6 @@
 
   /* Field */
   --color-field-01: #000;
+
+  --color-disqus-thread: #161616;
 }
