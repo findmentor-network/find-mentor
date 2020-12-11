@@ -17,10 +17,8 @@
         >
           Register
         </b-nav-item>
-        <b-nav-item
-          to="/guide/"
-        >
-          How It Works?
+        <b-nav-item exact active-class="active" to="/guide/">
+          How It's Work?
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
