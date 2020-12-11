@@ -762,12 +762,12 @@
     "mentorships": []
   },
   {
-    "": "08.12.2020 19:54:21",
+    "": "11.12.2020 22:27:52",
     "name": "Mücahit Bircan",
     "twitter_handle": "https://twitter.com/mucahitbircan",
     "github": "https://github.com/mucahitbircan",
     "linkedin": "https://www.linkedin.com/in/mücahit-bircan",
-    "interests": "frontend, backend, react-native cyber security,c++",
+    "interests": "frontend, backend, mobile( react-native )",
     "goals": "Yeni mezunumun. Web ve mobil üzerine ilgim var. Yeni teknolojileri denemeyi severim. Kendimi daha da geliştirip bir iş bulmak istiyorum. Bu anlamda bana katkı sağlayacak yol gösterecek bir mentöre ihtiyacım var",
     "mentor": "Mentee",
     "slug": "mucahit-bircan",
@@ -2007,6 +2007,19 @@
     "mentor": "İkisi de",
     "slug": "hakki-cengiz",
     "avatar": "https://avatars.githubusercontent.com/hkkcngz",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 23:11:26",
+    "name": "Atamyrat Abdyrahmanov",
+    "twitter_handle": "https://twitter.com/aaabdyrahmanov",
+    "github": "https://github.com/aaabdyrahmanov",
+    "linkedin": "https://www.linkedin.com/in/aaabdyrahmanov",
+    "interests": "Devops, Backend, Frontend, Machine Learning....",
+    "goals": "I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.",
+    "mentor": "İkisi de",
+    "slug": "atamyrat-abdyrahmanov",
+    "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov",
     "mentorships": []
   },
   {

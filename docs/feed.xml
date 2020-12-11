@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Fri, 11 Dec 2020 19:24:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Dec 2020 20:23:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -421,7 +421,7 @@ I am a new graduate and I want to enter the business life. I am interested in we
             <title><![CDATA[Mücahit Bircan]]></title>
             <link>https://findmentor.network/peer/mucahit-bircan</link>
             <guid>https://findmentor.network/peer/mucahit-bircan</guid>
-            <description><![CDATA[frontend, backend, react-native cyber security,c++]]></description>
+            <description><![CDATA[frontend, backend, mobile( react-native )]]></description>
             <content:encoded><![CDATA[Yeni mezunumun. Web ve mobil üzerine ilgim var. Yeni teknolojileri denemeyi severim. Kendimi daha da geliştirip bir iş bulmak istiyorum. Bu anlamda bana katkı sağlayacak yol gösterecek bir mentöre ihtiyacım var]]></content:encoded>
         </item>
         <item>
@@ -1091,6 +1091,13 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/hakki-cengiz</guid>
             <description><![CDATA[frontend, backend, design ui, ux]]></description>
             <content:encoded><![CDATA[I want others to see  what I dreamt and built. ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Atamyrat Abdyrahmanov]]></title>
+            <link>https://findmentor.network/peer/atamyrat-abdyrahmanov</link>
+            <guid>https://findmentor.network/peer/atamyrat-abdyrahmanov</guid>
+            <description><![CDATA[Devops, Backend, Frontend, Machine Learning....]]></description>
+            <content:encoded><![CDATA[I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
