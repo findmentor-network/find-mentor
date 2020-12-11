@@ -106,11 +106,11 @@ getData().then(
     )
     fs.writeFileSync(
       'content/activeMentorships.json',
-      JSON.stringify(activeMentorships, null, 2)
+      JSON.stringify({ mentorships: activeMentorships }, null, 2)
     )
     fs.writeFileSync(
       'static/activeMentorships.json',
-      JSON.stringify(activeMentorships, null, 2)
+      JSON.stringify({ mentorships: activeMentorships }, null, 2)
     )
   }
 )
