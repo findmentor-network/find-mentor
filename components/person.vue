@@ -89,10 +89,12 @@
 
       <hr />
       <div id="disqus_thread" />
+        <hr />
       <h2>
         Active Mentorships
       </h2>
       <hr />
+
       <div class="accordion" role="tablist">
         <b-card
           no-body
@@ -100,8 +102,8 @@
           v-for="(mentorship, index) in mentorships"
           :key="mentorship.slug"
         >
-          <b-card-header header-tag="header" class="p-1" role="tablist">
-            <b-button block :v-b-toggle="`${mentorship.slug}`" variant="info">{{
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button block  v-b-toggle="mentorship.slug" :variant="dark">{{
               mentorship.slug
             }}</b-button>
           </b-card-header>
@@ -110,14 +112,16 @@
             accordion="my-accordion"
             role="tabpanel"
           >
+          <!-- <div v-html="projects[index]"/> -->
             <b-card-body>
-              <b-card-text><div v-html="projects[index]"/></b-card-text>
+              <b-card-text v-if="projects[index]"><div v-html="projects[index]"/></b-card-text>
+              <b-card-text v-else>This project does not have readme file, <a href="link">please visit project to see content.</a></b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
       </div>
 
-      <div id="disqus_thread" />
+
       <hr />
       <Timeline
         v-if="twitter.length"
