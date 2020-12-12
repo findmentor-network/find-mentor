@@ -83,6 +83,51 @@
       </h2>
       <div v-html="markdown" />
       <hr />
+      <h2>
+        Gave Feedback
+      </h2>
+
+      <hr />
+      <div id="disqus_thread" />
+        <hr />
+      <h2>
+        Active Mentorships
+      </h2>
+      <hr />
+
+      <div class="accordion" role="tablist">
+        <b-card
+          no-body
+          class="mb-1 accordion-color"
+          v-for="(mentorship, index) in mentorships"
+          :key="mentorship.slug"
+        >
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button block  v-b-toggle="mentorship.slug"  variant="dark">{{
+              mentorship.slug
+            }}</b-button>
+          </b-card-header>
+          <b-collapse
+            :id="mentorship.slug"
+            accordion="my-accordion"
+            role="tabpanel"
+          >
+            <b-card-body>
+              <b-card-text v-if="projects[index]"><div v-html="projects[index]"/></b-card-text>
+              <b-card-text v-else>This project does not have readme file, <a href="link">please visit project to see content.</a></b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+
+
+      <hr />
+      <Timeline
+        v-if="twitter.length"
+        :id="twitterHandle"
+        source-type="profile"
+        :options="{ tweetLimit: '5' }"
+      />
       <h2>Gave Feedback</h2>
       <div id="disqus_thread" />
       <hr />
@@ -105,9 +150,9 @@
 </template>
 
 <script>
-import { Timeline } from 'vue-tweet-embed'
-import Markdown from '@nuxt/markdown'
-const md = new Markdown({ toc: true, sanitize: true })
+import { Timeline } from "vue-tweet-embed";
+import Markdown from "@nuxt/markdown";
+const md = new Markdown({ toc: true, sanitize: true });
 
 export default {
   components: {
@@ -116,7 +161,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ''
+      default: ""
     },
     mentor: {
       type: Boolean,
@@ -128,65 +173,100 @@ export default {
     },
     name: {
       type: String,
-      default: ''
+      default: ""
     },
     twitter: {
       type: String,
-      default: ''
+      default: ""
     },
     github: {
       type: String,
-      default: ''
+      default: ""
     },
     linkedin: {
       type: String,
-      default: ''
+      default: ""
     },
     avatar: {
       type: String,
-      default: ''
+      default: ""
     },
     interests: {
       type: String,
-      default: ''
+      default: ""
     },
     goals: {
       type: String,
-      default: ''
+      default: ""
+    },
+    mentorships: {
+      type: Array,
+      default: []
     }
   },
   data() {
     return {
-      markdown: ''
-    }
+      markdown: "",
+      projects: []
+    };
   },
   computed: {
     twitterHandle() {
-      return this.twitter.split('twitter.com/')[1]
+      return this.twitter.split('twitter.com/')[1];
     }
   },
   created() {
     if (this.github.length) {
-      this.renderMarkdown()
+      this.renderMarkdown();
+    }
+    if (this.mentorships.length) {
+      this.renderMentorshipProjects();
     }
   },
   methods: {
     async renderMarkdown() {
-      const username = this.github.replace(/\/$/gi, '').split('/').pop()
+      const username = this.github
+        .replace(/\/$/gi, "")
+        .split("/")
+        .pop();
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then((res) => {
+      ).then(res => {
         if (res.status === 200) {
-          return res.text()
+          return res.text();
         } else {
-          return ''
+          return "";
         }
-      })
-      const { html } = await md.toMarkup(markdownContent)
-      this.markdown = html
+      });
+      const { html } = await md.toMarkup(markdownContent);
+      this.markdown = html;
+    },
+    async renderMentorshipProjects() {
+      const requests = [];
+      this.mentorships.map(mentorship => {
+        const url = mentorship.project_adress
+          .split("/")
+          .slice(3)
+          .join("/");
+        requests.push(
+          fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
+            .then(res => {
+              if (res.status === 200) {
+                return res.text();
+              } else {
+                return "";
+              }
+            })
+            .then(async markdownContent => {
+              const { html } = await md.toMarkup(markdownContent);
+              return html;
+            })
+        );
+      });
+      this.projects = await Promise.all(requests);
     }
   }
-}
+};
 </script>
 
 <style>
@@ -306,4 +386,9 @@ export default {
   border-radius: 15px;
   padding: 5px;
 }
+
+.accordion-color{
+  background-color: var( --color-ui-02);
+  border : none;
+  }
 </style>
