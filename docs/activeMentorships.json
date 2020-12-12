@@ -20,6 +20,13 @@
       "project_adress": "https://github.com/mstrYoda/kubernetes-kitap",
       "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
       "slug": "kubernetes-kitap"
+    },
+    {
+      "": "12.12.2020 17:46:29",
+      "mentor": "https://findmentor.network/peer/ali-ilteris-keskin/",
+      "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi/blob/main/README.md",
+      "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
+      "slug": "README.md"
     }
   ]
 }
