@@ -4,11 +4,14 @@
   --color-ui-02: #fff;
   --color-ui-03: #17aa90;
   --color-ui-04: #32475b;
+  --color-ui-05: #ffc400;
+  --color-ui-06: #171717;
 
   /* Text */
   --color-text-01: rgba(0, 0, 0, 0.9);
   --color-text-02: rgba(0, 0, 0, 0.5);
   --color-text-03: #212529;
+  --color-text-04: #fff;
 
   /* Border */
   --color-border-01: #fff;
@@ -26,11 +29,14 @@
   --color-ui-02: #222;
   --color-ui-03: #17aa90;
   --color-ui-04: #2f6998;
+  --color-ui-05: #ffc400;
+  --color-ui-06: #fff;
 
   /* Text */
   --color-text-01: rgba(255, 255, 255, 0.9);
   --color-text-02: rgba(255, 255, 255, 0.5);
   --color-text-03: #888;
+  --color-text-04: #222;
 
   /* Border */
   --color-border-01: transparent;

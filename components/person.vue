@@ -1,12 +1,15 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
+      <ul class="profile-card" :style="profileCardStyleAsPersonType" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
             <img :src="avatar" class="avatar" itemprop="image" :alt="name">
           </li>
           <div class="main">
+            <app-badge :bg-color="getPersonTypeColor({ model: type })" :text-color="getPersonTypeColor({ model: type })">
+              {{ getPersonTypeLabel({ model: type }) }}
+            </app-badge>
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
@@ -26,7 +29,7 @@
               <b>Goals:</b> {{ goals }}
             </li>
             <div class="social-media">
-              <li v-if="twitter.length" class="links">
+              <li v-if="twitter.length > 0" class="links">
                 <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
                     <font-awesome-icon
@@ -37,7 +40,7 @@
                   </button>
                 </a>
               </li>
-              <li v-if="github.length" class="links">
+              <li v-if="github.length > 0" class="links">
                 <a :href="github" target="_blank" itemprop="sameAs">
                   <button class="button github">
                     <font-awesome-icon
@@ -48,7 +51,7 @@
                   </button>
                 </a>
               </li>
-              <li v-if="linkedin.length" class="links">
+              <li v-if="linkedin.length > 0" class="links">
                 <a :href="linkedin" target="_blank" itemprop="sameAs">
                   <button class="button linkedin">
                     <font-awesome-icon
@@ -107,26 +110,33 @@
 <script>
 import { Timeline } from 'vue-tweet-embed'
 import Markdown from '@nuxt/markdown'
+
+import { getPersonTypeLabel, getPersonTypeColor } from '@/mixins'
 const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
     Timeline
   },
+  mixins: [getPersonTypeLabel, getPersonTypeColor],
   props: {
+    type: {
+      type: String,
+      required: true
+    },
     slug: {
       type: String,
       default: ''
     },
-    mentor: {
-      type: Boolean,
-      default: false
-    },
-    both: {
-      type: Boolean,
-      default: false
-    },
     name: {
+      type: String,
+      default: ''
+    },
+    avatar: {
+      type: String,
+      default: ''
+    },
+    interests: {
       type: String,
       default: ''
     },
@@ -139,14 +149,6 @@ export default {
       default: ''
     },
     linkedin: {
-      type: String,
-      default: ''
-    },
-    avatar: {
-      type: String,
-      default: ''
-    },
-    interests: {
       type: String,
       default: ''
     },
@@ -163,6 +165,11 @@ export default {
   computed: {
     twitterHandle () {
       return this.twitter.split('twitter.com/')[1]
+    },
+    profileCardStyleAsPersonType () {
+      return `
+        border-top: 4px solid ${this.getPersonTypeColor({ model: this.type })}
+      `
     }
   },
   created () {
@@ -225,11 +232,17 @@ export default {
 }
 
 .social-media .button {
-  padding: 10px 30px;
+  position: relative;
+  padding: 8px 18px;
+  margin-right: 16px;
   border: 2px solid transparent;
   border-radius: 0;
+  font-size: 14px;
   color: #fff;
-  margin-right: 16px;
+}
+
+.social-media .button svg {
+  margin-right: 4px;
 }
 
 .twitter {
