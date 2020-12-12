@@ -376,7 +376,15 @@
     "mentor": "İkisi de",
     "slug": "ali-ilteris-keskin",
     "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-    "mentorships": []
+    "mentorships": [
+      {
+        "": "12.12.2020 04:08:09",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/site-builder",
+        "goal": "Python frameworku olan Flask kullanılarak basit bir statik site oluşturucu yapılacaktır. Basit veritabanı işlemleri, Flask yapısı ve Html, CSS konularının geliştirilmesi ve güzel bir proje çıkartılması hedeflenmektedir. Python, Flask, Web, CSS kelimeleri sizi heyecanlandırıyorsa PR'ları yollayın gelsin :)",
+        "slug": "site-builder"
+      }
+    ]
   },
   {
     "": "08.12.2020 11:47:37",
