@@ -98,12 +98,12 @@
       <div class="accordion" role="tablist">
         <b-card
           no-body
-          class="mb-1"
+          class="mb-1 accordion-color"
           v-for="(mentorship, index) in mentorships"
           :key="mentorship.slug"
         >
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block  v-b-toggle="mentorship.slug" :variant="dark">{{
+            <b-button block  v-b-toggle="mentorship.slug"  variant="dark">{{
               mentorship.slug
             }}</b-button>
           </b-card-header>
@@ -112,7 +112,6 @@
             accordion="my-accordion"
             role="tabpanel"
           >
-          <!-- <div v-html="projects[index]"/> -->
             <b-card-body>
               <b-card-text v-if="projects[index]"><div v-html="projects[index]"/></b-card-text>
               <b-card-text v-else>This project does not have readme file, <a href="link">please visit project to see content.</a></b-card-text>
@@ -387,4 +386,9 @@ export default {
   border-radius: 15px;
   padding: 5px;
 }
+
+.accordion-color{
+  background-color: var( --color-ui-02);
+  border : none;
+  }
 </style>

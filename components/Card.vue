@@ -80,6 +80,7 @@
 
 <script>
 import VClamp from 'vue-clamp'
+
 export default {
   name: 'Card',
   components: {
@@ -216,4 +217,6 @@ export default {
     max-width: 340px;
   }
 }
+
+
 </style>
