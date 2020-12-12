@@ -71,7 +71,7 @@
 
         <!-- Interests -->
         <v-clamp class="interests" autoresize :max-lines="3" itemprop="seeks">
-          {{ person.interests }}
+          {{ person.displayInterests }}
         </v-clamp>
       </div>
     </NuxtLink>
