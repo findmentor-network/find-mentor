@@ -60,7 +60,7 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          >
+          />
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
@@ -75,7 +75,6 @@
         </v-clamp>
       </div>
     </NuxtLink>
-  </div>
   </div>
 </template>
 
@@ -98,7 +97,7 @@ export default {
     }
   },
   methods: {
-    getProfilePicture (githubLink) {
+    getProfilePicture(githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
@@ -119,7 +118,7 @@ export default {
   background-color: var(--color-ui-02);
   border-radius: 0;
   border: 0;
-  box-shadow: 0 0 24px 0 rgba(0,0,0,.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   overflow: hidden;
 }
 

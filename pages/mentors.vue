@@ -1,12 +1,22 @@
 <template>
   <div class="container">
-    <h1>Mentors</h1>
-    <input v-model="search.keyword" class="filter" placeholder="Search in Mentors" @input="searchMentor">
-    <input v-model="search2.keyword" class="filter" placeholder="Search in Topics" @input="searchTopic">
+    <h1 id="title">Mentors</h1>
+    <div id="searches">
+      <input
+        v-model="search.keyword"
+        class="filter"
+        placeholder="Search in Mentors"
+        @input="searchMentor"
+      />
+      <input
+        v-model="search2.keyword"
+        class="filter"
+        placeholder="Search in Topics"
+        @input="searchTopic"
+      />
+    </div>
     <ul class="persons">
-      <h5 v-if="postList.mentor.items.length <= 0">
-        No results...
-      </h5>
+      <h5 style="margin-top: 40px" v-if="postList.mentor.items.length <= 0">No results...</h5>
       <Card
         v-for="(mentor, index) in postList.mentor.items"
         v-else
@@ -17,20 +27,27 @@
       />
     </ul>
     <client-only>
-      <infinite-loading v-if="postList.mentor.items.length >= postList.mentor.limit && !search.isFilled" @infinite="loadMoreMentors" />
+      <infinite-loading
+        v-if="
+          postList.mentor.items.length >= postList.mentor.limit &&
+          !search.isFilled
+        "
+        @infinite="loadMoreMentors"
+      />
     </client-only>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch () {
-    this.postList.mentor.items = await this.$content('persons').where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+  async fetch() {
+    this.postList.mentor.items = await this.$content('persons')
+      .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
       .limit(this.postList.mentor.limit)
       .skip(this.postList.mentor.skip)
       .fetch()
   },
-  data () {
+  data() {
     return {
       search: {
         keyword: null,
@@ -50,7 +67,7 @@ export default {
     }
   },
   methods: {
-    async loadMoreMentors ($state) {
+    async loadMoreMentors($state) {
       this.postList.mentor.skip += this.postList.mentor.limit
 
       const mentors = await this.$content('persons')
@@ -66,7 +83,7 @@ export default {
         $state.complete()
       }
     },
-    async searchMentor () {
+    async searchMentor() {
       this.search2.keyword = ''
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
@@ -83,10 +100,13 @@ export default {
         this.search.isFilled = false
       }
     },
-    async searchTopic () {
+    async searchTopic() {
       this.search.keyword = ''
       const result = await this.$content('persons')
-        .where({ interests: { $contains: this.search2.keyword }, mentor: { $in: ['Mentor', 'İkisi de'] } })
+        .where({
+          interests: { $contains: this.search2.keyword },
+          mentor: { $in: ['Mentor', 'İkisi de'] }
+        })
         .fetch()
 
       if (this.search2.keyword.length > 0) {
@@ -102,3 +122,20 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#title {
+  padding: 40px;
+  text-align: center;
+  color: var(--color-ui-03);
+}
+#searches {
+  display: flex;
+  grid-gap: 10px;
+  justify-content: center;
+}
+#searches input {
+  margin: 0px !important;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+}
+</style>

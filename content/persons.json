@@ -17,6 +17,13 @@
         "project_adress": "https://github.com/cagataycali/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor"
+      },
+      {
+        "": "12.12.2020 00:20:43",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/entrylevel",
+        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
+        "slug": "entrylevel"
       }
     ]
   },
@@ -369,7 +376,15 @@
     "mentor": "İkisi de",
     "slug": "ali-ilteris-keskin",
     "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-    "mentorships": []
+    "mentorships": [
+      {
+        "": "12.12.2020 04:08:09",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/site-builder",
+        "goal": "Python frameworku olan Flask kullanılarak basit bir statik site oluşturucu yapılacaktır. Basit veritabanı işlemleri, Flask yapısı ve Html, CSS konularının geliştirilmesi ve güzel bir proje çıkartılması hedeflenmektedir. Python, Flask, Web, CSS kelimeleri sizi heyecanlandırıyorsa PR'ları yollayın gelsin :)",
+        "slug": "site-builder"
+      }
+    ]
   },
   {
     "": "08.12.2020 11:47:37",
@@ -2020,6 +2035,32 @@
     "mentor": "İkisi de",
     "slug": "atamyrat-abdyrahmanov",
     "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov",
+    "mentorships": []
+  },
+  {
+    "": "12.12.2020 00:42:49",
+    "name": "Hale Nisa Nur Kuş",
+    "twitter_handle": "https://twitter.com/halenisakus",
+    "github": "https://github.com/halenisakus",
+    "linkedin": "https://www.linkedin.com/in/hale-ku%C5%9F",
+    "interests": "frontend(html,css,js) ,,backend,reactjs,web programming,C#,SQL,",
+    "goals": "I am fresh graduate. I am computer engineer. Actually I am a junior developer and I want to improve my skills. We can do great things together! :)",
+    "mentor": "Mentee",
+    "slug": "hale-nisa-nur-kus",
+    "avatar": "https://avatars.githubusercontent.com/halenisakus",
+    "mentorships": []
+  },
+  {
+    "": "12.12.2020 02:04:54",
+    "name": "Esra CANVAR",
+    "twitter_handle": "https://twitter.com/home",
+    "github": "https://github.com",
+    "linkedin": "https://www.linkedin.com/in/esra-canvar-6b1341120",
+    "interests": "JavaScript, Css,Html",
+    "goals": "Hi! I am a fresh graduate from Atatürk University Management Informatics Systems. I am interested in software architecture and system design. I am interested in Css and Javascript. I'm trying to improve myself",
+    "mentor": "İkisi de",
+    "slug": "esra-canvar",
+    "avatar": "",
     "mentorships": []
   },
   {
