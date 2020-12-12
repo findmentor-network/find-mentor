@@ -129,6 +129,23 @@
         source-type="profile"
         :options="{ tweetLimit: '5' }"
       />
+      <h2>Gave Feedback</h2>
+      <div id="disqus_thread" />
+      <hr />
+      <template v-if="twitter.length">
+        <Timeline
+          v-show="$colorMode.value === 'dark'"
+          :id="twitterHandle"
+          source-type="profile"
+          :options="{ tweetLimit: '5', theme: 'dark' }"
+        />
+        <Timeline
+          v-show="$colorMode.value === 'light'"
+          :id="twitterHandle"
+          source-type="profile"
+          :options="{ tweetLimit: '5', theme: 'light' }"
+        />
+      </template>
     </div>
   </div>
 </template>
@@ -196,7 +213,7 @@ export default {
   },
   computed: {
     twitterHandle() {
-      return this.twitter.split("twitter.com/")[1];
+      return this.twitter.split('twitter.com/')[1];
     }
   },
   created() {

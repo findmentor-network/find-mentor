@@ -4,7 +4,7 @@ const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
 const apiKey = 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
 const slugify = require('slugify')
 
-const slugger = text =>
+const slugger = (text) =>
   slugify(text, {
     replacement: '-',
     lower: true,
@@ -40,9 +40,7 @@ const generateAvatar = ({ name, github }) => {
 
 const fixProtocol = (url) => {
   return url
-    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '')
-    : ''
-}
+    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') : '' }
 
 const clearData = (posts) => {
   return posts.map((post) => {
@@ -64,17 +62,27 @@ const clearMentorships = (posts) => {
   })
 }
 
-async function getData () {
+async function getData() {
   try {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
-    let response = await got(url)
-    response = JSON.parse(response.body)
-    let [persons, activeMentorships] = response.valueRanges
-    persons = clearData(mapper(persons.values.slice(4).filter(r => r.length)))
-    activeMentorships = clearMentorships(mapper(
-      activeMentorships.values.slice(1).filter(r => r.length)
-    ))
+    // request datas
+    const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
+    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
+    const responses = Promise.all([
+      got(attendies_url),
+      got(contribs_url)
+    ])
 
+    // convert to json
+    const [attendies, contribs] = (await responses).map(res => JSON.parse(res.body));
+
+    // clear data
+    let [persons, activeMentorships] = attendies.valueRanges
+    persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
+    activeMentorships = clearMentorships(
+      mapper(activeMentorships.values.slice(1).filter((r) => r.length))
+    )
+
+    // find and place mentorships
     persons.map((person) => {
       person.mentorships = activeMentorships.filter((mentorship) => {
         if (mentorship.mentor.endsWith(person.slug)) {
@@ -83,7 +91,20 @@ async function getData () {
       })
     })
 
-    const data = { persons, activeMentorships }
+    // remove the bot
+    contribs.splice(0, 1)
+
+    // check if contributor has find-mentor profile
+    contribs.forEach(contrib => {
+      for (let person of persons) {
+        if (person.github == contrib.html_url) {
+          contrib.fmn_url = `https://findmentor.network/peer/${person.slug}`
+          break;
+        }
+      }
+    })
+
+    const data = { persons, activeMentorships, contribs }
     return { status: 200, data }
   } catch (err) {
     console.log(err)
@@ -91,26 +112,20 @@ async function getData () {
   }
 }
 
-getData().then(
-  ({ status, data: { persons, activeMentorships } }) => {
-    if (status !== 200) {
-      throw new Error('Error when fetching data from spreadsheet')
-    }
-    fs.writeFileSync(
-      'content/persons.json',
-      JSON.stringify(persons, null, 2)
-    )
-    fs.writeFileSync(
-      'static/persons.json',
-      JSON.stringify(persons, null, 2)
-    )
-    fs.writeFileSync(
-      "content/mentorships.json",
-      JSON.stringify(activeMentorships, null, 2)
-    );
-    fs.writeFileSync(
-      "static/mentorships.json",
-      JSON.stringify(activeMentorships, null, 2)
-    );
+// entry point
+getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
+  if (status !== 200) {
+    throw new Error('Error when fetching data from spreadsheet')
   }
-)
+  fs.writeFileSync('content/persons.json', JSON.stringify(persons, null, 2))
+  fs.writeFileSync('static/persons.json', JSON.stringify(persons, null, 2))
+  fs.writeFileSync(
+    'content/activeMentorships.json',
+    JSON.stringify({ mentorships: activeMentorships }, null, 2)
+  )
+  fs.writeFileSync(
+    'static/activeMentorships.json',
+    JSON.stringify({ mentorships: activeMentorships }, null, 2)
+  )
+  fs.writeFileSync('content/contribs.json', JSON.stringify({ contribs }, null, 2))
+})

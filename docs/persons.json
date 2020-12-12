@@ -17,6 +17,13 @@
         "project_adress": "https://github.com/cagataycali/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor"
+      },
+      {
+        "": "12.12.2020 00:20:43",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/entrylevel",
+        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
+        "slug": "entrylevel"
       }
     ]
   },
@@ -57,19 +64,6 @@
     "mentor": "Mentee",
     "slug": "irem-uzun",
     "avatar": "https://avatars.githubusercontent.com/iremuzun",
-    "mentorships": []
-  },
-  {
-    "": "08.12.2020 01:28:43",
-    "name": "Burakcan Dizieğri",
-    "twitter_handle": "https://twitter.com/burakdzgrrr",
-    "github": "https://github.com/burakdzgr",
-    "linkedin": "https://www.linkedin.com/in/burak-dizieğri-447652201",
-    "interests": "frontend",
-    "goals": "Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.",
-    "mentor": "Mentee",
-    "slug": "burakcan-diziegri",
-    "avatar": "https://avatars.githubusercontent.com/burakdzgr",
     "mentorships": []
   },
   {
@@ -382,7 +376,15 @@
     "mentor": "İkisi de",
     "slug": "ali-ilteris-keskin",
     "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-    "mentorships": []
+    "mentorships": [
+      {
+        "": "12.12.2020 04:08:09",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/site-builder",
+        "goal": "Python frameworku olan Flask kullanılarak basit bir statik site oluşturucu yapılacaktır. Basit veritabanı işlemleri, Flask yapısı ve Html, CSS konularının geliştirilmesi ve güzel bir proje çıkartılması hedeflenmektedir. Python, Flask, Web, CSS kelimeleri sizi heyecanlandırıyorsa PR'ları yollayın gelsin :)",
+        "slug": "site-builder"
+      }
+    ]
   },
   {
     "": "08.12.2020 11:47:37",
@@ -775,12 +777,12 @@
     "mentorships": []
   },
   {
-    "": "08.12.2020 19:54:21",
+    "": "11.12.2020 22:27:52",
     "name": "Mücahit Bircan",
     "twitter_handle": "https://twitter.com/mucahitbircan",
     "github": "https://github.com/mucahitbircan",
     "linkedin": "https://www.linkedin.com/in/mücahit-bircan",
-    "interests": "frontend, backend, react-native cyber security,c++",
+    "interests": "frontend, backend, mobile( react-native )",
     "goals": "Yeni mezunumun. Web ve mobil üzerine ilgim var. Yeni teknolojileri denemeyi severim. Kendimi daha da geliştirip bir iş bulmak istiyorum. Bu anlamda bana katkı sağlayacak yol gösterecek bir mentöre ihtiyacım var",
     "mentor": "Mentee",
     "slug": "mucahit-bircan",
@@ -1955,6 +1957,110 @@
     "mentor": "Mentee",
     "slug": "huseyin-gulcu",
     "avatar": "https://avatars.githubusercontent.com/hsglc",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 20:11:17",
+    "name": "Bekir Tatar",
+    "twitter_handle": "https://twitter.com/BekirTa27430092",
+    "github": "https://github.com/bekirtatar0",
+    "linkedin": "https://www.linkedin.com/in/bekir-tatar/bla/mila",
+    "interests": "frontend and backend",
+    "goals": "web tasarım",
+    "mentor": "Mentee",
+    "slug": "bekir-tatar",
+    "avatar": "https://avatars.githubusercontent.com/bekirtatar0",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 20:53:41",
+    "name": "Ali Aydın",
+    "twitter_handle": "https://twitter.com/aliaydins",
+    "github": "https://github.com/aliaydins",
+    "linkedin": "https://www.linkedin.com/in/aliaydins",
+    "interests": "Backend, Frontend, JavaScript (React, Node.js)",
+    "goals": "I am a 4th grade student and I was interested in .net , java before , now I am focusing javascript and typescript ",
+    "mentor": "Mentee",
+    "slug": "ali-aydin",
+    "avatar": "https://avatars.githubusercontent.com/aliaydins",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 21:21:31",
+    "name": "Yılmaz Oğraş",
+    "twitter_handle": "https://twitter.com/yilmazogras",
+    "github": "https://github.com/ograsyilmaz",
+    "linkedin": "https://www.linkedin.com/in/y%C4%B1lmaz-o%C4%9Fra%C5%9F-2a788571",
+    "interests": "Frontend , Backend",
+    "goals": "Yeni  bilgiler öğrenip yeni bilgiler anlatmak. ",
+    "mentor": "İkisi de",
+    "slug": "yilmaz-ogras",
+    "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 21:26:59",
+    "name": "Burakcan Dizieğri",
+    "twitter_handle": "https://twitter.com/burakdzgrrr",
+    "github": "https://github.com/burakdzgr",
+    "linkedin": "https://www.linkedin.com/in/burakdzgr",
+    "interests": "Frontend,SEO,AMP",
+    "goals": "Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.",
+    "mentor": "Mentee",
+    "slug": "burakcan-diziegri",
+    "avatar": "https://avatars.githubusercontent.com/burakdzgr",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 21:33:00",
+    "name": "Hakkı Cengiz",
+    "twitter_handle": "https://twitter.com/hakkicengiz7",
+    "github": "https://github.com/hkkcngz",
+    "linkedin": "https:///in/hkkcngz",
+    "interests": "frontend, backend, design ui, ux",
+    "goals": "I want others to see  what I dreamt and built. ",
+    "mentor": "İkisi de",
+    "slug": "hakki-cengiz",
+    "avatar": "https://avatars.githubusercontent.com/hkkcngz",
+    "mentorships": []
+  },
+  {
+    "": "11.12.2020 23:11:26",
+    "name": "Atamyrat Abdyrahmanov",
+    "twitter_handle": "https://twitter.com/aaabdyrahmanov",
+    "github": "https://github.com/aaabdyrahmanov",
+    "linkedin": "https://www.linkedin.com/in/aaabdyrahmanov",
+    "interests": "Devops, Backend, Frontend, Machine Learning....",
+    "goals": "I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.",
+    "mentor": "İkisi de",
+    "slug": "atamyrat-abdyrahmanov",
+    "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov",
+    "mentorships": []
+  },
+  {
+    "": "12.12.2020 00:42:49",
+    "name": "Hale Nisa Nur Kuş",
+    "twitter_handle": "https://twitter.com/halenisakus",
+    "github": "https://github.com/halenisakus",
+    "linkedin": "https://www.linkedin.com/in/hale-ku%C5%9F",
+    "interests": "frontend(html,css,js) ,,backend,reactjs,web programming,C#,SQL,",
+    "goals": "I am fresh graduate. I am computer engineer. Actually I am a junior developer and I want to improve my skills. We can do great things together! :)",
+    "mentor": "Mentee",
+    "slug": "hale-nisa-nur-kus",
+    "avatar": "https://avatars.githubusercontent.com/halenisakus",
+    "mentorships": []
+  },
+  {
+    "": "12.12.2020 02:04:54",
+    "name": "Esra CANVAR",
+    "twitter_handle": "https://twitter.com/home",
+    "github": "https://github.com",
+    "linkedin": "https://www.linkedin.com/in/esra-canvar-6b1341120",
+    "interests": "JavaScript, Css,Html",
+    "goals": "Hi! I am a fresh graduate from Atatürk University Management Informatics Systems. I am interested in software architecture and system design. I am interested in Css and Javascript. I'm trying to improve myself",
+    "mentor": "İkisi de",
+    "slug": "esra-canvar",
+    "avatar": "",
     "mentorships": []
   },
   {

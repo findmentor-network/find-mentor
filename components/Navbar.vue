@@ -1,24 +1,22 @@
-
 <template>
   <div>
     <b-navbar
       toggleable="lg"
-      v-bind:type="$colorMode.value"
-      v-bind:variant="$colorMode.value"
+      :type="$colorMode.value"
+      :variant="$colorMode.value"
     >
-      <b-navbar-brand to="/">Find Mentor</b-navbar-brand>
+      <b-navbar-brand to="/"> Find Mentor </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse" />
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
+          <b-nav-item exact active-class="active" to="/mentorships/">
+            Active Mentorships
+          </b-nav-item>
+          <b-nav-item exact to="/mentees/"> Mentees </b-nav-item>
+          <b-nav-item exact to="/mentors/"> Mentors </b-nav-item>
 
-          <b-nav-item exact active-class="active" to="/mentees/">
-            Mentees
-          </b-nav-item>
-          <b-nav-item exact active-class="active" to="/mentors/">
-            Mentors
-          </b-nav-item>
           <b-nav-item
             href="https://forms.gle/pQwFZBXEyqBRDU2H9"
             target="_blank"
@@ -28,16 +26,12 @@
           <b-nav-item to="/guide/"> How It Works? </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
-
     </b-navbar>
   </div>
 </template>
 
-
 <script>
-export default {};
+export default {}
 </script>
 
-<style>
-</style>
-
+<style></style>

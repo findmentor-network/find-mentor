@@ -17,16 +17,17 @@
 </template>
 
 <script>
-
 export default {
-  async asyncData ({ $content, params, error }) {
-    const [doc] = await $content('persons').where({ slug: { $eq: params.slug } }).fetch()
+  async asyncData({ $content, params, error }) {
+    const [doc] = await $content('persons')
+      .where({ slug: { $eq: params.slug } })
+      .fetch()
     if (!doc) {
       return error({ statusCode: 404, message: 'Not found' })
     }
     return { doc }
   },
-  head () {
+  head() {
     return {
       title: this.doc.name,
       meta: [
@@ -88,5 +89,4 @@ export default {
     }
   }
 }
-
 </script>
