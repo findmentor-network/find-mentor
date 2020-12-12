@@ -24,7 +24,7 @@ export default {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--color-ui-02);
   margin-top:1rem
  
 }
@@ -36,7 +36,7 @@ export default {
 }
 .ma-card .title{
     font-size:1.5rem;
-    color: black;
+    color: var(--color-text-01);
     font-weight: 600;
     text-decoration: none;
     margin-bottom: 1rem;
@@ -44,7 +44,7 @@ export default {
 }
 .ma-card .desc{
     font-size:1rem;
-    color: rgba(0, 0, 0, .6);
+    color: var(--color-text-03);
     font-weight: 600;
     text-decoration: none;
 }
