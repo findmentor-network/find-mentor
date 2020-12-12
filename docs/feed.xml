@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Sat, 12 Dec 2020 18:56:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Dec 2020 19:56:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1118,7 +1118,35 @@ I want to learn what I can do]]></content:encoded>
             <link>https://findmentor.network/peer/yusuf-bestas</link>
             <guid>https://findmentor.network/peer/yusuf-bestas</guid>
             <description><![CDATA[backend]]></description>
-            <content:encoded><![CDATA[İyi bir backend developar olabilmek.]]></content:encoded>
+            <content:encoded><![CDATA[İyi bir backend developer olabilmek.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cihat Karaboğa]]></title>
+            <link>https://findmentor.network/peer/cihat-karaboga</link>
+            <guid>https://findmentor.network/peer/cihat-karaboga</guid>
+            <description><![CDATA[mobil-flutter backend-c#]]></description>
+            <content:encoded><![CDATA[I want to be good developer and I want  developing big mobile app.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[İnci Beyza Yürekli]]></title>
+            <link>https://findmentor.network/peer/inci-beyza-yurekli</link>
+            <guid>https://findmentor.network/peer/inci-beyza-yurekli</guid>
+            <description><![CDATA[data science, python, machine learning]]></description>
+            <content:encoded><![CDATA[I want to be a data scientist.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hüseyin Özsoy]]></title>
+            <link>https://findmentor.network/peer/huseyin-ozsoy</link>
+            <guid>https://findmentor.network/peer/huseyin-ozsoy</guid>
+            <description><![CDATA[backend (net core), frontend(angular, ionic)]]></description>
+            <content:encoded><![CDATA[I want to  be developer (Not full-stack developer just developer :D)]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hilal Özen]]></title>
+            <link>https://findmentor.network/peer/hilal-ozen</link>
+            <guid>https://findmentor.network/peer/hilal-ozen</guid>
+            <description><![CDATA[python, ai, ml, data science, robotics]]></description>
+            <content:encoded><![CDATA[I want to improve myself on these topics]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>

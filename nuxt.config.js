@@ -31,7 +31,7 @@ const create = async (feed, args) => {
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: process.env.HEROKU === 'true' ? 'server' : 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
