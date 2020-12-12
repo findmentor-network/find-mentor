@@ -114,7 +114,7 @@
           >
             <b-card-body>
               <b-card-text v-if="projects[index]"><div v-html="projects[index]"/></b-card-text>
-              <b-card-text v-else>This project does not have readme file, <a href="link">please visit project to see content.</a></b-card-text>
+              <b-card-text v-else>This project does not have readme file, <a :href="mentorship.project_adress" target="_blank">please visit project to see content.</a></b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
