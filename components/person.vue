@@ -92,14 +92,12 @@
       </div>
       <h2 v-if="markdown.length">
         GitHub
-        <hr>
       </h2>
-      <div class="readme" v-html="markdown" />
       <hr>
+      <div class="readme" v-html="markdown" />
       <h2 v-if="mentorships.length">
         Active Mentorships
       </h2>
-      <hr>
       <div class="accordion" role="tablist">
         <b-card
           v-for="(mentorship, index) in mentorships"
@@ -119,7 +117,11 @@
           >
             <b-card-body>
               <b-card-text v-if="projects[index]">
-                <a class="float-right" :href="mentorship.project_adress" target="_blank">Go to project page</a>
+                <a
+                  class="float-right"
+                  :href="mentorship.project_adress"
+                  target="_blank"
+                >Go to project page</a>
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
@@ -133,9 +135,8 @@
           </b-collapse>
         </b-card>
       </div>
-      <hr>
       <h2>
-        Give Feedback
+        💬 Give Feedback
       </h2>
       <hr>
       <div id="disqus_thread" />
