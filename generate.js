@@ -64,15 +64,25 @@ const clearMentorships = (posts) => {
 
 async function getData() {
   try {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
-    let response = await got(url)
-    response = JSON.parse(response.body)
-    let [persons, activeMentorships] = response.valueRanges
+    // request datas
+    const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
+    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
+    const responses = Promise.all([
+      got(attendies_url),
+      got(contribs_url)
+    ])
+
+    // convert to json
+    const [attendies, contribs] = (await responses).map(res => JSON.parse(res.body));
+
+    // clear data
+    let [persons, activeMentorships] = attendies.valueRanges
     persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
     )
 
+    // find and place mentorships
     persons.map((person) => {
       person.mentorships = activeMentorships.filter((mentorship) => {
         if (mentorship.mentor.endsWith(person.slug)) {
@@ -80,10 +90,6 @@ async function getData() {
         }
       })
     })
-
-    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
-    const contribs_res = await got(contribs_url)
-    const contribs = JSON.parse(contribs_res.body)
 
     // remove the bot
     contribs.splice(0, 1)
@@ -106,6 +112,7 @@ async function getData() {
   }
 }
 
+// entry point
 getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
   if (status !== 200) {
     throw new Error('Error when fetching data from spreadsheet')
