@@ -1,16 +1,7 @@
 <template>
   <div class="page peer-page">
-    <Person
-      :type="personType"
-      :slug="doc.slug"
-      :name="doc.name"
-      :twitter="doc.twitter_handle"
-      :linkedin="doc.linkedin"
-      :github="doc.github"
-      :avatar="doc.avatar"
-      :interests="doc.interests"
-      :goals="doc.goals"
-      :mentorships="doc.mentorships"
+    <PersonDetail
+      :person="doc"
     />
   </div>
 </template>
@@ -25,11 +16,6 @@ export default {
       return error({ statusCode: 404, message: 'Not found' })
     }
     return { doc }
-  },
-  computed: {
-    personType () {
-      return this.$lowerCase(this.doc.mentor)
-    }
   },
   head () {
     return {

@@ -20,6 +20,11 @@
   --color-field-01: #fff;
   --color-field-02: #fff;
 
+  /* Social */
+  --color-twitter-01: #00acee;
+  --color-github-01: #24292e;
+  --color-linkedin-01: #0e76a8;
+
   /*   Disqus Color  */
   --color-disqus-thread: #a9a9a9;
 }
@@ -45,6 +50,11 @@
   /* Field */
   --color-field-01: #000;
   --color-field-02: #222;
+
+  /* Social */
+  --color-twitter-01: #00acee;
+  --color-github-01: #24292e;
+  --color-linkedin-01: #0e76a8;
 
   /*   Disqus Color  */
   --color-disqus-thread: #161616;
