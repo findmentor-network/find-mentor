@@ -44,9 +44,12 @@ export default {
 #jumbotron-mentor {
   margin-top: 2%;
 }
+html.dark-mode #jumbotron-mentor .jumbotron {
+  background: rgba(255, 255, 255, .15);
+}
 .contr-image {
   padding: 2px;
-  width: 8%; 
+  width: 8%;
   border-radius: 100%;
   opacity: 0.7;
 }
@@ -57,4 +60,11 @@ export default {
 .contr-a:hover {
   color: white;
 }
+html.dark-mode #jumbotron-mentor h1,
+html.dark-mode #jumbotron-mentor p,
+html.dark-mode #jumbotron-mentor li {
+    color: #ddd;
+}
+
+
 </style>
