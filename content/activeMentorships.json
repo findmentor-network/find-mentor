@@ -27,6 +27,13 @@
       "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
       "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
       "slug": "cevrimici-kitap-galerisi"
+    },
+    {
+      "": "12.12.2020 23:42:41",
+      "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+      "project_adress": "https://github.com/FurkanPortakal/lokum-js",
+      "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
+      "slug": "lokum-js"
     }
   ]
 }

@@ -2327,6 +2327,70 @@
     "mentorships": []
   },
   {
+    "": "12.12.2020 23:24:28",
+    "name": "Ahmet Buğra Çakıcı",
+    "twitter_handle": "https://twitter.com/@ahmetbcakici",
+    "github": "https://github.com/ahmetbcakici",
+    "linkedin": "https://linkedin.com/in/ahmetbcakici",
+    "interests": "backend, devops",
+    "goals": "I want to make useful products for people’s daily life.",
+    "mentor": "İkisi de",
+    "slug": "ahmet-bugra-cakici",
+    "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+    "displayInterests": "backend, devops",
+    "mentorships": [
+      {
+        "": "12.12.2020 23:42:41",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/lokum-js",
+        "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
+        "slug": "lokum-js"
+      }
+    ]
+  },
+  {
+    "": "13.12.2020 00:31:05",
+    "name": "İlayda GÜNERİ",
+    "twitter_handle": "https://twitter.com/guneri_ilayda",
+    "github": "https://github.com/IlaydaaGUNERI",
+    "linkedin": "https://www.linkedin.com/in/ilaydaguneri",
+    "interests": "backend, frontend, data minig ",
+    "goals": "I want to be the best Ilayda I can be. That is why I am here.",
+    "mentor": "Mentee",
+    "slug": "ilayda-guneri",
+    "avatar": "https://avatars.githubusercontent.com/IlaydaaGUNERI",
+    "displayInterests": "backend, frontend, data minig ",
+    "mentorships": []
+  },
+  {
+    "": "13.12.2020 00:43:15",
+    "name": "Can Gür",
+    "twitter_handle": "https://twitter.com/CodeEmAll",
+    "github": "https://github.com/cvngur",
+    "linkedin": "https://www.linkedin.com/in/cangur",
+    "interests": "backend, frontend, go",
+    "goals": "As a senior student, I want to improve myself as much as possible. I am mainly interests in web development. I had done frontend and backend developments. I think backend is little bit more interesting to me. I am a beginner in Go and I want to improve myself in Go. ",
+    "mentor": "Mentee",
+    "slug": "can-gur",
+    "avatar": "https://avatars.githubusercontent.com/cvngur",
+    "displayInterests": "Backend, Frontend, Go",
+    "mentorships": []
+  },
+  {
+    "": "13.12.2020 01:13:54",
+    "name": "Utku Şengün",
+    "twitter_handle": "https://twitter.com/Utkusengunn",
+    "github": "https://github.com/UtkuSengun",
+    "linkedin": "https://www.linkedin.com/in/utku-%C5%9Feng%C3%BCn-702441168",
+    "interests": "frontend and backend",
+    "goals": " A developer is known in Turkey, I would like to announce the name of my country in the world.",
+    "mentor": "Mentee",
+    "slug": "utku-sengun",
+    "avatar": "https://avatars.githubusercontent.com/UtkuSengun",
+    "displayInterests": "Frontend and backend",
+    "mentorships": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",

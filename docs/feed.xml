@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Sat, 12 Dec 2020 20:22:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Dec 2020 23:38:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1161,6 +1161,34 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/fatma-nur-kilincarslan</guid>
             <description><![CDATA[ui/ux design]]></description>
             <content:encoded><![CDATA[I want to be worldwide designer in the future. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ahmet Buğra Çakıcı]]></title>
+            <link>https://findmentor.network/peer/ahmet-bugra-cakici</link>
+            <guid>https://findmentor.network/peer/ahmet-bugra-cakici</guid>
+            <description><![CDATA[backend, devops]]></description>
+            <content:encoded><![CDATA[I want to make useful products for people’s daily life.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[İlayda GÜNERİ]]></title>
+            <link>https://findmentor.network/peer/ilayda-guneri</link>
+            <guid>https://findmentor.network/peer/ilayda-guneri</guid>
+            <description><![CDATA[backend, frontend, data minig ]]></description>
+            <content:encoded><![CDATA[I want to be the best Ilayda I can be. That is why I am here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Can Gür]]></title>
+            <link>https://findmentor.network/peer/can-gur</link>
+            <guid>https://findmentor.network/peer/can-gur</guid>
+            <description><![CDATA[backend, frontend, go]]></description>
+            <content:encoded><![CDATA[As a senior student, I want to improve myself as much as possible. I am mainly interests in web development. I had done frontend and backend developments. I think backend is little bit more interesting to me. I am a beginner in Go and I want to improve myself in Go. ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Utku Şengün]]></title>
+            <link>https://findmentor.network/peer/utku-sengun</link>
+            <guid>https://findmentor.network/peer/utku-sengun</guid>
+            <description><![CDATA[frontend and backend]]></description>
+            <content:encoded><![CDATA[ A developer is known in Turkey, I would like to announce the name of my country in the world.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
