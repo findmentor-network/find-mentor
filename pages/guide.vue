@@ -4,9 +4,11 @@
     <b-jumbotron text-variant="black" border-variant="dark" >
       <h1>Founders</h1>
       <p><i>As contributors are the actual founders of this collaborative artwork.</i></p>
-      <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.fmn_url || c.html_url" target="_blank">
-        <img class="contr-image" :src="c.avatar_url">
-      </a>
+      <p align="center">
+        <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.fmn_url || c.html_url" target="_blank">
+          <img class="contr-image" :src="c.avatar_url">
+        </a>
+      </p>
     </b-jumbotron>
 
     <b-jumbotron
@@ -43,13 +45,14 @@ export default {
 <style>
 #jumbotron-mentor {
   margin-top: 2%;
+  max-width: 850px;
 }
 html.dark-mode #jumbotron-mentor .jumbotron {
   background: rgba(255, 255, 255, .15);
 }
 .contr-image {
   padding: 2px;
-  width: 8%;
+  width: 10%;
   border-radius: 100%;
   opacity: 0.7;
 }
