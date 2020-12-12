@@ -13,6 +13,13 @@
       "project_adress": "https://github.com/cagataycali/entrylevel",
       "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
       "slug": "entrylevel"
+    },
+    {
+      "": "12.12.2020 04:08:09",
+      "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+      "project_adress": "https://github.com/ilteriskeskin/site-builder",
+      "goal": "Python frameworku olan Flask kullanılarak basit bir statik site oluşturucu yapılacaktır. Basit veritabanı işlemleri, Flask yapısı ve Html, CSS konularının geliştirilmesi ve güzel bir proje çıkartılması hedeflenmektedir. Python, Flask, Web, CSS kelimeleri sizi heyecanlandırıyorsa PR'ları yollayın gelsin :)",
+      "slug": "site-builder"
     }
   ]
 }

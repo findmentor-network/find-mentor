@@ -1,20 +1,22 @@
 <template>
   <div class="container">
-    <h1>Mentees</h1>
-    <input
-      v-model="search.keyword"
-      class="filter"
-      placeholder="Search in Mentees"
-      @input="searchMentee"
-    />
-    <input
-      v-model="search2.keyword"
-      class="filter"
-      placeholder="Search in Topics"
-      @input="searchTopic"
-    />
+    <h1 id="title">Mentees</h1>
+    <div id="searches">
+      <input
+        v-model="search.keyword"
+        class="filter"
+        placeholder="Search in Mentees"
+        @input="searchMentee"
+      />
+      <input
+        v-model="search2.keyword"
+        class="filter"
+        placeholder="Search in Topics"
+        @input="searchTopic"
+      />
+    </div>
     <ul class="persons">
-      <h5 v-if="postList.mentee.items.length <= 0">No results...</h5>
+      <h5 style="margin-top: 40px" v-if="postList.mentee.items.length <= 0">No results...</h5>
       <Card
         v-for="(mentee, index) in postList.mentee.items"
         v-else
@@ -120,3 +122,20 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#title {
+  padding: 40px;
+  text-align: center;
+  color: var(--color-ui-04);
+}
+#searches {
+  display: flex;
+  grid-gap: 10px;
+  justify-content: center;
+}
+#searches input {
+  margin: 0px !important;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+}
+</style>
