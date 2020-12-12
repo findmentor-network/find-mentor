@@ -101,15 +101,12 @@
           :key="mentorship.slug"
         >
           <b-card-header header-tag="header" class="p-1" role="tablist">
-            <b-button block v-b-toggle.accordion-1 variant="info">{{
+            <b-button block :v-b-toggle="`${mentorship.slug}`" variant="info">{{
               mentorship.slug
             }}</b-button>
           </b-card-header>
           <b-collapse
-
-         id="accordion-1"
-
-
+            :id="mentorship.slug"
             accordion="my-accordion"
             role="tabpanel"
           >
