@@ -4,7 +4,7 @@
         <title>Persons - Find Mentor</title>
         <link>https://findmentor.network/peer/persons/feed.xml</link>
         <description>Find a mentee or mentor.</description>
-        <lastBuildDate>Sat, 12 Dec 2020 20:00:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Dec 2020 20:22:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -1147,6 +1147,20 @@ I want to learn what I can do]]></content:encoded>
             <guid>https://findmentor.network/peer/hilal-ozen</guid>
             <description><![CDATA[python, ai, ml, data science, robotics]]></description>
             <content:encoded><![CDATA[I want to improve myself on these topics]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatma Nur Kilincarslan]]></title>
+            <link>https://findmentor.network/peer/fatma-nur-kilincarslan</link>
+            <guid>https://findmentor.network/peer/fatma-nur-kilincarslan</guid>
+            <description><![CDATA[ui/ux design]]></description>
+            <content:encoded><![CDATA[I want to be worldwide designer in the future. That's why I'm here.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fatma Nur Kilincarslan]]></title>
+            <link>https://findmentor.network/peer/fatma-nur-kilincarslan</link>
+            <guid>https://findmentor.network/peer/fatma-nur-kilincarslan</guid>
+            <description><![CDATA[ui/ux design]]></description>
+            <content:encoded><![CDATA[I want to be worldwide designer in the future. That's why I'm here.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emsal Cengiz]]></title>
