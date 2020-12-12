@@ -49,6 +49,8 @@ const clearData = (posts) => {
     post.twitter_handle = fixProtocol(post.twitter_handle)
     post.linkedin = fixProtocol(post.linkedin)
     post.avatar = generateAvatar(post)
+    post.displayInterests = post.interests
+    post.interests = post.interests.toLowerCase()
     return post
   })
 }
