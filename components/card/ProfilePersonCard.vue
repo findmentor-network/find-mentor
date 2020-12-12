@@ -23,10 +23,10 @@
               {{ person.name }}
             </div>
             <app-badge
-              :bg-color="getPersonTypeColor({ model: person.type })"
-              :text-color="getPersonTypeColor({ model: person.type })"
+              :bg-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
+              :text-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
             >
-              {{ getPersonTypeLabel({ model: person.type }) }}
+              {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
             <hr>
             <div
@@ -102,7 +102,7 @@ export default {
   computed: {
     profileCardStyleAsPersonType () {
       return `
-        border-top: 4px solid ${this.getPersonTypeColor({ model: this.person.type })}
+        border-top: 4px solid ${this.getPersonTypeColor({ model: this.$lowerCase(this.person.mentor) })}
       `
     }
   }
@@ -132,8 +132,9 @@ export default {
     display: flex;
 
     &__infoBox {
-      width: 100%;
       position: relative;
+      width: 100%;
+      margin-bottom: 16px;
     }
 
     &__name {
