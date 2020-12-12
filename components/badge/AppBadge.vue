@@ -40,5 +40,6 @@ export default {
   border: 1px solid transparent;
   padding: 4px 12px;
   font-size: 16px;
+  border-radius: 5px;
 }
 </style>
