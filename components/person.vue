@@ -1,16 +1,19 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
+      <ul class="profile-card" :style="profileCardStyleAsPersonType" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
           </li>
           <div class="main">
+            <app-badge :bg-color="getPersonTypeColor({ model: type })" :text-color="getPersonTypeColor({ model: type })">
+              {{ getPersonTypeLabel({ model: type }) }}
+            </app-badge>
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
-            <hr />
+            <hr>
             <li
               v-if="interests && interests.length"
               class="text"
@@ -26,7 +29,7 @@
               <b>Goals:</b> {{ goals }}
             </li>
             <div class="social-media">
-              <li v-if="twitter.length" class="links">
+              <li v-if="twitter.length > 0" class="links">
                 <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
                     <font-awesome-icon
@@ -37,7 +40,7 @@
                   </button>
                 </a>
               </li>
-              <li v-if="github.length" class="links">
+              <li v-if="github.length > 0" class="links">
                 <a :href="github" target="_blank" itemprop="sameAs">
                   <button class="button github">
                     <font-awesome-icon
@@ -48,7 +51,7 @@
                   </button>
                 </a>
               </li>
-              <li v-if="linkedin.length" class="links">
+              <li v-if="linkedin.length > 0" class="links">
                 <a :href="linkedin" target="_blank" itemprop="sameAs">
                   <button class="button linkedin">
                     <font-awesome-icon
@@ -79,33 +82,35 @@
       </ul>
       <h2 v-if="markdown.length">
         GitHub
-        <hr />
+        <hr>
       </h2>
       <div v-html="markdown" />
-      <hr />
+      <hr>
       <h2>
         Gave Feedback
       </h2>
 
-      <hr />
+      <hr>
       <div id="disqus_thread" />
-        <hr />
+      <hr>
       <h2>
         Active Mentorships
       </h2>
-      <hr />
+      <hr>
 
       <div class="accordion" role="tablist">
         <b-card
-          no-body
-          class="mb-1 accordion-color"
           v-for="(mentorship, index) in mentorships"
           :key="mentorship.slug"
+          no-body
+          class="mb-1 accordion-color"
         >
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block  v-b-toggle="mentorship.slug"  variant="dark">{{
-              mentorship.slug
-            }}</b-button>
+            <b-button v-b-toggle="mentorship.slug" block variant="dark">
+              {{
+                mentorship.slug
+              }}
+            </b-button>
           </b-card-header>
           <b-collapse
             :id="mentorship.slug"
@@ -120,8 +125,7 @@
         </b-card>
       </div>
 
-
-      <hr />
+      <hr>
       <Timeline
         v-if="twitter.length"
         :id="twitterHandle"
@@ -130,7 +134,7 @@
       />
       <h2>Gave Feedback</h2>
       <div id="disqus_thread" />
-      <hr />
+      <hr>
       <template v-if="twitter.length">
         <Timeline
           v-show="$colorMode.value === 'dark'"
@@ -150,123 +154,126 @@
 </template>
 
 <script>
-import { Timeline } from "vue-tweet-embed";
-import Markdown from "@nuxt/markdown";
-const md = new Markdown({ toc: true, sanitize: true });
+import { Timeline } from 'vue-tweet-embed'
+import Markdown from '@nuxt/markdown'
+import { getPersonTypeLabel, getPersonTypeColor } from '@/mixins'
+const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
     Timeline
   },
+  mixins: [getPersonTypeLabel, getPersonTypeColor],
   props: {
+    type: {
+      type: String,
+      required: true
+    },
     slug: {
       type: String,
-      default: ""
-    },
-    mentor: {
-      type: Boolean,
-      default: false
-    },
-    both: {
-      type: Boolean,
-      default: false
+      default: ''
     },
     name: {
       type: String,
-      default: ""
-    },
-    twitter: {
-      type: String,
-      default: ""
-    },
-    github: {
-      type: String,
-      default: ""
-    },
-    linkedin: {
-      type: String,
-      default: ""
+      default: ''
     },
     avatar: {
       type: String,
-      default: ""
+      default: ''
     },
     interests: {
       type: String,
-      default: ""
+      default: ''
+    },
+    twitter: {
+      type: String,
+      default: ''
+    },
+    github: {
+      type: String,
+      default: ''
+    },
+    linkedin: {
+      type: String,
+      default: ''
     },
     goals: {
       type: String,
-      default: ""
+      default: ''
     },
     mentorships: {
       type: Array,
       default: []
     }
   },
-  data() {
+  data () {
     return {
-      markdown: "",
+      markdown: '',
       projects: []
-    };
+    }
   },
   computed: {
-    twitterHandle() {
-      return this.twitter.split('twitter.com/')[1];
+    twitterHandle () {
+      return this.twitter.split('twitter.com/')[1]
+    },
+    profileCardStyleAsPersonType () {
+      return `
+        border-top: 4px solid ${this.getPersonTypeColor({ model: this.type })}
+      `
     }
   },
-  created() {
+  created () {
     if (this.github.length) {
-      this.renderMarkdown();
+      this.renderMarkdown()
     }
     if (this.mentorships.length) {
-      this.renderMentorshipProjects();
+      this.renderMentorshipProjects()
     }
   },
   methods: {
-    async renderMarkdown() {
+    async renderMarkdown () {
       const username = this.github
-        .replace(/\/$/gi, "")
-        .split("/")
-        .pop();
+        .replace(/\/$/gi, '')
+        .split('/')
+        .pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then(res => {
+      ).then((res) => {
         if (res.status === 200) {
-          return res.text();
+          return res.text()
         } else {
-          return "";
+          return ''
         }
-      });
-      const { html } = await md.toMarkup(markdownContent);
-      this.markdown = html;
+      })
+      const { html } = await md.toMarkup(markdownContent)
+      this.markdown = html
     },
-    async renderMentorshipProjects() {
-      const requests = [];
-      this.mentorships.map(mentorship => {
+    async renderMentorshipProjects () {
+      const requests = []
+      this.mentorships.map((mentorship) => {
         const url = mentorship.project_adress
-          .split("/")
+          .split('/')
           .slice(3)
-          .join("/");
+          .join('/')
         requests.push(
           fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
-            .then(res => {
+            .then((res) => {
               if (res.status === 200) {
-                return res.text();
+                return res.text()
               } else {
-                return "";
+                return ''
               }
             })
-            .then(async markdownContent => {
-              const { html } = await md.toMarkup(markdownContent);
-              return html;
+            .then(async (markdownContent) => {
+              const { html } = await md.toMarkup(markdownContent)
+              return html
             })
-        );
-      });
-      this.projects = await Promise.all(requests);
+        )
+      })
+      this.projects = await Promise.all(requests)
     }
   }
-};
+}
 </script>
 
 <style>
@@ -305,11 +312,17 @@ export default {
 }
 
 .social-media .button {
-  padding: 10px 30px;
+  position: relative;
+  padding: 8px 18px;
+  margin-right: 16px;
   border: 2px solid transparent;
   border-radius: 0;
+  font-size: 14px;
   color: #fff;
-  margin-right: 16px;
+}
+
+.social-media .button svg {
+  margin-right: 4px;
 }
 
 .twitter {

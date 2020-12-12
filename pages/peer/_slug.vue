@@ -1,9 +1,8 @@
 <template>
   <div>
     <Person
+      :type="personType"
       :slug="doc.slug"
-      :mentor="['Mentor', 'İkisi de'].includes(doc.mentor)"
-      :both="doc.mentor === 'İkisi de'"
       :name="doc.name"
       :twitter="doc.twitter_handle"
       :linkedin="doc.linkedin"
@@ -18,7 +17,7 @@
 
 <script>
 export default {
-  async asyncData({ $content, params, error }) {
+  async asyncData ({ $content, params, error }) {
     const [doc] = await $content('persons')
       .where({ slug: { $eq: params.slug } })
       .fetch()
@@ -27,7 +26,12 @@ export default {
     }
     return { doc }
   },
-  head() {
+  computed: {
+    personType () {
+      return this.$lowerCase(this.doc.mentor)
+    }
+  },
+  head () {
     return {
       title: this.doc.name,
       meta: [

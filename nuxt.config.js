@@ -101,7 +101,9 @@ export default {
     // https://content.nuxtjs.org/integrations#nuxtjssitemap
     '@nuxtjs/sitemap',
     // https://github.com/nuxt-community/robots-module
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    // https://github.com/RadKod/nuxt-change-case
+    'nuxt-change-case'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -133,7 +135,7 @@ export default {
 
       const persons = await $content('persons').fetch()
 
-      persons.forEach((person) => routes.push(`peer/${person.slug}`))
+      persons.forEach(person => routes.push(`peer/${person.slug}`))
 
       return routes
     }
