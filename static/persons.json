@@ -10,6 +10,7 @@
     "mentor": "İkisi de",
     "slug": "cagatay-cali",
     "avatar": "https://avatars.githubusercontent.com/cagataycali",
+    "displayInterests": "frontend, backend, devops, secops",
     "mentorships": [
       {
         "": "11.12.2020 14:13:50",
@@ -33,11 +34,12 @@
     "twitter_handle": "https://twitter.com/erenaslandev",
     "github": "https://github.com/sn4dy",
     "linkedin": "https://www.linkedin.com/in/erenaslan",
-    "interests": "Backend(PHP, Nodejs, Go), Frontend(Vue)",
+    "interests": "backend(php, nodejs, go), frontend(vue)",
     "goals": "I want to improve myself in modern web development. At least I want to learn mobile development at a level that can develop mobile applications that will work synchronously with the websites I have developed.",
     "mentor": "Mentee",
     "slug": "eren-aslan",
     "avatar": "https://avatars.githubusercontent.com/sn4dy",
+    "displayInterests": "Backend(PHP, Nodejs, Go), Frontend(Vue)",
     "mentorships": []
   },
   {
@@ -46,11 +48,12 @@
     "twitter_handle": "https://twitter.com/saracaIihan",
     "github": "https://github.com/saracalihan",
     "linkedin": "https://www.linkedin.com/in/alihan-sara%C3%A7-ba75a319a",
-    "interests": "Frontend, Backend, Robotic, Node.js, Vue.js, React-Native, Electron.js, Cross platform, Embedded systems, C/C++",
+    "interests": "frontend, backend, robotic, node.js, vue.js, react-native, electron.js, cross platform, embedded systems, c/c++",
     "goals": "I am a 2nd grade computer science student. I am interested in the cross platform, so I enjoy developing javascript based applications. I am at the level to develop projects on my own with Node.js and Vue.js. I am try code react-native. I have recently started learning Electron.js.I need someone with experience to ask a question and will give advice.On the free time i am coding robotic and embedded systems.I use raspberry, esp32 and arduino as a board.Todays i try to code 2d mapping controoled robot with solar sensor.It will comminicate with compuetr, db and control it self otomaticly or human based",
     "mentor": "Mentee",
     "slug": "alihan-sarac",
     "avatar": "https://avatars.githubusercontent.com/saracalihan",
+    "displayInterests": "Frontend, Backend, Robotic, Node.js, Vue.js, React-Native, Electron.js, Cross platform, Embedded systems, C/C++",
     "mentorships": []
   },
   {
@@ -64,6 +67,7 @@
     "mentor": "Mentee",
     "slug": "irem-uzun",
     "avatar": "https://avatars.githubusercontent.com/iremuzun",
+    "displayInterests": "pyhton,c++,illustrations",
     "mentorships": []
   },
   {
@@ -77,6 +81,7 @@
     "mentor": "Mentee",
     "slug": "ahmet-can-aydemir",
     "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir",
+    "displayInterests": "frontend, backend, abroad (github for technology details)",
     "mentorships": []
   },
   {
@@ -90,6 +95,7 @@
     "mentor": "Mentee",
     "slug": "cem-donmez",
     "avatar": "https://ui-avatars.com/api/?name=Cem Dönmez&size=256",
+    "displayInterests": "frontend backend mobile development",
     "mentorships": []
   },
   {
@@ -98,11 +104,12 @@
     "twitter_handle": "https://twitter.com/yazilimci1baba",
     "github": "https://github.com/emreharman",
     "linkedin": "https://www.linkedin.com/in/emre-harman-2671481a6",
-    "interests": "Backend, .Net Core MVC",
+    "interests": "backend, .net core mvc",
     "goals": "Bilgisayar Mühendisliği 3. sınıf öğrencisiyim, 30 yaşındayım. Backend developer alanında ilerlemek istiyorum. Bu sıralar .Net Core MVC ile ilgileniyorum.",
     "mentor": "Mentee",
     "slug": "emre-harman",
     "avatar": "https://avatars.githubusercontent.com/emreharman",
+    "displayInterests": "Backend, .Net Core MVC",
     "mentorships": []
   },
   {
@@ -111,11 +118,12 @@
     "twitter_handle": "https://twitter.com/kayraberktuncer",
     "github": "https://github.com/kayraberktuncer",
     "linkedin": "https://www.linkedin.com/in/kayraberktuncer",
-    "interests": "Backend, go, node.js, sql, nosql",
+    "interests": "backend, go, node.js, sql, nosql",
     "goals": "I have been dealing with javascript libraries and databases for a year. Since I had a university entrance exam, I couldn't concentrate on it too much. I have been uploading projects to the githuba for a month now, developing myself and studying in the Ege University computer programming department.",
     "mentor": "Mentee",
     "slug": "kayra-berk-tuncer",
     "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
+    "displayInterests": "Backend, go, node.js, sql, nosql",
     "mentorships": []
   },
   {
@@ -124,11 +132,12 @@
     "twitter_handle": "https://twitter.com/barakkolak?s=09",
     "github": "https://github.com/Barakolak",
     "linkedin": "https://www.linkedin.com/mwlite/in/burakcolak",
-    "interests": "Embedded systems, backend, C, Python, go, linux.",
+    "interests": "embedded systems, backend, c, python, go, linux.",
     "goals": "I Want to learn more about embedded systems, backend and use this knowledge in my electric engineering career. I want to know more about machine learning and the internet of things.",
     "mentor": "Mentee",
     "slug": "burak-colak",
     "avatar": "https://avatars.githubusercontent.com/Barakolak",
+    "displayInterests": "Embedded systems, backend, C, Python, go, linux.",
     "mentorships": []
   },
   {
@@ -142,6 +151,7 @@
     "mentor": "Mentee",
     "slug": "tolga-cobanoglu",
     "avatar": "https://ui-avatars.com/api/?name=Tolga Çobanoğlu&size=256",
+    "displayInterests": "biggest one mobile app development,a bit of web development o web development and full stack",
     "mentorships": []
   },
   {
@@ -155,6 +165,7 @@
     "mentor": "Mentee",
     "slug": "abdullah-aydin",
     "avatar": "https://avatars.githubusercontent.com/abdullah-aydin",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -163,11 +174,12 @@
     "twitter_handle": "https://twitter.com/rumenostomia",
     "github": "https://github.com/halilibrahimtosun",
     "linkedin": "https://www.linkedin.com/in/halil-ibrahim-tosun-665791178",
-    "interests": "React, BackEnd,web and mobile app.",
+    "interests": "react, backend,web and mobile app.",
     "goals": "i started to learn at the beginning of this covid-19 pandemic. and i am pleased coding. so i decided to change my career. i need to be get helped by a mentor because i decided some new projects based upon web.",
     "mentor": "Mentee",
     "slug": "halil-ibrahim-tosun",
     "avatar": "https://avatars.githubusercontent.com/halilibrahimtosun",
+    "displayInterests": "React, BackEnd,web and mobile app.",
     "mentorships": []
   },
   {
@@ -176,11 +188,12 @@
     "twitter_handle": "https://twitter.com/ycemalunlu",
     "github": "https://github.com/ycemalunlu",
     "linkedin": "https://linkedin.com/in/ycemalunlu",
-    "interests": "ML, Backend, Frontend, Python",
+    "interests": "ml, backend, frontend, python",
     "goals": "I wanted to start a new career then moved to the UK to attend a bootcamp in London but due to Covid-19 postponed my plans.",
     "mentor": "Mentee",
     "slug": "yilmaz-cemal-unlu",
     "avatar": "https://avatars.githubusercontent.com/ycemalunlu",
+    "displayInterests": "ML, Backend, Frontend, Python",
     "mentorships": []
   },
   {
@@ -189,11 +202,12 @@
     "twitter_handle": "https://twitter.com/m_hosdogdu?s=09",
     "github": "https://github.com/melikhanHosdogdu",
     "linkedin": "https://www.linkedin.com/in/melikhan-hosdogdu",
-    "interests": "Mobile - Flutter  | Backend - Golang ",
+    "interests": "mobile - flutter  | backend - golang ",
     "goals": "I am student at Sakarya University and I am working as a Flutter developer. I want to learn more about flutter and I want to start learning Golang",
     "mentor": "Mentee",
     "slug": "melikhan-hosdogdu",
     "avatar": "https://avatars.githubusercontent.com/melikhanHosdogdu",
+    "displayInterests": "Mobile - Flutter  | Backend - Golang ",
     "mentorships": []
   },
   {
@@ -202,11 +216,12 @@
     "twitter_handle": "https://twitter.com/tburak122",
     "github": "https://github.com/tburakozdemir",
     "linkedin": "https://www.linkedin.com/in/taha-burak-%C3%B6zdemir",
-    "interests": "Frontend, Backend,  React, Full stack, Pyton, IoT, Java",
+    "interests": "frontend, backend,  react, full stack, pyton, iot, java",
     "goals": "I want to improve myself as much as I can to be at least be a decent Developer",
     "mentor": "Mentee",
     "slug": "taha-burak-ozdemir",
     "avatar": "https://avatars.githubusercontent.com/tburakozdemir",
+    "displayInterests": "Frontend, Backend,  React, Full stack, Pyton, IoT, Java",
     "mentorships": []
   },
   {
@@ -215,11 +230,12 @@
     "twitter_handle": "https://twitter.com/umitkutuk",
     "github": "https://github.com/umitkutuk",
     "linkedin": "https://www.linkedin.com/in/umitkutuk",
-    "interests": "backend, PHP, Go, React, ",
+    "interests": "backend, php, go, react, ",
     "goals": "Go da kendimi geliştirmek, Php öğrenmek isteyenlere yardımcı olmak.",
     "mentor": "İkisi de",
     "slug": "umit-kutuk",
     "avatar": "https://avatars.githubusercontent.com/umitkutuk",
+    "displayInterests": "backend, PHP, Go, React, ",
     "mentorships": []
   },
   {
@@ -228,11 +244,12 @@
     "twitter_handle": "https://www.twitter.com/tugcegungoru",
     "github": "https://www.github.com/tugcegungoru",
     "linkedin": "https://www.linkedin.com/in/tuğçe-güngörü-60a832144",
-    "interests": "Frontend, Backend",
+    "interests": "frontend, backend",
     "goals": "I am a junior developer. I am improving myself that is why I need a roadmap and mentor. So I can improve myself better.",
     "mentor": "Mentee",
     "slug": "tugce-gungoru",
     "avatar": "https://avatars.githubusercontent.com/tugcegungoru",
+    "displayInterests": "Frontend, Backend",
     "mentorships": []
   },
   {
@@ -241,11 +258,12 @@
     "twitter_handle": "https://twitter.com/tubaerdoannn",
     "github": "https://github.com/tubaerdoan",
     "linkedin": "https://www.linkedin.com/in/tu%C4%9Fba-erdo%C4%9Fan-a74739130",
-    "interests": "C# OOP, Winform, WPF",
+    "interests": "c# oop, winform, wpf",
     "goals": "C# dilinde masaüstü program geliştirmekteyim. Hedeflerim kendimi daha ileri taşımak ve C# dilini daha iyi öğrenmek. ",
     "mentor": "Mentee",
     "slug": "tugba-erdogan",
     "avatar": "https://avatars.githubusercontent.com/tubaerdoan",
+    "displayInterests": "C# OOP, Winform, WPF",
     "mentorships": []
   },
   {
@@ -259,6 +277,7 @@
     "mentor": "Mentee",
     "slug": "saadet-yurt",
     "avatar": "https://avatars.githubusercontent.com/saadetyurt",
+    "displayInterests": "js-jq, mvc .net , c#",
     "mentorships": []
   },
   {
@@ -267,11 +286,12 @@
     "twitter_handle": "https://twitter.com/SafaElmali",
     "github": "https://github.com/SafaElmali",
     "linkedin": "https://www.linkedin.com/in/tsafaelmali",
-    "interests": "Frontend, Backend",
+    "interests": "frontend, backend",
     "goals": "I want to improve myself on Frontend Development and also want to share my knowledge with people. I want to improve myself on server-side web development with Node.js",
     "mentor": "İkisi de",
     "slug": "tahsin-safa-elmali",
     "avatar": "https://avatars.githubusercontent.com/SafaElmali",
+    "displayInterests": "Frontend, Backend",
     "mentorships": []
   },
   {
@@ -280,11 +300,12 @@
     "twitter_handle": "https://twitter.com/kubbesi",
     "github": "https://github.com/sarismet",
     "linkedin": "https://www.linkedin.com/in/ismet-sar%C4%B1-bbb2b6183",
-    "interests": "Backend",
+    "interests": "backend",
     "goals": "I want to improve myself in Go, Kubernetes and AWS .",
     "mentor": "Mentee",
     "slug": "ismet-sari",
     "avatar": "https://avatars.githubusercontent.com/sarismet",
+    "displayInterests": "Backend",
     "mentorships": []
   },
   {
@@ -293,11 +314,12 @@
     "twitter_handle": "https://twitter.com/mertyigitcan",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/mert-yigitcan-69b82814b",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": "I'm an enthusiastic, responsible and hard working person. I started learning myself to code a few years ago. I need a mentor for improve myself. ",
     "mentor": "Mentee",
     "slug": "mert-yigitcan",
     "avatar": "https://ui-avatars.com/api/?name=Mert Yigitcan&size=256",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -311,6 +333,7 @@
     "mentor": "Mentee",
     "slug": "ozgur-ozturk",
     "avatar": "https://avatars.githubusercontent.com/nozgurozturk",
+    "displayInterests": "go, javascript",
     "mentorships": []
   },
   {
@@ -324,6 +347,7 @@
     "mentor": "Mentee",
     "slug": "ali-karaarslan",
     "avatar": "https://avatars.githubusercontent.com/alikaraarslan",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -332,11 +356,12 @@
     "twitter_handle": "https://twitter.com/?lang=en",
     "github": "https://github.com/barisbabahan",
     "linkedin": "https://www.linkedin.com/in/barisbabahan",
-    "interests": "Frontend, Backend, Project management",
+    "interests": "frontend, backend, project management",
     "goals": "I desire to earn good skills that help to work in big companies and being part of awesome projects",
     "mentor": "Mentee",
     "slug": "baris-babahan",
     "avatar": "https://avatars.githubusercontent.com/barisbabahan",
+    "displayInterests": "Frontend, Backend, Project management",
     "mentorships": []
   },
   {
@@ -345,11 +370,12 @@
     "twitter_handle": "https://twitter.com/omerfarukgenc34",
     "github": "https://github.com/genc",
     "linkedin": "https://www.linkedin.com/in/omerfarukgenc",
-    "interests": "Backend, DevSecOps, Mobile",
+    "interests": "backend, devsecops, mobile",
     "goals": "I want to build a useful application that everyone can use",
     "mentor": "Mentee",
     "slug": "omer-faruk-genc",
     "avatar": "https://avatars.githubusercontent.com/genc",
+    "displayInterests": "Backend, DevSecOps, Mobile",
     "mentorships": []
   },
   {
@@ -358,11 +384,12 @@
     "twitter_handle": "https://twitter.com/nbkrtl",
     "github": "https://github.com/yurnanu",
     "linkedin": "https://www.linkedin.com/in/nurbanukartal?originalSubdomain=tr",
-    "interests": "Data science, SQL, Python, Tableau",
+    "interests": "data science, sql, python, tableau",
     "goals": "I want to become a very successful data scientist who can also contribute to the non governmental organizations!",
     "mentor": "Mentee",
     "slug": "nur-banu-kartal",
     "avatar": "https://avatars.githubusercontent.com/yurnanu",
+    "displayInterests": "Data science, SQL, Python, Tableau",
     "mentorships": []
   },
   {
@@ -371,11 +398,12 @@
     "twitter_handle": "https://twitter.com/ilteriskeskin",
     "github": "https://github.com/ilteriskeskin",
     "linkedin": "https://www.linkedin.com/in/aliilteriskeskin",
-    "interests": "Backend, frontend, GNU/Linux, devops",
+    "interests": "backend, frontend, gnu/linux, devops",
     "goals": "I want to be a full stack developer.",
     "mentor": "İkisi de",
     "slug": "ali-ilteris-keskin",
     "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+    "displayInterests": "Backend, frontend, GNU/Linux, devops",
     "mentorships": [
       {
         "": "12.12.2020 04:08:09",
@@ -397,6 +425,7 @@
     "mentor": "İkisi de",
     "slug": "kadir-melih-can",
     "avatar": "https://avatars.githubusercontent.com/kdrmlhcn",
+    "displayInterests": "backend, php, laravel, flutter",
     "mentorships": []
   },
   {
@@ -405,11 +434,12 @@
     "twitter_handle": "https://twitter.com/toptasfurkan",
     "github": "https://github.com/furkantoptass",
     "linkedin": "https://linkedin.com/in/furkantoptas",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": "I want to improve myself in Angular.  I want to work in a big company.  I want to start my own business in the company after 2 years.",
     "mentor": "İkisi de",
     "slug": "furkan-toptas",
     "avatar": "https://avatars.githubusercontent.com/furkantoptass",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -418,11 +448,12 @@
     "twitter_handle": "https://twitter.com/mervenkyy",
     "github": "https://github.com/mervenkymc",
     "linkedin": "https://www.linkedin.com/in/mervenur-kuyumcu-935898149",
-    "interests": "JavaScript, PHP, Fullstack, Devops",
+    "interests": "javascript, php, fullstack, devops",
     "goals": "I would like to be a successful developer, finding a job that makes me happy and improve myself everyday.",
     "mentor": "Mentee",
     "slug": "mervenur-kuyumcu",
     "avatar": "https://avatars.githubusercontent.com/mervenkymc",
+    "displayInterests": "JavaScript, PHP, Fullstack, Devops",
     "mentorships": []
   },
   {
@@ -431,11 +462,12 @@
     "twitter_handle": "https://twitter.com/M_ckymn",
     "github": "https://github.com/cokyaman65",
     "linkedin": "https://linkedin/in/cokyaman65",
-    "interests": "JavaScript and .NET",
+    "interests": "javascript and .net",
     "goals": "I WANT TO BE a DEVELOPER WHO WILL STAND the TEST OF TIME",
     "mentor": "Mentee",
     "slug": "muhammet-cokyaman",
     "avatar": "https://avatars.githubusercontent.com/cokyaman65",
+    "displayInterests": "JavaScript and .NET",
     "mentorships": []
   },
   {
@@ -444,11 +476,12 @@
     "twitter_handle": "https://twitter.com/esraaerdim",
     "github": "https://github.com/esraerdim",
     "linkedin": "https://www.linkedin.com/in/esra-erdim",
-    "interests": "Cyber Security,Frontend, Backend, Node.js, Vue.js,C#,OOP",
+    "interests": "cyber security,frontend, backend, node.js, vue.js,c#,oop",
     "goals": "I am a 4th year computer engineering student and also work in a part-time company. It is my biggest dream to develop myself in backend and mobile application development areas and become a truly successful engineer. While there are so many things I am trying to learn, I find too many topics that I do not know what to do and how to move forward. I need a mentor to move forward correctly and successfully. So I can improve myself better with a correct roadmap.",
     "mentor": "Mentee",
     "slug": "esra-erdim",
     "avatar": "https://avatars.githubusercontent.com/esraerdim",
+    "displayInterests": "Cyber Security,Frontend, Backend, Node.js, Vue.js,C#,OOP",
     "mentorships": []
   },
   {
@@ -457,11 +490,12 @@
     "twitter_handle": "https://twitter.com/Dzenit7",
     "github": "https://github.com/Dzenit110",
     "linkedin": "https://www.linkedin.com/in/d%C5%BEenit-vildi%C4%87-8729b9180",
-    "interests": "C#, Java, genel Algoritma ve programlama, C++ QT.",
+    "interests": "c#, java, genel algoritma ve programlama, c++ qt.",
     "goals": "Ben  bir şirkette  yazılımcı olarak çalışmak istiyorum.  Mesela çeşitli projeler ve o şirkette geliştirmek istiyorum ve Türkiye'de aldığım eğitim  kendimi ülkemde diğer insanlara yardımcı olmak istiyorum ve kendimi ülkemi geliştirmek istiyorum. Ayrıca arabalarla ilgileniyorum ve çeşitli programlar  insanlar araba endüstrinde uygulanıyorlar. Ben Mercedes ve Ferrari ile ilgileniyorum ve hangi programlar kendisi ürünlerde kullanıyorlar.",
     "mentor": "Mentee",
     "slug": "dzenit-vildic",
     "avatar": "https://avatars.githubusercontent.com/Dzenit110",
+    "displayInterests": "C#, Java, genel Algoritma ve programlama, C++ QT.",
     "mentorships": []
   },
   {
@@ -475,6 +509,7 @@
     "mentor": "Mentee",
     "slug": "aysenur-odabasi",
     "avatar": "https://avatars.githubusercontent.com/aysenurodabasi",
+    "displayInterests": "frontend(react), mobile(react native)",
     "mentorships": []
   },
   {
@@ -483,11 +518,12 @@
     "twitter_handle": "https://twitter.com/cemacaronline",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/cem-acar-209937b7",
-    "interests": "Frontend,Backend,Mobil app",
+    "interests": "frontend,backend,mobil app",
     "goals": "I want to specialize in the topics I am interested in.",
     "mentor": "Mentee",
     "slug": "cem-acar",
     "avatar": "https://ui-avatars.com/api/?name=Cem Acar&size=256",
+    "displayInterests": "Frontend,Backend,Mobil app",
     "mentorships": []
   },
   {
@@ -496,11 +532,12 @@
     "twitter_handle": "https://twitter.com/gozeloglu4835",
     "github": "https://github.com/gozeloglu",
     "linkedin": "https://linkedin.com/in/gokhanozeloglu",
-    "interests": "Backend, dağıtık sistemler, GoLang, Python, Dart, open source, mobile development",
+    "interests": "backend, dağıtık sistemler, golang, python, dart, open source, mobile development",
     "goals": "I want to be software developer who mainly focuses on backend development. I am interested in GoLang nowadays. Also I want to create open source projects which will use by other people. Not only creating open source projects, also I want to more contribute to big open source projects. ",
     "mentor": "Mentee",
     "slug": "gokhan-ozeloglu",
     "avatar": "https://avatars.githubusercontent.com/gozeloglu",
+    "displayInterests": "Backend, dağıtık sistemler, GoLang, Python, Dart, open source, mobile development",
     "mentorships": []
   },
   {
@@ -514,6 +551,7 @@
     "mentor": "İkisi de",
     "slug": "muhammet-mustafa-cor",
     "avatar": "https://avatars.githubusercontent.com/corxjs",
+    "displayInterests": "frontend, backend",
     "mentorships": []
   },
   {
@@ -522,11 +560,12 @@
     "twitter_handle": "",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/batuhan-luleci",
-    "interests": "Game Developer",
+    "interests": "game developer",
     "goals": "Networking is everything,that is bring me into where i am stand now.",
     "mentor": "Mentee",
     "slug": "batuhan-luleci",
     "avatar": "https://ui-avatars.com/api/?name=Batuhan LÜLECİ&size=256",
+    "displayInterests": "Game Developer",
     "mentorships": []
   },
   {
@@ -540,6 +579,7 @@
     "mentor": "Mentee",
     "slug": "emine-sari",
     "avatar": "https://avatars.githubusercontent.com/EmineSARI",
+    "displayInterests": "frontend,backend,mobil programlama",
     "mentorships": []
   },
   {
@@ -548,11 +588,12 @@
     "twitter_handle": "https://twitter.com/cengizbursali",
     "github": "https://github.com/cengizbursali",
     "linkedin": "https://www.linkedin.com/in/cengizbursali",
-    "interests": "Backend Development, Java, Spring Boot, Microservices.",
+    "interests": "backend development, java, spring boot, microservices.",
     "goals": "Do whatever you do, do your best. I'm trying to do my job like this.",
     "mentor": "İkisi de",
     "slug": "cengiz-bursalioglu",
     "avatar": "https://avatars.githubusercontent.com/cengizbursali",
+    "displayInterests": "Backend Development, Java, Spring Boot, Microservices.",
     "mentorships": []
   },
   {
@@ -566,6 +607,7 @@
     "mentor": "Mentee",
     "slug": "batin-eryilmaz",
     "avatar": "https://avatars.githubusercontent.com/batin",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -579,6 +621,7 @@
     "mentor": "Mentee",
     "slug": "ismail-cileli",
     "avatar": "https://avatars.githubusercontent.com/ismlcll",
+    "displayInterests": "frontend ",
     "mentorships": []
   },
   {
@@ -587,11 +630,12 @@
     "twitter_handle": "https://twitter.com/cool_erci",
     "github": "https://github.com/ercanerdogan",
     "linkedin": "https://www.linkedin.com/in/ercanerdogan",
-    "interests": "Backend, architecture, microservices and React",
+    "interests": "backend, architecture, microservices and react",
     "goals": "I want to improve myself about sofware architectures. Monolith architecture best practices and to be a architecture in microservices field.",
     "mentor": "Mentee",
     "slug": "ercan-erdogan",
     "avatar": "https://avatars.githubusercontent.com/ercanerdogan",
+    "displayInterests": "Backend, architecture, microservices and React",
     "mentorships": []
   },
   {
@@ -605,6 +649,7 @@
     "mentor": "Mentee",
     "slug": "omer-aziz-sahin",
     "avatar": "https://avatars.githubusercontent.com/azizs4h",
+    "displayInterests": "frontend, backend, ui/ux",
     "mentorships": []
   },
   {
@@ -613,11 +658,12 @@
     "twitter_handle": "https://twitter.com/brkkyilmz",
     "github": "https://github.com/alibyilmaz",
     "linkedin": "https://www.linkedin.com/in/ali-y%C4%B1lmaz",
-    "interests": "Backend (python, .net core, node or ruby)",
+    "interests": "backend (python, .net core, node or ruby)",
     "goals": "I want to progress my development skills and share my experience with other people who live my country. I am passioned for development just want to be a good, solidaritive developer",
     "mentor": "Mentee",
     "slug": "ali-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/alibyilmaz",
+    "displayInterests": "Backend (python, .net core, node or ruby)",
     "mentorships": []
   },
   {
@@ -626,11 +672,12 @@
     "twitter_handle": "https://twitter.com/bahadirseyfi",
     "github": "https://github.com/bahadirseyfi",
     "linkedin": "https://www.linkedin.com/in/bahadır-seyfi-868006198",
-    "interests": "Backend(Golang), iOS Development(Swift)",
+    "interests": "backend(golang), ios development(swift)",
     "goals": "I am a second year student of Marmara Computer Sciences. I develop hobby projects in my spare time. I want to be experienced in backend development and also dealing with iOS development. I work scheduled and hard. I know I will be a successful software developer with the right guidance. That's why I'm here.",
     "mentor": "Mentee",
     "slug": "bahadir-seyfi",
     "avatar": "https://avatars.githubusercontent.com/bahadirseyfi",
+    "displayInterests": "Backend(Golang), iOS Development(Swift)",
     "mentorships": []
   },
   {
@@ -639,11 +686,12 @@
     "twitter_handle": "https://twitter.com/_alihanyilmaz",
     "github": "https://github.com/alihan",
     "linkedin": "https://www.linkedin.com/in/alihanyiilmaz",
-    "interests": "Frontend, JavaScript",
+    "interests": "frontend, javascript",
     "goals": "I want to be an expert in Front-end development. I want to learn about Front-end Architectures, Atomic design and development.",
     "mentor": "Mentee",
     "slug": "alihan-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/alihan",
+    "displayInterests": "Frontend, JavaScript",
     "mentorships": []
   },
   {
@@ -652,11 +700,12 @@
     "twitter_handle": "https://twitter.com/TanerSekmenn",
     "github": "https://github.com/tanersekmen",
     "linkedin": "https://www.linkedin.com/in/tanersekmen",
-    "interests": "Python, Data Science & Machine Learning",
+    "interests": "python, data science & machine learning",
     "goals": "I am student at Statistics Department and all I want to do is improving myself and working about Data Science that I love in field. ",
     "mentor": "Mentee",
     "slug": "taner-sekmen",
     "avatar": "https://avatars.githubusercontent.com/tanersekmen",
+    "displayInterests": "Python, Data Science & Machine Learning",
     "mentorships": []
   },
   {
@@ -665,11 +714,12 @@
     "twitter_handle": "https://www.twitter.com/yigiterdev",
     "github": "https://github.com/yigiterdev",
     "linkedin": "https://www.linkedin.com/in/yigiterbugra",
-    "interests": "My main area of interest is web space. These days, I'm focusing on the frontend. I want to write backend with go in the future.",
+    "interests": "my main area of interest is web space. these days, i'm focusing on the frontend. i want to write backend with go in the future.",
     "goals": "I want to improve myself in the field of web and find a part-time job in my university time and a full-time job after graduation. And in the future, I want to support young people in my current situation as much as I can.",
     "mentor": "Mentee",
     "slug": "ahmet-bugra-yigiter",
     "avatar": "https://avatars.githubusercontent.com/yigiterdev",
+    "displayInterests": "My main area of interest is web space. These days, I'm focusing on the frontend. I want to write backend with go in the future.",
     "mentorships": []
   },
   {
@@ -683,6 +733,7 @@
     "mentor": "Mentee",
     "slug": "mehmet-selcuk-candan",
     "avatar": "https://avatars.githubusercontent.com/mscandan",
+    "displayInterests": "frontend, backend",
     "mentorships": []
   },
   {
@@ -691,11 +742,12 @@
     "twitter_handle": "https://twitter.com/geceugur",
     "github": "https://github.com/concers",
     "linkedin": "https://www.linkedin.com/in/geceugurerol",
-    "interests": "Mobile Developer (Kotlin) -  IOT ",
+    "interests": "mobile developer (kotlin) -  iot ",
     "goals": "Using mobile and iot as a tool for the livable world.",
     "mentor": "Mentee",
     "slug": "ugur-erol",
     "avatar": "https://avatars.githubusercontent.com/concers",
+    "displayInterests": "Mobile Developer (Kotlin) -  IOT ",
     "mentorships": []
   },
   {
@@ -704,11 +756,12 @@
     "twitter_handle": "https://twitter.com/berabulut",
     "github": "https://github.com/berabulut",
     "linkedin": "https://www.linkedin.com/in/h%C3%BCseyin-bera-bulut-329171169",
-    "interests": "Frontend (React), Backend(Node.js, Django), Devops(AWS Lambda, Docker)",
+    "interests": "frontend (react), backend(node.js, django), devops(aws lambda, docker)",
     "goals": "I want to be able to develop user friendly, accessible applications and being able to code clean as much as I can.",
     "mentor": "Mentee",
     "slug": "huseyin-bera-bulut",
     "avatar": "https://avatars.githubusercontent.com/berabulut",
+    "displayInterests": "Frontend (React), Backend(Node.js, Django), Devops(AWS Lambda, Docker)",
     "mentorships": []
   },
   {
@@ -717,11 +770,12 @@
     "twitter_handle": "https://twitter.com/j0hnnylesh",
     "github": "https://github.com/yildirimsamet",
     "linkedin": "https://www.linkedin.com/in/yildirimsamet",
-    "interests": "MERN STACK ,frontend ,backend",
+    "interests": "mern stack ,frontend ,backend",
     "goals": "I want to be a legit developer",
     "mentor": "Mentee",
     "slug": "samet-yildirim",
     "avatar": "https://avatars.githubusercontent.com/yildirimsamet",
+    "displayInterests": "MERN STACK ,frontend ,backend",
     "mentorships": []
   },
   {
@@ -730,11 +784,12 @@
     "twitter_handle": "https://twitter.com/Suuu_Meyraaa",
     "github": "https://github.com/SuMeyraG",
     "linkedin": "https://www.linkedin.com/in/sumeyragonul",
-    "interests": "Mobile Game- mobile app development",
+    "interests": "mobile game- mobile app development",
     "goals": "I know where i want to be, but i don’t know the paths. I need someone who has passed these paths and who able to show me these",
     "mentor": "Mentee",
     "slug": "su-meyra-gonul",
     "avatar": "https://avatars.githubusercontent.com/SuMeyraG",
+    "displayInterests": "Mobile Game- mobile app development",
     "mentorships": []
   },
   {
@@ -743,11 +798,12 @@
     "twitter_handle": "https://twitter.com/zeynepaydemr8",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/zeynep-aydemir-a05730191",
-    "interests": "Python,SQL,Data Science",
+    "interests": "python,sql,data science",
     "goals": "I am a 3rd grade student in management information systems. I want to develop myself in SQL, Python, Data Science. I am open to learning and development. I adapt to team work.",
     "mentor": "Mentee",
     "slug": "zeynep-aydemir",
     "avatar": "https://ui-avatars.com/api/?name=Zeynep Aydemir&size=256",
+    "displayInterests": "Python,SQL,Data Science",
     "mentorships": []
   },
   {
@@ -761,6 +817,7 @@
     "mentor": "Mentee",
     "slug": "eray-gundogmus",
     "avatar": "https://avatars.githubusercontent.com/highasballs",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -769,11 +826,12 @@
     "twitter_handle": "https://twitter.com/myalkabov",
     "github": "https://github.com/myalkabov",
     "linkedin": "https://www.linkedin.com/in/maksat-yalkabov-63b885114",
-    "interests": "fullstack, backend, Web Development",
+    "interests": "fullstack, backend, web development",
     "goals": "I am not newbie, but I need to build my roadmap to be junior or mid software developer. My goal is to find a junior software developer job as soon as possible. ",
     "mentor": "Mentee",
     "slug": "murat-yalkabov",
     "avatar": "https://avatars.githubusercontent.com/myalkabov",
+    "displayInterests": "fullstack, backend, Web Development",
     "mentorships": []
   },
   {
@@ -787,6 +845,7 @@
     "mentor": "Mentee",
     "slug": "mucahit-bircan",
     "avatar": "https://avatars.githubusercontent.com/mucahitbircan",
+    "displayInterests": "frontend, backend, mobile( react-native )",
     "mentorships": []
   },
   {
@@ -795,11 +854,12 @@
     "twitter_handle": "https://twitter.com/ugylmaz",
     "github": "https://github.com/ugrylmz",
     "linkedin": "https://www.linkedin.com/in/ugylmz",
-    "interests": "Mobile-Web Front-End",
+    "interests": "mobile-web front-end",
     "goals": "Yazılım Mühendisliği tam burslu ve Endüstri Mühendisliği çift anadal öğrencisiyim. Her dönem yoğun geçmesine rağmen yeni şeyler öğrenmeyi ve değişik bakış açılarından bir konuyu ele almayı seviyorum. Hedefim iyi bir Yazılım Mühendisi olabilmek. İyi olmak belirli bir dil ve platformda veya framework e bağlı olmadan proje gereksinimlerine göre uzmanlaşabildiğim ölçüde sektörde uzmanlaşmaktır. Projenin güvenlik ve hızının optimize olması, gereksinimlere uygun ve testlerinin yapılmış olması, CI-CD süreçlerinde otomatize olması da elzemdir.",
     "mentor": "Mentee",
     "slug": "ugur-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/ugrylmz",
+    "displayInterests": "Mobile-Web Front-End",
     "mentorships": []
   },
   {
@@ -808,11 +868,12 @@
     "twitter_handle": "https://twitter.com/Alprdmrl",
     "github": "https://github.com/alperdem1rel",
     "linkedin": "https://www.linkedin.com/in/alperdemirel",
-    "interests": "Machine Learning, Artificial Intelligence",
+    "interests": "machine learning, artificial intelligence",
     "goals": "I want to be a successful machine learning engineer and do something to add value to the world. That's why I need a mentor to guide me.",
     "mentor": "Mentee",
     "slug": "alper-demirel",
     "avatar": "https://avatars.githubusercontent.com/alperdem1rel",
+    "displayInterests": "Machine Learning, Artificial Intelligence",
     "mentorships": []
   },
   {
@@ -826,6 +887,7 @@
     "mentor": "Mentee",
     "slug": "murat-ahmet-korkmaz",
     "avatar": "https://avatars.githubusercontent.com/ahmetkorkmaz3",
+    "displayInterests": "backend",
     "mentorships": []
   },
   {
@@ -834,11 +896,12 @@
     "twitter_handle": "https://twitter.com/melih_dzgn",
     "github": "https://github.com/Mduzgunn",
     "linkedin": "https://www.linkedin.com/in/melih-d%C3%BCzg%C3%BCn-177a8419a",
-    "interests": "Java, Spring , Backend ",
+    "interests": "java, spring , backend ",
     "goals": "I'm looking for someone to help me improve myself in Spring ",
     "mentor": "Mentee",
     "slug": "melih-duzgun",
     "avatar": "https://avatars.githubusercontent.com/Mduzgunn",
+    "displayInterests": "Java, Spring , Backend ",
     "mentorships": []
   },
   {
@@ -847,11 +910,12 @@
     "twitter_handle": "https://twitter.com/mlkzrnc",
     "github": "https://github.com/melekzurnaci",
     "linkedin": "https://www.linkedin.com/in/melek-zurnaci-3a3707181",
-    "interests": "Frontend , Backend(Java)",
+    "interests": "frontend , backend(java)",
     "goals": "I am trying to improve myself to become a full stack web developer. In a few years, I want to see myself among the best in this area (mostly in the backend part).",
     "mentor": "Mentee",
     "slug": "melek-zurnaci",
     "avatar": "https://avatars.githubusercontent.com/melekzurnaci",
+    "displayInterests": "Frontend , Backend(Java)",
     "mentorships": []
   },
   {
@@ -860,11 +924,12 @@
     "twitter_handle": "https://twitter.com/Murat_Cay24",
     "github": "https://github.com/MuratCAY",
     "linkedin": "https://www.linkedin.com/in/murat-cay24",
-    "interests": "Android(Kotlin)",
+    "interests": "android(kotlin)",
     "goals": "Yazılım dünyasına yeni atılmaktayım ve daha yolun başındayım. İnternette milyonlarca bilgi arasında bir yerlerde kaybolmaktayım. Yolumu en kısa ve en iyi şekilde devam ettirmem için sizlerin tecrübelerinden faydalanmam gerektiğini düşünmekteyim.",
     "mentor": "Mentee",
     "slug": "murat-cay",
     "avatar": "https://avatars.githubusercontent.com/MuratCAY",
+    "displayInterests": "Android(Kotlin)",
     "mentorships": []
   },
   {
@@ -873,11 +938,12 @@
     "twitter_handle": "https://twitter.com/oridolores",
     "github": "https://github.com/esmaydogdu",
     "linkedin": "https://www.linkedin.com/in/esma-aydogdu-8831a3161",
-    "interests": "Front End Development",
+    "interests": "front end development",
     "goals": "I want to be very good at what I am doing and create great stuff!",
     "mentor": "Mentee",
     "slug": "esma-aydogdu",
     "avatar": "https://avatars.githubusercontent.com/esmaydogdu",
+    "displayInterests": "Front End Development",
     "mentorships": []
   },
   {
@@ -891,6 +957,7 @@
     "mentor": "Mentee",
     "slug": "busra-balaban",
     "avatar": "https://avatars.githubusercontent.com/bxbalaban",
+    "displayInterests": "software development , backend, mobile , devops",
     "mentorships": []
   },
   {
@@ -904,6 +971,7 @@
     "mentor": "Mentee",
     "slug": "nafi-durmus",
     "avatar": "https://avatars.githubusercontent.com/nafidurmus",
+    "displayInterests": "rails, flutter",
     "mentorships": []
   },
   {
@@ -912,11 +980,12 @@
     "twitter_handle": "https://twitter.com/HuseyinGoztok",
     "github": "https://github.com/huseyingoztok",
     "linkedin": "https://www.linkedin.com/in/huseyingoztok",
-    "interests": "backend (.Net Core, NodeJs),  frontend (React, Vue)",
+    "interests": "backend (.net core, nodejs),  frontend (react, vue)",
     "goals": "Developing myself in backend and frontend technologies and being a good software engineer.",
     "mentor": "Mentee",
     "slug": "huseyin-goztok",
     "avatar": "https://avatars.githubusercontent.com/huseyingoztok",
+    "displayInterests": "backend (.Net Core, NodeJs),  frontend (React, Vue)",
     "mentorships": []
   },
   {
@@ -925,11 +994,12 @@
     "twitter_handle": "https://twitter.com/NurettinAbaci",
     "github": "https://github.com/nurettinabaci",
     "linkedin": "https://www.linkedin.com/in/nurettinabaci",
-    "interests": "Backend (Python, Node.js)",
+    "interests": "backend (python, node.js)",
     "goals": "Just look at my GitHub! I need a mentor for my backend open-source projects.",
     "mentor": "Mentee",
     "slug": "nurettin-abaci",
     "avatar": "https://avatars.githubusercontent.com/nurettinabaci",
+    "displayInterests": "Backend (Python, Node.js)",
     "mentorships": []
   },
   {
@@ -943,6 +1013,7 @@
     "mentor": "Mentee",
     "slug": "muhammed-serdar-oygen",
     "avatar": "https://avatars.githubusercontent.com/msoygen",
+    "displayInterests": "backend, game development",
     "mentorships": []
   },
   {
@@ -951,11 +1022,12 @@
     "twitter_handle": "https://twitter.com/akadirasl4n",
     "github": "https://github.com/akadiraslan",
     "linkedin": "https://linkedin.com/in/akadiraslan",
-    "interests": "Front-End, React, Vue, JavaScript",
+    "interests": "front-end, react, vue, javascript",
     "goals": "Aranan Front-End developer olmak istiyorum",
     "mentor": "Mentee",
     "slug": "abdulkadir-aslan",
     "avatar": "https://avatars.githubusercontent.com/akadiraslan",
+    "displayInterests": "Front-End, React, Vue, JavaScript",
     "mentorships": []
   },
   {
@@ -964,11 +1036,12 @@
     "twitter_handle": "https://twitter.com/semakaratas96",
     "github": "https://github.com/semakaratas",
     "linkedin": "https://www.linkedin.com/in/semakaratas",
-    "interests": "Frontend, backend",
+    "interests": "frontend, backend",
     "goals": "I am learning software for 1 year and I am graduating soon in food engineering department. I want to blend food and software. I am new for two issue I need some experiences for my purposes.",
     "mentor": "Mentee",
     "slug": "sema-karatas",
     "avatar": "https://avatars.githubusercontent.com/semakaratas",
+    "displayInterests": "Frontend, backend",
     "mentorships": []
   },
   {
@@ -977,11 +1050,12 @@
     "twitter_handle": "https://twitter.com/batuhanyndny",
     "github": "https://github.com/batuhanyndny",
     "linkedin": "https://www.linkedin.com/in/batuhanyndny",
-    "interests": "Frontend, Backend (Vuejs, Nuxtjs, Laravel, OpenGL)",
+    "interests": "frontend, backend (vuejs, nuxtjs, laravel, opengl)",
     "goals": "Starting my own company as a fullstack developer.",
     "mentor": "Mentee",
     "slug": "batuhan-yenidunya",
     "avatar": "https://avatars.githubusercontent.com/batuhanyndny",
+    "displayInterests": "Frontend, Backend (Vuejs, Nuxtjs, Laravel, OpenGL)",
     "mentorships": []
   },
   {
@@ -990,11 +1064,12 @@
     "twitter_handle": "https://twitter.com/huseyinkayadeu",
     "github": "https://github.com/huseyinkayaa",
     "linkedin": "https://www.linkedin.com/in/h%C3%BCseyinkaya",
-    "interests": "Python, Data Science, SQL, Machine Learning",
+    "interests": "python, data science, sql, machine learning",
     "goals": "I am a master's degree student in econometrics. I love working with data. i am looking for a mentor.",
     "mentor": "Mentee",
     "slug": "huseyin-kaya",
     "avatar": "https://avatars.githubusercontent.com/huseyinkayaa",
+    "displayInterests": "Python, Data Science, SQL, Machine Learning",
     "mentorships": []
   },
   {
@@ -1003,11 +1078,12 @@
     "twitter_handle": "https://twitter.com/iamcanturk",
     "github": "https://github.com/iamcanturk",
     "linkedin": "https://www.linkedin.com/in/yusufcanturk",
-    "interests": "Backend, PHP, Laravel, Go",
+    "interests": "backend, php, laravel, go",
     "goals": "I would like to be a successful developer, finding a job that makes me happy and improve myself everyday.",
     "mentor": "Mentee",
     "slug": "yusuf-can-turk",
     "avatar": "https://avatars.githubusercontent.com/iamcanturk",
+    "displayInterests": "Backend, PHP, Laravel, Go",
     "mentorships": []
   },
   {
@@ -1021,6 +1097,7 @@
     "mentor": "Mentee",
     "slug": "adil-ahmet-sargin",
     "avatar": "https://avatars.githubusercontent.com/Artizan77",
+    "displayInterests": "mobil, backend",
     "mentorships": []
   },
   {
@@ -1029,11 +1106,12 @@
     "twitter_handle": "https://twitter.com/hasanalidev",
     "github": "https://github.com/hasanalisiseci",
     "linkedin": "https://www.linkedin.com/in/hasanalisiseci",
-    "interests": "mobile development (iOS - flutter)",
+    "interests": "mobile development (ios - flutter)",
     "goals": "Why am I here? I can sum it up like this. I want to be happy. Developing softwares makes me happy. Better developing softwares, greater happiness.",
     "mentor": "Mentee",
     "slug": "hasan-ali-siseci",
     "avatar": "https://avatars.githubusercontent.com/hasanalisiseci",
+    "displayInterests": "mobile development (iOS - flutter)",
     "mentorships": []
   },
   {
@@ -1042,11 +1120,12 @@
     "twitter_handle": "https://twitter.com/BernaBayrakdar",
     "github": "https://github.com/bernabayrakdar",
     "linkedin": "https://www.linkedin.com/in/berna-bayrakdar-98a1ab199",
-    "interests": "Python, R, Machine Learning, AI",
+    "interests": "python, r, machine learning, ai",
     "goals": "I want to improve myself about machine learning, AI and robotics.Also meet more people who are crazy about to build projects to will make world easier.",
     "mentor": "Mentee",
     "slug": "berna-bayrakdar",
     "avatar": "https://avatars.githubusercontent.com/bernabayrakdar",
+    "displayInterests": "Python, R, Machine Learning, AI",
     "mentorships": []
   },
   {
@@ -1055,11 +1134,12 @@
     "twitter_handle": "https://twitter.com/Savcolu1Gamze",
     "github": "https://github.com/Gamzesavcioglu",
     "linkedin": "https://www.linkedin.com/in/gamze-savc%C4%B1o%C4%9Flu-070784198",
-    "interests": "Ptyhon, Machine Learning, R, AI",
+    "interests": "ptyhon, machine learning, r, ai",
     "goals": "I want to make future-guiding discoveries and studies with artificial intelligence. I would love to get help from a mentor as I move forward to achieve my goal.",
     "mentor": "Mentee",
     "slug": "gamze-savcioglu",
     "avatar": "https://avatars.githubusercontent.com/Gamzesavcioglu",
+    "displayInterests": "Ptyhon, Machine Learning, R, AI",
     "mentorships": []
   },
   {
@@ -1073,6 +1153,7 @@
     "mentor": "Mentee",
     "slug": "kubra-kurt",
     "avatar": "https://avatars.githubusercontent.com/kubrakurt",
+    "displayInterests": "frontend, backend, devops, secops",
     "mentorships": []
   },
   {
@@ -1081,11 +1162,12 @@
     "twitter_handle": "https://twitter.com/iamflurach",
     "github": "https://github.com/flurach",
     "linkedin": "https://www.linkedin.com/mwlite/in/m-b-y%C4%B1ld%C4%B1z-1854531b4",
-    "interests": "Compilers",
+    "interests": "compilers",
     "goals": "finding the one",
     "mentor": "İkisi de",
     "slug": "mustafa-b.-yildiz",
     "avatar": "https://avatars.githubusercontent.com/flurach",
+    "displayInterests": "Compilers",
     "mentorships": []
   },
   {
@@ -1094,11 +1176,12 @@
     "twitter_handle": "https://twitter.com/Engin70066929",
     "github": "https://github.com/EnginKARATAS",
     "linkedin": "https://www.linkedin.com/in/engin-karata%C5%9F-060807171",
-    "interests": "P5.js, Asp.Net, Javascript, MSSQL",
+    "interests": "p5.js, asp.net, javascript, mssql",
     "goals": "I want to be a productive software engineer. Also that a guitar-singer. I want to expert for this two thing. In my life, I really want \nhealthy, peaceful philosophist and person who eat good food at good restaurant :)",
     "mentor": "Mentee",
     "slug": "engin-karatas",
     "avatar": "https://avatars.githubusercontent.com/EnginKARATAS",
+    "displayInterests": "P5.js, Asp.Net, Javascript, MSSQL",
     "mentorships": []
   },
   {
@@ -1107,11 +1190,12 @@
     "twitter_handle": "https://twitter.com/Oguzgnc7",
     "github": "https://github.com/ouzdev",
     "linkedin": "https://www.linkedin.com/in/oguzcan-genc",
-    "interests": "Backend & Frontend",
+    "interests": "backend & frontend",
     "goals": "İyi bir Full Stack yazılımcı olmak",
     "mentor": "Mentee",
     "slug": "oguzcan-genc",
     "avatar": "https://avatars.githubusercontent.com/ouzdev",
+    "displayInterests": "Backend & Frontend",
     "mentorships": []
   },
   {
@@ -1125,6 +1209,7 @@
     "mentor": "Mentee",
     "slug": "simay-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/simayyilmaz",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -1133,11 +1218,12 @@
     "twitter_handle": "https://twitter.com/Szq_ii",
     "github": "https://github.com/Szqii",
     "linkedin": "https://www.linkedin.com/in/sezgi-altan",
-    "interests": "Front-end, especially Vue.js",
+    "interests": "front-end, especially vue.js",
     "goals": "I want to be a front-end developer so, I should learn everything about it. ",
     "mentor": "Mentee",
     "slug": "sezgi-altan",
     "avatar": "https://avatars.githubusercontent.com/Szqii",
+    "displayInterests": "Front-end, especially Vue.js",
     "mentorships": []
   },
   {
@@ -1146,11 +1232,12 @@
     "twitter_handle": "https://twitter.com/mustdo1247",
     "github": "https://github.com/MustDo12",
     "linkedin": "https://www.linkedin.com/in/mustafa-çavuşoğlu-558419183",
-    "interests": "Javascript(backend), Flutter, Python (machine learning, deep learning) ",
+    "interests": "javascript(backend), flutter, python (machine learning, deep learning) ",
     "goals": "I want to a develop mobile application and Web application powered by artificial intelligence. ",
     "mentor": "Mentee",
     "slug": "mustafa-cavusoglu",
     "avatar": "https://avatars.githubusercontent.com/MustDo12",
+    "displayInterests": "Javascript(backend), Flutter, Python (machine learning, deep learning) ",
     "mentorships": []
   },
   {
@@ -1164,6 +1251,7 @@
     "mentor": "İkisi de",
     "slug": "kemal-aydin",
     "avatar": "https://avatars.githubusercontent.com/kemalaydin",
+    "displayInterests": "backend, frontend, php, laravel",
     "mentorships": []
   },
   {
@@ -1172,11 +1260,12 @@
     "twitter_handle": "https://mobile.twitter.com/gorunmez_betul",
     "github": "https://github.com/Betul-HR",
     "linkedin": "https://www.linkedin.com/in/betulgorunmez",
-    "interests": "Pyhton,linux,c#,sql.",
+    "interests": "pyhton,linux,c#,sql.",
     "goals": "I want to be a developer in the field of Human Resources in the global, I am currently studying management information systems in the second year. That's why I'm here.",
     "mentor": "Mentee",
     "slug": "betul-gorunmez",
     "avatar": "https://avatars.githubusercontent.com/Betul-HR",
+    "displayInterests": "Pyhton,linux,c#,sql.",
     "mentorships": []
   },
   {
@@ -1185,11 +1274,12 @@
     "twitter_handle": "https://twitter.com/suleymancalik",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/suleymancalik",
-    "interests": "iOS & Flutter Development",
+    "interests": "ios & flutter development",
     "goals": "I want to discuss about mobile application development, based on my 12 years experience on this field.",
     "mentor": "Mentor",
     "slug": "suleyman-calik",
     "avatar": "https://ui-avatars.com/api/?name=Süleyman Çalık&size=256",
+    "displayInterests": "iOS & Flutter Development",
     "mentorships": []
   },
   {
@@ -1198,11 +1288,12 @@
     "twitter_handle": "https://twitter.com/eyuuksek",
     "github": "https://github.com/eyuuksek",
     "linkedin": "https://www.linkedin.com/in/emineyuksek",
-    "interests": "Mobile Application (Flutter), Game Development with Unity, Fronted or Backend",
+    "interests": "mobile application (flutter), game development with unity, fronted or backend",
     "goals": "I want to develop an application which is know around the world. After that I want to establish a company where I can get more efficiency from the employees with I development new a working system.",
     "mentor": "Mentee",
     "slug": "emine-yuksek",
     "avatar": "https://avatars.githubusercontent.com/eyuuksek",
+    "displayInterests": "Mobile Application (Flutter), Game Development with Unity, Fronted or Backend",
     "mentorships": []
   },
   {
@@ -1211,11 +1302,12 @@
     "twitter_handle": "https://twitter.com/kadirkara22",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/kadir-kara-850716201",
-    "interests": "Frontend,Backend",
+    "interests": "frontend,backend",
     "goals": "I want to improve myself in modern web development. \t\nI want to improve myself on Frontend Development and Backend Development.",
     "mentor": "Mentee",
     "slug": "kadir-kara",
     "avatar": "https://ui-avatars.com/api/?name=Kadir Kara&size=256",
+    "displayInterests": "Frontend,Backend",
     "mentorships": []
   },
   {
@@ -1224,11 +1316,12 @@
     "twitter_handle": "https://twitter.com/UCAltin",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/umut-can-altin-507455103",
-    "interests": "Artificial intelligence",
+    "interests": "artificial intelligence",
     "goals": "Alana giriş yapmak isteyen öğrenci veya geliştiricilere katkı sağlamak.",
     "mentor": "Mentor",
     "slug": "umut-can-altin",
     "avatar": "https://ui-avatars.com/api/?name=Umut Can Altın&size=256",
+    "displayInterests": "Artificial intelligence",
     "mentorships": []
   },
   {
@@ -1237,11 +1330,12 @@
     "twitter_handle": "https://twitter.com/mr_brtzl",
     "github": "https://github.com/BRTZL",
     "linkedin": "https://www.linkedin.com/in/brtzl",
-    "interests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
+    "interests": "backend(go, js, java), frontend(vue), mobile(flutter, swift)",
     "goals": "I want to be worldwide developer in the future. And build my own startup.",
     "mentor": "İkisi de",
     "slug": "bartu-ozel",
     "avatar": "https://avatars.githubusercontent.com/BRTZL",
+    "displayInterests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
     "mentorships": []
   },
   {
@@ -1250,11 +1344,12 @@
     "twitter_handle": "https://twitter.com/eliz_kilic",
     "github": "https://github.com/el",
     "linkedin": "https://linkedin.com/in/eliz",
-    "interests": "Frontend, typescript, react",
+    "interests": "frontend, typescript, react",
     "goals": "Create software that touches people's lives",
     "mentor": "İkisi de",
     "slug": "eliz-kilic",
     "avatar": "https://avatars.githubusercontent.com/el",
+    "displayInterests": "Frontend, typescript, react",
     "mentorships": []
   },
   {
@@ -1263,11 +1358,12 @@
     "twitter_handle": "https://twitter.com/tayfunsaan",
     "github": "https://github.com/Senius",
     "linkedin": "https://www.linkedin.com/in/tayfunsaan",
-    "interests": "Data Analysis, Marketing, Python",
+    "interests": "data analysis, marketing, python",
     "goals": "I want improve my programming skills in order to use them for academic purposes and create a new career path for myself.",
     "mentor": "Mentee",
     "slug": "tayfun-saan",
     "avatar": "https://avatars.githubusercontent.com/Senius",
+    "displayInterests": "Data Analysis, Marketing, Python",
     "mentorships": []
   },
   {
@@ -1276,11 +1372,12 @@
     "twitter_handle": "https://twitter.com/bbburakb",
     "github": "https://github.com/burakyilmaz55",
     "linkedin": "https://www.linkedin.com/in/burakyilmaz9765",
-    "interests": "Go Lang, Python, Django, Flask, pyinstaller",
+    "interests": "go lang, python, django, flask, pyinstaller",
     "goals": "I am planning to make my real job software developer and been trying to learn coding since the beggining of pandemic.",
     "mentor": "Mentee",
     "slug": "burak-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
+    "displayInterests": "Go Lang, Python, Django, Flask, pyinstaller",
     "mentorships": []
   },
   {
@@ -1289,11 +1386,12 @@
     "twitter_handle": "https://twitter.com/eabalta",
     "github": "https://github.com/eabalta",
     "linkedin": "https://www.linkedin.com/in/eabalta",
-    "interests": "Machine Learning, Image Processing, Frontend, Cyber Security",
+    "interests": "machine learning, image processing, frontend, cyber security",
     "goals": "I wanna improve my programming skills before I graduate. ",
     "mentor": "Mentee",
     "slug": "enes-alper-balta",
     "avatar": "https://avatars.githubusercontent.com/eabalta",
+    "displayInterests": "Machine Learning, Image Processing, Frontend, Cyber Security",
     "mentorships": []
   },
   {
@@ -1307,6 +1405,7 @@
     "mentor": "Mentee",
     "slug": "ufuk-cam",
     "avatar": "https://avatars.githubusercontent.com/ufukcam",
+    "displayInterests": "frontend,backend",
     "mentorships": []
   },
   {
@@ -1320,6 +1419,7 @@
     "mentor": "Mentee",
     "slug": "kubilay-urun",
     "avatar": "https://avatars.githubusercontent.com/kubilayrn",
+    "displayInterests": "backend,python,django",
     "mentorships": []
   },
   {
@@ -1328,11 +1428,12 @@
     "twitter_handle": "https://twitter.com/ozgrozer",
     "github": "https://github.com/ozgrozer",
     "linkedin": "https://www.linkedin.com/in/ozgrozer",
-    "interests": "Node.js, React.js",
+    "interests": "node.js, react.js",
     "goals": "I want to be the world's first trillionaire.",
     "mentor": "İkisi de",
     "slug": "ozgur-ozer",
     "avatar": "https://avatars.githubusercontent.com/ozgrozer",
+    "displayInterests": "Node.js, React.js",
     "mentorships": []
   },
   {
@@ -1341,11 +1442,12 @@
     "twitter_handle": "https://twitter.com/Desnf",
     "github": "https://github.com/huseyinmertozturk",
     "linkedin": "https://www.linkedin.com/in/huseyinmertozturk1991",
-    "interests": "Game Developlent, Mobile Application Development",
+    "interests": "game developlent, mobile application development",
     "goals": "I want to create my own 2D (or maybe 3D) games. ",
     "mentor": "Mentee",
     "slug": "huseyin-mert-ozturk",
     "avatar": "https://avatars.githubusercontent.com/huseyinmertozturk",
+    "displayInterests": "Game Developlent, Mobile Application Development",
     "mentorships": []
   },
   {
@@ -1354,11 +1456,12 @@
     "twitter_handle": "https://twitter.com/mgsmus",
     "github": "https://github.com/mgsmus",
     "linkedin": "https://www.linkedin.com/in/mustafa-akcakaya",
-    "interests": "PHP, Laravel, Go",
+    "interests": "php, laravel, go",
     "goals": "I want to learn Go before turning 40 :)",
     "mentor": "İkisi de",
     "slug": "mustafa-akcakaya",
     "avatar": "https://avatars.githubusercontent.com/mgsmus",
+    "displayInterests": "PHP, Laravel, Go",
     "mentorships": []
   },
   {
@@ -1372,6 +1475,7 @@
     "mentor": "Mentee",
     "slug": "anil",
     "avatar": "https://avatars.githubusercontent.com/selvianl",
+    "displayInterests": "go, python, js, docker",
     "mentorships": []
   },
   {
@@ -1385,6 +1489,7 @@
     "mentor": "Mentee",
     "slug": "ahmet-karamanoglu",
     "avatar": "https://avatars.githubusercontent.com/aahmetkaraman",
+    "displayInterests": "backend",
     "mentorships": []
   },
   {
@@ -1393,11 +1498,12 @@
     "twitter_handle": "https://twitter.com/CirdiEzgi",
     "github": "https://github.com/ezgicirdi13",
     "linkedin": "https://www.linkedin.com/in/ezgi-cirdi-608313180",
-    "interests": "Frontend, Design, HTML, CSS, JavaScript",
+    "interests": "frontend, design, html, css, javascript",
     "goals": "I want to improve on the issues I have set and I think this will be a better option for me with a mentor. That's why I'm here.",
     "mentor": "Mentee",
     "slug": "ezgi-cirdi",
     "avatar": "https://avatars.githubusercontent.com/ezgicirdi13",
+    "displayInterests": "Frontend, Design, HTML, CSS, JavaScript",
     "mentorships": []
   },
   {
@@ -1406,11 +1512,12 @@
     "twitter_handle": "https://twitter.com/enesbytmr",
     "github": "https://github.com/enesbytmr",
     "linkedin": "https://www.linkedin.com/in/enesbytmr",
-    "interests": "Frontend , backend",
+    "interests": "frontend , backend",
     "goals": "i want to create somethink and be a developer in near future.",
     "mentor": "Mentee",
     "slug": "fevzi-enes-baytemir",
     "avatar": "https://avatars.githubusercontent.com/enesbytmr",
+    "displayInterests": "Frontend , backend",
     "mentorships": []
   },
   {
@@ -1424,6 +1531,7 @@
     "mentor": "Mentee",
     "slug": "yilmaz-daskafa",
     "avatar": "https://avatars.githubusercontent.com/daskafa",
+    "displayInterests": "backend, frontend, maybe cloud",
     "mentorships": []
   },
   {
@@ -1432,11 +1540,12 @@
     "twitter_handle": "https://twitter.com/Schönemusstafa",
     "github": "",
     "linkedin": "https://www.linkedin.com/mwlite/in/mustafa-%C5%9Fen-38ab0510a",
-    "interests": "Python, SQL, JavaScript",
+    "interests": "python, sql, javascript",
     "goals": "Kendi projelerim için programlama yapmak",
     "mentor": "Mentee",
     "slug": "mustafa-sen",
     "avatar": "https://ui-avatars.com/api/?name=Mustafa ŞEN&size=256",
+    "displayInterests": "Python, SQL, JavaScript",
     "mentorships": []
   },
   {
@@ -1445,11 +1554,12 @@
     "twitter_handle": "https://twitter.com/Toour_",
     "github": "https://github.com/levi-ackermn",
     "linkedin": "https://www.linkedin.com/in/turan-kılıç-376b99171",
-    "interests": "Cyber Security",
+    "interests": "cyber security",
     "goals": "I want to be a security manager of a company.",
     "mentor": "Mentee",
     "slug": "turan-kilic",
     "avatar": "https://avatars.githubusercontent.com/levi-ackermn",
+    "displayInterests": "Cyber Security",
     "mentorships": []
   },
   {
@@ -1463,6 +1573,7 @@
     "mentor": "Mentee",
     "slug": "zafer-caliskan",
     "avatar": "https://avatars.githubusercontent.com/caliskanzafer",
+    "displayInterests": "mobile",
     "mentorships": []
   },
   {
@@ -1476,6 +1587,7 @@
     "mentor": "Mentee",
     "slug": "enes-malik-duman",
     "avatar": "https://avatars.githubusercontent.com/enesmalikdmn",
+    "displayInterests": "frontend,devops",
     "mentorships": []
   },
   {
@@ -1484,11 +1596,12 @@
     "twitter_handle": "https://twitter.com/Baskosee",
     "github": "https://github.com/yasebaskose",
     "linkedin": "https://www.linkedin.com/in/aquiluss",
-    "interests": "data science, AI, Machine Learning, Deep Learning, frontend, backend, Phyton,Java, C#, SQL",
+    "interests": "data science, ai, machine learning, deep learning, frontend, backend, phyton,java, c#, sql",
     "goals": "I want to be senior artificial intelligence engineer and I want to learn well Python ",
     "mentor": "Mentee",
     "slug": "yasemin-baskose",
     "avatar": "https://avatars.githubusercontent.com/yasebaskose",
+    "displayInterests": "data science, AI, Machine Learning, Deep Learning, frontend, backend, Phyton,Java, C#, SQL",
     "mentorships": []
   },
   {
@@ -1497,11 +1610,12 @@
     "twitter_handle": "https://twitter.com/alimuratunsal",
     "github": "https://github.com/alimuratunsal",
     "linkedin": "https://tr.linkedin.com/in/alimuratunsal",
-    "interests": "DevOps",
+    "interests": "devops",
     "goals": "I want to share my experiences and knowledge about DevOps with young talents. That’s why I’m here.",
     "mentor": "Mentor",
     "slug": "ali-murat-unsal",
     "avatar": "https://avatars.githubusercontent.com/alimuratunsal",
+    "displayInterests": "DevOps",
     "mentorships": []
   },
   {
@@ -1515,6 +1629,7 @@
     "mentor": "Mentee",
     "slug": "abdurrahman-yildiz",
     "avatar": "https://avatars.githubusercontent.com/a-yldz",
+    "displayInterests": "embedded systems, risc-v",
     "mentorships": []
   },
   {
@@ -1523,11 +1638,12 @@
     "twitter_handle": "https://twitter.com/alpertab",
     "github": "https://github.com/befy",
     "linkedin": "https://linkedin.com/in/alpertabak",
-    "interests": "mobile (iOS), backend (go, js)",
+    "interests": "mobile (ios), backend (go, js)",
     "goals": "I will be a worldwide entrepreneur. I can be a mentor to people who need technical consultancy, I am here to learn new things and meet new people",
     "mentor": "İkisi de",
     "slug": "alper-tabak",
     "avatar": "https://avatars.githubusercontent.com/befy",
+    "displayInterests": "mobile (iOS), backend (go, js)",
     "mentorships": []
   },
   {
@@ -1536,11 +1652,12 @@
     "twitter_handle": "https://twitter.com/ametacarr",
     "github": "https://github.com/faacar",
     "linkedin": "https://www.linkedin.com/in/ahmet-faruk-acar-8630aa141",
-    "interests": "IOS development ",
+    "interests": "ios development ",
     "goals": "I want to improve my skills and gain experience until graduate cs",
     "mentor": "Mentee",
     "slug": "ahmet-faruk-acar",
     "avatar": "https://avatars.githubusercontent.com/faacar",
+    "displayInterests": "IOS development ",
     "mentorships": []
   },
   {
@@ -1554,6 +1671,7 @@
     "mentor": "İkisi de",
     "slug": "ali-gundogdu",
     "avatar": "https://avatars.githubusercontent.com/aligundogdu",
+    "displayInterests": "frontend, backend",
     "mentorships": []
   },
   {
@@ -1562,11 +1680,12 @@
     "twitter_handle": "https://twitter.com/_emreserbest",
     "github": "https://github.com/serbestemre",
     "linkedin": "https://www.linkedin.com/in/serbestemre",
-    "interests": "backend - javaScript & Java",
+    "interests": "backend - javascript & java",
     "goals": "I want to be sure of what I know and be able to learn how to learn things in a quick and efficient way so that I can find my way in the new adventures.",
     "mentor": "Mentee",
     "slug": "emre-serbest",
     "avatar": "https://avatars.githubusercontent.com/serbestemre",
+    "displayInterests": "backend - javaScript & Java",
     "mentorships": []
   },
   {
@@ -1580,6 +1699,7 @@
     "mentor": "İkisi de",
     "slug": "adem-furkan-ozcan",
     "avatar": "https://avatars.githubusercontent.com/Adem68",
+    "displayInterests": "flutter, swiftui, frontend, backend",
     "mentorships": []
   },
   {
@@ -1588,11 +1708,12 @@
     "twitter_handle": "https://twitter.com/rasitcolakel",
     "github": "https://github.com/rasitcolakel",
     "linkedin": "https://tr.linkedin.com/in/rasitcolakel",
-    "interests": "Frontend(React JS, React Native), Backend(PHP, Node JS), devops",
+    "interests": "frontend(react js, react native), backend(php, node js), devops",
     "goals": "Full stack developer",
     "mentor": "Mentee",
     "slug": "rasit-colakel",
     "avatar": "https://avatars.githubusercontent.com/rasitcolakel",
+    "displayInterests": "Frontend(React JS, React Native), Backend(PHP, Node JS), devops",
     "mentorships": []
   },
   {
@@ -1601,11 +1722,12 @@
     "twitter_handle": "https://twitter.com/alicanakca_",
     "github": "https://github.com/AlicanAKCA",
     "linkedin": "https://www.linkedin.com/in/alican-akca-123736190",
-    "interests": "ML and DL, Data Analyst(Python), C#",
+    "interests": "ml and dl, data analyst(python), c#",
     "goals": "I want to work in Data Science and Machine learning.",
     "mentor": "Mentor",
     "slug": "alican-akca",
     "avatar": "https://avatars.githubusercontent.com/AlicanAKCA",
+    "displayInterests": "ML and DL, Data Analyst(Python), C#",
     "mentorships": []
   },
   {
@@ -1614,11 +1736,12 @@
     "twitter_handle": "https://twitter.com/tolga_cesur",
     "github": "https://github.com/tolgacesur",
     "linkedin": "https://www.linkedin.com/in/tolgacesur",
-    "interests": "Javascript, Node.js React, React Native, IOT",
+    "interests": "javascript, node.js react, react native, iot",
     "goals": "I want to be worldwide developer in the future. That's why I'm here too.",
     "mentor": "İkisi de",
     "slug": "tolga-cesur",
     "avatar": "https://avatars.githubusercontent.com/tolgacesur",
+    "displayInterests": "Javascript, Node.js React, React Native, IOT",
     "mentorships": []
   },
   {
@@ -1627,11 +1750,12 @@
     "twitter_handle": "https://twitter.com/hsnsysl",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/hasan-soysal",
-    "interests": "iOS, Swift",
+    "interests": "ios, swift",
     "goals": "I want to give a chance to those who have just graduated and have not yet gained experience. I want to create a class for 2 people and I want one of them to be a woman in order to increase the number of women in this mobile world.",
     "mentor": "Mentor",
     "slug": "hasan-soysal",
     "avatar": "https://ui-avatars.com/api/?name=Hasan Soysal&size=256",
+    "displayInterests": "iOS, Swift",
     "mentorships": []
   },
   {
@@ -1640,11 +1764,12 @@
     "twitter_handle": "https://twitter.com/mr_sipahii",
     "github": "https://github.com/MrSipahi",
     "linkedin": "https://www.linkedin.com/in/sedat-sipahi",
-    "interests": "Data Science, Big Data",
+    "interests": "data science, big data",
     "goals": "I want to work in the field of Artificial Intelligence in the future",
     "mentor": "Mentee",
     "slug": "sedat-sipahi",
     "avatar": "https://avatars.githubusercontent.com/MrSipahi",
+    "displayInterests": "Data Science, Big Data",
     "mentorships": []
   },
   {
@@ -1658,6 +1783,7 @@
     "mentor": "İkisi de",
     "slug": "volkan-oluc",
     "avatar": "https://avatars.githubusercontent.com/olucvolkan",
+    "displayInterests": "backend, symfony,php, golang, devops",
     "mentorships": []
   },
   {
@@ -1671,6 +1797,7 @@
     "mentor": "Mentee",
     "slug": "mahmut-yildiz",
     "avatar": "https://avatars.githubusercontent.com/mahmuttyildiz",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -1684,6 +1811,7 @@
     "mentor": "Mentee",
     "slug": "tolga-aksoy",
     "avatar": "https://avatars.githubusercontent.com/tolgaaksoy",
+    "displayInterests": "backend, java, spring framework, frontend, javascript, react.js, deep learning, machine learning",
     "mentorships": []
   },
   {
@@ -1692,11 +1820,12 @@
     "twitter_handle": "https://twitter.com/sla_savas",
     "github": "https://github.com/silasavass",
     "linkedin": "https://www.linkedin.com/in/sıla-savaş",
-    "interests": "Data analysis, deep learning, machine learning, business development ",
+    "interests": "data analysis, deep learning, machine learning, business development ",
     "goals": "ı want to learn more data analysis and python . \nI want to learn what I can do",
     "mentor": "Mentee",
     "slug": "sila-savas",
     "avatar": "https://avatars.githubusercontent.com/silasavass",
+    "displayInterests": "Data analysis, deep learning, machine learning, business development ",
     "mentorships": []
   },
   {
@@ -1710,6 +1839,7 @@
     "mentor": "İkisi de",
     "slug": "ibrahim-kus",
     "avatar": "https://avatars.githubusercontent.com/kushibrahim",
+    "displayInterests": "backend, java, api development, spring framework, golang",
     "mentorships": []
   },
   {
@@ -1723,6 +1853,7 @@
     "mentor": "İkisi de",
     "slug": "okan-ciftci",
     "avatar": "https://avatars.githubusercontent.com/okanvk",
+    "displayInterests": "nlp",
     "mentorships": []
   },
   {
@@ -1731,11 +1862,12 @@
     "twitter_handle": "https://www.twitter.com/dessasin",
     "github": "https://www.github.com/dessasin",
     "linkedin": "https://www.linkedin.com/in/dessasin",
-    "interests": "frontend, backend. Gnu/Linux, Tauri, Rust",
+    "interests": "frontend, backend. gnu/linux, tauri, rust",
     "goals": "I want to be a digital nomad in the future. I am here for job tips from mentors.",
     "mentor": "İkisi de",
     "slug": "m.nurullah-torun",
     "avatar": "https://avatars.githubusercontent.com/dessasin",
+    "displayInterests": "frontend, backend. Gnu/Linux, Tauri, Rust",
     "mentorships": []
   },
   {
@@ -1749,6 +1881,7 @@
     "mentor": "İkisi de",
     "slug": "eyup-altindal",
     "avatar": "https://avatars.githubusercontent.com/eyupaltindal",
+    "displayInterests": "frontend, fullstack, devops",
     "mentorships": []
   },
   {
@@ -1757,11 +1890,12 @@
     "twitter_handle": "https:// twitter.com/fatih24yavuz",
     "github": "https://github.com/fatih-yavuz",
     "linkedin": "https://www.linkedin.com/in/fyvz",
-    "interests": "Backend, AWS, Python, JavaScript, Java",
+    "interests": "backend, aws, python, javascript, java",
     "goals": "Contribute to the community",
     "mentor": "İkisi de",
     "slug": "fatih-yavuz",
     "avatar": "https://avatars.githubusercontent.com/fatih-yavuz",
+    "displayInterests": "Backend, AWS, Python, JavaScript, Java",
     "mentorships": []
   },
   {
@@ -1770,11 +1904,12 @@
     "twitter_handle": "https://twitter.com/adlkrm?s=09",
     "github": "https://github.com/KEREMADALI",
     "linkedin": "https://www.linkedin.com/in/kerem-adali",
-    "interests": "Game Development",
+    "interests": "game development",
     "goals": "I want to be a successfull game developer",
     "mentor": "İkisi de",
     "slug": "kerem-adali",
     "avatar": "https://avatars.githubusercontent.com/KEREMADALI",
+    "displayInterests": "Game Development",
     "mentorships": []
   },
   {
@@ -1788,6 +1923,7 @@
     "mentor": "Mentee",
     "slug": "fatma-ozdemir",
     "avatar": "https://avatars.githubusercontent.com/ozdmrfatma",
+    "displayInterests": "frontend , backend",
     "mentorships": []
   },
   {
@@ -1796,11 +1932,12 @@
     "twitter_handle": "https://twitter.com/gurfrkn",
     "github": "https://github.com/gurfrkn",
     "linkedin": "https://www.linkedin.com/in/furkan-g%C3%BCrcan-219507163",
-    "interests": "Python, machine learning, data science",
+    "interests": "python, machine learning, data science",
     "goals": "I want to join exciting artificial intelligence and data science world",
     "mentor": "Mentee",
     "slug": "furkan-gurcan",
     "avatar": "https://avatars.githubusercontent.com/gurfrkn",
+    "displayInterests": "Python, machine learning, data science",
     "mentorships": []
   },
   {
@@ -1809,11 +1946,12 @@
     "twitter_handle": "https://twitter.com/Matt20334382",
     "github": "https://github.com/matsura8",
     "linkedin": "https://www.linkedin.com/in/matthew-a-arp",
-    "interests": "AI, cloud, Python, backend, frontend",
+    "interests": "ai, cloud, python, backend, frontend",
     "goals": "Learn basics well enough to cobble together something that works sometimes.",
     "mentor": "Mentee",
     "slug": "arp",
     "avatar": "https://avatars.githubusercontent.com/matsura8",
+    "displayInterests": "AI, cloud, Python, backend, frontend",
     "mentorships": []
   },
   {
@@ -1822,11 +1960,12 @@
     "twitter_handle": "https://twitter.com/halilcigay",
     "github": "",
     "linkedin": "https://www.linkedin.com/mwlite/in/halil-%C3%A7i%C4%9Fay-052198190",
-    "interests": "Frontend backend",
+    "interests": "frontend backend",
     "goals": "Yazılım ve programcılıkta kendimi geliştirmek istiyorum",
     "mentor": "Mentee",
     "slug": "halil-cigay",
     "avatar": "https://ui-avatars.com/api/?name=Halil Çiğay&size=256",
+    "displayInterests": "Frontend backend",
     "mentorships": []
   },
   {
@@ -1835,11 +1974,12 @@
     "twitter_handle": "https://twitter.com/akgulem",
     "github": "",
     "linkedin": "https://tr.linkedin.com/in/emrah-akg%C3%BCl-a888a554?trk=pub-pbmap",
-    "interests": "Frontend,backend,rails,Django,nodejs",
+    "interests": "frontend,backend,rails,django,nodejs",
     "goals": "I want to build a web site with best practices in the industry so that I can take freelance jobs.",
     "mentor": "İkisi de",
     "slug": "emrah-akgul",
     "avatar": "https://ui-avatars.com/api/?name=Emrah Akgül&size=256",
+    "displayInterests": "Frontend,backend,rails,Django,nodejs",
     "mentorships": []
   },
   {
@@ -1848,11 +1988,12 @@
     "twitter_handle": "https://twitter.com/AhmetCanKaraol",
     "github": "https://github.com/ahmetcankaraoglan",
     "linkedin": "https://www.linkedin.com/in/ahmetcankaraoglan",
-    "interests": "Data Science, Deep Learning, Computer Vision",
+    "interests": "data science, deep learning, computer vision",
     "goals": "I want to be worldwide Data Science expert in the future. That's why I'm here.",
     "mentor": "Mentee",
     "slug": "ahmet-can-karaoglan",
     "avatar": "https://avatars.githubusercontent.com/ahmetcankaraoglan",
+    "displayInterests": "Data Science, Deep Learning, Computer Vision",
     "mentorships": []
   },
   {
@@ -1861,11 +2002,12 @@
     "twitter_handle": "https://twitter.com/cenkcivici",
     "github": "https://github.com/cenkcivici",
     "linkedin": "https://www.linkedin.com/in/cenkcivici",
-    "interests": "TDD, Unit Testing, Clean Code, Refactoring, Design Patterns",
+    "interests": "tdd, unit testing, clean code, refactoring, design patterns",
     "goals": "Retire",
     "mentor": "İkisi de",
     "slug": "cenk-civici",
     "avatar": "https://avatars.githubusercontent.com/cenkcivici",
+    "displayInterests": "TDD, Unit Testing, Clean Code, Refactoring, Design Patterns",
     "mentorships": []
   },
   {
@@ -1879,6 +2021,7 @@
     "mentor": "Mentee",
     "slug": "onur-coskun",
     "avatar": "https://avatars.githubusercontent.com/noiqum",
+    "displayInterests": "frontend",
     "mentorships": []
   },
   {
@@ -1892,6 +2035,7 @@
     "mentor": "Mentor",
     "slug": "emre-savci",
     "avatar": "https://avatars.githubusercontent.com/mstrYoda",
+    "displayInterests": "go, kubernetes, devops, sre, software architecture, ddd, scalability, couchbase, rabbitmq, java...",
     "mentorships": []
   },
   {
@@ -1900,11 +2044,12 @@
     "twitter_handle": "https://twitter.com/sahinonurrr",
     "github": "https://github.com/osahin45",
     "linkedin": "https://www.linkedin.com/in/osahin1",
-    "interests": "Mobile , Android",
+    "interests": "mobile , android",
     "goals": "Although I only work on Android Right now, I want to be a Full Mobile Dev.",
     "mentor": "Mentee",
     "slug": "onur-sahin",
     "avatar": "https://avatars.githubusercontent.com/osahin45",
+    "displayInterests": "Mobile , Android",
     "mentorships": []
   },
   {
@@ -1913,11 +2058,12 @@
     "twitter_handle": "https://twitter.com/_bilalarslan",
     "github": "https://github.com/arslanbilal",
     "linkedin": "https://www.linkedin.com/in/bilal-arslan",
-    "interests": "iOS development, problem solving, algorithms",
+    "interests": "ios development, problem solving, algorithms",
     "goals": "-",
     "mentor": "Mentor",
     "slug": "bilal-arslan",
     "avatar": "https://avatars.githubusercontent.com/arslanbilal",
+    "displayInterests": "iOS development, problem solving, algorithms",
     "mentorships": []
   },
   {
@@ -1931,6 +2077,7 @@
     "mentor": "Mentee",
     "slug": "huseyin-gulcu",
     "avatar": "https://avatars.githubusercontent.com/hsglc",
+    "displayInterests": "frontend(javascript, reactjs), nodejs, mongodb",
     "mentorships": []
   },
   {
@@ -1944,6 +2091,7 @@
     "mentor": "Mentee",
     "slug": "ali-ergecer",
     "avatar": "https://avatars.githubusercontent.com/aliergcr",
+    "displayInterests": "mobile dev., react native, reactjs, frontend, javascript",
     "mentorships": []
   },
   {
@@ -1957,6 +2105,7 @@
     "mentor": "Mentee",
     "slug": "huseyin-gulcu",
     "avatar": "https://avatars.githubusercontent.com/hsglc",
+    "displayInterests": "frontend(javascript, reactjs), nodejs, mongodb",
     "mentorships": []
   },
   {
@@ -1970,6 +2119,7 @@
     "mentor": "Mentee",
     "slug": "bekir-tatar",
     "avatar": "https://avatars.githubusercontent.com/bekirtatar0",
+    "displayInterests": "frontend and backend",
     "mentorships": []
   },
   {
@@ -1978,11 +2128,12 @@
     "twitter_handle": "https://twitter.com/aliaydins",
     "github": "https://github.com/aliaydins",
     "linkedin": "https://www.linkedin.com/in/aliaydins",
-    "interests": "Backend, Frontend, JavaScript (React, Node.js)",
+    "interests": "backend, frontend, javascript (react, node.js)",
     "goals": "I am a 4th grade student and I was interested in .net , java before , now I am focusing javascript and typescript ",
     "mentor": "Mentee",
     "slug": "ali-aydin",
     "avatar": "https://avatars.githubusercontent.com/aliaydins",
+    "displayInterests": "Backend, Frontend, JavaScript (React, Node.js)",
     "mentorships": []
   },
   {
@@ -1991,11 +2142,12 @@
     "twitter_handle": "https://twitter.com/yilmazogras",
     "github": "https://github.com/ograsyilmaz",
     "linkedin": "https://www.linkedin.com/in/y%C4%B1lmaz-o%C4%9Fra%C5%9F-2a788571",
-    "interests": "Frontend , Backend",
+    "interests": "frontend , backend",
     "goals": "Yeni  bilgiler öğrenip yeni bilgiler anlatmak. ",
     "mentor": "İkisi de",
     "slug": "yilmaz-ogras",
     "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
+    "displayInterests": "Frontend , Backend",
     "mentorships": []
   },
   {
@@ -2004,11 +2156,12 @@
     "twitter_handle": "https://twitter.com/burakdzgrrr",
     "github": "https://github.com/burakdzgr",
     "linkedin": "https://www.linkedin.com/in/burakdzgr",
-    "interests": "Frontend,SEO,AMP",
+    "interests": "frontend,seo,amp",
     "goals": "Since I have basic html and css knowledge, I have set myself the goal of making full progress in a short period of 3 months. My main goal is to achieve full development and rise from JR status to SR status within this period.",
     "mentor": "Mentee",
     "slug": "burakcan-diziegri",
     "avatar": "https://avatars.githubusercontent.com/burakdzgr",
+    "displayInterests": "Frontend,SEO,AMP",
     "mentorships": []
   },
   {
@@ -2022,6 +2175,7 @@
     "mentor": "İkisi de",
     "slug": "hakki-cengiz",
     "avatar": "https://avatars.githubusercontent.com/hkkcngz",
+    "displayInterests": "frontend, backend, design ui, ux",
     "mentorships": []
   },
   {
@@ -2030,11 +2184,12 @@
     "twitter_handle": "https://twitter.com/aaabdyrahmanov",
     "github": "https://github.com/aaabdyrahmanov",
     "linkedin": "https://www.linkedin.com/in/aaabdyrahmanov",
-    "interests": "Devops, Backend, Frontend, Machine Learning....",
+    "interests": "devops, backend, frontend, machine learning....",
     "goals": "I want to create and leave an impact on the world. I have encountered with hundreds of difficulties in my journey, thus I would like to help others and also ask for help from mentors. That's why I'm here.",
     "mentor": "İkisi de",
     "slug": "atamyrat-abdyrahmanov",
     "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov",
+    "displayInterests": "Devops, Backend, Frontend, Machine Learning....",
     "mentorships": []
   },
   {
@@ -2043,11 +2198,12 @@
     "twitter_handle": "https://twitter.com/halenisakus",
     "github": "https://github.com/halenisakus",
     "linkedin": "https://www.linkedin.com/in/hale-ku%C5%9F",
-    "interests": "frontend(html,css,js) ,,backend,reactjs,web programming,C#,SQL,",
+    "interests": "frontend(html,css,js) ,,backend,reactjs,web programming,c#,sql,",
     "goals": "I am fresh graduate. I am computer engineer. Actually I am a junior developer and I want to improve my skills. We can do great things together! :)",
     "mentor": "Mentee",
     "slug": "hale-nisa-nur-kus",
     "avatar": "https://avatars.githubusercontent.com/halenisakus",
+    "displayInterests": "frontend(html,css,js) ,,backend,reactjs,web programming,C#,SQL,",
     "mentorships": []
   },
   {
@@ -2056,11 +2212,12 @@
     "twitter_handle": "https://twitter.com/home",
     "github": "https://github.com",
     "linkedin": "https://www.linkedin.com/in/esra-canvar-6b1341120",
-    "interests": "JavaScript, Css,Html",
+    "interests": "javascript, css,html",
     "goals": "Hi! I am a fresh graduate from Atatürk University Management Informatics Systems. I am interested in software architecture and system design. I am interested in Css and Javascript. I'm trying to improve myself",
     "mentor": "İkisi de",
     "slug": "esra-canvar",
     "avatar": "",
+    "displayInterests": "JavaScript, Css,Html",
     "mentorships": []
   },
   {
@@ -2069,11 +2226,12 @@
     "twitter_handle": "https://twitter.com/emsalcngz",
     "github": "https://github.com/emsalcengiz",
     "linkedin": "https://www.linkedin.com/in/emsalcengiz",
-    "interests": "frontend, backend, data and NLP",
+    "interests": "frontend, backend, data and nlp",
     "goals": "I believe there is a lot more to learn. That's why I'm here. ",
     "mentor": "Mentee",
     "slug": "emsal-cengiz",
     "avatar": "https://avatars.githubusercontent.com/emsalcengiz",
+    "displayInterests": "frontend, backend, data and NLP",
     "mentorships": []
   },
   {
@@ -2082,11 +2240,12 @@
     "twitter_handle": "https://twitter.com/suhacanuluer",
     "github": "https://github.com/suhacanuluer",
     "linkedin": "https://www.linkedin.com/in/suhacanuluer",
-    "interests": "backend(Node or Java), devops, frontend, mobile",
+    "interests": "backend(node or java), devops, frontend, mobile",
     "goals": "I need a mentor to take stronger steps, become a professional and enter the business world",
     "mentor": "Mentee",
     "slug": "suha-can-uluer",
     "avatar": "https://avatars.githubusercontent.com/suhacanuluer",
+    "displayInterests": "backend(Node or Java), devops, frontend, mobile",
     "mentorships": []
   },
   {
@@ -2095,11 +2254,12 @@
     "twitter_handle": "https://twitter.com/altitans",
     "github": "https://github.com/altaysimsek",
     "linkedin": "https://www.linkedin.com/in/altaysimsek",
-    "interests": "Frontend, backend",
+    "interests": "frontend, backend",
     "goals": "I need a roadmapper to be better frontend developer and getting first internship or job",
     "mentor": "Mentee",
     "slug": "altay-simsek",
     "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+    "displayInterests": "Frontend, backend",
     "mentorships": []
   },
   {
@@ -2108,11 +2268,12 @@
     "twitter_handle": "https://twitter.com/koseilteer",
     "github": "https://github.com/ilter",
     "linkedin": "https://www.linkedin.com/in/ilterkose",
-    "interests": "Swift,DevOps",
+    "interests": "swift,devops",
     "goals": "All I want is establish a FAANG company from Turkey.",
     "mentor": "Mentee",
     "slug": "ilter-kose",
     "avatar": "https://avatars.githubusercontent.com/ilter",
+    "displayInterests": "Swift,DevOps",
     "mentorships": []
   },
   {
@@ -2121,11 +2282,12 @@
     "twitter_handle": "https://twitter.com/ozgun_dogus",
     "github": "https://github.com/Ozgundogus",
     "linkedin": "https:// www.linkedin.com/in/özgün-doğuş-can-",
-    "interests": "Mobile, Backend, frontend, AR&VR",
+    "interests": "mobile, backend, frontend, ar&vr",
     "goals": " ı want to ımprove my self and be a good developer",
     "mentor": "Mentee",
     "slug": "ozgun-dogus-can",
     "avatar": "https://avatars.githubusercontent.com/Ozgundogus",
+    "displayInterests": "Mobile, Backend, frontend, AR&VR",
     "mentorships": []
   },
   {
@@ -2134,11 +2296,12 @@
     "twitter_handle": "https://twitter.com/mstfsakalli",
     "github": "https://github.com/mustafasakalli",
     "linkedin": "https://tr.linkedin.com/in/mustafasakalli",
-    "interests": "Backend, DevOps",
+    "interests": "backend, devops",
     "goals": "Trying to be a good developer at backend side with knowledge of devops",
     "mentor": "Mentee",
     "slug": "mustafa-sakalli",
     "avatar": "https://avatars.githubusercontent.com/mustafasakalli",
+    "displayInterests": "Backend, DevOps",
     "mentorships": []
   },
   {
@@ -2147,11 +2310,12 @@
     "twitter_handle": "https://twitter.com/EmrehanKsack",
     "github": "https://github.com/emrhnksck",
     "linkedin": "https://www.linkedin.com/in/emrhnksck",
-    "interests": "Data science",
+    "interests": "data science",
     "goals": "I want to join software world in my early years of my education i need to mentor who is gonna help me about accomplish my goals",
     "mentor": "Mentee",
     "slug": "emrehan-kisacik",
     "avatar": "https://avatars.githubusercontent.com/emrhnksck",
+    "displayInterests": "Data science",
     "mentorships": []
   },
   {
@@ -2160,11 +2324,12 @@
     "twitter_handle": "https://twitter.com/aobesinci",
     "github": "https://github.com/besinci",
     "linkedin": "https://www.linkedin.com/in/aliosmanbesinci",
-    "interests": "Backend, Mobile",
+    "interests": "backend, mobile",
     "goals": "",
     "mentor": "İkisi de",
     "slug": "ali-osman-besinci",
     "avatar": "https://avatars.githubusercontent.com/besinci",
+    "displayInterests": "Backend, Mobile",
     "mentorships": []
   },
   {
@@ -2173,11 +2338,12 @@
     "twitter_handle": "https://twitter.com/ridvannakca",
     "github": "https://github.com/ridvanakca",
     "linkedin": "https://linkedin.com/in/ridvanakca",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": "i want to improve myself in frontend development.",
     "mentor": "Mentee",
     "slug": "ridvan-akca",
     "avatar": "https://avatars.githubusercontent.com/ridvanakca",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -2186,11 +2352,12 @@
     "twitter_handle": "https://twitter.com/bilalkocak04",
     "github": "https://github.com/bilalkocak",
     "linkedin": "https://www.linkedin.com/in/bilalkocak",
-    "interests": "Frontend, backend",
+    "interests": "frontend, backend",
     "goals": "This year I want to improve myself on backend and if you want  I can mentor you for frontend.",
     "mentor": "İkisi de",
     "slug": "bilal-kocak",
     "avatar": "https://avatars.githubusercontent.com/bilalkocak",
+    "displayInterests": "Frontend, backend",
     "mentorships": []
   },
   {
@@ -2199,11 +2366,12 @@
     "twitter_handle": "https://twitter.com/fadileavci1",
     "github": "https://github.com/fadileavci",
     "linkedin": "https://www.linkedin.com/in/fadileavci",
-    "interests": "Backend,Frontend,Devops",
+    "interests": "backend,frontend,devops",
     "goals": "I want to get help and share information from better than developers then me",
     "mentor": "Mentee",
     "slug": "fadile-avci",
     "avatar": "https://avatars.githubusercontent.com/fadileavci",
+    "displayInterests": "Backend,Frontend,Devops",
     "mentorships": []
   },
   {
@@ -2212,11 +2380,12 @@
     "twitter_handle": "https://twitter.com/rockkbor",
     "github": "https://github.com/renginozgun",
     "linkedin": "https://tr.linkedin.com/in/renginozgun",
-    "interests": "Backend, Frontend, Machine Learning",
+    "interests": "backend, frontend, machine learning",
     "goals": "I want to work with a mentor and achieve at least one of my goals this year ",
     "mentor": "Mentee",
     "slug": "rengin-akbor",
     "avatar": "https://avatars.githubusercontent.com/renginozgun",
+    "displayInterests": "Backend, Frontend, Machine Learning",
     "mentorships": []
   },
   {
@@ -2225,11 +2394,12 @@
     "twitter_handle": "https://twitter.com/ilkerdemirx",
     "github": "https://github.com/ilker0",
     "linkedin": "https://www.linkedin.com/in/ilkerdemirr",
-    "interests": "Frontend, DevOps",
+    "interests": "frontend, devops",
     "goals": "Experience in frontend architectures and test-driven development",
     "mentor": "Mentee",
     "slug": "ilker-demir",
     "avatar": "https://avatars.githubusercontent.com/ilker0",
+    "displayInterests": "Frontend, DevOps",
     "mentorships": []
   },
   {
@@ -2238,11 +2408,12 @@
     "twitter_handle": "https://twitter.com/emretanerc",
     "github": "https://github.com/emretanerc",
     "linkedin": "https://www.linkedin.com/in/emre-taner-%C3%A7etinkaya-59b68469",
-    "interests": "Mobile Developer ",
+    "interests": "mobile developer ",
     "goals": "",
     "mentor": "Mentee",
     "slug": "emre-taner-cetinkaya",
     "avatar": "https://avatars.githubusercontent.com/emretanerc",
+    "displayInterests": "Mobile Developer ",
     "mentorships": []
   },
   {
@@ -2251,11 +2422,12 @@
     "twitter_handle": "https://twitter.com/imloods",
     "github": "https://github.com/ffcabbar",
     "linkedin": "https://www.linkedin.com/in/ffcabbar",
-    "interests": "Frontend, backend(JavaScript)",
+    "interests": "frontend, backend(javascript)",
     "goals": "My first goal is to be very good at javascript and css. Additionally, I want to be very good at developing mern stack and nodejs.",
     "mentor": "Mentee",
     "slug": "furkan-cabbar",
     "avatar": "https://avatars.githubusercontent.com/ffcabbar",
+    "displayInterests": "Frontend, backend(JavaScript)",
     "mentorships": []
   },
   {
@@ -2264,11 +2436,12 @@
     "twitter_handle": "https://twitter.com/umit_yildirim1",
     "github": "https://github.com/mehtiumit",
     "linkedin": "https://www.linkedin.com/feed",
-    "interests": "Front-end(React) Back-end(.net Core)",
+    "interests": "front-end(react) back-end(.net core)",
     "goals": "i need a mentor who is gonna tell me my level and code quality",
     "mentor": "Mentee",
     "slug": "umit-yildirim",
     "avatar": "https://avatars.githubusercontent.com/mehtiumit",
+    "displayInterests": "Front-end(React) Back-end(.net Core)",
     "mentorships": []
   },
   {
@@ -2277,11 +2450,12 @@
     "twitter_handle": "https://twitter.com/cokdegisigim",
     "github": "https://github.com/Burakkepuc",
     "linkedin": "https://www.linkedin.com/in/burakkepuc",
-    "interests": "Back-end",
+    "interests": "back-end",
     "goals": "I want to start my career as a back-end dev. Currently studying software engineering in university.",
     "mentor": "İkisi de",
     "slug": "burak-kepuc",
     "avatar": "https://avatars.githubusercontent.com/Burakkepuc",
+    "displayInterests": "Back-end",
     "mentorships": []
   },
   {
@@ -2290,11 +2464,12 @@
     "twitter_handle": "https://twitter.com/tansionline",
     "github": "https://github.com/tansionline",
     "linkedin": "https://www.linkedin.com/in/selcuk-tatar-7b25b61a5",
-    "interests": "Frontend, Backend (Nodejs, React or Vue)",
+    "interests": "frontend, backend (nodejs, react or vue)",
     "goals": "I wanna start to work somewhere. I wanna earn my money.",
     "mentor": "Mentee",
     "slug": "selcuk-tatar",
     "avatar": "https://avatars.githubusercontent.com/tansionline",
+    "displayInterests": "Frontend, Backend (Nodejs, React or Vue)",
     "mentorships": []
   },
   {
@@ -2308,6 +2483,7 @@
     "mentor": "Mentee",
     "slug": "umit-kaan-usta",
     "avatar": "https://avatars.githubusercontent.com/umitkaanusta",
+    "displayInterests": "backend, data, nlp, graph databases",
     "mentorships": []
   },
   {
@@ -2321,6 +2497,7 @@
     "mentor": "Mentee",
     "slug": "mert-can-bilgic",
     "avatar": "https://avatars.githubusercontent.com/mertcb",
+    "displayInterests": "backend, linux sysadmin, devops",
     "mentorships": []
   },
   {
@@ -2329,11 +2506,12 @@
     "twitter_handle": "https://twitter.com/alperenoz14",
     "github": "https://github.com/alperenoz14",
     "linkedin": "https://www.linkedin.com/in/alperen-%C3%B6z-7b9997186",
-    "interests": "frontend,backend,(.Net Core),ML",
+    "interests": "frontend,backend,(.net core),ml",
     "goals": "I really need someone to consult about my way to be a good web developer and working techniques. I'm working with .Net techs.",
     "mentor": "Mentee",
     "slug": "alperen-oz",
     "avatar": "https://avatars.githubusercontent.com/alperenoz14",
+    "displayInterests": "frontend,backend,(.Net Core),ML",
     "mentorships": []
   },
   {
@@ -2347,6 +2525,7 @@
     "mentor": "Mentee",
     "slug": "batuhan-isildak",
     "avatar": "https://avatars.githubusercontent.com/Fexyler",
+    "displayInterests": "frontend,backend, devops",
     "mentorships": []
   },
   {
@@ -2355,11 +2534,12 @@
     "twitter_handle": "https://twitter.com/Haci_kandemir",
     "github": "https://github.com/HaciKandemir",
     "linkedin": "https://www.linkedin.com/in/haci-kandemir",
-    "interests": "Backend (php/ c# / .Net)",
+    "interests": "backend (php/ c# / .net)",
     "goals": "",
     "mentor": "Mentee",
     "slug": "haci-kandemir",
     "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
+    "displayInterests": "Backend (php/ c# / .Net)",
     "mentorships": []
   },
   {
@@ -2368,11 +2548,12 @@
     "twitter_handle": "https://twitter.com/recurspirit",
     "github": "https://github.com/sucremad",
     "linkedin": "https://www.linkedin.com/in/nurg%C3%BCl%C3%A7ako%C4%9Flu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUFwYg%2BmyT4%2B6KeirtRPRdQ%3D%3D",
-    "interests": "Cyber Securityy",
+    "interests": "cyber securityy",
     "goals": "I want to go into this field and deepen. I want to be an artist..",
     "mentor": "Mentee",
     "slug": "nurgul-cakoglu",
     "avatar": "https://avatars.githubusercontent.com/sucremad",
+    "displayInterests": "Cyber Securityy",
     "mentorships": []
   },
   {
@@ -2386,6 +2567,7 @@
     "mentor": "Mentee",
     "slug": "nurgul-yucel",
     "avatar": "https://avatars.githubusercontent.com/nurgulyucel",
+    "displayInterests": "html,css,js... (web developer)",
     "mentorships": []
   },
   {
@@ -2394,11 +2576,12 @@
     "twitter_handle": "https://twitter.com/bfkaradag",
     "github": "https://github.com/bfkaradag",
     "linkedin": "https://www.linkedin.com/in/bfkaradag",
-    "interests": "Frontend(React), Backend(ASP.NET Core)",
+    "interests": "frontend(react), backend(asp.net core)",
     "goals": "I'm already graduated from Marmara University-Computer Programming, im working as fullstack web developer(ASP.NET). I wanna be a person who is trying to help his country and its people in software development world.",
     "mentor": "Mentee",
     "slug": "birol-furkan-karadag",
     "avatar": "https://avatars.githubusercontent.com/bfkaradag",
+    "displayInterests": "Frontend(React), Backend(ASP.NET Core)",
     "mentorships": []
   },
   {
@@ -2407,11 +2590,12 @@
     "twitter_handle": "https://twitter.com/esyy2",
     "github": "https://github.com/esmahaber",
     "linkedin": "https://www.linkedin.com/in/esmahaber",
-    "interests": "Frontend, Backend, Java",
+    "interests": "frontend, backend, java",
     "goals": "I want to improve myself in frontend, backend and Java technologies and learn best practices in these technologies.",
     "mentor": "Mentee",
     "slug": "esma-haber",
     "avatar": "https://avatars.githubusercontent.com/esmahaber",
+    "displayInterests": "Frontend, Backend, Java",
     "mentorships": []
   },
   {
@@ -2420,11 +2604,12 @@
     "twitter_handle": "https://twitter.com/elowendark",
     "github": "https://github.com/damlacim",
     "linkedin": "https://www.linkedin.com/in/damla-çim-39b6a2178",
-    "interests": "Android development",
+    "interests": "android development",
     "goals": "I want a mentor who is gonna help me with creating my roadmap and help me to improve myself",
     "mentor": "Mentee",
     "slug": "damla-cim",
     "avatar": "https://avatars.githubusercontent.com/damlacim",
+    "displayInterests": "Android development",
     "mentorships": []
   },
   {
@@ -2433,11 +2618,12 @@
     "twitter_handle": "https://twitter.com/_ahmet_cakir",
     "github": "https://github.com/aahmetcakir",
     "linkedin": "https://www.linkedin.com/in/aahmetcakir",
-    "interests": "Frontend(React) Backend(NodeJS)",
+    "interests": "frontend(react) backend(nodejs)",
     "goals": "I want to develop applications in front-end and back-end area",
     "mentor": "Mentee",
     "slug": "ahmet-cakir",
     "avatar": "https://avatars.githubusercontent.com/aahmetcakir",
+    "displayInterests": "Frontend(React) Backend(NodeJS)",
     "mentorships": []
   },
   {
@@ -2446,11 +2632,12 @@
     "twitter_handle": "https://twitter.com/NightmaresTown",
     "github": "https://github.com/VuslatSena",
     "linkedin": "https://www.linkedin.com/in/vuslat-sena-emre",
-    "interests": "Mobile,Backend, ML",
+    "interests": "mobile,backend, ml",
     "goals": "I want to improve my competencies and to clear up my confusion with a mentor while progressing in areas I am curious about, and to equip myself as much as possible before graduating.",
     "mentor": "Mentee",
     "slug": "vuslat-sena-emre",
     "avatar": "https://avatars.githubusercontent.com/VuslatSena",
+    "displayInterests": "Mobile,Backend, ML",
     "mentorships": []
   },
   {
@@ -2464,6 +2651,7 @@
     "mentor": "Mentee",
     "slug": "halit-kara",
     "avatar": "https://ui-avatars.com/api/?name=Halit KARA&size=256",
+    "displayInterests": "",
     "mentorships": []
   },
   {
@@ -2472,11 +2660,12 @@
     "twitter_handle": "https://twitter.com/10ursabanoglu",
     "github": "https://github.com/10ursabanoglu",
     "linkedin": "https://www.linkedin.com/in/onur-%C5%9Fabano%C4%9Flu-816b49144",
-    "interests": "Frontend Developer & Product Designer",
+    "interests": "frontend developer & product designer",
     "goals": "",
     "mentor": "Mentee",
     "slug": "onur-sabanoglu",
     "avatar": "https://avatars.githubusercontent.com/10ursabanoglu",
+    "displayInterests": "Frontend Developer & Product Designer",
     "mentorships": []
   },
   {
@@ -2485,11 +2674,12 @@
     "twitter_handle": "https://twitter.com/0xVolcano",
     "github": "https://github.com/yilmazvolkan",
     "linkedin": "https://www.linkedin.com/in/yilmaz-volkan",
-    "interests": "Andorid & Backend Development",
+    "interests": "andorid & backend development",
     "goals": "Learning key concepts especially unit testing and dagger.",
     "mentor": "Mentee",
     "slug": "volkan-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/yilmazvolkan",
+    "displayInterests": "Andorid & Backend Development",
     "mentorships": []
   },
   {
@@ -2498,11 +2688,12 @@
     "twitter_handle": "https://twitter.com/busralasya",
     "github": "https://github.com/busralasya",
     "linkedin": "https://www.linkedin.com/in/busraalasya",
-    "interests": "NLP, Reinforcement Learning, Data Science, Deep Learning",
+    "interests": "nlp, reinforcement learning, data science, deep learning",
     "goals": "",
     "mentor": "Mentee",
     "slug": "busra-alasya",
     "avatar": "https://avatars.githubusercontent.com/busralasya",
+    "displayInterests": "NLP, Reinforcement Learning, Data Science, Deep Learning",
     "mentorships": []
   },
   {
@@ -2511,11 +2702,12 @@
     "twitter_handle": "https://twitter.com/adigzlburak",
     "github": "https://github.com/adiguzelburak",
     "linkedin": "https://www.linkedin.com/in/adiguzelburak",
-    "interests": "Front-end Developer (CSS,Js,ReactJs,NextJs)",
+    "interests": "front-end developer (css,js,reactjs,nextjs)",
     "goals": "I want to improve myself and i want to be a front end developer abroad.",
     "mentor": "Mentee",
     "slug": "burak-adiguzel",
     "avatar": "https://avatars.githubusercontent.com/adiguzelburak",
+    "displayInterests": "Front-end Developer (CSS,Js,ReactJs,NextJs)",
     "mentorships": []
   },
   {
@@ -2524,11 +2716,12 @@
     "twitter_handle": "https://twitter.com/nevzatgunay",
     "github": "https://github.com/nevzatgunay",
     "linkedin": "https://www.linkedin.com/in/nevzatgunay",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": "",
     "mentor": "İkisi de",
     "slug": "nevzat-gunay",
     "avatar": "https://avatars.githubusercontent.com/nevzatgunay",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -2537,11 +2730,12 @@
     "twitter_handle": "https://twitter.com/Utkusengunn",
     "github": "https://github.com/UtkuSengun",
     "linkedin": "https://www.linkedin.com/in/utku-%C5%9Feng%C3%BCn-702441168",
-    "interests": "Frontend&Backend Development",
+    "interests": "frontend&backend development",
     "goals": "",
     "mentor": "Mentee",
     "slug": "utku-sengun",
     "avatar": "https://avatars.githubusercontent.com/UtkuSengun",
+    "displayInterests": "Frontend&Backend Development",
     "mentorships": []
   },
   {
@@ -2550,11 +2744,12 @@
     "twitter_handle": "https://twitter.com/ersincoskn",
     "github": "https://github.com/ersincoskun",
     "linkedin": "https://www.linkedin.com/in/ersin-coskun-6590a41b8",
-    "interests": "Android Developer",
+    "interests": "android developer",
     "goals": "i want to improve myself about android development and find a job.There is so much thing i should know about business , about tips finding job , about become a developer who is so much company wants",
     "mentor": "Mentee",
     "slug": "ersin-coskun",
     "avatar": "https://avatars.githubusercontent.com/ersincoskun",
+    "displayInterests": "Android Developer",
     "mentorships": []
   },
   {
@@ -2563,11 +2758,12 @@
     "twitter_handle": "https://twitter.com/muhammedakb68",
     "github": "https://github.com/muhammedakb",
     "linkedin": "https://www.linkedin.com/in/muhammet-akbulut-21a472187",
-    "interests": "Full stack(mostly front end)",
+    "interests": "full stack(mostly front end)",
     "goals": "I am a software engineering 4th grade student. I love frontend coding and want to advance in this field.",
     "mentor": "Mentee",
     "slug": "muhammet-akbulut",
     "avatar": "https://avatars.githubusercontent.com/muhammedakb",
+    "displayInterests": "Full stack(mostly front end)",
     "mentorships": []
   },
   {
@@ -2576,11 +2772,12 @@
     "twitter_handle": "https://twitter.com/elificlk",
     "github": "https://github.com/eelifcelik",
     "linkedin": "https://www.linkedin.com/in/elif-%C3%A7elik-126484172",
-    "interests": "ML, Computer Vision, Backend",
+    "interests": "ml, computer vision, backend",
     "goals": "",
     "mentor": "Mentee",
     "slug": "elif-celik",
     "avatar": "https://avatars.githubusercontent.com/eelifcelik",
+    "displayInterests": "ML, Computer Vision, Backend",
     "mentorships": []
   },
   {
@@ -2589,11 +2786,12 @@
     "twitter_handle": "https://twitter.com/aliicorak",
     "github": "https://github.com/alicorak",
     "linkedin": "https://www.linkedin.com/in/ali-corak",
-    "interests": "Web and Mobile development, UI design",
+    "interests": "web and mobile development, ui design",
     "goals": "Briefly; I aim to be experienced enough in development and design.",
     "mentor": "Mentee",
     "slug": "ali-corak",
     "avatar": "https://avatars.githubusercontent.com/alicorak",
+    "displayInterests": "Web and Mobile development, UI design",
     "mentorships": []
   },
   {
@@ -2602,11 +2800,12 @@
     "twitter_handle": "https://twitter.com/hasantezcann",
     "github": "https://www.github.com/hasantezcan",
     "linkedin": "https://www.linkedin.com/in/hasantezcann",
-    "interests": "Fullstack web development",
+    "interests": "fullstack web development",
     "goals": "I already try to develop my my web development skills like everyone. But I need to learn best practices, understanding connections, follow the right path and discuss all that topics with someone experienced beforehand. On that point I need a mentor.",
     "mentor": "Mentee",
     "slug": "hasan-tezcan",
     "avatar": "https://avatars.githubusercontent.com/hasantezcan",
+    "displayInterests": "Fullstack web development",
     "mentorships": []
   },
   {
@@ -2615,11 +2814,12 @@
     "twitter_handle": "https://twitter.com/mefkansec",
     "github": "https://github.com/b21827445",
     "linkedin": "",
-    "interests": "Web development, Design, Front-End ( React, Gatsby)",
+    "interests": "web development, design, front-end ( react, gatsby)",
     "goals": "",
     "mentor": "Mentee",
     "slug": "efkan-gokbas",
     "avatar": "https://avatars.githubusercontent.com/b21827445",
+    "displayInterests": "Web development, Design, Front-End ( React, Gatsby)",
     "mentorships": []
   },
   {
@@ -2628,11 +2828,12 @@
     "twitter_handle": "https://twitter.com/EbruBoyac1",
     "github": "https://github.com/ebabe3",
     "linkedin": "https://www.linkedin.com/in/ebru-boyac%C4%B1-",
-    "interests": "Data science",
+    "interests": "data science",
     "goals": "",
     "mentor": "Mentee",
     "slug": "ebru-boyaci",
     "avatar": "https://avatars.githubusercontent.com/ebabe3",
+    "displayInterests": "Data science",
     "mentorships": []
   },
   {
@@ -2641,11 +2842,12 @@
     "twitter_handle": "https://twitter.com/tufan_sakir",
     "github": "https://github.com/sakirtufan",
     "linkedin": "https://de.linkedin.com/in/%C5%9Fakir-tufan-699814196/tr-tr?trk=people-guest_people_search-card",
-    "interests": "Fullstack-Web-Developer",
+    "interests": "fullstack-web-developer",
     "goals": "My goal is to reach a level that can work with frontend (React), backend (Node.js, Express.js).",
     "mentor": "Mentee",
     "slug": "sakir-tufan",
     "avatar": "https://avatars.githubusercontent.com/sakirtufan",
+    "displayInterests": "Fullstack-Web-Developer",
     "mentorships": []
   },
   {
@@ -2654,11 +2856,12 @@
     "twitter_handle": "https://twitter.com/nilesayy",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/selinnbulut",
-    "interests": "ML, Data Science",
+    "interests": "ml, data science",
     "goals": "I am an industrial engineering student. I am learning Python. I want to improve myself more in these areas in 2021.",
     "mentor": "Mentee",
     "slug": "selin-bulut",
     "avatar": "https://ui-avatars.com/api/?name=Selin Bulut&size=256",
+    "displayInterests": "ML, Data Science",
     "mentorships": []
   },
   {
@@ -2672,6 +2875,7 @@
     "mentor": "Mentee",
     "slug": "mert-tosun",
     "avatar": "https://avatars.githubusercontent.com/merttosun",
+    "displayInterests": "fe, be, devops",
     "mentorships": []
   },
   {
@@ -2680,11 +2884,12 @@
     "twitter_handle": "https://twitter.com/kahramanjj",
     "github": "https://github.com/samilkahraman",
     "linkedin": "https://www.linkedin.com/in/samil-kahraman",
-    "interests": "NodeJS - ExpressJS - MongoDB",
+    "interests": "nodejs - expressjs - mongodb",
     "goals": "I need mentoring for my current user role based backend application",
     "mentor": "Mentee",
     "slug": "samil-kahraman",
     "avatar": "https://avatars.githubusercontent.com/samilkahraman",
+    "displayInterests": "NodeJS - ExpressJS - MongoDB",
     "mentorships": []
   },
   {
@@ -2693,11 +2898,12 @@
     "twitter_handle": "https://twitter.com/mbesimgurbuz",
     "github": "https://github.com/besimgurbuz",
     "linkedin": "https://www.linkedin.com/in/besimgurbuz",
-    "interests": "Backend (java, spring boot, node), frontend(angular, react), mobile (flutter), docker and kubernetes",
+    "interests": "backend (java, spring boot, node), frontend(angular, react), mobile (flutter), docker and kubernetes",
     "goals": "",
     "mentor": "Mentee",
     "slug": "besim-gurbuz",
     "avatar": "https://avatars.githubusercontent.com/besimgurbuz",
+    "displayInterests": "Backend (java, spring boot, node), frontend(angular, react), mobile (flutter), docker and kubernetes",
     "mentorships": []
   },
   {
@@ -2706,11 +2912,12 @@
     "twitter_handle": "https://twitter.com/nisanc_db",
     "github": "https://github.com/cemnisan",
     "linkedin": "https://www.linkedin.com/in/cem-nisan-2009731bb",
-    "interests": "Django,NodeJS,MongoDB,ExpressJS ",
+    "interests": "django,nodejs,mongodb,expressjs ",
     "goals": "",
     "mentor": "Mentee",
     "slug": "cem-nisan",
     "avatar": "https://avatars.githubusercontent.com/cemnisan",
+    "displayInterests": "Django,NodeJS,MongoDB,ExpressJS ",
     "mentorships": []
   },
   {
@@ -2719,11 +2926,12 @@
     "twitter_handle": "https://twitter.com/MesutCifci9",
     "github": "https://github.com/mesutcifci",
     "linkedin": "https://www.linkedin.com/in/mesut-cifci",
-    "interests": "Html - Css - JavaScript(front-end)",
+    "interests": "html - css - javascript(front-end)",
     "goals": "I want to improve my front-end web design skills. I need a mentor for career advice.",
     "mentor": "Mentee",
     "slug": "mesut-cifci",
     "avatar": "https://avatars.githubusercontent.com/mesutcifci",
+    "displayInterests": "Html - Css - JavaScript(front-end)",
     "mentorships": []
   },
   {
@@ -2732,11 +2940,12 @@
     "twitter_handle": "https://twitter.com/hakankurall",
     "github": "https://github.com/hakands",
     "linkedin": "https://www.linkedin.com/in/hakan-kural-9942b01b5",
-    "interests": "Frontend-Backend Dev",
+    "interests": "frontend-backend dev",
     "goals": "I need more support than ever at the beginning of my coding journey\r",
     "mentor": "Mentee",
     "slug": "hakan-kural",
     "avatar": "https://avatars.githubusercontent.com/hakands",
+    "displayInterests": "Frontend-Backend Dev",
     "mentorships": []
   },
   {
@@ -2745,11 +2954,12 @@
     "twitter_handle": "https://twitter.com/ogulcaanX",
     "github": "https://github.com/olcaneristi",
     "linkedin": "https://www.linkedin.com/in/ogulcaneristi",
-    "interests": "Frontend (React), MERN Stack",
+    "interests": "frontend (react), mern stack",
     "goals": "I am a Senior grade MIS student and I am trying to improve myself on Frontend (React). I need a mentor who can guide me on behalf of my career and share his experiences with me.",
     "mentor": "Mentee",
     "slug": "ogulcan-eristi",
     "avatar": "https://avatars.githubusercontent.com/olcaneristi",
+    "displayInterests": "Frontend (React), MERN Stack",
     "mentorships": []
   },
   {
@@ -2758,11 +2968,12 @@
     "twitter_handle": "https://twitter.com/fatmaozdemir__",
     "github": "https://github.com/ozdmrfatma",
     "linkedin": "https://www.linkedin.com/in/fatma-%C3%B6zdemir-67039a175",
-    "interests": "Mobile development,React,js",
+    "interests": "mobile development,react,js",
     "goals": "i want to improve my programming skills for become a good mobile developer",
     "mentor": "Mentee",
     "slug": "fatma-ozdemir",
     "avatar": "https://avatars.githubusercontent.com/ozdmrfatma",
+    "displayInterests": "Mobile development,React,js",
     "mentorships": []
   },
   {
@@ -2771,11 +2982,12 @@
     "twitter_handle": "https://twitter.com/frknksknklc97",
     "github": "https://github.com/frknksknklc",
     "linkedin": "https://www.linkedin.com/in/furkan-keskink%C4%B1l%C4%B1%C3%A7-5923a9181",
-    "interests": "Front-end,Backend,Data Science",
+    "interests": "front-end,backend,data science",
     "goals": "",
     "mentor": "Mentee",
     "slug": "furkan-keskinkilic",
     "avatar": "https://avatars.githubusercontent.com/frknksknklc",
+    "displayInterests": "Front-end,Backend,Data Science",
     "mentorships": []
   },
   {
@@ -2784,11 +2996,12 @@
     "twitter_handle": "https://twitter.com/BedirhanArgnn",
     "github": "https://github.com/BedirhanArgn",
     "linkedin": "https://www.linkedin.com/in/bedirhan-argun",
-    "interests": "Frontend, Backend Development",
+    "interests": "frontend, backend development",
     "goals": "I want to improve myself about web technologies and work with big companies.",
     "mentor": "Mentee",
     "slug": "bedirhan-argun",
     "avatar": "https://avatars.githubusercontent.com/BedirhanArgn",
+    "displayInterests": "Frontend, Backend Development",
     "mentorships": []
   },
   {
@@ -2797,11 +3010,12 @@
     "twitter_handle": "https://twitter.com/umutkesk1n",
     "github": "https://github.com/ukeskin",
     "linkedin": "https://www.linkedin.com/in/umutdev",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": "I need a mentor. Being a mentor will make my job easier. homework etc.",
     "mentor": "Mentee",
     "slug": "umut-keskin",
     "avatar": "https://avatars.githubusercontent.com/ukeskin",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -2810,11 +3024,12 @@
     "twitter_handle": "https://twitter.com/imertgul",
     "github": "https://github.com/imertgul",
     "linkedin": "https://www.linkedin.com/in/imertgul",
-    "interests": "Flutter Developer",
+    "interests": "flutter developer",
     "goals": "I want to do best.",
     "mentor": "Mentee",
     "slug": "mert-gul",
     "avatar": "https://avatars.githubusercontent.com/imertgul",
+    "displayInterests": "Flutter Developer",
     "mentorships": []
   },
   {
@@ -2823,11 +3038,12 @@
     "twitter_handle": "https://twitter.com/kemalayhn",
     "github": "https://github.com/kemalayhan",
     "linkedin": "https://www.linkedin.com/in/kemal-ayhan-5345b4172",
-    "interests": "Backend Developer (Python / Django)",
+    "interests": "backend developer (python / django)",
     "goals": "I want to improve myself about backend development, i need a mentor for careed advice",
     "mentor": "Mentee",
     "slug": "kemal-ayhan",
     "avatar": "https://avatars.githubusercontent.com/kemalayhan",
+    "displayInterests": "Backend Developer (Python / Django)",
     "mentorships": []
   },
   {
@@ -2836,11 +3052,12 @@
     "twitter_handle": "https://twitter.com/Yte24799407",
     "github": "https://github.com/yerol89",
     "linkedin": "https://www.linkedin.com/in/yunus-talip-erol-37159a1a2",
-    "interests": "OOP with C#, ASP.NET CORE, \nafter all these react orAngular maybe",
+    "interests": "oop with c#, asp.net core, \nafter all these react orangular maybe",
     "goals": "I am a 3rd grade Software Engineering student and 31 years old. Trying to do my best for my second life. \nMy goal is providing a peaceful life to my family and software seems as the only way for my dreams come through. \nAnd the most important thing in this software world is a MENTOR who will just tell me which way I should go. \nI know what a mentor means for a person who is eager to learn in this software world.",
     "mentor": "Mentee",
     "slug": "yunus-talip-erol",
     "avatar": "https://avatars.githubusercontent.com/yerol89",
+    "displayInterests": "OOP with C#, ASP.NET CORE, \nafter all these react orAngular maybe",
     "mentorships": []
   },
   {
@@ -2849,11 +3066,12 @@
     "twitter_handle": "https://twitter.com/onraksr",
     "github": "https://github.com/onuraksar",
     "linkedin": "https://www.linkedin.com/in/onuraksar",
-    "interests": "Front-End Development",
+    "interests": "front-end development",
     "goals": "I need guidance that will show me the ways to become a better self-taught front-end developer. I'd like to learn from people's mistakes and listen to their experiences.",
     "mentor": "Mentee",
     "slug": "onur-aksar",
     "avatar": "https://avatars.githubusercontent.com/onuraksar",
+    "displayInterests": "Front-End Development",
     "mentorships": []
   },
   {
@@ -2862,11 +3080,12 @@
     "twitter_handle": "https://twitter.com/gsqweyt",
     "github": "https://github.com/enistfkcii",
     "linkedin": "https://www.linkedin.com/in/enis-t%C3%BCfekci-995305182",
-    "interests": "PHP-HTML-CSS(FrontEnd) Java(Andoid)",
+    "interests": "php-html-css(frontend) java(andoid)",
     "goals": "\nAs a 4th grade computer engineering student, something is working with the information I learned from the courses and still learning. I am open to all kinds of advice and ideas from people who know this job in a real sense. It is my biggest dream to be a good software developer.",
     "mentor": "Mentee",
     "slug": "naim-enis-tufekci",
     "avatar": "https://avatars.githubusercontent.com/enistfkcii",
+    "displayInterests": "PHP-HTML-CSS(FrontEnd) Java(Andoid)",
     "mentorships": []
   },
   {
@@ -2875,11 +3094,12 @@
     "twitter_handle": "https://twitter.com/Perhand1903",
     "github": "",
     "linkedin": "",
-    "interests": "C#, C++, HTML, Java",
+    "interests": "c#, c++, html, java",
     "goals": "I am a 23 year old computer engineering student. There are so many things I want to do. For this, I have to improve myself very well. I have a lot of things to learn. I want to write my name in Turkish and World history with golden letters.",
     "mentor": "Mentee",
     "slug": "talha-karaca",
     "avatar": "https://ui-avatars.com/api/?name=Talha Karaca&size=256",
+    "displayInterests": "C#, C++, HTML, Java",
     "mentorships": []
   },
   {
@@ -2888,11 +3108,12 @@
     "twitter_handle": "https://twitter.com/furkanportakalx",
     "github": "https://github.com/FurkanPortakal",
     "linkedin": "https://www.linkedin.com/in/furkanportakal",
-    "interests": "Frontend Backend",
+    "interests": "frontend backend",
     "goals": "I want to improve myself about frontend and backend. I need a mentor to take stronger steps",
     "mentor": "Mentee",
     "slug": "furkan-portakal",
     "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
+    "displayInterests": "Frontend Backend",
     "mentorships": []
   },
   {
@@ -2901,11 +3122,12 @@
     "twitter_handle": "https://twitter.com/alpercun_",
     "github": "https://github.com/alpercun",
     "linkedin": "https://www.linkedin.com/in/alpercun",
-    "interests": "Frontend(Css, React)",
+    "interests": "frontend(css, react)",
     "goals": "I want to learn what I can do in the frontend area and create good products with it. I need a mentor for this.",
     "mentor": "Mentee",
     "slug": "alper-cun",
     "avatar": "https://avatars.githubusercontent.com/alpercun",
+    "displayInterests": "Frontend(Css, React)",
     "mentorships": []
   },
   {
@@ -2914,11 +3136,12 @@
     "twitter_handle": "https://twitter.com/uneysalkis",
     "github": "https://github.com/uneyss",
     "linkedin": "https://www.linkedin.com/in/%C3%BCneys-ahmet-alk%C4%B1%C5%9F-9a7a281a3",
-    "interests": "Frontend,Backend",
+    "interests": "frontend,backend",
     "goals": "I want to improve myself in Frontend and BackendHow should a website be designed? Web - Mobile How to develop applications. JavaScript Framework",
     "mentor": "Mentee",
     "slug": "uneys-ahmet-alkis",
     "avatar": "https://avatars.githubusercontent.com/uneyss",
+    "displayInterests": "Frontend,Backend",
     "mentorships": []
   },
   {
@@ -2927,11 +3150,12 @@
     "twitter_handle": "https://twitter.com/fatmabetuluyar",
     "github": "https://github.com/FatmaBetulUyar",
     "linkedin": "https://www.linkedin.com/in/fatma-bet%C3%BCl-uyar-22202b1aa",
-    "interests": "c#, C++, Java",
+    "interests": "c#, c++, java",
     "goals": "i want to improve my programming skills for",
     "mentor": "Mentee",
     "slug": "fatma-betul-uyar",
     "avatar": "https://avatars.githubusercontent.com/FatmaBetulUyar",
+    "displayInterests": "c#, C++, Java",
     "mentorships": []
   },
   {
@@ -2940,11 +3164,12 @@
     "twitter_handle": "https://twitter.com/MUctu",
     "github": "https://github.com/mertcanuctu",
     "linkedin": "https://www.linkedin.com/in/mertcanuctu",
-    "interests": "Frontend, Backend, Mobile App,Product Development",
+    "interests": "frontend, backend, mobile app,product development",
     "goals": "I'm 3rd year Electrical-Electronics Student who shifted his interest to software development. Last summer I had an internship as an Unity Game Developer. I want to broaden my horizons in software dev and experience different fields.",
     "mentor": "Mentee",
     "slug": "mertcan-uctu",
     "avatar": "https://avatars.githubusercontent.com/mertcanuctu",
+    "displayInterests": "Frontend, Backend, Mobile App,Product Development",
     "mentorships": []
   },
   {
@@ -2953,11 +3178,12 @@
     "twitter_handle": "https://twitter.com/batuhankrbb",
     "github": "https://github.com/batuhankrbb",
     "linkedin": "https://www.linkedin.com/in/batuhan-karababa-49190b189",
-    "interests": "iOS Development, Swift, SwiftUI, Mobile Growth",
+    "interests": "ios development, swift, swiftui, mobile growth",
     "goals": "I'm 17 y.o iOS dev. I want to hit the books and improve myself. My biggest dream is to travel around the world and experience everything. I work more than 8 - 10 hours to improve myself. I also have a website where I share my journey. You can take a look at batuhankarababa.com",
     "mentor": "Mentee",
     "slug": "batuhan-karababa",
     "avatar": "https://avatars.githubusercontent.com/batuhankrbb",
+    "displayInterests": "iOS Development, Swift, SwiftUI, Mobile Growth",
     "mentorships": []
   },
   {
@@ -2966,11 +3192,12 @@
     "twitter_handle": "https://twitter.com/CanCilek",
     "github": "https://github.com/cancilek-edu",
     "linkedin": "https://www.linkedin.com/in/can-%C3%A7ilek-730ba2155",
-    "interests": "Mobile App (Flutter,Java)",
+    "interests": "mobile app (flutter,java)",
     "goals": "I am a 3rd year computer engineering student, I think that if my interest in mobile programming is a supporter and a guide (MENTOR), I will take better steps on this path.",
     "mentor": "Mentee",
     "slug": "can-cilek",
     "avatar": "https://avatars.githubusercontent.com/cancilek-edu",
+    "displayInterests": "Mobile App (Flutter,Java)",
     "mentorships": []
   },
   {
@@ -2979,11 +3206,12 @@
     "twitter_handle": "https://twitter.com/parlayrl",
     "github": "https://github.com/ParlaYerli",
     "linkedin": "https://www.linkedin.com/in/parlayerli",
-    "interests": "Asp.Net Core Backend Developer",
+    "interests": "asp.net core backend developer",
     "goals": "I'm junior developer. I want to improve myselft with mentor and \r\ni think I will be a better software developer with the experience of my mentor and the assignments.",
     "mentor": "Mentee",
     "slug": "parla-yerli",
     "avatar": "https://avatars.githubusercontent.com/ParlaYerli",
+    "displayInterests": "Asp.Net Core Backend Developer",
     "mentorships": []
   },
   {
@@ -2992,11 +3220,12 @@
     "twitter_handle": "https://twitter.com/sevkiorc",
     "github": "https://github.com/sevkioruc",
     "linkedin": "https://www.linkedin.com/in/%C5%9Fevki-oru%C3%A7-b108a313a",
-    "interests": "Web technologies, OOP, TDD",
+    "interests": "web technologies, oop, tdd",
     "goals": "I want to improve myself in web technologies and my expectations this year are OOP, TDD and design patterns.",
     "mentor": "Mentee",
     "slug": "sevki-oruc",
     "avatar": "https://avatars.githubusercontent.com/sevkioruc",
+    "displayInterests": "Web technologies, OOP, TDD",
     "mentorships": []
   },
   {
@@ -3005,11 +3234,12 @@
     "twitter_handle": "https://twitter.com/merw70",
     "github": "https://github.com/merwe70",
     "linkedin": "https://www.linkedin.com/in/merve-d%C3%BCr%C3%BCl-200769173",
-    "interests": "Frontend",
+    "interests": "frontend",
     "goals": " i want to improve myself in the fronted field",
     "mentor": "Mentee",
     "slug": "merve-durul",
     "avatar": "https://avatars.githubusercontent.com/merwe70",
+    "displayInterests": "Frontend",
     "mentorships": []
   },
   {
@@ -3018,11 +3248,12 @@
     "twitter_handle": "https://mobile.twitter.com/rmysaydogdu",
     "github": "https://github.com/rumeysaaydogdu",
     "linkedin": "https://www.linkedin.com/in/rumeysaaydogdu",
-    "interests": "Frontend (JavaScript) & Backend (PHP, ASP.net, MVC) ",
+    "interests": "frontend (javascript) & backend (php, asp.net, mvc) ",
     "goals": "It is my third year in my department. I feel like I'm on the rise, but it's a bit difficult alone. I'm trying to find my way by trying different things. Now I have to make up my mind and move forward with what I started. Can you help me?",
     "mentor": "Mentee",
     "slug": "rumeysa-aydogdu",
     "avatar": "https://avatars.githubusercontent.com/rumeysaaydogdu",
+    "displayInterests": "Frontend (JavaScript) & Backend (PHP, ASP.net, MVC) ",
     "mentorships": []
   },
   {
@@ -3031,11 +3262,12 @@
     "twitter_handle": "https://mobile.twitter.com/OzanDenizz",
     "github": "https://github.com/ozanones",
     "linkedin": "https://linkedin.com/in/ozandenizones",
-    "interests": "IOS Swift/Swift UI",
+    "interests": "ios swift/swift ui",
     "goals": "I am a junior and want to improve my skills.",
     "mentor": "Mentee",
     "slug": "ozan-deniz-ones",
     "avatar": "https://avatars.githubusercontent.com/ozanones",
+    "displayInterests": "IOS Swift/Swift UI",
     "mentorships": []
   },
   {
@@ -3044,11 +3276,12 @@
     "twitter_handle": "https://twitter.com/egecavusoglu_",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/egecavusoglu",
-    "interests": "JS and Swift, full stack. entrepreneurship",
+    "interests": "js and swift, full stack. entrepreneurship",
     "goals": "I can build stuff, but need assistance with planning and best practises.",
     "mentor": "Mentee",
     "slug": "ege-cavusoglu",
     "avatar": "https://ui-avatars.com/api/?name=Ege Cavusoglu&size=256",
+    "displayInterests": "JS and Swift, full stack. entrepreneurship",
     "mentorships": []
   },
   {
@@ -3057,11 +3290,12 @@
     "twitter_handle": "https://twitter.com/beyzderleer",
     "github": "https://github.com/beyzanurgunes1",
     "linkedin": "https://www.linkedin.com/in/beyza-nur-g%C3%BCne%C5%9F-261a291a1",
-    "interests": "Frontend,Backend, Mobil App, C, Java, javascript",
+    "interests": "frontend,backend, mobil app, c, java, javascript",
     "goals": "",
     "mentor": "Mentee",
     "slug": "beyza-nur-gunes",
     "avatar": "https://avatars.githubusercontent.com/beyzanurgunes1",
+    "displayInterests": "Frontend,Backend, Mobil App, C, Java, javascript",
     "mentorships": []
   },
   {
@@ -3070,11 +3304,12 @@
     "twitter_handle": "https://twitter.com/ozanergon",
     "github": "https://github.com/ozanergon",
     "linkedin": "https://www.linkedin.com/in/ozanergon",
-    "interests": "Backend Technologies (C #, .NET)",
+    "interests": "backend technologies (c #, .net)",
     "goals": "I am a junior developer and want to improve my skills.",
     "mentor": "Mentee",
     "slug": "ozan-ergon",
     "avatar": "https://avatars.githubusercontent.com/ozanergon",
+    "displayInterests": "Backend Technologies (C #, .NET)",
     "mentorships": []
   },
   {
@@ -3083,11 +3318,12 @@
     "twitter_handle": "https://twitter.com/gokerguner",
     "github": "https://github.com/gokerguner",
     "linkedin": "https://www.linkedin.com/in/gokerguner",
-    "interests": "Python, MongoDB, SQL, ML&Data Science",
+    "interests": "python, mongodb, sql, ml&data science",
     "goals": "I work as a Python developer. In 2021, I want to direct my career to Machine Learning & Data Science.",
     "mentor": "Mentee",
     "slug": "goker-guner",
     "avatar": "https://avatars.githubusercontent.com/gokerguner",
+    "displayInterests": "Python, MongoDB, SQL, ML&Data Science",
     "mentorships": []
   },
   {
@@ -3096,11 +3332,12 @@
     "twitter_handle": "https://twitter.com/BurakByln0",
     "github": "https://github.com/Burak-Baylan",
     "linkedin": "https://www.linkedin.com/in/burak-baylan-0395bb201",
-    "interests": "Android Development, Java, Kotlin",
+    "interests": "android development, java, kotlin",
     "goals": "I'm 17 y.o. I want to improve my self in android development and i working hard on it and im trying to learn php.",
     "mentor": "Mentee",
     "slug": "burak-baylan",
     "avatar": "https://avatars.githubusercontent.com/Burak-Baylan",
+    "displayInterests": "Android Development, Java, Kotlin",
     "mentorships": []
   },
   {
@@ -3109,11 +3346,12 @@
     "twitter_handle": "https://twitter.com/burakemreozer",
     "github": "https://github.com/bubabi",
     "linkedin": "https://www.linkedin.com/in/burakemreozer",
-    "interests": "Backend",
+    "interests": "backend",
     "goals": "With this mentoring, I want to develop 2 different web projects in 2021 in order to develop in backend programming and become a better software developer. In this way, I need your experiences and answers that you can give to my questions.",
     "mentor": "Mentee",
     "slug": "burak-emre-ozer",
     "avatar": "https://avatars.githubusercontent.com/bubabi",
+    "displayInterests": "Backend",
     "mentorships": []
   },
   {
@@ -3122,11 +3360,12 @@
     "twitter_handle": "https://twitter.com/Mesya28089492",
     "github": "",
     "linkedin": "",
-    "interests": "Front-End Development",
+    "interests": "front-end development",
     "goals": "Front-end development alanında kendimi geliştirmek ve  bu alanda iş sahibi olmak istiyorum. ",
     "mentor": "Mentee",
     "slug": "seyma-keskin",
     "avatar": "https://ui-avatars.com/api/?name=Seyma Keskin&size=256",
+    "displayInterests": "Front-End Development",
     "mentorships": []
   },
   {
@@ -3135,11 +3374,12 @@
     "twitter_handle": "https://twitter.com/nesrinulgay",
     "github": "https://github.com/Nesrinasan",
     "linkedin": "https://www.linkedin.com/in/nesrin-a%C5%9Fan-316855b2",
-    "interests": "Backend(Java), Devops",
+    "interests": "backend(java), devops",
     "goals": "I want to improve myself about backend and devops",
     "mentor": "Mentee",
     "slug": "nesrin-asan",
     "avatar": "https://avatars.githubusercontent.com/Nesrinasan",
+    "displayInterests": "Backend(Java), Devops",
     "mentorships": []
   },
   {
@@ -3148,11 +3388,12 @@
     "twitter_handle": "https://twitter.com/efenadir0",
     "github": "https://github.com/nadirefe",
     "linkedin": "https://www.linkedin.com/in/efenadir",
-    "interests": "Web Dev, React, Node.js",
+    "interests": "web dev, react, node.js",
     "goals": "İleride kurmayı düşündüğümüz kendi startupımız için kendimizi web development alanında geliştirmek isteyen 2 kişiyiz.",
     "mentor": "Mentee",
     "slug": "efe-nadir",
     "avatar": "https://avatars.githubusercontent.com/nadirefe",
+    "displayInterests": "Web Dev, React, Node.js",
     "mentorships": []
   },
   {
@@ -3161,11 +3402,12 @@
     "twitter_handle": "https://twitter.com/boratanrikulu_",
     "github": "https://github.com/boratanrikulu",
     "linkedin": "https://www.linkedin.com/in/bora-tanrikulu",
-    "interests": "Backend, Golang, Devops",
+    "interests": "backend, golang, devops",
     "goals": "Kendini backend ve cloud native teknolojileri üzerine geliştirmek isteyen biri.",
     "mentor": "Mentee",
     "slug": "bora-tanrikulu",
     "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+    "displayInterests": "Backend, Golang, Devops",
     "mentorships": []
   },
   {
@@ -3174,11 +3416,12 @@
     "twitter_handle": "https://twitter.com/yakuter",
     "github": "https://github.com/yakuter",
     "linkedin": "https://www.linkedin.com/in/erhan-yakut",
-    "interests": "Go",
+    "interests": "go",
     "goals": "Developing projects with Go",
     "mentor": "Mentor",
     "slug": "erhan-yakut",
     "avatar": "https://avatars.githubusercontent.com/yakuter",
+    "displayInterests": "Go",
     "mentorships": []
   },
   {
@@ -3187,11 +3430,12 @@
     "twitter_handle": "https://twitter.com/msrexe",
     "github": "https://github.com/msrexe",
     "linkedin": "https://www.linkedin.com/in/msrexe",
-    "interests": "Backend(Java, Go) ",
+    "interests": "backend(java, go) ",
     "goals": "Backend alanında ilerlemek istiyorum. Orta düzey Java bilgisi ve Temel Go bilgisine sahibim. Mentorlerimi bekliyorum :)",
     "mentor": "Mentee",
     "slug": "melih-sivri",
     "avatar": "https://avatars.githubusercontent.com/msrexe",
+    "displayInterests": "Backend(Java, Go) ",
     "mentorships": []
   },
   {
@@ -3200,11 +3444,12 @@
     "twitter_handle": "https://twitter.com/aselimkaya0",
     "github": "https://github.com/aselimkaya",
     "linkedin": "https://www.linkedin.com/in/aselimkaya",
-    "interests": "Go, Backend",
+    "interests": "go, backend",
     "goals": "I am currently working with Golang in my job. I want to improve myself at Golang.",
     "mentor": "Mentee",
     "slug": "ahmet-selim-kaya",
     "avatar": "https://avatars.githubusercontent.com/aselimkaya",
+    "displayInterests": "Go, Backend",
     "mentorships": []
   },
   {
@@ -3213,11 +3458,12 @@
     "twitter_handle": "https://twitter.com/emirxmertoglu",
     "github": "https://github.com/emirxmertoglu",
     "linkedin": "https://www.linkedin.com/in/emirmertoglu",
-    "interests": "Front-End, Mobile",
+    "interests": "front-end, mobile",
     "goals": "I love The Web and besides the fact I have a little crush into native mobile applications, I consider myself a Front-End developer in my heart.",
     "mentor": "Mentee",
     "slug": "emir-mertoglu",
     "avatar": "https://avatars.githubusercontent.com/emirxmertoglu",
+    "displayInterests": "Front-End, Mobile",
     "mentorships": []
   },
   {
@@ -3226,11 +3472,12 @@
     "twitter_handle": "https://twitter.com/Enes__66",
     "github": "https://github.com/eneserdo1",
     "linkedin": "https://www.linkedin.com/in/muhammed-enes-erdoğan",
-    "interests": "Mobile(Java, Kotlin, Flutter), Backend(Java)",
+    "interests": "mobile(java, kotlin, flutter), backend(java)",
     "goals": "I am a newly graduated computer engineer. I want to improve myself on mobile app developing. I need the help of someone who can lead and help.",
     "mentor": "Mentee",
     "slug": "muhammed-enes-erdogan",
     "avatar": "https://avatars.githubusercontent.com/eneserdo1",
+    "displayInterests": "Mobile(Java, Kotlin, Flutter), Backend(Java)",
     "mentorships": []
   },
   {
@@ -3239,11 +3486,12 @@
     "twitter_handle": "https://twitter.com/nes_elif",
     "github": "",
     "linkedin": "https://linkedin.com/in/nesibe-elif-önder-2192a0132",
-    "interests": "Go, Vue.js",
+    "interests": "go, vue.js",
     "goals": "Go, Vue.js",
     "mentor": "Mentee",
     "slug": "nesibe-elif-onder",
     "avatar": "https://ui-avatars.com/api/?name=Nesibe Elif Önder&size=256",
+    "displayInterests": "Go, Vue.js",
     "mentorships": []
   },
   {
@@ -3252,11 +3500,12 @@
     "twitter_handle": "https://twitter.com/yusufyilmazfr",
     "github": "https://github.com/yusufyilmazfr",
     "linkedin": "https://www.linkedin.com/in/yusufyilmazfr",
-    "interests": "Architecture, DDD, TDD, Back-end (.NET Core)",
+    "interests": "architecture, ddd, tdd, back-end (.net core)",
     "goals": "Hi! I am Yusuf, software engineering student. I am writing technical blog and e-book on Devnot, Medium and Github. I want to improve my back-end and architecture knowledges that's why i am waiting your applications ^^ If you want see these you can check my GitHub profile :)",
     "mentor": "Mentee",
     "slug": "yusuf-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/yusufyilmazfr",
+    "displayInterests": "Architecture, DDD, TDD, Back-end (.NET Core)",
     "mentorships": []
   },
   {
@@ -3265,11 +3514,12 @@
     "twitter_handle": "https://twitter.com/TanselBerkant",
     "github": "https://github.com/tanselberkant",
     "linkedin": "https://www.linkedin.com/in/tanselberkantoflaz",
-    "interests": "Frontend,Backend",
+    "interests": "frontend,backend",
     "goals": "Right now I am working on Angular project  (.net core Backend side) after that I want to learn Mern Stack. My goal is improve myself day by day and prepare myself for business life",
     "mentor": "Mentee",
     "slug": "tansel-berkant-oflaz",
     "avatar": "https://avatars.githubusercontent.com/tanselberkant",
+    "displayInterests": "Frontend,Backend",
     "mentorships": []
   },
   {
@@ -3278,11 +3528,12 @@
     "twitter_handle": "https://twitter.com/DvCanberk",
     "github": "https://github.com/canberkkoc1",
     "linkedin": "https://www.linkedin.com/in/canberk-ko%C3%A7-024a10164",
-    "interests": "Backend(Go,Python,Nodejs) , Front-End(Vuejs)",
+    "interests": "backend(go,python,nodejs) , front-end(vuejs)",
     "goals": "Orta düzeyde JavaScript, başlangıç seviyesinde Python bilgim var. React ve Vue ile çalışma fırsatı buldum kendimi öncelikle front end ardından backend alanında geliştirip full stack geliştirici olmak istiyorum.",
     "mentor": "Mentee",
     "slug": "canberk-koc",
     "avatar": "https://avatars.githubusercontent.com/canberkkoc1",
+    "displayInterests": "Backend(Go,Python,Nodejs) , Front-End(Vuejs)",
     "mentorships": []
   },
   {
@@ -3291,11 +3542,12 @@
     "twitter_handle": "https://twitter.com/tamerthedark",
     "github": "https://github.com/TamerSarioglu",
     "linkedin": "https://www.linkedin.com/in/tamer-sarıoğlu-119742a4",
-    "interests": "Mobile Development (Java & Kotin & Dart & Flutter & Android)",
+    "interests": "mobile development (java & kotin & dart & flutter & android)",
     "goals": "Hello my name is Tamer. I have been trying to improve myself for 3 years in order to realize the passion I find late. I have reached a certain level, but I need a mentor from within the industry to help me step by step. Thank you in advance.",
     "mentor": "Mentee",
     "slug": "tamer-sarioglu",
     "avatar": "https://avatars.githubusercontent.com/TamerSarioglu",
+    "displayInterests": "Mobile Development (Java & Kotin & Dart & Flutter & Android)",
     "mentorships": []
   },
   {
@@ -3304,11 +3556,12 @@
     "twitter_handle": "https://twitter.com/kadirsefau",
     "github": "https://github.com/kadirsefaunal",
     "linkedin": "https://www.linkedin.com/in/kadirsefaunal",
-    "interests": "Backend(C#, Go), Architecture, System Design",
+    "interests": "backend(c#, go), architecture, system design",
     "goals": "I am actively using C# and Go. I'm newbie in Go and I want to improve myself. I am interested in software architecture and system design.",
     "mentor": "Mentee",
     "slug": "kadir-sefa-unal",
     "avatar": "https://avatars.githubusercontent.com/kadirsefaunal",
+    "displayInterests": "Backend(C#, Go), Architecture, System Design",
     "mentorships": []
   },
   {
@@ -3317,11 +3570,12 @@
     "twitter_handle": "https://twitter.com/izniburak",
     "github": "https://github.com/izniburak",
     "linkedin": "https://www.linkedin.com/in/izniburak",
-    "interests": "Backend (PHP, NodeJS, Go), Frontend (React, Vue), Mobile (React Native), Software Architecture",
+    "interests": "backend (php, nodejs, go), frontend (react, vue), mobile (react native), software architecture",
     "goals": "I've been working with Web technologies like PHP, Javascript more than 10 years. I want to teach things I know and learn things I don't know.",
     "mentor": "İkisi de",
     "slug": "izni-burak-demirtas",
     "avatar": "https://avatars.githubusercontent.com/izniburak",
+    "displayInterests": "Backend (PHP, NodeJS, Go), Frontend (React, Vue), Mobile (React Native), Software Architecture",
     "mentorships": []
   },
   {
@@ -3330,11 +3584,12 @@
     "twitter_handle": "https://twitter.com/koksaal67",
     "github": "https://github.com/koksalkapucuoglu",
     "linkedin": "https://www.linkedin.com/in/köksal-kapucuoğlu-664912120",
-    "interests": "Backend(DRF, Nodejs,Go), Django, Frontend(Django, Js Library)",
+    "interests": "backend(drf, nodejs,go), django, frontend(django, js library)",
     "goals": "I use Django in my job but i want to learn all about backend and frontend technologies, but there are a lot of  technologies,",
     "mentor": "İkisi de",
     "slug": "koksal-kapucuoglu",
     "avatar": "https://avatars.githubusercontent.com/koksalkapucuoglu",
+    "displayInterests": "Backend(DRF, Nodejs,Go), Django, Frontend(Django, Js Library)",
     "mentorships": []
   },
   {
@@ -3343,11 +3598,12 @@
     "twitter_handle": "https://twitter.com/pasalog",
     "github": "https://github.com/pasalog",
     "linkedin": "https://www.linkedin.com/in/cagatayuslu",
-    "interests": "Node, React, Python, Kafka as main stack - (Frontend & Backend)",
+    "interests": "node, react, python, kafka as main stack - (frontend & backend)",
     "goals": "Hi! I am currently working as a Software Engineer at WorqCompany and tech lead of AlienBroker and also I am a CS student at Marmara. I want to get mentoring from those who are more experienced than me and want to be a mentor to those who are less experienced than me. My goal is that to do this by including these people in my team if possible for the tech team in AlienBroker. For more info: https://alienbroker.com and cagatayuslu@msn.com",
     "mentor": "İkisi de",
     "slug": "cagatay-uslu",
     "avatar": "https://avatars.githubusercontent.com/pasalog",
+    "displayInterests": "Node, React, Python, Kafka as main stack - (Frontend & Backend)",
     "mentorships": []
   },
   {
@@ -3356,11 +3612,12 @@
     "twitter_handle": "https://twitter.com/erenaslandev",
     "github": "https://github.com/sn4dy",
     "linkedin": "https://www.linkedin.com/in/erenaslan",
-    "interests": "Backend(PHP, Nodejs, Go), Frontend(Vue)",
+    "interests": "backend(php, nodejs, go), frontend(vue)",
     "goals": "",
     "mentor": "Mentee",
     "slug": "eren-aslan",
     "avatar": "https://avatars.githubusercontent.com/sn4dy",
+    "displayInterests": "Backend(PHP, Nodejs, Go), Frontend(Vue)",
     "mentorships": []
   },
   {
@@ -3369,11 +3626,12 @@
     "twitter_handle": "https://twitter.com/vdatbilalovic",
     "github": "https://github.com/vedatbilaloglu",
     "linkedin": "https://www.linkedin.com/in/vedat-bilalo%C4%9Flu-91096614a",
-    "interests": "Backend(Spring, Go), DevOps",
+    "interests": "backend(spring, go), devops",
     "goals": "I'm looking for someone to help me improve myself in Java&Spring :)",
     "mentor": "Mentee",
     "slug": "vedat-bilaloglu",
     "avatar": "https://avatars.githubusercontent.com/vedatbilaloglu",
+    "displayInterests": "Backend(Spring, Go), DevOps",
     "mentorships": []
   },
   {
@@ -3382,11 +3640,12 @@
     "twitter_handle": "https://twitter.com/fukuli053",
     "github": "https://github.com/fukuli053",
     "linkedin": "https://www.linkedin.com/in/furkanergun",
-    "interests": "Full-Stack, Backend(Go,PHP,JS), Mobile(Swift, React Native)",
+    "interests": "full-stack, backend(go,php,js), mobile(swift, react native)",
     "goals": "I want to improve myself in the subjects I have determined. However, while continuing my education, I want to develop projects outside of school and add work experience and project experience to myself",
     "mentor": "Mentee",
     "slug": "furkan-ergun",
     "avatar": "https://avatars.githubusercontent.com/fukuli053",
+    "displayInterests": "Full-Stack, Backend(Go,PHP,JS), Mobile(Swift, React Native)",
     "mentorships": []
   },
   {
@@ -3395,11 +3654,12 @@
     "twitter_handle": "https://twitter.com/05karayel05",
     "github": "https://github.com/ogulcankarayel5",
     "linkedin": "https://www.linkedin.com/in/ogulcan-karayell",
-    "interests": "Frontend (React), Mobile development (React Native)",
+    "interests": "frontend (react), mobile development (react native)",
     "goals": "I've now graduated and I want to improve myself and I think with a mentor it will be better option for me",
     "mentor": "Mentee",
     "slug": "ogulcan-karayel",
     "avatar": "https://avatars.githubusercontent.com/ogulcankarayel5",
+    "displayInterests": "Frontend (React), Mobile development (React Native)",
     "mentorships": []
   },
   {
@@ -3408,11 +3668,12 @@
     "twitter_handle": "https://twitter.com/mf_cicek",
     "github": "https://github.com/mfcicek",
     "linkedin": "",
-    "interests": "Mobile Developer, Flutter",
+    "interests": "mobile developer, flutter",
     "goals": "Hey, It'd be a pleasure, I write code for fun, but for a mentor, I gonna carve it up real nice!",
     "mentor": "Mentee",
     "slug": "fatih-cicek",
     "avatar": "https://avatars.githubusercontent.com/mfcicek",
+    "displayInterests": "Mobile Developer, Flutter",
     "mentorships": []
   },
   {
@@ -3421,11 +3682,12 @@
     "twitter_handle": "https://twitter.com/hozgurcelik",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/halilozgurcelik",
-    "interests": "Data Science ",
+    "interests": "data science ",
     "goals": "Python bilgim temel düzeydedir. İstatistik 2. Sınıf öğrencisiyim. Ayrıca açıktan Yönetim Bilişim Sistemleri okuyorum. Veri Bilimi alanında projeler geliştirmek istiyorum. ",
     "mentor": "Mentee",
     "slug": "halil-ozgur-celik",
     "avatar": "https://ui-avatars.com/api/?name=Halil Özgür Çelik&size=256",
+    "displayInterests": "Data Science ",
     "mentorships": []
   },
   {
@@ -3434,11 +3696,12 @@
     "twitter_handle": "https://twitter.com/kisacafeye",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/furkan-y%C4%B1lmaz-56a0b2194",
-    "interests": "Software Development, C,C++,C# and Pyhton",
+    "interests": "software development, c,c++,c# and pyhton",
     "goals": "I haven't graduated yet and I want to improve software development. I want to experience by participating in project groups",
     "mentor": "Mentee",
     "slug": "furkan-yilmaz",
     "avatar": "https://ui-avatars.com/api/?name=Furkan Yılmaz&size=256",
+    "displayInterests": "Software Development, C,C++,C# and Pyhton",
     "mentorships": []
   },
   {
@@ -3447,11 +3710,12 @@
     "twitter_handle": "https:// ",
     "github": "https://github.com/cemsltk",
     "linkedin": "https://www.linkedin.com/in/cem-salt%C4%B1k-939957172",
-    "interests": "Mobile Development(flutter, react native, swift, java), web development(JS, HTML, CSS)",
+    "interests": "mobile development(flutter, react native, swift, java), web development(js, html, css)",
     "goals": "I’m a newbie programmer and CS student, I want to improve my skills about Mobile Application Development and I want to get a job in that field.",
     "mentor": "Mentee",
     "slug": "cem-saltik",
     "avatar": "https://avatars.githubusercontent.com/cemsltk",
+    "displayInterests": "Mobile Development(flutter, react native, swift, java), web development(JS, HTML, CSS)",
     "mentorships": []
   },
   {
@@ -3460,11 +3724,12 @@
     "twitter_handle": "https://twitter.com/_EmreCakmak",
     "github": "https://github.com/emrecakmak",
     "linkedin": "https://linkedin.com/in/emreckmk",
-    "interests": "Cyber Security, OSINT, Backend Development",
+    "interests": "cyber security, osint, backend development",
     "goals": "I don't always look for mentors but when I do, I look for amazing ones.",
     "mentor": "Mentee",
     "slug": "emre-cakmak",
     "avatar": "https://avatars.githubusercontent.com/emrecakmak",
+    "displayInterests": "Cyber Security, OSINT, Backend Development",
     "mentorships": []
   },
   {
@@ -3473,11 +3738,12 @@
     "twitter_handle": "https://twitter.com/nowo1",
     "github": "https://github.com/nowo",
     "linkedin": "https://www.linkedin.com/in/erdal-burak-cinar",
-    "interests": "Go, DevOps",
+    "interests": "go, devops",
     "goals": "I am a student who works full time and working on big side project. I push my self really hard and i need mentor on this way",
     "mentor": "Mentee",
     "slug": "erdal-burak-cinar",
     "avatar": "https://avatars.githubusercontent.com/nowo",
+    "displayInterests": "Go, DevOps",
     "mentorships": []
   },
   {
@@ -3486,11 +3752,12 @@
     "twitter_handle": "https:// ",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/melihgoner",
-    "interests": "Embedded Systems",
+    "interests": "embedded systems",
     "goals": "As a 4th grade Electrical&Electronics Engineering student, I want to improve my embedded software skills before I graduate.",
     "mentor": "Mentee",
     "slug": "melih-goner",
     "avatar": "https://ui-avatars.com/api/?name=Melih Goner&size=256",
+    "displayInterests": "Embedded Systems",
     "mentorships": []
   },
   {
@@ -3499,11 +3766,12 @@
     "twitter_handle": "https://twitter.com/ataaatak",
     "github": "https://github.com/ataatak35",
     "linkedin": "https://www.linkedin.com/in/ata-a-95096814a",
-    "interests": "Mobile development(flutter), game development(unity), web development  ",
+    "interests": "mobile development(flutter), game development(unity), web development  ",
     "goals": "I am sophmore computer engineering student at Izmir University of Economics that have passion about learning new stuffs. Also I am passionate about game develpment and want to become my major focus in the future.",
     "mentor": "Mentee",
     "slug": "ata-atak",
     "avatar": "https://avatars.githubusercontent.com/ataatak35",
+    "displayInterests": "Mobile development(flutter), game development(unity), web development  ",
     "mentorships": []
   },
   {
@@ -3512,11 +3780,12 @@
     "twitter_handle": "https://twitter.com/yilmazdev",
     "github": "https://github.com/yilmazcakmakci",
     "linkedin": "https://linkedin.com/in/yilmazcakmakci",
-    "interests": "Frontend Development(React,Nextjs)",
+    "interests": "frontend development(react,nextjs)",
     "goals": "",
     "mentor": "Mentee",
     "slug": "yilmaz-cakmakci",
     "avatar": "https://avatars.githubusercontent.com/yilmazcakmakci",
+    "displayInterests": "Frontend Development(React,Nextjs)",
     "mentorships": []
   },
   {
@@ -3525,11 +3794,12 @@
     "twitter_handle": "https://twitter.com/busekoseoglu07",
     "github": "https://github.com/busekoseoglu",
     "linkedin": "https://linkedin.com/in/busekoseoglu",
-    "interests": "Python,SQL,ML&data science",
+    "interests": "python,sql,ml&data science",
     "goals": "I am a student in software engineering 2nd grade. I want to improve my skills and want to work while still i was a student. ",
     "mentor": "Mentee",
     "slug": "buse-koseoglu",
     "avatar": "https://avatars.githubusercontent.com/busekoseoglu",
+    "displayInterests": "Python,SQL,ML&data science",
     "mentorships": []
   },
   {
@@ -3538,11 +3808,12 @@
     "twitter_handle": "",
     "github": "https://github.com/Kadermiyanyedi",
     "linkedin": "https://www.linkedin.com/in/kadermiyanyedi",
-    "interests": "Backend(Python),Frontend",
+    "interests": "backend(python),frontend",
     "goals": "I am a student in Computer Engineer who loves to learn new things, is determined, hardworking and is very keen on technology.",
     "mentor": "Mentee",
     "slug": "kader-miyanyedi",
     "avatar": "https://avatars.githubusercontent.com/Kadermiyanyedi",
+    "displayInterests": "Backend(Python),Frontend",
     "mentorships": []
   },
   {
@@ -3551,11 +3822,12 @@
     "twitter_handle": "",
     "github": "https://github.com/metehankurucu",
     "linkedin": "https://www.linkedin.com/in/metehankurucu",
-    "interests": "Node.js,Reactjs,React Native,Swift,Go,Ruby (Backend/Frontend/Mobile techs) ",
+    "interests": "node.js,reactjs,react native,swift,go,ruby (backend/frontend/mobile techs) ",
     "goals": "I am studying Computer Engineering at Marmara University. I want to further improve my coding and software design skills. I would like to hear feedback from valuable developers on İkisi de code quality and roadmap.",
     "mentor": "Mentee",
     "slug": "metehan-kurucu",
     "avatar": "https://avatars.githubusercontent.com/metehankurucu",
+    "displayInterests": "Node.js,Reactjs,React Native,Swift,Go,Ruby (Backend/Frontend/Mobile techs) ",
     "mentorships": []
   },
   {
@@ -3564,11 +3836,12 @@
     "twitter_handle": "",
     "github": "https://github.com/erdemcemal",
     "linkedin": "https://tr.linkedin.com/in/cemal-erdem-1b7300119",
-    "interests": "Backend (.Net Tech, Golang) and Devops",
+    "interests": "backend (.net tech, golang) and devops",
     "goals": "Currently working as a jr backend(.net) developer. I want to take my current skills further based on my interesting area. I couldn't have a mentor in my career so it would be good to have good mentor step further with him . It would be great if I also coding with my mentor 😊",
     "mentor": "Mentee",
     "slug": "cemal-erdem",
     "avatar": "https://avatars.githubusercontent.com/erdemcemal",
+    "displayInterests": "Backend (.Net Tech, Golang) and Devops",
     "mentorships": []
   },
   {
@@ -3577,11 +3850,12 @@
     "twitter_handle": "https://twitter.com/muratmirgun",
     "github": "https://github.com/MuratSs",
     "linkedin": "https://www.linkedin.com/in/murat-m-ercan",
-    "interests": "DevOps, Backend (Go)",
+    "interests": "devops, backend (go)",
     "goals": "I am studying Software Eng. at Fırat University. I want to advance myself in my fields and travel more than me.",
     "mentor": "Mentee",
     "slug": "murat-mirgun-ercan",
     "avatar": "https://avatars.githubusercontent.com/MuratSs",
+    "displayInterests": "DevOps, Backend (Go)",
     "mentorships": []
   },
   {
@@ -3590,11 +3864,12 @@
     "twitter_handle": "https://twitter.com/yakupbilqen",
     "github": "https://github.com/yakupbilgen",
     "linkedin": "https://www.linkedin.com/in/yakupbilgen",
-    "interests": "Mobile Developer (Flutter)",
+    "interests": "mobile developer (flutter)",
     "goals": "Flutter ile mobil programlamayı öğrenip bu sektörde iş imkanlarına erişmek istiyorum. 2 yıl kadar C# ile ilgilendim. Bu süre zarfında bir çok eksiklik hissettim. Mobil öğrenirken yardımcı olacak birilerine ihtiyacım var.",
     "mentor": "Mentee",
     "slug": "yakup-bilgen",
     "avatar": "https://avatars.githubusercontent.com/yakupbilgen",
+    "displayInterests": "Mobile Developer (Flutter)",
     "mentorships": []
   },
   {
@@ -3603,11 +3878,12 @@
     "twitter_handle": "https://twitter.com/umucorn",
     "github": "https://github.com/umucorn",
     "linkedin": "https://www.linkedin.com/in/umutozdemir97",
-    "interests": "Rust",
+    "interests": "rust",
     "goals": "I want to be able to contribute and take part in development of open source Rust codebases",
     "mentor": "Mentee",
     "slug": "umut-ozdemir",
     "avatar": "https://avatars.githubusercontent.com/umucorn",
+    "displayInterests": "Rust",
     "mentorships": []
   },
   {
@@ -3616,11 +3892,12 @@
     "twitter_handle": "https://twitter.com/MelihPAK4",
     "github": "https://github.com/MelihPAK",
     "linkedin": "https://www.linkedin.com/in/melih-pak-ab0359195",
-    "interests": "Pyhton,linux,c#,sql",
+    "interests": "pyhton,linux,c#,sql",
     "goals": "Combining software and e-commerce on a common ground and be professional in video editing",
     "mentor": "Mentee",
     "slug": "melih-pak",
     "avatar": "https://avatars.githubusercontent.com/MelihPAK",
+    "displayInterests": "Pyhton,linux,c#,sql",
     "mentorships": []
   },
   {
@@ -3629,11 +3906,12 @@
     "twitter_handle": "https://twitter.com/blue_or4n_ge",
     "github": "https://github.com/WosberbonDesu",
     "linkedin": "https://www.linkedin.com/in/berke-can-pınar-29402219a",
-    "interests": "Data Science,Machine-Deep Learning,CyberSecurity",
+    "interests": "data science,machine-deep learning,cybersecurity",
     "goals": "I am a software engineering second grade student I'm looking for someone who can improve myself and help my projects.",
     "mentor": "Mentee",
     "slug": "berke-can-pinar",
     "avatar": "https://avatars.githubusercontent.com/WosberbonDesu",
+    "displayInterests": "Data Science,Machine-Deep Learning,CyberSecurity",
     "mentorships": []
   },
   {
@@ -3642,11 +3920,12 @@
     "twitter_handle": "https://twitter.com/artuc",
     "github": "https://github.com/artuc",
     "linkedin": "https://www.linkedin.com/in/artuc",
-    "interests": "Serverless, Backend, TDD",
+    "interests": "serverless, backend, tdd",
     "goals": "I would like to have a chat with senior solution architect who can help me to dive in to serverless architecture and scaling",
     "mentor": "Mentee",
     "slug": "mustafa-artuc",
     "avatar": "https://avatars.githubusercontent.com/artuc",
+    "displayInterests": "Serverless, Backend, TDD",
     "mentorships": []
   },
   {
@@ -3655,11 +3934,12 @@
     "twitter_handle": "https://twitter.com/aksuomeer",
     "github": "https://github.com/omeraksu",
     "linkedin": "https://www.linkedin.com/in/aksuomeer",
-    "interests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
+    "interests": "product research, product design, ui development, react / react-native, graphic design, design system",
     "goals": "I am telling stories by design and coding.",
     "mentor": "İkisi de",
     "slug": "omer-aksu",
     "avatar": "https://avatars.githubusercontent.com/omeraksu",
+    "displayInterests": "Product Research, Product Design, UI Development, React / React-Native, Graphic Design, Design System",
     "mentorships": []
   },
   {
@@ -3668,11 +3948,12 @@
     "twitter_handle": "",
     "github": "https://github.com/quickRhythm",
     "linkedin": "https://www.linkedin.com/in/selbilgen",
-    "interests": "PHP (Laravel) Vue.js ",
+    "interests": "php (laravel) vue.js ",
     "goals": "I'm looking for miyagi san.",
     "mentor": "Mentee",
     "slug": "selcuk-bilgen",
     "avatar": "https://avatars.githubusercontent.com/quickRhythm",
+    "displayInterests": "PHP (Laravel) Vue.js ",
     "mentorships": []
   },
   {
@@ -3681,11 +3962,12 @@
     "twitter_handle": "https://twitter.com/akiffeyzioglu",
     "github": "https://github.com/akiffeyzioglu",
     "linkedin": "https://www.linkedin/in/akiffeyzioglu",
-    "interests": "Python, Go, Linux, Docker, Network, DevOps ",
+    "interests": "python, go, linux, docker, network, devops ",
     "goals": "I want to be DevOps Engineer and I want develop open source developer tools. ",
     "mentor": "Mentee",
     "slug": "akif-feyzioglu",
     "avatar": "https://avatars.githubusercontent.com/akiffeyzioglu",
+    "displayInterests": "Python, Go, Linux, Docker, Network, DevOps ",
     "mentorships": []
   },
   {
@@ -3699,6 +3981,7 @@
     "mentor": "Mentee",
     "slug": "aydan-deniz-taskiran",
     "avatar": "https://ui-avatars.com/api/?name=Aydan Deniz Taşkıran&size=256",
+    "displayInterests": "growth hacking, finance, digital marketing",
     "mentorships": []
   },
   {
@@ -3707,11 +3990,12 @@
     "twitter_handle": "https://twitter.com/Suranuralprsln",
     "github": "https://github.com/suranur",
     "linkedin": "https://www.linkedin.com/in/şuranur-alparslan-9b8866181",
-    "interests": "python, OpeCV, front-end, php, data structers  ",
+    "interests": "python, opecv, front-end, php, data structers  ",
     "goals": "Bilgisayar Mühendisliği son sınıfım. Githuba yeni giriş yaptım maalesef bu konuda da rehber olabilecek birine ihtiyacım var. Frontend alanında kendimi geliştirmek istiyorum henüz çok ufak çaplı çalışmalar yaptım öğrenciliğim sürecinde de. bunu ufak çaplı freelance iş olarak yapmak istiyorum. Görüntü işleme alanında da bitirme projem var bu alanda da kendimi geliştirmek istiyorum ve ilerde bu alanda çalışmak istiyorum.",
     "mentor": "Mentee",
     "slug": "suranur-alparslan",
     "avatar": "https://avatars.githubusercontent.com/suranur",
+    "displayInterests": "python, OpeCV, front-end, php, data structers  ",
     "mentorships": []
   },
   {
@@ -3720,11 +4004,12 @@
     "twitter_handle": "https://twitter.com/gokhanamal",
     "github": "https://github.com/gokhanamal",
     "linkedin": "https://www.linkedin.com/in/gokhanamal",
-    "interests": "iOS Development, Computer Science",
+    "interests": "ios development, computer science",
     "goals": "I am working as an iOS Developer but I want to increase my knowledge of computer science fundamentals. I can also share my iOS Development expriences.",
     "mentor": "İkisi de",
     "slug": "gokhan-namal",
     "avatar": "https://avatars.githubusercontent.com/gokhanamal",
+    "displayInterests": "iOS Development, Computer Science",
     "mentorships": []
   },
   {
@@ -3733,11 +4018,12 @@
     "twitter_handle": "https://twitter.com/l3ekirerdem",
     "github": "https://github.com/Bekirerdem",
     "linkedin": "https://www.linkedin.com/in/bekir-erdem-016231173",
-    "interests": "JavaScript, FrontEnd,  BackEnd, React",
+    "interests": "javascript, frontend,  backend, react",
     "goals": "Html, Css ve başlangıç düzeyinde bir JavaScript bilgim var. FrontEnd alanında kendimi geliştirmeye çalışıyorum. bu alanda bana rehber olabilecek birilerine ihtiyacım var.",
     "mentor": "Mentee",
     "slug": "bekir-erdem",
     "avatar": "https://avatars.githubusercontent.com/Bekirerdem",
+    "displayInterests": "JavaScript, FrontEnd,  BackEnd, React",
     "mentorships": []
   },
   {
@@ -3746,11 +4032,12 @@
     "twitter_handle": "https://twitter.com/evrenvural4",
     "github": "https://github.com/evrenvural",
     "linkedin": "https://www.linkedin.com/in/evrenvural",
-    "interests": "Backend Development(NodeJS, Go, maybe Java), my First preference is NodeJS",
+    "interests": "backend development(nodejs, go, maybe java), my first preference is nodejs",
     "goals": "I am a 3rd grade student. I have work experience about Mobile Development(Flutter) and Frontend Development(ReactJS) and now, I am learning backend development and I'm working in Ford as ASP.NET Developer but I want to learn technologies which usage in abroad. I want to move abroad. I need mentor who has knowledge about these fields.",
     "mentor": "Mentee",
     "slug": "evren-vural",
     "avatar": "https://avatars.githubusercontent.com/evrenvural",
+    "displayInterests": "Backend Development(NodeJS, Go, maybe Java), my First preference is NodeJS",
     "mentorships": []
   },
   {
@@ -3759,11 +4046,12 @@
     "twitter_handle": "https://twitter.com/peacecwz",
     "github": "https://github.com/peacecwz",
     "linkedin": "https://linkedin.com/in/peacecwz",
-    "interests": "Frontend, Backend, Mobile App, SDS, Product Development",
+    "interests": "frontend, backend, mobile app, sds, product development",
     "goals": "",
     "mentor": "Mentor",
     "slug": "baris-ceviz",
     "avatar": "https://avatars.githubusercontent.com/peacecwz",
+    "displayInterests": "Frontend, Backend, Mobile App, SDS, Product Development",
     "mentorships": []
   },
   {
@@ -3772,11 +4060,12 @@
     "twitter_handle": "https://twitter.com/_mustafakarakus",
     "github": "https://github.com/mustafakarakus",
     "linkedin": "https://www.linkedin.com/in/mustafakarakus",
-    "interests": "Mobile(iOS/Android - Swift/Kotlin)",
+    "interests": "mobile(ios/android - swift/kotlin)",
     "goals": "",
     "mentor": "Mentor",
     "slug": "mustafa-karakus",
     "avatar": "https://avatars.githubusercontent.com/mustafakarakus",
+    "displayInterests": "Mobile(iOS/Android - Swift/Kotlin)",
     "mentorships": []
   },
   {
@@ -3785,11 +4074,12 @@
     "twitter_handle": "https://twitter.com/saffetblt",
     "github": "https://github.com/saffetblt",
     "linkedin": "https://www.linkedin.com/in/saffetblt",
-    "interests": "Embedded Software",
+    "interests": "embedded software",
     "goals": "",
     "mentor": "Mentor",
     "slug": "saffet-bulut",
     "avatar": "https://avatars.githubusercontent.com/saffetblt",
+    "displayInterests": "Embedded Software",
     "mentorships": []
   },
   {
@@ -3803,6 +4093,7 @@
     "mentor": "Mentor",
     "slug": "onur-burak-yildirim",
     "avatar": "https://avatars.githubusercontent.com/onur-yildirim",
+    "displayInterests": "backend, frontend, working abroad",
     "mentorships": []
   },
   {
@@ -3811,11 +4102,12 @@
     "twitter_handle": "",
     "github": "https://github.com/Cingozr",
     "linkedin": "https://www.linkedin.com/in/cingozr",
-    "interests": "Go, Win32 Api Development",
+    "interests": "go, win32 api development",
     "goals": "",
     "mentor": "Mentor",
     "slug": "recai-cingoz",
     "avatar": "https://avatars.githubusercontent.com/Cingozr",
+    "displayInterests": "Go, Win32 Api Development",
     "mentorships": []
   },
   {
@@ -3824,11 +4116,12 @@
     "twitter_handle": "https://twitter.com/cagataykurt",
     "github": "https://github.com/kurtprp",
     "linkedin": "https://www.linkedin.com/in/cagatayk",
-    "interests": "Backend, Firebase, GCP, entrepreneurship, startups, Coding Interviews ",
+    "interests": "backend, firebase, gcp, entrepreneurship, startups, coding interviews ",
     "goals": "",
     "mentor": "Mentor",
     "slug": "cagatay-kurt",
     "avatar": "https://avatars.githubusercontent.com/kurtprp",
+    "displayInterests": "Backend, Firebase, GCP, entrepreneurship, startups, Coding Interviews ",
     "mentorships": []
   },
   {
@@ -3837,11 +4130,12 @@
     "twitter_handle": "https://twitter.com/zinaney",
     "github": "https://github.com/zinan",
     "linkedin": "https://www.linkedin.com/in/sinanturgut",
-    "interests": "SDLC, Design Patterns, Symfony, React Native",
+    "interests": "sdlc, design patterns, symfony, react native",
     "goals": "",
     "mentor": "Mentor",
     "slug": "sinan-turgut",
     "avatar": "https://avatars.githubusercontent.com/zinan",
+    "displayInterests": "SDLC, Design Patterns, Symfony, React Native",
     "mentorships": []
   },
   {
@@ -3850,11 +4144,12 @@
     "twitter_handle": "",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/recursiveself",
-    "interests": "Frontend, Backend (LAMP & MERN Stack)",
+    "interests": "frontend, backend (lamp & mern stack)",
     "goals": "",
     "mentor": "Mentor",
     "slug": "murat-demirci",
     "avatar": "https://ui-avatars.com/api/?name=Murat Demirci&size=256",
+    "displayInterests": "Frontend, Backend (LAMP & MERN Stack)",
     "mentorships": []
   },
   {
@@ -3863,11 +4158,12 @@
     "twitter_handle": "https://twitter.com/yigitdarcin",
     "github": "https://github.com/yigit-darcin",
     "linkedin": "https://www.linkedin.com/in/yigitdarcin",
-    "interests": "Ios, android, backend, startup",
+    "interests": "ios, android, backend, startup",
     "goals": "",
     "mentor": "Mentor",
     "slug": "yigit-darcin",
     "avatar": "https://avatars.githubusercontent.com/yigit-darcin",
+    "displayInterests": "Ios, android, backend, startup",
     "mentorships": []
   },
   {
@@ -3876,11 +4172,12 @@
     "twitter_handle": "https://twitter.com/safe_buffer",
     "github": "https://github.com/wazehell",
     "linkedin": "https://www.linkedin.com/in/wazehell",
-    "interests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
+    "interests": "appsec/offensive security/redteam/security research/backend/python",
     "goals": "",
     "mentor": "Mentor",
     "slug": "hossam-mohamed",
     "avatar": "https://avatars.githubusercontent.com/wazehell",
+    "displayInterests": "AppSec/Offensive Security/RedTeam/Security Research/Backend/Python",
     "mentorships": []
   },
   {
@@ -3889,11 +4186,12 @@
     "twitter_handle": "https://twitter.com/ocozalp",
     "github": "https://github.com/ocozalp",
     "linkedin": "https://www.linkedin.com/in/ocozalp",
-    "interests": "Backend, CS, Working Aboard, Job Interviews",
+    "interests": "backend, cs, working aboard, job interviews",
     "goals": "",
     "mentor": "Mentor",
     "slug": "orhan-ozalp",
     "avatar": "https://avatars.githubusercontent.com/ocozalp",
+    "displayInterests": "Backend, CS, Working Aboard, Job Interviews",
     "mentorships": []
   },
   {
@@ -3902,11 +4200,12 @@
     "twitter_handle": "https://twitter.com/giraybatiturk",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/giraybatiturk",
-    "interests": "Product Design, UX Design, UI Design, UX and UI Career Coaching",
+    "interests": "product design, ux design, ui design, ux and ui career coaching",
     "goals": "I'm here to help companies and individuals do things that unlock their potential.",
     "mentor": "Mentor",
     "slug": "giray-batiturk",
     "avatar": "https://ui-avatars.com/api/?name=Giray BATITÜRK&size=256",
+    "displayInterests": "Product Design, UX Design, UI Design, UX and UI Career Coaching",
     "mentorships": []
   },
   {
@@ -3915,11 +4214,12 @@
     "twitter_handle": "https://twitter.com/strawb3rryx7",
     "github": "https://github.com/strawb3rryx7",
     "linkedin": "https://linkedin.com/in/batuhansaka",
-    "interests": "Mobile (iOS) Development",
+    "interests": "mobile (ios) development",
     "goals": "",
     "mentor": "Mentor",
     "slug": "batuhan-saka",
     "avatar": "https://avatars.githubusercontent.com/strawb3rryx7",
+    "displayInterests": "Mobile (iOS) Development",
     "mentorships": []
   },
   {
@@ -3933,6 +4233,7 @@
     "mentor": "Mentor",
     "slug": "ender-ahmet-yurt",
     "avatar": "https://avatars.githubusercontent.com/enderahmetyurt",
+    "displayInterests": "backend, ruby, ruby on rails, web programming, clean code",
     "mentorships": []
   },
   {
@@ -3946,6 +4247,7 @@
     "mentor": "Mentor",
     "slug": "samet-aylak",
     "avatar": "https://avatars.githubusercontent.com/sametaylak",
+    "displayInterests": "game development, shader development, frontend",
     "mentorships": []
   },
   {
@@ -3959,6 +4261,7 @@
     "mentor": "Mentor",
     "slug": "erhan-bute",
     "avatar": "https://avatars.githubusercontent.com/erhan",
+    "displayInterests": "backend(python + flask)",
     "mentorships": []
   },
   {
@@ -3967,11 +4270,12 @@
     "twitter_handle": "https://twitter.com/cem_olcay",
     "github": "https://github.com/cemolcay",
     "linkedin": "https://www.linkedin.com/in/cem-olcay-479a402a",
-    "interests": "iOS, Swift, AUv3, MIDI, Indie Development",
+    "interests": "ios, swift, auv3, midi, indie development",
     "goals": "",
     "mentor": "Mentor",
     "slug": "cem-olcay",
     "avatar": "https://avatars.githubusercontent.com/cemolcay",
+    "displayInterests": "iOS, Swift, AUv3, MIDI, Indie Development",
     "mentorships": []
   }
 ]

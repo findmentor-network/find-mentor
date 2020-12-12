@@ -87,7 +87,7 @@ export default {
       this.search2.keyword = ''
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
-        .search(this.search.keyword)
+        .search(this.search.keyword.toLowerCase())
         .fetch()
 
       if (this.search.keyword.length > 0) {
