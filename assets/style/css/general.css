@@ -1,0 +1,5 @@
+html,
+body {
+  background-color: var(--color-ui-01);
+  color: var(--color-text-03);
+}

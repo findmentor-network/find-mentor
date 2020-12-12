@@ -1,0 +1,43 @@
+:root {
+  /* Block Element */
+  --color-ui-01: #f2f2f2;
+  --color-ui-02: #fff;
+  --color-ui-03: #17aa90;
+  --color-ui-04: #32475b;
+
+  /* Text */
+  --color-text-01: rgba(0, 0, 0, 0.9);
+  --color-text-02: rgba(0, 0, 0, 0.5);
+  --color-text-03: #212529;
+
+  /* Border */
+  --color-border-01: #fff;
+
+  /* Field */
+  --color-field-01: #fff;
+
+  /*   Disqus Color  */
+  --color-disqus-thread: #a9a9a9;
+}
+
+.dark-mode {
+  /* Block Element */
+  --color-ui-01: #171717;
+  --color-ui-02: #222;
+  --color-ui-03: #17aa90;
+  --color-ui-04: #2f6998;
+
+  /* Text */
+  --color-text-01: rgba(255, 255, 255, 0.9);
+  --color-text-02: rgba(255, 255, 255, 0.5);
+  --color-text-03: #888;
+
+  /* Border */
+  --color-border-01: transparent;
+
+  /* Field */
+  --color-field-01: #000;
+
+  /*   Disqus Color  */
+  --color-disqus-thread: #161616;
+}

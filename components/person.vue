@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile" itemscope itemtype="https://schema.org/Person">
+      <ul class="profile-card" itemscope itemtype="https://schema.org/Person">
         <div class="left-main">
           <li v-if="avatar.length" loading="lazy">
             <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
@@ -10,7 +10,7 @@
             <li v-if="name" class="name" itemprop="name">
               {{ name }}
             </li>
-            <hr>
+            <hr />
             <li
               v-if="interests && interests.length"
               class="text"
@@ -25,7 +25,7 @@
             >
               <b>Goals:</b> {{ goals }}
             </li>
-            <div class="social-media-button">
+            <div class="social-media">
               <li v-if="twitter.length" class="links">
                 <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
@@ -79,29 +79,35 @@
       </ul>
       <h2 v-if="markdown.length">
         GitHub
-        <hr>
+        <hr />
       </h2>
       <div v-html="markdown" />
-      <hr>
-      <h2>
-        Gave Feedback
-      </h2>
+      <hr />
+      <h2>Gave Feedback</h2>
       <div id="disqus_thread" />
-      <hr>
-      <Timeline
-        v-if="twitter.length"
-        :id="twitterHandle"
-        source-type="profile"
-        :options="{ tweetLimit: '5' }"
-      />
+      <hr />
+      <template v-if="twitter.length">
+        <Timeline
+          v-show="$colorMode.value === 'dark'"
+          :id="twitterHandle"
+          source-type="profile"
+          :options="{ tweetLimit: '5', theme: 'dark' }"
+        />
+        <Timeline
+          v-show="$colorMode.value === 'light'"
+          :id="twitterHandle"
+          source-type="profile"
+          :options="{ tweetLimit: '5', theme: 'light' }"
+        />
+      </template>
     </div>
   </div>
 </template>
 
 <script>
-import { Timeline } from "vue-tweet-embed";
-import Markdown from "@nuxt/markdown";
-const md = new Markdown({ toc: true, sanitize: true });
+import { Timeline } from 'vue-tweet-embed'
+import Markdown from '@nuxt/markdown'
+const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
@@ -110,7 +116,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ""
+      default: ''
     },
     mentor: {
       type: Boolean,
@@ -122,101 +128,108 @@ export default {
     },
     name: {
       type: String,
-      default: ""
+      default: ''
     },
     twitter: {
       type: String,
-      default: ""
+      default: ''
     },
     github: {
       type: String,
-      default: ""
+      default: ''
     },
     linkedin: {
       type: String,
-      default: ""
+      default: ''
     },
     avatar: {
       type: String,
-      default: ""
+      default: ''
     },
     interests: {
       type: String,
-      default: ""
+      default: ''
     },
     goals: {
       type: String,
-      default: ""
+      default: ''
     }
   },
   data() {
     return {
-      markdown: ""
-    };
+      markdown: ''
+    }
   },
   computed: {
     twitterHandle() {
-      return this.twitter.split("twitter.com/")[1];
+      return this.twitter.split('twitter.com/')[1]
     }
   },
   created() {
     if (this.github.length) {
-      this.renderMarkdown();
+      this.renderMarkdown()
     }
   },
   methods: {
     async renderMarkdown() {
-      const username = this.github
-        .replace(/\/$/gi, "")
-        .split("/")
-        .pop();
+      const username = this.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then(res => {
+      ).then((res) => {
         if (res.status === 200) {
-          return res.text();
+          return res.text()
         } else {
-          return "";
+          return ''
         }
-      });
-      const { html } = await md.toMarkup(markdownContent);
-      this.markdown = html;
+      })
+      const { html } = await md.toMarkup(markdownContent)
+      this.markdown = html
     }
   }
-};
+}
 </script>
 
 <style>
-.profile {
+.profile-card {
   list-style: none;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
-  padding-bottom: 14px;
+  min-height: 36vh;
+  background-color: var(--color-ui-02);
+  margin: 18px auto;
+  padding: 28px 16px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .avatar,
 .name,
 .links {
-  margin-top: 15px;
+  margin-top: 14px;
 }
 
 .name {
-  font-size: 27px;
+  font-size: 26px;
+  color: var(--color-text-01);
 }
 
-.button {
-  padding: 10px 30px;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  color: white;
-  margin-right: 30px;
+.seeks,
+.description {
+  color: var(--color-text-02);
 }
 
-.social-media-button {
+.social-media {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.social-media .button {
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  color: #fff;
+  margin-right: 16px;
 }
 
 .twitter {
@@ -234,8 +247,9 @@ export default {
 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-right: 30px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .left-main {
@@ -250,10 +264,6 @@ export default {
 .text {
   font-size: 17px;
   margin-top: 10px;
-}
-
-.profile {
-  justify-content: space-between;
 }
 
 .markdown {
@@ -291,7 +301,7 @@ export default {
 }
 
 #disqus_thread {
-  background: #161616;
+  background: var(--color-disqus-thread);
   border: 8px;
   border-radius: 15px;
   padding: 5px;

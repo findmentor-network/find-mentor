@@ -19,7 +19,9 @@ const create = async (feed, args) => {
       description: item.interests
     }
 
-    if (item.goals) { itemObject.content = item.goals }
+    if (item.goals) {
+      itemObject.content = item.goals
+    }
 
     feed.addItem(itemObject)
   })
@@ -52,7 +54,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ['~/assets/style/css/general.css', '~/assets/style/css/color.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
@@ -68,7 +70,8 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    // '@nuxtjs/eslint-module'
+    // '@nuxtjs/eslint-module',
+    '@nuxtjs/color-mode'
   ],
 
   /*
@@ -130,7 +133,7 @@ export default {
 
       const persons = await $content('persons').fetch()
 
-      persons.forEach(person => routes.push(`peer/${person.slug}`))
+      persons.forEach((person) => routes.push(`peer/${person.slug}`))
 
       return routes
     }
