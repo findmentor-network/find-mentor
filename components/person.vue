@@ -94,39 +94,32 @@
       </h2>
       <hr />
       <div class="accordion" role="tablist">
-        <!-- <div
-          v-for="(mentorship, index) in mentorships"
-          :key="mentorship.slug"
-          v-html="projects[index]"
-        /> -->
         <b-card
           no-body
           class="mb-1"
-          v-for="(mentorship,index) in mentorships"
+          v-for="(mentorship, index) in mentorships"
           :key="mentorship.slug"
         >
-          <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-1 variant="info"
-              >Accordion 1</b-button
-            >
+          <b-card-header header-tag="header" class="p-1" role="tablist">
+            <b-button block v-b-toggle.accordion-1 variant="info">{{
+              mentorship.slug
+            }}</b-button>
           </b-card-header>
           <b-collapse
-            id="accordion-1"
-            visible
+
+         id="accordion-1"
+
+
             accordion="my-accordion"
             role="tabpanel"
           >
             <b-card-body>
-              <b-card-text>{{projects[index]}} </b-card-text>
+              <b-card-text><div v-html="projects[index]"/></b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
       </div>
-      <!-- <div
-        v-for="(mentorship, index) in mentorships"
-        :key="mentorship.slug"
-        v-html="projects[index]"
-      /> -->
+
       <div id="disqus_thread" />
       <hr />
       <Timeline
