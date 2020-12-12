@@ -1,0 +1,16 @@
+[
+  {
+    "": "11.12.2020 14:13:50",
+    "mentor": "https://findmentor.network/peer/cagatay-cali",
+    "project_adress": "https://github.com/cagataycali/find-mentor",
+    "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
+    "slug": "find-mentor"
+  },
+  {
+    "": "12.12.2020 00:20:43",
+    "mentor": "https://findmentor.network/peer/cagatay-cali",
+    "project_adress": "https://github.com/cagataycali/entrylevel",
+    "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
+    "slug": "entrylevel"
+  }
+]

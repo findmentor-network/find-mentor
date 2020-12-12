@@ -10,6 +10,7 @@
       :avatar="doc.avatar"
       :interests="doc.interests"
       :goals="doc.goals"
+      :mentorships="doc.mentorships"
     />
   </div>
 </template>
