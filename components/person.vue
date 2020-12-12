@@ -9,7 +9,7 @@
       >
         <div class="left-main">
           <div v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
           </div>
           <div class="main">
             <div v-if="name" class="row name" itemprop="name">
@@ -21,7 +21,7 @@
             >
               {{ getPersonTypeLabel({ model: type }) }}
             </app-badge>
-            <hr />
+            <hr>
             <div class="info">
               <div
                 v-if="interests && interests.length"
@@ -92,22 +92,12 @@
       </div>
       <h2 v-if="markdown.length">
         GitHub
-        <hr />
       </h2>
+      <hr>
       <div class="readme" v-html="markdown" />
-      <hr />
-      <h2>
-        Gave Feedback
-      </h2>
-
-      <hr />
-      <div id="disqus_thread" />
-      <hr />
-      <h2>
+      <h2 v-if="mentorships.length">
         Active Mentorships
       </h2>
-      <hr />
-
       <div class="accordion" role="tablist">
         <b-card
           v-for="(mentorship, index) in mentorships"
@@ -126,30 +116,30 @@
             role="tabpanel"
           >
             <b-card-body>
-              <b-card-text v-if="projects[index]"
-                ><div v-html="projects[index]"
-              /></b-card-text>
-              <b-card-text v-else
-                >This project does not have readme file,
-                <a :href="mentorship.project_adress" target="_blank"
-                  >please visit project to see content.</a
-                ></b-card-text
-              >
+              <b-card-text v-if="projects[index]">
+                <a
+                  class="float-right"
+                  :href="mentorship.project_adress"
+                  target="_blank"
+                >Go to project page</a>
+                <div v-html="projects[index]" />
+              </b-card-text>
+              <b-card-text v-else>
+                This project does not have README.md file,
+                <a
+                  :href="mentorship.project_adress"
+                  target="_blank"
+                >please visit project to see content.</a>
+              </b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
       </div>
-
-      <hr />
-      <Timeline
-        v-if="twitter.length"
-        :id="twitterHandle"
-        source-type="profile"
-        :options="{ tweetLimit: '5' }"
-      />
-      <h2>Gave Feedback</h2>
+      <h2>
+        💬 Give Feedback
+      </h2>
+      <hr>
       <div id="disqus_thread" />
-      <hr />
       <template v-if="twitter.length">
         <Timeline
           v-show="$colorMode.value === 'dark'"
@@ -221,23 +211,23 @@ export default {
       default: []
     }
   },
-  data() {
+  data () {
     return {
       markdown: '',
       projects: []
     }
   },
   computed: {
-    twitterHandle() {
+    twitterHandle () {
       return this.twitter.split('twitter.com/')[1]
     },
-    profileCardStyleAsPersonType() {
+    profileCardStyleAsPersonType () {
       return `
         border-top: 4px solid ${this.getPersonTypeColor({ model: this.type })}
       `
     }
   },
-  created() {
+  created () {
     if (this.github.length) {
       this.renderMarkdown()
     }
@@ -246,14 +236,14 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown() {
+    async renderMarkdown () {
       const username = this.github
         .replace(/\/$/gi, '')
         .split('/')
         .pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then(res => {
+      ).then((res) => {
         if (res.status === 200) {
           return res.text()
         } else {
@@ -263,23 +253,23 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects() {
+    async renderMentorshipProjects () {
       const requests = []
-      this.mentorships.map(mentorship => {
+      this.mentorships.map((mentorship) => {
         const url = mentorship.project_adress
           .split('/')
           .slice(3)
           .join('/')
         requests.push(
           fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
-            .then(res => {
+            .then((res) => {
               if (res.status === 200) {
                 return res.text()
               } else {
                 return ''
               }
             })
-            .then(async markdownContent => {
+            .then(async (markdownContent) => {
               const { html } = await md.toMarkup(markdownContent)
               return html
             })
