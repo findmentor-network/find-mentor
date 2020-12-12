@@ -1,53 +1,58 @@
 <template>
-  <div class="container">
-    <h1 id="title">Mentees</h1>
-    <div id="searches">
-      <input
-        v-model="search.keyword"
-        class="filter"
-        placeholder="Search in Mentees"
-        @input="searchMentee"
-      />
-      <input
-        v-model="search2.keyword"
-        class="filter"
-        placeholder="Search in Topics"
-        @input="searchTopic"
-      />
+  <div class="page mentees-page">
+    <div class="container">
+      <h1 class="title">
+        Mentees
+      </h1>
+      <div class="persons-filters">
+        <input
+          v-model="search.keyword"
+          class="filter"
+          placeholder="Search in Mentees"
+          @input="searchMentee"
+        >
+        <input
+          v-model="search2.keyword"
+          class="filter"
+          placeholder="Search in Topics"
+          @input="searchTopic"
+        >
+      </div>
+      <ul class="persons">
+        <h5 v-if="postList.mentee.items.length <= 0" class="d-block mb-4">
+          No results...
+        </h5>
+        <PersonCard
+          v-for="(mentee, index) in postList.mentee.items"
+          v-else
+          :key="index"
+          :person="mentee"
+          person-type="mentee"
+        />
+      </ul>
+      <client-only>
+        <infinite-loading
+          v-if="
+            postList.mentee.items.length >= postList.mentee.limit &&
+              !search.isFilled
+          "
+          @infinite="loadMoreMentees"
+        />
+      </client-only>
     </div>
-    <ul class="persons">
-      <h5 style="margin-top: 40px" v-if="postList.mentee.items.length <= 0">No results...</h5>
-      <Card
-        v-for="(mentee, index) in postList.mentee.items"
-        v-else
-        :key="index"
-        class="person"
-        :person="mentee"
-        person-type="mentee"
-      />
-    </ul>
-    <client-only>
-      <infinite-loading
-        v-if="
-          postList.mentee.items.length >= postList.mentee.limit &&
-          !search.isFilled
-        "
-        @infinite="loadMoreMentees"
-      />
-    </client-only>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch() {
+  async fetch () {
     this.postList.mentee.items = await this.$content('persons')
       .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
   },
-  data() {
+  data () {
     return {
       search: {
         keyword: null,
@@ -67,7 +72,7 @@ export default {
     }
   },
   methods: {
-    async loadMoreMentees($state) {
+    async loadMoreMentees ($state) {
       this.postList.mentee.skip += this.postList.mentee.limit
 
       const mentees = await this.$content('persons')
@@ -83,7 +88,7 @@ export default {
         $state.complete()
       }
     },
-    async searchMentee() {
+    async searchMentee () {
       this.search2.keyword = ''
       const result = await this.$content('persons')
         .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
@@ -100,7 +105,7 @@ export default {
         this.search.isFilled = false
       }
     },
-    async searchTopic() {
+    async searchTopic () {
       this.search.keyword = ''
       const result = await this.$content('persons')
         .where({
@@ -123,19 +128,13 @@ export default {
 }
 </script>
 
-<style scoped>
-#title {
-  padding: 40px;
-  text-align: center;
-  color: var(--color-ui-04);
-}
-#searches {
-  display: flex;
-  grid-gap: 10px;
-  justify-content: center;
-}
-#searches input {
-  margin: 0px !important;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+<style lang="scss">
+.mentees-page {
+  .title {
+    display: block;
+    text-align: center;
+    margin: 2.4rem auto;
+    color: var(--color-ui-04);
+  }
 }
 </style>

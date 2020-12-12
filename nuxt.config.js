@@ -53,9 +53,6 @@ export default {
     ]
   },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/style/css/general.css', '~/assets/style/css/color.css'],
-
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~plugins/ga.js', mode: 'client' },
@@ -92,6 +89,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    // https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
@@ -104,6 +103,35 @@ export default {
     '@nuxtjs/robots',
     // https://github.com/RadKod/nuxt-change-case
     'nuxt-change-case'
+  ],
+
+  /*
+   ** Global Styles (Do not import actual styles)
+   ** https://www.npmjs.com/package/@nuxtjs/style-resources
+   */
+  styleResources: {
+    scss: [
+      // Plugins
+      '~/assets/style/scss/plugins/_browserhack.scss', // https://github.com/selimdoyranli/browser-hack-sass-mixins
+      '~/assets/style/scss/plugins/_breakpoint.scss',
+      '~/assets/style/scss/plugins/_mq.scss', // https://github.com/sass-mq/sass-mq
+      // Functions
+      '~/assets/style/scss/functions/_center.scss',
+      '~/assets/style/scss/functions/_triangle.scss',
+      // Mixins
+      '~/assets/style/scss/mixins/_font.scss',
+      '~/assets/style/scss/mixins/_gradient.scss'
+    ]
+  },
+
+  /*
+   ** Global Styles (Actual styles)
+   */
+  css: [
+    // Actual styles entry point (as import management)
+    '~/assets/style/scss/app.scss'
+    // 3rds
+    // -- 3rd css files (style files in npm package etc.)
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -151,6 +179,7 @@ export default {
   build: {
     babel: {
       compact: true
-    }
+    },
+    extractCSS: process.env.NODE_ENV === 'production'
   }
 }

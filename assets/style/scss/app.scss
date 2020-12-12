@@ -1,0 +1,24 @@
+// Lib
+@import '../css/lib/animate.min.css';
+
+// Variables
+@import '../css/variables/color.css';
+@import '../css/variables/box-shadow.css';
+@import '../css/variables/z-index.css';
+@import '../css/variables/header.css';
+
+// Base
+@import 'base/fm-normalize';
+@import 'base/font';
+@import 'base/general';
+
+// Utils
+@import 'utils/size';
+@import 'utils/state';
+
+// Shared (elements with common/shared style classes)
+@import 'shared/nuxt-layout';
+@import 'shared/header';
+@import 'shared/page';
+@import 'shared/persons';
+@import 'shared/persons-filters';

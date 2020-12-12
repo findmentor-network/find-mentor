@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="person"
-    :class="`item ${personType}`"
+    :class="`person-card ${personType}`"
     itemscope
     itemtype="https://schema.org/Person"
   >
@@ -51,7 +51,7 @@
     </div>
 
     <NuxtLink :to="`/peer/${person.slug}`" itemprop="url">
-      <div class="person-info">
+      <div class="person-card-info">
         <!-- Profile Photo -->
         <div class="profile-photo">
           <img
@@ -60,7 +60,7 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          />
+          >
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
@@ -97,7 +97,7 @@ export default {
     }
   },
   methods: {
-    getProfilePicture(githubLink) {
+    getProfilePicture (githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
@@ -109,114 +109,115 @@ export default {
 }
 </script>
 
-<style scoped>
-.item {
+<style lang="scss">
+.person-card {
+  $module: &;
   display: block;
-  width: 248px;
-  height: 340px;
   padding: 18px 12px;
   background-color: var(--color-ui-02);
   border-radius: 0;
   border: 0;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   overflow: hidden;
-}
 
-.item.mentor {
-  border-top: 4px solid var(--color-ui-03);
-}
+  &.mentor {
+    border-top: 4px solid var(--color-ui-03);
+  }
 
-.item.mentee {
-  border-top: 4px solid var(--color-ui-04);
-}
+  &.mentee {
+    border-top: 4px solid var(--color-ui-04);
+  }
 
-.social-media {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 26px 0;
-}
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 26px 0;
+  }
 
-.twitter,
-.github,
-.linkedin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 32px;
-  margin: 0 8px;
-  border-radius: 100%;
-}
+  .twitter,
+  .github,
+  .linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+    border-radius: 100%;
+  }
 
-.social-media-icon {
-  width: 16px;
-  height: 16px;
-}
+  .social-media-icon {
+    width: 16px;
+    height: 16px;
+  }
 
-.twitter {
-  background-color: #22acf3;
-}
+  .twitter {
+    background-color: #22acf3;
+  }
 
-.github {
-  background-color: #282e36;
-}
+  .github {
+    background-color: #282e36;
+  }
 
-.linkedin {
-  background-color: #0e76a8;
-}
+  .linkedin {
+    background-color: #0e76a8;
+  }
 
-.profile-photo {
-  margin: 0 0 10px 0;
-}
-.person-info {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+  .profile-photo {
+    margin: 0 0 10px 0;
+  }
 
-.profile-photo img {
-  border-radius: 100%;
-  width: 120px;
-  height: 120px;
-  border: 2px solid var(--color-ui-02);
-}
+  .person-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.non-image {
-  display: block;
-  margin: 0 auto;
-  border-radius: 100%;
-  width: 120px;
-  height: 120px;
-  border: 2px solid var(--color-ui-02);
-  background-image: url(https://findmentor.network/dummy.png);
-  background-repeat: no-repeat, repeat;
-  background-position: center;
-  background-size: cover;
-}
+    .profile-photo img {
+      border-radius: 100%;
+      width: 120px;
+      height: 120px;
+      border: 2px solid var(--color-ui-02);
+    }
 
-.name {
-  color: var(--color-text-01);
-}
+    .non-image {
+      display: block;
+      margin: 0 auto;
+      border-radius: 100%;
+      width: 120px;
+      height: 120px;
+      border: 2px solid var(--color-ui-02);
+      background-image: url(https://findmentor.network/dummy.png);
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      background-size: cover;
+    }
 
-.mentor .name {
-  color: var(--color-ui-03);
-}
+    .name {
+      color: var(--color-text-01);
+    }
 
-.mentee .name {
-  color: var(--color-ui-04);
-}
+    .interests {
+      margin: 0 auto;
+      color: var(--color-text-02);
+      text-align: center;
+    }
+  }
 
-.interests {
-  margin: 0 auto;
-  color: var(--color-text-02);
-}
+  &.mentor {
+    .person-card-info {
+      .name {
+        color: var(--color-ui-03)
+      }
+    }
+  }
 
-@media (max-width: 768px) {
-  .item {
-    width: 100%;
-    max-width: 340px;
+  &.mentee {
+    .person-card-info {
+      .name {
+        color: var(--color-ui-04)
+      }
+    }
   }
 }
-
 
 </style>
