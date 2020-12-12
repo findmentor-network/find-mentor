@@ -18,6 +18,7 @@
 
   /* Field */
   --color-field-01: #fff;
+  --color-field-02: #fff;
 
   /*   Disqus Color  */
   --color-disqus-thread: #a9a9a9;
@@ -43,6 +44,7 @@
 
   /* Field */
   --color-field-01: #000;
+  --color-field-02: #222;
 
   /*   Disqus Color  */
   --color-disqus-thread: #161616;

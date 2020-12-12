@@ -1,5 +1,5 @@
 :root {
-  --shadow-1: 0 5px 30px rgba(156, 160, 171, 0.25);
+  --shadow-1: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .dark-mode {

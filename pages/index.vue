@@ -9,7 +9,7 @@
           Mentors
         </NuxtLink>
       </h2>
-      <ul class="persons">
+      <ul class="persons mentors">
         <PersonCard
           v-for="mentor in postList.mentor.items"
           :key="mentor.slug"
@@ -28,7 +28,7 @@
           Mentees
         </NuxtLink>
       </h2>
-      <ul class="persons">
+      <ul class="persons mentees">
         <PersonCard
           v-for="mentee in postList.mentee.items"
           :key="mentee.slug"

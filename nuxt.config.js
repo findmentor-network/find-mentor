@@ -136,7 +136,8 @@ export default {
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
-    apiPrefix: 'api'
+    apiPrefix: 'api',
+    fullTextSearchFields: ['name', 'slug', 'interests', 'goals']
   },
 
   // Feed module configuration (https://content.nuxtjs.org/integrations/)

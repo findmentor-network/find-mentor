@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="person"
-    :class="`person-card ${personType}`"
+    :class="`person-card ${getPersonTypeClass({ model: $lowerCase(person.mentor) })}`"
     itemscope
     itemtype="https://schema.org/Person"
   >
@@ -80,19 +80,17 @@
 
 <script>
 import VClamp from 'vue-clamp'
+import { getPersonTypeClass } from '@/mixins'
 
 export default {
   name: 'Card',
   components: {
     VClamp
   },
+  mixins: [getPersonTypeClass],
   props: {
     person: {
       type: Object,
-      required: true
-    },
-    personType: {
-      type: String,
       required: true
     }
   },
@@ -117,7 +115,7 @@ export default {
   background-color: var(--color-ui-02);
   border-radius: 0;
   border: 0;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: var(--shadow-1);
   overflow: hidden;
 
   &.mentor {
@@ -126,6 +124,10 @@ export default {
 
   &.mentee {
     border-top: 4px solid var(--color-ui-04);
+  }
+
+  &.both {
+    border-top: 4px solid var(--color-ui-05);
   }
 
   .social-media {
@@ -215,6 +217,14 @@ export default {
     .person-card-info {
       .name {
         color: var(--color-ui-04)
+      }
+    }
+  }
+
+  &.both {
+    .person-card-info {
+      .name {
+        color: var(--color-ui-05)
       }
     }
   }

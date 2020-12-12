@@ -19,4 +19,20 @@
       height: auto;
     }
   }
+  &.mentors {
+    .person-card {
+      border-top-color: var(--color-ui-03) !important;
+    }
+    .name {
+      color: var(--color-ui-03) !important;
+    }
+  }
+  &.mentees {
+    .person-card {
+      border-top-color: var(--color-ui-04) !important;
+    }
+    .name {
+      color: var(--color-ui-04) !important;
+    }
+  }
 }
