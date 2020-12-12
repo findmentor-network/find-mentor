@@ -404,7 +404,15 @@
     "slug": "ali-ilteris-keskin",
     "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
     "displayInterests": "Backend, frontend, GNU/Linux, devops",
-    "mentorships": []
+    "mentorships": [
+      {
+        "": "12.12.2020 17:46:29",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
+        "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
+        "slug": "cevrimici-kitap-galerisi"
+      }
+    ]
   },
   {
     "": "08.12.2020 11:47:37",
