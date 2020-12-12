@@ -1,34 +1,44 @@
 <template>
   <div>
     <div class="container">
-      <ul class="profile-card" :style="profileCardStyleAsPersonType" itemscope itemtype="https://schema.org/Person">
+      <div
+        class="profile-card"
+        :style="profileCardStyleAsPersonType"
+        itemscope
+        itemtype="https://schema.org/Person"
+      >
         <div class="left-main">
-          <li v-if="avatar.length" loading="lazy">
-            <img :src="avatar" class="avatar" itemprop="image" :alt="name">
-          </li>
+          <div v-if="avatar.length" loading="lazy">
+            <img :src="avatar" class="avatar" itemprop="image" :alt="name" />
+          </div>
           <div class="main">
-            <app-badge :bg-color="getPersonTypeColor({ model: type })" :text-color="getPersonTypeColor({ model: type })">
+            <div v-if="name" class="row name" itemprop="name">
+              {{ name }}
+            </div>
+            <app-badge
+              :bg-color="getPersonTypeColor({ model: type })"
+              :text-color="getPersonTypeColor({ model: type })"
+            >
               {{ getPersonTypeLabel({ model: type }) }}
             </app-badge>
-            <li v-if="name" class="name" itemprop="name">
-              {{ name }}
-            </li>
-            <hr>
-            <li
-              v-if="interests && interests.length"
-              class="text"
-              itemprop="seeks"
-            >
-              <b>Interests:</b> {{ interests }}
-            </li>
-            <li
-              v-if="goals && goals.length"
-              class="text"
-              itemprop="description"
-            >
-              <b>Goals:</b> {{ goals }}
-            </li>
-            <div class="social-media">
+            <hr />
+            <div class="info">
+              <div
+                v-if="interests && interests.length"
+                class="row text"
+                itemprop="seeks"
+              >
+                <b>Interests:</b> {{ interests }}
+              </div>
+              <div
+                v-if="goals && goals.length"
+                class="row text"
+                itemprop="description"
+              >
+                <b>Goals:</b> {{ goals }}
+              </div>
+            </div>
+            <div class="row social-media">
               <li v-if="twitter.length > 0" class="links">
                 <a :href="twitter" target="_blank" itemprop="sameAs">
                   <button class="button twitter">
@@ -64,39 +74,39 @@
               </li>
             </div>
           </div>
+          <div class="text">
+            <a
+              :href="`https://findmentor.network/peer/` + slug"
+              target="_blank"
+              rel="noopener noreferrer"
+              itemprop="url"
+            >
+              <qrcode
+                class="qrcode"
+                :value="`https://findmentor.network/peer/` + slug"
+                :options="{ width: 200 }"
+              />
+            </a>
+          </div>
         </div>
-        <li class="text">
-          <a
-            :href="`https://findmentor.network/peer/` + slug"
-            target="_blank"
-            rel="noopener noreferrer"
-            itemprop="url"
-          >
-            <qrcode
-              class="qrcode"
-              :value="`https://findmentor.network/peer/` + slug"
-              :options="{ width: 200 }"
-            />
-          </a>
-        </li>
-      </ul>
+      </div>
       <h2 v-if="markdown.length">
         GitHub
-        <hr>
+        <hr />
       </h2>
-      <div v-html="markdown" />
-      <hr>
+      <div class="readme" v-html="markdown" />
+      <hr />
       <h2>
         Gave Feedback
       </h2>
 
-      <hr>
+      <hr />
       <div id="disqus_thread" />
-      <hr>
+      <hr />
       <h2>
         Active Mentorships
       </h2>
-      <hr>
+      <hr />
 
       <div class="accordion" role="tablist">
         <b-card
@@ -107,9 +117,7 @@
         >
           <b-card-header header-tag="header" class="p-1" role="tab">
             <b-button v-b-toggle="mentorship.slug" block variant="dark">
-              {{
-                mentorship.slug
-              }}
+              {{ mentorship.slug }}
             </b-button>
           </b-card-header>
           <b-collapse
@@ -118,14 +126,21 @@
             role="tabpanel"
           >
             <b-card-body>
-              <b-card-text v-if="projects[index]"><div v-html="projects[index]"/></b-card-text>
-              <b-card-text v-else>This project does not have readme file, <a :href="mentorship.project_adress" target="_blank">please visit project to see content.</a></b-card-text>
+              <b-card-text v-if="projects[index]"
+                ><div v-html="projects[index]"
+              /></b-card-text>
+              <b-card-text v-else
+                >This project does not have readme file,
+                <a :href="mentorship.project_adress" target="_blank"
+                  >please visit project to see content.</a
+                ></b-card-text
+              >
             </b-card-body>
           </b-collapse>
         </b-card>
       </div>
 
-      <hr>
+      <hr />
       <Timeline
         v-if="twitter.length"
         :id="twitterHandle"
@@ -134,7 +149,7 @@
       />
       <h2>Gave Feedback</h2>
       <div id="disqus_thread" />
-      <hr>
+      <hr />
       <template v-if="twitter.length">
         <Timeline
           v-show="$colorMode.value === 'dark'"
@@ -206,23 +221,23 @@ export default {
       default: []
     }
   },
-  data () {
+  data() {
     return {
       markdown: '',
       projects: []
     }
   },
   computed: {
-    twitterHandle () {
+    twitterHandle() {
       return this.twitter.split('twitter.com/')[1]
     },
-    profileCardStyleAsPersonType () {
+    profileCardStyleAsPersonType() {
       return `
         border-top: 4px solid ${this.getPersonTypeColor({ model: this.type })}
       `
     }
   },
-  created () {
+  created() {
     if (this.github.length) {
       this.renderMarkdown()
     }
@@ -231,14 +246,14 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown () {
+    async renderMarkdown() {
       const username = this.github
         .replace(/\/$/gi, '')
         .split('/')
         .pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then((res) => {
+      ).then(res => {
         if (res.status === 200) {
           return res.text()
         } else {
@@ -248,23 +263,23 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects () {
+    async renderMentorshipProjects() {
       const requests = []
-      this.mentorships.map((mentorship) => {
+      this.mentorships.map(mentorship => {
         const url = mentorship.project_adress
           .split('/')
           .slice(3)
           .join('/')
         requests.push(
           fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
-            .then((res) => {
+            .then(res => {
               if (res.status === 200) {
                 return res.text()
               } else {
                 return ''
               }
             })
-            .then(async (markdownContent) => {
+            .then(async markdownContent => {
               const { html } = await md.toMarkup(markdownContent)
               return html
             })
@@ -306,8 +321,7 @@ export default {
 }
 
 .social-media {
-  display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -341,7 +355,6 @@ export default {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  margin-right: 30px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -350,23 +363,49 @@ export default {
   justify-content: space-between;
 }
 
+.readme {
+  overflow: scroll;
+}
+
+.readme::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 50px;
+  }
+
+  .qrcode {
+    margin-right: unset;
+  }
+
+  .readme {
+    overflow: unset;
+  }
+}
+
+.row {
+  margin-right: unset;
+  margin-left: unset;
+}
+
 .main {
-  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
   font-size: 17px;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .markdown {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.qrcode {
-  margin-right: 24px;
 }
 
 @media (max-width: 1098px) {
@@ -388,9 +427,6 @@ export default {
     justify-content: center;
     align-items: center;
   }
-  .qrcode {
-    margin-right: 32px;
-  }
 }
 
 #disqus_thread {
@@ -400,8 +436,8 @@ export default {
   padding: 5px;
 }
 
-.accordion-color{
-  background-color: var( --color-ui-02);
-  border : none;
-  }
+.accordion-color {
+  background-color: var(--color-ui-02);
+  border: none;
+}
 </style>
