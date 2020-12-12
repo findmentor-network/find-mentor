@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page peer-page">
     <Person
       :type="personType"
       :slug="doc.slug"

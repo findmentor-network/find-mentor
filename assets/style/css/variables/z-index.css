@@ -1,0 +1,5 @@
+:root {
+  --z-index-overlay: 996;
+  --z-index-header: 995;
+  --z-index-sticky: 992;
+}

@@ -1,0 +1,11 @@
+// Same as bootstrap 4 media queries - breakpoints
+$mq-breakpoints: (
+  // Until sm
+  mobile: 576px,
+  // md
+  tablet: 768px,
+  // lg
+  desktop: 992px,
+  // xl
+  wide: 1200px
+) !default;

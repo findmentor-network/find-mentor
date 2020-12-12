@@ -1,31 +1,31 @@
 <template>
-  <div id="jumbotron-mentor" class="container">
+  <div class="page guide-page">
+    <div id="jumbotron-mentor" class="container">
+      <b-jumbotron text-variant="black" border-variant="dark">
+        <h1>Founders</h1>
+        <p><i>As contributors are the actual founders of this collaborative artwork.</i></p>
+        <p align="center">
+          <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.fmn_url || c.html_url" target="_blank">
+            <img class="contr-image" :src="c.avatar_url">
+          </a>
+        </p>
+      </b-jumbotron>
 
-    <b-jumbotron text-variant="black" border-variant="dark" >
-      <h1>Founders</h1>
-      <p><i>As contributors are the actual founders of this collaborative artwork.</i></p>
-      <p align="center">
-        <a v-for="c in contribs" :key="c.url" class="contr-a" :href="c.fmn_url || c.html_url" target="_blank">
-          <img class="contr-image" :src="c.avatar_url">
-        </a>
-      </p>
-    </b-jumbotron>
-
-    <b-jumbotron
-      v-for="(row, index) in rows"
-      :key="index"
-      text-variant="black"
-      border-variant="dark"
-    >
-      <nuxt-content :document="row" />
-    </b-jumbotron>
-
+      <b-jumbotron
+        v-for="(row, index) in rows"
+        :key="index"
+        text-variant="black"
+        border-variant="dark"
+      >
+        <nuxt-content :document="row" />
+      </b-jumbotron>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content }) {
+  async asyncData ({ $content }) {
     const rows = await Promise.all([
       $content('mentees').fetch(),
       $content('mentors').fetch(),
@@ -68,6 +68,5 @@ html.dark-mode #jumbotron-mentor p,
 html.dark-mode #jumbotron-mentor li {
     color: #ddd;
 }
-
 
 </style>
