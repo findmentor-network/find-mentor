@@ -187,10 +187,10 @@ export default {
       margin-bottom: 8px;
     }
   }
-  .profile-person-card-meta__infoBox-right{  
+  .profile-person-card-meta__infoBox-right {
     flex-direction: column;
     display: flex;
-    }
+  }
   .profile-person-card-social-media {
     &__button {
       display: inline-flex;
