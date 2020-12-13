@@ -54,18 +54,33 @@
               <b>Goals:</b> {{ person.goals }}
             </div>
           </div>
-          <a
-            :href="`https://findmentor.network/peer/` + person.slug"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="profile-person-card-meta__qrCode"
-            itemprop="url"
-          >
-            <qrcode
-              :value="`https://findmentor.network/peer/` + person.slug"
-              :options="{ width: 200 }"
-            />
-          </a>
+            <div>
+            <a
+              :href="`https://findmentor.network/peer/` + person.slug"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-person-card-meta__qrCode"
+              itemprop="url"
+            >
+              <qrcode
+                :value="`https://findmentor.network/peer/` + person.slug"
+                :options="{ width: 200 }"
+              />
+            </a>
+            <a
+              class="profile-person-card-meta__twitter"
+              :href="
+                'https://twitter.com/intent/tweet?text=Hey! Here is the my find mentor profile&url=https://findmentor.network/peer/' +
+                person.slug
+              "
+            >
+              <font-awesome-icon
+                class="profile-person-card-meta__twitter-icon"
+                :icon="['fab', 'twitter']"
+              />
+              Share at Twitter
+            </a>
+          </div>
         </div>
       </div>
       <div class="col-12 col-lg-9 offset-lg-3 pl-lg-0">
@@ -152,7 +167,12 @@ export default {
     border-radius: 100%;
     box-shadow: var(--shadow-1);
   }
-
+ .profile-person-card-meta__twitter {
+    margin: 25px;
+  }
+  .profile-person-card-meta__twitter-icon {
+    margin-right: 10px;
+  }
   .profile-person-card-meta {
     display: flex;
 

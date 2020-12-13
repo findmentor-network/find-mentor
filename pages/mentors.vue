@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="title">Mentors</h1>
       <ul class="persons mentors">
-        <h5 v-if="postList.mentor.items.length <= 0" class="d-block mb-4">
+        <h5 v-if="postList.mentor.items.length <= 0  && !isLoading" class="d-block mb-4">
           No results...
         </h5>
         <PersonCard
@@ -32,9 +32,11 @@ export default {
       .limit(this.postList.mentor.limit)
       .skip(this.postList.mentor.skip)
       .fetch()
+    this.isLoading = false
   },
   data() {
     return {
+      isLoading: true,
       postList: {
         mentor: {
           items: [],
