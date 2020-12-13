@@ -3,7 +3,7 @@
     v-if="person"
     :class="`person-card ${getPersonTypeClass({
       model: $lowerCase(person.mentor),
-    })} col-12 col-md-6 col-lg-4 col-xl-3`"
+    })}`"
     itemscope
     itemtype="https://schema.org/Person"
   >
