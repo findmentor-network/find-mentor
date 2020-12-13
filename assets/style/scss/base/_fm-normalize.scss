@@ -2,3 +2,10 @@
 html {
   // Base font size etc.
 }
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}

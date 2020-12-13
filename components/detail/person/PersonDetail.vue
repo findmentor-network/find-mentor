@@ -12,15 +12,15 @@
         />
         GitHub
       </h2>
-      <hr />
-      <div class="app-card readme" v-html="markdown" />
+      <hr>
+      <div class="app-tile readme" v-html="markdown" />
     </template>
 
     <!-- Active Mentorships -->
     <template v-if="person.mentorships.length > 0">
       <h2>Active Mentorships</h2>
-      <hr />
-      <div class="app-card accordion" role="tablist">
+      <hr>
+      <div class="app-tile accordion" role="tablist">
         <b-card
           v-for="(mentorship, index) in person.mentorships"
           :key="mentorship.slug"
@@ -43,15 +43,15 @@
                   class="float-right"
                   :href="mentorship.project_adress"
                   target="_blank"
-                  >Go to project page</a
-                >
+                >Go to project page</a>
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
                 This project does not have README.md file,
-                <a :href="mentorship.project_adress" target="_blank"
-                  >please visit project to see content.</a
-                >
+                <a
+                  :href="mentorship.project_adress"
+                  target="_blank"
+                >please visit project to see content.</a>
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -64,8 +64,8 @@
         <!-- Disqus -->
         <template>
           <h2>💬 Give Feedback</h2>
-          <hr />
-          <div id="disqus_thread" class="app-card disqus_thread" />
+          <hr>
+          <div id="disqus_thread" class="app-tile disqus_thread" />
         </template>
       </div>
       <div class="col-lg-6">
@@ -78,7 +78,7 @@
             />
             Tweets
           </h2>
-          <hr />
+          <hr>
           <div class="twitter-wrapper">
             <Timeline
               v-show="$colorMode.value === 'dark'"
@@ -106,26 +106,26 @@ const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    Timeline,
+    Timeline
   },
   props: {
     person: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
-  data() {
+  data () {
     return {
       markdown: '',
-      projects: [],
+      projects: []
     }
   },
   computed: {
-    twitterHandle() {
+    twitterHandle () {
       return this.person.twitter_handle.split('twitter.com/')[1]
-    },
+    }
   },
-  created() {
+  created () {
     if (this.person.github.length > 0) {
       this.renderMarkdown()
     }
@@ -134,7 +134,7 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown() {
+    async renderMarkdown () {
       const username = this.person.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
@@ -148,7 +148,7 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects() {
+    async renderMentorshipProjects () {
       const requests = []
       this.person.mentorships.map((mentorship) => {
         const url = mentorship.project_adress.split('/').slice(3).join('/')
@@ -168,8 +168,8 @@ export default {
         )
       })
       this.projects = await Promise.all(requests)
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -1,56 +1,53 @@
 <template>
   <div class="page mentees-page">
     <div class="container">
-      <h1 class="title">Mentees</h1>
-      <ul class="persons mentees">
-        <h5
-          v-if="postList.mentee.items.length <= 0 && !isLoading"
-          class="d-block mb-4"
-        >
-          No results...
-        </h5>
-        <PersonCard
-          v-for="(mentee, index) in postList.mentee.items"
-          v-else
-          :key="index"
-          :person="mentee"
-          person-type="mentee"
-        />
-      </ul>
-      <client-only>
-        <infinite-loading
-          v-if="postList.mentee.items.length >= postList.mentee.limit"
-          @infinite="loadMoreMentees"
-        />
-      </client-only>
+      <h1 class="title">
+        Mentees
+      </h1>
+
+      <template v-if="$fetchState.pending">
+        <app-spinner class="d-block mx-auto" />
+      </template>
+
+      <template v-else-if="$fetchState.error">
+        <span class="d-block text-center text-error my-4">Fetch error...</span>
+      </template>
+
+      <template v-else>
+        <PersonList :persons="postList.mentee.items" strict-type="mentees" />
+        <client-only>
+          <infinite-loading
+            v-if="postList.mentee.items.length >= postList.mentee.limit"
+            @infinite="loadMoreMentees"
+          />
+        </client-only>
+      </template>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch() {
+  async fetch () {
     this.postList.mentee.items = await this.$content('persons')
       .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
-    this.isLoading = false
   },
-  data() {
+  data () {
     return {
-      isLoading: true,
       postList: {
         mentee: {
           items: [],
           limit: 16,
-          skip: 0,
-        },
-      },
+          skip: 0
+        }
+      }
     }
   },
   methods: {
-    async loadMoreMentees($state) {
+    async loadMoreMentees ($state) {
       this.postList.mentee.skip += this.postList.mentee.limit
 
       const mentees = await this.$content('persons')
@@ -65,8 +62,8 @@ export default {
       if (mentees.length <= 0) {
         $state.complete()
       }
-    },
-  },
+    }
+  }
 }
 </script>
 
