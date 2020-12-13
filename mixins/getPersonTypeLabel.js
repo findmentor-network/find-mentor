@@ -8,7 +8,7 @@ export default {
       } else if (type === 'mentee') {
         return 'Mentee'
       } else {
-        return 'Mentor ve Mentee'
+        return 'Mentor & Mentee'
       }
     },
   },
