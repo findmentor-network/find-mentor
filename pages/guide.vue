@@ -4,8 +4,10 @@
       <b-jumbotron text-variant="black" border-variant="dark">
         <h1>Founders</h1>
         <p>
-          <i>As contributors are the actual founders of this collaborative
-            artwork.</i>
+          <i
+            >As contributors are the actual founders of this collaborative
+            artwork.</i
+          >
         </p>
         <p align="center">
           <a
@@ -15,7 +17,7 @@
             :href="c.fmn_url || c.html_url"
             target="_blank"
           >
-            <img class="contr-image" :src="c.avatar_url">
+            <img class="contr-image" :src="c.avatar_url" />
           </a>
         </p>
       </b-jumbotron>
@@ -34,13 +36,13 @@
 
 <script>
 export default {
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const rows = await Promise.all([
       $content('mentees').fetch(),
       $content('mentors').fetch(),
       $content('how-to-contact').fetch(),
       $content('github-best-practises').fetch(),
-      $content('linkedin-best-practises').fetch()
+      $content('linkedin-best-practises').fetch(),
     ])
 
     let contribs = await $content('contribs').fetch()
@@ -48,14 +50,14 @@ export default {
 
     return { rows, contribs }
   },
-  created () {
+  created() {
     this.checkGuideVisited()
   },
   methods: {
-    checkGuideVisited () {
+    checkGuideVisited() {
       window.localStorage.setItem('guideVisited', true)
-    }
-  }
+    },
+  },
 }
 </script>
 
