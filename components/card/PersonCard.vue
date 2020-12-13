@@ -3,7 +3,7 @@
     v-if="person"
     :class="`person-card ${getPersonTypeClass({
       model: $lowerCase(person.mentor),
-    })}`"
+    })} col-12 col-md-6 col-lg-4 col-xl-3`"
     itemscope
     itemtype="https://schema.org/Person"
   >
@@ -113,7 +113,8 @@ export default {
 .person-card {
   $module: &;
   display: block;
-  padding: 18px 12px;
+  margin-left: -4%;
+  padding: 36px 12px;
   background-color: var(--color-ui-02);
   border-radius: 0;
   border: 0;
