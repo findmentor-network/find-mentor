@@ -1,9 +1,7 @@
 <template>
   <div class="page mentors-page">
     <div class="container">
-      <h1 class="title">
-        Mentors
-      </h1>
+      <h1 class="title">Mentors</h1>
 
       <template v-if="$fetchState.pending">
         <app-spinner class="d-block mx-auto" />
@@ -28,7 +26,7 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     this.postList.mentor.items = await this.$content('persons')
       .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
       .limit(this.postList.mentor.limit)
@@ -36,20 +34,20 @@ export default {
       .fetch()
     this.isLoading = false
   },
-  data () {
+  data() {
     return {
       isLoading: true,
       postList: {
         mentor: {
           items: [],
           limit: 16,
-          skip: 0
-        }
-      }
+          skip: 0,
+        },
+      },
     }
   },
   methods: {
-    async loadMoreMentors ($state) {
+    async loadMoreMentors($state) {
       this.postList.mentor.skip += this.postList.mentor.limit
 
       const mentors = await this.$content('persons')
@@ -64,8 +62,8 @@ export default {
       if (mentors.length <= 0) {
         $state.complete()
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

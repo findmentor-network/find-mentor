@@ -22,18 +22,18 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     this.postList.items = await this.$content('persons')
       .search(this.$lowerCase(this.$route.params.keyword))
       .fetch()
   },
-  data () {
+  data() {
     return {
       postList: {
-        items: []
-      }
+        items: [],
+      },
     }
-  }
+  },
 }
 </script>
 
