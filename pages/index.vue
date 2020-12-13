@@ -19,14 +19,7 @@
           👉 Mentors
         </NuxtLink>
       </h2>
-      <ul class="persons mentors">
-        <PersonCard
-          v-for="mentor in mentors"
-          :key="mentor.slug"
-          :person="mentor"
-          person-type="mentor"
-        />
-      </ul>
+      <PersonList :persons="mentors" strict-type="mentors" />
       <NuxtLink class="float-right" to="/mentors/">
         🤳 Click here for all mentors
       </NuxtLink>
@@ -39,14 +32,7 @@
           👉 Mentees
         </NuxtLink>
       </h2>
-      <ul class="persons mentees">
-        <PersonCard
-          v-for="mentee in mentees"
-          :key="mentee.slug"
-          :person="mentee"
-          person-type="mentee"
-        />
-      </ul>
+      <PersonList :persons="mentees" strict-type="mentees" />
       <NuxtLink class="float-right" to="/mentees/">
         🤳 Click here for all mentees
       </NuxtLink>

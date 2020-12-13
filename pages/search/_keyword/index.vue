@@ -5,24 +5,16 @@
         Search Results for <strong>{{ $route.params.keyword }}</strong>
       </h1>
 
-      <p v-if="$fetchState.pending" class="text-center">Loading...</p>
-      <p v-else-if="$fetchState.error" class="text-center text-error">
-        Fetch Error...
-      </p>
+      <template v-if="$fetchState.pending">
+        <app-spinner class="d-block mx-auto" />
+      </template>
+
+      <template v-else-if="$fetchState.error">
+        <span class="d-block text-center text-error my-4">Fetch error...</span>
+      </template>
+
       <template v-else>
-        <!-- Persons -->
-        <ul class="persons mixed">
-          <h5 v-if="postList.items.length <= 0" class="d-block mb-4">
-            No results...
-          </h5>
-          <PersonCard
-            v-for="(mentor, index) in postList.items"
-            v-else
-            :key="index"
-            :person="mentor"
-            :person-type="$lowerCase(mentor.mentor)"
-          />
-        </ul>
+        <PersonList :persons="postList.items" />
       </template>
     </div>
   </div>
@@ -30,18 +22,18 @@
 
 <script>
 export default {
-  async fetch() {
+  async fetch () {
     this.postList.items = await this.$content('persons')
       .search(this.$lowerCase(this.$route.params.keyword))
       .fetch()
   },
-  data() {
+  data () {
     return {
       postList: {
-        items: [],
-      },
+        items: []
+      }
     }
-  },
+  }
 }
 </script>
 
