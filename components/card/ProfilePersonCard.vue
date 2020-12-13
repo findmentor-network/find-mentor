@@ -54,7 +54,7 @@
               <b>Goals:</b> {{ person.goals }}
             </div>
           </div>
-            <div>
+          <div>
             <a
               :href="`https://findmentor.network/peer/` + person.slug"
               target="_blank"
@@ -167,7 +167,7 @@ export default {
     border-radius: 100%;
     box-shadow: var(--shadow-1);
   }
- .profile-person-card-meta__twitter {
+  .profile-person-card-meta__twitter {
     margin: 25px;
   }
   .profile-person-card-meta__twitter-icon {

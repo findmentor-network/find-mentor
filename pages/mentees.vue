@@ -3,7 +3,10 @@
     <div class="container">
       <h1 class="title">Mentees</h1>
       <ul class="persons mentees">
-        <h5 v-if="postList.mentee.items.length <= 0  && !isLoading" class="d-block mb-4">
+        <h5
+          v-if="postList.mentee.items.length <= 0 && !isLoading"
+          class="d-block mb-4"
+        >
           No results...
         </h5>
         <PersonCard
