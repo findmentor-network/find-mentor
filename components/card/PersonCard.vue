@@ -113,8 +113,7 @@ export default {
 .person-card {
   $module: &;
   display: block;
-  margin-left: -4%;
-  padding: 36px 12px;
+  padding: 18px 12px;
   background-color: var(--color-ui-02);
   border-radius: 0;
   border: 0;
