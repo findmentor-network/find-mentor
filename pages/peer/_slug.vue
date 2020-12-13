@@ -3,7 +3,12 @@
     <div class="d-flex flex-wrap">
       <div class="d-none d-xl-block col-xl-2">
         <div class="vh-100 d-flex align-items-center justify-content-center">
-          <PersonNavigationButton v-if="navigation.person.prev" ref="prevPerson" :person="navigation.person.prev" direction="left" />
+          <PersonNavigationButton
+            v-if="navigation.person.prev"
+            ref="prevPerson"
+            :person="navigation.person.prev"
+            direction="left"
+          />
         </div>
       </div>
       <div class="col-xl-8">
@@ -19,7 +24,12 @@
       </div>
       <div class="d-none d-xl-block col-xl-2">
         <div class="vh-100 d-flex align-items-center justify-content-center">
-          <PersonNavigationButton v-if="navigation.person.next" ref="nextPerson" :person="navigation.person.next" direction="right" />
+          <PersonNavigationButton
+            v-if="navigation.person.next"
+            ref="nextPerson"
+            :person="navigation.person.next"
+            direction="right"
+          />
         </div>
       </div>
     </div>
@@ -28,7 +38,7 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     const { $content, params, error } = this.$nuxt.context
 
     const result = await $content('persons')
@@ -50,77 +60,83 @@ export default {
       return error({ statusCode: 404, message: 'Not found' })
     }
   },
-  data () {
+  data() {
     return {
       person: null,
       navigation: {
         person: {
           prev: null,
-          next: null
-        }
-      }
+          next: null,
+        },
+      },
     }
   },
-  head () {
+  head() {
     return {
       title: this.person ? this.person.name : 'Peer',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
+          content: this.person
+            ? `${this.person.name} - ${this.person.interests}`
+            : 'Peer',
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
+          content: this.person
+            ? `${this.person.name} - ${this.person.interests}`
+            : 'Peer',
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
+          content: this.person
+            ? `${this.person.name} - ${this.person.interests}`
+            : 'Peer',
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: this.person ? this.person.name : 'Peer'
-        }
+          content: this.person ? this.person.name : 'Peer',
+        },
       ],
       script: [
         { src: '/disqus.js' },
-        { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' }
-      ]
+        { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' },
+      ],
     }
-  }
+  },
 }
 </script>

@@ -1,7 +1,7 @@
 export default {
   methods: {
-    getPersonTypeLabel({ model }) {
-      const type = model
+    getPersonTypeLabel ({ model }) {
+      const type = this.$lowerCase(model)
 
       if (type === 'mentor') {
         return 'Mentor'
@@ -10,6 +10,6 @@ export default {
       } else {
         return 'Mentor & Mentee'
       }
-    },
-  },
+    }
+  }
 }

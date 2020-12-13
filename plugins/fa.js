@@ -4,7 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faTwitter,
   faGithub,
-  faLinkedin
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 

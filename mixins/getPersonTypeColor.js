@@ -1,7 +1,7 @@
 export default {
   methods: {
-    getPersonTypeColor({ model }) {
-      const type = model
+    getPersonTypeColor ({ model }) {
+      const type = this.$lowerCase(model)
 
       if (type === 'mentor') {
         return 'var(--color-ui-03)'
@@ -10,6 +10,6 @@ export default {
       } else {
         return 'var(--color-ui-05)'
       }
-    },
-  },
+    }
+  }
 }

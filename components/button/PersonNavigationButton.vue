@@ -6,9 +6,18 @@
     :class="`person-navigation-button--${direction}`"
     role="button"
   >
-    <font-awesome-icon class="person-navigation-button__icon" :icon="`arrow-${direction}`" color="var(--color-text-02)" />
+    <font-awesome-icon
+      class="person-navigation-button__icon"
+      :icon="`arrow-${direction}`"
+      color="var(--color-text-02)"
+    />
     <img class="person-navigation-button__avatar" :src="person.avatar">
-    <v-clamp class="person-navigation-button__name" tag="strong" autoresize :max-lines="1">
+    <v-clamp
+      class="person-navigation-button__name"
+      tag="strong"
+      autoresize
+      :max-lines="1"
+    >
       {{ getCapitalPersonName({ model: person.name }) }}
     </v-clamp>
     <app-badge

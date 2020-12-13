@@ -1,8 +1,5 @@
 <template>
   <div class="page main-page">
-    <nuxt-link to="/peer/emre-savci">
-      goooo
-    </nuxt-link>
     <header>
       <nuxt-content :document="page" />
       <NuxtLink
