@@ -1,7 +1,9 @@
 <template>
   <div
     v-if="person"
-    :class="`person-card ${getPersonTypeClass({ model: $lowerCase(person.mentor) })}`"
+    :class="`person-card ${getPersonTypeClass({
+      model: $lowerCase(person.mentor),
+    })}`"
     itemscope
     itemtype="https://schema.org/Person"
   >
@@ -60,7 +62,7 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          >
+          />
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
@@ -85,25 +87,25 @@ import { getPersonTypeClass } from '@/mixins'
 export default {
   name: 'Card',
   components: {
-    VClamp
+    VClamp,
   },
   mixins: [getPersonTypeClass],
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   methods: {
-    getProfilePicture (githubLink) {
+    getProfilePicture(githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
         return ''
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -208,7 +210,7 @@ export default {
   &.mentor {
     .person-card-info {
       .name {
-        color: var(--color-ui-03)
+        color: var(--color-ui-03);
       }
     }
   }
@@ -216,7 +218,7 @@ export default {
   &.mentee {
     .person-card-info {
       .name {
-        color: var(--color-ui-04)
+        color: var(--color-ui-04);
       }
     }
   }
@@ -224,10 +226,9 @@ export default {
   &.both {
     .person-card-info {
       .name {
-        color: var(--color-ui-05)
+        color: var(--color-ui-05);
       }
     }
   }
 }
-
 </style>

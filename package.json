@@ -8,9 +8,14 @@
     "start": "nuxt start",
     "data": "node generate.js",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "lint": "yarn lint:js",
     "prettier": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn prettier"
+    }
   },
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^1.0.2",
@@ -28,6 +33,7 @@
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "got": "^11.8.0",
+    "husky": "^4.3.5",
     "nuxt": "^2.14.6",
     "nuxt-change-case": "^1.0.1",
     "slugify": "^1.4.6",

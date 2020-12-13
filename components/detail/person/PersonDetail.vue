@@ -7,18 +7,20 @@
       <!-- Github README -->
       <template v-if="markdown.length > 0">
         <h2>
+          <font-awesome-icon
+            class="social-media-icon"
+            :icon="['fab', 'github']"
+          />
           GitHub
-        </h2>
-        <hr>
+          </h2>
+        <hr />
         <div class="app-card readme" v-html="markdown" />
       </template>
 
       <!-- Active Mentorships -->
       <template v-if="person.mentorships.length > 0">
-        <h2>
-          Active Mentorships
-        </h2>
-        <hr>
+        <h2>Active Mentorships</h2>
+        <hr />
         <div class="app-card accordion" role="tablist">
           <b-card
             v-for="(mentorship, index) in person.mentorships"
@@ -42,15 +44,15 @@
                     class="float-right"
                     :href="mentorship.project_adress"
                     target="_blank"
-                  >Go to project page</a>
+                    >Go to project page</a
+                  >
                   <div v-html="projects[index]" />
                 </b-card-text>
                 <b-card-text v-else>
                   This project does not have README.md file,
-                  <a
-                    :href="mentorship.project_adress"
-                    target="_blank"
-                  >please visit project to see content.</a>
+                  <a :href="mentorship.project_adress" target="_blank"
+                    >please visit project to see content.</a
+                  >
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -73,10 +75,15 @@
           <!-- Tweets -->
           <template v-if="person.twitter_handle.length > 0">
             <h2>
+              <font-awesome-icon
+                class="social-media-icon"
+                :icon="['fab', 'twitter']"
+              />
               Tweets
             </h2>
-            <hr>
-            <Timeline
+            <hr />
+            <div class="twitter-wrapper">
+              <Timeline
               v-show="$colorMode.value === 'dark'"
               :id="twitterHandle"
               source-type="profile"
@@ -88,6 +95,7 @@
               source-type="profile"
               :options="{ tweetLimit: '5', theme: 'light' }"
             />
+            </div>
           </template>
         </div>
       </div>
@@ -102,27 +110,27 @@ const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    Timeline
+    Timeline,
   },
   props: {
     person: {
       type: Object,
       required: false,
-      default: null
-    }
+      default: null,
+    },
   },
-  data () {
+  data() {
     return {
       markdown: '',
-      projects: []
+      projects: [],
     }
   },
   computed: {
-    twitterHandle () {
+    twitterHandle() {
       return this.person.twitter_handle.split('twitter.com/')[1]
-    }
+    },
   },
-  created () {
+  created() {
     if (this.person.github.length > 0) {
       this.renderMarkdown()
     }
@@ -131,11 +139,8 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown () {
-      const username = this.person.github
-        .replace(/\/$/gi, '')
-        .split('/')
-        .pop()
+    async renderMarkdown() {
+      const username = this.person.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
       ).then((res) => {
@@ -148,13 +153,10 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects () {
+    async renderMentorshipProjects() {
       const requests = []
       this.person.mentorships.map((mentorship) => {
-        const url = mentorship.project_adress
-          .split('/')
-          .slice(3)
-          .join('/')
+        const url = mentorship.project_adress.split('/').slice(3).join('/')
         requests.push(
           fetch(`https://raw.githubusercontent.com/${url}/master/README.md`)
             .then((res) => {
@@ -171,8 +173,8 @@ export default {
         )
       })
       this.projects = await Promise.all(requests)
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -198,6 +200,7 @@ export default {
 
 .disqus_thread {
   background-color: var(--color-disqus-thread) !important;
+  border-radius: 5px;
 }
 
 .accordion {

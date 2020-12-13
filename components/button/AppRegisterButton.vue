@@ -1,16 +1,12 @@
 <template>
-  <a
-    class="app-register-button"
-    href="https://forms.gle/pQwFZBXEyqBRDU2H9"
-    target="_blank"
-  >
-    Register
-  </a>
+    <b-nav-item target="_blank" href="https://forms.gle/pQwFZBXEyqBRDU2H9">
+      <b-button class="app-register-button" variant="outline-primary">Join Now</b-button>
+    </b-nav-item>
 </template>
 
 <script>
 export default {
-  name: 'AppRegisterButton'
+  name: 'AppRegisterButton',
 }
 </script>
 

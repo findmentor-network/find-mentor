@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 const fs = require('fs')
 const got = require('got')
 const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
@@ -8,7 +9,7 @@ const slugger = (text) =>
   slugify(text, {
     replacement: '-',
     lower: true,
-    locale: 'tr'
+    locale: 'tr',
   })
 
 const mapper = (posts) => {
@@ -40,7 +41,9 @@ const generateAvatar = ({ name, github }) => {
 
 const fixProtocol = (url) => {
   return url
-    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '') : '' }
+    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '')
+    : ''
+}
 
 const clearData = (posts) => {
   return posts.map((post) => {
@@ -68,14 +71,14 @@ async function getData() {
   try {
     // request datas
     const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
-    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
-    const responses = Promise.all([
-      got(attendies_url),
-      got(contribs_url)
-    ])
+    const contribs_url =
+      'https://api.github.com/repos/cagataycali/find-mentor/contributors'
+    const responses = Promise.all([got(attendies_url), got(contribs_url)])
 
     // convert to json
-    const [attendies, contribs] = (await responses).map(res => JSON.parse(res.body));
+    const [attendies, contribs] = (await responses).map((res) =>
+      JSON.parse(res.body)
+    )
 
     // clear data
     let [persons, activeMentorships] = attendies.valueRanges
@@ -97,11 +100,11 @@ async function getData() {
     contribs.splice(0, 1)
 
     // check if contributor has find-mentor profile
-    contribs.forEach(contrib => {
-      for (let person of persons) {
-        if (person.github == contrib.html_url) {
+    contribs.forEach((contrib) => {
+      for (const person of persons) {
+        if (person.github === contrib.html_url) {
           contrib.fmn_url = `https://findmentor.network/peer/${person.slug}`
-          break;
+          break
         }
       }
     })
@@ -109,6 +112,7 @@ async function getData() {
     const data = { persons, activeMentorships, contribs }
     return { status: 200, data }
   } catch (err) {
+    // eslint-disable-next-line no-console
     console.log(err)
     return { status: 404 }
   }
@@ -129,5 +133,8 @@ getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
     'static/activeMentorships.json',
     JSON.stringify({ mentorships: activeMentorships }, null, 2)
   )
-  fs.writeFileSync('content/contribs.json', JSON.stringify({ contribs }, null, 2))
+  fs.writeFileSync(
+    'content/contribs.json',
+    JSON.stringify({ contribs }, null, 2)
+  )
 })

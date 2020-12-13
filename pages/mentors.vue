@@ -1,9 +1,7 @@
 <template>
   <div class="page mentors-page">
     <div class="container">
-      <h1 class="title">
-        Mentors
-      </h1>
+      <h1 class="title">Mentors</h1>
       <ul class="persons mentors">
         <h5 v-if="postList.mentor.items.length <= 0" class="d-block mb-4">
           No results...
@@ -28,26 +26,26 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     this.postList.mentor.items = await this.$content('persons')
       .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
       .limit(this.postList.mentor.limit)
       .skip(this.postList.mentor.skip)
       .fetch()
   },
-  data () {
+  data() {
     return {
       postList: {
         mentor: {
           items: [],
           limit: 16,
-          skip: 0
-        }
-      }
+          skip: 0,
+        },
+      },
     }
   },
   methods: {
-    async loadMoreMentors ($state) {
+    async loadMoreMentors($state) {
       this.postList.mentor.skip += this.postList.mentor.limit
 
       const mentors = await this.$content('persons')
@@ -62,8 +60,8 @@ export default {
       if (mentors.length <= 0) {
         $state.complete()
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -71,7 +69,6 @@ export default {
 .mentors-page {
   .title {
     display: block;
-    text-align: center;
     margin: 2.4rem auto;
     color: var(--color-ui-03);
   }

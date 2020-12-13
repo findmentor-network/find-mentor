@@ -11,24 +11,24 @@ export default {
     tag: {
       type: String,
       required: false,
-      default: 'span'
+      default: 'span',
     },
     bgColor: {
       type: String,
       required: false,
-      default: 'var(--color-ui-06)'
+      default: 'var(--color-ui-06)',
     },
     textColor: {
       type: String,
       required: false,
-      default: 'var(--color-text-04)'
-    }
+      default: 'var(--color-text-04)',
+    },
   },
   computed: {
-    colorStyle () {
+    colorStyle() {
       return `border-color: ${this.bgColor}; color: ${this.textColor}`
-    }
-  }
+    },
+  },
 }
 </script>
 

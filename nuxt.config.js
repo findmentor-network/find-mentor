@@ -6,7 +6,7 @@ const create = async (feed, args) => {
   feed.options = {
     title: niceName + ' - Find Mentor',
     link: `https://findmentor.network/peer/${name}/feed.xml`,
-    description
+    description,
   }
 
   const { $content } = require('@nuxt/content')
@@ -16,7 +16,7 @@ const create = async (feed, args) => {
     const itemObject = {
       title: item.name,
       link: `https://findmentor.network/peer/${item.slug}`,
-      description: item.interests
+      description: item.interests,
     }
 
     if (item.goals) {
@@ -39,7 +39,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -47,10 +47,10 @@ export default {
         rel: 'alternate',
         type: 'application/rss+xml',
         title: 'RSS Feed for findmentor.network Mentors',
-        href: '/feed.xml'
+        href: '/feed.xml',
       },
-      { rel: 'alternate', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'alternate', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
   },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -58,7 +58,7 @@ export default {
     { src: '~plugins/ga.js', mode: 'client' },
     { src: '~plugins/qr.js' },
     { src: '~plugins/fa.js' },
-    { src: '~plugins/vue-infinite-loading.js', mode: 'client' }
+    { src: '~plugins/vue-infinite-loading.js', mode: 'client' },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -68,7 +68,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
   ],
 
   /*
@@ -77,12 +77,12 @@ export default {
   loading: {
     color: '#d2691e',
     height: '0.5em',
-    continuous: true
+    continuous: true,
   },
 
   generate: {
     dir: 'docs',
-    fallback: '404.html' // SPA
+    fallback: '404.html', // SPA
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -102,7 +102,7 @@ export default {
     // https://github.com/nuxt-community/robots-module
     '@nuxtjs/robots',
     // https://github.com/RadKod/nuxt-change-case
-    'nuxt-change-case'
+    'nuxt-change-case',
   ],
 
   /*
@@ -120,8 +120,8 @@ export default {
       '~/assets/style/scss/functions/_triangle.scss',
       // Mixins
       '~/assets/style/scss/mixins/_font.scss',
-      '~/assets/style/scss/mixins/_gradient.scss'
-    ]
+      '~/assets/style/scss/mixins/_gradient.scss',
+    ],
   },
 
   /*
@@ -129,7 +129,7 @@ export default {
    */
   css: [
     // Actual styles entry point (as import management)
-    '~/assets/style/scss/app.scss'
+    '~/assets/style/scss/app.scss',
     // 3rds
     // -- 3rd css files (style files in npm package etc.)
   ],
@@ -137,7 +137,7 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
     apiPrefix: 'api',
-    fullTextSearchFields: ['name', 'slug', 'interests', 'goals']
+    fullTextSearchFields: ['name', 'slug', 'interests', 'goals'],
   },
 
   // Feed module configuration (https://content.nuxtjs.org/integrations/)
@@ -147,8 +147,8 @@ export default {
       create,
       cacheTime: 1000 * 60 * 15,
       type: 'rss2',
-      data: ['persons', 'Find a mentee or mentor.']
-    }
+      data: ['persons', 'Find a mentee or mentor.'],
+    },
   ],
 
   // Sitemap module configuration (https://content.nuxtjs.org/integrations/)
@@ -164,23 +164,23 @@ export default {
 
       const persons = await $content('persons').fetch()
 
-      persons.forEach(person => routes.push(`peer/${person.slug}`))
+      persons.forEach((person) => routes.push(`peer/${person.slug}`))
 
       return routes
-    }
+    },
   },
 
   // Robots module configuration (https://github.com/nuxt-community/robots-module/)
   robots: {
     UserAgent: '*',
-    Disallow: ''
+    Disallow: '',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     babel: {
-      compact: true
+      compact: true,
     },
-    extractCSS: process.env.NODE_ENV === 'production'
-  }
+    extractCSS: process.env.NODE_ENV === 'production',
+  },
 }

@@ -1,5 +1,15 @@
 <template>
-  <b-form-input v-model="search.value" class="app-search-input" :variant="$colorMode.value" :placeholder="search.placeholder" @keypress.native.enter="searchPerson" />
+  <div class="search-box">
+    <b-form-input
+      v-model="search.value"
+      size="sm"
+      class="mr-sm-2 search-input"
+      :variant="$colorMode.value"
+      :placeholder="search.placeholder"
+      @keypress.native.enter="searchPerson"
+    ></b-form-input>
+    <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson">Search</b-button>
+  </div>
 </template>
 
 <script>
@@ -9,23 +19,23 @@ export default {
     value: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     placeholder: {
       type: String,
       required: false,
-      default: 'Search in findmentor.network'
-    }
+      default: 'Search in network',
+    },
   },
-  data () {
+  data() {
     return {
       search: {
         value: this.value,
-        placeholder: this.placeholder
-      }
+        placeholder: this.placeholder,
+      },
     }
   },
-  created () {
+  created() {
     if (this.$route.params.keyword) {
       this.search.value = this.$route.params.keyword
     } else {
@@ -33,26 +43,32 @@ export default {
     }
   },
   methods: {
-    searchPerson () {
+    searchPerson() {
       if (this.search.value.length > 0) {
-        this.$router.push({ name: 'search-keyword', params: { keyword: this.search.value } })
+        this.$router.push({
+          name: 'search-keyword',
+          params: { keyword: this.search.value },
+        })
         this.clearKeyword()
       }
     },
-    clearKeyword () {
+    clearKeyword() {
       this.search.value = ''
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss" scoped>
-.app-search-input {
-  position: relative;
-  background-color: var(--color-field-02);
-  border: 0;
-  border-radius: 0;
+.search-box {  
+  display: flex;
+  align-items: center;
+}
+.search-input {
   box-shadow: none;
   outline: none;
+  border: 0;
+  border-radius: 0;
+  background-color: var(--color-field-02);
 }
 </style>

@@ -14,21 +14,31 @@
           loading="lazy"
           itemprop="image"
           :alt="person.name"
-        >
+        />
       </div>
       <div class="col-12 col-lg-9 pl-lg-0">
-        <div class="profile-person-card-meta flex-column justify-content-center flex-lg-row text-center text-lg-left">
+        <div
+          class="profile-person-card-meta flex-column justify-content-center flex-lg-row text-center text-lg-left"
+        >
           <div class="profile-person-card-meta__infoBox">
-            <div v-if="person.name" class="profile-person-card-meta__name" itemprop="name">
+            <div
+              v-if="person.name"
+              class="profile-person-card-meta__name"
+              itemprop="name"
+            >
               {{ person.name }}
             </div>
             <app-badge
-              :bg-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
-              :text-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
+              :bg-color="
+                getPersonTypeColor({ model: $lowerCase(person.mentor) })
+              "
+              :text-color="
+                getPersonTypeColor({ model: $lowerCase(person.mentor) })
+              "
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
-            <hr>
+            <hr />
             <div
               v-if="person.interests.length > 0"
               class="text"
@@ -60,25 +70,34 @@
       </div>
       <div class="col-12 col-lg-9 offset-lg-3 pl-lg-0">
         <div class="profile-person-card-social-media">
-          <a v-if="person.twitter_handle.length > 0" :href="person.twitter_handle" target="_blank" class="profile-person-card-social-media__button profile-person-card-social-media__button--twitter" itemprop="sameAs">
-            <font-awesome-icon
-              :icon="['fab', 'twitter']"
-              color="white"
-            />
+          <a
+            v-if="person.twitter_handle.length > 0"
+            :href="person.twitter_handle"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--twitter"
+            itemprop="sameAs"
+          >
+            <font-awesome-icon :icon="['fab', 'twitter']" color="white" />
             Twitter
           </a>
-          <a v-if="person.github.length > 0" :href="person.github" target="_blank" class="profile-person-card-social-media__button profile-person-card-social-media__button--github" itemprop="sameAs">
-            <font-awesome-icon
-              :icon="['fab', 'github']"
-              color="white"
-            />
+          <a
+            v-if="person.github.length > 0"
+            :href="person.github"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--github"
+            itemprop="sameAs"
+          >
+            <font-awesome-icon :icon="['fab', 'github']" color="white" />
             GitHub
           </a>
-          <a v-if="person.linkedin.length > 0" :href="person.linkedin" target="_blank" class="profile-person-card-social-media__button profile-person-card-social-media__button--linkedin" itemprop="sameAs">
-            <font-awesome-icon
-              :icon="['fab', 'linkedin']"
-              color="white"
-            />
+          <a
+            v-if="person.linkedin.length > 0"
+            :href="person.linkedin"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--linkedin"
+            itemprop="sameAs"
+          >
+            <font-awesome-icon :icon="['fab', 'linkedin']" color="white" />
             LinkedIn
           </a>
         </div>
@@ -96,16 +115,18 @@ export default {
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
-    profileCardStyleAsPersonType () {
+    profileCardStyleAsPersonType() {
       return `
-        border-top: 4px solid ${this.getPersonTypeColor({ model: this.$lowerCase(this.person.mentor) })}
+        border-top: 4px solid ${this.getPersonTypeColor({
+          model: this.$lowerCase(this.person.mentor),
+        })}
       `
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -166,7 +187,7 @@ export default {
       }
 
       &--twitter {
-      background-color: var(--color-twitter-01);
+        background-color: var(--color-twitter-01);
       }
 
       &--github {

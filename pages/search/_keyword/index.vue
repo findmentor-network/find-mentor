@@ -5,9 +5,7 @@
         Search Results for <strong>{{ $route.params.keyword }}</strong>
       </h1>
 
-      <p v-if="$fetchState.pending" class="text-center">
-        Loading...
-      </p>
+      <p v-if="$fetchState.pending" class="text-center">Loading...</p>
       <p v-else-if="$fetchState.error" class="text-center text-error">
         Fetch Error...
       </p>
@@ -32,18 +30,18 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     this.postList.items = await this.$content('persons')
       .search(this.$lowerCase(this.$route.params.keyword))
       .fetch()
   },
-  data () {
+  data() {
     return {
       postList: {
-        items: []
-      }
+        items: [],
+      },
     }
-  }
+  },
 }
 </script>
 

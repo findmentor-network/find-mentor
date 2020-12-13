@@ -6,15 +6,13 @@
     >
       🌚
     </button>
-    <button v-else @click="$colorMode.preference = 'light'">
-      ☀️
-    </button>
+    <button v-else @click="$colorMode.preference = 'light'">☀️</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DarkModeToggleButton'
+  name: 'DarkModeToggleButton',
 }
 </script>
 

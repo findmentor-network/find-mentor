@@ -1,5 +1,9 @@
 @mixin white-gradient-to-top($color-intensity) {
-  background: linear-gradient(180deg, #fff $color-intensity, rgba(#fff, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #fff $color-intensity,
+    rgba(#fff, 0) 100%
+  );
 }
 
 @mixin white-gradient-to-bottom($color-intensity) {
@@ -7,7 +11,11 @@
 }
 
 @mixin white-gradient-to-right($color-intensity) {
-  background: linear-gradient(-90deg, #fff $color-intensity, rgba(#fff, 0) 100%);
+  background: linear-gradient(
+    -90deg,
+    #fff $color-intensity,
+    rgba(#fff, 0) 100%
+  );
 }
 
 @mixin white-gradient-to-left($color-intensity) {

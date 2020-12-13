@@ -11,23 +11,6 @@ The project's aim is to collect feedback from people.
 
 [![Page view](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcagataycali%2Ffind-mentor&count_bg=%2379C83D&title_bg=%23555555&icon=hey.svg&icon_color=%23E7E7E7&title=Page%20view&edge_flat=false)]()
 
-## Contributors
-
-- [Kemal Ayhan](https://github.com/kemalayhan)
-- [Mücahit Bircan](https://github.com/mucahitbircan)
-- [Selçuk Tatar](https://github.com/tansionline)
-- [Şevki ORUÇ](https://github.com/sevkioruc)
-- [Alihan Yılmaz](https://github.com/alihan)
-- [Adem Furkan ÖZCAN](https://github.com/Adem68)
-- [Alper Çün](https://github.com/alpercun)
-- [Selim Doyranlı](https://github.com/selimdoyranli)
-- [Hasan Tezcan](https://github.com/hasantezcan)
-- [Mevlüt Canvar](https://github.com/crx4)
-- [Onur Aksar](https://github.com/onuraksar)
-- [Mesut Çifci](https://github.com/mesutcifci)
-- [Buğra Yıldız](https://github.com/flurach)
-- [Ahmet Elgün](https://github.com/ahmetelgun)
-
 ## API
 
 **Get all persons by:**
@@ -42,26 +25,14 @@ fetch("https://findmentor.network/persons.json")
   .then(console.log);
 ```
 
-*Get all mentors by:*
+*Get all active mentorships by:*
 
 ```bash
-curl https://findmentor.network/mentors.json
+curl https://findmentor.network/activeMentorships.json
 ```
 
 ```javascript
-fetch("https://findmentor.network/mentors.json")
-  .then(res => res.json())
-  .then(console.log);
-```
-
-*Get all mentees by:*
-
-```bash
-curl https://findmentor.network/mentees.json
-```
-
-```javascript
-fetch("https://findmentor.network/mentees.json")
+fetch("https://findmentor.network/activeMentorships.json")
   .then(res => res.json())
   .then(console.log);
 ```
