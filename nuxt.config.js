@@ -35,11 +35,15 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Find Mentor',
+    title: 'Find Mentor & Mentees',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no',
+      },
+      { hid: 'description', name: 'description', content: 'The best way to build mentor & mentee network' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -75,9 +79,9 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#d2691e',
-    height: '0.5em',
-    continuous: true,
+    color: '#324f5e',
+    height: '0.2em',
+    continuous: false,
   },
 
   generate: {
