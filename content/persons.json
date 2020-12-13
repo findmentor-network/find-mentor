@@ -2273,7 +2273,7 @@
   {
     "": "12.12.2020 22:33:49",
     "name": "Hüseyin Özsoy",
-    "twitter_handle": "https://I dont have twitter.com account",
+    "twitter_handle": "",
     "github": "https://github.com/huseyinozsoy",
     "linkedin": "https://www.linkedin.com/in/ozsoyhuseyin",
     "interests": "backend (net core), frontend(angular, ionic)",
@@ -2313,23 +2313,9 @@
     "mentorships": []
   },
   {
-    "": "12.12.2020 23:02:23",
-    "name": "Fatma Nur Kilincarslan",
-    "twitter_handle": "https://twitter.com/ftmnrklncrsln",
-    "github": "https://github.com/fatmanurkilincarslan",
-    "linkedin": "https://www.linkedin.com/in/fatma-nur-k%C4%B1l%C4%B1n%C3%A7arslan-582a52196",
-    "interests": "ui/ux design",
-    "goals": "I want to be worldwide designer in the future. That's why I'm here.",
-    "mentor": "Mentee",
-    "slug": "fatma-nur-kilincarslan",
-    "avatar": "https://avatars.githubusercontent.com/fatmanurkilincarslan",
-    "displayInterests": "ui/ux design",
-    "mentorships": []
-  },
-  {
     "": "12.12.2020 23:24:28",
     "name": "Ahmet Buğra Çakıcı",
-    "twitter_handle": "https://twitter.com/@ahmetbcakici",
+    "twitter_handle": "https://twitter.com/ahmetbcakici",
     "github": "https://github.com/ahmetbcakici",
     "linkedin": "https://linkedin.com/in/ahmetbcakici",
     "interests": "backend, devops",
