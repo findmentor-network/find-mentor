@@ -1,80 +1,126 @@
 <template>
   <div class="page peer-page">
-    <PersonDetail :person="doc" />
+    <div class="d-flex flex-wrap">
+      <div class="d-none d-xl-block col-xl-2">
+        <div class="vh-100 d-flex align-items-center justify-content-center">
+          <PersonNavigationButton v-if="navigation.person.prev" ref="prevPerson" :person="navigation.person.prev" direction="left" />
+        </div>
+      </div>
+      <div class="col-xl-8">
+        <template v-if="$fetchState.pending">
+          <span class="d-block text-center my-4">Loading..</span>
+        </template>
+        <template v-if="$fetchState.error">
+          <span class="text-error">Fetch Error..</span>
+        </template>
+        <template v-else>
+          <PersonDetail v-if="person" :person="person" />
+        </template>
+      </div>
+      <div class="d-none d-xl-block col-xl-2">
+        <div class="vh-100 d-flex align-items-center justify-content-center">
+          <PersonNavigationButton v-if="navigation.person.next" ref="nextPerson" :person="navigation.person.next" direction="right" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content, params, error }) {
-    const [doc] = await $content('persons')
+  async fetch () {
+    const { $content, params, error } = this.$nuxt.context
+
+    const result = await $content('persons')
       .where({ slug: { $eq: params.slug } })
       .fetch()
-    if (!doc) {
+    const person = result[0]
+
+    this.person = person
+
+    const [prev, next] = await $content('persons')
+      .only(['name', 'slug', 'mentor', 'avatar'])
+      .surround(params.slug)
+      .fetch()
+
+    this.navigation.person.prev = prev
+    this.navigation.person.next = next
+
+    if (!result) {
       return error({ statusCode: 404, message: 'Not found' })
     }
-    return { doc }
   },
-  head() {
+  data () {
     return {
-      title: this.doc.name,
+      person: null,
+      navigation: {
+        person: {
+          prev: null,
+          next: null
+        }
+      }
+    }
+  },
+  head () {
+    return {
+      title: this.person ? this.person.name : 'Peer',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: `${this.doc.name} - ${this.doc.interests}`,
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: this.doc.name,
+          content: this.person ? this.person.name : 'Peer'
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: `${this.doc.name} - ${this.doc.interests}`,
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.doc.avatar,
+          content: this.person ? this.person.avatar : 'Avatar'
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: this.doc.name,
+          content: this.person ? this.person.name : 'Peer'
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.doc.name,
+          content: this.person ? this.person.name : 'Peer'
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: `${this.doc.name} - ${this.doc.interests}`,
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer'
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.doc.avatar,
+          content: this.person ? this.person.avatar : 'Avatar'
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.doc.avatar,
+          content: this.person ? this.person.avatar : 'Avatar'
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: this.doc.name,
-        },
+          content: this.person ? this.person.name : 'Peer'
+        }
       ],
       script: [
         { src: '/disqus.js' },
-        { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' },
-      ],
+        { src: '//findmentor.disqus.com/count.js', id: 'dsq-count-scr' }
+      ]
     }
-  },
+  }
 }
 </script>
