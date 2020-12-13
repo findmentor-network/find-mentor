@@ -1,6 +1,6 @@
 export default {
   methods: {
-    getPersonTypeClass ({ model }) {
+    getPersonTypeClass({ model }) {
       const type = this.$lowerCase(model)
 
       if (type === 'mentor') {
@@ -10,6 +10,6 @@ export default {
       } else {
         return 'both'
       }
-    }
-  }
+    },
+  },
 }

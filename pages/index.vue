@@ -12,12 +12,10 @@
       </NuxtLink>
     </header>
     <div class="container">
-      <hr>
+      <hr />
       <!-- Mentors -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentors/">
-          👉 Mentors
-        </NuxtLink>
+        <NuxtLink to="/mentors/"> 👉 Mentors </NuxtLink>
       </h2>
       <ul class="persons mentors">
         <PersonCard
@@ -30,14 +28,12 @@
       <NuxtLink class="float-right" to="/mentors/">
         🤳 Click here for all mentors
       </NuxtLink>
-      <br>
-      <br>
+      <br />
+      <br />
 
       <!-- Mentees -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentees/">
-          👉 Mentees
-        </NuxtLink>
+        <NuxtLink to="/mentees/"> 👉 Mentees </NuxtLink>
       </h2>
       <ul class="persons mentees">
         <PersonCard
@@ -50,15 +46,15 @@
       <NuxtLink class="float-right" to="/mentees/">
         🤳 Click here for all mentees
       </NuxtLink>
-      <br>
-      <br>
+      <br />
+      <br />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const [mentors, mentees, page] = await Promise.all([
       $content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
@@ -70,29 +66,29 @@ export default {
         .sortBy('', 'desc')
         .limit(16)
         .fetch(),
-      $content('readme').fetch()
+      $content('readme').fetch(),
     ])
     return {
       mentors,
       mentees,
-      page
+      page,
     }
   },
-  data () {
+  data() {
     return {
-      isVisitedGuide: false
+      isVisitedGuide: false,
     }
   },
-  beforeMount () {
+  beforeMount() {
     this.checkGuideVisited()
   },
   methods: {
-    checkGuideVisited () {
+    checkGuideVisited() {
       const isVisited = window.localStorage.getItem('guideVisited')
 
       this.isVisitedGuide = isVisited
-    }
-  }
+    },
+  },
 }
 </script>
 

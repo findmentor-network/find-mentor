@@ -11,7 +11,7 @@
       :icon="`arrow-${direction}`"
       color="var(--color-text-02)"
     />
-    <img class="person-navigation-button__avatar" :src="person.avatar">
+    <img class="person-navigation-button__avatar" :src="person.avatar" />
     <v-clamp
       class="person-navigation-button__name"
       tag="strong"
@@ -35,29 +35,29 @@ import VClamp from 'vue-clamp'
 import {
   getPersonTypeLabel,
   getPersonTypeColor,
-  getCapitalPersonName
+  getCapitalPersonName,
 } from '@/mixins'
 
 export default {
   name: 'PersonNavigationButton',
   components: {
-    VClamp
+    VClamp,
   },
   mixins: [getPersonTypeLabel, getPersonTypeColor, getCapitalPersonName],
   props: {
     person: {
       type: Object,
       required: false,
-      default: null
+      default: null,
     },
     direction: {
       type: String,
       required: false,
-      default: 'left'
-    }
+      default: 'left',
+    },
   },
   computed: {
-    flexDirectionClass () {
+    flexDirectionClass() {
       let className = null
       if (this.direction === 'left') {
         className = 'flex-row'
@@ -66,8 +66,8 @@ export default {
       }
 
       return className
-    }
-  }
+    },
+  },
 }
 </script>
 

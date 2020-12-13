@@ -1,6 +1,6 @@
 export default {
   methods: {
-    getCapitalPersonName ({ model }) {
+    getCapitalPersonName({ model }) {
       const name = this.$lowerCase(model)
       const words = name.split(' ')
       const manipulatedName = []
@@ -10,6 +10,6 @@ export default {
       })
 
       return String(manipulatedName).replace(/,/g, ' ')
-    }
-  }
+    },
+  },
 }
