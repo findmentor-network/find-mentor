@@ -43,7 +43,11 @@ export default {
         content:
           'width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no',
       },
-      { hid: 'description', name: 'description', content: 'The best way to build mentor & mentee network' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'The best way to build mentor & mentee network',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
