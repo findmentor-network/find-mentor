@@ -604,7 +604,7 @@
     "linkedin": "https://www.linkedin.com/in/batineryilmaz",
     "interests": "frontend",
     "goals": "My major aim is being developer in big companies like Amazon, Facebook, Twitter etc. ",
-    "mentor": "Mentee",
+    "mentor": "İkisi de",
     "slug": "batin-eryilmaz",
     "avatar": "https://avatars.githubusercontent.com/batin",
     "displayInterests": "frontend",
@@ -2556,6 +2556,34 @@
     "slug": "ebrar-altunkaynak",
     "avatar": "https://avatars.githubusercontent.com/EBRARR15",
     "displayInterests": "frontend",
+    "mentorships": []
+  },
+  {
+    "": "13.12.2020 17:07:17",
+    "name": "Berkay Selim",
+    "twitter_handle": "https://twitter.com/brkyselim",
+    "github": "https://github.com/brkyselim",
+    "linkedin": "https://www.linkedin.com/in/berkayselim",
+    "interests": "c#, nodejs, javascript, golang, backend, frontend, vuejs, nosql, cyber security, automation suites and tests ",
+    "goals": "It's my last year at Yalova University Computer Engineering. My only goal is be great developer and i want to develop myself day by day. I have entrepreneur soul and trying some new things but my priority is become a truly engineer. I need person who was answer my question and show a pathway goes on be a great developer.",
+    "mentor": "Mentee",
+    "slug": "berkay-selim",
+    "avatar": "https://avatars.githubusercontent.com/brkyselim",
+    "displayInterests": "C#, NodeJS, Javascript, GoLang, Backend, Frontend, VueJS, NoSQL, Cyber Security, Automation suites and tests ",
+    "mentorships": []
+  },
+  {
+    "": "13.12.2020 17:30:13",
+    "name": "İbrahim ATAY",
+    "twitter_handle": "https://twitter.com/ibrahim_atay",
+    "github": "https://github.com/ibrahimatay",
+    "linkedin": "https://www.linkedin.com/in/ibrahimatay",
+    "interests": "backend,devops,enterprise architecture,fintech,software career mentor",
+    "goals": "He works in different roles such as a software engineer, software architect, and consultant. He aims to provide sustainable user experiences by delivering robust, maintainable, reliable solutions, scaling, and cost-effectiveness. He always enthusiastic about new technologies and keeps himself up-to-date with new technologies.\n\nHe has TOGAF 9, CSM, PMI-ACP, and KMP certificates and also a software architect and agile coach who helps companies and organizations.",
+    "mentor": "İkisi de",
+    "slug": "ibrahim-atay",
+    "avatar": "https://avatars.githubusercontent.com/ibrahimatay",
+    "displayInterests": "Backend,DevOps,Enterprise Architecture,Fintech,Software Career Mentor",
     "mentorships": []
   },
   {
