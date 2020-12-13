@@ -1,5 +1,6 @@
 <template>
   <div class="page main-page">
+    <div v-if="fancy"><FancyCarousel /></div>
     <header>
       <nuxt-content :document="page" />
       <NuxtLink
@@ -77,12 +78,17 @@ export default {
   data() {
     return {
       isVisitedGuide: false,
+      fancy: false,
     }
   },
   beforeMount() {
     this.checkGuideVisited()
+    this.checkFancyModeEnabled()
   },
   methods: {
+    checkFancyModeEnabled() {
+      this.fancy = window.location.search.includes('fancy')
+    },
     checkGuideVisited() {
       const isVisited = window.localStorage.getItem('guideVisited')
 
