@@ -12,7 +12,7 @@
             :icon="['fab', 'github']"
           />
           GitHub
-          </h2>
+        </h2>
         <hr />
         <div class="app-card readme" v-html="markdown" />
       </template>
@@ -64,10 +64,8 @@
         <div class="col-lg-6">
           <!-- Disqus -->
           <template>
-            <h2>
-              💬 Give Feedback
-            </h2>
-            <hr>
+            <h2>💬 Give Feedback</h2>
+            <hr />
             <div id="disqus_thread" class="app-card disqus_thread" />
           </template>
         </div>
@@ -84,17 +82,17 @@
             <hr />
             <div class="twitter-wrapper">
               <Timeline
-              v-show="$colorMode.value === 'dark'"
-              :id="twitterHandle"
-              source-type="profile"
-              :options="{ tweetLimit: '5', theme: 'dark' }"
-            />
-            <Timeline
-              v-show="$colorMode.value === 'light'"
-              :id="twitterHandle"
-              source-type="profile"
-              :options="{ tweetLimit: '5', theme: 'light' }"
-            />
+                v-show="$colorMode.value === 'dark'"
+                :id="twitterHandle"
+                source-type="profile"
+                :options="{ tweetLimit: '5', theme: 'dark' }"
+              />
+              <Timeline
+                v-show="$colorMode.value === 'light'"
+                :id="twitterHandle"
+                source-type="profile"
+                :options="{ tweetLimit: '5', theme: 'light' }"
+              />
             </div>
           </template>
         </div>

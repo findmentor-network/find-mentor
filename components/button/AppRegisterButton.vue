@@ -1,7 +1,9 @@
 <template>
-    <b-nav-item target="_blank" href="https://forms.gle/pQwFZBXEyqBRDU2H9">
-      <b-button class="app-register-button" variant="outline-primary">Join Now</b-button>
-    </b-nav-item>
+  <b-nav-item target="_blank" href="https://forms.gle/pQwFZBXEyqBRDU2H9">
+    <b-button class="app-register-button" variant="outline-primary"
+      >Join Now</b-button
+    >
+  </b-nav-item>
 </template>
 
 <script>

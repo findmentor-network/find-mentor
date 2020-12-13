@@ -8,7 +8,9 @@
       :placeholder="search.placeholder"
       @keypress.native.enter="searchPerson"
     ></b-form-input>
-    <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson">Search</b-button>
+    <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson"
+      >Search</b-button
+    >
   </div>
 </template>
 
@@ -60,7 +62,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.search-box {  
+.search-box {
   display: flex;
   align-items: center;
 }

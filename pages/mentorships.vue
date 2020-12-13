@@ -2,7 +2,7 @@
   <div class="page mentorships-page">
     <div class="container">
       <h1 class="title">Mentorships</h1>
-      <br>
+      <br />
       <h3>
         <a href="https://forms.gle/1517jvGHWW1Ma66K9"
           >Add your mentorship campaign</a
@@ -15,9 +15,9 @@
       </p>
       <p>You can find the mentors active mentorship campaigns below.</p>
       <p>Pick one & contribute. You're mentee now.</p>
-      <br>
+      <br />
       <hr />
-      <br>
+      <br />
       <div v-for="mentorship in mentorships" :key="mentorship.slug">
         <NuxtLink
           :to="`/peer/${mentorship.mentor.split('/').pop()}`"
@@ -34,8 +34,8 @@
         >
       </h4>
     </div>
-    <br>
-    <br>
+    <br />
+    <br />
   </div>
 </template>
 

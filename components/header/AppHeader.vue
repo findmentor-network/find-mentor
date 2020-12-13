@@ -13,12 +13,14 @@
       <b-navbar-nav>
         <app-register-button />
         <b-nav-item to="/guide/" active>How It Works?</b-nav-item>
-        <b-nav-item exact active-class="active" to="/mentorships/">Active Mentorships</b-nav-item>
+        <b-nav-item exact active-class="active" to="/mentorships/"
+          >Active Mentorships</b-nav-item
+        >
         <b-nav-item exact to="/mentees/">Mentees</b-nav-item>
         <b-nav-item exact to="/mentors/">Mentors</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto" right>
-          <app-search-input />
+        <app-search-input />
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
