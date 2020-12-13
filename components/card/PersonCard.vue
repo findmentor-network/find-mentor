@@ -62,13 +62,13 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          />
+          >
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
         <!-- Name -->
         <v-clamp class="name" autoresize :max-lines="1">
-          {{ person.name }}
+          {{ getCapitalPersonName({ model: person.name }) }}
         </v-clamp>
 
         <!-- Interests -->
@@ -82,30 +82,30 @@
 
 <script>
 import VClamp from 'vue-clamp'
-import { getPersonTypeClass } from '@/mixins'
+import { getPersonTypeClass, getCapitalPersonName } from '@/mixins'
 
 export default {
   name: 'Card',
   components: {
-    VClamp,
+    VClamp
   },
-  mixins: [getPersonTypeClass],
+  mixins: [getPersonTypeClass, getCapitalPersonName],
   props: {
     person: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
   methods: {
-    getProfilePicture(githubLink) {
+    getProfilePicture (githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
         return ''
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
-    },
-  },
+    }
+  }
 }
 </script>
 
@@ -198,11 +198,14 @@ export default {
 
     .name {
       color: var(--color-text-01);
+      font-size: 18px;
+      font-weight: 600;
     }
 
     .interests {
       margin: 0 auto;
       color: var(--color-text-02);
+      word-break: break-word;
       text-align: center;
     }
   }
