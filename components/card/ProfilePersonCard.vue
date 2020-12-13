@@ -54,7 +54,7 @@
               <b>Goals:</b> {{ person.goals }}
             </div>
           </div>
-          <div>
+          <div class="profile-person-card-meta__infoBox-right">
             <a
               :href="`https://findmentor.network/peer/` + person.slug"
               target="_blank"
@@ -187,7 +187,10 @@ export default {
       margin-bottom: 8px;
     }
   }
-
+  .profile-person-card-meta__infoBox-right{  
+    flex-direction: column;
+    display: flex;
+    }
   .profile-person-card-social-media {
     &__button {
       display: inline-flex;
