@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     checkGuideVisited() {
-      if (window){
+      if (window) {
         window.localStorage.setItem('guideVisited', true)
       }
     },

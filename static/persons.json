@@ -2587,6 +2587,34 @@
     "mentorships": []
   },
   {
+    "": "13.12.2020 19:37:05",
+    "name": "Canburak Tümer",
+    "twitter_handle": "https://twitter.com/canburaktumer",
+    "github": "https://github.com/CanburakTumer",
+    "linkedin": "https://www.linkedin.com/in/canburaktumer",
+    "interests": "i know sql, dataops, data warehouse / data lake; want to improve python, unit testing, go, api design",
+    "goals": "I want to improve my software skills to design and build products and utilize my knowledge and experience around data analytics.",
+    "mentor": "İkisi de",
+    "slug": "canburak-tumer",
+    "avatar": "https://avatars.githubusercontent.com/CanburakTumer",
+    "displayInterests": "I know sql, dataops, data warehouse / data lake; want to improve python, unit testing, go, API design",
+    "mentorships": []
+  },
+  {
+    "": "13.12.2020 19:43:14",
+    "name": "Mustafa Dizdar",
+    "twitter_handle": "https://twitter.com/mustafadizdar_",
+    "github": "https://github.com/mstfzdr",
+    "linkedin": "https://www.linkedin.com/in/mstfdzdr",
+    "interests": "full stack :) ",
+    "goals": "I want the apps I coded to be used by people. ",
+    "mentor": "Mentee",
+    "slug": "mustafa-dizdar",
+    "avatar": "https://avatars.githubusercontent.com/mstfzdr",
+    "displayInterests": "Full stack :) ",
+    "mentorships": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
