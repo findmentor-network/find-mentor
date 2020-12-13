@@ -14,7 +14,7 @@
           loading="lazy"
           itemprop="image"
           :alt="person.name"
-        >
+        />
       </div>
       <div class="col-12 col-lg-9 pl-lg-0">
         <div
@@ -38,7 +38,7 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
-            <hr>
+            <hr />
             <div
               v-if="person.interests.length > 0"
               class="text"
@@ -107,7 +107,11 @@
 </template>
 
 <script>
-import { getPersonTypeLabel, getPersonTypeColor, getCapitalPersonName } from '@/mixins'
+import {
+  getPersonTypeLabel,
+  getPersonTypeColor,
+  getCapitalPersonName,
+} from '@/mixins'
 
 export default {
   name: 'ProfilePersonCard',
@@ -115,18 +119,18 @@ export default {
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
-    profileCardStyleAsPersonType () {
+    profileCardStyleAsPersonType() {
       return `
         border-top: 4px solid ${this.getPersonTypeColor({
-          model: this.$lowerCase(this.person.mentor)
+          model: this.$lowerCase(this.person.mentor),
         })}
       `
-    }
-  }
+    },
+  },
 }
 </script>
 
