@@ -40,6 +40,6 @@ You will get eventually:
 Just tweet about these!
 
 # Join Us
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3uWpEeBUCXMoGAJ5qm31p9URBppxXT5L4RJFrTOJee9TFjQ/viewform?embedded=true" width="640" height="1819" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3uWpEeBUCXMoGAJ5qm31p9URBppxXT5L4RJFrTOJee9TFjQ/viewform?embedded=true" width="100%" height="1819" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
 
 [Contribute this page!](https://github.com/cagataycali/find-mentor/blob/master/content/mentees.md)
