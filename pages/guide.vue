@@ -50,12 +50,14 @@ export default {
 
     return { rows, contribs }
   },
-  created() {
+  beforeMount() {
     this.checkGuideVisited()
   },
   methods: {
     checkGuideVisited() {
-      window.localStorage.setItem('guideVisited', true)
+      if (window){
+        window.localStorage.setItem('guideVisited', true)
+      }
     },
   },
 }
