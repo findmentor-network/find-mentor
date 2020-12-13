@@ -60,6 +60,7 @@ export default {
 }
 html.dark-mode #jumbotron-mentor .jumbotron {
   background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.18);
 }
 .contr-image {
   padding: 2px;
@@ -84,6 +85,7 @@ html.dark-mode #jumbotron-mentor li {
   -moz-border-radius: 20px 0px 20px 0px;
   -webkit-border-radius: 20px 0px 20px 0px;
   padding: 2rem 2rem;
+  box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.50);
 }
 .border {
   border: unset !important;
