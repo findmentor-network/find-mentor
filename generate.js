@@ -97,7 +97,7 @@ async function getData() {
           return mentorship
         }
       })
-      person.conributions = activeMentorships.filter((mentorship) => {
+      person.contributions = activeMentorships.filter((mentorship) => {
         const gh = person.github
         if (gh) {
           const username = gh.split('/').pop()
