@@ -62,7 +62,7 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          >
+          />
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
@@ -87,25 +87,25 @@ import { getPersonTypeClass, getCapitalPersonName } from '@/mixins'
 export default {
   name: 'Card',
   components: {
-    VClamp
+    VClamp,
   },
   mixins: [getPersonTypeClass, getCapitalPersonName],
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   methods: {
-    getProfilePicture (githubLink) {
+    getProfilePicture(githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
         return ''
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
-    }
-  }
+    },
+  },
 }
 </script>
 

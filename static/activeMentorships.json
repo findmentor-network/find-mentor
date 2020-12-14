@@ -34,6 +34,27 @@
       "project_adress": "https://github.com/FurkanPortakal/lokum-js",
       "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
       "slug": "lokum-js"
+    },
+    {
+      "": "14.12.2020 02:09:42",
+      "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+      "project_adress": "https://github.com/flurach/lord",
+      "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
+      "slug": "lord"
+    },
+    {
+      "": "14.12.2020 09:52:29",
+      "mentor": "https://findmentor.network/peer/emre-savci",
+      "project_adress": "https://github.com/trendyol/docker-shell",
+      "goal": "Go dili ile Docker için interactive cli geliştirerek docker komutlarına featurelar ekleyip günlük işlerimizi kolaylaştırmak.",
+      "slug": "docker-shell"
+    },
+    {
+      "": "14.12.2020 17:51:03",
+      "mentor": "https://findmentor.network/peer/emre-savci",
+      "project_adress": "https://github.com/mstrYoda/kubeconf",
+      "goal": "Multiple kubernetes config fileları merge etmek için cli toolu. Kubectl extension haline getirilebilecek bir araç.",
+      "slug": "kubeconf"
     }
   ]
 }

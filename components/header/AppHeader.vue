@@ -17,11 +17,7 @@
         <b-nav-item to="/guide/" active>
           How It Works?
         </b-nav-item>
-        <b-nav-item
-          exact
-          active-class="active"
-          to="/mentorships/"
-        >
+        <b-nav-item exact active-class="active" to="/mentorships/">
           Active Mentorships
         </b-nav-item>
         <b-nav-item exact to="/mentees/">

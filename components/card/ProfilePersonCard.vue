@@ -70,7 +70,7 @@
             <a
               class="profile-person-card-meta__twitter"
               :href="
-                'https://twitter.com/intent/tweet?text=Hey! Here is the my find mentor profile&url=https://findmentor.network/peer/' +
+                'https://twitter.com/intent/tweet?text=Hey! Here my find-mentor profile&url=https://findmentor.network/peer/' +
                 person.slug
               "
             >

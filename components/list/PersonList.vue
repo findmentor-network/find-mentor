@@ -21,14 +21,14 @@ export default {
     persons: {
       type: Array,
       required: false,
-      default: null
+      default: null,
     },
     strictType: {
       type: String,
       required: false,
-      default: 'mixed'
-    }
-  }
+      default: 'mixed',
+    },
+  },
 }
 </script>
 

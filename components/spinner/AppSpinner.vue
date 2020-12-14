@@ -1,5 +1,10 @@
 <template>
-  <img src="@/assets/img/core/spinner.svg" class="app-spinner" :width="width" :height="height">
+  <img
+    src="@/assets/img/core/spinner.svg"
+    class="app-spinner"
+    :width="width"
+    :height="height"
+  />
 </template>
 
 <script>
@@ -9,14 +14,14 @@ export default {
     width: {
       type: Number,
       required: false,
-      default: 40
+      default: 40,
     },
     height: {
       type: Number,
       required: false,
-      default: 40
-    }
-  }
+      default: 40,
+    },
+  },
 }
 </script>
 
