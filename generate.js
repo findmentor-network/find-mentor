@@ -137,4 +137,8 @@ getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
     'content/contribs.json',
     JSON.stringify({ contribs }, null, 2)
   )
+  fs.writeFileSync(
+    'static/contribs.json',
+    JSON.stringify({ contribs }, null, 2)
+  )
 })

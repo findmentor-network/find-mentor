@@ -2051,6 +2051,13 @@
         "project_adress": "https://github.com/mstrYoda/kubernetes-kitap",
         "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
         "slug": "kubernetes-kitap"
+      },
+      {
+        "": "14.12.2020 09:52:29",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/trendyol/docker-shell",
+        "goal": "Go dili ile Docker için interactive cli geliştirerek docker komutlarına featurelar ekleyip günlük işlerimizi kolaylaştırmak.",
+        "slug": "docker-shell"
       }
     ]
   },
@@ -2623,20 +2630,6 @@
     "mentorships": []
   },
   {
-    "": "13.12.2020 20:14:11",
-    "name": "Umut Güler",
-    "twitter_handle": "https://mobile.twitter.com/umttguler",
-    "github": "https://github.com/umuttglr?tab=repositories",
-    "linkedin": "https://www.linkedin.com/in/umut-g%C3%BCler-67580017a",
-    "interests": "frontend",
-    "goals": "Frontend alanında tecrübeli kişilerden yardım alarak yoluma daha hızlı devam etmek istiyorum",
-    "mentor": "Mentee",
-    "slug": "umut-guler",
-    "avatar": "https://avatars.githubusercontent.com/umuttglr",
-    "displayInterests": "frontend",
-    "mentorships": []
-  },
-  {
     "": "13.12.2020 20:14:23",
     "name": "Umut Güler",
     "twitter_handle": "https://mobile.twitter.com/umttguler",
@@ -2823,7 +2816,7 @@
     "name": "Batuhan Özoğuz",
     "twitter_handle": "https://twitter.com/batuozoguz",
     "github": "",
-    "linkedin": "https://Batuhanwww.linkedin.com/in/batuhan-özoğuz/?locale=en_US",
+    "linkedin": "https://www.linkedin.com/in/batuhan-özoğuz",
     "interests": "devops",
     "goals": "I want to be increase my Kubernetes know how and coding backend technologies.",
     "mentor": "Mentee",
@@ -2872,6 +2865,90 @@
     "slug": "abdurrahman-yildiz",
     "avatar": "https://avatars.githubusercontent.com/a-yldz",
     "displayInterests": "embedded systems, risc-v, cpu, fpga",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 09:04:23",
+    "name": "Ali Gökdemir",
+    "twitter_handle": "https://twitter.com/aligokdemirrr",
+    "github": "https://github.com/aligokdemir",
+    "linkedin": "https://linkedin.com/in/aligokdemir",
+    "interests": "android",
+    "goals": "I want to help people who wants to get started in Android world",
+    "mentor": "Mentor",
+    "slug": "ali-gokdemir",
+    "avatar": "https://avatars.githubusercontent.com/aligokdemir",
+    "displayInterests": "Android",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 09:23:58",
+    "name": "Fırat Çelik",
+    "twitter_handle": "https://twitter.com/firat_celikqq",
+    "github": "https://github.com/Fcelikq",
+    "linkedin": "https://tr.linkedin.com/in/f%C4%B1rat-%C3%A7elik",
+    "interests": "developer in test, devops, ci-cd",
+    "goals": "head of test education company.",
+    "mentor": "İkisi de",
+    "slug": "firat-celik",
+    "avatar": "https://avatars.githubusercontent.com/Fcelikq",
+    "displayInterests": "Developer In Test, Devops, CI-CD",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 10:21:37",
+    "name": "Yunus Bulut",
+    "twitter_handle": "https://twitter.com/yunusbulutt",
+    "github": "https://github.com/yunusbulutt",
+    "linkedin": "https://www.linkedin.com/in/yunusbulutt",
+    "interests": "full stack web dev, ruby/rails development",
+    "goals": "öğrenmek sonsuz bir serüven, yeni insanlarla tanışmayı seviyorum ve bunun bana çok katkısı olduğunu düşünüyorum.",
+    "mentor": "İkisi de",
+    "slug": "yunus-bulut",
+    "avatar": "https://avatars.githubusercontent.com/yunusbulutt",
+    "displayInterests": "full stack web dev, ruby/rails development",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 10:26:59",
+    "name": "Abdusselam Kösecik",
+    "twitter_handle": "https://twitter.com/tekbirsoft",
+    "github": "https://github.com/AbdusselamKosecik",
+    "linkedin": "https://www.linkedin.com/in/abdusselam-k%C3%B6secik-ab209327",
+    "interests": "backend,devops",
+    "goals": "----",
+    "mentor": "Mentor",
+    "slug": "abdusselam-kosecik",
+    "avatar": "https://avatars.githubusercontent.com/AbdusselamKosecik",
+    "displayInterests": "backend,devops",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 11:44:00",
+    "name": "Mehmet Akif Tütüncü",
+    "twitter_handle": "https://twitter.com/makiftutuncu",
+    "github": "https://github.com/makiftutuncu",
+    "linkedin": "https://linkedin.com/in/makiftutuncu",
+    "interests": "backend",
+    "goals": "I wanna be the very best, like no one ever was.",
+    "mentor": "İkisi de",
+    "slug": "mehmet-akif-tutuncu",
+    "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
+    "displayInterests": "Backend",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 12:05:13",
+    "name": "Yusuf Koca",
+    "twitter_handle": "https://twitter.com/Broken_Bat",
+    "github": "https://github.com/yusufkoca",
+    "linkedin": "https://www.linkedin.com/in/ysfkoca",
+    "interests": "frontend, javascript, react",
+    "goals": "I will know so much that one day I will get rid of the imposter syndrome at all. (Not gonna happen, haha)",
+    "mentor": "İkisi de",
+    "slug": "yusuf-koca",
+    "avatar": "https://avatars.githubusercontent.com/yusufkoca",
+    "displayInterests": "Frontend, Javascript, React",
     "mentorships": []
   },
   {
