@@ -14,7 +14,6 @@
     <b-collapse id="nav-collapse" v-model="isCollapsed" is-nav>
       <b-navbar-nav>
         <app-register-button />
-        <span>{{ isCollapsed }}</span>
         <b-nav-item to="/guide/" active>
           How It Works?
         </b-nav-item>
