@@ -48,6 +48,13 @@
       "project_adress": "https://github.com/trendyol/docker-shell",
       "goal": "Go dili ile Docker için interactive cli geliştirerek docker komutlarına featurelar ekleyip günlük işlerimizi kolaylaştırmak.",
       "slug": "docker-shell"
+    },
+    {
+      "": "14.12.2020 17:51:03",
+      "mentor": "https://findmentor.network/peer/emre-savci",
+      "project_adress": "https://github.com/mstrYoda/kubeconf",
+      "goal": "Multiple kubernetes config fileları merge etmek için cli toolu. Kubectl extension haline getirilebilecek bir araç.",
+      "slug": "kubeconf"
     }
   ]
 }

@@ -2058,6 +2058,13 @@
         "project_adress": "https://github.com/trendyol/docker-shell",
         "goal": "Go dili ile Docker için interactive cli geliştirerek docker komutlarına featurelar ekleyip günlük işlerimizi kolaylaştırmak.",
         "slug": "docker-shell"
+      },
+      {
+        "": "14.12.2020 17:51:03",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubeconf",
+        "goal": "Multiple kubernetes config fileları merge etmek için cli toolu. Kubectl extension haline getirilebilecek bir araç.",
+        "slug": "kubeconf"
       }
     ]
   },
@@ -2977,6 +2984,48 @@
     "slug": "deniz-ozkan",
     "avatar": "https://avatars.githubusercontent.com/idnzozkan",
     "displayInterests": "Frontend, Backend, Devops, Secops",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 14:34:50",
+    "name": "Seçkin Aktaş",
+    "twitter_handle": "",
+    "github": "https://github.com/seckin-aktas",
+    "linkedin": "https://www.linkedin.com/in/seckin-aktas-750559140",
+    "interests": "linux, docker, kubernetes, ci/cd, openstack etc. ",
+    "goals": "Hi, I'm a Senior System/Devops Engineer. I wish to help young engineers ",
+    "mentor": "Mentor",
+    "slug": "seckin-aktas",
+    "avatar": "https://avatars.githubusercontent.com/seckin-aktas",
+    "displayInterests": "Linux, Docker, Kubernetes, CI/CD, Openstack etc. ",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 15:50:40",
+    "name": "Tarik Kilic",
+    "twitter_handle": "https://twitter.com/TarikKilic",
+    "github": "https://github.com/tarriri",
+    "linkedin": "https://www.linkedin.com/in/tarik-kilic-82955bb2",
+    "interests": "scalability, continuous delivery, tdd, engineering culture",
+    "goals": "I want to build engineering teams that can scale to thousands of members, working on scalable platforms",
+    "mentor": "İkisi de",
+    "slug": "tarik-kilic",
+    "avatar": "https://avatars.githubusercontent.com/tarriri",
+    "displayInterests": "scalability, continuous delivery, tdd, engineering culture",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 16:51:02",
+    "name": "Burak Keskin",
+    "twitter_handle": "https://twitter.com/keskinbu",
+    "github": "https://github.com/keskinbu",
+    "linkedin": "https://www.linkedin.com/in/burakkeskin",
+    "interests": "backend",
+    "goals": " ",
+    "mentor": "İkisi de",
+    "slug": "burak-keskin",
+    "avatar": "https://avatars.githubusercontent.com/keskinbu",
+    "displayInterests": "backend",
     "mentorships": []
   },
   {
@@ -4452,7 +4501,7 @@
   {
     "": "",
     "name": "Cem Saltık",
-    "twitter_handle": "https:// ",
+    "twitter_handle": "",
     "github": "https://github.com/cemsltk",
     "linkedin": "https://www.linkedin.com/in/cem-salt%C4%B1k-939957172",
     "interests": "mobile development(flutter, react native, swift, java), web development(js, html, css)",
@@ -4830,7 +4879,7 @@
   {
     "": "",
     "name": "Onur Burak Yildirim",
-    "twitter_handle": "https://twitter.com/onurburak9 (personal account)",
+    "twitter_handle": "https://twitter.com/onurburak9",
     "github": "https://github.com/onur-yildirim",
     "linkedin": "https://www.linkedin.com/in/onurburak",
     "interests": "backend, frontend, working abroad",
