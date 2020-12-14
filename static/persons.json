@@ -1168,7 +1168,15 @@
     "slug": "mustafa-b.-yildiz",
     "avatar": "https://avatars.githubusercontent.com/flurach",
     "displayInterests": "Compilers",
-    "mentorships": []
+    "mentorships": [
+      {
+        "": "14.12.2020 02:09:42",
+        "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+        "project_adress": "https://github.com/flurach/lord",
+        "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
+        "slug": "lord"
+      }
+    ]
   },
   {
     "": "09.12.2020 07:47:41",
@@ -2780,6 +2788,76 @@
     "slug": "suleyman-kaya",
     "avatar": "https://avatars.githubusercontent.com/suleymankayaxyz",
     "displayInterests": "backend, secops, cybersecurity, php, javascript, reactjs, python, bug hunting, web security, penetration testing.",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 00:34:51",
+    "name": "Can KILIÇ",
+    "twitter_handle": "https://twitter.com/cnk1c",
+    "github": "",
+    "linkedin": "https://tr.linkedin.com/in/cnk1c",
+    "interests": "beckend",
+    "goals": "Kendimi geliştirmek için öğrendiklerimi yeni başlayanlara aktarmak ve onlara daha hızlı gelişmeleri için yardımcı olmak",
+    "mentor": "İkisi de",
+    "slug": "can-kilic",
+    "avatar": "https://ui-avatars.com/api/?name=Can KILIÇ&size=256",
+    "displayInterests": "Beckend",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 01:01:28",
+    "name": "Selamet ŞAMLI",
+    "twitter_handle": "https://twitter.com/selametsamli",
+    "github": "https://github.com/selamet",
+    "linkedin": "https://www.linkedin.com/in/selametsamli",
+    "interests": "backend(django, django rest framework), frontend(javascript, vue.js)",
+    "goals": "I want to be a backend developer. I also want to improve myself in the field of the frontend.",
+    "mentor": "İkisi de",
+    "slug": "selamet-samli",
+    "avatar": "https://avatars.githubusercontent.com/selamet",
+    "displayInterests": "Backend(Django, Django Rest Framework), Frontend(Javascript, Vue.js)",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 01:25:07",
+    "name": "Batuhan Özoğuz",
+    "twitter_handle": "https://twitter.com/batuozoguz",
+    "github": "",
+    "linkedin": "https://Batuhanwww.linkedin.com/in/batuhan-özoğuz/?locale=en_US",
+    "interests": "devops",
+    "goals": "I want to be increase my Kubernetes know how and coding backend technologies.",
+    "mentor": "Mentee",
+    "slug": "batuhan-ozoguz",
+    "avatar": "https://ui-avatars.com/api/?name=Batuhan Özoğuz&size=256",
+    "displayInterests": "devops",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 01:35:41",
+    "name": "Ali Said Güneş ",
+    "twitter_handle": "https://twitter.com/alisaidguness?s=09",
+    "github": "https://github.com/alisaid1gunes",
+    "linkedin": "https://www.linkedin.com/in/ali-said-güneş-990834186",
+    "interests": "frontend,backend,hybrid mobile app, machine learning, embedded systems",
+    "goals": "I'm a student for life.I'm a second grade computer engineering student at Erciyes University right now.I developed hybrid mobile apps with flutter and ionic 5. I am learning web technologies(html, css,bootstrap, react, django). Also I am learning machine learning. I developed a Turkish character recognition system using deep learning algorithms with my friends.At the same time  I develop Arduino based projects. Now I want to develop myself. I need a mentor who will  help me get better at a certain enginnering subject. ",
+    "mentor": "Mentee",
+    "slug": "ali-said-gunes",
+    "avatar": "https://avatars.githubusercontent.com/alisaid1gunes",
+    "displayInterests": "Frontend,backend,hybrid mobile app, machine learning, embedded systems",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 02:27:04",
+    "name": "Sude Ozkan",
+    "twitter_handle": "https://twitter.com/sude0zkan",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/sudeozkan",
+    "interests": "backend, artificial intelligence, machine learning, python\n",
+    "goals": "I want to be a successful female engineer in artificial intelligence and machine learning in the future. I aim to support people of all ages and give them hope. I want to prove to everyone that successful engineers can come out of the university I am currently in. I believe that the important thing is not the name of the university but working hard.",
+    "mentor": "Mentee",
+    "slug": "sude-ozkan",
+    "avatar": "https://ui-avatars.com/api/?name=Sude Ozkan&size=256",
+    "displayInterests": "backend, artificial intelligence, machine learning, python\n",
     "mentorships": []
   },
   {

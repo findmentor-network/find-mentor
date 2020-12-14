@@ -34,6 +34,13 @@
       "project_adress": "https://github.com/FurkanPortakal/lokum-js",
       "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
       "slug": "lokum-js"
+    },
+    {
+      "": "14.12.2020 02:09:42",
+      "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+      "project_adress": "https://github.com/flurach/lord",
+      "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
+      "slug": "lord"
     }
   ]
 }
