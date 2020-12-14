@@ -9,11 +9,7 @@
       @keypress.native.enter="searchPerson"
     />
     <b-nav-item>
-      <b-button
-        size="sm"
-        class="my-2 my-sm-0"
-        @click="searchPerson"
-      >
+      <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson">
         Search
       </b-button>
     </b-nav-item>
@@ -27,23 +23,23 @@ export default {
     value: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     placeholder: {
       type: String,
       required: false,
-      default: 'Search in network'
-    }
+      default: 'Search in network',
+    },
   },
-  data () {
+  data() {
     return {
       search: {
         value: this.value,
-        placeholder: this.placeholder
-      }
+        placeholder: this.placeholder,
+      },
     }
   },
-  created () {
+  created() {
     if (this.$route.params.keyword) {
       this.search.value = this.$route.params.keyword
     } else {
@@ -51,21 +47,21 @@ export default {
     }
   },
   methods: {
-    searchPerson () {
+    searchPerson() {
       this.$emit('searchTriggered')
 
       if (this.search.value.length > 0) {
         this.$router.push({
           name: 'search-keyword',
-          params: { keyword: this.search.value }
+          params: { keyword: this.search.value },
         })
         this.clearKeyword()
       }
     },
-    clearKeyword () {
+    clearKeyword() {
       this.search.value = ''
-    }
-  }
+    },
+  },
 }
 </script>
 

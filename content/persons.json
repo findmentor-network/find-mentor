@@ -3029,6 +3029,34 @@
     "mentorships": []
   },
   {
+    "": "14.12.2020 19:18:18",
+    "name": "Furkan Şengil",
+    "twitter_handle": "https://twitter.com/Furkan89792425",
+    "github": "https://github.com/furkanSengil",
+    "linkedin": "https://www.linkedin.com/in/furkan-%C5%9Fengil-122295201",
+    "interests": "frontend",
+    "goals": "I want to become a frontend developer. I've been working on my own for a while. I need a guide.",
+    "mentor": "Mentor",
+    "slug": "furkan-sengil",
+    "avatar": "https://avatars.githubusercontent.com/furkanSengil",
+    "displayInterests": "frontend",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 20:21:59",
+    "name": "Omere Ozgun Unguder",
+    "twitter_handle": "https://twitter.com/OzgunUnguder",
+    "github": "https://github.com/ounguder",
+    "linkedin": "https://www.linkedin.com/in/%C3%B6zg%C3%BCn-%C3%BCng%C3%BCder-9521657b",
+    "interests": "backend, java, linux, python",
+    "goals": "I want to be developer, who has expertise in the area that I would like to work and I would like to improve my knowledge and my abilities during my carrier journey. ",
+    "mentor": "Mentee",
+    "slug": "omere-ozgun-unguder",
+    "avatar": "https://avatars.githubusercontent.com/ounguder",
+    "displayInterests": "Backend, Java, Linux, Python",
+    "mentorships": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -4954,7 +4982,7 @@
     "linkedin": "https://www.linkedin.com/in/yigitdarcin",
     "interests": "ios, android, backend, startup",
     "goals": "",
-    "mentor": "Mentor",
+    "mentor": "İkisi de",
     "slug": "yigit-darcin",
     "avatar": "https://avatars.githubusercontent.com/yigit-darcin",
     "displayInterests": "Ios, android, backend, startup",
