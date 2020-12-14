@@ -7,11 +7,11 @@
       :variant="$colorMode.value"
       :placeholder="search.placeholder"
       @keypress.native.enter="searchPerson"
-    ></b-form-input>
+    />
     <b-nav-item>
-      <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson"
-        >Search</b-button
-      >
+      <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson">
+        Search
+      </b-button>
     </b-nav-item>
   </div>
 </template>
@@ -48,6 +48,8 @@ export default {
   },
   methods: {
     searchPerson() {
+      this.$emit('searchTriggered')
+
       if (this.search.value.length > 0) {
         this.$router.push({
           name: 'search-keyword',

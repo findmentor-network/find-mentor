@@ -4,6 +4,7 @@ const got = require('got')
 const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
 const apiKey = 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
 const slugify = require('slugify')
+const getContributors = require('./getContributons')
 
 const slugger = (text) =>
   slugify(text, {
@@ -87,11 +88,22 @@ async function getData() {
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
     )
 
+    activeMentorships = await getContributors(activeMentorships)
+
     // find and place mentorships
     persons.map((person) => {
       person.mentorships = activeMentorships.filter((mentorship) => {
         if (mentorship.mentor.endsWith(person.slug)) {
           return mentorship
+        }
+      })
+      person.contributions = activeMentorships.filter((mentorship) => {
+        const gh = person.github
+        if (gh) {
+          const username = gh.split('/').pop()
+          if (mentorship.contributors.includes(username)) {
+            return mentorship
+          }
         }
       })
     })
