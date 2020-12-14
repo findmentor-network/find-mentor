@@ -20,4 +20,4 @@ persons.map((person) => {
   })
 })
 
-console.log(persons.find(p => p.slug === 'cagatay-cali'));
+console.log(persons.find((p) => p.slug === 'cagatay-cali'))

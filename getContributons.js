@@ -14,11 +14,12 @@ const get = async (projects) => {
   const requests = projects.map((project) => {
     const projectName = project.project_adress
       .split('/')
-      .slice(project.project_adress.split('/').length - 2).join('/')
-    console.log(
+      .slice(project.project_adress.split('/').length - 2)
+      .join('/')
+    console.log(`https://api.github.com/repos/${projectName}/contributors`)
+    return got(
       `https://api.github.com/repos/${projectName}/contributors`
-    )
-    return got(`https://api.github.com/repos/${projectName}/contributors`).then(res => JSON.parse(res.body))
+    ).then((res) => JSON.parse(res.body))
   })
   const responses = await Promise.all(requests)
   responses.map(
