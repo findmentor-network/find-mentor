@@ -59,11 +59,11 @@
       </div>
     </template>
 
-    <div v-if='person.contributions.length'>
+    <div v-if="person.contributions.length">
       <h2>Contributed:</h2>
       <ul>
-        <li v-for='(contribution, index) in person.contributions' :key='index'>
-          <a :href="contribution.mentor">{{contribution.slug}}</a>
+        <li v-for="(contribution, index) in person.contributions" :key="index">
+          <a :href="contribution.mentor">{{ contribution.slug }}</a>
         </li>
       </ul>
     </div>
