@@ -2952,6 +2952,34 @@
     "mentorships": []
   },
   {
+    "": "14.12.2020 13:04:58",
+    "name": "Murat TURAN",
+    "twitter_handle": "https://twitter.com/thekibast",
+    "github": "https://github.com/snowron",
+    "linkedin": "https://www.linkedin.com/in/muratturan0",
+    "interests": "frontend, backend, devops",
+    "goals": "Full stack hunter",
+    "mentor": "Mentee",
+    "slug": "murat-turan",
+    "avatar": "https://avatars.githubusercontent.com/snowron",
+    "displayInterests": "frontend, backend, devops",
+    "mentorships": []
+  },
+  {
+    "": "14.12.2020 13:14:07",
+    "name": "Deniz Ozkan",
+    "twitter_handle": "https://twitter.com/idnzozkan",
+    "github": "https://github.com/idnzozkan",
+    "linkedin": "https://linkedin.com/in/idnzozkan",
+    "interests": "frontend, backend, devops, secops",
+    "goals": "My goal: to become a worldwide engineer who can do clean code, clean architecture, and have strong software engineering principles.",
+    "mentor": "Mentee",
+    "slug": "deniz-ozkan",
+    "avatar": "https://avatars.githubusercontent.com/idnzozkan",
+    "displayInterests": "Frontend, Backend, Devops, Secops",
+    "mentorships": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
