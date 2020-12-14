@@ -9,7 +9,9 @@
       @keypress.native.enter="searchPerson"
     ></b-form-input>
     <b-nav-item>
-      <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson">Search</b-button>
+      <b-button size="sm" class="my-2 my-sm-0" @click="searchPerson"
+        >Search</b-button
+      >
     </b-nav-item>
   </div>
 </template>
