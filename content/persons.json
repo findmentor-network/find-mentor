@@ -35,10 +35,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -78,10 +78,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -193,10 +193,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -555,7 +555,8 @@
         "contributors": [
           "ilteriskeskin",
           "tansionline",
-          "flurach"
+          "flurach",
+          "burakyilmaz55"
         ]
       }
     ],
@@ -569,7 +570,8 @@
         "contributors": [
           "ilteriskeskin",
           "tansionline",
-          "flurach"
+          "flurach",
+          "burakyilmaz55"
         ]
       }
     ]
@@ -806,10 +808,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -928,10 +930,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -1125,10 +1127,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -1513,10 +1515,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -1530,7 +1532,8 @@
         "contributors": [
           "ilteriskeskin",
           "tansionline",
-          "flurach"
+          "flurach",
+          "burakyilmaz55"
         ]
       },
       {
@@ -1768,7 +1771,21 @@
     "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
     "displayInterests": "Go Lang, Python, Django, Flask, pyinstaller",
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "12.12.2020 17:46:29",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
+        "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
+        "slug": "cevrimici-kitap-galerisi",
+        "contributors": [
+          "ilteriskeskin",
+          "tansionline",
+          "flurach",
+          "burakyilmaz55"
+        ]
+      }
+    ]
   },
   {
     "": "09.12.2020 14:59:06",
@@ -2137,10 +2154,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -2723,10 +2740,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -3606,10 +3623,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -3752,6 +3769,21 @@
     "contributions": []
   },
   {
+    "": "15.12.2020 00:32:58",
+    "name": "Furkan Arabul",
+    "twitter_handle": "",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/furkan-arabul-00b5192a",
+    "interests": "frontend",
+    "goals": "I want to improve myself in fronetend development",
+    "mentor": "Mentee",
+    "slug": "furkan-arabul",
+    "avatar": "https://ui-avatars.com/api/?name=Furkan Arabul&size=256",
+    "displayInterests": "frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -3818,10 +3850,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4075,10 +4107,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4092,7 +4124,8 @@
         "contributors": [
           "ilteriskeskin",
           "tansionline",
-          "flurach"
+          "flurach",
+          "burakyilmaz55"
         ]
       }
     ]
@@ -4479,10 +4512,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4646,10 +4679,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4798,10 +4831,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4860,10 +4893,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4937,10 +4970,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -4994,10 +5027,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
@@ -5131,10 +5164,10 @@
           "mucahitbircan",
           "FurkanPortakal",
           "kemalayhan",
+          "ahmetcanaydemir",
           "snowron",
           "altaysimsek",
           "onuraksar",
-          "ahmetcanaydemir",
           "ahmetelgun",
           "mesutcifci"
         ]
