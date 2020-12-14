@@ -41,10 +41,13 @@ export default {
   async fetch() {
     const { $content, params, error } = this.$nuxt.context
 
-    const result = await $content('persons')
+    const [person] = await $content('persons')
       .where({ slug: { $eq: params.slug } })
       .fetch()
-    const person = result[0]
+
+    if (!person) {
+      return error({ statusCode: 404, message: 'Not found' })
+    }
 
     this.person = person
 
@@ -55,10 +58,6 @@ export default {
 
     this.navigation.person.prev = prev
     this.navigation.person.next = next
-
-    if (!result) {
-      return error({ statusCode: 404, message: 'Not found' })
-    }
   },
   data() {
     return {
