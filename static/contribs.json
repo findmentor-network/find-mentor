@@ -41,7 +41,7 @@
       "received_events_url": "https://api.github.com/users/selimdoyranli/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 33
+      "contributions": 34
     },
     {
       "login": "tansionline",
@@ -109,6 +109,28 @@
       "contributions": 14
     },
     {
+      "login": "sevkioruc",
+      "id": 33834689,
+      "node_id": "MDQ6VXNlcjMzODM0Njg5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/33834689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sevkioruc",
+      "html_url": "https://github.com/sevkioruc",
+      "followers_url": "https://api.github.com/users/sevkioruc/followers",
+      "following_url": "https://api.github.com/users/sevkioruc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sevkioruc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sevkioruc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sevkioruc/subscriptions",
+      "organizations_url": "https://api.github.com/users/sevkioruc/orgs",
+      "repos_url": "https://api.github.com/users/sevkioruc/repos",
+      "events_url": "https://api.github.com/users/sevkioruc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sevkioruc/received_events",
+      "type": "User",
+      "site_admin": false,
+      "contributions": 13,
+      "fmn_url": "https://findmentor.network/peer/sevki-oruc"
+    },
+    {
       "login": "alpercun",
       "id": 32914083,
       "node_id": "MDQ6VXNlcjMyOTE0MDgz",
@@ -151,28 +173,6 @@
       "site_admin": false,
       "contributions": 11,
       "fmn_url": "https://findmentor.network/peer/mustafa-b.-yildiz"
-    },
-    {
-      "login": "sevkioruc",
-      "id": 33834689,
-      "node_id": "MDQ6VXNlcjMzODM0Njg5",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/33834689?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sevkioruc",
-      "html_url": "https://github.com/sevkioruc",
-      "followers_url": "https://api.github.com/users/sevkioruc/followers",
-      "following_url": "https://api.github.com/users/sevkioruc/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sevkioruc/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sevkioruc/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sevkioruc/subscriptions",
-      "organizations_url": "https://api.github.com/users/sevkioruc/orgs",
-      "repos_url": "https://api.github.com/users/sevkioruc/repos",
-      "events_url": "https://api.github.com/users/sevkioruc/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sevkioruc/received_events",
-      "type": "User",
-      "site_admin": false,
-      "contributions": 9,
-      "fmn_url": "https://findmentor.network/peer/sevki-oruc"
     },
     {
       "login": "alihan",
