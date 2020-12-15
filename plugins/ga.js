@@ -5,13 +5,10 @@ export default ({ app }) => {
    ** Only run on client-side and only in production mode
    */
   // FAKE Analytics
-  if (process.env.NODE_ENV !== 'production')
-    return
+  if (process.env.NODE_ENV !== 'production') return
   app.router.afterEach((to, from) => {
-     
     const baseURL = process.env.BASE_URL
-    if (!baseURL)
-        return
+    if (!baseURL) return
     fetch(baseURL, {
       method: 'POST',
       headers: {
