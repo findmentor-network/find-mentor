@@ -44,12 +44,12 @@ export default {
     const [mentors, mentees, page] = await Promise.all([
       $content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
-        .sortBy('', 'desc')
+        .sortBy("registered_at", 'desc')
         .limit(16)
         .fetch(),
       $content('persons')
         .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
-        .sortBy('', 'desc')
+        .sortBy("registered_at", 'desc')
         .limit(16)
         .fetch(),
       $content('readme').fetch(),

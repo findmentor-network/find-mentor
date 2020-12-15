@@ -7,30 +7,126 @@
       "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
       "slug": "find-mentor",
       "contributors": [
-        "actions-user",
-        "cagataycali",
-        "selimdoyranli",
-        "tansionline",
-        "ograsyilmaz",
-        "hasantezcan",
-        "flurach",
-        "alpercun",
-        "sevkioruc",
-        "alihan",
-        "Adem68",
-        "batin",
-        "crx4",
-        "mucahitbircan",
-        "FurkanPortakal",
-        "kemalayhan",
-        "ahmetcanaydemir",
-        "snowron",
-        "altaysimsek",
-        "onuraksar",
-        "ukeskin",
-        "ahmetelgun",
-        "ilteriskeskin",
-        "mesutcifci"
+        {
+          "username": "actions-user",
+          "github_address": "https://github.com/actions-user",
+          "avatar": "https://avatars.githubusercontent.com/actions-user"
+        },
+        {
+          "username": "cagataycali",
+          "github_address": "https://github.com/cagataycali",
+          "avatar": "https://avatars.githubusercontent.com/cagataycali"
+        },
+        {
+          "username": "selimdoyranli",
+          "github_address": "https://github.com/selimdoyranli",
+          "avatar": "https://avatars.githubusercontent.com/selimdoyranli"
+        },
+        {
+          "username": "tansionline",
+          "github_address": "https://github.com/tansionline",
+          "avatar": "https://avatars.githubusercontent.com/tansionline"
+        },
+        {
+          "username": "ograsyilmaz",
+          "github_address": "https://github.com/ograsyilmaz",
+          "avatar": "https://avatars.githubusercontent.com/ograsyilmaz"
+        },
+        {
+          "username": "hasantezcan",
+          "github_address": "https://github.com/hasantezcan",
+          "avatar": "https://avatars.githubusercontent.com/hasantezcan"
+        },
+        {
+          "username": "flurach",
+          "github_address": "https://github.com/flurach",
+          "avatar": "https://avatars.githubusercontent.com/flurach"
+        },
+        {
+          "username": "alpercun",
+          "github_address": "https://github.com/alpercun",
+          "avatar": "https://avatars.githubusercontent.com/alpercun"
+        },
+        {
+          "username": "sevkioruc",
+          "github_address": "https://github.com/sevkioruc",
+          "avatar": "https://avatars.githubusercontent.com/sevkioruc"
+        },
+        {
+          "username": "alihan",
+          "github_address": "https://github.com/alihan",
+          "avatar": "https://avatars.githubusercontent.com/alihan"
+        },
+        {
+          "username": "Adem68",
+          "github_address": "https://github.com/Adem68",
+          "avatar": "https://avatars.githubusercontent.com/Adem68"
+        },
+        {
+          "username": "batin",
+          "github_address": "https://github.com/batin",
+          "avatar": "https://avatars.githubusercontent.com/batin"
+        },
+        {
+          "username": "crx4",
+          "github_address": "https://github.com/crx4",
+          "avatar": "https://avatars.githubusercontent.com/crx4"
+        },
+        {
+          "username": "mucahitbircan",
+          "github_address": "https://github.com/mucahitbircan",
+          "avatar": "https://avatars.githubusercontent.com/mucahitbircan"
+        },
+        {
+          "username": "FurkanPortakal",
+          "github_address": "https://github.com/FurkanPortakal",
+          "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
+        },
+        {
+          "username": "kemalayhan",
+          "github_address": "https://github.com/kemalayhan",
+          "avatar": "https://avatars.githubusercontent.com/kemalayhan"
+        },
+        {
+          "username": "ahmetcanaydemir",
+          "github_address": "https://github.com/ahmetcanaydemir",
+          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir"
+        },
+        {
+          "username": "snowron",
+          "github_address": "https://github.com/snowron",
+          "avatar": "https://avatars.githubusercontent.com/snowron"
+        },
+        {
+          "username": "altaysimsek",
+          "github_address": "https://github.com/altaysimsek",
+          "avatar": "https://avatars.githubusercontent.com/altaysimsek"
+        },
+        {
+          "username": "onuraksar",
+          "github_address": "https://github.com/onuraksar",
+          "avatar": "https://avatars.githubusercontent.com/onuraksar"
+        },
+        {
+          "username": "ukeskin",
+          "github_address": "https://github.com/ukeskin",
+          "avatar": "https://avatars.githubusercontent.com/ukeskin"
+        },
+        {
+          "username": "ahmetelgun",
+          "github_address": "https://github.com/ahmetelgun",
+          "avatar": "https://avatars.githubusercontent.com/ahmetelgun"
+        },
+        {
+          "username": "ilteriskeskin",
+          "github_address": "https://github.com/ilteriskeskin",
+          "avatar": "https://avatars.githubusercontent.com/ilteriskeskin"
+        },
+        {
+          "username": "mesutcifci",
+          "github_address": "https://github.com/mesutcifci",
+          "avatar": "https://avatars.githubusercontent.com/mesutcifci"
+        }
       ]
     },
     {
@@ -40,7 +136,11 @@
       "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
       "slug": "entrylevel",
       "contributors": [
-        "cagataycali"
+        {
+          "username": "cagataycali",
+          "github_address": "https://github.com/cagataycali",
+          "avatar": "https://avatars.githubusercontent.com/cagataycali"
+        }
       ]
     },
     {
@@ -50,10 +150,26 @@
       "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
       "slug": "kubernetes-kitap",
       "contributors": [
-        "mstrYoda",
-        "cagataycali",
-        "actions-user",
-        "halitsoydemir"
+        {
+          "username": "mstrYoda",
+          "github_address": "https://github.com/mstrYoda",
+          "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+        },
+        {
+          "username": "cagataycali",
+          "github_address": "https://github.com/cagataycali",
+          "avatar": "https://avatars.githubusercontent.com/cagataycali"
+        },
+        {
+          "username": "actions-user",
+          "github_address": "https://github.com/actions-user",
+          "avatar": "https://avatars.githubusercontent.com/actions-user"
+        },
+        {
+          "username": "halitsoydemir",
+          "github_address": "https://github.com/halitsoydemir",
+          "avatar": "https://avatars.githubusercontent.com/halitsoydemir"
+        }
       ]
     },
     {
@@ -63,10 +179,26 @@
       "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
       "slug": "cevrimici-kitap-galerisi",
       "contributors": [
-        "ilteriskeskin",
-        "tansionline",
-        "flurach",
-        "burakyilmaz55"
+        {
+          "username": "ilteriskeskin",
+          "github_address": "https://github.com/ilteriskeskin",
+          "avatar": "https://avatars.githubusercontent.com/ilteriskeskin"
+        },
+        {
+          "username": "tansionline",
+          "github_address": "https://github.com/tansionline",
+          "avatar": "https://avatars.githubusercontent.com/tansionline"
+        },
+        {
+          "username": "flurach",
+          "github_address": "https://github.com/flurach",
+          "avatar": "https://avatars.githubusercontent.com/flurach"
+        },
+        {
+          "username": "burakyilmaz55",
+          "github_address": "https://github.com/burakyilmaz55",
+          "avatar": "https://avatars.githubusercontent.com/burakyilmaz55"
+        }
       ]
     },
     {
@@ -76,7 +208,11 @@
       "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
       "slug": "lokum-js",
       "contributors": [
-        "FurkanPortakal"
+        {
+          "username": "FurkanPortakal",
+          "github_address": "https://github.com/FurkanPortakal",
+          "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
+        }
       ]
     },
     {
@@ -86,7 +222,11 @@
       "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
       "slug": "lord",
       "contributors": [
-        "flurach"
+        {
+          "username": "flurach",
+          "github_address": "https://github.com/flurach",
+          "avatar": "https://avatars.githubusercontent.com/flurach"
+        }
       ]
     },
     {
@@ -96,10 +236,26 @@
       "goal": "Go dili ile Docker için interactive cli geliştirerek docker komutlarına featurelar ekleyip günlük işlerimizi kolaylaştırmak.",
       "slug": "docker-shell",
       "contributors": [
-        "mstrYoda",
-        "umutphp",
-        "selcukusta",
-        "altanozlu"
+        {
+          "username": "mstrYoda",
+          "github_address": "https://github.com/mstrYoda",
+          "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+        },
+        {
+          "username": "umutphp",
+          "github_address": "https://github.com/umutphp",
+          "avatar": "https://avatars.githubusercontent.com/umutphp"
+        },
+        {
+          "username": "selcukusta",
+          "github_address": "https://github.com/selcukusta",
+          "avatar": "https://avatars.githubusercontent.com/selcukusta"
+        },
+        {
+          "username": "altanozlu",
+          "github_address": "https://github.com/altanozlu",
+          "avatar": "https://avatars.githubusercontent.com/altanozlu"
+        }
       ]
     },
     {
@@ -109,7 +265,11 @@
       "goal": "Multiple kubernetes config fileları merge etmek için cli toolu. Kubectl extension haline getirilebilecek bir araç.",
       "slug": "kubeconf",
       "contributors": [
-        "mstrYoda"
+        {
+          "username": "mstrYoda",
+          "github_address": "https://github.com/mstrYoda",
+          "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+        }
       ]
     }
   ]
