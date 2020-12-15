@@ -100,8 +100,12 @@ async function getData() {
       person.contributions = activeMentorships.filter((mentorship) => {
         const gh = person.github
         if (gh) {
-          const username = gh.split('/').pop()
-          if (mentorship.contributors.includes(username)) {
+          const amIExists = mentorship.contributors.find((contributor) => {
+            if (contributor.github_address === gh) {
+              return contributor
+            }
+          })
+          if (amIExists) {
             return mentorship
           }
         }

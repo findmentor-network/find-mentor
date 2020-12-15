@@ -43,11 +43,11 @@
                 <a
                   v-for="cont in mentorship.contributors"
                   :key="cont.id"
-                  :href="getGithubLink(cont)"
+                  :href="cont.github_address"
                 >
                   <img
                     class="cont-image"
-                    :src="getProfilePicture(cont)"
+                    :src="cont.avatar"
                     alt=""
                   />
                 </a>
@@ -91,9 +91,9 @@
               <a
                 v-for="cont in contribution.contributors"
                 :key="cont.id"
-                :href="getGithubLink(cont)"
+                :href="cont.github_address"
               >
-                <img class="cont-image" :src="getProfilePicture(cont)" alt="" />
+                <img class="cont-image" :src="cont.avatar" alt="" />
               </a>
             </div>
             <br />
