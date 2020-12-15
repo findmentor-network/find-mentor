@@ -29,7 +29,7 @@
         >
           <b-card-header header-tag="header" class="p-1" role="tab">
             <b-button v-b-toggle="mentorship.slug" block variant="dark">
-              {{ mentorship.slug }}
+              <h3>{{ mentorship.slug }}</h3>
             </b-button>
           </b-card-header>
           <b-collapse
@@ -38,6 +38,20 @@
             role="tabpanel"
           >
             <b-card-body>
+              <h5>Contributors</h5>
+              <div align="center">
+                <a
+                  v-for="cont in mentorship.contributors"
+                  :key="cont.id"
+                  :href="getGithubLink(cont)"
+                >
+                  <img
+                    class="cont-image"
+                    :src="getProfilePicture(cont)"
+                    alt=""
+                  />
+                </a>
+              </div>
               <b-card-text v-if="projects[index]">
                 <a
                   class="float-right"
@@ -45,6 +59,7 @@
                   target="_blank"
                   >Go to project page</a
                 >
+                <hr />
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
