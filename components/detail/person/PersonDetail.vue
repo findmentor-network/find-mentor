@@ -59,15 +59,29 @@
       </div>
     </template>
 
-    <div v-if="person.contributions.length">
-      <h2>Contributed:</h2>
-      <ul>
-        <li v-for="(contribution, index) in person.contributions" :key="index">
-          <a :href="contribution.mentor">{{ contribution.slug }}</a>
-        </li>
-      </ul>
-    </div>
+    <!-- Contributed Projects -->
+    <h2>Contributed</h2>
+    <hr />
+    <div class="app-tile accordion" v-if="person.contributions.length">
+      <div>
+        <div v-for="(contribution, index) in person.contributions" :key="index">
+          <h2 :href="contribution.mentor">{{ contribution.slug }}</h2>
+          <p>{{ contribution.goal }}</p>
 
+          <div align="center">
+            <a
+              v-for="cont in contribution.contributors"
+              :key="cont.id"
+              :href="getGithubLink(cont)"
+            >
+              <img class="cont-image" :src="getProfilePicture(cont)" alt="" />
+            </a>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    <hr />
     <div class="row">
       <div class="col-lg-6">
         <!-- Disqus -->
@@ -178,6 +192,12 @@ export default {
       })
       this.projects = await Promise.all(requests)
     },
+    getProfilePicture(username) {
+      return `https://avatars.githubusercontent.com/${username}`
+    },
+    getGithubLink(username) {
+      return `https://github.com/${username}`
+    },
   },
 }
 </script>
@@ -211,6 +231,31 @@ export default {
   .accordion-color {
     background-color: var(--color-ui-02);
     border: none;
+  }
+}
+
+.cont-image {
+  padding: 2px;
+  width: 6%;
+  border-radius: 100%;
+}
+.cont-image:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+}
+.cont-a:hover {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .cont-image {
+    width: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .cont-image {
+    width: 14%;
   }
 }
 </style>
