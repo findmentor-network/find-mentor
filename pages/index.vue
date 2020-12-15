@@ -1,6 +1,18 @@
 <template>
   <div class="page main-page">
     <header>
+      <h1>
+        <a href="https://github.com/cagataycali/find-mentor">
+          Feel free to contribute!
+	</a>
+      </h1>
+      <p class="pad-both">
+        Every night & every deploy, the spread sheet will be parsed by GitHub actions,
+	then generate this beauty.
+      </p>
+      <div id="contribs">
+        <ContribList :contribs="contribs" size="40px"/>
+      </div>
       <nuxt-content :document="page" />
       <NuxtLink
         to="/guide/"
@@ -54,9 +66,11 @@ export default {
         .fetch(),
       $content('readme').fetch(),
     ])
+    const { contribs } = await $content('contribs').fetch()
     return {
       mentors,
       mentees,
+      contribs,
       page,
     }
   },
@@ -78,7 +92,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .main-page {
   header {
     display: flex;
@@ -95,14 +109,18 @@ export default {
         display: none;
       }
     }
-  }
-  .contrib {
-    text-decoration: underline;
-    text-decoration-color: dodgerblue;
+
+    #contribs {
+      padding: 10px;
+      max-width: 700px;
+    }
   }
   .information {
     padding: 10px;
     font-size: 16px;
   }
+}
+.pad-both {
+  padding: 0px 20px;
 }
 </style>
