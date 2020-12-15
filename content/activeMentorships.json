@@ -63,6 +63,11 @@
           "avatar": "https://avatars.githubusercontent.com/altaysimsek"
         },
         {
+          "username": "ahmetcanaydemir",
+          "github_address": "https://github.com/ahmetcanaydemir",
+          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir"
+        },
+        {
           "username": "Adem68",
           "github_address": "https://github.com/Adem68",
           "avatar": "https://avatars.githubusercontent.com/Adem68"
@@ -93,11 +98,6 @@
           "avatar": "https://avatars.githubusercontent.com/kemalayhan"
         },
         {
-          "username": "ahmetcanaydemir",
-          "github_address": "https://github.com/ahmetcanaydemir",
-          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir"
-        },
-        {
           "username": "snowron",
           "github_address": "https://github.com/snowron",
           "avatar": "https://avatars.githubusercontent.com/snowron"
@@ -121,6 +121,11 @@
           "username": "ilteriskeskin",
           "github_address": "https://github.com/ilteriskeskin",
           "avatar": "https://avatars.githubusercontent.com/ilteriskeskin"
+        },
+        {
+          "username": "aaabdyrahmanov",
+          "github_address": "https://github.com/aaabdyrahmanov",
+          "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov"
         },
         {
           "username": "mesutcifci",
@@ -190,6 +195,11 @@
           "avatar": "https://avatars.githubusercontent.com/tansionline"
         },
         {
+          "username": "burakyilmaz55",
+          "github_address": "https://github.com/burakyilmaz55",
+          "avatar": "https://avatars.githubusercontent.com/burakyilmaz55"
+        },
+        {
           "username": "flurach",
           "github_address": "https://github.com/flurach",
           "avatar": "https://avatars.githubusercontent.com/flurach"
@@ -198,11 +208,6 @@
           "username": "ukeskin",
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin"
-        },
-        {
-          "username": "burakyilmaz55",
-          "github_address": "https://github.com/burakyilmaz55",
-          "avatar": "https://avatars.githubusercontent.com/burakyilmaz55"
         }
       ]
     },
@@ -288,6 +293,20 @@
           "username": "muraterzioglu",
           "github_address": "https://github.com/muraterzioglu",
           "avatar": "https://avatars.githubusercontent.com/muraterzioglu"
+        }
+      ]
+    },
+    {
+      "": "15.12.2020 23:47:39",
+      "mentor": "http://findmentor.network/peer/cagatay-cali/",
+      "project_adress": "https://github.com/cagataycali/analytics",
+      "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
+      "slug": "analytics",
+      "contributors": [
+        {
+          "username": "cagataycali",
+          "github_address": "https://github.com/cagataycali",
+          "avatar": "https://avatars.githubusercontent.com/cagataycali"
         }
       ]
     }
