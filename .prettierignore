@@ -2,3 +2,4 @@
 **/content
 **/static
 *.md
+**/coverage
