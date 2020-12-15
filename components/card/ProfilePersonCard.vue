@@ -39,19 +39,33 @@
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
             <br />
-            <a
-              v-if="person.mentorships.length == 0 && person.mentor != 'Mentee'"
-              target="_blank"
-              class="profile-person-card-social-media__button profile-person-card-social-media__button--askForMentorship"
-              itemprop="sameAs"
-              :href="askForMentorShipLink"
-            >
-              <font-awesome-icon
-                :icon="['fas', 'question']"
-                color="color:var(--color-text-04) "
-              />
-              Ask for a mentorship project
-            </a>
+            <div v-if="person.mentor != 'Mentee'">
+              <a
+                v-if="person.mentorships.length == 0"
+                target="_blank"
+                class="profile-person-card-social-media__button profile-person-card-social-media__button--askForMentorship"
+                itemprop="sameAs"
+                :href="askForMentorShipLink"
+              >
+                <font-awesome-icon
+                  :icon="['fas', 'question']"
+                  color="color:var(--color-text-04) "
+                />
+                Ask for a mentorship project
+              </a>
+              <a
+                v-else
+                class="profile-person-card-social-media__button profile-person-card-social-media__button--askForMentorship"
+                itemprop="sameAs"
+                href="#active-mentorships"
+              >
+                <font-awesome-icon
+                  :icon="['fas', 'list']"
+                  color="color:var(--color-text-04) "
+                />
+                Check out active mentorships
+              </a>
+            </div>
             <hr />
             <div
               v-if="person.interests.length > 0"

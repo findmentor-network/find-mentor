@@ -18,7 +18,7 @@
 
     <!-- Active Mentorships -->
     <template v-if="person.mentorships.length > 0">
-      <h2>Active Mentorships</h2>
+      <h2 id="active-mentorships">Active Mentorships</h2>
       <hr />
       <div class="app-tile accordion" role="tablist">
         <b-card
