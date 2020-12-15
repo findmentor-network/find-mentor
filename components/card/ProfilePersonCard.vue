@@ -38,6 +38,17 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
+            <br>
+            <a
+            v-if="person.mentorships.length == 0 && person.mentor != 'Mentee'"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--askForMentorship"
+            itemprop="sameAs"
+            :href="askForMentorShipLink"
+          >
+            <font-awesome-icon :icon="['fas', 'question']" color="color:var(--color-text-04) " />
+            Ask for a mentorship project
+          </a>
             <hr />
             <div
               v-if="person.interests.length > 0"
@@ -115,6 +126,7 @@
             <font-awesome-icon :icon="['fab', 'linkedin']" color="white" />
             LinkedIn
           </a>
+          
         </div>
       </div>
     </div>
@@ -138,6 +150,13 @@ export default {
     },
   },
   computed: {
+    askForMentorShipLink() {
+      return `${
+        this.person.twitter_handle
+          ? this.person.twitter_handle
+          : this.person.linkedin || this.person.github
+      }`
+    },
     profileCardStyleAsPersonType() {
       return `
         border-top: 4px solid ${this.getPersonTypeColor({
@@ -223,6 +242,11 @@ export default {
 
       &--linkedin {
         background-color: var(--color-linkedin-01);
+      }
+      &--askForMentorship {
+        background-color: var(--color-ui-05);
+        color:var(--color-text-04);
+        margin-top:10px;
       }
     }
   }
