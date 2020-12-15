@@ -39,7 +39,7 @@
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
             <br />
-            <div v-if="person.mentor != 'Mentee'">
+            <template v-if="person.mentor != 'Mentee'">
               <a
                 v-if="person.mentorships.length == 0"
                 target="_blank"
@@ -65,7 +65,7 @@
                 />
                 Check out active mentorships
               </a>
-            </div>
+            </template>
             <hr />
             <div
               v-if="person.interests.length > 0"
