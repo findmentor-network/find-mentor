@@ -10,7 +10,9 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "lint": "yarn lint:js",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "unit": "jest --config test/unit/jest.conf.js",
+    "test": "yarn unit"
   },
   "husky": {
     "hooks": {
@@ -43,14 +45,20 @@
     "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/style-resources": "^1.0.0",
+    "@vue/test-utils": "^1.1.2",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
     "eslint": "^7.10.0",
     "eslint-plugin-nuxt": "^1.0.0",
+    "jest": "^26.6.3",
     "node-sass": "^5.0.0",
     "prettier": "2.2.1",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.0",
+    "vue-jest": "^3.0.7"
   }
 }
