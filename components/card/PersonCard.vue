@@ -8,48 +8,48 @@
     itemtype="https://schema.org/Person"
   >
     <div class="social-media">
-      <div v-if="person.twitter_handle.length" class="twitter">
-        <a
-          :href="person.twitter_handle"
-          target="_blank"
-          :title="`${person.name} twitter`"
-          itemprop="sameAs"
-        >
-          <font-awesome-icon
-            class="social-media-icon"
-            :icon="['fab', 'twitter']"
-            color="white"
-          />
-        </a>
-      </div>
-      <div v-if="person.github.length" class="github">
-        <a
-          :href="person.github"
-          target="_blank"
-          :title="`${person.name} github`"
-          itemprop="sameAs"
-        >
-          <font-awesome-icon
-            class="social-media-icon"
-            :icon="['fab', 'github']"
-            color="white"
-          />
-        </a>
-      </div>
-      <div v-if="person.linkedin.length" class="linkedin">
-        <a
-          :href="person.linkedin"
-          target="_blank"
-          :title="`${person.name} linkedin`"
-          itemprop="sameAs"
-        >
-          <font-awesome-icon
-            class="social-media-icon"
-            :icon="['fab', 'linkedin']"
-            color="white"
-          />
-        </a>
-      </div>
+      <a
+        v-if="person.twitter_handle.length > 0"
+        class="social-media__button social-media__button--twitter"
+        :href="person.twitter_handle"
+        target="_blank"
+        :title="`${person.name} twitter`"
+        itemprop="sameAs"
+      >
+        <font-awesome-icon
+          class="social-media__icon"
+          :icon="['fab', 'twitter']"
+          color="white"
+        />
+      </a>
+      <a
+        v-if="person.github.length > 0"
+        class="social-media__button social-media__button--github"
+        :href="person.github"
+        target="_blank"
+        :title="`${person.name} github`"
+        itemprop="sameAs"
+      >
+        <font-awesome-icon
+          class="social-media__icon"
+          :icon="['fab', 'github']"
+          color="white"
+        />
+      </a>
+      <a
+        v-if="person.linkedin.length > 0"
+        class="social-media__button social-media__button--linkedin"
+        :href="person.linkedin"
+        target="_blank"
+        :title="`${person.name} linkedin`"
+        itemprop="sameAs"
+      >
+        <font-awesome-icon
+          class="social-media__icon"
+          :icon="['fab', 'linkedin']"
+          color="white"
+        />
+      </a>
     </div>
 
     <NuxtLink :to="`/peer/${person.slug}`" itemprop="url">
@@ -62,7 +62,7 @@
             alt="mentee-profile-picture"
             itemprop="image"
             loading="lazy"
-          />
+          >
           <div v-if="!person.github.length" class="non-image" />
         </div>
 
@@ -87,25 +87,25 @@ import { getPersonTypeClass, getCapitalPersonName } from '@/mixins'
 export default {
   name: 'Card',
   components: {
-    VClamp,
+    VClamp
   },
   mixins: [getPersonTypeClass, getCapitalPersonName],
   props: {
     person: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
   methods: {
-    getProfilePicture(githubLink) {
+    getProfilePicture (githubLink) {
       const regex = /github.com\/([\w\d-]+)(.+)?/
       const response = githubLink.match(regex)
       if (!response) {
         return ''
       }
       return `https://avatars.githubusercontent.com/${response[1]}`
-    },
-  },
+    }
+  }
 }
 </script>
 
@@ -131,52 +131,37 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 0 26px 0;
-  }
 
-  .twitter,
-  .github,
-  .linkedin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    margin: 0 8px;
-    border-radius: 100%;
-  }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      margin: 0 8px;
+      border-radius: 100%;
+      transition: 0.1s transform;
 
-  .social-media-icon {
-    width: 16px;
-    height: 16px;
-  }
+      &:hover {
+        transform: scale(1.2);
+      }
 
-  .twitter {
-    background-color: #22acf3;
-    &:hover {
-      -ms-transform: scale(1.2); /* IE 9 */
-      -webkit-transform: scale(1.2); /* Safari 3-8 */
-      transform: scale(1.2);
-      transition: 0.3s;
+      &--twitter {
+        background-color: var(--color-twitter-01);
+      }
+
+      &--github {
+        background-color: var(--color-github-01);
+      }
+
+      &--linkedin {
+        background-color: var(--color-linkedin-01);
+      }
     }
-  }
 
-  .github {
-    background-color: #282e36;
-    &:hover {
-      -ms-transform: scale(1.2); /* IE 9 */
-      -webkit-transform: scale(1.2); /* Safari 3-8 */
-      transform: scale(1.2);
-      transition: 0.3s;
-    }
-  }
-
-  .linkedin {
-    background-color: #0e76a8;
-    &:hover {
-      -ms-transform: scale(1.3); /* IE 9 */
-      -webkit-transform: scale(1.3); /* Safari 3-8 */
-      transform: scale(1.3);
-      transition: 0.3s;
+    &__icon {
+      width: 16px;
+      height: 16px;
     }
   }
 
