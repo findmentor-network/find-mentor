@@ -265,9 +265,10 @@ export default {
 }
 
 .twitter-wrapper {
-  width: 550px;
+  width: 100%;
   height: 520px;
   overflow-y: scroll;
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
@@ -276,7 +277,6 @@ export default {
   }
 
   .twitter-wrapper {
-    width: 500px;
     height: 300px;
     overflow: scroll;
   }
