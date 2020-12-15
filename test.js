@@ -13,18 +13,16 @@ persons.map((person) => {
     const gh = person.github
     console.log(gh)
     if (gh) {
-        const amIExists = mentorship.contributors.find((contributor) => {
-          if (contributor.github_address === gh) {
-            return contributor
-          }
-        })
-        if (amIExists) {
-            return mentorship
+      const amIExists = mentorship.contributors.find((contributor) => {
+        if (contributor.github_address === gh) {
+          return contributor
         }
+      })
+      if (amIExists) {
+        return mentorship
+      }
     }
   })
 })
 
-console.log(persons);
-
-
+console.log(persons)

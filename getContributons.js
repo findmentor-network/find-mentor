@@ -23,7 +23,11 @@ const get = async (projects) => {
   responses.map(
     (response, index) =>
       (projects[index].contributors = response.map((r) => {
-        return { username: r.login, github_address: r.html_url, avatar: `https://avatars.githubusercontent.com/${r.login}`}
+        return {
+          username: r.login,
+          github_address: r.html_url,
+          avatar: `https://avatars.githubusercontent.com/${r.login}`,
+        }
       }))
   )
   return projects

@@ -45,11 +45,7 @@
                   :key="cont.id"
                   :href="cont.github_address"
                 >
-                  <img
-                    class="cont-image"
-                    :src="cont.avatar"
-                    alt=""
-                  />
+                  <img class="cont-image" :src="cont.avatar" alt="" />
                 </a>
               </div>
               <b-card-text v-if="projects[index]">
