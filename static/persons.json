@@ -39,7 +39,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       },
@@ -82,7 +84,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       },
@@ -197,7 +201,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -562,6 +568,39 @@
     ],
     "contributions": [
       {
+        "": "11.12.2020 14:13:50",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
+        "slug": "find-mentor",
+        "contributors": [
+          "actions-user",
+          "cagataycali",
+          "selimdoyranli",
+          "tansionline",
+          "ograsyilmaz",
+          "hasantezcan",
+          "flurach",
+          "alpercun",
+          "sevkioruc",
+          "alihan",
+          "Adem68",
+          "batin",
+          "crx4",
+          "mucahitbircan",
+          "FurkanPortakal",
+          "kemalayhan",
+          "ahmetcanaydemir",
+          "snowron",
+          "altaysimsek",
+          "onuraksar",
+          "ukeskin",
+          "ahmetelgun",
+          "ilteriskeskin",
+          "mesutcifci"
+        ]
+      },
+      {
         "": "12.12.2020 17:46:29",
         "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
         "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
@@ -812,7 +851,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -934,7 +975,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -1131,7 +1174,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -1519,7 +1564,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       },
@@ -2158,7 +2205,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -2744,7 +2793,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -3627,7 +3678,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -4034,7 +4087,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -4291,7 +4346,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       },
@@ -4696,7 +4753,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -4863,7 +4922,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -4957,7 +5018,41 @@
     "avatar": "https://avatars.githubusercontent.com/ukeskin",
     "displayInterests": "Frontend",
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "11.12.2020 14:13:50",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
+        "slug": "find-mentor",
+        "contributors": [
+          "actions-user",
+          "cagataycali",
+          "selimdoyranli",
+          "tansionline",
+          "ograsyilmaz",
+          "hasantezcan",
+          "flurach",
+          "alpercun",
+          "sevkioruc",
+          "alihan",
+          "Adem68",
+          "batin",
+          "crx4",
+          "mucahitbircan",
+          "FurkanPortakal",
+          "kemalayhan",
+          "ahmetcanaydemir",
+          "snowron",
+          "altaysimsek",
+          "onuraksar",
+          "ukeskin",
+          "ahmetelgun",
+          "ilteriskeskin",
+          "mesutcifci"
+        ]
+      }
+    ]
   },
   {
     "": "",
@@ -5015,7 +5110,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -5077,7 +5174,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -5154,7 +5253,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       },
@@ -5211,7 +5312,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
@@ -5348,7 +5451,9 @@
           "snowron",
           "altaysimsek",
           "onuraksar",
+          "ukeskin",
           "ahmetelgun",
+          "ilteriskeskin",
           "mesutcifci"
         ]
       }
