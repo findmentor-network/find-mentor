@@ -80,6 +80,7 @@
               />
               Share at Twitter
             </a>
+
           </div>
         </div>
       </div>
@@ -114,6 +115,23 @@
           >
             <font-awesome-icon :icon="['fab', 'linkedin']" color="white" />
             LinkedIn
+          </a>
+           <a
+            v-if="person.mentorships.length == 0 && person.mentor != 'Mentee'"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--askformentorship"
+            itemprop="sameAs"
+            :href="
+              person.twitter_handle
+                ? person.twitter_handle
+                : person.linkedin || person.github
+            "
+          >
+            <font-awesome-icon
+              :icon="['fas', 'question']"
+              color=" rgb(185, 154, 14)"
+            />
+            Ask for a mentorship project
           </a>
         </div>
       </div>
@@ -223,6 +241,11 @@ export default {
 
       &--linkedin {
         background-color: var(--color-linkedin-01);
+      }
+      &--askformentorship {
+        color: rgb(185, 154, 14);
+        background-color: rgb(255, 226, 96);
+        font-weight: 600;
       }
     }
   }
