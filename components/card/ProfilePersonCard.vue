@@ -236,15 +236,40 @@ export default {
 
       &--twitter {
         background-color: var(--color-twitter-01);
+        &:hover {
+          transition-timing-function: ease-in-out;
+          -ms-transform: scale(1.02); /* IE 9 */
+          -webkit-transform: scale(1.02); /* Safari 3-8 */
+          transform: scale(1.02);
+          transition: 0.5s;
+          opacity: 0.8;
+        }
       }
 
       &--github {
         background-color: var(--color-github-01);
+        &:hover {
+          transition-timing-function: ease-in-out;
+          -ms-transform: scale(1.05); /* IE 9 */
+          -webkit-transform: scale(1.05); /* Safari 3-8 */
+          transform: scale(1.05);
+          transition: 0.5s;
+          opacity: 0.8;
+        }
       }
 
       &--linkedin {
         background-color: var(--color-linkedin-01);
+        &:hover {
+          transition-timing-function: ease-in-out;
+          -ms-transform: scale(1.05); /* IE 9 */
+          -webkit-transform: scale(1.05); /* Safari 3-8 */
+          transform: scale(1.05);
+          transition: 0.5s;
+          opacity: 0.8;
+        }
       }
+
       &--askForMentorship {
         background-color: var(--color-ui-05);
         color: var(--color-text-04);

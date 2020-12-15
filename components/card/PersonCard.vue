@@ -152,14 +152,32 @@ export default {
 
   .twitter {
     background-color: #22acf3;
+    &:hover {
+      -ms-transform: scale(1.2); /* IE 9 */
+      -webkit-transform: scale(1.2); /* Safari 3-8 */
+      transform: scale(1.2);
+      transition: 0.3s;
+    }
   }
 
   .github {
     background-color: #282e36;
+    &:hover {
+      -ms-transform: scale(1.2); /* IE 9 */
+      -webkit-transform: scale(1.2); /* Safari 3-8 */
+      transform: scale(1.2);
+      transition: 0.3s;
+    }
   }
 
   .linkedin {
     background-color: #0e76a8;
+    &:hover {
+      -ms-transform: scale(1.3); /* IE 9 */
+      -webkit-transform: scale(1.3); /* Safari 3-8 */
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
   }
 
   .profile-photo {
