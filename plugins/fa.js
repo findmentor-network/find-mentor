@@ -10,6 +10,7 @@ import {
   faArrowLeft,
   faArrowRight,
   faQuestion,
+  faList,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -18,7 +19,8 @@ library.add(
   faLinkedin,
   faArrowLeft,
   faArrowRight,
-  faQuestion
+  faQuestion,
+  faList
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
