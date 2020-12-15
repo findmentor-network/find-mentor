@@ -75,28 +75,34 @@
     </template>
 
     <!-- Contributed Projects -->
-    <h2>Contributed</h2>
-    <hr />
-    <div class="app-tile accordion" v-if="person.contributions.length">
-      <div>
-        <div v-for="(contribution, index) in person.contributions" :key="index">
-          <h2 :href="contribution.mentor">{{ contribution.slug }}</h2>
-          <p>{{ contribution.goal }}</p>
+    <template v-if="person.contributions.length">
+      <h2>Contributed</h2>
+      <hr />
+      <div class="app-tile accordion" v-if="person.contributions.length">
+        <div>
+          <div
+            v-for="(contribution, index) in person.contributions"
+            :key="index"
+          >
+            <h2 :href="contribution.mentor">{{ contribution.slug }}</h2>
+            <p>{{ contribution.goal }}</p>
 
-          <div align="center">
-            <a
-              v-for="cont in contribution.contributors"
-              :key="cont.id"
-              :href="getGithubLink(cont)"
-            >
-              <img class="cont-image" :src="getProfilePicture(cont)" alt="" />
-            </a>
+            <div align="center">
+              <a
+                v-for="cont in contribution.contributors"
+                :key="cont.id"
+                :href="getGithubLink(cont)"
+              >
+                <img class="cont-image" :src="getProfilePicture(cont)" alt="" />
+              </a>
+            </div>
+            <br />
           </div>
-          <br />
         </div>
       </div>
-    </div>
-    <hr />
+      <hr />
+    </template>
+
     <div class="row">
       <div class="col-lg-6">
         <!-- Disqus -->
