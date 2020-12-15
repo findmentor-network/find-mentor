@@ -268,9 +268,21 @@ export default {
   color: white;
 }
 
+.twitter-wrapper {
+  width: 550px;
+  height: 520px;
+  overflow-y: scroll;
+}
+
 @media (max-width: 900px) {
   .cont-image {
     width: 10%;
+  }
+
+  .twitter-wrapper {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
   }
 }
 
