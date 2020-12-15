@@ -58,6 +58,12 @@ export default {
 
     this.navigation.person.prev = prev
     this.navigation.person.next = next
+    this.slug = params.slug
+  },
+  mounted() {
+    fetch(`${this.BASE_URL}/c/peer/${this.slug}`)
+      .then((res) => res.json())
+      .then((res) => (this.count = res.count))
   },
   data() {
     return {
@@ -68,6 +74,9 @@ export default {
           next: null,
         },
       },
+      count: 0,
+      slug: '',
+      BASE_URL: 'http://135.181.150.199:3000', // this should be came from process.env.BASE_URL
     }
   },
   head() {

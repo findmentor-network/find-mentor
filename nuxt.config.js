@@ -64,6 +64,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~plugins/qr.js' },
+    { src: '~plugins/ga.js', mode: 'client' },
     { src: '~plugins/fa.js' },
     { src: '~plugins/vue-infinite-loading.js', mode: 'client' },
   ],
