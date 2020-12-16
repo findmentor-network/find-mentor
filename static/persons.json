@@ -159,6 +159,20 @@
             "avatar": "https://avatars.githubusercontent.com/cagataycali"
           }
         ]
+      },
+      {
+        "": "15.12.2020 23:47:39",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/analytics",
+        "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
+        "slug": "analytics",
+        "contributors": [
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali"
+          }
+        ]
       }
     ],
     "contributions": [
@@ -341,7 +355,7 @@
       },
       {
         "": "15.12.2020 23:47:39",
-        "mentor": "https://findmentor.network/peer/cagatay-cali/",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
         "project_adress": "https://github.com/cagataycali/analytics",
         "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
         "slug": "analytics",
