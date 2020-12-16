@@ -4,7 +4,7 @@ const got = require('got')
 const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
 const apiKey = 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
 const slugify = require('slugify')
-const getContributors = require('./getContributons')
+const getContributors = require('./getContributors')
 
 const slugger = (text) =>
   slugify(text, {
