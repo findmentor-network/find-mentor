@@ -1,7 +1,7 @@
 <template>
   <div class="page mentors-page">
     <div class="container">
-      <h1 class="title">Mentors</h1>
+      <h1 class="title">Mentors ({{mentorsLength}})</h1>
 
       <template v-if="$fetchState.pending">
         <app-spinner class="d-block mx-auto" />
@@ -26,6 +26,12 @@
 
 <script>
 export default {
+  async asyncData({ $content }) {
+    const mentors = await $content('persons')
+      .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+      .fetch()
+    return { mentorsLength: mentors.length }
+  },
   async fetch() {
     this.postList.mentor.items = await this.$content('persons')
       .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })

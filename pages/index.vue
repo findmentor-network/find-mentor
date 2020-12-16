@@ -15,7 +15,7 @@
       <hr />
       <!-- Mentors -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentors/"> 👉 Mentors </NuxtLink>
+        <NuxtLink to="/mentors/"> 👉 Mentors ({{mentorsLength}})</NuxtLink>
       </h2>
       <PersonList :persons="mentors" strict-type="mentors" />
       <NuxtLink class="float-right" to="/mentors/">
@@ -26,7 +26,7 @@
 
       <!-- Mentees -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentees/"> 👉 Mentees </NuxtLink>
+        <NuxtLink to="/mentees/"> 👉 Mentees ({{menteesLength}})</NuxtLink>
       </h2>
       <PersonList :persons="mentees" strict-type="mentees" />
       <NuxtLink class="float-right" to="/mentees/">
@@ -41,7 +41,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const [mentors, mentees, page] = await Promise.all([
+    const [mentors, mentees, page, mentorsLength, menteesLength] = await Promise.all([
       $content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
         .sortBy('registered_at', 'desc')
@@ -53,11 +53,19 @@ export default {
         .limit(16)
         .fetch(),
       $content('readme').fetch(),
+      $content('persons')
+        .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+        .fetch().then(mentors => mentors.length),
+      $content('persons')
+        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .fetch().then(mentees => mentees.length),
     ])
     return {
       mentors,
       mentees,
       page,
+      mentorsLength,
+      menteesLength
     }
   },
   data() {
