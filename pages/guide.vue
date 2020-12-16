@@ -25,12 +25,7 @@
 </template>
 
 <script>
-import ContribList from "../components/list/ContribList"
-
 export default {
-  components: {
-    ContribList
-  },
   async asyncData({ $content }) {
     const rows = await Promise.all([
       $content('mentees').fetch(),

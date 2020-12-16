@@ -1,17 +1,16 @@
 <template>
-  <div class="page main-page">
-    <header>
+  <div class="page main-page"> <header>
       <h1>
         <a href="https://github.com/cagataycali/find-mentor">
           Feel free to contribute!
-	</a>
+        </a>
       </h1>
       <p class="pad-both">
         Every night & every deploy, the spread sheet will be parsed by GitHub actions,
 	then generate this beauty.
       </p>
       <div id="contribs">
-        <ContribList :contribs="contribs" size="40px"/>
+        <ContribList :contribs="contribs"/>
       </div>
       <nuxt-content :document="page" />
       <NuxtLink
@@ -92,7 +91,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .main-page {
   header {
     display: flex;

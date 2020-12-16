@@ -7,7 +7,7 @@
       :href="c.fmn_url || c.html_url"
       target="_blank"
     >
-      <img :style="`width: ${size || '10%'}`" class="contr-image" :src="c.avatar_url" />
+      <img :style="`width: ${avatarSize}`" class="contr-image" :src="c.avatar_url" />
     </a>
   </p>
 </template>
@@ -15,7 +15,10 @@
 <script>
 export default {
   name: 'ContribList',
-  props: ['contribs', 'size']
+  props: {
+    contribs: { type: Array, required: true },
+    avatarSize: { type: String, default: '40px' }
+  }
 }
 </script>
 
