@@ -1,5 +1,5 @@
 <template>
-  <p align="center">
+ <div class="d-flex flex-wrap justify-content-center">
     <a
       v-for="c in contribs"
       :key="c.url"
@@ -9,7 +9,7 @@
     >
       <img :style="`width: ${avatarSize}`" class="contr-image" :src="c.avatar_url" />
     </a>
-  </p>
+  </div>
 </template>
 
 <script>
