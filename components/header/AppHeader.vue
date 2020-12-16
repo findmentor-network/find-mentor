@@ -5,9 +5,7 @@
     :type="$colorMode.value"
     :variant="$colorMode.value"
   >
-    <b-navbar-brand to="/">
-      Find Mentor
-    </b-navbar-brand>
+    <b-navbar-brand to="/"> Find Mentor </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse" />
 
@@ -75,11 +73,11 @@ import { revealHeader } from '@/mixins'
 
 export default {
   mixins: [revealHeader],
-  data () {
+  data() {
     return {
-      isCollapsed: false
+      isCollapsed: false,
     }
-  }
+  },
 }
 </script>
 
