@@ -17,7 +17,7 @@ There is ONE type of mentee that exists. Active one. At least we experienced it 
 2. You should visit [active mentorships](https://findmentor.network/mentorships/) page. *You don't want to miss* a mentorships campaign round.
 3. You should visit [mentors](https://findmentor.network/mentors/) page. There are tons of *GREAT* mentors in there.
 4. If the mentor does not have a mentorship campaign, ask politely over Twitter or LinkedIn.
-5. If you want to work 1-1 with the mentor, ask the mentor to add their contact & schedule info like a superpeer account on GitHub profile readme. (This approach is not best way to be a great mentee. Just know it, that is a option.)
+5. If you want to work 1-1 with the mentor, ask the mentor to add their contact & schedule info like a superpeer account on GitHub profile readme. (This approach is not best way to be a great mentee. Just know it, that is an option.)
 
 If you're looking for someone on Twitter or LinkedIn to be a mentor for you. Ask them for joining us!
 
