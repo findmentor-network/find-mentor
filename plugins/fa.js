@@ -13,6 +13,7 @@ import {
   faQuestion,
   faList,
   faSearch,
+  faUserPlus,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -24,7 +25,8 @@ library.add(
   faQuestion,
   faList,
   faSearch,
-  faDiscord
+  faDiscord,
+  faUserPlus
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
