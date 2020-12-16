@@ -6,15 +6,10 @@
     :variant="$colorMode.value"
   >
     <b-navbar-brand to="/">
-      <FmLogo
-        :width="40"
-        :height="40"
-      />
+      <FmLogo :width="40" :height="40" />
     </b-navbar-brand>
 
-    <b-navbar-toggle
-      target="nav-collapse"
-    />
+    <b-navbar-toggle target="nav-collapse" />
 
     <b-collapse id="nav-collapse" v-model="isCollapsed" is-nav>
       <b-navbar-nav class="align-items-center">
@@ -86,11 +81,11 @@ import { revealHeader } from '@/mixins'
 
 export default {
   mixins: [revealHeader],
-  data () {
+  data() {
     return {
-      isCollapsed: false
+      isCollapsed: false,
     }
-  }
+  },
 }
 </script>
 
