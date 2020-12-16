@@ -47,7 +47,7 @@ const fixProtocol = (url) => {
 }
 
 const clearTwitterAdr = (url) => {
-  return url.replace(/^@+/i, '')
+  return url.replace(/@/g, '').trim()
 }
 
 const clearData = (posts) => {
