@@ -1,7 +1,9 @@
 <template>
-  <div class="layout default-layout">
+  <div class="nuxt-layout default-layout">
     <AppHeader />
-    <Nuxt />
+    <div class="router-view-wrapper">
+      <Nuxt />
+    </div>
     <DarkModeToggleButton />
   </div>
 </template>
