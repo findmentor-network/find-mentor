@@ -1,4 +1,4 @@
-# How To Be An 🌟GREAT🌟 Mentee?
+# How To Be A 🌟GREAT🌟 Mentee?
 
 There is ONE type of mentee that exists. Active one. At least we experienced it in that way. Let me know if there exists another approach.
 
