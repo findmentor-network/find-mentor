@@ -1,7 +1,7 @@
 <template>
   <div class="page mentors-page">
     <div class="container">
-      <h1 class="title">Mentors ({{mentorsLength}})</h1>
+      <h1 class="title">Mentors ({{ mentorsLength }})</h1>
 
       <template v-if="$fetchState.pending">
         <app-spinner class="d-block mx-auto" />

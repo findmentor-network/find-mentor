@@ -2,7 +2,8 @@
   <div class="page search-results-page">
     <div class="container">
       <h1 class="title">
-        Found {{amount}} Results for <strong>{{ $route.params.keyword }}</strong>
+        Found {{ amount }} Results for
+        <strong>{{ $route.params.keyword }}</strong>
       </h1>
 
       <template v-if="$fetchState.pending">
@@ -28,14 +29,15 @@ export default {
       .fetch()
     this.amount = await this.$content('persons')
       .search(this.$lowerCase(this.$route.params.keyword))
-      .fetch().then(list => list.length)
+      .fetch()
+      .then((list) => list.length)
   },
   data() {
     return {
       postList: {
         items: [],
       },
-      amount: 0
+      amount: 0,
     }
   },
 }
