@@ -5753,6 +5753,36 @@
     "contributions": []
   },
   {
+    "registered_at": "16.12.2020 13:29:23",
+    "name": "Ahmet Türkben",
+    "twitter_handle": "https://mobile.twitter.com/ahmeturkben",
+    "github": "https://github.com/ahmetturkben",
+    "linkedin": "https://tr.linkedin.com/in/ahmetturkben",
+    "interests": "backend, devops, frontend",
+    "goals": "Farklı backend dilleri, frameworklar ile projeler üzerinde çalışıp bunları devops süreçleri ile birleştirmek istiyorum. Örneğin Go ile bir mikro servis mimarisini uygulayıp, devops sürecini bu yazılımlarla deneyimlemek gibi. 😊",
+    "mentor": "Mentee",
+    "slug": "ahmet-turkben",
+    "avatar": "https://avatars.githubusercontent.com/ahmetturkben",
+    "displayInterests": "backend, devops, frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "16.12.2020 16:53:06",
+    "name": "Fatih Mehmet DOĞAN",
+    "twitter_handle": "https://twitter.com/fatihmehmetdgn",
+    "github": "https://github.com/fatihmehmetdogan",
+    "linkedin": "https://www.linkedin.com/in/fatih-mehmet-do%C4%9Fan-0b43b8140",
+    "interests": "c# asp.net and python machine learning ",
+    "goals": "I want to improve myself in the field of .net and python, and I also want to improve on OOP.",
+    "mentor": "Mentee",
+    "slug": "fatih-mehmet-dogan",
+    "avatar": "https://avatars.githubusercontent.com/fatihmehmetdogan",
+    "displayInterests": "C# Asp.Net and Python Machine Learning ",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
