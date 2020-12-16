@@ -9,7 +9,7 @@
             artwork.
           </i>
         </p>
-        <ContribList :contribs="contribs"/>
+        <ContribList :contribs="contribs" />
       </b-jumbotron>
 
       <b-jumbotron

@@ -1,5 +1,5 @@
 <template>
- <div class="d-flex flex-wrap justify-content-center">
+  <div class="d-flex flex-wrap justify-content-center">
     <a
       v-for="c in contribs"
       :key="c.url"
@@ -7,7 +7,11 @@
       :href="c.fmn_url || c.html_url"
       target="_blank"
     >
-      <img :style="`width: ${avatarSize}`" class="contr-image" :src="c.avatar_url" />
+      <img
+        :style="`width: ${avatarSize}`"
+        class="contr-image"
+        :src="c.avatar_url"
+      />
     </a>
   </div>
 </template>
@@ -17,8 +21,8 @@ export default {
   name: 'ContribList',
   props: {
     contribs: { type: Array, required: true },
-    avatarSize: { type: String, default: '40px' }
-  }
+    avatarSize: { type: String, default: '40px' },
+  },
 }
 </script>
 
