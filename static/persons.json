@@ -2374,6 +2374,25 @@
             "avatar": "https://avatars.githubusercontent.com/flurach"
           }
         ]
+      },
+      {
+        "": "16.12.2020 22:28:51",
+        "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+        "project_adress": "https://github.com/flurach/duduf-bot",
+        "goal": "@cagataycali bey'in ikonik move'unu anmak, ve saygi duymak",
+        "slug": "duduf-bot",
+        "contributors": [
+          {
+            "username": "flurach",
+            "github_address": "https://github.com/flurach",
+            "avatar": "https://avatars.githubusercontent.com/flurach"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          }
+        ]
       }
     ],
     "contributions": [
@@ -2563,6 +2582,25 @@
             "avatar": "https://avatars.githubusercontent.com/flurach"
           }
         ]
+      },
+      {
+        "": "16.12.2020 22:28:51",
+        "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+        "project_adress": "https://github.com/flurach/duduf-bot",
+        "goal": "@cagataycali bey'in ikonik move'unu anmak, ve saygi duymak",
+        "slug": "duduf-bot",
+        "contributors": [
+          {
+            "username": "flurach",
+            "github_address": "https://github.com/flurach",
+            "avatar": "https://avatars.githubusercontent.com/flurach"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          }
+        ]
       }
     ]
   },
@@ -2744,7 +2782,27 @@
     "avatar": "https://avatars.githubusercontent.com/BRTZL",
     "displayInterests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "16.12.2020 22:28:51",
+        "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+        "project_adress": "https://github.com/flurach/duduf-bot",
+        "goal": "@cagataycali bey'in ikonik move'unu anmak, ve saygi duymak",
+        "slug": "duduf-bot",
+        "contributors": [
+          {
+            "username": "flurach",
+            "github_address": "https://github.com/flurach",
+            "avatar": "https://avatars.githubusercontent.com/flurach"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "09.12.2020 14:14:41",
@@ -5869,6 +5927,21 @@
     "slug": "yasser-el-kabbout",
     "avatar": "https://avatars.githubusercontent.com/yasserkabbout",
     "displayInterests": "Web development, backend, frontend, product engineering and development",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "16.12.2020 22:31:08",
+    "name": "Batuhan Taskaya",
+    "twitter_handle": "",
+    "github": "https://github.com/isidentical",
+    "linkedin": "https:///in/!public_degil",
+    "interests": "python, compilers",
+    "goals": " ",
+    "mentor": "Mentor",
+    "slug": "batuhan-taskaya",
+    "avatar": "https://avatars.githubusercontent.com/isidentical",
+    "displayInterests": "python, compilers",
     "mentorships": [],
     "contributions": []
   },
