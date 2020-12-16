@@ -6,7 +6,11 @@
       :placeholder="search.placeholder"
       @keypress.native.enter="searchPerson"
     />
-    <button class="app-search-input__searchButton" :disabled="search.value.length < 1" @click="searchPerson">
+    <button
+      class="app-search-input__searchButton"
+      :disabled="search.value.length < 1"
+      @click="searchPerson"
+    >
       <font-awesome-icon
         :icon="['fas', 'search']"
         color="var(--color-text-02)"
@@ -22,23 +26,23 @@ export default {
     value: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     placeholder: {
       type: String,
       required: false,
-      default: 'Search in network'
-    }
+      default: 'Search in network',
+    },
   },
-  data () {
+  data() {
     return {
       search: {
         value: this.value,
-        placeholder: this.placeholder
-      }
+        placeholder: this.placeholder,
+      },
     }
   },
-  created () {
+  created() {
     if (this.$route.params.keyword) {
       this.search.value = this.$route.params.keyword
     } else {
@@ -46,21 +50,21 @@ export default {
     }
   },
   methods: {
-    searchPerson () {
+    searchPerson() {
       this.$emit('searchTriggered')
 
       if (this.search.value.length > 0) {
         this.$router.push({
           name: 'search-keyword',
-          params: { keyword: this.search.value }
+          params: { keyword: this.search.value },
         })
         this.clearKeyword()
       }
     },
-    clearKeyword () {
+    clearKeyword() {
       this.search.value = ''
-    }
-  }
+    },
+  },
 }
 </script>
 

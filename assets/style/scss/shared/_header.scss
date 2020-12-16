@@ -1,7 +1,9 @@
-.header{
+.header {
   &.back-reveal {
     transition: 0.2s ease-in transform;
-    transform: translateY(calc(var(--header-height) - var(--header-height) * 2));
+    transform: translateY(
+      calc(var(--header-height) - var(--header-height) * 2)
+    );
   }
   &.reveal {
     transition: 0.2s ease-out transform;

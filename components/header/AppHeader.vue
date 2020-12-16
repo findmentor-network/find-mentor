@@ -13,7 +13,11 @@
 
     <b-collapse id="nav-collapse" v-model="isCollapsed" is-nav>
       <b-navbar-nav class="align-items-center">
-        <cta-button class="mr-2" text="Join Now" to="https://forms.gle/pQwFZBXEyqBRDU2H9" />
+        <cta-button
+          class="mr-2"
+          text="Join Now"
+          to="https://forms.gle/pQwFZBXEyqBRDU2H9"
+        />
 
         <b-nav-item to="/guide/" active-class="active">
           How It Works?
@@ -28,8 +32,11 @@
           Mentors
         </b-nav-item>
       </b-navbar-nav>
-      <b-navbar-nav class="col col-12 col-md-4 col-lg-3 col-xl-2">
-        <app-search-input class="ml-md-2" @searchTriggered="isCollapsed = false" />
+      <b-navbar-nav class="col col-12 col-lg-3 col-xl-2">
+        <app-search-input
+          class="ml-md-2"
+          @searchTriggered="isCollapsed = false"
+        />
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto" right>
         <cta-button
@@ -85,8 +92,18 @@ export default {
   height: var(--header-height);
   z-index: var(--z-index-header);
 
+  @include mq($until: desktop) {
+    height: auto;
+  }
+
   .app-search-input {
     height: 40px;
+  }
+
+  .cta-button {
+    @include mq($until: desktop) {
+      margin-top: 14px;
+    }
   }
 }
 </style>

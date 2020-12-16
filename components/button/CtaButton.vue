@@ -1,10 +1,5 @@
 <template>
-  <nuxt-link
-    v-if="nuxtLink"
-    class="cta-button"
-    :to="to"
-    :style="buttonStyle"
-  >
+  <nuxt-link v-if="nuxtLink" class="cta-button" :to="to" :style="buttonStyle">
     <div v-if="$slots.prepend" class="cta-button__prepend">
       <slot name="prepend" />
     </div>
@@ -14,13 +9,7 @@
     </div>
   </nuxt-link>
 
-  <a
-    v-else
-    class="cta-button"
-    :href="to"
-    :target="target"
-    :style="buttonStyle"
-  >
+  <a v-else class="cta-button" :href="to" :target="target" :style="buttonStyle">
     <div v-if="$slots.prepend" class="cta-button__prepend">
       <slot name="prepend" />
     </div>
@@ -38,39 +27,40 @@ export default {
     nuxtLink: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     to: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     target: {
       type: String,
       required: false,
-      default: '_blank'
+      default: '_blank',
     },
     text: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     bgColor: {
       type: String,
       required: false,
-      default: 'linear-gradient(90deg, var(--color-ui-03), var(--color-ui-04));'
+      default:
+        'linear-gradient(90deg, var(--color-ui-03), var(--color-ui-04));',
     },
     textColor: {
       type: String,
       required: false,
-      default: '#fff'
-    }
+      default: '#fff',
+    },
   },
   computed: {
-    buttonStyle () {
+    buttonStyle() {
       return `background: ${this.bgColor}; color: ${this.textColor};`
-    }
-  }
+    },
+  },
 }
 </script>
 

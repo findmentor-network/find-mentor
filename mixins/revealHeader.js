@@ -1,15 +1,15 @@
 export default {
-  data () {
+  data() {
     return {
       reveal: false,
-      backReveal: false
+      backReveal: false,
     }
   },
-  mounted () {
+  mounted() {
     this.revealHeader()
   },
   methods: {
-    revealHeader () {
+    revealHeader() {
       let lastScrollTop = 0
       window.addEventListener(
         'scroll',
@@ -30,11 +30,11 @@ export default {
 
         false
       )
-    }
+    },
   },
   computed: {
-    revealClass () {
+    revealClass() {
       return this.reveal ? 'reveal' : '' || this.backReveal ? 'back-reveal' : ''
-    }
-  }
+    },
+  },
 }

@@ -5,14 +5,14 @@ import {
   faTwitter,
   faGithub,
   faLinkedin,
-  faDiscord
+  faDiscord,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faArrowLeft,
   faArrowRight,
   faQuestion,
   faList,
-  faSearch
+  faSearch,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
