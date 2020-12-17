@@ -56,6 +56,7 @@ jobs:
       - name: Create local changes & push to GitHub
         run: |
           yarn build
+          yarn deploy:time
           # yarn generate
           # echo 'findmentor.network' > ./docs/CNAME
           git add .
