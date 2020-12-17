@@ -81,11 +81,11 @@ import { revealHeader } from '@/mixins'
 
 export default {
   mixins: [revealHeader],
-  data () {
+  data() {
     return {
-      isCollapsed: false
+      isCollapsed: false,
     }
-  }
+  },
 }
 </script>
 
