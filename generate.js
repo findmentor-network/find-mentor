@@ -46,11 +46,16 @@ const fixProtocol = (url) => {
     : ''
 }
 
+const clearTwitterAdr = (url) => {
+  return url.replace(/@/g, '').trim()
+}
+
 const clearData = (posts) => {
   return posts.map((post) => {
     post.slug = slugger(post.name)
     post.github = fixProtocol(post.github)
     post.twitter_handle = fixProtocol(post.twitter_handle)
+    post.twitter_handle = clearTwitterAdr(post.twitter_handle)
     post.linkedin = fixProtocol(post.linkedin)
     post.avatar = generateAvatar(post)
     post.displayInterests = post.interests
