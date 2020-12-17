@@ -12,6 +12,7 @@
   --color-text-02: rgba(0, 0, 0, 0.5);
   --color-text-03: #212529;
   --color-text-04: #fff;
+  --color-text-05: #ddd;
 
   /* Border */
   --color-border-01: #fff;
@@ -45,6 +46,7 @@
   --color-text-02: rgba(255, 255, 255, 0.5);
   --color-text-03: #888;
   --color-text-04: #222;
+  --color-text-05: #444;
 
   /* Border */
   --color-border-01: transparent;
