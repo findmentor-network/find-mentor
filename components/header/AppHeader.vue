@@ -60,7 +60,7 @@
         </cta-button>
         <cta-button
           class="mr-2"
-          text="Github"
+          text="GitHub"
           to="https://github.com/cagataycali/find-mentor"
           bg-color="var(--color-github-01)"
         >
@@ -81,11 +81,11 @@ import { revealHeader } from '@/mixins'
 
 export default {
   mixins: [revealHeader],
-  data() {
+  data () {
     return {
-      isCollapsed: false,
+      isCollapsed: false
     }
-  },
+  }
 }
 </script>
 
