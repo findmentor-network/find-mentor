@@ -1,6 +1,6 @@
 # How To Be A 🌟ROCKSTAR🌟 Mentor?
 
-**Three** types of mentorships model exist around the world. At least we know three of them. If you want to contribute [this](https://github.com/cagataycali/find-mentor/blob/master/content/mentors.md). You got this. ⚡️
+**Three** types of mentorship models exist around the world. At least we know three of them. If you want to contribute [this](https://github.com/cagataycali/find-mentor/blob/master/content/mentors.md), You got this: ⚡️
 
 
 ## 🌟🌟🌟 Active - Passive Mentorships
@@ -20,7 +20,7 @@ Active side:
 * **mentees** are *searching & digging* the [projects below the active mentorships page](https://findmentor.network/mentorships/)
 
 Next steps:
-- The mentor shares the mentorship campaign via over social networks with (Twitter, LinkedIn)
+- The mentor shares the mentorship campaign via social networks with (Twitter, LinkedIn)
     - Example: I've created mentorship campaign over https://findmentor.network/peer/cagatay-cali called find-mentor. The project aims to meet the mentors & mentees. Already have 300+ mentees & mentors exists. (*That's cool recursion also, just the idea has been hacked.*)
 - The mentor [joins discord server](https://discord.gg/nkbmBSW8CM).
 - If any quick contact needs happen. Discord is fixing the communication needs.
@@ -35,14 +35,14 @@ This mentorships model is actually WORKING on this project. That's the reason yo
 
 In this model, the mentor sharing the contact way in [GitHub profile readme](https://dev.to/thesabesan/beautify-your-github-profile-readme-10cf).
 
-The mentor and mentees contacting over social networks (twitter & linkedin & the discord channel) schedule the meeting daily/monthly etc.
+The mentor and mentees contacting over social networks (twitter & linkedin & the discord channel),schedule the meeting daily/monthly etc.
 
 Pros:
 - Mentor & mentee contact directly.
 - Communication is two way.
 
 Cons:
-- The mentor have to be leave a spot time for mentees.
+- The mentor has to allocate a spot time for mentees.
 - This approach can not be scalable.
 
 ## 🌟 Passive - Passive Mentorships
@@ -57,7 +57,7 @@ Pros:
 - Get & give feedback w/o dedicated time-consuming
 - Everyone can read your feedback over the network. This feedback is not only for them. Everyone will get the notice.
 Cons:
-- The mentees should be ask the mentors for give a feedback. The mentors can be busy. Don't be rush.
+- The mentees should ask the mentors for giving a feedback to them. The mentors can be busy. Don't be rush.
 
 # Add mentorship projects
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeL6-beT2prYlrD3gyRqZz2ex94CNAe2T9-Ev2I_pd92BOS7g/viewform?embedded=true" width="100%" height="821" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
