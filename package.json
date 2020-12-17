@@ -9,6 +9,7 @@
     "data": "node generate.js",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
+    "deploy:time": "node deploy.js",
     "lint": "yarn lint:js",
     "prettier": "prettier --write .",
     "test": "jest",
