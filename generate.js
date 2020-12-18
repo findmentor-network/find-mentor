@@ -139,27 +139,25 @@ async function getData() {
   }
 }
 
+// writes collected data to disk
+async function makeContent(name, data) {
+  const serialized_data = JSON.stringify(data, null, 2)
+  return Promise.all([
+    fs.writeFile(`content/${name}.json`, serialized_data),
+    fs.writeFile(`static/${name}.json`, serialized_data)
+  ])
+}
+
 // entry point
 getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
   if (status !== 200) {
     throw new Error('Error when fetching data from spreadsheet')
   }
-  fs.writeFileSync('content/persons.json', JSON.stringify(persons, null, 2))
-  fs.writeFileSync('static/persons.json', JSON.stringify(persons, null, 2))
-  fs.writeFileSync(
-    'content/activeMentorships.json',
-    JSON.stringify({ mentorships: activeMentorships }, null, 2)
-  )
-  fs.writeFileSync(
-    'static/activeMentorships.json',
-    JSON.stringify({ mentorships: activeMentorships }, null, 2)
-  )
-  fs.writeFileSync(
-    'content/contribs.json',
-    JSON.stringify({ contribs }, null, 2)
-  )
-  fs.writeFileSync(
-    'static/contribs.json',
-    JSON.stringify({ contribs }, null, 2)
-  )
+
+  const mentorships = activeMentorships
+  Promise.all([
+    makeContent('persons',           { persons }),
+    makeContent('activeMentorships', { mentorships }),
+    makeContent('contribs',          { contribs }),
+  ])
 })
