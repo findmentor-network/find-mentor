@@ -15,9 +15,11 @@ const get = async (projects) => {
       .split('/')
       .slice(project.project_adress.split('/').length - 2)
       .join('/')
-    return got(
-      `https://api.github.com/repos/${projectName}/contributors`
-    ).then((res) => JSON.parse(res.body))
+    return got(`https://api.github.com/repos/${projectName}/contributors`, {
+      headers: {
+        Authorization: `token ${process.env.GH_API_KEY}`,
+      },
+    }).then((res) => JSON.parse(res.body))
   })
   const responses = await Promise.all(requests)
   responses.map(

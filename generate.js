@@ -1,10 +1,18 @@
 /* eslint-disable camelcase */
 const fs = require('fs')
 const got = require('got')
-const spreadsheetId = '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
-const apiKey = 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
+const spreadsheetId =
+  process.env.SPREADSHEET_ID || '1x_W7Z2o_TGmEjL5cLTFbjO1R3KzQOqIhQKu9RQ4a_P4'
+const apiKey = process.env.API_KEY || 'AIzaSyA5el9Fo8rMSYkcMjUqLfJi4tDB5_n0bzY'
 const slugify = require('slugify')
+const githubApiKey = process.env.GH_API_KEY
 const getContributors = require('./getContributors')
+
+if (!githubApiKey) {
+  console.log(
+    'Please provide active github api key from https://github.com/settings/tokens')
+    process.exit(1)
+}
 
 const slugger = (text) =>
   slugify(text, {
@@ -73,26 +81,27 @@ const clearMentorships = (posts) => {
   })
 }
 
-async function getData() {
+const getData = async () => {
   try {
     // request datas
     const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
     const contribs_url =
       'https://api.github.com/repos/cagataycali/find-mentor/contributors'
-    const responses = Promise.all([got(attendies_url), got(contribs_url)])
-
-    // convert to json
-    const [attendies, contribs] = (await responses).map((res) =>
-      JSON.parse(res.body)
-    )
-
+    const [attendies, contribs] = await Promise.all([
+      got(attendies_url).then(res => JSON.parse(res.body)),
+      got(contribs_url, {
+        headers: {
+          Authorization: `token ${githubApiKey}`,
+        },
+      }).then(res => JSON.parse(res.body))
+    ])
+    
     // clear data
     let [persons, activeMentorships] = attendies.valueRanges
     persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
     )
-
     activeMentorships = await getContributors(activeMentorships)
 
     // find and place mentorships
@@ -142,10 +151,8 @@ async function getData() {
 // writes collected data to disk
 async function makeContent(name, data) {
   const serialized_data = JSON.stringify(data, null, 2)
-  return Promise.all([
-    fs.writeFile(`content/${name}.json`, serialized_data),
-    fs.writeFile(`static/${name}.json`, serialized_data),
-  ])
+  fs.writeFileSync(`content/${name}.json`, serialized_data)
+  fs.writeFileSync(`static/${name}.json`, serialized_data)
 }
 
 // entry point
@@ -155,9 +162,7 @@ getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
   }
 
   const mentorships = activeMentorships
-  Promise.all([
-    makeContent('persons', { persons }),
-    makeContent('activeMentorships', { mentorships }),
-    makeContent('contribs', { contribs }),
-  ])
+  makeContent('persons', { persons })
+  makeContent('activeMentorships', { mentorships })
+  makeContent('contribs', { contribs })
 })

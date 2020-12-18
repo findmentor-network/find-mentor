@@ -38,11 +38,6 @@
           "avatar": "https://avatars.githubusercontent.com/sevkioruc"
         },
         {
-          "username": "flurach",
-          "github_address": "https://github.com/flurach",
-          "avatar": "https://avatars.githubusercontent.com/flurach"
-        },
-        {
           "username": "hasantezcan",
           "github_address": "https://github.com/hasantezcan",
           "avatar": "https://avatars.githubusercontent.com/hasantezcan"
@@ -71,6 +66,11 @@
           "username": "Adem68",
           "github_address": "https://github.com/Adem68",
           "avatar": "https://avatars.githubusercontent.com/Adem68"
+        },
+        {
+          "username": "akgulem",
+          "github_address": "https://github.com/akgulem",
+          "avatar": "https://avatars.githubusercontent.com/akgulem"
         },
         {
           "username": "batin",
@@ -128,9 +128,9 @@
           "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov"
         },
         {
-          "username": "akgulem",
-          "github_address": "https://github.com/akgulem",
-          "avatar": "https://avatars.githubusercontent.com/akgulem"
+          "username": "mbugrayildiz",
+          "github_address": "https://github.com/mbugrayildiz",
+          "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
         },
         {
           "username": "mesutcifci",
@@ -205,11 +205,6 @@
           "avatar": "https://avatars.githubusercontent.com/burakyilmaz55"
         },
         {
-          "username": "flurach",
-          "github_address": "https://github.com/flurach",
-          "avatar": "https://avatars.githubusercontent.com/flurach"
-        },
-        {
           "username": "ukeskin",
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin"
@@ -236,13 +231,7 @@
       "project_adress": "https://github.com/flurach/lord",
       "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
       "slug": "lord",
-      "contributors": [
-        {
-          "username": "flurach",
-          "github_address": "https://github.com/flurach",
-          "avatar": "https://avatars.githubusercontent.com/flurach"
-        }
-      ]
+      "contributors": []
     },
     {
       "": "14.12.2020 09:52:29",
@@ -288,20 +277,6 @@
       ]
     },
     {
-      "": "15.12.2020 21:19:10",
-      "mentor": "https://findmentor.network/peer/murat-terzioglu",
-      "project_adress": "https://github.com/muraterzioglu/findmentor-dcbot",
-      "goal": "Discord sunucumuzdaki işlevselliği arttırmak amacıyla diğer tüm external bot'ların yerine geçicek FMN Bot!",
-      "slug": "findmentor-dcbot",
-      "contributors": [
-        {
-          "username": "muraterzioglu",
-          "github_address": "https://github.com/muraterzioglu",
-          "avatar": "https://avatars.githubusercontent.com/muraterzioglu"
-        }
-      ]
-    },
-    {
       "": "15.12.2020 23:47:39",
       "mentor": "https://findmentor.network/peer/cagatay-cali",
       "project_adress": "https://github.com/cagataycali/analytics",
@@ -323,14 +298,57 @@
       "slug": "duduf-bot",
       "contributors": [
         {
-          "username": "flurach",
-          "github_address": "https://github.com/flurach",
-          "avatar": "https://avatars.githubusercontent.com/flurach"
-        },
-        {
           "username": "BRTZL",
           "github_address": "https://github.com/BRTZL",
           "avatar": "https://avatars.githubusercontent.com/BRTZL"
+        },
+        {
+          "username": "mbugrayildiz",
+          "github_address": "https://github.com/mbugrayildiz",
+          "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
+        }
+      ]
+    },
+    {
+      "": "16.12.2020 23:45:03",
+      "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+      "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+      "goal": "https://github.com/FurkanPortakal/opensourceadam",
+      "slug": "opensourceadam",
+      "contributors": [
+        {
+          "username": "FurkanPortakal",
+          "github_address": "https://github.com/FurkanPortakal",
+          "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
+        },
+        {
+          "username": "kayraberktuncer",
+          "github_address": "https://github.com/kayraberktuncer",
+          "avatar": "https://avatars.githubusercontent.com/kayraberktuncer"
+        }
+      ]
+    },
+    {
+      "": "18.12.2020 13:56:54",
+      "mentor": "https://findmentor.network/peer/alper-karatas",
+      "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
+      "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+      "slug": "find-mentor-mobil",
+      "contributors": [
+        {
+          "username": "alperkaratas",
+          "github_address": "https://github.com/alperkaratas",
+          "avatar": "https://avatars.githubusercontent.com/alperkaratas"
+        },
+        {
+          "username": "saracalihan",
+          "github_address": "https://github.com/saracalihan",
+          "avatar": "https://avatars.githubusercontent.com/saracalihan"
+        },
+        {
+          "username": "ahmetcanaydemir",
+          "github_address": "https://github.com/ahmetcanaydemir",
+          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir"
         }
       ]
     }

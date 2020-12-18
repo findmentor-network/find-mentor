@@ -45,6 +45,10 @@ jobs:
         run: yarn
 
       - name: Get data from spreadsheet 👨🏻‍💻
+        env: # Or as an environment variable
+          GH_API_KEY: ${{ secrets.GH_API_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         run: yarn data
 
       - name: Run prettier
