@@ -163,7 +163,7 @@ getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
   }
 
   const mentorships = activeMentorships
-  makeContent('persons', { persons })
+  makeContent('persons', persons)
   makeContent('activeMentorships', { mentorships })
   makeContent('contribs', { contribs })
 })
