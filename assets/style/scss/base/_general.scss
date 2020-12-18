@@ -10,11 +10,11 @@
   color: #fff;
   background: #444;
 }
-/* stylelint-enable */
 
 html,
 body {
   background-color: var(--color-ui-01);
   color: var(--color-text-03);
   // @include roboto-regular;
+  overflow: hidden; // Remove this if you are not using AppPreloader.vue.
 }
