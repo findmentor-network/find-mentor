@@ -1,10 +1,16 @@
 <template>
-  <div v-if="appPreloader.isLoading" id="app-preloader" ref="appPreloader" class="app-preloader">
+  <div
+    v-if="appPreloader.isLoading"
+    id="app-preloader"
+    ref="appPreloader"
+    class="app-preloader"
+  >
     <div class="app-preloader__container">
-      <FmLogo class="app-preloader__logo animate__animated animate__pulse animate__infinite" :title="false" />
-      <p class="app-preloader__message d-block mb-4">
-        Loading...
-      </p>
+      <FmLogo
+        class="app-preloader__logo animate__animated animate__pulse animate__infinite"
+        :title="false"
+      />
+      <p class="app-preloader__message d-block mb-4">Loading...</p>
       <p class="app-preloader__message">
         The best way to build mentor &amp; mentee network
       </p>
@@ -19,11 +25,11 @@ export default {
   computed: {
     ...mapState(['appPreloader']),
     // Detect Edge Browser
-    detectedEdge () {
+    detectedEdge() {
       return navigator.userAgent.includes('Edge')
-    }
+    },
   },
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       if (!this.appPreloader.isAttached) {
         this.$store.commit('appPreloader/HIDE_APP_PRELOADER')
@@ -33,7 +39,7 @@ export default {
         }
       }
     })
-  }
+  },
 }
 </script>
 
@@ -83,7 +89,7 @@ export default {
 @include only_edge(
   '.detach-app-preloader',
   (
-    display: none
+    display: none,
   )
 );
 
@@ -92,7 +98,7 @@ export default {
   (
     animation: hideAppPreloader 400ms forwards,
     animation-iteration-count: 1,
-    animation-delay: 3s
+    animation-delay: 3s,
   )
 );
 </style>
