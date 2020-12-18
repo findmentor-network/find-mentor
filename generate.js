@@ -10,8 +10,9 @@ const getContributors = require('./getContributors')
 
 if (!githubApiKey) {
   console.log(
-    'Please provide active github api key from https://github.com/settings/tokens')
-    process.exit(1)
+    'Please provide active github api key from https://github.com/settings/tokens'
+  )
+  process.exit(1)
 }
 
 const slugger = (text) =>
@@ -88,14 +89,14 @@ const getData = async () => {
     const contribs_url =
       'https://api.github.com/repos/cagataycali/find-mentor/contributors'
     const [attendies, contribs] = await Promise.all([
-      got(attendies_url).then(res => JSON.parse(res.body)),
+      got(attendies_url).then((res) => JSON.parse(res.body)),
       got(contribs_url, {
         headers: {
           Authorization: `token ${githubApiKey}`,
         },
-      }).then(res => JSON.parse(res.body))
+      }).then((res) => JSON.parse(res.body)),
     ])
-    
+
     // clear data
     let [persons, activeMentorships] = attendies.valueRanges
     persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
