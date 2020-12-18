@@ -144,7 +144,7 @@ async function makeContent(name, data) {
   const serialized_data = JSON.stringify(data, null, 2)
   return Promise.all([
     fs.writeFile(`content/${name}.json`, serialized_data),
-    fs.writeFile(`static/${name}.json`, serialized_data)
+    fs.writeFile(`static/${name}.json`, serialized_data),
   ])
 }
 
@@ -156,8 +156,8 @@ getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
 
   const mentorships = activeMentorships
   Promise.all([
-    makeContent('persons',           { persons }),
+    makeContent('persons', { persons }),
     makeContent('activeMentorships', { mentorships }),
-    makeContent('contribs',          { contribs }),
+    makeContent('contribs', { contribs }),
   ])
 })
