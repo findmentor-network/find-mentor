@@ -4566,20 +4566,6 @@
     "displayInterests": "backend, devops",
     "mentorships": [
       {
-        "": "12.12.2020 23:42:41",
-        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
-        "project_adress": "https://github.com/FurkanPortakal/lokum-js",
-        "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
-        "slug": "lokum-js",
-        "contributors": [
-          {
-            "username": "FurkanPortakal",
-            "github_address": "https://github.com/FurkanPortakal",
-            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
-          }
-        ]
-      },
-      {
         "": "16.12.2020 23:45:03",
         "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
         "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
@@ -8522,20 +8508,6 @@
             "username": "mesutcifci",
             "github_address": "https://github.com/mesutcifci",
             "avatar": "https://avatars.githubusercontent.com/mesutcifci"
-          }
-        ]
-      },
-      {
-        "": "12.12.2020 23:42:41",
-        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
-        "project_adress": "https://github.com/FurkanPortakal/lokum-js",
-        "goal": "Veri yapılarını javascript üzerinde uygulayarak öğrenmek amaçlı geliştirilcek bir projedir.",
-        "slug": "lokum-js",
-        "contributors": [
-          {
-            "username": "FurkanPortakal",
-            "github_address": "https://github.com/FurkanPortakal",
-            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
           }
         ]
       },
