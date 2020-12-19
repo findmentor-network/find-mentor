@@ -688,6 +688,11 @@
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
           }
         ]
       }
@@ -4483,6 +4488,11 @@
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
           }
         ]
       }
@@ -6225,6 +6235,36 @@
     "contributions": []
   },
   {
+    "registered_at": "19.12.2020 01:27:18",
+    "name": "Ozer SUBASI",
+    "twitter_handle": "https://twitter.com/ozersubasi",
+    "github": "https://github.com/ozers",
+    "linkedin": "https://linkedin.com/in/ozer",
+    "interests": "backend, mobil x platform",
+    "goals": "Yolumu biraz kaybetmis olabilirim. Calistigim yerde isimi yapiyorum ancak kendi basima da proje yurutmek, sadece gelisimimi isle birakmamak istiyorum. halihazirda kendimi gelistirmeye calisiyorum ancak su an belli bir projem yok. tabii buyuk hedef dunya klasmani",
+    "mentor": "Mentee",
+    "slug": "ozer-subasi",
+    "avatar": "https://avatars.githubusercontent.com/ozers",
+    "displayInterests": "backend, mobil x platform",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "19.12.2020 03:36:27",
+    "name": "Murat Yılmaz",
+    "twitter_handle": "https://twitter.com/imrtylmz",
+    "github": "https://github.com/imrtylmz",
+    "linkedin": "https://www.linkedin.com/in/imrtylmz",
+    "interests": "php, python, android (java), swift, backend, frontend, linux (server)",
+    "goals": "Coding more products to make life easier",
+    "mentor": "İkisi de",
+    "slug": "murat-yilmaz",
+    "avatar": "https://avatars.githubusercontent.com/imrtylmz",
+    "displayInterests": "Php, Python, Android (Java), Swift, Backend, Frontend, Linux (Server)",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -6798,6 +6838,30 @@
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin"
+          }
+        ]
+      },
+      {
+        "": "16.12.2020 23:45:03",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+        "goal": "https://github.com/FurkanPortakal/opensourceadam",
+        "slug": "opensourceadam",
+        "contributors": [
+          {
+            "username": "FurkanPortakal",
+            "github_address": "https://github.com/FurkanPortakal",
+            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal"
+          },
+          {
+            "username": "kayraberktuncer",
+            "github_address": "https://github.com/kayraberktuncer",
+            "avatar": "https://avatars.githubusercontent.com/kayraberktuncer"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
           }
         ]
       }
@@ -8250,6 +8314,11 @@
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
           }
         ]
       }
