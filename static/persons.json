@@ -6310,6 +6310,36 @@
     "contributions": []
   },
   {
+    "registered_at": "19.12.2020 16:25:55",
+    "name": "Serkan Yolun",
+    "twitter_handle": "https://twitter.com/frekans7",
+    "github": "https://github.com/frekans7",
+    "linkedin": "https://www.linkedin.com/in/serkanyolun",
+    "interests": "frontend, react, react native, javascript, design, figma",
+    "goals": "I want to be able to realize my own ideas and produce professional level quality web/mobile projects.",
+    "mentor": "Mentee",
+    "slug": "serkan-yolun",
+    "avatar": "https://avatars.githubusercontent.com/frekans7",
+    "displayInterests": "Frontend, React, React Native, JavaScript, Design, Figma",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "19.12.2020 17:06:43",
+    "name": "Emrullah Cirit",
+    "twitter_handle": "https://twitter.com/Iamemrullah",
+    "github": "https://github.com/emrullahcirit",
+    "linkedin": "https://www.linkedin.com/in/muhammed-emrullah-cirit-32a3a2167",
+    "interests": "devops, backend",
+    "goals": "I want to specialize in devops and learn fundamentals of backend also I want to know cloud infrastructures",
+    "mentor": "Mentee",
+    "slug": "emrullah-cirit",
+    "avatar": "https://avatars.githubusercontent.com/emrullahcirit",
+    "displayInterests": "devops, backend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
