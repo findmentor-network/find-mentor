@@ -159,6 +159,11 @@
         "slug": "entrylevel",
         "contributors": [
           {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
+          },
+          {
             "username": "cagataycali",
             "github_address": "https://github.com/cagataycali",
             "avatar": "https://avatars.githubusercontent.com/cagataycali"
@@ -328,6 +333,11 @@
         "slug": "entrylevel",
         "contributors": [
           {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
+          },
+          {
             "username": "cagataycali",
             "github_address": "https://github.com/cagataycali",
             "avatar": "https://avatars.githubusercontent.com/cagataycali"
@@ -429,6 +439,11 @@
             "username": "saracalihan",
             "github_address": "https://github.com/saracalihan",
             "avatar": "https://avatars.githubusercontent.com/saracalihan"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr"
           }
         ]
       }
@@ -623,6 +638,11 @@
             "username": "saracalihan",
             "github_address": "https://github.com/saracalihan",
             "avatar": "https://avatars.githubusercontent.com/saracalihan"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr"
           }
         ]
       }
@@ -1404,7 +1424,22 @@
     "slug": "batin-eryilmaz",
     "avatar": "https://avatars.githubusercontent.com/batin",
     "displayInterests": "frontend",
-    "mentorships": [],
+    "mentorships": [
+      {
+        "": "19.12.2020 22:16:18",
+        "mentor": "https://findmentor.network/peer/batin-eryilmaz",
+        "project_adress": "https://github.com/batin/fastReadingTool",
+        "goal": "Kullanıcının girdiği yazıları kelime kelime istenen hızda gösteren bu sayede daha hızlı okumaya yardımcı olan bir tool geliştiriyoruz. Şuan için basic bir proje, yeni fikirlere açığız.",
+        "slug": "fastReadingTool",
+        "contributors": [
+          {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin"
+          }
+        ]
+      }
+    ],
     "contributions": [
       {
         "": "11.12.2020 14:13:50",
@@ -1542,6 +1577,20 @@
             "username": "mesutcifci",
             "github_address": "https://github.com/mesutcifci",
             "avatar": "https://avatars.githubusercontent.com/mesutcifci"
+          }
+        ]
+      },
+      {
+        "": "19.12.2020 22:16:18",
+        "mentor": "https://findmentor.network/peer/batin-eryilmaz",
+        "project_adress": "https://github.com/batin/fastReadingTool",
+        "goal": "Kullanıcının girdiği yazıları kelime kelime istenen hızda gösteren bu sayede daha hızlı okumaya yardımcı olan bir tool geliştiriyoruz. Şuan için basic bir proje, yeni fikirlere açığız.",
+        "slug": "fastReadingTool",
+        "contributors": [
+          {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin"
           }
         ]
       }
@@ -3803,6 +3852,20 @@
             "avatar": "https://avatars.githubusercontent.com/mstrYoda"
           }
         ]
+      },
+      {
+        "": "19.12.2020 19:49:52",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubetower",
+        "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+        "slug": "kubetower",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          }
+        ]
       }
     ],
     "contributions": [
@@ -3877,6 +3940,20 @@
             "avatar": "https://avatars.githubusercontent.com/mstrYoda"
           }
         ]
+      },
+      {
+        "": "19.12.2020 19:49:52",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubetower",
+        "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+        "slug": "kubetower",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          }
+        ]
       }
     ]
   },
@@ -3938,7 +4015,37 @@
     "avatar": "https://avatars.githubusercontent.com/aliergcr",
     "displayInterests": "mobile dev., react native, reactjs, frontend, javascript",
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "18.12.2020 13:56:54",
+        "mentor": "https://findmentor.network/peer/alper-karatas",
+        "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
+        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "slug": "find-mentor-mobil",
+        "contributors": [
+          {
+            "username": "alperkaratas",
+            "github_address": "https://github.com/alperkaratas",
+            "avatar": "https://avatars.githubusercontent.com/alperkaratas"
+          },
+          {
+            "username": "ahmetcanaydemir",
+            "github_address": "https://github.com/ahmetcanaydemir",
+            "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir"
+          },
+          {
+            "username": "saracalihan",
+            "github_address": "https://github.com/saracalihan",
+            "avatar": "https://avatars.githubusercontent.com/saracalihan"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "11.12.2020 15:46:50",
@@ -5888,6 +5995,11 @@
             "username": "saracalihan",
             "github_address": "https://github.com/saracalihan",
             "avatar": "https://avatars.githubusercontent.com/saracalihan"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr"
           }
         ]
       }
@@ -5914,6 +6026,11 @@
             "username": "saracalihan",
             "github_address": "https://github.com/saracalihan",
             "avatar": "https://avatars.githubusercontent.com/saracalihan"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr"
           }
         ]
       }
@@ -6336,6 +6453,36 @@
     "slug": "emrullah-cirit",
     "avatar": "https://avatars.githubusercontent.com/emrullahcirit",
     "displayInterests": "devops, backend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "19.12.2020 21:16:12",
+    "name": "Alperen Keskin",
+    "twitter_handle": "https://twitter.com/alperenkeskk",
+    "github": "https://github.com/alperenkesk",
+    "linkedin": "https://www.linkedin.com/in/alperenkeskin",
+    "interests": "frontend, backend, security",
+    "goals": "I want to be Top 10 Hackers in Bugcrowd. I want learn Python, Go, Security. That's why I'm here.",
+    "mentor": "Mentee",
+    "slug": "alperen-keskin",
+    "avatar": "https://avatars.githubusercontent.com/alperenkesk",
+    "displayInterests": "frontend, backend, security",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "19.12.2020 22:23:28",
+    "name": "Zeynep Özdem",
+    "twitter_handle": "https://twitter.com/zeyneppozdem",
+    "github": "https://github.com/zeynebozdem",
+    "linkedin": "https://www.linkedin.com/in/zeynepozdem",
+    "interests": "frontend",
+    "goals": "I want to be good at front end development, coding well and correctly.I want to write and publish blogs about development. I want to be senkronized fastly with the following technology/frameworks.",
+    "mentor": "Mentee",
+    "slug": "zeynep-ozdem",
+    "avatar": "https://avatars.githubusercontent.com/zeynebozdem",
+    "displayInterests": "frontend",
     "mentorships": [],
     "contributions": []
   },
@@ -6884,6 +7031,25 @@
             "username": "mesutcifci",
             "github_address": "https://github.com/mesutcifci",
             "avatar": "https://avatars.githubusercontent.com/mesutcifci"
+          }
+        ]
+      },
+      {
+        "": "12.12.2020 00:20:43",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/entrylevel",
+        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
+        "slug": "entrylevel",
+        "contributors": [
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline"
+          },
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali"
           }
         ]
       },

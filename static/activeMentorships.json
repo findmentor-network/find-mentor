@@ -147,6 +147,11 @@
       "slug": "entrylevel",
       "contributors": [
         {
+          "username": "tansionline",
+          "github_address": "https://github.com/tansionline",
+          "avatar": "https://avatars.githubusercontent.com/tansionline"
+        },
+        {
           "username": "cagataycali",
           "github_address": "https://github.com/cagataycali",
           "avatar": "https://avatars.githubusercontent.com/cagataycali"
@@ -354,6 +359,39 @@
           "username": "saracalihan",
           "github_address": "https://github.com/saracalihan",
           "avatar": "https://avatars.githubusercontent.com/saracalihan"
+        },
+        {
+          "username": "aliergcr",
+          "github_address": "https://github.com/aliergcr",
+          "avatar": "https://avatars.githubusercontent.com/aliergcr"
+        }
+      ]
+    },
+    {
+      "": "19.12.2020 19:49:52",
+      "mentor": "https://findmentor.network/peer/emre-savci",
+      "project_adress": "https://github.com/mstrYoda/kubetower",
+      "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+      "slug": "kubetower",
+      "contributors": [
+        {
+          "username": "mstrYoda",
+          "github_address": "https://github.com/mstrYoda",
+          "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+        }
+      ]
+    },
+    {
+      "": "19.12.2020 22:16:18",
+      "mentor": "https://findmentor.network/peer/batin-eryilmaz",
+      "project_adress": "https://github.com/batin/fastReadingTool",
+      "goal": "Kullanıcının girdiği yazıları kelime kelime istenen hızda gösteren bu sayede daha hızlı okumaya yardımcı olan bir tool geliştiriyoruz. Şuan için basic bir proje, yeni fikirlere açığız.",
+      "slug": "fastReadingTool",
+      "contributors": [
+        {
+          "username": "batin",
+          "github_address": "https://github.com/batin",
+          "avatar": "https://avatars.githubusercontent.com/batin"
         }
       ]
     }
