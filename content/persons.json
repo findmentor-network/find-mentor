@@ -181,6 +181,11 @@
             "username": "cagataycali",
             "github_address": "https://github.com/cagataycali",
             "avatar": "https://avatars.githubusercontent.com/cagataycali"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
           }
         ]
       }
@@ -384,6 +389,11 @@
             "username": "cagataycali",
             "github_address": "https://github.com/cagataycali",
             "avatar": "https://avatars.githubusercontent.com/cagataycali"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
           }
         ]
       }
@@ -2643,6 +2653,25 @@
         ]
       },
       {
+        "": "15.12.2020 23:47:39",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/cagataycali/analytics",
+        "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
+        "slug": "analytics",
+        "contributors": [
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
+          }
+        ]
+      },
+      {
         "": "16.12.2020 22:28:51",
         "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
         "project_adress": "https://github.com/flurach/duduf-bot",
@@ -2858,6 +2887,25 @@
             "username": "mbugrayildiz",
             "github_address": "https://github.com/mbugrayildiz",
             "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
+          }
+        ]
+      },
+      {
+        "": "19.12.2020 19:49:52",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubetower",
+        "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+        "slug": "kubetower",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
           }
         ]
       }
@@ -3864,6 +3912,11 @@
             "username": "mstrYoda",
             "github_address": "https://github.com/mstrYoda",
             "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
           }
         ]
       }
@@ -3952,6 +4005,11 @@
             "username": "mstrYoda",
             "github_address": "https://github.com/mstrYoda",
             "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
           }
         ]
       }
@@ -5588,21 +5646,6 @@
     "contributions": []
   },
   {
-    "registered_at": "15.12.2020 02:02:03",
-    "name": "Abdullah Akı",
-    "twitter_handle": "",
-    "github": "",
-    "linkedin": "https://www.linkedin.com/in/abdullah-akı-625212167",
-    "interests": "frontend, backend, devops",
-    "goals": "İyi bir eğitim alıp kendi projelerimi canlandırmak istiyorum.",
-    "mentor": "Mentee",
-    "slug": "abdullah-aki",
-    "avatar": "https://ui-avatars.com/api/?name=Abdullah Akı&size=256",
-    "displayInterests": "Frontend, backend, devops",
-    "mentorships": [],
-    "contributions": []
-  },
-  {
     "registered_at": "15.12.2020 02:13:10",
     "name": "Fatih ŞAHİN",
     "twitter_handle": "https://twitter.com/f4tihsahin",
@@ -6529,6 +6572,126 @@
     "slug": "gulcin-betul-cetres",
     "avatar": "https://avatars.githubusercontent.com/gulcinbetulcetres",
     "displayInterests": "python,android,ıos",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 18:39:31",
+    "name": "Abdullah Akı",
+    "twitter_handle": "https://twitter.com/aabdullahaki",
+    "github": "https://github.com/AbdullahAki",
+    "linkedin": "https://www.linkedin.com/in/abdullahaki",
+    "interests": "frontend, backend, devops, \nentrepreneur",
+    "goals": "I want teach everything that I know to everyone and learn much more I can!",
+    "mentor": "Mentee",
+    "slug": "abdullah-aki",
+    "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+    "displayInterests": "Frontend, Backend, Devops, \nEntrepreneur",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 18:41:52",
+    "name": "Caner Türkmen",
+    "twitter_handle": "https://twitter.com/cenarturkmen",
+    "github": "https://github.com/cenarturkmen",
+    "linkedin": "https://linkedin.com/in/caner-türkmen",
+    "interests": "ai, ml, dl",
+    "goals": "I want to use artificial intelligence for art and show my art to the world",
+    "mentor": "Mentee",
+    "slug": "caner-turkmen",
+    "avatar": "https://avatars.githubusercontent.com/cenarturkmen",
+    "displayInterests": "ai, ml, dl",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 20:21:08",
+    "name": "Yunus Yılmaz",
+    "twitter_handle": "",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/yy34",
+    "interests": "frontend, backend, mobile development (react native),ui/ux",
+    "goals": "Elimden geldiğince insanların isteklerini bilgisayar denen makineye anlatmaya çalışan bir developerım.",
+    "mentor": "Mentee",
+    "slug": "yunus-yilmaz",
+    "avatar": "https://ui-avatars.com/api/?name=Yunus Yılmaz&size=256",
+    "displayInterests": "Frontend, Backend, Mobile Development (React Native),UI/UX",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 21:44:58",
+    "name": "Ahmet OZER",
+    "twitter_handle": "https://twitter.com/ahmetozer_org",
+    "github": "https://github.com/ahmetozer",
+    "linkedin": "https://www.linkedin.com/in/ahmet-ozer",
+    "interests": "backend, devops, network, iot, embedded system",
+    "goals": "Getting and sharing ideas, experiences and best practices with other developers.",
+    "mentor": "İkisi de",
+    "slug": "ahmet-ozer",
+    "avatar": "https://avatars.githubusercontent.com/ahmetozer",
+    "displayInterests": "backend, devops, network, IoT, Embedded System",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 21:46:21",
+    "name": "Mert Certel",
+    "twitter_handle": "https://twitter.com/yulafezmem",
+    "github": "https://github.com/yulafezmesi",
+    "linkedin": "https://www.linkedin.com/in/mcertel",
+    "interests": "frontend, javascript, react.js, gatsby",
+    "goals": "Getting deeper into Javascript!",
+    "mentor": "İkisi de",
+    "slug": "mert-certel",
+    "avatar": "https://avatars.githubusercontent.com/yulafezmesi",
+    "displayInterests": "Frontend, JavaScript, React.js, Gatsby",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 22:28:45",
+    "name": "Ferhat Yaman",
+    "twitter_handle": "",
+    "github": "https://github.com/ferhatyyaman",
+    "linkedin": "https://www.linkedin.com/in/ferhat-yaman-42787b1ba",
+    "interests": "backend,fronted",
+    "goals": "I want to be worldwide developer in the future",
+    "mentor": "Mentee",
+    "slug": "ferhat-yaman",
+    "avatar": "https://avatars.githubusercontent.com/ferhatyyaman",
+    "displayInterests": "backend,fronted",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 22:35:07",
+    "name": "Şükrü Ünal",
+    "twitter_handle": "https://twitter.com/unallsukru",
+    "github": "https://github.com",
+    "linkedin": "https://www.linkedin.com/in/unallsukru",
+    "interests": "frontend, backend (caught between that options, lets say fullstack :d)",
+    "goals": "They told me \"yazılım öğren\" and thats why I'm here. jk :D I have entrepreneurial spirit and I wanna reveal it with coding.",
+    "mentor": "Mentee",
+    "slug": "sukru-unal",
+    "avatar": "",
+    "displayInterests": "frontend, backend (caught between that options, lets say fullstack :D)",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "20.12.2020 23:17:25",
+    "name": "Oğuz Topçu",
+    "twitter_handle": "https://www.twitter.com/oguuztopcu",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/oguztopcu",
+    "interests": "frontend, backend, devops",
+    "goals": "JavaScript alanında ve DevOps alanında ilerlemek istiyorum.",
+    "mentor": "İkisi de",
+    "slug": "oguz-topcu",
+    "avatar": "https://ui-avatars.com/api/?name=Oğuz Topçu&size=256",
+    "displayInterests": "Frontend, Backend, DevOps",
     "mentorships": [],
     "contributions": []
   },
