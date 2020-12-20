@@ -390,6 +390,70 @@
           "avatar": "https://avatars.githubusercontent.com/batin"
         }
       ]
+    },
+    {
+      "": "20.12.2020 23:50:36",
+      "mentor": "https://findmentor.network/peer/hakan-celik",
+      "project_adress": "https://github.com/hakancelik96/unimport",
+      "goal": "Unimport Python projelerinde kullanılmayan import ifadelerini bulmak ve kaldırmak için bir linter ve oto formatlayıcıdır. Bu projede statik analiz yaparak sonuçların daha doğru olmasını sağlayacağız ve bunu yaparken hep birlikte Python ile ilgili bir çok kavram öğrenip kendimizi geliştireceğiz.",
+      "slug": "unimport",
+      "contributors": [
+        {
+          "username": "hakancelik96",
+          "github_address": "https://github.com/hakancelik96",
+          "avatar": "https://avatars.githubusercontent.com/hakancelik96"
+        },
+        {
+          "username": "isidentical",
+          "github_address": "https://github.com/isidentical",
+          "avatar": "https://avatars.githubusercontent.com/isidentical"
+        },
+        {
+          "username": "isik-kaplan",
+          "github_address": "https://github.com/isik-kaplan",
+          "avatar": "https://avatars.githubusercontent.com/isik-kaplan"
+        },
+        {
+          "username": "hadialqattan",
+          "github_address": "https://github.com/hadialqattan",
+          "avatar": "https://avatars.githubusercontent.com/hadialqattan"
+        },
+        {
+          "username": "gkmngrgn",
+          "github_address": "https://github.com/gkmngrgn",
+          "avatar": "https://avatars.githubusercontent.com/gkmngrgn"
+        },
+        {
+          "username": "furkanonder",
+          "github_address": "https://github.com/furkanonder",
+          "avatar": "https://avatars.githubusercontent.com/furkanonder"
+        },
+        {
+          "username": "abdulniyaspm",
+          "github_address": "https://github.com/abdulniyaspm",
+          "avatar": "https://avatars.githubusercontent.com/abdulniyaspm"
+        },
+        {
+          "username": "codacy-badger",
+          "github_address": "https://github.com/codacy-badger",
+          "avatar": "https://avatars.githubusercontent.com/codacy-badger"
+        },
+        {
+          "username": "pre-commit-ci[bot]",
+          "github_address": "https://github.com/apps/pre-commit-ci",
+          "avatar": "https://avatars.githubusercontent.com/pre-commit-ci[bot]"
+        },
+        {
+          "username": "semakaratas",
+          "github_address": "https://github.com/semakaratas",
+          "avatar": "https://avatars.githubusercontent.com/semakaratas"
+        },
+        {
+          "username": "sumeyyeboynukara",
+          "github_address": "https://github.com/sumeyyeboynukara",
+          "avatar": "https://avatars.githubusercontent.com/sumeyyeboynukara"
+        }
+      ]
     }
   ]
 }
