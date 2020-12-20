@@ -30,22 +30,18 @@
         <NuxtLink to="/mentors/"> 👉 Mentors </NuxtLink>
       </h2>
       <PersonList :persons="mentors" strict-type="mentors" />
-      <NuxtLink class="float-right" to="/mentors/">
+      <NuxtLink class="text-center d-block mb-5" to="/mentors/">
         🤳 Click here for all mentors
       </NuxtLink>
-      <br />
-      <br />
 
       <!-- Mentees -->
-      <h2 class="title my-4">
+      <h2 class="title mb-4 mt-5">
         <NuxtLink to="/mentees/"> 👉 Mentees </NuxtLink>
       </h2>
       <PersonList :persons="mentees" strict-type="mentees" />
-      <NuxtLink class="float-right" to="/mentees/">
+      <NuxtLink class="text-center d-block mb-5" to="/mentees/">
         🤳 Click here for all mentees
       </NuxtLink>
-      <br />
-      <br />
     </div>
   </div>
 </template>

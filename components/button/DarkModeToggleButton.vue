@@ -3,10 +3,19 @@
     <button
       v-if="$colorMode.value === 'light'"
       @click="$colorMode.preference = 'dark'"
+      v-b-tooltip.hover
+      title="I like it dark"
     >
       🌚
     </button>
-    <button v-else @click="$colorMode.preference = 'light'">☀️</button>
+    <button
+      v-else
+      @click="$colorMode.preference = 'light'"
+      v-b-tooltip.hover
+      title="I like it bright"
+    >
+      ☀️
+    </button>
   </div>
 </template>
 
