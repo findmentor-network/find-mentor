@@ -23,7 +23,9 @@
 
   /* Social */
   --color-twitter-01: #00acee;
+  --color-github-00: #24292e;
   --color-github-01: #24292e;
+  --color-github-02: #ffffff;
   --color-linkedin-01: #0e76a8;
   --color-discord-01: #7289da;
   --color-discord-02: #2c2f33;
@@ -57,7 +59,8 @@
 
   /* Social */
   --color-twitter-01: #00acee;
-  --color-github-01: #24292e;
+  --color-github-01: #ffffff;
+  --color-github-02: #24292e;
   --color-linkedin-01: #0e76a8;
   --color-discord-01: #7289da;
   --color-discord-02: #2c2f33;

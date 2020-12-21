@@ -33,7 +33,7 @@
         <font-awesome-icon
           class="social-media__icon"
           :icon="['fab', 'github']"
-          color="white"
+          color="var(--color-github-02)"
         />
       </a>
       <a
