@@ -103,7 +103,7 @@ const getData = async () => {
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
     )
-    activeMentorships = await getContributors(activeMentorships)
+    activeMentorships = await getContributors(activeMentorships, persons)
 
     // find and place mentorships
     persons.map((person) => {
