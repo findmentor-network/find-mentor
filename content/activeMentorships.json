@@ -222,7 +222,13 @@
       "project_adress": "https://github.com/flurach/lord",
       "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
       "slug": "lord",
-      "contributors": []
+      "contributors": [
+        {
+          "username": "mbugrayildiz",
+          "github_address": "https://github.com/mbugrayildiz",
+          "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
+        }
+      ]
     },
     {
       "": "14.12.2020 09:52:29",
@@ -374,6 +380,11 @@
           "username": "BRTZL",
           "github_address": "https://github.com/BRTZL",
           "avatar": "https://avatars.githubusercontent.com/BRTZL"
+        },
+        {
+          "username": "MuratSs",
+          "github_address": "https://github.com/MuratSs",
+          "avatar": "https://avatars.githubusercontent.com/MuratSs"
         }
       ]
     },

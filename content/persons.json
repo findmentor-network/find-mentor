@@ -2555,7 +2555,13 @@
         "project_adress": "https://github.com/flurach/lord",
         "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
         "slug": "lord",
-        "contributors": []
+        "contributors": [
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
+          }
+        ]
       },
       {
         "": "16.12.2020 22:28:51",
@@ -2714,6 +2720,20 @@
             "username": "mesutcifci",
             "github_address": "https://github.com/mesutcifci",
             "avatar": "https://avatars.githubusercontent.com/mesutcifci"
+          }
+        ]
+      },
+      {
+        "": "14.12.2020 02:09:42",
+        "mentor": "https://findmentor.network/peer/mustafa-b.-yildiz",
+        "project_adress": "https://github.com/flurach/lord",
+        "goal": "Sıfırdan C ile bir compiler yazmayı, okumayı ve debug etmeyi öğrenmek.",
+        "slug": "lord",
+        "contributors": [
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz"
           }
         ]
       },
@@ -2971,6 +2991,11 @@
             "username": "BRTZL",
             "github_address": "https://github.com/BRTZL",
             "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs"
           }
         ]
       }
@@ -3982,6 +4007,11 @@
             "username": "BRTZL",
             "github_address": "https://github.com/BRTZL",
             "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs"
           }
         ]
       }
@@ -4075,6 +4105,11 @@
             "username": "BRTZL",
             "github_address": "https://github.com/BRTZL",
             "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs"
           }
         ]
       }
@@ -10093,7 +10128,32 @@
     "avatar": "https://avatars.githubusercontent.com/MuratSs",
     "displayInterests": "DevOps, Backend (Go)",
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "19.12.2020 19:49:52",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubetower",
+        "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+        "slug": "kubetower",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda"
+          },
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL"
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "",
