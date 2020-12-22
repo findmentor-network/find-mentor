@@ -51,7 +51,7 @@ const generateAvatar = ({ name, github }) => {
 
 const fixProtocol = (url) => {
   return url
-    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '')
+    ? 'https://' + url.replace(/https?:\/\/|(www.)/gi, '').replace(/\/$/gi, '')
     : ''
 }
 
