@@ -475,6 +475,20 @@
           "avatar": "https://avatars.githubusercontent.com/sumeyyeboynukara"
         }
       ]
+    },
+    {
+      "": "22.12.2020 00:38:25",
+      "mentor": "https://findmentor.network/peer/murat-terzioglu",
+      "project_adress": "https://github.com/muraterzioglu/find-mentor-dcbot",
+      "goal": "FindMentor Mentor'ları, Mentee'leri ve projeleri git gide büyüyor ve discord sunucumuzda bazı şeylerin takibi git gide zorlaşıyor bu yüzden bazı şeyleri otomasyona sokmanın ve daha fazla kişiselleştirebilirlik için kendi botumuzu yazmamızın zamanı geldi!",
+      "slug": "find-mentor-dcbot",
+      "contributors": [
+        {
+          "username": "muraterzioglu",
+          "github_address": "https://github.com/muraterzioglu",
+          "avatar": "https://avatars.githubusercontent.com/muraterzioglu"
+        }
+      ]
     }
   ]
 }

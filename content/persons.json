@@ -6082,8 +6082,38 @@
     "slug": "murat-terzioglu",
     "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
     "displayInterests": "full-stack, devops, gnu/linux, javascript/typescript, firebase, gcp, ",
-    "mentorships": [],
-    "contributions": []
+    "mentorships": [
+      {
+        "": "22.12.2020 00:38:25",
+        "mentor": "https://findmentor.network/peer/murat-terzioglu",
+        "project_adress": "https://github.com/muraterzioglu/find-mentor-dcbot",
+        "goal": "FindMentor Mentor'ları, Mentee'leri ve projeleri git gide büyüyor ve discord sunucumuzda bazı şeylerin takibi git gide zorlaşıyor bu yüzden bazı şeyleri otomasyona sokmanın ve daha fazla kişiselleştirebilirlik için kendi botumuzu yazmamızın zamanı geldi!",
+        "slug": "find-mentor-dcbot",
+        "contributors": [
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu"
+          }
+        ]
+      }
+    ],
+    "contributions": [
+      {
+        "": "22.12.2020 00:38:25",
+        "mentor": "https://findmentor.network/peer/murat-terzioglu",
+        "project_adress": "https://github.com/muraterzioglu/find-mentor-dcbot",
+        "goal": "FindMentor Mentor'ları, Mentee'leri ve projeleri git gide büyüyor ve discord sunucumuzda bazı şeylerin takibi git gide zorlaşıyor bu yüzden bazı şeyleri otomasyona sokmanın ve daha fazla kişiselleştirebilirlik için kendi botumuzu yazmamızın zamanı geldi!",
+        "slug": "find-mentor-dcbot",
+        "contributors": [
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "15.12.2020 22:26:20",
@@ -7307,6 +7337,21 @@
     "slug": "omer-taha-oztop",
     "avatar": "https://avatars.githubusercontent.com/omertahaoztop",
     "displayInterests": "cybersecurity,system,network,linux",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "22.12.2020 00:15:28",
+    "name": "Bora Erdinç Özer",
+    "twitter_handle": "https://twitter.com/boraerdincozer",
+    "github": "https://github.com/boraozer",
+    "linkedin": "https://www.linkedin.com/in/bora-erdin%C3%A7-%C3%B6zer-213a12134",
+    "interests": "backend, node.js, webrtc, websocket",
+    "goals": "I want a freedom internet and i working on!",
+    "mentor": "İkisi de",
+    "slug": "bora-erdinc-ozer",
+    "avatar": "https://avatars.githubusercontent.com/boraozer",
+    "displayInterests": "backend, node.js, webrtc, websocket",
     "mentorships": [],
     "contributions": []
   },
