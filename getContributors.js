@@ -14,13 +14,13 @@ const get = async (projects, people) => {
   const responses = await Promise.all(requests)
 
   const processes = responses.map(async (response, index) => {
-    const contributors = response.map(async data => {
-      const person = people.find(person => person.github == data.html_url)
+    const contributors = response.map(async (data) => {
+      const person = people.find((person) => person.github == data.html_url)
       return {
         username: data.login,
         github_address: data.html_url,
         avatar: `https://avatars.githubusercontent.com/${data.login}`,
-        fmn_url: person ? `/peer/${person.slug}` : ''
+        fmn_url: person ? `/peer/${person.slug}` : '',
       }
     })
     projects[index].contributors = await Promise.all(contributors)
@@ -36,11 +36,14 @@ const makeRequest = async (project) => {
     .slice(project.project_adress.split('/').length - 2)
     .join('/')
 
-  const res = await got(`https://api.github.com/repos/${projectName}/contributors`, {
-    headers: {
-      Authorization: `token ${process.env.GH_API_KEY}`,
-    },
-  })
+  const res = await got(
+    `https://api.github.com/repos/${projectName}/contributors`,
+    {
+      headers: {
+        Authorization: `token ${process.env.GH_API_KEY}`,
+      },
+    }
+  )
 
   return JSON.parse(res.body)
 }
