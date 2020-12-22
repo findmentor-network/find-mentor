@@ -7352,8 +7352,38 @@
     "slug": "bora-erdinc-ozer",
     "avatar": "https://avatars.githubusercontent.com/boraozer",
     "displayInterests": "backend, node.js, webrtc, websocket",
-    "mentorships": [],
-    "contributions": []
+    "mentorships": [
+      {
+        "": "22.12.2020 10:42:17",
+        "mentor": "https://findmentor.network/peer/bora-erdinc-ozer",
+        "project_adress": "https://github.com/boraozer/foxql",
+        "goal": "Tarayıcı üzerinde çalışacak bir veritabanı hazırlayıp bunun webrtc ile eşler arasında paylaşılmasını sağlayacağız. Bu projede webrtc, websocket öğrenmenin yanı sıra inverted index, term frequency, inverse  term frequency gibi bir arama motorunun temelini oluşturan kavramları öğrenmiş olacağız. ",
+        "slug": "foxql",
+        "contributors": [
+          {
+            "username": "boraozer",
+            "github_address": "https://github.com/boraozer",
+            "avatar": "https://avatars.githubusercontent.com/boraozer"
+          }
+        ]
+      }
+    ],
+    "contributions": [
+      {
+        "": "22.12.2020 10:42:17",
+        "mentor": "https://findmentor.network/peer/bora-erdinc-ozer",
+        "project_adress": "https://github.com/boraozer/foxql",
+        "goal": "Tarayıcı üzerinde çalışacak bir veritabanı hazırlayıp bunun webrtc ile eşler arasında paylaşılmasını sağlayacağız. Bu projede webrtc, websocket öğrenmenin yanı sıra inverted index, term frequency, inverse  term frequency gibi bir arama motorunun temelini oluşturan kavramları öğrenmiş olacağız. ",
+        "slug": "foxql",
+        "contributors": [
+          {
+            "username": "boraozer",
+            "github_address": "https://github.com/boraozer",
+            "avatar": "https://avatars.githubusercontent.com/boraozer"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "",
