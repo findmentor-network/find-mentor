@@ -27,7 +27,10 @@
       <hr />
       <!-- Mentors -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentors/"> 👉 Mentors <b-badge>({{info.mentorCount}} people)</b-badge></NuxtLink>
+        <NuxtLink to="/mentors/">
+          👉 Mentors
+          <b-badge>({{ info.mentorCount }} people)</b-badge></NuxtLink
+        >
       </h2>
       <PersonList :persons="mentors" strict-type="mentors" />
       <NuxtLink class="text-center d-block mb-5" to="/mentors/">
@@ -36,7 +39,10 @@
 
       <!-- Mentees -->
       <h2 class="title mb-4 mt-5">
-        <NuxtLink to="/mentees/"> 👉 Mentees <b-badge>({{info.menteeCount}} people)</b-badge></NuxtLink>
+        <NuxtLink to="/mentees/">
+          👉 Mentees
+          <b-badge>({{ info.menteeCount }} people)</b-badge></NuxtLink
+        >
       </h2>
       <PersonList :persons="mentees" strict-type="mentees" />
       <NuxtLink class="text-center d-block mb-5" to="/mentees/">
@@ -69,7 +75,7 @@ export default {
       mentees,
       contribs,
       page,
-      info
+      info,
     }
   },
   data() {

@@ -116,6 +116,12 @@
           "fmn_url": "/peer/kemal-ayhan"
         },
         {
+          "username": "mbugrayildiz",
+          "github_address": "https://github.com/mbugrayildiz",
+          "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+          "fmn_url": "/peer/mustafa-b.-yildiz"
+        },
+        {
           "username": "snowron",
           "github_address": "https://github.com/snowron",
           "avatar": "https://avatars.githubusercontent.com/snowron",
@@ -132,12 +138,6 @@
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin",
           "fmn_url": "/peer/umut-keskin"
-        },
-        {
-          "username": "mbugrayildiz",
-          "github_address": "https://github.com/mbugrayildiz",
-          "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
-          "fmn_url": "/peer/mustafa-b.-yildiz"
         },
         {
           "username": "ahmetelgun",
