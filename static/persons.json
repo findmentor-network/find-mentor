@@ -8099,6 +8099,36 @@
     "contributions": []
   },
   {
+    "registered_at": "23.12.2020 10:16:18",
+    "name": "HAMZA KAYA",
+    "twitter_handle": "https://twitter.com/hamzakayanet",
+    "github": "https://github.com/hamzakaya",
+    "linkedin": "https://linkedin.com/in/hamzakaya",
+    "interests": "frontend, javascript, react",
+    "goals": "I want to help people",
+    "mentor": "İkisi de",
+    "slug": "hamza-kaya",
+    "avatar": "https://avatars.githubusercontent.com/hamzakaya",
+    "displayInterests": "frontend, javascript, react",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "23.12.2020 13:30:25",
+    "name": "Yusuf Demrici",
+    "twitter_handle": "https://twitter.com/demirciy7",
+    "github": "https://github.com/demirciy",
+    "linkedin": "https://linkedin.com/in/yusufdemirci",
+    "interests": "mobile, ios",
+    "goals": "I wish I could help wonderkids",
+    "mentor": "Mentor",
+    "slug": "yusuf-demrici",
+    "avatar": "https://avatars.githubusercontent.com/demirciy",
+    "displayInterests": "Mobile, iOS",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
