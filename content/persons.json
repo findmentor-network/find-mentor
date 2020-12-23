@@ -8129,6 +8129,36 @@
     "contributions": []
   },
   {
+    "registered_at": "23.12.2020 14:44:34",
+    "name": "Emir Kartal",
+    "twitter_handle": "https://twitter.com/emirkartal00",
+    "github": "https://github.com/emirkartal0",
+    "linkedin": "https://linkedin.com/in/emir-kartal-646784102",
+    "interests": "c, python, cyber security ",
+    "goals": "I want to be best developer.",
+    "mentor": "Mentee",
+    "slug": "emir-kartal",
+    "avatar": "https://avatars.githubusercontent.com/emirkartal0",
+    "displayInterests": "C, Python, cyber security ",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "23.12.2020 17:02:07",
+    "name": "Murat Demirci",
+    "twitter_handle": "https://twitter.com/deusmur",
+    "github": "",
+    "linkedin": "https://linkedin.com/in/recursiveself",
+    "interests": "frontend, backend (lamp & mern stack)",
+    "goals": "I want to solve big problems in this world, but i don't have a power like that.\nIf I can solve everyone's small problems or teach them problem-solving, we would have solved a big problem together.",
+    "mentor": "Mentor",
+    "slug": "murat-demirci",
+    "avatar": "https://ui-avatars.com/api/?name=Murat Demirci&size=256",
+    "displayInterests": "Frontend, backend (LAMP & MERN Stack)",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
