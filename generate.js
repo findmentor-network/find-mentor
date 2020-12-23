@@ -35,52 +35,41 @@ const mapper = (posts) => {
 }
 
 const generateAvatar = ({ name, github }) => {
-  let avatar
-  if (github) {
-    const regex = /github.com\/([\w\d-]+)(. +)?/
-    const response = github.match(regex)
-    if (!response) {
-      return ''
-    }
-    avatar = `https://avatars.githubusercontent.com/${response[1]}`
-  } else {
-    avatar = `https://ui-avatars.com/api/?name=${name}&size=256`
-  }
-  return avatar
+  if (!github) return `https://ui-avatars.com/api/?name=${name}&size=256`
+
+  const regex = /github.com\/([\w\d-]+)(. +)?/
+  const response = github.match(regex)
+  if (!response) return ''
+
+  return `https://avatars.githubusercontent.com/${response[1]}`
 }
 
-const fixProtocol = (url) => {
-  return url
+const fixProtocol = (url) =>
+  url
     ? 'https://' + url.replace(/https?:\/\/|(www.)/gi, '').replace(/\/$/gi, '')
     : ''
-}
 
-const clearTwitterAdr = (url) => {
-  return url.replace(/@/g, '').trim()
-}
+const clearTwitterAdr = (url) => url.replace(/@/g, '').trim()
 
-const clearData = (posts) => {
-  return posts.map((post) => {
-    post.slug = slugger(post.name)
-    post.github = fixProtocol(post.github)
-    post.twitter_handle = fixProtocol(post.twitter_handle)
-    post.twitter_handle = clearTwitterAdr(post.twitter_handle)
-    post.linkedin = fixProtocol(post.linkedin)
-    post.avatar = generateAvatar(post)
-    post.displayInterests = post.interests
-    post.interests = post.interests.toLowerCase()
-    return post
+const clearPeople = (people) =>
+  people.map((person) => {
+    person.slug = slugger(person.name)
+    person.github = fixProtocol(person.github)
+    person.twitter_handle = fixProtocol(person.twitter_handle)
+    person.twitter_handle = clearTwitterAdr(person.twitter_handle)
+    person.linkedin = fixProtocol(person.linkedin)
+    person.avatar = generateAvatar(person)
+    person.displayInterests = person.interests
+    person.interests = person.interests.toLowerCase()
+    return person
   })
-}
 
-const clearMentorships = (posts) => {
-  return posts.map((post) => {
-    post.project_adress = fixProtocol(post.project_adress)
-    const projectName = post.project_adress.split('/').pop()
-    post.slug = projectName
-    return post
+const clearMentorships = (mentorships) =>
+  mentorships.map((mentorship) => {
+    mentorship.project_adress = fixProtocol(mentorship.project_adress)
+    mentorship.slug = mentorship.project_adress.split('/').pop()
+    return mentorship
   })
-}
 
 const getData = async () => {
   try {
@@ -98,15 +87,13 @@ const getData = async () => {
     ])
 
     // clear data
-    let [people, activeMentorships] = attendies.valueRanges
-    people = clearData(mapper(people.values.slice(4).filter((r) => r.length)))
-    activeMentorships = clearMentorships(
-      mapper(activeMentorships.values.slice(1).filter((r) => r.length))
+    let [people, mentorships] = attendies.valueRanges
+    people = clearPeople(mapper(people.values.slice(4).filter((r) => r.length)))
+    mentorships = clearMentorships(
+      mapper(mentorships.values.slice(1).filter((r) => r.length))
     )
-    activeMentorships = await getContributors(activeMentorships, people)
+    mentorships = await getContributors(mentorships, people)
     let [menteeCount, mentorCount, both, total] = [0, 0, 0, 0]
-
-    // 500 x 4 = 2000 kere array icinde arama
 
     // find and place mentorships
     people.map((person) => {
@@ -121,23 +108,19 @@ const getData = async () => {
       }
       total++
 
-      person.mentorships = activeMentorships.filter((mentorship) => {
-        if (mentorship.mentor.endsWith(person.slug)) {
-          return mentorship
+      person.mentorships = mentorships.filter((mentorship) =>
+        mentorship.mentor.endsWith(person.slug)
+      )
+
+      person.contributions = mentorships.filter((mentorship) => {
+        if (!person.github) return false
+
+        for (const contrib of mentorship.contributors) {
+          const personHasContributed = contrib.github_address == person.github
+          if (personHasContributed) return true
         }
-      })
-      person.contributions = activeMentorships.filter((mentorship) => {
-        const gh = person.github
-        if (gh) {
-          const amIExists = mentorship.contributors.find((contributor) => {
-            if (contributor.github_address === gh) {
-              return contributor
-            }
-          })
-          if (amIExists) {
-            return mentorship
-          }
-        }
+
+        return false
       })
     })
 
@@ -156,7 +139,7 @@ const getData = async () => {
 
     const data = {
       persons: people,
-      activeMentorships,
+      mentorships,
       contribs,
       counts: { menteeCount, mentorCount, both, total },
     }
@@ -177,12 +160,11 @@ async function makeContent(name, data) {
 
 // entry point
 getData().then(
-  ({ status, data: { persons, activeMentorships, contribs, counts } }) => {
+  ({ status, data: { persons, mentorships, contribs, counts } }) => {
     if (status !== 200) {
       throw new Error('Error when fetching data from spreadsheet')
     }
 
-    const mentorships = activeMentorships
     makeContent('persons', persons)
     makeContent('activeMentorships', { mentorships })
     makeContent('contribs', { contribs })
