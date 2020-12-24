@@ -455,6 +455,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs",
+            "fmn_url": "/peer/murat-mirgun-ercan"
           }
         ]
       },
@@ -4322,6 +4328,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs",
+            "fmn_url": "/peer/murat-mirgun-ercan"
           }
         ]
       },
@@ -4432,6 +4444,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs",
+            "fmn_url": "/peer/murat-mirgun-ercan"
           }
         ]
       },
@@ -8534,6 +8552,51 @@
     "contributions": []
   },
   {
+    "registered_at": "24.12.2020 09:44:36",
+    "name": "Cem Sume",
+    "twitter_handle": "https://twitter.com/bcs_dev",
+    "github": "https://github.com/bcemsume",
+    "linkedin": "https://linkedin.com/in/bcemsume",
+    "interests": "frontend, backend, devops, mobile, architecture, react, react-native, flutter. .net, .net core, js, nodejs, golang, aws serverless",
+    "goals": "\nTeach what you've learned, learn more than you teach.",
+    "mentor": "İkisi de",
+    "slug": "cem-sume",
+    "avatar": "https://avatars.githubusercontent.com/bcemsume",
+    "displayInterests": "frontend, backend, devops, mobile, architecture, react, react-native, flutter. .net, .net core, js, nodejs, golang, aws serverless",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "24.12.2020 10:53:34",
+    "name": "Ahmet Avci",
+    "twitter_handle": "https://twitter.com/Ahmetavcc",
+    "github": "https://github.com/ahmetavc",
+    "linkedin": "https://linkedin.com/in/ahmetaavci",
+    "interests": "frontend, backend, devops",
+    "goals": "I want to be worldwide developer in the future. That's why I'm here.",
+    "mentor": "İkisi de",
+    "slug": "ahmet-avci",
+    "avatar": "https://avatars.githubusercontent.com/ahmetavc",
+    "displayInterests": "frontend, backend, devops",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "24.12.2020 13:31:37",
+    "name": "Ege Sekercioglu",
+    "twitter_handle": "https://twitter.com/sermetege",
+    "github": "https://github.com/sermetege",
+    "linkedin": "https://linkedin.com/in/ege-sekercioglu-87b47a6b",
+    "interests": "frontend,backend",
+    "goals": "Improving myself on backend.",
+    "mentor": "Mentee",
+    "slug": "ege-sekercioglu",
+    "avatar": "https://avatars.githubusercontent.com/sermetege",
+    "displayInterests": "Frontend,Backend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -12152,6 +12215,45 @@
     "displayInterests": "DevOps, Backend (Go)",
     "mentorships": [],
     "contributions": [
+      {
+        "": "12.12.2020 15:39:26",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubernetes-kitap",
+        "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
+        "slug": "kubernetes-kitap",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda",
+            "fmn_url": "/peer/emre-savci"
+          },
+          {
+            "username": "actions-user",
+            "github_address": "https://github.com/actions-user",
+            "avatar": "https://avatars.githubusercontent.com/actions-user",
+            "fmn_url": ""
+          },
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali",
+            "fmn_url": "/peer/cagatay-cali"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs",
+            "fmn_url": "/peer/murat-mirgun-ercan"
+          }
+        ]
+      },
       {
         "": "19.12.2020 19:49:52",
         "mentor": "https://findmentor.network/peer/emre-savci",
