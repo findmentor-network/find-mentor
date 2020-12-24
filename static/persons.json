@@ -552,6 +552,12 @@
             "github_address": "https://github.com/aliergcr",
             "avatar": "https://avatars.githubusercontent.com/aliergcr",
             "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -787,6 +793,12 @@
             "github_address": "https://github.com/aliergcr",
             "avatar": "https://avatars.githubusercontent.com/aliergcr",
             "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -4619,6 +4631,12 @@
             "github_address": "https://github.com/aliergcr",
             "avatar": "https://avatars.githubusercontent.com/aliergcr",
             "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -6559,6 +6577,45 @@
     ],
     "contributions": [
       {
+        "": "18.12.2020 13:56:54",
+        "mentor": "https://findmentor.network/peer/alper-karatas",
+        "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
+        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "slug": "find-mentor-mobil",
+        "contributors": [
+          {
+            "username": "alperkaratas",
+            "github_address": "https://github.com/alperkaratas",
+            "avatar": "https://avatars.githubusercontent.com/alperkaratas",
+            "fmn_url": "/peer/alper-karatas"
+          },
+          {
+            "username": "ahmetcanaydemir",
+            "github_address": "https://github.com/ahmetcanaydemir",
+            "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir",
+            "fmn_url": "/peer/ahmet-can-aydemir"
+          },
+          {
+            "username": "saracalihan",
+            "github_address": "https://github.com/saracalihan",
+            "avatar": "https://avatars.githubusercontent.com/saracalihan",
+            "fmn_url": "/peer/alihan-sarac"
+          },
+          {
+            "username": "aliergcr",
+            "github_address": "https://github.com/aliergcr",
+            "avatar": "https://avatars.githubusercontent.com/aliergcr",
+            "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
+          }
+        ]
+      },
+      {
         "": "22.12.2020 00:38:25",
         "mentor": "https://findmentor.network/peer/murat-terzioglu",
         "project_adress": "https://github.com/muraterzioglu/find-mentor-dcbot",
@@ -6729,6 +6786,12 @@
             "github_address": "https://github.com/aliergcr",
             "avatar": "https://avatars.githubusercontent.com/aliergcr",
             "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -6764,6 +6827,12 @@
             "github_address": "https://github.com/aliergcr",
             "avatar": "https://avatars.githubusercontent.com/aliergcr",
             "fmn_url": "/peer/ali-ergecer"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -8683,6 +8752,36 @@
     "slug": "ibrahim-enes-ciftci",
     "avatar": "https://avatars.githubusercontent.com/enesciftci",
     "displayInterests": "Backend, Frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "24.12.2020 18:55:07",
+    "name": "Faruk Özdemir",
+    "twitter_handle": "https://twitter.com/fozdemir16",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com/in/fozdemir16",
+    "interests": "frontend",
+    "goals": "I want to improve myself on frontend\n",
+    "mentor": "Mentee",
+    "slug": "faruk-ozdemir",
+    "avatar": "",
+    "displayInterests": "frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "24.12.2020 21:10:12",
+    "name": "Mert Ağcakoyun",
+    "twitter_handle": "https://twitter.com/mertagcakoyun",
+    "github": "https://github.com/mertagcakoyun",
+    "linkedin": "https://linkedin.com/in/mertagcakoyun",
+    "interests": "frontend, backend, devops",
+    "goals": "Yazılım dünyasına yön veren işler yapan kendinden sonra gelenlere örnek olacak bir yazılımcı olmayı hedefliyorum",
+    "mentor": "İkisi de",
+    "slug": "mert-agcakoyun",
+    "avatar": "https://avatars.githubusercontent.com/mertagcakoyun",
+    "displayInterests": "Frontend, backend, devops",
     "mentorships": [],
     "contributions": []
   },
