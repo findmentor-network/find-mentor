@@ -4,7 +4,7 @@
       <b-jumbotron text-variant="black" border-variant="dark">
         <h1>Events</h1>
         <p>
-          <i> You can find all events here from findmentor.network. </i>
+          <i> You can find all the events organized by <a href="https://findmentor.network/">findmentor.network</a> </i>
         </p>
       </b-jumbotron>
 
@@ -12,7 +12,7 @@
         <b-table
           striped
           :table-variant="$colorMode.value"
-          :items="items"
+          :items="events"
           :fields="fields"
           :tbody-tr-class="rowClass"
         >
@@ -28,12 +28,13 @@
   </div>
 </template>
 
+// TODO Data will connect with firebase
 <script>
 export default {
   data() {
     return {
       fields: [{ key: 'event_name' }, 'speakers', 'date', 'status'],
-      items: [
+      events: [
         {
           event_name: 'What is the findmenotor? How was start?',
           speakers: 'Çağatay Çalı',
