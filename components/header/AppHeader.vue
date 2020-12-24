@@ -48,7 +48,7 @@
         <cta-button
           class="mr-2"
           text="Discord"
-          to="https://discord.gg/H9Vg8pYZAF"
+          to="/discord"
           bg-color="var(--color-discord-01)"
         >
           <font-awesome-icon
