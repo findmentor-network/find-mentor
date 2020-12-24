@@ -14,6 +14,11 @@
         <ContribList :contribs="contribs" />
       </div>
       <nuxt-content :document="page" />
+
+      <NuxtLink to="/events/">
+        <h2 class="events-button">Upcoming Events</h2>
+      </NuxtLink>
+
       <NuxtLink
         to="/guide/"
         class="how-it-works-link"
@@ -126,5 +131,13 @@ export default {
 }
 .pad-both {
   padding: 0px 20px;
+}
+
+.events-button {
+  background-image: linear-gradient(to bottom right, #035757, darkcyan);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 1px 1px 5px #00000050;
 }
 </style>
