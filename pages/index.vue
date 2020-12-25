@@ -14,6 +14,14 @@
         <ContribList :contribs="contribs" />
       </div>
       <nuxt-content :document="page" />
+
+      <cta-button
+        class="upcoming-button"
+        text="Upcoming Events"
+        to="/events/"
+        :nuxtLink="true"
+      />
+
       <NuxtLink
         to="/guide/"
         class="how-it-works-link"
@@ -126,5 +134,9 @@ export default {
 }
 .pad-both {
   padding: 0px 20px;
+}
+
+.upcoming-button {
+  font-size: xx-large !important;
 }
 </style>
