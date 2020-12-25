@@ -37,7 +37,7 @@
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto" right>
         <cta-button
-          class="cta"
+          class="mr-2"
           text="Join Now"
           to="https://forms.gle/pQwFZBXEyqBRDU2H9"
         >
