@@ -41,7 +41,7 @@
       "received_events_url": "https://api.github.com/users/selimdoyranli/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 51
+      "contributions": 52
     },
     {
       "login": "tansionline",
@@ -64,6 +64,28 @@
       "site_admin": false,
       "contributions": 24,
       "fmn_url": "https://findmentor.network/peer/selcuk-tatar"
+    },
+    {
+      "login": "hasantezcan",
+      "id": 32804505,
+      "node_id": "MDQ6VXNlcjMyODA0NTA1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32804505?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hasantezcan",
+      "html_url": "https://github.com/hasantezcan",
+      "followers_url": "https://api.github.com/users/hasantezcan/followers",
+      "following_url": "https://api.github.com/users/hasantezcan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hasantezcan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hasantezcan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hasantezcan/subscriptions",
+      "organizations_url": "https://api.github.com/users/hasantezcan/orgs",
+      "repos_url": "https://api.github.com/users/hasantezcan/repos",
+      "events_url": "https://api.github.com/users/hasantezcan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hasantezcan/received_events",
+      "type": "User",
+      "site_admin": false,
+      "contributions": 21,
+      "fmn_url": "https://findmentor.network/peer/hasan-tezcan"
     },
     {
       "login": "ograsyilmaz",
@@ -108,28 +130,6 @@
       "site_admin": false,
       "contributions": 18,
       "fmn_url": "https://findmentor.network/peer/sevki-oruc"
-    },
-    {
-      "login": "hasantezcan",
-      "id": 32804505,
-      "node_id": "MDQ6VXNlcjMyODA0NTA1",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/32804505?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/hasantezcan",
-      "html_url": "https://github.com/hasantezcan",
-      "followers_url": "https://api.github.com/users/hasantezcan/followers",
-      "following_url": "https://api.github.com/users/hasantezcan/following{/other_user}",
-      "gists_url": "https://api.github.com/users/hasantezcan/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/hasantezcan/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/hasantezcan/subscriptions",
-      "organizations_url": "https://api.github.com/users/hasantezcan/orgs",
-      "repos_url": "https://api.github.com/users/hasantezcan/repos",
-      "events_url": "https://api.github.com/users/hasantezcan/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/hasantezcan/received_events",
-      "type": "User",
-      "site_admin": false,
-      "contributions": 15,
-      "fmn_url": "https://findmentor.network/peer/hasan-tezcan"
     },
     {
       "login": "alpercun",
