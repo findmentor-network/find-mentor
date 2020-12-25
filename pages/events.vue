@@ -4,7 +4,10 @@
       <b-jumbotron text-variant="black" border-variant="dark">
         <h1>Events</h1>
         <p>
-          <i> You can find all the events organized by <a href="https://findmentor.network/">findmentor.network</a> </i>
+          <i>
+            You can find all the events organized by
+            <a href="https://findmentor.network/">findmentor.network</a>
+          </i>
         </p>
       </b-jumbotron>
 
@@ -22,6 +25,12 @@
             }}</a>
             <span v-else>{{ data.value }}</span>
           </template>
+
+          <template #cell(speakers)="data">
+            <span v-for="speaker in data.value" :key="speaker">
+              <a :href="`${speaker.twitter}`"> {{ speaker.name }} </a>
+            </span>
+          </template>
         </b-table>
       </div>
     </div>
@@ -37,17 +46,31 @@ export default {
       events: [
         {
           event_name: 'What is the findmenotor? How was start?',
-          speakers: 'Çağatay Çalı',
+          speakers: [
+            {
+              name: 'Çağatay Çalı',
+              twitter: 'https://twitter.com/cagataycali',
+            },
+          ],
           link: 'https://www.youtube.com/watch?v=IhNCyOx-2Yc&t=1s',
           date: '2020/12/20',
           status: 'done',
         },
         {
           event_name: 'Q/A About Technical Interviews with Orhan ÖZALP',
-          speakers: 'Orhan ÖZALP',
-          link: '',
+          speakers: [
+            {
+              name: 'Çağatay Çalı',
+              twitter: 'https://twitter.com/cagataycali',
+            },
+            {
+              name: 'Orhan ÖZALP',
+              twitter: 'https://twitter.com/ocozalp',
+            },
+          ],
+          link: 'https://www.youtube.com/watch?v=5ntPmkZXxb8&t=2s',
           date: '2020/12/24',
-          status: 'upcoming',
+          status: 'done',
         },
       ],
     }
