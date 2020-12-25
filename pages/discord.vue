@@ -1,12 +1,12 @@
 <template>
-    <div></div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  middleware({redirect }) {
+  middleware({ redirect }) {
     // retrieving keys via object destructuring
     return redirect('https://discord.gg/TjjMQHpDQn')
-  }
+  },
 }
 </script>
