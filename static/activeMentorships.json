@@ -32,6 +32,12 @@
           "fmn_url": "/peer/selcuk-tatar"
         },
         {
+          "username": "hasantezcan",
+          "github_address": "https://github.com/hasantezcan",
+          "avatar": "https://avatars.githubusercontent.com/hasantezcan",
+          "fmn_url": "/peer/hasan-tezcan"
+        },
+        {
           "username": "ograsyilmaz",
           "github_address": "https://github.com/ograsyilmaz",
           "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
@@ -42,12 +48,6 @@
           "github_address": "https://github.com/sevkioruc",
           "avatar": "https://avatars.githubusercontent.com/sevkioruc",
           "fmn_url": "/peer/sevki-oruc"
-        },
-        {
-          "username": "hasantezcan",
-          "github_address": "https://github.com/hasantezcan",
-          "avatar": "https://avatars.githubusercontent.com/hasantezcan",
-          "fmn_url": "/peer/hasan-tezcan"
         },
         {
           "username": "alpercun",
@@ -603,6 +603,21 @@
           "github_address": "https://github.com/boraozer",
           "avatar": "https://avatars.githubusercontent.com/boraozer",
           "fmn_url": "/peer/bora-erdinc-ozer"
+        }
+      ]
+    },
+    {
+      "": "25.12.2020 22:25:12",
+      "mentor": "https://findmentor.network/peer/izni-burak-demirtas",
+      "project_adress": "https://github.com/tnhn-krmn/Otostop",
+      "goal": "Projenin detayları için lütfen benimle iletişime geçiniz => https://www.linkedin.com/in/tunahan-karaman-884018154/",
+      "slug": "Otostop",
+      "contributors": [
+        {
+          "username": "tnhn-krmn",
+          "github_address": "https://github.com/tnhn-krmn",
+          "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
+          "fmn_url": "/peer/tunahan-karaman"
         }
       ]
     }
