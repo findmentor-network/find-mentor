@@ -28,9 +28,7 @@
         <b-nav-item exact to="/events/" active-class="active">
           Events
         </b-nav-item>
-        <b-nav-item exact to="/jobs" active-class="active">
-          Jobs
-        </b-nav-item>
+        <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
         <b-nav-item exact to="/hire" active-class="active">
           Hireable Persons
         </b-nav-item>

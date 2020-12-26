@@ -100,7 +100,7 @@ const getData = async () => {
     let [people, activeMentorships, jobs, hireable] = attendies.valueRanges
     jobs = mapper(jobs.values.slice(1).filter((r) => r.length))
     hireable = mapper(hireable.values.slice(1).filter((r) => r.length))
-    
+
     people = clearData(mapper(people.values.slice(4).filter((r) => r.length)))
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
@@ -123,7 +123,7 @@ const getData = async () => {
       }
       total++
 
-      const isHireable = hireable.find(p => p.profile.includes(person.slug))
+      const isHireable = hireable.find((p) => p.profile.includes(person.slug))
       person.isHireable = isHireable ? true : false
       if (isHireable) {
         isHireable.person = person
@@ -199,8 +199,8 @@ getData().then(
     makeContent('persons', persons)
     makeContent('activeMentorships', { mentorships })
     makeContent('contribs', { contribs })
-    makeContent('jobs', {jobs})
-    makeContent('hireable', {hireable})
+    makeContent('jobs', { jobs })
+    makeContent('hireable', { hireable })
     makeContent('info', counts)
   }
 )
