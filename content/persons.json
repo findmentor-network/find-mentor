@@ -538,7 +538,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -785,7 +785,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -4677,7 +4677,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -6863,7 +6863,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -7043,7 +7043,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -7084,7 +7084,7 @@
         "": "18.12.2020 13:56:54",
         "mentor": "https://findmentor.network/peer/alper-karatas",
         "project_adress": "https://github.com/alperkaratas/find-mentor-mobil",
-        "goal": "Find MEntor web sitesinin mobil versiyonunu sunmak.",
+        "goal": "Find Mentor web sitesinin mobil versiyonunu sunmak.",
         "slug": "find-mentor-mobil",
         "contributors": [
           {
@@ -9165,6 +9165,21 @@
     "contributions": []
   },
   {
+    "registered_at": "26.12.2020 14:52:06",
+    "name": "Ramazan Arslan",
+    "twitter_handle": "https://twitter.com/arslan1845",
+    "github": "https://github.com/ramazanarslan",
+    "linkedin": "https://linkedin.com/in/ramazan-arslan",
+    "interests": "frontend backend devops",
+    "goals": "I am planning to be good entrepreneur and engineer. ",
+    "mentor": "İkisi de",
+    "slug": "ramazan-arslan",
+    "avatar": "https://avatars.githubusercontent.com/ramazanarslan",
+    "displayInterests": "frontend backend devops",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -10771,12 +10786,12 @@
     "twitter_handle": "https://twitter.com/fatmaozdemir__",
     "github": "https://github.com/ozdmrfatma",
     "linkedin": "https://linkedin.com/in/fatma-%C3%B6zdemir-67039a175",
-    "interests": "mobile development,react,js",
+    "interests": "mobile development, react, js",
     "goals": "i want to improve my programming skills for become a good mobile developer",
     "mentor": "Mentee",
     "slug": "fatma-ozdemir",
     "avatar": "https://avatars.githubusercontent.com/ozdmrfatma",
-    "displayInterests": "Mobile development,React,js",
+    "displayInterests": "Mobile development, React, JS",
     "mentorships": [],
     "contributions": []
   },
