@@ -9135,6 +9135,36 @@
     "contributions": []
   },
   {
+    "registered_at": "26.12.2020 11:19:02",
+    "name": "Berk Güzel",
+    "twitter_handle": "https://twitter.com/guzellberk",
+    "github": "https://github.com/berkguzel",
+    "linkedin": "https://linkedin.com/in/berk-g%C3%BCzel-35550a17b",
+    "interests": "devops, cloud, containerization, kubernetes, go, bash",
+    "goals": "I am here to learn DevOps culture with software development.",
+    "mentor": "Mentee",
+    "slug": "berk-guzel",
+    "avatar": "https://avatars.githubusercontent.com/berkguzel",
+    "displayInterests": "DevOps, Cloud, Containerization, Kubernetes, Go, Bash",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "26.12.2020 13:19:41",
+    "name": "Recep Öztürk",
+    "twitter_handle": "",
+    "github": "https://github.com/booleanrecep",
+    "linkedin": "https://linkedin.com/in/booleanrecep",
+    "interests": "frontend, backend, mern stack, full stack",
+    "goals": "I really want to be a productive developer that can write admirable codes.",
+    "mentor": "İkisi de",
+    "slug": "recep-ozturk",
+    "avatar": "https://avatars.githubusercontent.com/booleanrecep",
+    "displayInterests": "frontend, backend, mern stack, full stack",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
