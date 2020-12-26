@@ -880,6 +880,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
@@ -890,12 +896,6 @@
             "github_address": "https://github.com/tansionline",
             "avatar": "https://avatars.githubusercontent.com/tansionline",
             "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "sametpalitci",
-            "github_address": "https://github.com/sametpalitci",
-            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-            "fmn_url": ""
           }
         ]
       }
@@ -3352,7 +3352,23 @@
     "slug": "bartu-ozel",
     "avatar": "https://avatars.githubusercontent.com/BRTZL",
     "displayInterests": "Backend(Go, Js, Java), Frontend(Vue), Mobile(Flutter, Swift)",
-    "mentorships": [],
+    "mentorships": [
+      {
+        "": "26.12.2020 19:39:54",
+        "mentor": "https://findmentor.network/peer/bartu-ozel",
+        "project_adress": "https://github.com/BRTZL/gotvp",
+        "goal": "golang ile tui video player yapmak",
+        "slug": "gotvp",
+        "contributors": [
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
+          }
+        ]
+      }
+    ],
     "contributions": [
       {
         "": "16.12.2020 22:28:51",
@@ -3405,6 +3421,21 @@
             "github_address": "https://github.com/ramazan",
             "avatar": "https://avatars.githubusercontent.com/ramazan",
             "fmn_url": ""
+          }
+        ]
+      },
+      {
+        "": "26.12.2020 19:39:54",
+        "mentor": "https://findmentor.network/peer/bartu-ozel",
+        "project_adress": "https://github.com/BRTZL/gotvp",
+        "goal": "golang ile tui video player yapmak",
+        "slug": "gotvp",
+        "contributors": [
+          {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
           }
         ]
       }
@@ -5322,6 +5353,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
@@ -5332,12 +5369,6 @@
             "github_address": "https://github.com/tansionline",
             "avatar": "https://avatars.githubusercontent.com/tansionline",
             "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "sametpalitci",
-            "github_address": "https://github.com/sametpalitci",
-            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-            "fmn_url": ""
           }
         ]
       }
@@ -6388,6 +6419,12 @@
             "github_address": "https://github.com/tnhn-krmn",
             "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
             "fmn_url": "/peer/tunahan-karaman"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -6916,6 +6953,27 @@
             "github_address": "https://github.com/Fexyler",
             "avatar": "https://avatars.githubusercontent.com/Fexyler",
             "fmn_url": "/peer/batuhan-isildak"
+          }
+        ]
+      },
+      {
+        "": "25.12.2020 22:25:12",
+        "mentor": "https://findmentor.network/peer/izni-burak-demirtas",
+        "project_adress": "https://github.com/tnhn-krmn/Otostop",
+        "goal": "Projenin detayları için lütfen benimle iletişime geçiniz => https://www.linkedin.com/in/tunahan-karaman-884018154/",
+        "slug": "Otostop",
+        "contributors": [
+          {
+            "username": "tnhn-krmn",
+            "github_address": "https://github.com/tnhn-krmn",
+            "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
+            "fmn_url": "/peer/tunahan-karaman"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -9180,6 +9238,66 @@
     "contributions": []
   },
   {
+    "registered_at": "26.12.2020 19:39:34",
+    "name": "uğurcan yanık",
+    "twitter_handle": "https://twitter.com/uurcanyanik",
+    "github": "https://github.com/ugurcanyanik",
+    "linkedin": "https://linkedin.com/in/ugurcanyanik",
+    "interests": "frontend",
+    "goals": "I want to be in a position in the future where people care about and choose me for their work.",
+    "mentor": "Mentee",
+    "slug": "ugurcan-yanik",
+    "avatar": "https://avatars.githubusercontent.com/ugurcanyanik",
+    "displayInterests": "frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "26.12.2020 20:26:08",
+    "name": "Berke Can Pınar",
+    "twitter_handle": "https://twitter.com/blue_or4n_ge",
+    "github": "https://github.com/WosberbonDesu",
+    "linkedin": "https://linkedin.com/in/berkecanpinar",
+    "interests": "devops-machine learning-data science-cyber security",
+    "goals": "I want to be developer in data science and machine learning my goal is to be in a good position in this field and to bring good values ​​to the society by doing scientific researches",
+    "mentor": "Mentee",
+    "slug": "berke-can-pinar",
+    "avatar": "https://avatars.githubusercontent.com/WosberbonDesu",
+    "displayInterests": "Devops-Machine Learning-Data Science-Cyber Security",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "26.12.2020 20:40:21",
+    "name": "Mevlüt Can Tuna",
+    "twitter_handle": "https://twitter.com/mevlt_tuna",
+    "github": "https://github.com/mevlutcantuna",
+    "linkedin": "https://linkedin.com/in/mevlutcantuna",
+    "interests": "frontend",
+    "goals": "Kendi kendine öğrenen biriyim ve frontend alanın da belirli bir yerlere geldim ama şu anda ne yapmam lazım nasıl bir yol izlemeliyim bilmiyorum.Kendimi daha fazla geliştirerek sektörde iyi bir yere gelmeye hedefliyorum.",
+    "mentor": "Mentee",
+    "slug": "mevlut-can-tuna",
+    "avatar": "https://avatars.githubusercontent.com/mevlutcantuna",
+    "displayInterests": "Frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "26.12.2020 22:30:43",
+    "name": "Seha Yegen",
+    "twitter_handle": "https://twitter.com/SehaYegen",
+    "github": "https://github.com/sehayegen",
+    "linkedin": "https://linkedin.com/in/seha-yegen-6bb577200",
+    "interests": "frontend",
+    "goals": " I want teach everything that I know to everyone and learn much more I can!",
+    "mentor": "Mentee",
+    "slug": "seha-yegen",
+    "avatar": "https://avatars.githubusercontent.com/sehayegen",
+    "displayInterests": "frontend",
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -9856,6 +9974,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
@@ -9866,12 +9990,6 @@
             "github_address": "https://github.com/tansionline",
             "avatar": "https://avatars.githubusercontent.com/tansionline",
             "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "sametpalitci",
-            "github_address": "https://github.com/sametpalitci",
-            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-            "fmn_url": ""
           }
         ]
       }
@@ -11702,6 +11820,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
             "username": "kayraberktuncer",
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
@@ -11712,12 +11836,6 @@
             "github_address": "https://github.com/tansionline",
             "avatar": "https://avatars.githubusercontent.com/tansionline",
             "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "sametpalitci",
-            "github_address": "https://github.com/sametpalitci",
-            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-            "fmn_url": ""
           }
         ]
       }
@@ -12584,6 +12702,12 @@
             "github_address": "https://github.com/tnhn-krmn",
             "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
             "fmn_url": "/peer/tunahan-karaman"
+          },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }

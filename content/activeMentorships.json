@@ -395,6 +395,12 @@
           "fmn_url": "/peer/furkan-portakal"
         },
         {
+          "username": "sametpalitci",
+          "github_address": "https://github.com/sametpalitci",
+          "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+          "fmn_url": ""
+        },
+        {
           "username": "kayraberktuncer",
           "github_address": "https://github.com/kayraberktuncer",
           "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
@@ -405,12 +411,6 @@
           "github_address": "https://github.com/tansionline",
           "avatar": "https://avatars.githubusercontent.com/tansionline",
           "fmn_url": "/peer/selcuk-tatar"
-        },
-        {
-          "username": "sametpalitci",
-          "github_address": "https://github.com/sametpalitci",
-          "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-          "fmn_url": ""
         }
       ]
     },
@@ -624,6 +624,27 @@
           "github_address": "https://github.com/tnhn-krmn",
           "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
           "fmn_url": "/peer/tunahan-karaman"
+        },
+        {
+          "username": "muraterzioglu",
+          "github_address": "https://github.com/muraterzioglu",
+          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+          "fmn_url": "/peer/murat-terzioglu"
+        }
+      ]
+    },
+    {
+      "": "26.12.2020 19:39:54",
+      "mentor": "https://findmentor.network/peer/bartu-ozel",
+      "project_adress": "https://github.com/BRTZL/gotvp",
+      "goal": "golang ile tui video player yapmak",
+      "slug": "gotvp",
+      "contributors": [
+        {
+          "username": "BRTZL",
+          "github_address": "https://github.com/BRTZL",
+          "avatar": "https://avatars.githubusercontent.com/BRTZL",
+          "fmn_url": "/peer/bartu-ozel"
         }
       ]
     }
