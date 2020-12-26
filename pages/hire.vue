@@ -3,6 +3,12 @@
     <div class="container">
       <h1 class="title">Hireable</h1>
 
+      <h3>
+        <a href="https://forms.gle/RnBV3sPzr8YnDjRY9"
+          >Add yourself as a Hireable!</a
+        >
+      </h3>
+
       <h4>
         <a
           href="https://github.com/cagataycali/find-mentor/blob/master/pages/hire.vue"
