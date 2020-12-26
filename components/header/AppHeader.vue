@@ -28,6 +28,12 @@
         <b-nav-item exact to="/events/" active-class="active">
           Events
         </b-nav-item>
+        <b-nav-item exact to="/jobs" active-class="active">
+          Jobs
+        </b-nav-item>
+        <b-nav-item exact to="/hire" active-class="active">
+          Hireable Persons
+        </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="col col-12 col-lg-3 col-xl-2">
         <app-search-input

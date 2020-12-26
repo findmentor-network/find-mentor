@@ -85,7 +85,7 @@ const clearMentorships = (posts) => {
 const getData = async () => {
   try {
     // request datas
-    const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar`
+    const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar&ranges=Jobs&ranges=Interns`
     const contribs_url =
       'https://api.github.com/repos/cagataycali/find-mentor/contributors'
     const [attendies, contribs] = await Promise.all([
@@ -96,9 +96,11 @@ const getData = async () => {
         },
       }).then((res) => JSON.parse(res.body)),
     ])
-
     // clear data
-    let [people, activeMentorships] = attendies.valueRanges
+    let [people, activeMentorships, jobs, hireable] = attendies.valueRanges
+    jobs = mapper(jobs.values.slice(1).filter((r) => r.length))
+    hireable = mapper(hireable.values.slice(1).filter((r) => r.length))
+    
     people = clearData(mapper(people.values.slice(4).filter((r) => r.length)))
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
@@ -120,6 +122,12 @@ const getData = async () => {
         mentorCount++
       }
       total++
+
+      const isHireable = hireable.find(p => p.profile.includes(person.slug))
+      person.isHireable = isHireable ? true : false
+      if (isHireable) {
+        isHireable.person = person
+      }
 
       person.mentorships = activeMentorships.filter((mentorship) => {
         if (mentorship.mentor.endsWith(person.slug)) {
@@ -158,6 +166,8 @@ const getData = async () => {
       persons: people,
       activeMentorships,
       contribs,
+      jobs,
+      hireable,
       counts: { menteeCount, mentorCount, both, total },
     }
     return { status: 200, data }
@@ -177,7 +187,10 @@ async function makeContent(name, data) {
 
 // entry point
 getData().then(
-  ({ status, data: { persons, activeMentorships, contribs, counts } }) => {
+  ({
+    status,
+    data: { persons, activeMentorships, contribs, counts, jobs, hireable },
+  }) => {
     if (status !== 200) {
       throw new Error('Error when fetching data from spreadsheet')
     }
@@ -186,6 +199,8 @@ getData().then(
     makeContent('persons', persons)
     makeContent('activeMentorships', { mentorships })
     makeContent('contribs', { contribs })
+    makeContent('jobs', {jobs})
+    makeContent('hireable', {hireable})
     makeContent('info', counts)
   }
 )
