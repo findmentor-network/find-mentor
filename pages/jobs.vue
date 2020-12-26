@@ -26,7 +26,7 @@
       <hr />
       <h4>
         <a
-          href="https://github.com/cagataycali/find-mentor/blob/master/pages/mentorships.vue"
+          href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
           >Contribute this page</a
         >
       </h4>

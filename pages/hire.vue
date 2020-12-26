@@ -3,6 +3,13 @@
     <div class="container">
       <h1 class="title">Hireable</h1>
 
+      <h4>
+        <a
+          href="https://github.com/cagataycali/find-mentor/blob/master/pages/hire.vue"
+          >Contribute this page</a
+        >
+      </h4>
+
       <template v-if="$fetchState.pending">
         <app-spinner class="d-block mx-auto" />
       </template>
