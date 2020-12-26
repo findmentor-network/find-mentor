@@ -36,8 +36,11 @@
       firebase.auth().onAuthStateChanged(async (user) => {
         if (user) {
           // Get user profile
-          let profile = await db.doc(`peer/${user.uid}`).get().then(snap => snap.data())
-          console.log(profile);
+          let profile = await db
+            .doc(`peer/${user.uid}`)
+            .get()
+            .then((snap) => snap.data())
+          console.log(profile)
           // this.login({...user, profile})
           console.log('Giris yapildi')
         } else {
@@ -54,7 +57,8 @@
       var provider = new firebase.auth.GithubAuthProvider()
       provider.addScope('read:user')
 
-      const register = async (data) => db.doc(`/peer/${data.uid}`).set(data, {merge: true})
+      const register = async (data) =>
+        db.doc(`/peer/${data.uid}`).set(data, { merge: true })
 
       const login = () => {
         firebase
@@ -91,9 +95,19 @@
           })
       }
 
-      const getTypeOfUsers = async (type = 'mentee') => db.collection('peer').where('type', 'array-contains', type).get().then(snap => snap.docs.map(doc => doc.data()))
+      const getTypeOfUsers = async (type = 'mentee') =>
+        db
+          .collection('peer')
+          .where('type', 'array-contains', type)
+          .get()
+          .then((snap) => snap.docs.map((doc) => doc.data()))
 
-      const getUser = async (slug) => db.collection('peer').where('login', '==', slug).get().then(snap => snap.docs.map(doc => doc.data()))
+      const getUser = async (slug) =>
+        db
+          .collection('peer')
+          .where('login', '==', slug)
+          .get()
+          .then((snap) => snap.docs.map((doc) => doc.data()))
 
       window.getTypeOfUsers = getTypeOfUsers
       window.getUser = getUser
