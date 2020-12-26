@@ -27,9 +27,15 @@
           </template>
 
           <template #cell(speakers)="data">
-            <span v-for="speaker in data.value" :key="speaker">
+            <span v-for="(speaker, index) in data.value" :key="index">
               <a :href="`${speaker.twitter}`"> {{ speaker.name }} </a>
             </span>
+          </template>
+          <template #cell(status)="data">
+            <font-awesome-icon
+              class="ml-3"
+              :icon="data.item.status === 'done' ? 'times' : 'check'"
+            />
           </template>
         </b-table>
       </div>
