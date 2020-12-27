@@ -11,7 +11,7 @@
     "slug": "cagatay-cali",
     "avatar": "https://avatars.githubusercontent.com/cagataycali",
     "displayInterests": "frontend, backend, devops, secops",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [
       {
         "": "11.12.2020 14:13:50",
@@ -2907,7 +2907,7 @@
     "slug": "adil-ahmet-sargin",
     "avatar": "https://avatars.githubusercontent.com/Artizan77",
     "displayInterests": "mobil, backend",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
