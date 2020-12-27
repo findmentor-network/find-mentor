@@ -128,6 +128,12 @@
           "fmn_url": "/peer/murat-turan"
         },
         {
+          "username": "Buraksmn",
+          "github_address": "https://github.com/Buraksmn",
+          "avatar": "https://avatars.githubusercontent.com/Buraksmn",
+          "fmn_url": "/peer/burak-saman"
+        },
+        {
           "username": "onuraksar",
           "github_address": "https://github.com/onuraksar",
           "avatar": "https://avatars.githubusercontent.com/onuraksar",
@@ -615,6 +621,12 @@
           "github_address": "https://github.com/boraozer",
           "avatar": "https://avatars.githubusercontent.com/boraozer",
           "fmn_url": "/peer/bora-erdinc-ozer"
+        },
+        {
+          "username": "cpeker-extenship",
+          "github_address": "https://github.com/cpeker-extenship",
+          "avatar": "https://avatars.githubusercontent.com/cpeker-extenship",
+          "fmn_url": ""
         }
       ]
     },
