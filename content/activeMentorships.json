@@ -407,16 +407,16 @@
           "fmn_url": "/peer/furkan-portakal"
         },
         {
-          "username": "sametpalitci",
-          "github_address": "https://github.com/sametpalitci",
-          "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-          "fmn_url": ""
-        },
-        {
           "username": "kayraberktuncer",
           "github_address": "https://github.com/kayraberktuncer",
           "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
           "fmn_url": "/peer/kayra-berk-tuncer"
+        },
+        {
+          "username": "sametpalitci",
+          "github_address": "https://github.com/sametpalitci",
+          "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+          "fmn_url": ""
         },
         {
           "username": "tansionline",

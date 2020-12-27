@@ -276,16 +276,16 @@
                 "fmn_url": "/peer/furkan-portakal"
               },
               {
-                "username": "sametpalitci",
-                "github_address": "https://github.com/sametpalitci",
-                "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-                "fmn_url": ""
-              },
-              {
                 "username": "kayraberktuncer",
                 "github_address": "https://github.com/kayraberktuncer",
                 "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
                 "fmn_url": "/peer/kayra-berk-tuncer"
+              },
+              {
+                "username": "sametpalitci",
+                "github_address": "https://github.com/sametpalitci",
+                "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+                "fmn_url": ""
               },
               {
                 "username": "tansionline",
@@ -317,6 +317,100 @@
         "isHireable": true,
         "mentorships": [],
         "contributions": []
+      }
+    },
+    {
+      "": "27.12.2020 13:42:50",
+      "profile": "https://findmentor.network/peer/murat-mirgun-ercan",
+      "mail": "muratmirgunercan225@gmail.com",
+      "person": {
+        "registered_at": "",
+        "name": "Murat Mirgün Ercan",
+        "twitter_handle": "https://twitter.com/muratmirgun",
+        "github": "https://github.com/MuratSs",
+        "linkedin": "https://linkedin.com/in/murat-m-ercan",
+        "interests": "devops, backend (go)",
+        "goals": "I am studying Software Eng. at Fırat University. I want to advance myself in my fields and travel more than me.",
+        "mentor": "Mentee",
+        "slug": "murat-mirgun-ercan",
+        "avatar": "https://avatars.githubusercontent.com/MuratSs",
+        "displayInterests": "DevOps, Backend (Go)",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": [
+          {
+            "": "12.12.2020 15:39:26",
+            "mentor": "https://findmentor.network/peer/emre-savci",
+            "project_adress": "https://github.com/mstrYoda/kubernetes-kitap",
+            "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
+            "slug": "kubernetes-kitap",
+            "contributors": [
+              {
+                "username": "mstrYoda",
+                "github_address": "https://github.com/mstrYoda",
+                "avatar": "https://avatars.githubusercontent.com/mstrYoda",
+                "fmn_url": "/peer/emre-savci"
+              },
+              {
+                "username": "actions-user",
+                "github_address": "https://github.com/actions-user",
+                "avatar": "https://avatars.githubusercontent.com/actions-user",
+                "fmn_url": ""
+              },
+              {
+                "username": "cagataycali",
+                "github_address": "https://github.com/cagataycali",
+                "avatar": "https://avatars.githubusercontent.com/cagataycali",
+                "fmn_url": "/peer/cagatay-cali"
+              },
+              {
+                "username": "halitsoydemir",
+                "github_address": "https://github.com/halitsoydemir",
+                "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+                "fmn_url": ""
+              },
+              {
+                "username": "MuratSs",
+                "github_address": "https://github.com/MuratSs",
+                "avatar": "https://avatars.githubusercontent.com/MuratSs",
+                "fmn_url": "/peer/murat-mirgun-ercan"
+              }
+            ]
+          },
+          {
+            "": "19.12.2020 19:49:52",
+            "mentor": "https://findmentor.network/peer/emre-savci",
+            "project_adress": "https://github.com/mstrYoda/kubetower",
+            "goal": "Multi cluster kubernetes dashboard. Go / kubernetes / devops / rest api / frontend öğrenmek isteyenlerin contribution yapabileceği global bir proje.",
+            "slug": "kubetower",
+            "contributors": [
+              {
+                "username": "mstrYoda",
+                "github_address": "https://github.com/mstrYoda",
+                "avatar": "https://avatars.githubusercontent.com/mstrYoda",
+                "fmn_url": "/peer/emre-savci"
+              },
+              {
+                "username": "BRTZL",
+                "github_address": "https://github.com/BRTZL",
+                "avatar": "https://avatars.githubusercontent.com/BRTZL",
+                "fmn_url": "/peer/bartu-ozel"
+              },
+              {
+                "username": "MuratSs",
+                "github_address": "https://github.com/MuratSs",
+                "avatar": "https://avatars.githubusercontent.com/MuratSs",
+                "fmn_url": "/peer/murat-mirgun-ercan"
+              },
+              {
+                "username": "ramazan",
+                "github_address": "https://github.com/ramazan",
+                "avatar": "https://avatars.githubusercontent.com/ramazan",
+                "fmn_url": ""
+              }
+            ]
+          }
+        ]
       }
     }
   ]
