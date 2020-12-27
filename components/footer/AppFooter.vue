@@ -1,13 +1,9 @@
 <template>
-  <v-footer
-    :class="`footer app-footer ${revealClass}`"
-    :type="$colorMode.value"
-    :variant="$colorMode.value"
-  >
+  <v-footer class="footer app-footer">
     <div class="footer-content">
       <b-container>
         <b-row>
-          <b-col md="4" sm="12"
+          <b-col md="3" sm="12"
             ><h5>Find Mentor</h5>
             <div class="list">
               <div class="list-item">
@@ -23,7 +19,7 @@
               </div>
             </div>
           </b-col>
-          <b-col md="4" sm="12">
+          <b-col md="3" sm="12">
             <h5>Mentors And Mentees</h5>
             <div class="list">
               <div class="list-item">
@@ -35,7 +31,7 @@
               </div>
             </div>
           </b-col>
-          <b-col md="4" sm="12">
+          <b-col md="3" sm="12">
             <h5>Social</h5>
             <div class="list">
               <div class="list-item">
@@ -76,11 +72,16 @@ export default {}
 .app-footer {
   width: 100%;
   .footer-content {
+    background-color: var(--color-ui-02);
+    color: var(--color-text-01);
+    .row {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
     h5 {
       padding-top: 15px;
     }
-    width: 100%;
-    background-color: #f8f9fa;
     padding: 20px;
   }
   .footer-bottom-bar {
@@ -88,11 +89,11 @@ export default {}
     justify-content: center;
     width: 100%;
     padding: 10px;
-    background-color: rgb(179, 179, 179);
+    background-color: var(--color-ui-01);
+    color: var(--color-text-02);
   }
   .url {
     padding-left: 10px;
-    color: white;
   }
 }
 </style>
