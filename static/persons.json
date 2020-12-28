@@ -1582,7 +1582,7 @@
     "slug": "muhammet-cokyaman",
     "avatar": "https://avatars.githubusercontent.com/cokyaman65",
     "displayInterests": "JavaScript and .NET",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -1598,7 +1598,7 @@
     "slug": "esra-erdim",
     "avatar": "https://avatars.githubusercontent.com/esraerdim",
     "displayInterests": "Cyber Security,Frontend, Backend, Node.js, Vue.js,C#,OOP",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -3041,7 +3041,7 @@
     "slug": "mustafa-b.-yildiz",
     "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
     "displayInterests": "Compilers",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [
       {
         "": "14.12.2020 02:09:42",
@@ -13409,7 +13409,7 @@
     "slug": "goker-guner",
     "avatar": "https://avatars.githubusercontent.com/gokerguner",
     "displayInterests": "Python, MongoDB, SQL, ML&Data Science",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },

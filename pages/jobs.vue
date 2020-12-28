@@ -1,49 +1,43 @@
 <template>
-    <div id="jumbotron-mentor" class="container">
-      <h1 class="title">Jobs</h1>
-      <br />
-      <h3>
-        <a href="https://forms.gle/895gP7bu1AqTbXi1A">Add your job listing</a>
-      </h3>
-      <p>This community, driven/developed by a fellow community.</p>
-      <p>
-        As you can see, this project is the mentorship project. Developed by
-        mentees.
-      </p>
-      <p>You can list your job listing below for 30 days.</p>
-      <div v-for="job in jobs" :key="job">
-        <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
-          <template #header>
-            {{ job.company }}
-          </template>
+  <div id="jumbotron-mentor" class="container">
+    <h1 class="title">Jobs</h1>
+    <br />
+    <h3>
+      <a href="https://forms.gle/895gP7bu1AqTbXi1A">Add your job listing</a>
+    </h3>
+    <p>This community, driven/developed by a fellow community.</p>
+    <p>
+      As you can see, this project is the mentorship project. Developed by
+      mentees.
+    </p>
+    <p>You can list your job listing below for 30 days.</p>
+    <div v-for="job in jobs" :key="job">
+      <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
+        <template #header>
+          {{ job.company }}
+        </template>
 
-          <template #lead>
-            {{ job.position }}
-          </template>
+        <template #lead>
+          {{ job.position }}
+        </template>
 
-          <h5>
-            <a 
-            v-bind:href="job.address"
-            >
-            Apply
-            </a>
-          </h5>
+        <h5>
+          <a v-bind:href="job.address"> Apply </a>
+        </h5>
 
-            <br>
-          <p>
-        {{ job.description }}
-
-          </p>
-        </b-jumbotron>
-      </div>
-      <h4>
-          <a
-          href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
-          >Contribute this page</a
-        >
-      </h4>
+        <br />
+        <p>
+          {{ job.description }}
+        </p>
+      </b-jumbotron>
     </div>
-    
+    <h4>
+      <a
+        href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
+        >Contribute this page</a
+      >
+    </h4>
+  </div>
 </template>
 
 <script>
