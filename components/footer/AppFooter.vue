@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="footer app-footer">
+  <div class="footer app-footer">
     <div class="footer-content">
       <b-container>
         <b-row>
@@ -66,11 +66,13 @@
     <div class="footer-bottom-bar">
       <strong class="url">findmentor.network</strong>
     </div>
-  </v-footer>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'AppFooter'
+}
 </script>
 
 <style lang="scss">

@@ -7,7 +7,8 @@
       "address": "https://www.linkedin.com/posts/caner-lenger-9a212346_iagnilanaft-frontenddeveloper-lteknoloji-activity-6749295283680636931-QoPT",
       "description": "Çalışma Şekli: Tam Zamanlı / Remote (Korona sürecinde)\nOfis Lokasyonu: Beşiktaş Akaretler (Korona sonrası ofise dönüş)\nTeknolojiler: VueJS, Bootstrap, Web Api, HTML/CSS, Javascript/Jquery AJAX",
       "location": "Beşiktaş, Akaretler / İstanbul (Korona sürecinde remote çalışma)",
-      "logo": "http://lengerteknoloji.com/sign/logo.png"
+      "logo": "http://lengerteknoloji.com/sign/logo.png",
+      "id": 0
     },
     {
       "date": "27.12.2020 01:44:28",
@@ -16,7 +17,8 @@
       "address": "http://http.cat",
       "description": "HTTP cats looking for hire software engineers",
       "location": "Remove",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WDp1A4bub510AZIq7S0Yyl2YYNfTfqmTQw&usqp=CAU"
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WDp1A4bub510AZIq7S0Yyl2YYNfTfqmTQw&usqp=CAU",
+      "id": 1
     }
   ]
 }
