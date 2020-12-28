@@ -37,7 +37,7 @@
           </div>
 
           <div class="job-button">
-            <b-button variant="primary" :href="job.address">Button</b-button>
+            <a :href="job.address">Apply</a>
           </div>
         </div>
 
@@ -135,23 +135,23 @@ export default {
   }
   &-button {
     display: flex;
-
-    button {
-      margin: 2px;
+    a {
+      visibility: hidden;
+      padding: 7px;
+      user-select: none;
+      text-align: center;
+      border: 2px solid transparent;
+      vertical-align: middle;
+      font-weight: 800;
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #ff4742;
+      color: #fff;
+      font-size: 16px;
+      &:hover {
+        visibility: visible !important;
+      }
     }
-    // a {
-    //   padding: 7px;
-    //   user-select: none;
-    //   text-align: center;
-    //   border: 2px solid transparent;
-    //   vertical-align: middle;
-    //   font-weight: 800;
-    //   display: inline-block;
-    //   border-radius: 6px;
-    //   background-color: #ff4742;
-    //   color: #fff;
-    //   font-size: 16px;
-    // }
   }
 }
 </style>
