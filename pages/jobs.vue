@@ -11,45 +11,48 @@
       mentees.
     </p>
     <p>You can list your job listing below for 30 days.</p>
-<div  v-for="job in jobs" :key="job">
-    <div class="accordion" role="tablist">
-    <b-card no-body class="mb-1">
-      <b-card-header v-b-toggle.accordion-1 header-tag="header" class="p-1" role="tab">
-              <img
-              :src="job.logo"
-              :alt="job.company"
-              class="images"
-/>
-              <p class="infos">{{ job.position }}</p>
-              <p class="infos">{{ job.company }}</p>
-              <p class="infos">{{ job.location }}</p>
-      </b-card-header>
-      <b-collapse id="accordion-1" role="tabpanel">
-        <b-card-body>
-          <b-card-text>{{ job.description }}
-             <br />
-             <a target="_blank" :href="job.address">Apply here</a>
-             </b-card-text>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-</div>
-</div>
+    <div v-for="job in jobs" :key="job">
+      <div class="accordion" role="tablist">
+        <b-card no-body class="mb-1">
+          <b-card-header
+            v-b-toggle.accordion-1
+            header-tag="header"
+            class="p-1"
+            role="tab"
+          >
+            <img :src="job.logo" :alt="job.company" class="images" />
+            <p class="infos">{{ job.position }}</p>
+            <p class="infos">{{ job.company }}</p>
+            <p class="infos">{{ job.location }}</p>
+          </b-card-header>
+          <b-collapse id="accordion-1" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >{{ job.description }}
+                <br />
+                <a target="_blank" :href="job.address">Apply here</a>
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+    </div>
     <h4>
       <a
         href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
-        >Contribute this page</a>
+        >Contribute this page</a
+      >
     </h4>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     const { jobs } = await this.$content('jobs').fetch()
     this.jobs = jobs
   },
-  data () {
+  data() {
     return { jobs: [] }
   },
 }
@@ -77,11 +80,11 @@ export default {
   margin-top: 4%;
   margin-left: 12%;
 }
+// TODO MOBILE RESPONSIVE
 @media only screen and (max-width: 600px) {
   .images {
     margin-left: 35%;
     margin-right: 40%;
   }
-
 }
 </style>
