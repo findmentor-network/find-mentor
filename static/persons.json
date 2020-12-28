@@ -2285,7 +2285,7 @@
     "slug": "mehmet-selcuk-candan",
     "avatar": "https://avatars.githubusercontent.com/mscandan",
     "displayInterests": "frontend, backend",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -10166,7 +10166,7 @@
     "slug": "abdullah-ozturk",
     "avatar": "https://avatars.githubusercontent.com/AbdullahOztuurkk",
     "displayInterests": "I'm Interested in .Net technologies for Backend and Angular for Frontend",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },

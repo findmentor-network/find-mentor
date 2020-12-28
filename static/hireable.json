@@ -1142,6 +1142,48 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "28.12.2020 18:53:38",
+      "profile": "https://findmentor.network/peer/abdullah-ozturk",
+      "mail": "oabdullahozturk@yandex.com.tr",
+      "person": {
+        "registered_at": "28.12.2020 15:45:26",
+        "name": "Abdullah Öztürk",
+        "twitter_handle": "",
+        "github": "https://github.com/AbdullahOztuurkk",
+        "linkedin": "https://linkedin.com/in/abdullah-ozturk",
+        "interests": "i'm interested in .net technologies for backend and angular for frontend",
+        "goals": "I want to be better software developer and help other developers with my projects",
+        "mentor": "Both",
+        "slug": "abdullah-ozturk",
+        "avatar": "https://avatars.githubusercontent.com/AbdullahOztuurkk",
+        "displayInterests": "I'm Interested in .Net technologies for Backend and Angular for Frontend",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": []
+      }
+    },
+    {
+      "": "28.12.2020 18:54:25",
+      "profile": "https://findmentor.network/peer/mehmet-selcuk-candan",
+      "mail": "mehmetselcukcandan@icloud.com",
+      "person": {
+        "registered_at": "08.12.2020 16:47:52",
+        "name": "Mehmet Selcuk Candan",
+        "twitter_handle": "https://twitter.com/mscandandev",
+        "github": "https://github.com/mscandan",
+        "linkedin": "https://linkedin.com/in/mehmetselcukcandan",
+        "interests": "frontend, backend",
+        "goals": "I want to make people's life easier with the products that I produced.",
+        "mentor": "Mentee",
+        "slug": "mehmet-selcuk-candan",
+        "avatar": "https://avatars.githubusercontent.com/mscandan",
+        "displayInterests": "frontend, backend",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
