@@ -16,36 +16,86 @@
         >
       </p>
     </b-jumbotron>
-    <b-card-group deck>
-      <div v-for="job in jobs" :key="job">
-        <b-card no-body class="overflow-hidden mb-4">
-          <b-row no-gutters>
-            <b-col md="4">
-              <b-img fluid :src="job.logo" :alt="job.company"></b-img>
-            </b-col>
-            <b-col md="8">
-              <b-card-body class="">
-                <b-card-title
-                  >{{ job.company }} | {{ job.position }}</b-card-title
-                >
-                <b-card-text>
-                  {{ job.description }}
-                </b-card-text>
-                <b-card-text> <b>Location: </b>{{ job.location }} </b-card-text>
-                <b-card-text>
-                  <a :href="job.address">{{ job.address }}</a>
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-          <template #footer>
-            <small class="text-muted float-right"
-              ><b>Posting date: </b> {{ job.date }}</small
+
+    <template>
+      <div class="app-tile accordion" role="tablist">
+        <b-card
+          v-for="job in jobs"
+          :key="job.id"
+          no-body
+          class="mb-1 accordion-color"
+        >
+          <b-card-header
+            :table-variant="$colorMode.value"
+            header-tag="header"
+            class="p-1"
+            role="tab"
+          >
+            <b-card bg-variant="light" text-variant="white">
+              <b-row align-v="center">
+                <b-col md="2">
+                  <b-img
+                    class="w-"
+                    fluid
+                    :src="job.logo"
+                    :alt="job.company"
+                  ></b-img>
+                </b-col>
+                <b-col md="3" class="ml-5">
+                  <b-card-title>{{ job.company }} </b-card-title>
+                  <b-card-text>
+                    {{ job.position }}
+                  </b-card-text>
+                </b-col>
+                <b-col md="3" class="ml-5">
+                  <b-card-title>{{ job.location }} </b-card-title>
+                  <b-card-text> Location </b-card-text>
+                </b-col>
+
+                <b-col md="1">
+                  <b-button v-b-toggle="`${job.id}`" variant="primary"
+                    >Details</b-button
+                  >
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-card-header>
+          <b-collapse
+            :id="`${job.id}`"
+            accordion="jobs-accordion"
+            role="tabpanel"
+          >
+            <b-card
+              :table-variant="$colorMode.value"
+              no-body
+              class="overflow-hidden mb-4"
             >
-          </template>
+              <b-row no-gutters>
+                <b-col md="12">
+                  <b-card-body class="">
+                    <b-card-title
+                      >{{ job.company }} | {{ job.position }}</b-card-title
+                    >
+                    <b-card-text
+                      ><b>Posting date: </b> {{ job.date }}
+                    </b-card-text>
+                    <b-card-text>
+                      {{ job.description }}
+                    </b-card-text>
+                    <b-card-text>
+                      <b>Location: </b>{{ job.location }}
+                    </b-card-text>
+                    <b-card-text>
+                      <a :href="job.address">{{ job.address }}</a>
+                    </b-card-text>
+                  </b-card-body>
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-collapse>
         </b-card>
       </div>
-    </b-card-group>
+    </template>
   </div>
 </template>
 
