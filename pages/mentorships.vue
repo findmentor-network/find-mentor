@@ -36,6 +36,7 @@
     </div>
     <br />
     <br />
+    <AppFooter />
   </div>
 </template>
 

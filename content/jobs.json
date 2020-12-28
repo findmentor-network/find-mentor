@@ -2,11 +2,12 @@
   "jobs": [
     {
       "": "27.12.2020 01:44:28",
-      "company": "Test",
+      "company": "Cat",
       "position": "Software Engineer",
-      "address": "https://linkedin.com",
-      "description": "Test aciklama",
-      "location": "Uzaktan"
+      "address": "http://http.cat",
+      "description": "HTTP cats looking for hire software engineers",
+      "location": "Remove",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WDp1A4bub510AZIq7S0Yyl2YYNfTfqmTQw&usqp=CAU"
     }
   ]
 }

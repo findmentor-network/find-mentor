@@ -5,7 +5,6 @@
     <div class="router-view-wrapper">
       <Nuxt />
     </div>
-    <AppFooter />
     <DarkModeToggleButton />
   </div>
 </template>

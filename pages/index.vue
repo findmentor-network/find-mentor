@@ -57,6 +57,7 @@
         🤳 Click here for all mentees
       </NuxtLink>
     </div>
+    <AppFooter />
   </div>
 </template>
 

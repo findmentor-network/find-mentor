@@ -1,7 +1,7 @@
 <template>
   <div class="ma-card">
     <span class="title">{{ mentorship.slug.toUpperCase() }}</span>
-    <span class="desc">{{ mentorship.goal }}</span>
+    <span class="description">{{ mentorship.goal }}</span>
   </div>
 </template>
 
@@ -39,7 +39,7 @@ export default {
   text-decoration: none;
   margin-bottom: 1rem;
 }
-.ma-card .desc {
+.ma-card .description {
   font-size: 1rem;
   color: var(--color-text-03);
   font-weight: 600;

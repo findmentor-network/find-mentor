@@ -17,7 +17,7 @@
           How It Works?
         </b-nav-item>
         <b-nav-item exact active-class="active" to="/mentorships/">
-          Active Mentorships
+          Mentorships
         </b-nav-item>
         <b-nav-item exact to="/mentees/" active-class="active">
           Mentees
@@ -30,7 +30,7 @@
         </b-nav-item>
         <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
         <b-nav-item exact to="/hire" active-class="active">
-          Hireable Persons
+          Job Seekers
         </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="col col-12 col-lg-3 col-xl-2">

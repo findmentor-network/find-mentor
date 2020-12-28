@@ -7,15 +7,18 @@
             ><h5>Find Mentor</h5>
             <div class="list">
               <div class="list-item">
-                <b-link href="/guide/">How İt Works</b-link>
+                <b-link href="/guide/">How It Works</b-link>
               </div>
               <div class="list-item">
                 <b-link target="_blank" href="/mentorships/"
-                  >Active Mentorships</b-link
+                  >Mentorships</b-link
                 >
               </div>
               <div class="list-item">
                 <b-link target="_blank" href="/events/">Events</b-link>
+              </div>
+              <div class="list-item">
+                <b-link target="_blank" href="/jobs/">Jobs</b-link>
               </div>
             </div>
           </b-col>
@@ -25,9 +28,11 @@
               <div class="list-item">
                 <b-link target="_blank" href="/mentors/">Mentors</b-link>
               </div>
-
               <div class="list-item">
                 <b-link target="_blank" href="/mentees/">Mentees</b-link>
+              </div>
+              <div class="list-item">
+                <b-link target="_blank" href="/hire/">Job Seekers</b-link>
               </div>
             </div>
           </b-col>

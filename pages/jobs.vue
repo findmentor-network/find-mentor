@@ -12,24 +12,23 @@
     </p>
     <p>You can list your job listing below for 30 days.</p>
     <div v-for="job in jobs" :key="job">
-      <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
-        <template #header>
-          {{ job.company }}
-        </template>
-
-        <template #lead>
-          {{ job.position }}
-        </template>
-
-        <h5>
-          <a v-bind:href="job.address"> Apply </a>
-        </h5>
-
-        <br />
-        <p>
-          {{ job.description }}
-        </p>
-      </b-jumbotron>
+      <b-card no-body class="overflow-hidden">
+        <b-row no-gutters>
+          <b-col md="6">
+            <b-card-img :src="job.logo" :alt="job.company" class="rounded-0"></b-card-img>
+          </b-col>
+          <b-col md="6">
+            <b-card-body :title="job.company + ' | ' + job.position">
+              <b-card-text>
+                {{ job.company }} | {{ job.position }}
+              </b-card-text>
+              <b-card-text>
+                {{ job.description }}
+              </b-card-text>
+            </b-card-body>
+          </b-col>
+        </b-row>
+      </b-card>
     </div>
     <h4>
       <a
@@ -52,12 +51,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.mentorships-page {
-  .title {
-    display: block;
-    margin: 2.4rem auto;
-    color: var(--color-ui-04);
-  }
+<style>
+.card-title {
+  color: black;
+}
+.card-text {
+  color: #343b3f !important;
 }
 </style>

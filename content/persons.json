@@ -6955,7 +6955,7 @@
     "slug": "alper-babadag",
     "avatar": "https://avatars.githubusercontent.com/4ppe",
     "displayInterests": "Go, backend, devops",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -10134,6 +10134,22 @@
     "slug": "hidayet-ok",
     "avatar": "https://avatars.githubusercontent.com/hidonet",
     "displayInterests": "Magento, PHP, Backend, Linux, Devops",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "28.12.2020 10:52:23",
+    "name": "Özlem Sevindi",
+    "twitter_handle": "https://twitter.com/ozlem00ts",
+    "github": "https://github.com/ozlemts",
+    "linkedin": "https://linkedin.com/in/ozlemts",
+    "interests": "frontend, react, web components, next.js, js, tailwindcss",
+    "goals": "Getting a job in Europe. ",
+    "mentor": "İkisi de",
+    "slug": "ozlem-sevindi",
+    "avatar": "https://avatars.githubusercontent.com/ozlemts",
+    "displayInterests": "Frontend, React, Web Components, Next.Js, JS, Tailwindcss",
     "isHireable": false,
     "mentorships": [],
     "contributions": []
