@@ -1,6 +1,5 @@
 <template>
-  <div class="page mentorships-page">
-    <div class="container">
+    <div id="jumbotron-mentor" class="container">
       <h1 class="title">Jobs</h1>
       <br />
       <h3>
@@ -12,26 +11,39 @@
         mentees.
       </p>
       <p>You can list your job listing below for 30 days.</p>
-      <br />
-      <hr />
-      <br />
-      <div v-for="job in jobs">
-        {{ job.company }}
-        {{ job.position }}
-        {{ job.address }}
+      <div v-for="job in jobs" :key="job">
+        <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
+          <template #header>
+            {{ job.company }}
+          </template>
+
+          <template #lead>
+            {{ job.position }}
+          </template>
+
+          <h5>
+            <a 
+            v-bind:href="job.address"
+            >
+            Apply
+            </a>
+          </h5>
+
+            <br>
+          <p>
         {{ job.description }}
+
+          </p>
+        </b-jumbotron>
       </div>
-      <hr />
       <h4>
-        <a
+          <a
           href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
           >Contribute this page</a
         >
       </h4>
     </div>
-    <br />
-    <br />
-  </div>
+    
 </template>
 
 <script>
