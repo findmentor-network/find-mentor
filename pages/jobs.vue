@@ -64,11 +64,7 @@
               </div>
             </b-card>
           </b-card-header>
-          <b-collapse
-            :id="`${id}`"
-            accordion="jobs-accordion"
-            role="tabpanel"
-          >
+          <b-collapse :id="`${id}`" accordion="jobs-accordion" role="tabpanel">
             <b-card
               :text-variant="!$colorMode.value"
               :bg-variant="$colorMode.value"
