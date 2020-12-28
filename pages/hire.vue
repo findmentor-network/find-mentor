@@ -9,8 +9,8 @@
         >
       </h3>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <template v-if="$fetchState.pending">
         <app-spinner class="d-block mx-auto" />
       </template>
