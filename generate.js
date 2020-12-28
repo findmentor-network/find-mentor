@@ -131,6 +131,7 @@ const getData = async () => {
       const isHireable = hireable.find((p) => p.profile.includes(person.slug))
       person.isHireable = isHireable ? true : false
       if (isHireable) {
+        person.mail = isHireable.mail
         isHireable.person = person
       }
 
