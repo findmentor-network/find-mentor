@@ -11,55 +11,77 @@
       mentees.
     </p>
     <p>You can list your job listing below for 30 days.</p>
-    <div v-for="job in jobs" :key="job">
-      <b-card no-body class="overflow-hidden">
-        <b-row no-gutters>
-          <b-col md="6">
-            <b-card-img
+<div  v-for="job in jobs" :key="job">
+    <div class="accordion" role="tablist">
+    <b-card no-body class="mb-1">
+      <b-card-header v-b-toggle.accordion-1 header-tag="header" class="p-1" role="tab">
+              <img
               :src="job.logo"
               :alt="job.company"
-              class="rounded-0"
-            ></b-card-img>
-          </b-col>
-          <b-col md="6">
-            <b-card-body :title="job.company + ' | ' + job.position">
-              <b-card-text>
-                {{ job.company }} | {{ job.position }}
-              </b-card-text>
-              <b-card-text>
-                {{ job.description }}
-              </b-card-text>
-            </b-card-body>
-          </b-col>
-        </b-row>
-      </b-card>
-    </div>
+              class="images"
+/>
+              <p class="infos">{{ job.position }}</p>
+              <p class="infos">{{ job.company }}</p>
+              <p class="infos">{{ job.location }}</p>
+      </b-card-header>
+      <b-collapse id="accordion-1" role="tabpanel">
+        <b-card-body>
+          <b-card-text>{{ job.description }}
+             <br />
+             <a target="_blank" :href="job.address">Apply here</a>
+             </b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
+</div>
+</div>
     <h4>
       <a
         href="https://github.com/cagataycali/find-mentor/blob/master/pages/jobs.vue"
-        >Contribute this page</a
-      >
+        >Contribute this page</a>
     </h4>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch() {
+  async fetch () {
     const { jobs } = await this.$content('jobs').fetch()
     this.jobs = jobs
   },
-  data() {
+  data () {
     return { jobs: [] }
   },
 }
 </script>
 
 <style>
-.card-title {
+.mb-1 {
+  padding: 10px;
+  background-color: rgb(52, 58, 64);
+  border-radius: 30px;
   color: black;
 }
-.card-text {
-  color: #343b3f !important;
+.mb-1:hover {
+  background-color: rgb(34, 86, 179);
+}
+.images {
+  border-radius: 50%;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.infos {
+  float: left;
+  margin-top: 4%;
+  margin-left: 12%;
+}
+@media only screen and (max-width: 600px) {
+  .images {
+    margin-left: 35%;
+    margin-right: 40%;
+  }
+
 }
 </style>
