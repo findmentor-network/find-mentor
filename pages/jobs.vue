@@ -25,39 +25,44 @@
           no-body
           class="mb-1 accordion-color"
         >
-          <b-card-header
-            :table-variant="$colorMode.value"
-            header-tag="header"
-            class="p-1"
-            role="tab"
-          >
-            <b-card bg-variant="light" text-variant="white">
-              <b-row align-v="center">
-                <b-col md="2">
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-card
+              :text-variant="!$colorMode.value"
+              :bg-variant="$colorMode.value"
+            >
+              <div class="row align-items-center justify-content-between">
+                <div
+                  class="d-flex col col-12 col-lg justify-content-center justify-content-lg-start"
+                >
                   <b-img
-                    class="w-"
-                    fluid
+                    class="w-50"
                     :src="job.logo"
                     :alt="job.company"
                   ></b-img>
-                </b-col>
-                <b-col md="3" class="ml-5">
+                </div>
+                <div
+                  class="d-flex col col-12 col-lg justify-content-sm-center justify-content-lg-start flex-column"
+                >
                   <b-card-title>{{ job.company }} </b-card-title>
                   <b-card-text>
                     {{ job.position }}
                   </b-card-text>
-                </b-col>
-                <b-col md="3" class="ml-5">
+                </div>
+                <div
+                  class="d-flex col col-12 col-lg justify-content-center align-items-center flex-column justify-content-lg-start"
+                >
                   <b-card-title>{{ job.location }} </b-card-title>
                   <b-card-text> Location </b-card-text>
-                </b-col>
+                </div>
 
-                <b-col md="1">
+                <div
+                  class="d-flex col col-12 col-lg justify-content-center justify-content-lg-end"
+                >
                   <b-button v-b-toggle="`${job.id}`" variant="primary"
                     >Details</b-button
                   >
-                </b-col>
-              </b-row>
+                </div>
+              </div>
             </b-card>
           </b-card-header>
           <b-collapse
@@ -66,7 +71,8 @@
             role="tabpanel"
           >
             <b-card
-              :table-variant="$colorMode.value"
+              :text-variant="!$colorMode.value"
+              :bg-variant="$colorMode.value"
               no-body
               class="overflow-hidden mb-4"
             >
@@ -111,11 +117,11 @@ export default {
 }
 </script>
 
-<style>
-.card-title {
-  color: black;
-}
-.card-text {
-  color: #343b3f !important;
+<style lang="scss">
+.accordion {
+  .accordion-color {
+    background-color: var(--color-ui-02);
+    border: none;
+  }
 }
 </style>
