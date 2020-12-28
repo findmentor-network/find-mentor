@@ -11,21 +11,26 @@
       mentees.
     </p>
     <p>You can list your job listing below for 30 days.</p>
+
     <div v-for="job in jobs" :key="job">
       <div class="accordion" role="tablist">
         <b-card no-body class="mb-1">
           <b-card-header
-            v-b-toggle.accordion-1
+            v-b-toggle="job.jid" 
             header-tag="header"
             class="p-1"
             role="tab"
           >
+          <div class="info">
             <img :src="job.logo" :alt="job.company" class="images" />
-            <p class="infos">{{ job.position }}</p>
-            <p class="infos">{{ job.company }}</p>
-            <p class="infos">{{ job.location }}</p>
+            <div class="info-items">
+            <p class="item">{{ job.position }}</p>
+            <p class="item">{{ job.company }}</p>
+            <p class="item">{{ job.location }}</p>
+            </div>
+            </div>
           </b-card-header>
-          <b-collapse id="accordion-1" role="tabpanel">
+          <b-collapse :id="job.jid" role="tabpanel">
             <b-card-body>
               <b-card-text
                 >{{ job.description }}
@@ -49,15 +54,47 @@
 <script>
 export default {
   async fetch() {
-    const { jobs } = await this.$content('jobs').fetch()
-    this.jobs = jobs
+    // const { jobs } = await this.$content('jobs').fetch()
+    // this.jobs = jobs
   },
   data() {
-    return { jobs: [] }
+    return { jobs: [
+      {
+      "jid": "1",
+      "logo": "https://http.cat/102",
+      "company": "sirket",
+      "location": "Antalya",
+      "description": "Aciklamalarim",
+      "position":"posizyon"
+    },
+    {
+      "jid": "2",
+      "logo": "https://http.cat/102",
+      "company": "sirket",
+      "location": "Antalya",
+      "description": "Aciklamalarim",
+      "position":"posizyon"
+    },
+    {
+      "jid": "3",
+      "logo": "https://http.cat/102",
+      "company": "sirket",
+      "location": "Antalya",
+      "description": "Aciklamalarim",
+      "position":"posizyon"
+    },
+    {
+      "jid": "4",
+      "logo": "https://http.cat/102",
+      "company": "sirket",
+      "location": "Antalya",
+      "description": "Aciklamalarim",
+      "position":"posizyon"
+    },
+    ] }
   },
 }
 </script>
-
 <style>
 .mb-1 {
   padding: 10px;
@@ -65,20 +102,25 @@ export default {
   border-radius: 30px;
   color: black;
 }
-.mb-1:hover {
+.active, .mb-1:hover {
   background-color: rgb(34, 86, 179);
 }
 .images {
   border-radius: 50%;
-  position: relative;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   float: left;
 }
-.infos {
-  float: left;
-  margin-top: 4%;
-  margin-left: 12%;
+.info {
+  align-items: baseline;
+}
+.info-items {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  
 }
 // TODO MOBILE RESPONSIVE
 @media only screen and (max-width: 600px) {
