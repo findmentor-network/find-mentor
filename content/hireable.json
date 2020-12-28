@@ -1426,6 +1426,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "28.12.2020 22:18:48",
+      "profile": "https://findmentor.network/peer/hakki-sabah",
+      "mail": "hakkisabah@hotmail.com.tr",
+      "person": {
+        "registered_at": "28.12.2020 21:02:30",
+        "name": "Hakki Sabah",
+        "twitter_handle": "https://twitter.com/hakkisabah",
+        "github": "https://github.com/hakkisabah",
+        "linkedin": "https://linkedin.com/in/hakkisabah",
+        "interests": "node.js , vue.js, nuxt.js, php, r, docker",
+        "goals": "I want to be a developer in the right place",
+        "mentor": "Both",
+        "slug": "hakki-sabah",
+        "avatar": "https://avatars.githubusercontent.com/hakkisabah",
+        "displayInterests": "Node.js , Vue.js, Nuxt.js, PHP, R, Docker",
+        "isHireable": true,
+        "mail": "hakkisabah@hotmail.com.tr",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

@@ -10225,7 +10225,8 @@
     "slug": "hakki-sabah",
     "avatar": "https://avatars.githubusercontent.com/hakkisabah",
     "displayInterests": "Node.js , Vue.js, Nuxt.js, PHP, R, Docker",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "hakkisabah@hotmail.com.tr",
     "mentorships": [],
     "contributions": []
   },
