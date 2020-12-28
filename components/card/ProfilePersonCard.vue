@@ -177,7 +177,7 @@ export default {
     hireMe() {
       alert(1)
       window.open(this.person.mail, '_blank')
-    }
+    },
   },
   computed: {
     askForMentorShipLink() {
