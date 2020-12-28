@@ -1039,6 +1039,109 @@
           }
         ]
       }
+    },
+    {
+      "": "28.12.2020 14:50:44",
+      "profile": "https://findmentor.network/peer/burak-yilmaz",
+      "mail": "burakyilmz17@gmail.com",
+      "person": {
+        "registered_at": "09.12.2020 14:43:39",
+        "name": "Burak Yılmaz",
+        "twitter_handle": "https://twitter.com/bbburakb",
+        "github": "https://github.com/burakyilmaz55",
+        "linkedin": "https://linkedin.com/in/burakyilmaz9765",
+        "interests": "go lang, python, django, flask, pyinstaller",
+        "goals": "I am planning to make my real job software developer and been trying to learn coding since the beggining of pandemic.",
+        "mentor": "Mentee",
+        "slug": "burak-yilmaz",
+        "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
+        "displayInterests": "Go Lang, Python, Django, Flask, pyinstaller",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": [
+          {
+            "": "12.12.2020 17:46:29",
+            "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+            "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
+            "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
+            "slug": "cevrimici-kitap-galerisi",
+            "contributors": [
+              {
+                "username": "ilteriskeskin",
+                "github_address": "https://github.com/ilteriskeskin",
+                "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+                "fmn_url": "/peer/ali-ilteris-keskin"
+              },
+              {
+                "username": "burakyilmaz55",
+                "github_address": "https://github.com/burakyilmaz55",
+                "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
+                "fmn_url": "/peer/burak-yilmaz"
+              },
+              {
+                "username": "tansionline",
+                "github_address": "https://github.com/tansionline",
+                "avatar": "https://avatars.githubusercontent.com/tansionline",
+                "fmn_url": "/peer/selcuk-tatar"
+              },
+              {
+                "username": "ukeskin",
+                "github_address": "https://github.com/ukeskin",
+                "avatar": "https://avatars.githubusercontent.com/ukeskin",
+                "fmn_url": "/peer/umut-keskin"
+              },
+              {
+                "username": "emregeldegul",
+                "github_address": "https://github.com/emregeldegul",
+                "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+                "fmn_url": "/peer/yunus-emre-geldegul"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "": "28.12.2020 16:23:47",
+      "profile": "https://findmentor.network/peer/halil-ibrahim-tosun",
+      "mail": "halilibrahimtosun@hotmail.com",
+      "person": {
+        "registered_at": "08.12.2020 04:10:13",
+        "name": "Halil İbrahim TOSUN",
+        "twitter_handle": "https://twitter.com/rumenostomia",
+        "github": "https://github.com/halilibrahimtosun",
+        "linkedin": "https://linkedin.com/in/halil-ibrahim-tosun-665791178",
+        "interests": "react, backend,web and mobile app.",
+        "goals": "i started to learn at the beginning of this covid-19 pandemic. and i am pleased coding. so i decided to change my career. i need to be get helped by a mentor because i decided some new projects based upon web.",
+        "mentor": "Mentee",
+        "slug": "halil-ibrahim-tosun",
+        "avatar": "https://avatars.githubusercontent.com/halilibrahimtosun",
+        "displayInterests": "React, BackEnd,web and mobile app.",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": []
+      }
+    },
+    {
+      "": "28.12.2020 18:09:28",
+      "profile": "https://findmentor.network/peer/tamer-sarioglu",
+      "mail": "tamerthedark@hotmail.com",
+      "person": {
+        "registered_at": "",
+        "name": "Tamer Sarıoğlu",
+        "twitter_handle": "https://twitter.com/tamerthedark",
+        "github": "https://github.com/TamerSarioglu",
+        "linkedin": "https://linkedin.com/in/tamer-sarıoğlu-119742a4",
+        "interests": "mobile development (java & kotin & dart & flutter & android)",
+        "goals": "Hello my name is Tamer. I have been trying to improve myself for 3 years in order to realize the passion I find late. I have reached a certain level, but I need a mentor from within the industry to help me step by step. Thank you in advance.",
+        "mentor": "Mentee",
+        "slug": "tamer-sarioglu",
+        "avatar": "https://avatars.githubusercontent.com/TamerSarioglu",
+        "displayInterests": "Mobile Development (Java & Kotin & Dart & Flutter & Android)",
+        "isHireable": true,
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

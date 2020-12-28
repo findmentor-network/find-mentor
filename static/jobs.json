@@ -1,7 +1,16 @@
 {
   "jobs": [
     {
-      "": "27.12.2020 01:44:28",
+      "date": "28.12.2020 17:55:27",
+      "company": "L Teknoloji Danışmanlık",
+      "position": "Senior Frontend Developer",
+      "address": "https://www.linkedin.com/posts/caner-lenger-9a212346_iagnilanaft-frontenddeveloper-lteknoloji-activity-6749295283680636931-QoPT",
+      "description": "Çalışma Şekli: Tam Zamanlı / Remote (Korona sürecinde)\nOfis Lokasyonu: Beşiktaş Akaretler (Korona sonrası ofise dönüş)\nTeknolojiler: VueJS, Bootstrap, Web Api, HTML/CSS, Javascript/Jquery AJAX",
+      "location": "Beşiktaş, Akaretler / İstanbul (Korona sürecinde remote çalışma)",
+      "logo": "http://lengerteknoloji.com/sign/logo.png"
+    },
+    {
+      "date": "27.12.2020 01:44:28",
       "company": "Cat",
       "position": "Software Engineer",
       "address": "http://http.cat",

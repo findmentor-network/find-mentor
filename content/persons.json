@@ -999,7 +999,7 @@
     "slug": "halil-ibrahim-tosun",
     "avatar": "https://avatars.githubusercontent.com/halilibrahimtosun",
     "displayInterests": "React, BackEnd,web and mobile app.",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -3651,7 +3651,7 @@
     "slug": "burak-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
     "displayInterests": "Go Lang, Python, Django, Flask, pyinstaller",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": [
       {
@@ -5717,7 +5717,7 @@
     "slug": "tamer-sarioglu",
     "avatar": "https://avatars.githubusercontent.com/TamerSarioglu",
     "displayInterests": "Mobile Development, Android & Kotlin and Flutter & Dart",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
@@ -10155,6 +10155,38 @@
     "contributions": []
   },
   {
+    "registered_at": "28.12.2020 15:45:26",
+    "name": "Abdullah Öztürk",
+    "twitter_handle": "",
+    "github": "https://github.com/AbdullahOztuurkk",
+    "linkedin": "https://linkedin.com/in/abdullah-ozturk",
+    "interests": "i'm interested in .net technologies for backend and angular for frontend",
+    "goals": "I want to be better software developer and help other developers with my projects",
+    "mentor": "Both",
+    "slug": "abdullah-ozturk",
+    "avatar": "https://avatars.githubusercontent.com/AbdullahOztuurkk",
+    "displayInterests": "I'm Interested in .Net technologies for Backend and Angular for Frontend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "28.12.2020 17:58:34",
+    "name": "Şevket Yılmaz",
+    "twitter_handle": "https://twitter.com/Sevket_Yilmaz",
+    "github": "https://github.com/sevket-yilmaz",
+    "linkedin": "https://linkedin.com/in/sevket-yilmaz",
+    "interests": "frontend, backend, devops, software architectures",
+    "goals": "...",
+    "mentor": "Mentee",
+    "slug": "sevket-yilmaz",
+    "avatar": "https://avatars.githubusercontent.com/sevket-yilmaz",
+    "displayInterests": "frontend, backend, devops, software architectures",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -13681,7 +13713,7 @@
     "slug": "tamer-sarioglu",
     "avatar": "https://avatars.githubusercontent.com/TamerSarioglu",
     "displayInterests": "Mobile Development (Java & Kotin & Dart & Flutter & Android)",
-    "isHireable": false,
+    "isHireable": true,
     "mentorships": [],
     "contributions": []
   },
