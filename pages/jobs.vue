@@ -18,52 +18,29 @@
     </b-jumbotron>
 
     <template>
-      <div class="app-tile accordion" role="tablist">
-        <b-card
+      <div class="accordion" role="tablist">
+        <div
           v-for="(job, id) in jobs"
           :key="id"
           no-body
           class="mb-1 accordion-color"
         >
-          <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-card
-              :text-variant="!$colorMode.value"
-              :bg-variant="$colorMode.value"
-            >
-              <div class="row align-items-center justify-content-between">
-                <div
-                  class="d-flex col col-12 col-lg justify-content-center justify-content-lg-start"
-                >
-                  <b-img
-                    class="w-50"
-                    :src="job.logo"
-                    :alt="job.company"
-                  ></b-img>
-                </div>
-                <div
-                  class="d-flex col col-12 col-lg justify-content-sm-center justify-content-lg-start flex-column"
-                >
-                  <b-card-title>{{ job.company }} </b-card-title>
-                  <b-card-text>
-                    {{ job.position }}
-                  </b-card-text>
-                </div>
-                <div
-                  class="d-flex col col-12 col-lg justify-content-center align-items-center flex-column justify-content-lg-start"
-                >
-                  <b-card-title>{{ job.location }} </b-card-title>
-                </div>
+          <div class="job">
+            <div class="job-img">
+              <a href="#"> <img :src="job.logo" :alt="job.company" /></a>
+            </div>
+            <div class="job-content">
+              <h3>{{ job.company }}</h3>
+              <h4>{{ job.position }}</h4>
+            </div>
+            <div class="job-tags">
+              <p v-for="(item, id) in job.tags" :key="id">{{ item }}</p>
+            </div>
+            <div class="job-button">
+              <a :href="job.address">Apply</a>
+            </div>
+          </div>
 
-                <div
-                  class="d-flex col col-12 col-lg justify-content-center justify-content-lg-end"
-                >
-                  <b-button v-b-toggle="`${id}`" variant="primary"
-                    >Details</b-button
-                  >
-                </div>
-              </div>
-            </b-card>
-          </b-card-header>
           <b-collapse :id="`${id}`" accordion="jobs-accordion" role="tabpanel">
             <b-card
               :text-variant="!$colorMode.value"
@@ -94,7 +71,7 @@
               </b-row>
             </b-card>
           </b-collapse>
-        </b-card>
+        </div>
       </div>
     </template>
   </div>
@@ -117,6 +94,63 @@ export default {
   .accordion-color {
     background-color: var(--color-ui-02);
     border: none;
+  }
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-img {
+    a {
+      text-decoration: none;
+    }
+    img {
+      height: 48px;
+    }
+  }
+  &-content {
+    h3 {
+      font-size: 1em;
+      margin: 0;
+      display: inline;
+      vertical-align: middle;
+      font-weight: 400;
+    }
+    h4 {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+  }
+  &-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    p {
+      border: 2px solid #0f1115;
+      border-radius: 6px;
+      display: table;
+      padding: 0.33em;
+      margin: 0.2em;
+
+      text-transform: uppercase;
+      font-weight: 700;
+      vertical-align: middle;
+    }
+  }
+  &-button {
+    a {
+      padding: 7px;
+      user-select: none;
+      text-align: center;
+      border: 2px solid transparent;
+      vertical-align: middle;
+      font-weight: 800;
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #ff4742;
+      color: #fff;
+    }
   }
 }
 </style>
