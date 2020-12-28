@@ -99,6 +99,11 @@ const getData = async () => {
     // clear data
     let [people, activeMentorships, jobs, hireable] = attendies.valueRanges
     jobs = mapper(jobs.values.slice(1).filter((r) => r.length))
+    jobs = jobs.map((job, id) => {
+      job.isRemoveAllowed = job.remote === 'Evet'
+      job.tags = job.tags.split(',').map(p => p.trim())
+      return job
+    })
     hireable = mapper(hireable.values.slice(1).filter((r) => r.length))
 
     people = clearData(mapper(people.values.slice(4).filter((r) => r.length)))

@@ -20,8 +20,8 @@
     <template>
       <div class="app-tile accordion" role="tablist">
         <b-card
-          v-for="job in jobs"
-          :key="job.id"
+          v-for="(job, id) in jobs"
+          :key="id"
           no-body
           class="mb-1 accordion-color"
         >
@@ -52,24 +52,19 @@
                   class="d-flex col col-12 col-lg justify-content-center align-items-center flex-column justify-content-lg-start"
                 >
                   <b-card-title>{{ job.location }} </b-card-title>
-                  <b-card-text> Location </b-card-text>
                 </div>
 
                 <div
                   class="d-flex col col-12 col-lg justify-content-center justify-content-lg-end"
                 >
-                  <b-button v-b-toggle="`${job.id}`" variant="primary"
+                  <b-button v-b-toggle="`${id}`" variant="primary"
                     >Details</b-button
                   >
                 </div>
               </div>
             </b-card>
           </b-card-header>
-          <b-collapse
-            :id="`${job.id}`"
-            accordion="jobs-accordion"
-            role="tabpanel"
-          >
+          <b-collapse :id="`${id}`" accordion="jobs-accordion" role="tabpanel">
             <b-card
               :text-variant="!$colorMode.value"
               :bg-variant="$colorMode.value"
@@ -92,7 +87,7 @@
                       <b>Location: </b>{{ job.location }}
                     </b-card-text>
                     <b-card-text>
-                      <a :href="job.address">{{ job.address }}</a>
+                      <a :href="job.address">Visit the job detail 👈</a>
                     </b-card-text>
                   </b-card-body>
                 </b-col>
