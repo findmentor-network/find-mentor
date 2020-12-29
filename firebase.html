@@ -57,8 +57,7 @@
       var provider = new firebase.auth.GithubAuthProvider()
       provider.addScope('read:user')
 
-      const register = async (data) =>
-        db.doc(`/peer/${data.uid}`).set(data, { merge: true })
+      const register = async (data) => db.doc(`/peer/${data.uid}`).set(data, { merge: true })
 
       const login = () => {
         firebase

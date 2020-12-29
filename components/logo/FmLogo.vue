@@ -1,11 +1,6 @@
 <template>
   <div class="logo">
-    <img
-      class="logo__img"
-      src="@/assets/img/core/logo.svg"
-      :width="width"
-      :height="height"
-    />
+    <img class="logo__img" src="@/assets/img/core/logo.svg" :width="width" :height="height" />
     <span v-if="title" class="logo__title"> Find Mentor </span>
   </div>
 </template>

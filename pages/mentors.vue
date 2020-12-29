@@ -14,10 +14,7 @@
       <template v-else>
         <PersonList :persons="postList.mentor.items" strict-type="mentors" />
         <client-only>
-          <infinite-loading
-            v-if="postList.mentor.items.length >= postList.mentor.limit"
-            @infinite="loadMoreMentors"
-          />
+          <infinite-loading v-if="postList.mentor.items.length >= postList.mentor.limit" @infinite="loadMoreMentors" />
         </client-only>
       </template>
     </div>

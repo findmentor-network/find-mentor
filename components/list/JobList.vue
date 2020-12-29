@@ -9,9 +9,9 @@ export default {
   props: {
     jobs: {
       type: Array,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

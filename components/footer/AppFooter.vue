@@ -10,9 +10,7 @@
                 <b-link href="/guide/">How It Works</b-link>
               </div>
               <div class="list-item">
-                <b-link target="_blank" href="/mentorships/"
-                  >Mentorships</b-link
-                >
+                <b-link target="_blank" href="/mentorships/">Mentorships</b-link>
               </div>
               <div class="list-item">
                 <b-link target="_blank" href="/events/">Events</b-link>
@@ -40,23 +38,13 @@
             <h5>Social</h5>
             <div class="list">
               <div class="list-item">
-                <b-link target="_blank" href="https://twitter.com/findmentorapp"
-                  >Twitter</b-link
-                >
+                <b-link target="_blank" href="https://twitter.com/findmentorapp">Twitter</b-link>
               </div>
               <div class="list-item">
-                <b-link
-                  target="_blank"
-                  href="https://www.youtube.com/channel/UCx7Q-6Qqrf9TU5gY-i9xovA"
-                  >YouTube</b-link
-                >
+                <b-link target="_blank" href="https://www.youtube.com/channel/UCx7Q-6Qqrf9TU5gY-i9xovA">YouTube</b-link>
               </div>
               <div class="list-item">
-                <b-link
-                  target="_blank"
-                  href="https://www.linkedin.com/company/find-mentor-network"
-                  >Linkedin</b-link
-                >
+                <b-link target="_blank" href="https://www.linkedin.com/company/find-mentor-network">Linkedin</b-link>
               </div>
             </div>
           </b-col>

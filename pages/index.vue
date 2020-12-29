@@ -2,32 +2,17 @@
   <div class="page main-page">
     <header>
       <h1>
-        <a href="https://github.com/cagataycali/find-mentor">
-          Feel free to contribute!
-        </a>
+        <a href="https://github.com/cagataycali/find-mentor"> Feel free to contribute! </a>
       </h1>
-      <p class="pad-both">
-        Every night & every deploy, the spread sheet will be parsed by GitHub
-        actions, then generate this beauty.
-      </p>
+      <p class="pad-both">Every night & every deploy, the spread sheet will be parsed by GitHub actions, then generate this beauty.</p>
       <div id="contribs">
         <ContribList :contribs="contribs" />
       </div>
       <nuxt-content :document="page" />
 
-      <cta-button
-        class="upcoming-button"
-        text="Upcoming Events"
-        to="/events/"
-        :nuxtLink="true"
-      />
+      <cta-button class="upcoming-button" text="Upcoming Events" to="/events/" :nuxtLink="true" />
 
-      <NuxtLink
-        to="/guide/"
-        class="how-it-works-link"
-        :class="[{ 'how-it-works-link--visited': isVisitedGuide }]"
-        title="How It Works?"
-      >
+      <NuxtLink to="/guide/" class="how-it-works-link" :class="[{ 'how-it-works-link--visited': isVisitedGuide }]" title="How It Works?">
         How It Works?
       </NuxtLink>
     </header>
@@ -41,9 +26,7 @@
         >
       </h2>
       <PersonList :persons="mentors" strict-type="mentors" />
-      <NuxtLink class="text-center d-block mb-5" to="/mentors/">
-        🤳 Click here for all mentors
-      </NuxtLink>
+      <NuxtLink class="text-center d-block mb-5" to="/mentors/"> 🤳 Click here for all mentors </NuxtLink>
 
       <!-- Mentees -->
       <h2 class="title mb-4 mt-5">
@@ -53,9 +36,7 @@
         >
       </h2>
       <PersonList :persons="mentees" strict-type="mentees" />
-      <NuxtLink class="text-center d-block mb-5" to="/mentees/">
-        🤳 Click here for all mentees
-      </NuxtLink>
+      <NuxtLink class="text-center d-block mb-5" to="/mentees/"> 🤳 Click here for all mentees </NuxtLink>
     </div>
     <AppFooter />
   </div>

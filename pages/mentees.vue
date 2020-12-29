@@ -14,10 +14,7 @@
       <template v-else>
         <PersonList :persons="postList.mentee.items" strict-type="mentees" />
         <client-only>
-          <infinite-loading
-            v-if="postList.mentee.items.length >= postList.mentee.limit"
-            @infinite="loadMoreMentees"
-          />
+          <infinite-loading v-if="postList.mentee.items.length >= postList.mentee.limit" @infinite="loadMoreMentees" />
         </client-only>
       </template>
     </div>

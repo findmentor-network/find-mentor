@@ -12,17 +12,9 @@
       </b-jumbotron>
 
       <div>
-        <b-table
-          striped
-          :table-variant="$colorMode.value"
-          :items="events"
-          :fields="fields"
-          :tbody-tr-class="rowClass"
-        >
+        <b-table striped :table-variant="$colorMode.value" :items="events" :fields="fields" :tbody-tr-class="rowClass">
           <template #cell(event_name)="data">
-            <a v-if="data.item.link" :href="`${data.item.link}`">{{
-              data.value
-            }}</a>
+            <a v-if="data.item.link" :href="`${data.item.link}`">{{ data.value }}</a>
             <span v-else>{{ data.value }}</span>
           </template>
 

@@ -1,19 +1,9 @@
 <template>
-  <div
-    v-if="appPreloader.isLoading"
-    id="app-preloader"
-    ref="appPreloader"
-    class="app-preloader"
-  >
+  <div v-if="appPreloader.isLoading" id="app-preloader" ref="appPreloader" class="app-preloader">
     <div class="app-preloader__container">
-      <FmLogo
-        class="app-preloader__logo animate__animated animate__pulse animate__infinite"
-        :title="false"
-      />
+      <FmLogo class="app-preloader__logo animate__animated animate__pulse animate__infinite" :title="false" />
       <p class="app-preloader__message d-block mb-4">Loading...</p>
-      <p class="app-preloader__message">
-        The best way to build mentor &amp; mentee network
-      </p>
+      <p class="app-preloader__message">The best way to build mentor &amp; mentee network</p>
     </div>
   </div>
 </template>

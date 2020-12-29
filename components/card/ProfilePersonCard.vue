@@ -1,10 +1,5 @@
 <template>
-  <div
-    class="profile-person-card"
-    :style="profileCardStyleAsPersonType"
-    itemscope
-    itemtype="https://schema.org/Person"
-  >
+  <div class="profile-person-card" :style="profileCardStyleAsPersonType" itemscope itemtype="https://schema.org/Person">
     <div class="row">
       <div class="col-12 col-lg-3 d-flex justify-content-center">
         <img
@@ -17,35 +12,19 @@
         />
       </div>
       <div class="col-12 col-lg-9 pl-lg-0">
-        <div
-          class="profile-person-card-meta flex-column justify-content-center flex-lg-row text-center text-lg-left"
-        >
+        <div class="profile-person-card-meta flex-column justify-content-center flex-lg-row text-center text-lg-left">
           <div class="profile-person-card-meta__infoBox">
-            <div
-              v-if="person.name"
-              class="profile-person-card-meta__name"
-              itemprop="name"
-            >
+            <div v-if="person.name" class="profile-person-card-meta__name" itemprop="name">
               {{ getCapitalPersonName({ model: person.name }) }}
             </div>
             <app-badge
-              :border-color="
-                getPersonTypeColor({ model: $lowerCase(person.mentor) })
-              "
-              :text-color="
-                getPersonTypeColor({ model: $lowerCase(person.mentor) })
-              "
+              :border-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
+              :text-color="getPersonTypeColor({ model: $lowerCase(person.mentor) })"
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
             <a :href="`mailto:${this.person.mail}`">
-              <app-badge
-                v-if="person.isHireable"
-                bg-color="var(--color-ui-04)"
-                text-color="#fff"
-              >
-                HIRE ME !
-              </app-badge>
+              <app-badge v-if="person.isHireable" bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
             </a>
 
             <br />
@@ -57,10 +36,7 @@
                 itemprop="sameAs"
                 :href="askForMentorShipLink"
               >
-                <font-awesome-icon
-                  :icon="['fas', 'question']"
-                  color="color:var(--color-text-04) "
-                />
+                <font-awesome-icon :icon="['fas', 'question']" color="color:var(--color-text-04) " />
                 Ask for a mentorship project
               </a>
               <a
@@ -69,28 +45,13 @@
                 itemprop="sameAs"
                 href="#active-mentorships"
               >
-                <font-awesome-icon
-                  :icon="['fas', 'list']"
-                  color="color:var(--color-text-04) "
-                />
+                <font-awesome-icon :icon="['fas', 'list']" color="color:var(--color-text-04) " />
                 Check out active mentorships
               </a>
             </template>
             <hr />
-            <div
-              v-if="person.interests.length > 0"
-              class="text"
-              itemprop="seeks"
-            >
-              <b>Interests:</b> {{ person.interests }}
-            </div>
-            <div
-              v-if="person.goals.length > 0"
-              class="text"
-              itemprop="description"
-            >
-              <b>Goals:</b> {{ person.goals }}
-            </div>
+            <div v-if="person.interests.length > 0" class="text" itemprop="seeks"><b>Interests:</b> {{ person.interests }}</div>
+            <div v-if="person.goals.length > 0" class="text" itemprop="description"><b>Goals:</b> {{ person.goals }}</div>
           </div>
           <div class="profile-person-card-meta__infoBox-right">
             <a
@@ -100,22 +61,15 @@
               class="profile-person-card-meta__qrCode"
               itemprop="url"
             >
-              <qrcode
-                :value="`https://findmentor.network/peer/` + person.slug"
-                :options="{ width: 200 }"
-              />
+              <qrcode :value="`https://findmentor.network/peer/` + person.slug" :options="{ width: 200 }" />
             </a>
             <a
               class="profile-person-card-meta__twitter"
               :href="
-                'https://twitter.com/intent/tweet?text=Hey! Here my find-mentor profile&url=https://findmentor.network/peer/' +
-                person.slug
+                'https://twitter.com/intent/tweet?text=Hey! Here my find-mentor profile&url=https://findmentor.network/peer/' + person.slug
               "
             >
-              <font-awesome-icon
-                class="profile-person-card-meta__twitter-icon"
-                :icon="['fab', 'twitter']"
-              />
+              <font-awesome-icon class="profile-person-card-meta__twitter-icon" :icon="['fab', 'twitter']" />
               Share at Twitter
             </a>
           </div>
@@ -160,11 +114,7 @@
 </template>
 
 <script>
-import {
-  getPersonTypeLabel,
-  getPersonTypeColor,
-  getCapitalPersonName,
-} from '@/mixins'
+import { getPersonTypeLabel, getPersonTypeColor, getCapitalPersonName } from '@/mixins'
 
 export default {
   name: 'ProfilePersonCard',
@@ -178,11 +128,7 @@ export default {
   methods: {},
   computed: {
     askForMentorShipLink() {
-      return `${
-        this.person.twitter_handle
-          ? this.person.twitter_handle
-          : this.person.linkedin || this.person.github
-      }`
+      return `${this.person.twitter_handle ? this.person.twitter_handle : this.person.linkedin || this.person.github}`
     },
     profileCardStyleAsPersonType() {
       return `

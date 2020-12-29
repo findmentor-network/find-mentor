@@ -16,11 +16,7 @@
         :title="`${person.name} twitter`"
         itemprop="sameAs"
       >
-        <font-awesome-icon
-          class="social-media__icon"
-          :icon="['fab', 'twitter']"
-          color="white"
-        />
+        <font-awesome-icon class="social-media__icon" :icon="['fab', 'twitter']" color="white" />
       </a>
       <a
         v-if="person.github.length > 0"
@@ -30,11 +26,7 @@
         :title="`${person.name} github`"
         itemprop="sameAs"
       >
-        <font-awesome-icon
-          class="social-media__icon"
-          :icon="['fab', 'github']"
-          color="var(--color-github-02)"
-        />
+        <font-awesome-icon class="social-media__icon" :icon="['fab', 'github']" color="var(--color-github-02)" />
       </a>
       <a
         v-if="person.linkedin.length > 0"
@@ -44,11 +36,7 @@
         :title="`${person.name} linkedin`"
         itemprop="sameAs"
       >
-        <font-awesome-icon
-          class="social-media__icon"
-          :icon="['fab', 'linkedin']"
-          color="white"
-        />
+        <font-awesome-icon class="social-media__icon" :icon="['fab', 'linkedin']" color="white" />
       </a>
     </div>
 

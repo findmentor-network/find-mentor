@@ -23,9 +23,7 @@
 <script>
 export default {
   async fetch() {
-    this.postList.items = await this.$content('persons')
-      .search(this.$lowerCase(this.$route.params.keyword))
-      .fetch()
+    this.postList.items = await this.$content('persons').search(this.$lowerCase(this.$route.params.keyword)).fetch()
   },
   data() {
     return {

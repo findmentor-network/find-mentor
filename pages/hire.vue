@@ -4,9 +4,7 @@
       <h1 class="title">Job Seekers</h1>
 
       <h3>
-        <a href="https://forms.gle/RnBV3sPzr8YnDjRY9"
-          >Add yourself as a Hireable!</a
-        >
+        <a href="https://forms.gle/RnBV3sPzr8YnDjRY9">Add yourself as a Hireable!</a>
       </h3>
 
       <br />
@@ -22,17 +20,11 @@
       <template v-else>
         <PersonList :persons="postList.hire.items" strict-type="mentees" />
         <client-only>
-          <infinite-loading
-            v-if="postList.hire.items.length >= postList.hire.limit"
-            @infinite="loadMorePersons"
-          />
+          <infinite-loading v-if="postList.hire.items.length >= postList.hire.limit" @infinite="loadMorePersons" />
         </client-only>
       </template>
       <h4>
-        <a
-          href="https://github.com/cagataycali/find-mentor/blob/master/pages/hire.vue"
-          >Contribute this page</a
-        >
+        <a href="https://github.com/cagataycali/find-mentor/blob/master/pages/hire.vue">Contribute this page</a>
       </h4>
     </div>
   </div>

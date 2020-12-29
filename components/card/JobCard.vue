@@ -3,60 +3,55 @@
   // Summary
   .job-card-summary.d-flex.flex-wrap.cursor-pointer(@click="toggleDetail(job)")
     .col.col-12.col-lg-2
-      img.job-card__logo(:src="job.logo" :alt="job.company" draggable="false")
+      img.job-card__logo(:src="job.logo" draggable="false" :alt="job.company")
     .col.col-12.col-lg-10
       .job-card__body
         strong.job-card__title {{ job.company }}
         .job-card__position.d-flex.justify-content-center.justify-content-lg-start.align-items-center
-          font-awesome-icon.mr-2(:icon="['fas', 'briefcase']" color="var(--color-text-02)")
+          font-awesome-icon.mr-2(color="var(--color-text-02)" :icon="['fas', 'briefcase']")
           span {{ job.position }}
         .job-card__description
           v-clamp(autoresize :max-lines="1") {{ job.description }}
         .job-card__tags
           template(v-for="tag in job.tags")
-            b-badge.mr-2.mb-1(:variant="$colorMode.value") {{tag}}
+            b-badge.mr-2.mb-1(:variant="$colorMode.value") {{ tag }}
         .d-block.d-lg-flex.justify-content-center.justify-content-lg-end.align-items-center
           .job-card__remote.mr-lg-4.mb-2.mb-lg-0
-            font-awesome-icon.mr-2(:icon="['fas', 'paper-plane']" color="var(--color-text-03)")
+            font-awesome-icon.mr-2(color="var(--color-text-03)" :icon="['fas', 'paper-plane']")
             span
               strong Remote: &nbsp;
-              span {{job.remote}}
+              span {{ job.remote }}
           .job-card__date
-            font-awesome-icon.mr-2(:icon="['fas', 'clock']" color="var(--color-text-03)")
-            span {{dateConvertDMY(job.date)}}
+            font-awesome-icon.mr-2(color="var(--color-text-03)" :icon="['fas', 'clock']")
+            span {{ dateConvertDMY(job.date) }}
 
   // Detail
   .job-card-detail(v-show="isVisibleDetail")
     .job-card__closeButton(@click="closeDetail")
-      font-awesome-icon(:icon="['fas', 'times']" color="var(--color-text-03)")
+      font-awesome-icon(color="var(--color-text-03)" :icon="['fas', 'times']")
     .col.col-12.d-flex.justify-center
-      img.job-card__logo(:src="job.logo" :alt="job.company" draggable="false")
+      img.job-card__logo(:src="job.logo" draggable="false" :alt="job.company")
     .col.col-12.col-lg-12
       .job-card__body
         strong.job-card__title {{ job.company }}
         .job-card__position.d-flex.justify-content-center.align-items-center
-          font-awesome-icon.mr-2(:icon="['fas', 'briefcase']" color="var(--color-text-02)")
+          font-awesome-icon.mr-2(color="var(--color-text-02)" :icon="['fas', 'briefcase']")
           span {{ job.position }}
         p.job-card__description {{ job.description }}
         .job-card__tags
           template(v-for="tag in job.tags")
-            b-badge.mr-2(:variant="$colorMode.value") {{tag}}
+            b-badge.mr-2(:variant="$colorMode.value") {{ tag }}
         .job-card__remote
-            font-awesome-icon.mr-2(:icon="['fas', 'paper-plane']" color="var(--color-text-03)")
-            span
-              strong Remote: &nbsp;
-              span {{job.remote}}
+          font-awesome-icon.mr-2(color="var(--color-text-03)" :icon="['fas', 'paper-plane']")
+          span
+            strong Remote: &nbsp;
+            span {{ job.remote }}
         .job-card__apply
-          cta-button.job-card__applyButton(
-            text="APPLY"
-            :to="job.address"
-            :nuxt-link="false"
-            bg-color="var(--color-ui-05)"
-          )
+          cta-button.job-card__applyButton(text="APPLY" bg-color="var(--color-ui-05)" :to="job.address" :nuxt-link="false")
         .d-flex.justify-content-center
           .job-card__date.d-flex.align-items-center
-            font-awesome-icon.mr-2(:icon="['fas', 'clock']" color="var(--color-text-03)")
-            span {{dateConvertDMY(job.date)}}
+            font-awesome-icon.mr-2(color="var(--color-text-03)" :icon="['fas', 'clock']")
+            span {{ dateConvertDMY(job.date) }}
 </template>
 
 <script>
@@ -64,24 +59,24 @@ import VClamp from 'vue-clamp'
 
 export default {
   components: {
-    VClamp
+    VClamp,
   },
   props: {
     job: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
-  data () {
+  data() {
     return {
-      isVisibleDetail: false
+      isVisibleDetail: false,
     }
   },
   methods: {
-    dateConvertDMY (date) {
+    dateConvertDMY(date) {
       return date.split(' ')[0]
     },
-    toggleDetail (job) {
+    toggleDetail(job) {
       this.isVisibleDetail = !this.isVisibleDetail
 
       if (this.isVisibleDetail) {
@@ -90,14 +85,14 @@ export default {
         this.setBaseDocumentTitle()
       }
     },
-    closeDetail () {
+    closeDetail() {
       this.isVisibleDetail = false
       this.setBaseDocumentTitle()
     },
-    setBaseDocumentTitle () {
+    setBaseDocumentTitle() {
       document.title = `${process.env.app.title}`
-    }
-  }
+    },
+  },
 }
 </script>
 

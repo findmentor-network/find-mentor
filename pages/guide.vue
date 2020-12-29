@@ -4,20 +4,12 @@
       <b-jumbotron text-variant="black" border-variant="dark">
         <h1>Founders</h1>
         <p>
-          <i>
-            As contributors are the actual founders of this collaborative
-            artwork.
-          </i>
+          <i> As contributors are the actual founders of this collaborative artwork. </i>
         </p>
         <ContribList :contribs="contribs" />
       </b-jumbotron>
 
-      <b-jumbotron
-        v-for="(row, index) in rows"
-        :key="index"
-        text-variant="black"
-        border-variant="dark"
-      >
+      <b-jumbotron v-for="(row, index) in rows" :key="index" text-variant="black" border-variant="dark">
         <nuxt-content :document="row" />
       </b-jumbotron>
     </div>

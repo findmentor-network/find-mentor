@@ -36,14 +36,11 @@ const makeRequest = async (project) => {
     .slice(project.project_adress.split('/').length - 2)
     .join('/')
 
-  const res = await got(
-    `https://api.github.com/repos/${projectName}/contributors`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GH_API_KEY}`,
-      },
-    }
-  )
+  const res = await got(`https://api.github.com/repos/${projectName}/contributors`, {
+    headers: {
+      Authorization: `token ${process.env.GH_API_KEY}`,
+    },
+  })
 
   return JSON.parse(res.body)
 }

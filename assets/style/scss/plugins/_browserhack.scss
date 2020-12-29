@@ -121,8 +121,7 @@
 }
 
 @mixin only_ff30_above($selector, $map) {
-  @supports (-moz-appearance: meterbar) and
-    (background-blend-mode: difference, normal) {
+  @supports (-moz-appearance: meterbar) and (background-blend-mode: difference, normal) {
     #{$selector} {
       @each $property, $value in ($map) {
         #{$property}: $value;
@@ -162,8 +161,7 @@
 }
 
 @mixin only_ios($selector, $map) {
-  @supports (-webkit-text-size-adjust: none) and (not (-ms-accelerator: true))
-    and (not (-moz-appearance: none)) {
+  @supports (-webkit-text-size-adjust: none) and (not (-ms-accelerator: true)) and (not (-moz-appearance: none)) {
     #{$selector} {
       @each $property, $value in ($map) {
         #{$property}: $value;
@@ -199,8 +197,7 @@
 }
 
 @mixin only_opera11($selector, $map) {
-  @media all and (-webkit-min-device-pixel-ratio: 10000),
-    not all and (-webkit-min-device-pixel-ratio: 0) {
+  @media all and (-webkit-min-device-pixel-ratio: 10000), not all and (-webkit-min-device-pixel-ratio: 0) {
     #{$selector} {
       @each $property, $value in ($map) {
         #{$property}: $value;

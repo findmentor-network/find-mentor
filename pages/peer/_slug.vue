@@ -3,12 +3,7 @@
     <div class="d-flex flex-wrap">
       <div class="d-none d-xl-block col-xl-2">
         <div class="vh-100 d-flex align-items-center justify-content-center">
-          <PersonNavigationButton
-            v-if="navigation.person.prev"
-            ref="prevPerson"
-            :person="navigation.person.prev"
-            direction="left"
-          />
+          <PersonNavigationButton v-if="navigation.person.prev" ref="prevPerson" :person="navigation.person.prev" direction="left" />
         </div>
       </div>
       <div class="col-xl-8">
@@ -24,12 +19,7 @@
       </div>
       <div class="d-none d-xl-block col-xl-2">
         <div class="vh-100 d-flex align-items-center justify-content-center">
-          <PersonNavigationButton
-            v-if="navigation.person.next"
-            ref="nextPerson"
-            :person="navigation.person.next"
-            direction="right"
-          />
+          <PersonNavigationButton v-if="navigation.person.next" ref="nextPerson" :person="navigation.person.next" direction="right" />
         </div>
       </div>
     </div>
@@ -51,10 +41,7 @@ export default {
 
     this.person = person
 
-    const [prev, next] = await $content('persons')
-      .only(['name', 'slug', 'mentor', 'avatar'])
-      .surround(params.slug)
-      .fetch()
+    const [prev, next] = await $content('persons').only(['name', 'slug', 'mentor', 'avatar']).surround(params.slug).fetch()
 
     this.navigation.person.prev = prev
     this.navigation.person.next = next
@@ -77,9 +64,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.person
-            ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer',
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
         },
         {
           hid: 'twitter:title',
@@ -89,9 +74,7 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: this.person
-            ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer',
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
         },
         {
           hid: 'twitter:image',
@@ -111,9 +94,7 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.person
-            ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer',
+          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
         },
         {
           hid: 'og:image',

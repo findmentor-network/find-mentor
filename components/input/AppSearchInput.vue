@@ -6,15 +6,8 @@
       :placeholder="search.placeholder"
       @keypress.native.enter="searchPerson"
     />
-    <button
-      class="app-search-input__searchButton"
-      :disabled="search.value.length < 1"
-      @click="searchPerson"
-    >
-      <font-awesome-icon
-        :icon="['fas', 'search']"
-        color="var(--color-text-02)"
-      />
+    <button class="app-search-input__searchButton" :disabled="search.value.length < 1" @click="searchPerson">
+      <font-awesome-icon :icon="['fas', 'search']" color="var(--color-text-02)" />
     </button>
   </div>
 </template>

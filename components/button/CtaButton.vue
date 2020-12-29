@@ -47,8 +47,7 @@ export default {
     bgColor: {
       type: String,
       required: false,
-      default:
-        'linear-gradient(90deg, var(--color-ui-03), var(--color-ui-04));',
+      default: 'linear-gradient(90deg, var(--color-ui-03), var(--color-ui-04));',
     },
     textColor: {
       type: String,

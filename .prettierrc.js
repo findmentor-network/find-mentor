@@ -34,7 +34,7 @@ module.exports = {
     '^:?color$',
     '^:?text-color$',
     '^:?icon$',
-    '^:?small$'
+    '^:?small$',
   ],
   pugSortAttributesEnd: [
     '^:?hint$',
@@ -53,6 +53,6 @@ module.exports = {
     '^:disabled$',
     '^:?data-',
     '^@click',
-    '^@'
-  ]
+    '^@',
+  ],
 }

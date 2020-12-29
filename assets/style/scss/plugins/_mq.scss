@@ -202,8 +202,7 @@ $mq-media-type: all !default;
     @if type-of($until) == number {
       $max-width: mq-px2em($until);
     } @else {
-      $max-width: mq-px2em(mq-get-breakpoint-width($until, $breakpoints)) -
-        0.01em;
+      $max-width: mq-px2em(mq-get-breakpoint-width($until, $breakpoints)) - 0.01em;
     }
   }
 
@@ -211,22 +210,11 @@ $mq-media-type: all !default;
   // The browser will rely on the cascade itself.
 
   @if $responsive == false {
-    $static-breakpoint-width: mq-get-breakpoint-width(
-      $static-breakpoint,
-      $breakpoints
-    );
+    $static-breakpoint-width: mq-get-breakpoint-width($static-breakpoint, $breakpoints);
     $target-width: mq-px2em($static-breakpoint-width);
 
     // Output only rules that start at or span our target width
-    @if (
-      $and ==
-        false and
-        $min-width <=
-        $target-width and
-        ($until == false or $max-width >= $target-width) and
-        $media-type !=
-        'print'
-    ) {
+    @if ($and == false and $min-width <= $target-width and ($until == false or $max-width >= $target-width) and $media-type != 'print') {
       @content;
     }
   }
@@ -350,10 +338,7 @@ $mq-media-type: all !default;
 ///
 ///  // Show breakpoints using custom settings
 ///  @include mq-show-breakpoints((L, XL), (S: 300px, L: 800px, XL: 1200px));
-@mixin mq-show-breakpoints(
-  $show-breakpoints: $mq-show-breakpoints,
-  $breakpoints: $mq-breakpoints
-) {
+@mixin mq-show-breakpoints($show-breakpoints: $mq-show-breakpoints, $breakpoints: $mq-breakpoints) {
   body::before {
     position: fixed;
     top: 0;

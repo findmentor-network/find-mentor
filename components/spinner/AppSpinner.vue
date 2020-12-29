@@ -1,10 +1,5 @@
 <template>
-  <img
-    src="@/assets/img/core/spinner.svg"
-    class="app-spinner"
-    :width="width"
-    :height="height"
-  />
+  <img src="@/assets/img/core/spinner.svg" class="app-spinner" :width="width" :height="height" />
 </template>
 
 <script>

@@ -6,10 +6,7 @@
     <!-- Github README -->
     <template v-if="markdown.length > 0">
       <h2>
-        <font-awesome-icon
-          class="social-media-icon"
-          :icon="['fab', 'github']"
-        />
+        <font-awesome-icon class="social-media-icon" :icon="['fab', 'github']" />
         GitHub
       </h2>
       <hr />
@@ -21,48 +18,28 @@
       <h2 id="active-mentorships">Active Mentorships</h2>
       <hr />
       <div class="app-tile accordion" role="tablist">
-        <b-card
-          v-for="(mentorship, index) in person.mentorships"
-          :key="mentorship.slug"
-          no-body
-          class="mb-1 accordion-color"
-        >
+        <b-card v-for="(mentorship, index) in person.mentorships" :key="mentorship.slug" no-body class="mb-1 accordion-color">
           <b-card-header header-tag="header" class="p-1" role="tab">
             <b-button v-b-toggle="mentorship.slug" block variant="dark">
               <h3>{{ mentorship.slug }}</h3>
             </b-button>
           </b-card-header>
-          <b-collapse
-            :id="mentorship.slug"
-            accordion="my-accordion"
-            role="tabpanel"
-          >
+          <b-collapse :id="mentorship.slug" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <h5>Contributors</h5>
               <div align="center">
-                <a
-                  v-for="cont in mentorship.contributors"
-                  :key="cont.id"
-                  :href="cont.github_address"
-                >
+                <a v-for="cont in mentorship.contributors" :key="cont.id" :href="cont.github_address">
                   <img class="cont-image" :src="cont.avatar" alt="" />
                 </a>
               </div>
               <b-card-text v-if="projects[index]">
-                <a
-                  class="float-right"
-                  :href="mentorship.project_adress"
-                  target="_blank"
-                  >Go to project page</a
-                >
+                <a class="float-right" :href="mentorship.project_adress" target="_blank">Go to project page</a>
                 <hr />
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
                 This project does not have README.md file,
-                <a :href="mentorship.project_adress" target="_blank"
-                  >please visit project to see content.</a
-                >
+                <a :href="mentorship.project_adress" target="_blank">please visit project to see content.</a>
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -76,21 +53,14 @@
       <hr />
       <div v-if="person.contributions.length" class="app-tile accordion">
         <div>
-          <div
-            v-for="(contribution, index) in person.contributions"
-            :key="index"
-          >
+          <div v-for="(contribution, index) in person.contributions" :key="index">
             <h2 :href="contribution.mentor">
               {{ contribution.slug }}
             </h2>
             <p>{{ contribution.goal }}</p>
 
             <div align="center">
-              <a
-                v-for="cont in contribution.contributors"
-                :key="cont.id"
-                :href="cont.fmn_url || cont.github_address"
-              >
+              <a v-for="cont in contribution.contributors" :key="cont.id" :href="cont.fmn_url || cont.github_address">
                 <img class="cont-image" :src="cont.avatar" alt="" />
               </a>
             </div>
@@ -108,11 +78,7 @@
           <h2>💬 Give Feedback</h2>
           <hr />
           <div class="app-tile">
-            <Disqus
-              class="disqus-thread"
-              :shortname="disqus.shortName"
-              :page-config="disqus.pageConfig"
-            />
+            <Disqus class="disqus-thread" :shortname="disqus.shortName" :page-config="disqus.pageConfig" />
           </div>
         </template>
       </div>
@@ -120,10 +86,7 @@
         <!-- Tweets -->
         <template v-if="person.twitter_handle.length > 0">
           <h2>
-            <font-awesome-icon
-              class="social-media-icon"
-              :icon="['fab', 'twitter']"
-            />
+            <font-awesome-icon class="social-media-icon" :icon="['fab', 'twitter']" />
             Tweets
           </h2>
           <hr />
@@ -194,9 +157,7 @@ export default {
   methods: {
     async renderMarkdown() {
       const username = this.person.github.replace(/\/$/gi, '').split('/').pop()
-      const markdownContent = await fetch(
-        `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
-      ).then((res) => {
+      const markdownContent = await fetch(`https://raw.githubusercontent.com/${username}/${username}/master/README.md`).then((res) => {
         if (res.status === 200) {
           return res.text()
         } else {

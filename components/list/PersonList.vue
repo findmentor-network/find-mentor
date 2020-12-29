@@ -1,12 +1,7 @@
 <template>
   <div class="person-list" :class="`person-list--${strictType}`">
     <template v-if="persons.length > 0">
-      <PersonCard
-        v-for="person in persons"
-        :key="person.slug"
-        :person="person"
-        @click.native="$router.push(`/peer/${person.slug}`)"
-      />
+      <PersonCard v-for="person in persons" :key="person.slug" :person="person" @click.native="$router.push(`/peer/${person.slug}`)" />
     </template>
     <template v-else>
       <span class="d-block text-center my-4">No results...</span>

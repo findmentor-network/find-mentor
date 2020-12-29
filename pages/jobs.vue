@@ -5,14 +5,11 @@
         <b-jumbotron text-variant="black" border-variant="dark">
           <h1>Jobs</h1>
           <p>
-            This community, driven/developed by a fellow community. <br>
-            As you can see, this project is the mentorship project. Developed by
-            mentees. <br>
+            This community, driven/developed by a fellow community. <br />
+            As you can see, this project is the mentorship project. Developed by mentees. <br />
             You can list your job listing below for 30 days.
           </p>
-          <a
-            href="https://forms.gle/895gP7bu1AqTbXi1A"
-          >
+          <a href="https://forms.gle/895gP7bu1AqTbXi1A">
             <b>Add your job listing</b>
           </a>
         </b-jumbotron>
@@ -25,13 +22,13 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     const { jobs } = await this.$content('jobs').fetch()
     this.jobs = jobs
   },
-  data () {
+  data() {
     return { jobs: [] }
-  }
+  },
 }
 </script>
 
