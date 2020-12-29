@@ -1,90 +1,37 @@
 <template>
-  <div id="jumbotron-mentor" class="container">
-    <b-jumbotron text-variant="black" border-variant="dark">
-      <h1>Jobs</h1>
-      <p>
-        <i>
+  <div class="page jobs-page">
+    <div class="container">
+      <div id="jumbotron-mentor" class="mx-auto">
+        <b-jumbotron text-variant="black" border-variant="dark">
+          <h1>Jobs</h1>
           <p>
-            This community, driven/developed by a fellow community. <br />
+            This community, driven/developed by a fellow community. <br>
             As you can see, this project is the mentorship project. Developed by
-            mentees. <br />
+            mentees. <br>
             You can list your job listing below for 30 days.
           </p>
-        </i>
-        <a href="https://forms.gle/895gP7bu1AqTbXi1A"
-          ><b>Add your job listing</b></a
-        >
-      </p>
-    </b-jumbotron>
-
-    <div class="accordion" role="tablist">
-      <div
-        v-for="(job, id) in jobs"
-        :key="id"
-        no-body
-        class="shadow mb-1 accordion-color"
-      >
-        <div class="job" v-b-toggle="`${id}`">
-          <div class="job-img">
-            <a href="#"> <img :src="job.logo" :alt="job.company" /></a>
-          </div>
-          <div class="job-content">
-            <h3>{{ job.company }}</h3>
-            <h4>{{ job.position }}</h4>
-          </div>
-          <div class="job-tags">
-            <p v-for="(item, id) in job.tags" :key="id">{{ item }}</p>
-          </div>
-
-          <div class="job-button">
-            <a :href="job.address" target="_blank">Apply</a>
-          </div>
-        </div>
-
-        <b-collapse :id="`${id}`" accordion="jobs-accordion" role="tabpanel">
-          <b-card no-body class="overflow-hidden mb-4">
-            <b-row no-gutters>
-              <b-col md="12">
-                <b-card-body class="">
-                  <b-card-title
-                    >{{ job.company }} | {{ job.position }}</b-card-title
-                  >
-                  <b-card-text
-                    ><b>Posting date: </b> {{ job.date }}
-                  </b-card-text>
-                  <b-card-text>
-                    {{ job.description }}
-                  </b-card-text>
-                  <b-card-text>
-                    <b>Location: </b>{{ job.location }}
-                  </b-card-text>
-                  <b-card-text>
-                    <a :href="job.address">Visit the job detail 👈</a>
-                  </b-card-text>
-                </b-card-body>
-              </b-col>
-            </b-row>
-          </b-card>
-        </b-collapse>
+          <a
+            href="https://forms.gle/895gP7bu1AqTbXi1A"
+          >
+            <b>Add your job listing</b>
+          </a>
+        </b-jumbotron>
       </div>
+
+      <JobList :jobs="jobs" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch() {
+  async fetch () {
     const { jobs } = await this.$content('jobs').fetch()
     this.jobs = jobs
   },
-  data() {
+  data () {
     return { jobs: [] }
-  },
-  methods: {
-    jobButton: function (e) {
-      e.stopPropagation()
-    },
-  },
+  }
 }
 </script>
 

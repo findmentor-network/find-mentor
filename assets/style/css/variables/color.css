@@ -16,6 +16,7 @@
 
   /* Border */
   --color-border-01: #fff;
+  --color-border-02: #f2f2f2;
 
   /* Field */
   --color-field-01: #fff;
@@ -55,6 +56,7 @@
 
   /* Border */
   --color-border-01: transparent;
+  --color-border-02: #333;
 
   /* Field */
   --color-field-01: #000;
