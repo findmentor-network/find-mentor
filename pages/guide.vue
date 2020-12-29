@@ -21,6 +21,7 @@
         <nuxt-content :document="row" />
       </b-jumbotron>
     </div>
+    <AppFooter />
   </div>
 </template>
 

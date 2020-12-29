@@ -38,6 +38,14 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
+            <app-badge
+              v-if="person.isHireable"
+              bg-color="var(--color-text-05)"
+              text-color="var(--color-text-05)"
+              @click="hireMe"
+            >
+              HIRE ME!
+            </app-badge>
             <br />
             <template v-if="person.mentor != 'Mentee'">
               <a
@@ -163,6 +171,12 @@ export default {
     person: {
       type: Object,
       required: true,
+    },
+  },
+  methods: {
+    hireMe() {
+      alert(1)
+      window.open(this.person.mail, '_blank')
     },
   },
   computed: {

@@ -17,13 +17,20 @@
           How It Works?
         </b-nav-item>
         <b-nav-item exact active-class="active" to="/mentorships/">
-          Active Mentorships
+          Mentorships
         </b-nav-item>
         <b-nav-item exact to="/mentees/" active-class="active">
           Mentees
         </b-nav-item>
         <b-nav-item exact to="/mentors/" active-class="active">
           Mentors
+        </b-nav-item>
+        <b-nav-item exact to="/events/" active-class="active">
+          Events
+        </b-nav-item>
+        <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
+        <b-nav-item exact to="/hire" active-class="active">
+          Job Seekers
         </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="col col-12 col-lg-3 col-xl-2">
@@ -48,7 +55,7 @@
         <cta-button
           class="mr-2"
           text="Discord"
-          to="https://discord.gg/H9Vg8pYZAF"
+          to="https://discord.gg/EDwkj6Z7W2"
           bg-color="var(--color-discord-01)"
         >
           <font-awesome-icon

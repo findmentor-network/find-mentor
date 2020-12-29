@@ -32,6 +32,9 @@
 
   /*   Disqus Color  */
   --color-disqus-thread: #a9a9a9;
+
+  /* State Color */
+  --color-success-01: #c3e6cb;
 }
 
 .dark-mode {
@@ -67,4 +70,7 @@
 
   /*   Disqus Color  */
   --color-disqus-thread: #161616;
+
+  /* State Color */
+  --color-success-01: #519e63;
 }
