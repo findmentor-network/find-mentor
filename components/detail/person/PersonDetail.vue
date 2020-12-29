@@ -12,16 +12,14 @@
         />
         GitHub
       </h2>
-      <hr>
+      <hr />
       <div class="app-tile readme" v-html="markdown" />
     </template>
 
     <!-- Active Mentorships -->
     <template v-if="person.mentorships.length > 0">
-      <h2 id="active-mentorships">
-        Active Mentorships
-      </h2>
-      <hr>
+      <h2 id="active-mentorships">Active Mentorships</h2>
+      <hr />
       <div class="app-tile accordion" role="tablist">
         <b-card
           v-for="(mentorship, index) in person.mentorships"
@@ -47,7 +45,7 @@
                   :key="cont.id"
                   :href="cont.github_address"
                 >
-                  <img class="cont-image" :src="cont.avatar" alt="">
+                  <img class="cont-image" :src="cont.avatar" alt="" />
                 </a>
               </div>
               <b-card-text v-if="projects[index]">
@@ -55,16 +53,16 @@
                   class="float-right"
                   :href="mentorship.project_adress"
                   target="_blank"
-                >Go to project page</a>
-                <hr>
+                  >Go to project page</a
+                >
+                <hr />
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
                 This project does not have README.md file,
-                <a
-                  :href="mentorship.project_adress"
-                  target="_blank"
-                >please visit project to see content.</a>
+                <a :href="mentorship.project_adress" target="_blank"
+                  >please visit project to see content.</a
+                >
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -75,7 +73,7 @@
     <!-- Contributed Projects -->
     <template v-if="person.contributions.length">
       <h2>Contributed</h2>
-      <hr>
+      <hr />
       <div v-if="person.contributions.length" class="app-tile accordion">
         <div>
           <div
@@ -93,14 +91,14 @@
                 :key="cont.id"
                 :href="cont.fmn_url || cont.github_address"
               >
-                <img class="cont-image" :src="cont.avatar" alt="">
+                <img class="cont-image" :src="cont.avatar" alt="" />
               </a>
             </div>
-            <br>
+            <br />
           </div>
         </div>
       </div>
-      <hr>
+      <hr />
     </template>
 
     <div class="row">
@@ -108,9 +106,13 @@
         <!-- Disqus -->
         <template>
           <h2>💬 Give Feedback</h2>
-          <hr>
+          <hr />
           <div class="app-tile">
-            <Disqus class="disqus-thread" :shortname="disqus.shortName" :page-config="disqus.pageConfig" />
+            <Disqus
+              class="disqus-thread"
+              :shortname="disqus.shortName"
+              :page-config="disqus.pageConfig"
+            />
           </div>
         </template>
       </div>
@@ -124,7 +126,7 @@
             />
             Tweets
           </h2>
-          <hr>
+          <hr />
           <div class="app-tile twitter-wrapper">
             <Timeline
               v-show="$colorMode.value === 'dark'"
@@ -154,15 +156,15 @@ const md = new Markdown({ toc: true, sanitize: true })
 export default {
   components: {
     Disqus,
-    Timeline
+    Timeline,
   },
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
-  data () {
+  data() {
     return {
       markdown: '',
       projects: [],
@@ -171,17 +173,17 @@ export default {
         pageConfig: {
           url: `https://findmentor.network${this.$route.fullPath}`,
           identifier: `https://findmentor.network${this.$route.fullPath}`,
-          title: this.person.name || ''
-        }
-      }
+          title: this.person.name || '',
+        },
+      },
     }
   },
   computed: {
-    twitterHandle () {
+    twitterHandle() {
       return this.person.twitter_handle.split('twitter.com/')[1]
-    }
+    },
   },
-  created () {
+  created() {
     if (this.person.github.length > 0) {
       this.renderMarkdown()
     }
@@ -190,7 +192,7 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown () {
+    async renderMarkdown() {
       const username = this.person.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
@@ -204,7 +206,7 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects () {
+    async renderMentorshipProjects() {
       const requests = []
       this.person.mentorships.map((mentorship) => {
         const url = mentorship.project_adress.split('/').slice(3).join('/')
@@ -225,13 +227,13 @@ export default {
       })
       this.projects = await Promise.all(requests)
     },
-    getProfilePicture (username) {
+    getProfilePicture(username) {
       return `https://avatars.githubusercontent.com/${username}`
     },
-    getGithubLink (username) {
+    getGithubLink(username) {
       return `https://github.com/${username}`
-    }
-  }
+    },
+  },
 }
 </script>
 

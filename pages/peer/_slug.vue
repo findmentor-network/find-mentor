@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     const { $content, params, error } = this.$nuxt.context
 
     const [person] = await $content('persons')
@@ -59,18 +59,18 @@ export default {
     this.navigation.person.prev = prev
     this.navigation.person.next = next
   },
-  data () {
+  data() {
     return {
       person: null,
       navigation: {
         person: {
           prev: null,
-          next: null
-        }
-      }
+          next: null,
+        },
+      },
     }
   },
-  head () {
+  head() {
     return {
       title: this.person ? this.person.name : 'Peer',
       meta: [
@@ -79,59 +79,59 @@ export default {
           name: 'description',
           content: this.person
             ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer'
+            : 'Peer',
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
           content: this.person
             ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer'
+            : 'Peer',
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.person ? this.person.name : 'Peer'
+          content: this.person ? this.person.name : 'Peer',
         },
         {
           hid: 'og:description',
           property: 'og:description',
           content: this.person
             ? `${this.person.name} - ${this.person.interests}`
-            : 'Peer'
+            : 'Peer',
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.person ? this.person.avatar : 'Avatar'
+          content: this.person ? this.person.avatar : 'Avatar',
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: this.person ? this.person.name : 'Peer'
-        }
-      ]
+          content: this.person ? this.person.name : 'Peer',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
