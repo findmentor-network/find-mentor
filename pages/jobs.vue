@@ -137,9 +137,11 @@ export default {
   }
   &-button {
     display: flex;
-
+    &:hover a {
+      visibility: visible;
+    }
     a {
-      opacity: 0;
+      visibility: hidden;
       padding: 4px;
 
       text-align: center;
@@ -151,10 +153,10 @@ export default {
       background-color: #ff4742;
       color: #fff;
       font-size: 16px;
-      &:hover {
-        opacity: 1;
-        background-color: blue;
-      }
+      // &:hover {
+      //   visibility: visible;
+      //   background-color: blue;
+      // }
     }
   }
 }
