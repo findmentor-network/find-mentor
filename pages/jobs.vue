@@ -2,19 +2,16 @@
   <div id="jumbotron-mentor" class="container">
     <b-jumbotron text-variant="black" border-variant="dark">
       <h1>Jobs</h1>
-      <p>
-        <i>
-          <p>
-            This community, driven/developed by a fellow community. <br />
-            As you can see, this project is the mentorship project. Developed by
-            mentees. <br />
-            You can list your job listing below for 30 days.
-          </p>
-        </i>
-        <a href="https://forms.gle/895gP7bu1AqTbXi1A"
-          ><b>Add your job listing</b></a
-        >
-      </p>
+
+      <div class="description">
+        <p>This community, driven/developed by a fellow community.</p>
+        <p>You can list your job listing below for 30 days.</p>
+        <p>As you can see, this project is the mentorship project. Developed by mentees.</p>
+      </div>
+
+      <a href="https://forms.gle/895gP7bu1AqTbXi1A">
+        <b>Add your job listing</b>
+      </a>
     </b-jumbotron>
 
     <div class="accordion" role="tablist">
@@ -22,18 +19,22 @@
         v-for="(job, id) in jobs"
         :key="id"
         no-body
-        class="shadow mb-1 accordion-color"
+        class="shadow mb-2 accordion-color"
       >
-        <div class="job" v-b-toggle="`${id}`">
+        <div v-b-toggle="`${id}`" class="job">
           <div class="job-img">
-            <a href="#"> <img :src="job.logo" :alt="job.company" /></a>
+            <a href="#">
+              <img :src="job.logo" :alt="job.company" />
+            </a>
           </div>
           <div class="job-content">
             <h3>{{ job.company }}</h3>
             <h4>{{ job.position }}</h4>
           </div>
           <div class="job-tags">
-            <p v-for="(item, id) in job.tags" :key="id">{{ item }}</p>
+            <p v-for="(item, jobId) in job.tags" :key="jobId">
+              {{ item }}
+            </p>
           </div>
 
           <div class="job-button">
@@ -42,29 +43,23 @@
         </div>
 
         <b-collapse :id="`${id}`" accordion="jobs-accordion" role="tabpanel">
-          <b-card no-body class="overflow-hidden mb-4">
-            <b-row no-gutters>
-              <b-col md="12">
-                <b-card-body class="">
-                  <b-card-title
-                    >{{ job.company }} | {{ job.position }}</b-card-title
-                  >
-                  <b-card-text
-                    ><b>Posting date: </b> {{ job.date }}
-                  </b-card-text>
-                  <b-card-text>
-                    {{ job.description }}
-                  </b-card-text>
-                  <b-card-text>
-                    <b>Location: </b>{{ job.location }}
-                  </b-card-text>
-                  <b-card-text>
-                    <a :href="job.address">Visit the job detail 👈</a>
-                  </b-card-text>
-                </b-card-body>
-              </b-col>
-            </b-row>
-          </b-card>
+          <b-card-body class="card">
+            <b-card-title>
+              {{ job.company }} | {{ job.position }}
+            </b-card-title>
+
+            <b-card-text> <b>Posting date: </b> {{ job.date }} </b-card-text>
+
+            <b-card-text>
+              {{ job.description }}
+            </b-card-text>
+
+            <b-card-text> <b>Location: </b>{{ job.location }} </b-card-text>
+
+            <b-card-text>
+              <a :href="job.address">Visit the job detail 👈</a>
+            </b-card-text>
+          </b-card-body>
         </b-collapse>
       </div>
     </div>
@@ -75,13 +70,14 @@
 export default {
   async fetch() {
     const { jobs } = await this.$content('jobs').fetch()
+
     this.jobs = jobs
   },
   data() {
     return { jobs: [] }
   },
   methods: {
-    jobButton: function (e) {
+    jobButton: (e) => {
       e.stopPropagation()
     },
   },
@@ -89,10 +85,27 @@ export default {
 </script>
 
 <style lang="scss">
+.jumbotron {
+  .description {
+    margin-bottom: 1rem;
+
+    p {
+      margin: 0rem;
+      font-style: oblique;
+    }
+
+  }
+}
+
 .accordion {
   .accordion-color {
     background-color: var(--color-ui-02);
     border: none;
+
+    .card {
+      border-radius: 0px 0px 0.25rem 0.25rem;
+      border-width: 0px;
+    }
   }
 }
 
@@ -101,18 +114,21 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  outline-color: transparent !important;
-  margin: 1rem 1rem;
+  outline: none;
+  padding: 1rem;
+
   // box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.5);
 
   &-img {
     a {
       text-decoration: none;
     }
+
     img {
       height: 48px;
     }
   }
+
   &-content {
     h3 {
       font-size: 16px;
@@ -121,16 +137,19 @@ export default {
       vertical-align: middle;
       font-weight: 400;
     }
+
     h4 {
       font-size: 18px;
       line-height: 1.5;
     }
   }
+
   &-tags {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
     p {
       border: 2px solid #0f1115;
       border-radius: 6px;
@@ -143,6 +162,7 @@ export default {
       vertical-align: middle;
     }
   }
+
   &-button {
     display: flex;
     &:hover a {
