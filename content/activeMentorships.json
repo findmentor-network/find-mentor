@@ -563,6 +563,12 @@
           "fmn_url": ""
         },
         {
+          "username": "pre-commit-ci[bot]",
+          "github_address": "https://github.com/apps/pre-commit-ci",
+          "avatar": "https://avatars.githubusercontent.com/pre-commit-ci[bot]",
+          "fmn_url": ""
+        },
+        {
           "username": "abdulniyaspm",
           "github_address": "https://github.com/abdulniyaspm",
           "avatar": "https://avatars.githubusercontent.com/abdulniyaspm",
@@ -572,12 +578,6 @@
           "username": "codacy-badger",
           "github_address": "https://github.com/codacy-badger",
           "avatar": "https://avatars.githubusercontent.com/codacy-badger",
-          "fmn_url": ""
-        },
-        {
-          "username": "pre-commit-ci[bot]",
-          "github_address": "https://github.com/apps/pre-commit-ci",
-          "avatar": "https://avatars.githubusercontent.com/pre-commit-ci[bot]",
           "fmn_url": ""
         },
         {
@@ -669,6 +669,21 @@
           "github_address": "https://github.com/BRTZL",
           "avatar": "https://avatars.githubusercontent.com/BRTZL",
           "fmn_url": "/peer/bartu-ozel"
+        }
+      ]
+    },
+    {
+      "": "28.12.2020 22:00:12",
+      "mentor": "https://findmentor.network/peer/erhan-yakut",
+      "project_adress": "https://github.com/yakuter/sitemap-checker",
+      "goal": "Bir websitesinin sitemap linklerinin geçerli (200) olup olmadıklarını kontrol eden go projesi.",
+      "slug": "sitemap-checker",
+      "contributors": [
+        {
+          "username": "yakuter",
+          "github_address": "https://github.com/yakuter",
+          "avatar": "https://avatars.githubusercontent.com/yakuter",
+          "fmn_url": "/peer/erhan-yakut"
         }
       ]
     }

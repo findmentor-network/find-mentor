@@ -63,7 +63,7 @@ export default {
       this.postList.hire.skip += this.postList.hire.limit
 
       const hire = await this.$content('persons')
-        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .where({ isHireable: true })
         .limit(this.postList.hire.limit)
         .skip(this.postList.hire.skip)
         .fetch()
