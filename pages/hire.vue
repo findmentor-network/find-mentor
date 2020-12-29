@@ -71,7 +71,7 @@ export default {
       this.postList.hire.items.push(...hire)
       $state.loaded()
 
-      if (mentees.length <= 0) {
+      if (hire.length <= 0) {
         $state.complete()
       }
     },
