@@ -12,14 +12,16 @@
         />
         GitHub
       </h2>
-      <hr />
+      <hr>
       <div class="app-tile readme" v-html="markdown" />
     </template>
 
     <!-- Active Mentorships -->
     <template v-if="person.mentorships.length > 0">
-      <h2 id="active-mentorships">Active Mentorships</h2>
-      <hr />
+      <h2 id="active-mentorships">
+        Active Mentorships
+      </h2>
+      <hr>
       <div class="app-tile accordion" role="tablist">
         <b-card
           v-for="(mentorship, index) in person.mentorships"
@@ -45,7 +47,7 @@
                   :key="cont.id"
                   :href="cont.github_address"
                 >
-                  <img class="cont-image" :src="cont.avatar" alt="" />
+                  <img class="cont-image" :src="cont.avatar" alt="">
                 </a>
               </div>
               <b-card-text v-if="projects[index]">
@@ -53,16 +55,16 @@
                   class="float-right"
                   :href="mentorship.project_adress"
                   target="_blank"
-                  >Go to project page</a
-                >
-                <hr />
+                >Go to project page</a>
+                <hr>
                 <div v-html="projects[index]" />
               </b-card-text>
               <b-card-text v-else>
                 This project does not have README.md file,
-                <a :href="mentorship.project_adress" target="_blank"
-                  >please visit project to see content.</a
-                >
+                <a
+                  :href="mentorship.project_adress"
+                  target="_blank"
+                >please visit project to see content.</a>
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -73,14 +75,16 @@
     <!-- Contributed Projects -->
     <template v-if="person.contributions.length">
       <h2>Contributed</h2>
-      <hr />
-      <div class="app-tile accordion" v-if="person.contributions.length">
+      <hr>
+      <div v-if="person.contributions.length" class="app-tile accordion">
         <div>
           <div
             v-for="(contribution, index) in person.contributions"
             :key="index"
           >
-            <h2 :href="contribution.mentor">{{ contribution.slug }}</h2>
+            <h2 :href="contribution.mentor">
+              {{ contribution.slug }}
+            </h2>
             <p>{{ contribution.goal }}</p>
 
             <div align="center">
@@ -89,14 +93,14 @@
                 :key="cont.id"
                 :href="cont.fmn_url || cont.github_address"
               >
-                <img class="cont-image" :src="cont.avatar" alt="" />
+                <img class="cont-image" :src="cont.avatar" alt="">
               </a>
             </div>
-            <br />
+            <br>
           </div>
         </div>
       </div>
-      <hr />
+      <hr>
     </template>
 
     <div class="row">
@@ -104,8 +108,10 @@
         <!-- Disqus -->
         <template>
           <h2>💬 Give Feedback</h2>
-          <hr />
-          <div id="disqus_thread" class="app-tile disqus_thread" />
+          <hr>
+          <div class="app-tile">
+            <Disqus class="disqus-thread" :shortname="disqus.shortName" :page-config="disqus.pageConfig" />
+          </div>
         </template>
       </div>
       <div class="col-lg-6">
@@ -118,8 +124,8 @@
             />
             Tweets
           </h2>
-          <hr />
-          <div class="twitter-wrapper">
+          <hr>
+          <div class="app-tile twitter-wrapper">
             <Timeline
               v-show="$colorMode.value === 'dark'"
               :id="twitterHandle"
@@ -140,32 +146,42 @@
 </template>
 
 <script>
+import { Disqus } from 'vue-disqus'
 import { Timeline } from 'vue-tweet-embed'
 import Markdown from '@nuxt/markdown'
 const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    Timeline,
+    Disqus,
+    Timeline
   },
   props: {
     person: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
-  data() {
+  data () {
     return {
       markdown: '',
       projects: [],
+      disqus: {
+        shortName: 'findmentor',
+        pageConfig: {
+          url: `https://findmentor.network${this.$route.fullPath}`,
+          identifier: `https://findmentor.network${this.$route.fullPath}`,
+          title: this.person.name || ''
+        }
+      }
     }
   },
   computed: {
-    twitterHandle() {
+    twitterHandle () {
       return this.person.twitter_handle.split('twitter.com/')[1]
-    },
+    }
   },
-  created() {
+  created () {
     if (this.person.github.length > 0) {
       this.renderMarkdown()
     }
@@ -174,7 +190,7 @@ export default {
     }
   },
   methods: {
-    async renderMarkdown() {
+    async renderMarkdown () {
       const username = this.person.github.replace(/\/$/gi, '').split('/').pop()
       const markdownContent = await fetch(
         `https://raw.githubusercontent.com/${username}/${username}/master/README.md`
@@ -188,7 +204,7 @@ export default {
       const { html } = await md.toMarkup(markdownContent)
       this.markdown = html
     },
-    async renderMentorshipProjects() {
+    async renderMentorshipProjects () {
       const requests = []
       this.person.mentorships.map((mentorship) => {
         const url = mentorship.project_adress.split('/').slice(3).join('/')
@@ -209,13 +225,13 @@ export default {
       })
       this.projects = await Promise.all(requests)
     },
-    getProfilePicture(username) {
+    getProfilePicture (username) {
       return `https://avatars.githubusercontent.com/${username}`
     },
-    getGithubLink(username) {
+    getGithubLink (username) {
       return `https://github.com/${username}`
-    },
-  },
+    }
+  }
 }
 </script>
 
@@ -225,7 +241,7 @@ export default {
 }
 
 .readme,
-.disqus_thread,
+.disqus-thread,
 .accordion {
   padding: 24px;
   margin-bottom: 36px;
@@ -239,9 +255,10 @@ export default {
   display: none;
 }
 
-.disqus_thread {
+.disqus-thread {
+  height: 580px;
   background-color: var(--color-disqus-thread) !important;
-  border-radius: 5px;
+  overflow-y: auto;
 }
 
 .accordion {
@@ -266,9 +283,8 @@ export default {
 
 .twitter-wrapper {
   width: 100%;
-  height: 520px;
-  overflow-y: scroll;
-  border-radius: 5px;
+  height: 580px;
+  overflow-y: auto;
 }
 
 @media (max-width: 900px) {

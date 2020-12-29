@@ -44,6 +44,7 @@
     "nuxt-change-case": "^1.0.1",
     "slugify": "^1.4.6",
     "vue-clamp": "^0.3.1",
+    "vue-disqus": "^4.0.1",
     "vue-infinite-loading": "^2.4.5",
     "vue-tweet-embed": "^2.4.0"
   },
