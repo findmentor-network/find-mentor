@@ -37,9 +37,7 @@
           </div>
 
           <div class="job-button">
-            <a :href="job.address"  target="_blank"
-              >Apply</a
-            >
+            <a :href="job.address" target="_blank">Apply</a>
           </div>
         </div>
 

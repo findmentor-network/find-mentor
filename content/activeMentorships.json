@@ -26,6 +26,12 @@
           "fmn_url": ""
         },
         {
+          "username": "ograsyilmaz",
+          "github_address": "https://github.com/ograsyilmaz",
+          "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
+          "fmn_url": "/peer/yilmaz-ogras"
+        },
+        {
           "username": "tansionline",
           "github_address": "https://github.com/tansionline",
           "avatar": "https://avatars.githubusercontent.com/tansionline",
@@ -36,12 +42,6 @@
           "github_address": "https://github.com/hasantezcan",
           "avatar": "https://avatars.githubusercontent.com/hasantezcan",
           "fmn_url": "/peer/hasan-tezcan"
-        },
-        {
-          "username": "ograsyilmaz",
-          "github_address": "https://github.com/ograsyilmaz",
-          "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
-          "fmn_url": "/peer/yilmaz-ogras"
         },
         {
           "username": "sevkioruc",
