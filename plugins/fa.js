@@ -5,7 +5,7 @@ import {
   faTwitter,
   faGithub,
   faLinkedin,
-  faDiscord,
+  faDiscord
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faArrowLeft,
@@ -14,6 +14,11 @@ import {
   faList,
   faSearch,
   faUserPlus,
+  faBriefcase,
+  faPaperPlane,
+  faClock,
+  faTimes,
+  faTimesCircle
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -26,7 +31,12 @@ library.add(
   faList,
   faSearch,
   faDiscord,
-  faUserPlus
+  faUserPlus,
+  faBriefcase,
+  faPaperPlane,
+  faClock,
+  faTimes,
+  faTimesCircle
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
