@@ -27,25 +27,27 @@
       <hr />
       <!-- Mentors -->
       <h2 class="title my-4">
-        <NuxtLink to="/mentors/"> 👉 Mentors </NuxtLink>
+        <NuxtLink to="/mentors/">
+          👉 Mentors
+          <b-badge>({{ info.mentorCount }} people)</b-badge></NuxtLink
+        >
       </h2>
       <PersonList :persons="mentors" strict-type="mentors" />
-      <NuxtLink class="float-right" to="/mentors/">
+      <NuxtLink class="text-center d-block mb-5" to="/mentors/">
         🤳 Click here for all mentors
       </NuxtLink>
-      <br />
-      <br />
 
       <!-- Mentees -->
-      <h2 class="title my-4">
-        <NuxtLink to="/mentees/"> 👉 Mentees </NuxtLink>
+      <h2 class="title mb-4 mt-5">
+        <NuxtLink to="/mentees/">
+          👉 Mentees
+          <b-badge>({{ info.menteeCount }} people)</b-badge></NuxtLink
+        >
       </h2>
       <PersonList :persons="mentees" strict-type="mentees" />
-      <NuxtLink class="float-right" to="/mentees/">
+      <NuxtLink class="text-center d-block mb-5" to="/mentees/">
         🤳 Click here for all mentees
       </NuxtLink>
-      <br />
-      <br />
     </div>
   </div>
 </template>
@@ -53,7 +55,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const [mentors, mentees, page] = await Promise.all([
+    const [mentors, mentees, page, info] = await Promise.all([
       $content('persons')
         .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
         .sortBy('registered_at', 'desc')
@@ -65,6 +67,7 @@ export default {
         .limit(16)
         .fetch(),
       $content('readme').fetch(),
+      $content('info').fetch(),
     ])
     const { contribs } = await $content('contribs').fetch()
     return {
@@ -72,6 +75,7 @@ export default {
       mentees,
       contribs,
       page,
+      info,
     }
   },
   data() {

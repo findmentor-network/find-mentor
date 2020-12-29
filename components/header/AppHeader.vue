@@ -62,7 +62,7 @@
           class="mr-2"
           text="GitHub"
           to="https://github.com/cagataycali/find-mentor"
-          bg-color="var(--color-github-01)"
+          bg-color="var(--color-github-00)"
         >
           <font-awesome-icon
             slot="prepend"

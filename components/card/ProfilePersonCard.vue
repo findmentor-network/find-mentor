@@ -261,7 +261,7 @@ export default {
       }
 
       &--github {
-        background-color: var(--color-github-01);
+        background-color: var(--color-github-00);
         &:hover {
           transition-timing-function: ease-in-out;
           -ms-transform: scale(1.05); /* IE 9 */

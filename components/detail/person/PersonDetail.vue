@@ -91,7 +91,7 @@
               <a
                 v-for="cont in contribution.contributors"
                 :key="cont.id"
-                :href="cont.github_address"
+                :href="cont.fmn_url || cont.github_address"
               >
                 <img class="cont-image" :src="cont.avatar" alt="">
               </a>

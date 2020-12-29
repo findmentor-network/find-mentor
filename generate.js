@@ -51,7 +51,7 @@ const generateAvatar = ({ name, github }) => {
 
 const fixProtocol = (url) => {
   return url
-    ? 'https://' + url.replace(/https?:\/\//gi, '').replace(/\/$/gi, '')
+    ? 'https://' + url.replace(/https?:\/\/|(www.)/gi, '').replace(/\/$/gi, '')
     : ''
 }
 
@@ -98,15 +98,29 @@ const getData = async () => {
     ])
 
     // clear data
-    let [persons, activeMentorships] = attendies.valueRanges
-    persons = clearData(mapper(persons.values.slice(4).filter((r) => r.length)))
+    let [people, activeMentorships] = attendies.valueRanges
+    people = clearData(mapper(people.values.slice(4).filter((r) => r.length)))
     activeMentorships = clearMentorships(
       mapper(activeMentorships.values.slice(1).filter((r) => r.length))
     )
-    activeMentorships = await getContributors(activeMentorships)
+    activeMentorships = await getContributors(activeMentorships, people)
+    let [menteeCount, mentorCount, both, total] = [0, 0, 0, 0]
+
+    // 500 x 4 = 2000 kere array icinde arama
 
     // find and place mentorships
-    persons.map((person) => {
+    people.map((person) => {
+      if (person.mentor === 'Mentee') {
+        menteeCount++
+      } else if (person.mentor === 'İkisi de') {
+        both++
+        mentorCount++
+        menteeCount++
+      } else if (person.mentor === 'Mentor') {
+        mentorCount++
+      }
+      total++
+
       person.mentorships = activeMentorships.filter((mentorship) => {
         if (mentorship.mentor.endsWith(person.slug)) {
           return mentorship
@@ -132,7 +146,7 @@ const getData = async () => {
 
     // check if contributor has find-mentor profile
     contribs.forEach((contrib) => {
-      for (const person of persons) {
+      for (const person of people) {
         if (person.github === contrib.html_url) {
           contrib.fmn_url = `https://findmentor.network/peer/${person.slug}`
           break
@@ -140,7 +154,12 @@ const getData = async () => {
       }
     })
 
-    const data = { persons, activeMentorships, contribs }
+    const data = {
+      persons: people,
+      activeMentorships,
+      contribs,
+      counts: { menteeCount, mentorCount, both, total },
+    }
     return { status: 200, data }
   } catch (err) {
     // eslint-disable-next-line no-console
@@ -157,13 +176,16 @@ async function makeContent(name, data) {
 }
 
 // entry point
-getData().then(({ status, data: { persons, activeMentorships, contribs } }) => {
-  if (status !== 200) {
-    throw new Error('Error when fetching data from spreadsheet')
-  }
+getData().then(
+  ({ status, data: { persons, activeMentorships, contribs, counts } }) => {
+    if (status !== 200) {
+      throw new Error('Error when fetching data from spreadsheet')
+    }
 
-  const mentorships = activeMentorships
-  makeContent('persons', persons)
-  makeContent('activeMentorships', { mentorships })
-  makeContent('contribs', { contribs })
-})
+    const mentorships = activeMentorships
+    makeContent('persons', persons)
+    makeContent('activeMentorships', { mentorships })
+    makeContent('contribs', { contribs })
+    makeContent('info', counts)
+  }
+)

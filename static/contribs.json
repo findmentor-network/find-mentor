@@ -19,7 +19,7 @@
       "received_events_url": "https://api.github.com/users/cagataycali/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 151,
+      "contributions": 157,
       "fmn_url": "https://findmentor.network/peer/cagatay-cali"
     },
     {
@@ -128,7 +128,8 @@
       "received_events_url": "https://api.github.com/users/hasantezcan/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 14
+      "contributions": 15,
+      "fmn_url": "https://findmentor.network/peer/hasan-tezcan"
     },
     {
       "login": "alpercun",
@@ -371,6 +372,28 @@
       "fmn_url": "https://findmentor.network/peer/kemal-ayhan"
     },
     {
+      "login": "mbugrayildiz",
+      "id": 60688421,
+      "node_id": "MDQ6VXNlcjYwNjg4NDIx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/60688421?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbugrayildiz",
+      "html_url": "https://github.com/mbugrayildiz",
+      "followers_url": "https://api.github.com/users/mbugrayildiz/followers",
+      "following_url": "https://api.github.com/users/mbugrayildiz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbugrayildiz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbugrayildiz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbugrayildiz/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbugrayildiz/orgs",
+      "repos_url": "https://api.github.com/users/mbugrayildiz/repos",
+      "events_url": "https://api.github.com/users/mbugrayildiz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbugrayildiz/received_events",
+      "type": "User",
+      "site_admin": false,
+      "contributions": 4,
+      "fmn_url": "https://findmentor.network/peer/mustafa-b.-yildiz"
+    },
+    {
       "login": "snowron",
       "id": 35639836,
       "node_id": "MDQ6VXNlcjM1NjM5ODM2",
@@ -502,26 +525,26 @@
       "fmn_url": "https://findmentor.network/peer/atamyrat-abdyrahmanov"
     },
     {
-      "login": "mbugrayildiz",
-      "id": 60688421,
-      "node_id": "MDQ6VXNlcjYwNjg4NDIx",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/60688421?v=4",
+      "login": "BerkanSezer",
+      "id": 31102191,
+      "node_id": "MDQ6VXNlcjMxMTAyMTkx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/31102191?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/mbugrayildiz",
-      "html_url": "https://github.com/mbugrayildiz",
-      "followers_url": "https://api.github.com/users/mbugrayildiz/followers",
-      "following_url": "https://api.github.com/users/mbugrayildiz/following{/other_user}",
-      "gists_url": "https://api.github.com/users/mbugrayildiz/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/mbugrayildiz/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/mbugrayildiz/subscriptions",
-      "organizations_url": "https://api.github.com/users/mbugrayildiz/orgs",
-      "repos_url": "https://api.github.com/users/mbugrayildiz/repos",
-      "events_url": "https://api.github.com/users/mbugrayildiz/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/mbugrayildiz/received_events",
+      "url": "https://api.github.com/users/BerkanSezer",
+      "html_url": "https://github.com/BerkanSezer",
+      "followers_url": "https://api.github.com/users/BerkanSezer/followers",
+      "following_url": "https://api.github.com/users/BerkanSezer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BerkanSezer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BerkanSezer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BerkanSezer/subscriptions",
+      "organizations_url": "https://api.github.com/users/BerkanSezer/orgs",
+      "repos_url": "https://api.github.com/users/BerkanSezer/repos",
+      "events_url": "https://api.github.com/users/BerkanSezer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BerkanSezer/received_events",
       "type": "User",
       "site_admin": false,
       "contributions": 1,
-      "fmn_url": "https://findmentor.network/peer/mustafa-b.-yildiz"
+      "fmn_url": "https://findmentor.network/peer/berkan-sezer"
     },
     {
       "login": "mesutcifci",
