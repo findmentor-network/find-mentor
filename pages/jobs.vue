@@ -22,7 +22,7 @@
         v-for="(job, id) in jobs"
         :key="id"
         no-body
-        class="mb-1 accordion-color"
+        class="shadow mb-1 accordion-color"
       >
         <div class="job" v-b-toggle="`${id}`">
           <div class="job-img">
@@ -37,7 +37,9 @@
           </div>
 
           <div class="job-button">
-            <a :href="job.address">Apply</a>
+            <a :href="job.address"  target="_blank"
+              >Apply</a
+            >
           </div>
         </div>
 
@@ -80,6 +82,11 @@ export default {
   data() {
     return { jobs: [] }
   },
+  methods: {
+    jobButton: function (e) {
+      e.stopPropagation()
+    },
+  },
 }
 </script>
 
@@ -97,6 +104,9 @@ export default {
   align-items: center;
   justify-content: space-between;
   outline-color: transparent !important;
+  margin: 1rem 1rem;
+  // box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.5);
+
   &-img {
     a {
       text-decoration: none;
@@ -138,10 +148,10 @@ export default {
   &-button {
     display: flex;
     &:hover a {
-      visibility: visible;
+      // visibility: visible;
     }
     a {
-      visibility: hidden;
+      // visibility: hidden;
       padding: 4px;
 
       text-align: center;
