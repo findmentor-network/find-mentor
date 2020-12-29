@@ -95,6 +95,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   outline-color: transparent !important;
   &-img {
     a {
@@ -121,6 +122,7 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     p {
       border: 2px solid #0f1115;
       border-radius: 6px;
@@ -135,21 +137,23 @@ export default {
   }
   &-button {
     display: flex;
+
     a {
-      visibility: hidden;
-      padding: 7px;
-      user-select: none;
+      opacity: 0;
+      padding: 4px;
+
       text-align: center;
       border: 2px solid transparent;
       vertical-align: middle;
-      font-weight: 800;
-      display: inline-block;
+      font-weight: 400;
+
       border-radius: 6px;
       background-color: #ff4742;
       color: #fff;
       font-size: 16px;
       &:hover {
-        visibility: visible !important;
+        opacity: 1;
+        background-color: blue;
       }
     }
   }
