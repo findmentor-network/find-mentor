@@ -1448,6 +1448,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "29.12.2020 11:58:06",
+      "profile": "https://findmentor.network/peer/ogulcan-eristi",
+      "mail": "ogulcaneristi123@gmail.com",
+      "person": {
+        "registered_at": "",
+        "name": "Oğulcan Erişti",
+        "twitter_handle": "https://twitter.com/ogulcaanX",
+        "github": "https://github.com/olcaneristi",
+        "linkedin": "https://linkedin.com/in/ogulcaneristi",
+        "interests": "frontend (react), mern stack",
+        "goals": "I am a Senior grade MIS student and I am trying to improve myself on Frontend (React). I need a mentor who can guide me on behalf of my career and share his experiences with me.",
+        "mentor": "Mentee",
+        "slug": "ogulcan-eristi",
+        "avatar": "https://avatars.githubusercontent.com/olcaneristi",
+        "displayInterests": "Frontend (React), MERN Stack",
+        "isHireable": true,
+        "mail": "ogulcaneristi123@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
