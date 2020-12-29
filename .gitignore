@@ -80,6 +80,9 @@ typings/
 # IDE / Editor
 .idea
 
+# Visual Studio
+.vs
+
 # Service worker
 sw.*
 

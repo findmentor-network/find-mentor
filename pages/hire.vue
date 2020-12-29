@@ -5,7 +5,7 @@
 
       <h3>
         <a href="https://forms.gle/RnBV3sPzr8YnDjRY9"
-          >Add yourself as a Hireable!</a
+        >Add yourself as a Hireable!</a
         >
       </h3>
 
@@ -31,7 +31,7 @@
       <h4>
         <a
           href="https://github.com/cagataycali/find-mentor/blob/master/pages/hire.vue"
-          >Contribute this page</a
+        >Contribute this page</a
         >
       </h4>
     </div>
@@ -41,7 +41,7 @@
 <script>
 export default {
   async fetch() {
-    this.postList.hire.items = await this.$content('persons')
+    this.postList.hire.items = await this.$content("persons")
       .where({ isHireable: true })
       .limit(this.postList.hire.limit)
       .skip(this.postList.hire.skip)
@@ -53,20 +53,30 @@ export default {
         hire: {
           items: [],
           limit: 16,
-          skip: 0,
-        },
-      },
+          skip: 0
+        }
+      }
     }
   },
   methods: {
     async loadMorePersons($state) {
       this.postList.hire.skip += this.postList.hire.limit
 
-      const hire = await this.$content('persons')
+      const hire = await this.$content("persons")
         .where({ isHireable: true })
         .limit(this.postList.hire.limit)
         .skip(this.postList.hire.skip)
         .fetch()
+
+      // Temporary for duplicated record
+      this.postList.hire.items.some((p, index) => {
+        hire.some((pers) => {
+          if (p.slug.includes(pers.slug)) {
+            this.postList.hire.items.splice(index, 1)
+          }
+        })
+      })
+      // Temporary for duplicated record END
 
       this.postList.hire.items.push(...hire)
       $state.loaded()
@@ -74,8 +84,8 @@ export default {
       if (hire.length <= 0) {
         $state.complete()
       }
-    },
-  },
+    }
+  }
 }
 </script>
 
