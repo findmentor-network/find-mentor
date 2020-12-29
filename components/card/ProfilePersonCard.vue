@@ -29,7 +29,7 @@
               {{ getCapitalPersonName({ model: person.name }) }}
             </div>
             <app-badge
-              :bg-color="
+              :border-color="
                 getPersonTypeColor({ model: $lowerCase(person.mentor) })
               "
               :text-color="
@@ -38,14 +38,16 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
-            <app-badge
-              v-if="person.isHireable"
-              bg-color="var(--color-text-05)"
-              text-color="var(--color-text-05)"
-              @click="hireMe"
-            >
-              HIRE ME!
-            </app-badge>
+            <a :href="`mailto:${this.person.mail}`"> 
+              <app-badge
+                v-if="person.isHireable"
+                bg-color="var(--color-ui-04)"
+                text-color="#fff"
+              >
+                HIRE ME ! 
+              </app-badge>
+            </a>
+            
             <br />
             <template v-if="person.mentor != 'Mentee'">
               <a
@@ -173,11 +175,7 @@ export default {
       required: true,
     },
   },
-  methods: {
-    hireMe() {
-      alert(1)
-      window.open(this.person.mail, '_blank')
-    },
+  methods: {    
   },
   computed: {
     askForMentorShipLink() {

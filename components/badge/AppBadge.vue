@@ -16,7 +16,12 @@ export default {
     bgColor: {
       type: String,
       required: false,
-      default: 'var(--color-ui-06)',
+      default: 'transparent',
+    },
+    borderColor: {
+      type: String,
+      required: false,
+      default: 'transparent',
     },
     textColor: {
       type: String,
@@ -26,7 +31,7 @@ export default {
   },
   computed: {
     colorStyle() {
-      return `border-color: ${this.bgColor}; color: ${this.textColor}`
+      return `background-color: ${this.bgColor}; border-color: ${this.borderColor}; color: ${this.textColor}`
     },
   },
 }

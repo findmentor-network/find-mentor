@@ -22,7 +22,7 @@
     </v-clamp>
     <app-badge
       class="person-navigation-button__personType"
-      :bg-color="getPersonTypeColor({ model: person.mentor })"
+      :border-color="getPersonTypeColor({ model: person.mentor })"
       :text-color="getPersonTypeColor({ model: person.mentor })"
     >
       {{ getPersonTypeLabel({ model: person.mentor }) }}
