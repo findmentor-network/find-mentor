@@ -24,7 +24,7 @@
 export default {
   async fetch() {
     const { jobs } = await this.$content('jobs').fetch()
-    this.jobs = jobs
+    this.jobs = jobs.reverse()
   },
   data() {
     return { jobs: [] }

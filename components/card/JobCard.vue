@@ -10,8 +10,6 @@
         .job-card__position.d-flex.justify-content-center.justify-content-lg-start.align-items-center
           font-awesome-icon.mr-2(color="var(--color-text-02)" :icon="['fas', 'briefcase']")
           span {{ job.position }}
-        .job-card__description
-          v-clamp(autoresize :max-lines="1") {{ job.description }}
         .job-card__tags
           template(v-for="tag in job.tags")
             b-badge.mr-2.mb-1(:variant="$colorMode.value") {{ tag }}
@@ -37,7 +35,8 @@
         .job-card__position.d-flex.justify-content-center.align-items-center
           font-awesome-icon.mr-2(color="var(--color-text-02)" :icon="['fas', 'briefcase']")
           span {{ job.position }}
-        p.job-card__description {{ job.description }}
+        p.job-card__description
+        .job-card__markdown(v-html='markdown')
         .job-card__tags
           template(v-for="tag in job.tags")
             b-badge.mr-2(:variant="$colorMode.value") {{ tag }}
@@ -56,6 +55,8 @@
 
 <script>
 import VClamp from 'vue-clamp'
+import Markdown from '@nuxt/markdown'
+const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
@@ -70,7 +71,11 @@ export default {
   data() {
     return {
       isVisibleDetail: false,
+      markdown: ''
     }
+  },
+  created() {
+    this.renderMarkdown()
   },
   methods: {
     dateConvertDMY(date) {
@@ -91,6 +96,10 @@ export default {
     },
     setBaseDocumentTitle() {
       document.title = `${process.env.app.title}`
+    },
+    async renderMarkdown() {
+      const { html } = await md.toMarkup(this.job.description)
+      this.markdown = html
     },
   },
 }
@@ -127,6 +136,10 @@ export default {
   &__position {
     color: var(--color-text-02);
     font-size: 18px;
+  }
+
+  &__markdown {
+    text-align: left;
   }
 
   &__description {
@@ -171,7 +184,7 @@ export default {
       }
 
       &__tags {
-        margin-bottom: 1rem;
+        margin-top: 1rem;
 
         @include mq($until: desktop) {
           width: 100%;
