@@ -23,7 +23,7 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
-            <a :href="`mailto:${this.person.mail}`">
+            <a :href="getHireMailContent">
               <app-badge v-if="person.isHireable" bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
             </a>
 
@@ -129,6 +129,24 @@ export default {
   computed: {
     askForMentorShipLink() {
       return `${this.person.twitter_handle ? this.person.twitter_handle : this.person.linkedin || this.person.github}`
+    },
+    getHireMailContent() {
+      // We will count every job contact over here. Inject email tracker.
+      const subject = `Job Opportunity for ${this.person.name} | findmentor.network hiring`
+      const body = `
+I came across your profile from https://findmentor.network/${this.person.slug}/
+%0D%0A
+I've a job opportunity for you.
+%0D%0A%0D%0A
+Company name:%0D%0A
+Remote/Location:%0D%0A
+Position:%0D%0A
+Description of job:%0D%0A
+Qualifications:%0D%0A
+%0D%0A%0D%0A%0D%0A
+Best,%0D%0A
+`
+      return `mailto:${this.person.mail}?subject=${subject}&body=${body}`
     },
     profileCardStyleAsPersonType() {
       return `
