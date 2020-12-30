@@ -686,6 +686,21 @@
           "fmn_url": "/peer/erhan-yakut"
         }
       ]
+    },
+    {
+      "": "30.12.2020 17:13:31",
+      "mentor": "https://findmentor.network/peer/murat-terzioglu",
+      "project_adress": "https://github.com/muraterzioglu/djs-cli",
+      "goal": "Discord.js son zamanlarda aldığı güncellemeler ile birlikte gitgide komplike bir hal almaya başladı ve kendimi typescript alanında geliştirmek adına yaptığım bir çalışma.",
+      "slug": "djs-cli",
+      "contributors": [
+        {
+          "username": "muraterzioglu",
+          "github_address": "https://github.com/muraterzioglu",
+          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+          "fmn_url": "/peer/murat-terzioglu"
+        }
+      ]
     }
   ]
 }

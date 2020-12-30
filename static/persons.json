@@ -7110,6 +7110,21 @@
             "fmn_url": "/peer/batuhan-isildak"
           }
         ]
+      },
+      {
+        "": "30.12.2020 17:13:31",
+        "mentor": "https://findmentor.network/peer/murat-terzioglu",
+        "project_adress": "https://github.com/muraterzioglu/djs-cli",
+        "goal": "Discord.js son zamanlarda aldığı güncellemeler ile birlikte gitgide komplike bir hal almaya başladı ve kendimi typescript alanında geliştirmek adına yaptığım bir çalışma.",
+        "slug": "djs-cli",
+        "contributors": [
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
+          }
+        ]
       }
     ],
     "contributions": [
@@ -7375,6 +7390,21 @@
             "avatar": "https://avatars.githubusercontent.com/tnhn-krmn",
             "fmn_url": "/peer/tunahan-karaman"
           },
+          {
+            "username": "muraterzioglu",
+            "github_address": "https://github.com/muraterzioglu",
+            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+            "fmn_url": "/peer/murat-terzioglu"
+          }
+        ]
+      },
+      {
+        "": "30.12.2020 17:13:31",
+        "mentor": "https://findmentor.network/peer/murat-terzioglu",
+        "project_adress": "https://github.com/muraterzioglu/djs-cli",
+        "goal": "Discord.js son zamanlarda aldığı güncellemeler ile birlikte gitgide komplike bir hal almaya başladı ve kendimi typescript alanında geliştirmek adına yaptığım bir çalışma.",
+        "slug": "djs-cli",
+        "contributors": [
           {
             "username": "muraterzioglu",
             "github_address": "https://github.com/muraterzioglu",
@@ -10354,6 +10384,22 @@
     "slug": "nc",
     "avatar": "https://avatars.githubusercontent.com/sucremad",
     "displayInterests": "Cyber Security",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "30.12.2020 17:09:33",
+    "name": "Mert PİRE",
+    "twitter_handle": "https://twitter.com/mmertpire",
+    "github": "https://github.com/mertpire",
+    "linkedin": "https://linkedin.com/in/mert-pire-84752915b",
+    "interests": "frontend",
+    "goals": "I want to work with professional people with professional way.",
+    "mentor": "Mentor",
+    "slug": "mert-pire",
+    "avatar": "https://avatars.githubusercontent.com/mertpire",
+    "displayInterests": "frontend",
     "isHireable": false,
     "mentorships": [],
     "contributions": []
