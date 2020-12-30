@@ -36,7 +36,7 @@
           font-awesome-icon.mr-2(color="var(--color-text-02)" :icon="['fas', 'briefcase']")
           span {{ job.position }}
         p.job-card__description
-        .job-card__markdown(v-html='markdown')
+        .job-card__markdown(v-html="markdown")
         .job-card__tags
           template(v-for="tag in job.tags")
             b-badge.mr-2(:variant="$colorMode.value") {{ tag }}
@@ -71,7 +71,7 @@ export default {
   data() {
     return {
       isVisibleDetail: false,
-      markdown: ''
+      markdown: '',
     }
   },
   created() {
