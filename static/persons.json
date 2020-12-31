@@ -10454,6 +10454,38 @@
     "contributions": []
   },
   {
+    "registered_at": "31.12.2020 19:43:57",
+    "name": "Halil CAN",
+    "twitter_handle": "",
+    "github": "https://github.com/1halilcan",
+    "linkedin": "https://linkedin.com/in/halil-c-678923167",
+    "interests": "frontend,backend",
+    "goals": "I want to improve myself on full stack",
+    "mentor": "Mentor",
+    "slug": "halil-can",
+    "avatar": "https://avatars.githubusercontent.com/1halilcan",
+    "displayInterests": "frontend,backend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "31.12.2020 23:26:01",
+    "name": "Ahmet Can Güven",
+    "twitter_handle": "",
+    "github": "https://github.com/Acanguven",
+    "linkedin": "https://linkedin.com/in/acanguven",
+    "interests": "astronomy",
+    "goals": "\"I want to plant marijuana on the moon",
+    "mentor": "Both",
+    "slug": "ahmet-can-guven",
+    "avatar": "https://avatars.githubusercontent.com/Acanguven",
+    "displayInterests": "Astronomy",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
