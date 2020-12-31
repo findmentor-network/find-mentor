@@ -1470,6 +1470,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "31.12.2020 00:53:16",
+      "profile": "https://findmentor.network/peer/halilullah-demiray",
+      "mail": "dhalilullah@gmail.com",
+      "person": {
+        "registered_at": "24.12.2020 02:19:08",
+        "name": "Halilullah Demiray",
+        "twitter_handle": "https://twitter.com/hdemiray",
+        "github": "https://github.com/hdemiray",
+        "linkedin": "https://linkedin.com/mwlite/in/halilullah-demiray-b20755202",
+        "interests": "full stack web development",
+        "goals": "I want to improve myself on back end with my mentor and that's excites me.",
+        "mentor": "Mentee",
+        "slug": "halilullah-demiray",
+        "avatar": "https://avatars.githubusercontent.com/hdemiray",
+        "displayInterests": "Full Stack Web Development",
+        "isHireable": true,
+        "mail": "dhalilullah@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

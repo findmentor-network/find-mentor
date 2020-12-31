@@ -9726,7 +9726,8 @@
     "slug": "halilullah-demiray",
     "avatar": "https://avatars.githubusercontent.com/hdemiray",
     "displayInterests": "Full Stack Web Development",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "dhalilullah@gmail.com",
     "mentorships": [],
     "contributions": []
   },
