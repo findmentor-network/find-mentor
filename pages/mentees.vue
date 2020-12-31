@@ -25,7 +25,7 @@
 export default {
   async fetch() {
     this.postList.mentee.items = await this.$content('persons')
-      .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+      .where({ mentor: { $in: ['Mentee', 'İkisi de', 'Both'] } })
       .limit(this.postList.mentee.limit)
       .skip(this.postList.mentee.skip)
       .fetch()
@@ -46,7 +46,7 @@ export default {
       this.postList.mentee.skip += this.postList.mentee.limit
 
       const mentees = await this.$content('persons')
-        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .where({ mentor: { $in: ['Mentee', 'İkisi de', 'Both'] } })
         .limit(this.postList.mentee.limit)
         .skip(this.postList.mentee.skip)
         .fetch()

@@ -111,7 +111,7 @@ const getData = async () => {
     people.map((person) => {
       if (person.mentor === 'Mentee') {
         menteeCount++
-      } else if (person.mentor === 'İkisi de') {
+      } else if (person.mentor === 'İkisi de' || person.mentor === 'Both') {
         both++
         mentorCount++
         menteeCount++

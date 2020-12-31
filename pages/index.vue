@@ -47,12 +47,12 @@ export default {
   async asyncData({ $content }) {
     const [mentors, mentees, page, info] = await Promise.all([
       $content('persons')
-        .where({ mentor: { $in: ['Mentor', 'İkisi de'] } })
+        .where({ mentor: { $in: ['Mentor', 'İkisi de', 'Both'] } })
         .sortBy('registered_at', 'desc')
         .limit(16)
         .fetch(),
       $content('persons')
-        .where({ mentor: { $in: ['Mentee', 'İkisi de'] } })
+        .where({ mentor: { $in: ['Mentee', 'İkisi de', 'Both'] } })
         .sortBy('registered_at', 'desc')
         .limit(16)
         .fetch(),
