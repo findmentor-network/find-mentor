@@ -3395,7 +3395,8 @@
     "slug": "sezgi-altan",
     "avatar": "https://avatars.githubusercontent.com/Szqii",
     "displayInterests": "Front-end, especially Vue.js",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "szqii.altn@gmail.com",
     "mentorships": [],
     "contributions": []
   },
@@ -10482,6 +10483,22 @@
     "slug": "ahmet-can-guven",
     "avatar": "https://avatars.githubusercontent.com/Acanguven",
     "displayInterests": "Astronomy",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "01.01.2021 16:48:27",
+    "name": "Mert PİRE",
+    "twitter_handle": "https://twitter.com/mmertpire",
+    "github": "https://github.com/mertpire",
+    "linkedin": "https://linkedin.com/in/mert-pire-84752915b",
+    "interests": "frontend",
+    "goals": "I want to work with professional people with professional ways.",
+    "mentor": "Mentor",
+    "slug": "mert-pire",
+    "avatar": "https://avatars.githubusercontent.com/mertpire",
+    "displayInterests": "frontend",
     "isHireable": false,
     "mentorships": [],
     "contributions": []

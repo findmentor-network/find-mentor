@@ -1492,6 +1492,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "01.01.2021 15:16:55",
+      "profile": "https://findmentor.network/peer/sezgi-altan",
+      "mail": "szqii.altn@gmail.com",
+      "person": {
+        "registered_at": "09.12.2020 10:07:21",
+        "name": "Sezgi Altan",
+        "twitter_handle": "https://twitter.com/Szq_ii",
+        "github": "https://github.com/Szqii",
+        "linkedin": "https://linkedin.com/in/sezgi-altan",
+        "interests": "front-end, especially vue.js",
+        "goals": "I want to be a front-end developer so, I should learn everything about it. ",
+        "mentor": "Mentee",
+        "slug": "sezgi-altan",
+        "avatar": "https://avatars.githubusercontent.com/Szqii",
+        "displayInterests": "Front-end, especially Vue.js",
+        "isHireable": true,
+        "mail": "szqii.altn@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
