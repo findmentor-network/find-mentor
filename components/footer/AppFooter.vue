@@ -36,16 +36,16 @@
           </b-col>
           <b-col md="3" sm="12">
             <h5>Social</h5>
-            <div class="list">
-              <div class="list-item">
-                <b-link target="_blank" href="https://twitter.com/findmentorapp">Twitter</b-link>
-              </div>
-              <div class="list-item">
-                <b-link target="_blank" href="https://www.youtube.com/channel/UCx7Q-6Qqrf9TU5gY-i9xovA">YouTube</b-link>
-              </div>
-              <div class="list-item">
-                <b-link target="_blank" href="https://www.linkedin.com/company/find-mentor-network">Linkedin</b-link>
-              </div>
+             <div class="list mt-4">
+              <b-link target="_blank" href="https://twitter.com/findmentorapp">
+                <font-awesome-icon class="social-media__icon" :icon="['fab', 'twitter']" size="2x" />
+              </b-link>
+              <b-link target="_blank" href="https://www.youtube.com/channel/UCx7Q-6Qqrf9TU5gY-i9xovA"
+                ><font-awesome-icon class="social-media__icon mr-1" :icon="['fab', 'youtube']" size="2x" />
+              </b-link>
+              <b-link target="_blank" href="https://www.linkedin.com/company/find-mentor-network"
+                ><font-awesome-icon class="social-media__icon" :icon="['fab', 'linkedin']" size="2x" />
+              </b-link>
             </div>
           </b-col>
         </b-row>
