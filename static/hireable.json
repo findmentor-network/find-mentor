@@ -1514,6 +1514,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "01.01.2021 20:47:16",
+      "profile": "https://findmentor.network/peer/yunus-yilmaz",
+      "mail": "yunusyilmazz34@gmail.com",
+      "person": {
+        "registered_at": "20.12.2020 20:21:08",
+        "name": "Yunus Yılmaz",
+        "twitter_handle": "https://twitter.com/yy34__",
+        "github": "https://github.com/yy34",
+        "linkedin": "https://linkedin.com/in/yy34",
+        "interests": "frontend, backend, mobile development (react native),ui/ux",
+        "goals": "Elimden geldiğince insanların isteklerini bilgisayar denen makineye anlatmaya çalışan bir developerım.",
+        "mentor": "Mentee",
+        "slug": "yunus-yilmaz",
+        "avatar": "https://avatars.githubusercontent.com/yy34",
+        "displayInterests": "Frontend, Backend, Mobile Development (React Native),UI/UX",
+        "isHireable": true,
+        "mail": "yunusyilmazz34@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

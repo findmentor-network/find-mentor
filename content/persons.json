@@ -8637,7 +8637,8 @@
     "slug": "yunus-yilmaz",
     "avatar": "https://avatars.githubusercontent.com/yy34",
     "displayInterests": "Frontend, Backend, Mobile Development (React Native),UI/UX",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "yunusyilmazz34@gmail.com",
     "mentorships": [],
     "contributions": []
   },
