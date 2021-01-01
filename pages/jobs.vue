@@ -29,6 +29,66 @@ export default {
   data() {
     return { jobs: [] }
   },
+  head() {
+    const title = 'Job Listing | Find Mentor & Mentees Network'
+    const description = `${this.jobs.length} job listing exists. Due to the natural need in our mentor and mentee finding platform, where more than 10 thousand pages are viewed daily, the community needs to list job postings. We can help us deliver your posting to more people.`
+    const icon = 'https://findmentor.network/icon.png'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: icon,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: icon,
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: icon,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: description,
+        },
+      ],
+    }
+  },
 }
 </script>
 
@@ -47,7 +107,6 @@ export default {
   justify-content: space-between;
   outline-color: transparent !important;
   margin: 1rem 1rem;
-  // box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.5);
 
   &-img {
     a {
@@ -89,11 +148,7 @@ export default {
   }
   &-button {
     display: flex;
-    &:hover a {
-      // visibility: visible;
-    }
     a {
-      // visibility: hidden;
       padding: 4px;
 
       text-align: center;
@@ -105,10 +160,6 @@ export default {
       background-color: #ff4742;
       color: #fff;
       font-size: 16px;
-      // &:hover {
-      //   visibility: visible;
-      //   background-color: blue;
-      // }
     }
   }
 }

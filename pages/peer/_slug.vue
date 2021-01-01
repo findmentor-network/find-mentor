@@ -58,58 +58,65 @@ export default {
     }
   },
   head() {
+    if (!this.person) {
+      return
+    }
+    const { name, mentor, interests, avatar } = this.person
+    const title = `${name} | ${mentor === 'Both' ? 'Mentor & Mentee' : mentor}`
+    const description = `${name} - ${interests}`
+    const icon = 'https://findmentor.network/icon.png'
     return {
-      title: this.person ? this.person.name : 'Peer',
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
+          content: description,
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: this.person ? this.person.name : 'Peer',
+          content: title,
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.person ? this.person.avatar : 'Avatar',
+          content: avatar,
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: this.person ? this.person.name : 'Peer',
+          content: title,
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.person ? this.person.name : 'Peer',
+          content: title,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.person ? `${this.person.name} - ${this.person.interests}` : 'Peer',
+          content: description,
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.person ? this.person.avatar : 'Avatar',
+          content: avatar,
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.person ? this.person.avatar : 'Avatar',
+          content: avatar,
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: this.person ? this.person.name : 'Peer',
+          content: title,
         },
       ],
     }

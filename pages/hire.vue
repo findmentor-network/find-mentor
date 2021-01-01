@@ -35,6 +35,7 @@ export default {
   async fetch() {
     this.postList.hire.items = await this.$content('persons')
       .where({ isHireable: true })
+      .sortBy('createdAt', 'desc')
       .limit(this.postList.hire.limit)
       .skip(this.postList.hire.skip)
       .fetch()
@@ -56,6 +57,7 @@ export default {
 
       const hire = await this.$content('persons')
         .where({ isHireable: true })
+        .sortBy('createdAt', 'desc')
         .limit(this.postList.hire.limit)
         .skip(this.postList.hire.skip)
         .fetch()
@@ -67,6 +69,66 @@ export default {
         $state.complete()
       }
     },
+  },
+  head() {
+    const title = 'Job Seekers | Find Mentor & Mentees Network'
+    const description = `Discover job seekers!`
+    const icon = 'https://findmentor.network/icon.png'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: icon,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: icon,
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: icon,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: description,
+        },
+      ],
+    }
   },
 }
 </script>
