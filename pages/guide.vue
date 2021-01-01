@@ -42,6 +42,66 @@ export default {
       }
     },
   },
+  head() {
+    const title = 'How It Works? | Find Mentor & Mentees Network'
+    const description = `Find a mentor or mentee is hard, we fix that problem in a naive way. You'll find out how we fix it on this page.`
+    const icon = 'https://findmentor.network/icon.png'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: icon,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: icon,
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: icon,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: description,
+        },
+      ],
+    }
+  },
 }
 </script>
 

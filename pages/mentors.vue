@@ -24,11 +24,17 @@
 <script>
 export default {
   async fetch() {
-    this.postList.mentor.items = await this.$content('persons')
-      .where({ mentor: { $in: ['Mentor', 'İkisi de', 'Both'] } })
-      .limit(this.postList.mentor.limit)
-      .skip(this.postList.mentor.skip)
-      .fetch()
+    const [info, items] = await Promise.all([
+      this.$content('info').fetch(),
+      this.$content('persons')
+        .where({ mentor: { $in: ['Mentor', 'Both'] } })
+        .sortBy('registered_at', 'desc')
+        .limit(this.postList.mentor.limit)
+        .skip(this.postList.mentor.skip)
+        .fetch(),
+    ])
+    this.postList.mentor.items = items
+    this.info = info
     this.isLoading = false
   },
   data() {
@@ -41,6 +47,7 @@ export default {
           skip: 0,
         },
       },
+      info: {},
     }
   },
   methods: {
@@ -48,7 +55,8 @@ export default {
       this.postList.mentor.skip += this.postList.mentor.limit
 
       const mentors = await this.$content('persons')
-        .where({ mentor: { $in: ['Mentor', 'İkisi de', 'Both'] } })
+        .where({ mentor: { $in: ['Mentor', 'Both'] } })
+        .sortBy('registered_at', 'desc')
         .limit(this.postList.mentor.limit)
         .skip(this.postList.mentor.skip)
         .fetch()
@@ -60,6 +68,66 @@ export default {
         $state.complete()
       }
     },
+  },
+  head() {
+    const title = 'Mentors | Find Mentor & Mentees Network'
+    const description = `${this.info.mentorCount} mentor is actually teaching here, join us!`
+    const icon = 'https://findmentor.network/icon.png'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: icon,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: icon,
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: icon,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: description,
+        },
+      ],
+    }
   },
 }
 </script>

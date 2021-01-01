@@ -47,12 +47,12 @@ export default {
   async asyncData({ $content }) {
     const [mentors, mentees, page, info] = await Promise.all([
       $content('persons')
-        .where({ mentor: { $in: ['Mentor', 'İkisi de', 'Both'] } })
+        .where({ mentor: { $in: ['Mentor', 'Both'] } })
         .sortBy('registered_at', 'desc')
         .limit(16)
         .fetch(),
       $content('persons')
-        .where({ mentor: { $in: ['Mentee', 'İkisi de', 'Both'] } })
+        .where({ mentor: { $in: ['Mentee', 'Both'] } })
         .sortBy('registered_at', 'desc')
         .limit(16)
         .fetch(),
@@ -82,6 +82,66 @@ export default {
 
       this.isVisitedGuide = isVisited
     },
+  },
+  head() {
+    const title = 'Find Mentor & Mentees Network'
+    const description = `${this.info.mentorCount} mentor is mentoring ${this.info.menteeCount} people, join us!`
+    const icon = 'https://findmentor.network/icon.png'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: icon
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: icon,
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: icon,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: description,
+        },
+      ],
+    }
   },
 }
 </script>
