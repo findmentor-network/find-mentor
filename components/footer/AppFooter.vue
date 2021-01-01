@@ -36,7 +36,7 @@
           </b-col>
           <b-col md="3" sm="12">
             <h5>Social</h5>
-             <div class="list mt-4">
+            <div class="list mt-4">
               <b-link target="_blank" href="https://twitter.com/findmentorapp">
                 <font-awesome-icon class="social-media__icon" :icon="['fab', 'twitter']" size="2x" />
               </b-link>
