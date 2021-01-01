@@ -49,12 +49,12 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'twitter:image:alt',
@@ -64,7 +64,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: title
+          content: title,
         },
         {
           hid: 'og:description',

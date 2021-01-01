@@ -61,7 +61,7 @@ export default {
     if (!this.person) {
       return
     }
-    const {name, mentor, interests, avatar} = this.person
+    const { name, mentor, interests, avatar } = this.person
     const title = `${name} | ${mentor === 'Both' ? 'Mentor & Mentee' : mentor}`
     const description = `${name} - ${interests}`
     const icon = 'https://findmentor.network/icon.png'
@@ -81,12 +81,12 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: avatar
+          content: avatar,
         },
         {
           hid: 'twitter:image:alt',
@@ -101,17 +101,17 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: description
+          content: description,
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: avatar
+          content: avatar,
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: avatar
+          content: avatar,
         },
         {
           hid: 'og:image:alt',

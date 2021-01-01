@@ -31,7 +31,7 @@ export default {
         .sortBy('registered_at', 'desc')
         .limit(this.postList.mentee.limit)
         .skip(this.postList.mentee.skip)
-        .fetch()
+        .fetch(),
     ])
     this.postList.mentee.items = items
     this.info = info
@@ -45,7 +45,7 @@ export default {
           skip: 0,
         },
       },
-      info: {}
+      info: {},
     }
   },
   methods: {
@@ -87,12 +87,12 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'twitter:image:alt',
@@ -102,7 +102,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: title
+          content: title,
         },
         {
           hid: 'og:description',
