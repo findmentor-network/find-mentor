@@ -135,6 +135,22 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "02.01.2021 13:12:57",
+      "company": "Malwation",
+      "position": "Full-Stack Developer",
+      "address": "https://malwation.com/careers/",
+      "description": "• Experience with nodeJS\n• Experience with React / Vue.js\n• NoSQL Database Knowledge\n• Knowledge or interest in ElasticSearch",
+      "location": "İstanbul",
+      "logo": "https://malwation.com/wp-content/uploads/2020/07/Varl%C4%B1k-4@2x.png",
+      "tags": [
+        "full-stack",
+        "react",
+        "nodejs"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
