@@ -45,7 +45,7 @@
           span
             strong Remote: &nbsp;
             span {{ job.remote }}
-        .job-card__apply
+        .job-card__apply(@click="send({ ...this.job, type: 'click', event: 'jobApply' })")
           cta-button.job-card__applyButton(text="APPLY" bg-color="var(--color-ui-05)" :to="job.address" :nuxt-link="false")
         .d-flex.justify-content-center
           .job-card__date.d-flex.align-items-center
@@ -60,48 +60,49 @@ const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    VClamp,
+    VClamp
   },
   props: {
     job: {
       type: Object,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      isVisibleDetail: false,
-      markdown: '',
+      required: true
     }
   },
-  created() {
+  data () {
+    return {
+      isVisibleDetail: false,
+      markdown: ''
+    }
+  },
+  created () {
     this.renderMarkdown()
   },
   methods: {
-    dateConvertDMY(date) {
+    dateConvertDMY (date) {
       return date.split(' ')[0]
     },
-    toggleDetail(job) {
+    toggleDetail (job) {
       this.isVisibleDetail = !this.isVisibleDetail
 
       if (this.isVisibleDetail) {
         document.title = `${job.company || ''} - ${job.position || ''}`
+        send({ ...this.job, type: 'seen', event: 'jobDetail' })
       } else {
         this.setBaseDocumentTitle()
       }
     },
-    closeDetail() {
+    closeDetail () {
       this.isVisibleDetail = false
       this.setBaseDocumentTitle()
     },
-    setBaseDocumentTitle() {
+    setBaseDocumentTitle () {
       document.title = `${process.env.app.title}`
     },
-    async renderMarkdown() {
+    async renderMarkdown () {
       const { html } = await md.toMarkup(this.job.description)
       this.markdown = html
-    },
-  },
+    }
+  }
 }
 </script>
 
