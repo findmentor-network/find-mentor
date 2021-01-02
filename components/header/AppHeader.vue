@@ -66,7 +66,7 @@ export default {
   }
 
   .search {
-    margin-right: 8px;
+    margin-right: 16px;
   }
 
   .cta-button {
