@@ -8,7 +8,8 @@
       </h3>
 
       <p>This platform getting 1m+ page views per month. Add yourself as a job seeker, totally free to add!</p>
-
+      <p>The job seekers are <b>sorted by contributions</b>. You can contribute to the <nuxt-link to="/mentorships">mentorship</nuxt-link> projects, that's the way you can be shown your profile.</p>
+  
       <br />
       <br />
       <template v-if="$fetchState.pending">
