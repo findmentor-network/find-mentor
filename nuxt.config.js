@@ -64,10 +64,16 @@ export default {
       },
       { rel: 'alternate', type: 'image/x-icon', href: '/favicon.ico' },
     ],
+    script: [{ src: 'https://analytx.dev/analytx.js' }],
   },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~plugins/qr.js' }, { src: '~plugins/fa.js' }, { src: '~plugins/vue-infinite-loading.js', mode: 'client' }],
+  plugins: [
+    { src: '~plugins/analytx.js', mode: 'client' },
+    { src: '~plugins/qr.js' },
+    { src: '~plugins/fa.js' },
+    { src: '~plugins/vue-infinite-loading.js', mode: 'client' },
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

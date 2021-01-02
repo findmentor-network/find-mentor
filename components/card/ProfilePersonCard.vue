@@ -26,7 +26,7 @@
             <a :href="getHireMailContent">
               <app-badge v-if="person.isHireable" bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
             </a>
-
+            <app-badge v-if="pageCount" bg-color="var(--color-ui-04)" text-color="#fff"> Page View: {{ pageCount }} </app-badge>
             <br />
             <template v-if="person.mentor != 'Mentee'">
               <a
@@ -125,7 +125,11 @@ export default {
       required: true,
     },
   },
-  methods: {},
+  data() {
+    return {
+      pageCount: 0,
+    }
+  },
   computed: {
     askForMentorShipLink() {
       return `${this.person.twitter_handle ? this.person.twitter_handle : this.person.linkedin || this.person.github}`
@@ -154,6 +158,17 @@ Best,%0D%0A
           model: this.$lowerCase(this.person.mentor),
         })}
       `
+    },
+  },
+  mounted() {
+    this.getPageCount()
+  },
+  methods: {
+    async getPageCount() {
+      if (window) {
+        const { count } = await window.count()
+        this.pageCount = count
+      }
     },
   },
 }
