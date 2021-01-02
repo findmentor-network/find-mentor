@@ -2,7 +2,7 @@
 .job-card
   // Summary
   .job-card-summary.d-flex.flex-wrap.cursor-pointer(@click="toggleDetail(job)")
-    .col.col-12.col-lg-2
+    .col.col-12.col-lg-2.d-flex
       img.job-card__logo(:src="job.logo" draggable="false" :alt="job.company")
     .col.col-12.col-lg-10
       .job-card__body
