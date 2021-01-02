@@ -69,13 +69,13 @@ export default {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 140px;
+  min-width: 128px;
   padding: 8px 16px;
   border: 0;
-  border-radius: 32px;
+  border-radius: 24px;
   outline: none;
   box-shadow: var(--shadow-1);
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   text-align: center;
 }

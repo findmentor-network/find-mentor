@@ -1,5 +1,5 @@
 <template>
-  <b-navbar :class="`header app-header ${revealClass}`" toggleable="lg" :type="$colorMode.value" :variant="$colorMode.value">
+  <b-navbar :class="`header app-header ${revealClass}`" toggleable="xl" :type="$colorMode.value" :variant="$colorMode.value">
     <b-navbar-brand to="/">
       <FmLogo :width="40" :height="40" />
     </b-navbar-brand>
@@ -16,7 +16,7 @@
         <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
         <b-nav-item exact to="/hire" active-class="active"> Job Seekers </b-nav-item>
       </b-navbar-nav>
-      <b-navbar-nav class="col col-12 col-lg-3 col-xl-2">
+      <b-navbar-nav class="ml-auto search">
         <app-search-input class="ml-md-2" @searchTriggered="isCollapsed = false" />
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto" right>
@@ -53,10 +53,11 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
+  font-size: 0.9rem;
   height: var(--header-height);
   z-index: var(--z-index-header);
 
-  @include mq($until: desktop) {
+  @include mq($until: wide) {
     height: auto;
   }
 
@@ -64,8 +65,12 @@ export default {
     height: 40px;
   }
 
+  .search {
+    margin-right: 8px;
+  }
+
   .cta-button {
-    @include mq($until: desktop) {
+    @include mq($until: wide) {
       margin-top: 14px;
     }
   }
