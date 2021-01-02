@@ -1604,6 +1604,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "02.01.2021 09:58:43",
+      "profile": "https://findmentor.network/peer/haci-kandemir",
+      "mail": "hacikandemir005@hotmail.com",
+      "person": {
+        "registered_at": "",
+        "name": "Hacı Kandemir",
+        "twitter_handle": "https://twitter.com/Haci_kandemir",
+        "github": "https://github.com/HaciKandemir",
+        "linkedin": "https://linkedin.com/in/haci-kandemir",
+        "interests": "backend (php/ c# / .net)",
+        "goals": "",
+        "mentor": "Mentee",
+        "slug": "haci-kandemir",
+        "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
+        "displayInterests": "Backend (php/ c# / .Net)",
+        "isHireable": true,
+        "mail": "hacikandemir005@hotmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

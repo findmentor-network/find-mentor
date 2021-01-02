@@ -1,11 +1,13 @@
 <template>
-  <div class="page mentees-page">
+  <div class="page hire-page">
     <div class="container">
       <h1 class="title">Job Seekers</h1>
 
       <h3>
-        <a href="https://forms.gle/RnBV3sPzr8YnDjRY9">Add yourself as a Hireable!</a>
+        <a href="https://forms.gle/RnBV3sPzr8YnDjRY9">Add yourself as a Job Seeker!</a>
       </h3>
+
+      <p>This platform getting 1m+ page views per month. Add yourself as a job seeker, totally free to add!</p>
 
       <br />
       <br />
@@ -35,7 +37,7 @@ export default {
   async fetch() {
     this.postList.hire.items = await this.$content('persons')
       .where({ isHireable: true })
-      .sortBy('createdAt', 'desc')
+      .sortBy('contributions', 'desc')
       .limit(this.postList.hire.limit)
       .skip(this.postList.hire.skip)
       .fetch()
@@ -57,7 +59,7 @@ export default {
 
       const hire = await this.$content('persons')
         .where({ isHireable: true })
-        .sortBy('createdAt', 'desc')
+        .sortBy('contributions', 'desc')
         .limit(this.postList.hire.limit)
         .skip(this.postList.hire.skip)
         .fetch()
@@ -134,7 +136,7 @@ export default {
 </script>
 
 <style lang="scss">
-.mentees-page {
+.hire-page {
   .title {
     display: block;
     margin: 2.4rem auto;
