@@ -26,6 +26,12 @@
           "fmn_url": ""
         },
         {
+          "username": "hasantezcan",
+          "github_address": "https://github.com/hasantezcan",
+          "avatar": "https://avatars.githubusercontent.com/hasantezcan",
+          "fmn_url": "/peer/hasan-tezcan"
+        },
+        {
           "username": "ograsyilmaz",
           "github_address": "https://github.com/ograsyilmaz",
           "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
@@ -36,12 +42,6 @@
           "github_address": "https://github.com/tansionline",
           "avatar": "https://avatars.githubusercontent.com/tansionline",
           "fmn_url": "/peer/selcuk-tatar"
-        },
-        {
-          "username": "hasantezcan",
-          "github_address": "https://github.com/hasantezcan",
-          "avatar": "https://avatars.githubusercontent.com/hasantezcan",
-          "fmn_url": "/peer/hasan-tezcan"
         },
         {
           "username": "sevkioruc",
@@ -140,6 +140,12 @@
           "fmn_url": "/peer/onur-aksar"
         },
         {
+          "username": "barisesen",
+          "github_address": "https://github.com/barisesen",
+          "avatar": "https://avatars.githubusercontent.com/barisesen",
+          "fmn_url": "/peer/baris-esen"
+        },
+        {
           "username": "ukeskin",
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -180,12 +186,6 @@
           "github_address": "https://github.com/ahmetbcakici",
           "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
           "fmn_url": "/peer/ahmet-bugra-cakici"
-        },
-        {
-          "username": "muraterzioglu",
-          "github_address": "https://github.com/muraterzioglu",
-          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-          "fmn_url": "/peer/murat-terzioglu"
         }
       ]
     },
@@ -279,6 +279,12 @@
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin",
           "fmn_url": "/peer/umut-keskin"
+        },
+        {
+          "username": "HaciKandemir",
+          "github_address": "https://github.com/HaciKandemir",
+          "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
+          "fmn_url": "/peer/haci-kandemir"
         },
         {
           "username": "emregeldegul",
