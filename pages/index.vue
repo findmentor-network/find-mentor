@@ -12,7 +12,7 @@
 
       <cta-button class="upcoming-button" text="Upcoming Events" to="/events/" :nuxtLink="true" />
 
-      <NuxtLink to="/guide/" class="how-it-works-link" :class="[{ 'how-it-works-link--visited': isVisitedGuide }]" title="How It Works?">
+      <NuxtLink to="/guide/" class="how-it-works-link" :class="[{ 'how-it-works-link--visited': isVisitedGuide }]" title="How It Works? deneme">
         How It Works?
       </NuxtLink>
     </header>
