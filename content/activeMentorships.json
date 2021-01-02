@@ -446,16 +446,16 @@
           "fmn_url": "/peer/alper-karatas"
         },
         {
-          "username": "ahmetcanaydemir",
-          "github_address": "https://github.com/ahmetcanaydemir",
-          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir",
-          "fmn_url": "/peer/ahmet-can-aydemir"
-        },
-        {
           "username": "saracalihan",
           "github_address": "https://github.com/saracalihan",
           "avatar": "https://avatars.githubusercontent.com/saracalihan",
           "fmn_url": "/peer/alihan-sarac"
+        },
+        {
+          "username": "ahmetcanaydemir",
+          "github_address": "https://github.com/ahmetcanaydemir",
+          "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir",
+          "fmn_url": "/peer/ahmet-can-aydemir"
         },
         {
           "username": "yemirhan",
