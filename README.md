@@ -11,6 +11,11 @@ The project's aim is to collect feedback from people.
 
 [![Page view](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcagataycali%2Ffind-mentor&count_bg=%2379C83D&title_bg=%23555555&icon=hey.svg&icon_color=%23E7E7E7&title=Page%20view&edge_flat=false)]()
 
+[![Page view](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Total%20Page%20View&query=count&url=https%3A%2F%2Fbeta.analytx.dev%2Ftotal%2Ffindmentor.network&cacheSeconds=36)]()
+
+[![Page view](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Cagatay%20Cali%20Page%20View&query=count&url=https%3A%2F%2Fbeta.analytx.dev%2Fc%2Ffindmentor.network%2Fpeer%2Fcagatay-cali&cacheSeconds=36)]()
+
+
 ## API
 
 **Get all persons by:**
