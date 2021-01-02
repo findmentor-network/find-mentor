@@ -160,6 +160,12 @@
                 "fmn_url": "/peer/burak-saman"
               },
               {
+                "username": "makiftutuncu",
+                "github_address": "https://github.com/makiftutuncu",
+                "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
+                "fmn_url": "/peer/mehmet-akif-tutuncu"
+              },
+              {
                 "username": "onuraksar",
                 "github_address": "https://github.com/onuraksar",
                 "avatar": "https://avatars.githubusercontent.com/onuraksar",
@@ -200,12 +206,6 @@
                 "github_address": "https://github.com/mesutcifci",
                 "avatar": "https://avatars.githubusercontent.com/mesutcifci",
                 "fmn_url": "/peer/mesut-cifci"
-              },
-              {
-                "username": "ahmetbcakici",
-                "github_address": "https://github.com/ahmetbcakici",
-                "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
-                "fmn_url": "/peer/ahmet-bugra-cakici"
               }
             ]
           },
@@ -647,6 +647,12 @@
                 "fmn_url": "/peer/burak-saman"
               },
               {
+                "username": "makiftutuncu",
+                "github_address": "https://github.com/makiftutuncu",
+                "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
+                "fmn_url": "/peer/mehmet-akif-tutuncu"
+              },
+              {
                 "username": "onuraksar",
                 "github_address": "https://github.com/onuraksar",
                 "avatar": "https://avatars.githubusercontent.com/onuraksar",
@@ -687,12 +693,6 @@
                 "github_address": "https://github.com/mesutcifci",
                 "avatar": "https://avatars.githubusercontent.com/mesutcifci",
                 "fmn_url": "/peer/mesut-cifci"
-              },
-              {
-                "username": "ahmetbcakici",
-                "github_address": "https://github.com/ahmetbcakici",
-                "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
-                "fmn_url": "/peer/ahmet-bugra-cakici"
               }
             ]
           },
@@ -988,6 +988,12 @@
                 "fmn_url": "/peer/burak-saman"
               },
               {
+                "username": "makiftutuncu",
+                "github_address": "https://github.com/makiftutuncu",
+                "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
+                "fmn_url": "/peer/mehmet-akif-tutuncu"
+              },
+              {
                 "username": "onuraksar",
                 "github_address": "https://github.com/onuraksar",
                 "avatar": "https://avatars.githubusercontent.com/onuraksar",
@@ -1028,12 +1034,6 @@
                 "github_address": "https://github.com/mesutcifci",
                 "avatar": "https://avatars.githubusercontent.com/mesutcifci",
                 "fmn_url": "/peer/mesut-cifci"
-              },
-              {
-                "username": "ahmetbcakici",
-                "github_address": "https://github.com/ahmetbcakici",
-                "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
-                "fmn_url": "/peer/ahmet-bugra-cakici"
               }
             ]
           },
@@ -1389,6 +1389,12 @@
                 "fmn_url": "/peer/burak-saman"
               },
               {
+                "username": "makiftutuncu",
+                "github_address": "https://github.com/makiftutuncu",
+                "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
+                "fmn_url": "/peer/mehmet-akif-tutuncu"
+              },
+              {
                 "username": "onuraksar",
                 "github_address": "https://github.com/onuraksar",
                 "avatar": "https://avatars.githubusercontent.com/onuraksar",
@@ -1429,12 +1435,6 @@
                 "github_address": "https://github.com/mesutcifci",
                 "avatar": "https://avatars.githubusercontent.com/mesutcifci",
                 "fmn_url": "/peer/mesut-cifci"
-              },
-              {
-                "username": "ahmetbcakici",
-                "github_address": "https://github.com/ahmetbcakici",
-                "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
-                "fmn_url": "/peer/ahmet-bugra-cakici"
               }
             ]
           }
