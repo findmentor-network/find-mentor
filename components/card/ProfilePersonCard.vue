@@ -9,7 +9,7 @@
           loading="lazy"
           itemprop="image"
           :alt="person.name"
-        >
+        />
       </div>
       <div class="col-12 col-lg-9 pl-lg-0">
         <div class="profile-person-card-meta flex-column justify-content-center flex-lg-row text-center text-lg-left">
@@ -26,10 +26,8 @@
             <a :href="getHireMailContent">
               <app-badge v-if="person.isHireable" bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
             </a>
-            <app-badge v-if="pageCount" bg-color="var(--color-ui-04)" text-color="#fff">
-              Page View: {{ pageCount }}
-            </app-badge>
-            <br>
+            <app-badge v-if="pageCount" bg-color="var(--color-ui-04)" text-color="#fff"> Page View: {{ pageCount }} </app-badge>
+            <br />
             <template v-if="person.mentor != 'Mentee'">
               <a
                 v-if="person.mentorships.length == 0"
@@ -51,13 +49,9 @@
                 Check out active mentorships
               </a>
             </template>
-            <hr>
-            <div v-if="person.interests.length > 0" class="text" itemprop="seeks">
-              <b>Interests:</b> {{ person.interests }}
-            </div>
-            <div v-if="person.goals.length > 0" class="text" itemprop="description">
-              <b>Goals:</b> {{ person.goals }}
-            </div>
+            <hr />
+            <div v-if="person.interests.length > 0" class="text" itemprop="seeks"><b>Interests:</b> {{ person.interests }}</div>
+            <div v-if="person.goals.length > 0" class="text" itemprop="description"><b>Goals:</b> {{ person.goals }}</div>
           </div>
           <div class="profile-person-card-meta__infoBox-right">
             <a
@@ -128,19 +122,19 @@ export default {
   props: {
     person: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
-  data () {
+  data() {
     return {
-      pageCount: 0
+      pageCount: 0,
     }
   },
   computed: {
-    askForMentorShipLink () {
+    askForMentorShipLink() {
       return `${this.person.twitter_handle ? this.person.twitter_handle : this.person.linkedin || this.person.github}`
     },
-    getHireMailContent () {
+    getHireMailContent() {
       // We will count every job contact over here. Inject email tracker.
       const subject = `Job Opportunity for ${this.person.name} | findmentor.network hiring`
       const body = `
@@ -158,25 +152,25 @@ Best,%0D%0A
 `
       return `mailto:${this.person.mail}?subject=${subject}&body=${body}`
     },
-    profileCardStyleAsPersonType () {
+    profileCardStyleAsPersonType() {
       return `
         border-top: 4px solid ${this.getPersonTypeColor({
-          model: this.$lowerCase(this.person.mentor)
+          model: this.$lowerCase(this.person.mentor),
         })}
       `
-    }
+    },
   },
-  mounted () {
+  mounted() {
     this.getPageCount()
   },
   methods: {
-    async getPageCount () {
+    async getPageCount() {
       if (window) {
         const { count } = await window.count()
         this.pageCount = count
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
