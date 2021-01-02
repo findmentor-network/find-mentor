@@ -1560,6 +1560,50 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "02.01.2021 03:03:09",
+      "profile": "https://findmentor.network/peer/furkan-gurcan",
+      "mail": "gurfrkn@gmail.com",
+      "person": {
+        "registered_at": "11.12.2020 02:40:27",
+        "name": "Furkan Gürcan",
+        "twitter_handle": "https://twitter.com/gurfrkn",
+        "github": "https://github.com/gurfrkn",
+        "linkedin": "https://linkedin.com/in/furkan-g%C3%BCrcan-219507163",
+        "interests": "python, machine learning, data science",
+        "goals": "I want to join exciting artificial intelligence and data science world",
+        "mentor": "Mentee",
+        "slug": "furkan-gurcan",
+        "avatar": "https://avatars.githubusercontent.com/gurfrkn",
+        "displayInterests": "Python, machine learning, data science",
+        "isHireable": true,
+        "mail": "gurfrkn@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
+    },
+    {
+      "": "02.01.2021 03:41:55",
+      "profile": "https://findmentor.network/peer/kaan-vural",
+      "mail": "kaan.vural.149@gmail.com",
+      "person": {
+        "registered_at": "23.12.2020 23:20:53",
+        "name": "Kaan Vural",
+        "twitter_handle": "https://twitter.com/kaanvural0",
+        "github": "https://github.com/kaan149",
+        "linkedin": "https://linkedin.com/in/kaan99",
+        "interests": "finance, data science, robotics, backend",
+        "goals": "I want to be a software developer who comprehend philosophy of programming and share his own experience with young gens. Also I want to be a creator of something new that is useful also can be improved and exportable.",
+        "mentor": "Mentee",
+        "slug": "kaan-vural",
+        "avatar": "https://avatars.githubusercontent.com/kaan149",
+        "displayInterests": "finance, data science, robotics, backend",
+        "isHireable": true,
+        "mail": "kaan.vural.149@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
