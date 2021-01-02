@@ -60,31 +60,31 @@ const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    VClamp
+    VClamp,
   },
   props: {
     job: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
-  data () {
+  data() {
     return {
       isVisibleDetail: false,
-      markdown: ''
+      markdown: '',
     }
   },
-  created () {
+  created() {
     this.renderMarkdown()
   },
   methods: {
-    sendJobApplyEvent () {
+    sendJobApplyEvent() {
       send({ ...this.job, type: 'click', event: 'jobApply' })
     },
-    dateConvertDMY (date) {
+    dateConvertDMY(date) {
       return date.split(' ')[0]
     },
-    toggleDetail (job) {
+    toggleDetail(job) {
       this.isVisibleDetail = !this.isVisibleDetail
 
       if (this.isVisibleDetail) {
@@ -94,18 +94,18 @@ export default {
         this.setBaseDocumentTitle()
       }
     },
-    closeDetail () {
+    closeDetail() {
       this.isVisibleDetail = false
       this.setBaseDocumentTitle()
     },
-    setBaseDocumentTitle () {
+    setBaseDocumentTitle() {
       document.title = `${process.env.app.title}`
     },
-    async renderMarkdown () {
+    async renderMarkdown() {
       const { html } = await md.toMarkup(this.job.description)
       this.markdown = html
-    }
-  }
+    },
+  },
 }
 </script>
 
