@@ -80,6 +80,11 @@ export default {
     border-radius: var(--border-radius-base);
     outline: 0;
     box-shadow: none !important;
+    text-overflow: ellipsis;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
   }
 
   &__searchButton {
