@@ -1,31 +1,25 @@
 <template>
   <div class="page mentorships-page">
     <div class="container">
-      <h1 class="title">Mentorships</h1>
-      <br />
-      <h3>
-        <a href="https://forms.gle/1517jvGHWW1Ma66K9">Add your mentorship campaign</a>
-      </h3>
-      <p>This community, driven/developed by a fellow community.</p>
-      <p>As you can see, this project is the mentorship project. Developed by mentees.</p>
-      <p>You can find the mentors active mentorship campaigns below.</p>
-      <p>Pick one & contribute. You're mentee now.</p>
-      <br />
-      <hr />
-      <br />
-      <div v-for="mentorship in mentorships" :key="mentorship.slug">
-        <NuxtLink :to="`/peer/${mentorship.mentor.split('/').pop()}`" itemprop="url">
-          <active-mentorship-card :mentorship="mentorship" />
-        </NuxtLink>
+      <div id="jumbotron-mentor" class="mx-auto">
+        <b-jumbotron text-variant="black" border-variant="dark">
+          <h1>Mentorships</h1>
+          <p>
+            This community, driven/developed by a fellow community. <br />
+            As you can see, this project is the mentorship project. Developed by mentees. <br />
+            You can find the mentors active mentorship campaigns below. <br />
+            Pick one & contribute. You're mentee now.
+          </p>
+          <a href="https://forms.gle/1517jvGHWW1Ma66K9">
+            <b>Add your mentorship campaign</b>
+          </a>
+        </b-jumbotron>
       </div>
-      <hr />
-      <h4>
-        <a href="https://github.com/cagataycali/find-mentor/blob/master/pages/mentorships.vue">Contribute this page</a>
-      </h4>
+
+      <div v-for="mentorship in mentorships" :key="mentorship.slug" class="p-card">
+        <ActiveMentorshipCard :mentorship="mentorship" />
+      </div>
     </div>
-    <br />
-    <br />
-    <AppFooter />
   </div>
 </template>
 
@@ -102,11 +96,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#jumbotron-mentor {
+  margin-top: 50px;
+  max-width: 850px;
+}
+html.dark-mode #jumbotron-mentor .jumbotron {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.18);
+}
+html.dark-mode #jumbotron-mentor h1,
+html.dark-mode #jumbotron-mentor p,
+html.dark-mode #jumbotron-mentor li {
+  color: #ddd;
+}
+.jumbotron {
+  border-radius: 20px 0px 20px 0px;
+  -moz-border-radius: 20px 0px 20px 0px;
+  -webkit-border-radius: 20px 0px 20px 0px;
+  padding: 2rem 2rem;
+  box-shadow: 0px 2px 8px rgba(155, 155, 155, 0.5);
+}
+.border {
+  border: unset !important;
+}
+.border-dark {
+  /* background-color: unset; */
+  border-color: unset !important;
+}
+
 .mentorships-page {
   .title {
     display: block;
     margin: 2.4rem auto;
     color: var(--color-ui-04);
   }
+}
+
+.p-card {
+  display: flex;
+  justify-content: center;
 }
 </style>

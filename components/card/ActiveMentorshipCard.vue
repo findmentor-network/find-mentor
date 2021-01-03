@@ -2,6 +2,12 @@
   <div class="ma-card">
     <span class="title">{{ mentorship.slug.toUpperCase() }}</span>
     <span class="description">{{ mentorship.goal }}</span>
+    <br />
+    <span>
+      ➡️ Visit
+      <a :href="mentorship.mentor">Mentor profile</a> and
+      <a :href="mentorship.project_adress">Project repo</a>
+    </span>
   </div>
 </template>
 
@@ -19,12 +25,15 @@ export default {
 
 <style scoped>
 .ma-card {
-  border-radius: 8px;
-  padding: 1rem;
+  position: relative;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-ui-02);
+  max-width: 850px;
+  width: 100%;
+  padding: 1rem;
   margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--color-ui-02);
 }
 .ma-card span {
   text-decoration: none;
@@ -42,7 +51,6 @@ export default {
 .ma-card .description {
   font-size: 1rem;
   color: var(--color-text-03);
-  font-weight: 600;
   text-decoration: none;
 }
 </style>
