@@ -38,7 +38,6 @@
       <PersonList :persons="mentees" strict-type="mentees" />
       <NuxtLink class="text-center d-block mb-5" to="/mentees/"> 🤳 Click here for all mentees </NuxtLink>
     </div>
-    <AppFooter />
   </div>
 </template>
 
