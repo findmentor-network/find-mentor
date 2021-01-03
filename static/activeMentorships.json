@@ -158,6 +158,12 @@
           "fmn_url": "/peer/umut-keskin"
         },
         {
+          "username": "AbdullahAki",
+          "github_address": "https://github.com/AbdullahAki",
+          "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+          "fmn_url": "/peer/abdullah-aki"
+        },
+        {
           "username": "ahmetelgun",
           "github_address": "https://github.com/ahmetelgun",
           "avatar": "https://avatars.githubusercontent.com/ahmetelgun",
@@ -180,12 +186,6 @@
           "github_address": "https://github.com/BerkanSezer",
           "avatar": "https://avatars.githubusercontent.com/BerkanSezer",
           "fmn_url": "/peer/berkan-sezer"
-        },
-        {
-          "username": "mesutcifci",
-          "github_address": "https://github.com/mesutcifci",
-          "avatar": "https://avatars.githubusercontent.com/mesutcifci",
-          "fmn_url": "/peer/mesut-cifci"
         }
       ]
     },
