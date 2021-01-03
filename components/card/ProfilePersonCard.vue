@@ -105,7 +105,7 @@
             itemprop="sameAs"
           >
             <font-awesome-icon :icon="['fab', 'stack-overflow']" color="white" />
-            Stackoverflow
+            StackOverflow
           </a>
           <a
             v-if="person.linkedin.length > 0"
