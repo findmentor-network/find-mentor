@@ -98,6 +98,16 @@
             GitHub
           </a>
           <a
+            v-if="person.stackoverflow"
+            :href="person.stackoverflow"
+            target="_blank"
+            class="profile-person-card-social-media__button profile-person-card-social-media__button--stackoverflow"
+            itemprop="sameAs"
+          >
+            <font-awesome-icon :icon="['fab', 'stack-overflow']" color="white" />
+            StackOverflow
+          </a>
+          <a
             v-if="person.linkedin.length > 0"
             :href="person.linkedin"
             target="_blank"
@@ -264,6 +274,18 @@ Best,%0D%0A
 
       &--linkedin {
         background-color: var(--color-linkedin-01);
+        &:hover {
+          transition-timing-function: ease-in-out;
+          -ms-transform: scale(1.05); /* IE 9 */
+          -webkit-transform: scale(1.05); /* Safari 3-8 */
+          transform: scale(1.05);
+          transition: 0.5s;
+          opacity: 0.8;
+        }
+      }
+
+         &--stackoverflow {
+        background-color: var(--color-stackoverflow-01);
         &:hover {
           transition-timing-function: ease-in-out;
           -ms-transform: scale(1.05); /* IE 9 */
