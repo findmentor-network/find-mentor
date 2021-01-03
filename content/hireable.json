@@ -1706,6 +1706,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "03.01.2021 01:41:52",
+      "profile": "https://findmentor.network/peer/aybuke-meydan",
+      "mail": "istaybuke@hotmail.com",
+      "person": {
+        "registered_at": "02.01.2021 15:28:45",
+        "name": "Aybüke Meydan",
+        "twitter_handle": "https://twitter.com/aybukemy",
+        "github": "https://github.com/aybukemeydan",
+        "linkedin": "https://linkedin.com/in/ayb%C3%BCke-meydan-330363162",
+        "interests": "data science",
+        "goals": "I want to be a Data Scientist ! That's why I'm here.",
+        "mentor": "Mentor",
+        "slug": "aybuke-meydan",
+        "avatar": "https://avatars.githubusercontent.com/aybukemeydan",
+        "displayInterests": "Data Science",
+        "isHireable": true,
+        "mail": "istaybuke@hotmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }

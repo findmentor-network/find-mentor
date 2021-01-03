@@ -11036,7 +11036,8 @@
     "slug": "aybuke-meydan",
     "avatar": "https://avatars.githubusercontent.com/aybukemeydan",
     "displayInterests": "Data Science",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "istaybuke@hotmail.com",
     "mentorships": [],
     "contributions": []
   },
@@ -11168,6 +11169,22 @@
     "slug": "veli-uysal",
     "avatar": "https://avatars.githubusercontent.com/veliuysal",
     "displayInterests": "backend, frontend, devops etc.",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "03.01.2021 02:09:22",
+    "name": "Bartu Kılıç",
+    "twitter_handle": "https://twitter.com/bartukilicc",
+    "github": "https://httos://github.com/syslishmad",
+    "linkedin": "https://linkedin.com/in/bartukilic",
+    "interests": "cyber-information security, pentesting, backend programming",
+    "goals": "I want to help anybody for anything and I looking for partners of my projects or I want to be a partner of new projects.",
+    "mentor": "Both",
+    "slug": "bartu-kilic",
+    "avatar": "https://avatars.githubusercontent.com/syslishmad",
+    "displayInterests": "cyber-information security, pentesting, backend programming",
     "isHireable": false,
     "mentorships": [],
     "contributions": []
