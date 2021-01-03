@@ -52,7 +52,7 @@
       </b-container>
     </div>
     <div class="footer-bottom-bar">
-      <strong class="url">findmentor.network</strong>
+      <p><strong class="url">findmentor.network</strong> © {{ new Date().getFullYear() }}</p>
     </div>
   </div>
 </template>
@@ -66,6 +66,7 @@ export default {
 <style lang="scss">
 .app-footer {
   width: 100%;
+  padding-top: 25px;
   .footer-content {
     background-color: var(--color-ui-02);
     color: var(--color-text-01);
