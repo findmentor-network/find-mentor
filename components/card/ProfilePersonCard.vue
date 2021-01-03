@@ -97,9 +97,6 @@
             <font-awesome-icon :icon="['fab', 'github']" color="white" />
             GitHub
           </a>
-
-
-<!-- Stackoverflow ile ilgili tag varsa render eder, stackover flag'ı olmayanlarda length'e bakamayacagımız için patlıyor.  -->
           <a
             v-if="person.stackoverflow"
             :href="person.stackoverflow"
@@ -288,7 +285,7 @@ Best,%0D%0A
       }
 
          &--stackoverflow {
-        background-color: var(--color-stacloverflow-01);
+        background-color: var(--color-stackoverflow-01);
         &:hover {
           transition-timing-function: ease-in-out;
           -ms-transform: scale(1.05); /* IE 9 */
