@@ -23,8 +23,8 @@
             >
               {{ getPersonTypeLabel({ model: $lowerCase(person.mentor) }) }}
             </app-badge>
-            <a :href="getHireMailContent">
-              <app-badge v-if="person.isHireable" bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
+            <a v-if="person.isHireable" :href="getHireMailContent">
+              <app-badge bg-color="var(--color-ui-04)" text-color="#fff"> HIRE ME ! </app-badge>
             </a>
             <app-badge v-if="pageCount" bg-color="var(--color-ui-04)" text-color="#fff"> Page View: {{ pageCount }} </app-badge>
             <br />
