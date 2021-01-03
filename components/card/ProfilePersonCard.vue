@@ -284,7 +284,7 @@ Best,%0D%0A
         }
       }
 
-         &--stackoverflow {
+      &--stackoverflow {
         background-color: var(--color-stackoverflow-01);
         &:hover {
           transition-timing-function: ease-in-out;
