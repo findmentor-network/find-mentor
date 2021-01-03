@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faGithub, faLinkedin, faYoutube, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faLinkedin, faYoutube, faDiscord, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import {
   faArrowLeft,
   faArrowRight,
@@ -20,6 +20,7 @@ library.add(
   faTwitter,
   faGithub,
   faLinkedin,
+  faStackOverflow,
   faYoutube,
   faArrowLeft,
   faArrowRight,
