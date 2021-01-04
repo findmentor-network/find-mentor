@@ -1302,6 +1302,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -1312,12 +1318,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
@@ -1538,6 +1538,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -1548,12 +1554,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
@@ -3748,6 +3748,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -3758,12 +3764,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
@@ -7218,6 +7218,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -7228,12 +7234,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
@@ -11460,6 +11460,22 @@
     "contributions": []
   },
   {
+    "registered_at": "04.01.2021 12:17:40",
+    "name": "Aykut Kardaş",
+    "twitter_handle": "https://twitter.com/aykutkardas",
+    "github": "https://github.com/aykutkardas",
+    "linkedin": "https://linkedin.com/in/aykutkardas",
+    "interests": "frontend, secops",
+    "goals": "To be better than myself",
+    "mentor": "Both",
+    "slug": "aykut-kardas",
+    "avatar": "https://avatars.githubusercontent.com/aykutkardas",
+    "displayInterests": "frontend, secops",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -12158,6 +12174,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -12168,12 +12190,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       },
@@ -12340,6 +12356,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -12350,12 +12372,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
@@ -13294,6 +13310,12 @@
             "fmn_url": "/peer/selcuk-tatar"
           },
           {
+            "username": "emregeldegul",
+            "github_address": "https://github.com/emregeldegul",
+            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
+            "fmn_url": "/peer/yunus-emre-geldegul"
+          },
+          {
             "username": "ukeskin",
             "github_address": "https://github.com/ukeskin",
             "avatar": "https://avatars.githubusercontent.com/ukeskin",
@@ -13304,12 +13326,6 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
           }
         ]
       }
