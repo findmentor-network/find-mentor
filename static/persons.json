@@ -11492,6 +11492,22 @@
     "contributions": []
   },
   {
+    "registered_at": "04.01.2021 20:53:10",
+    "name": "Okan Karaduman",
+    "twitter_handle": "https://twitter.com/okan_krdmn",
+    "github": "https://github.com/Valdym",
+    "linkedin": "https://linkedin.com/in/okan-karaduman-38a02a101",
+    "interests": "backend, data engineering",
+    "goals": "My career objective is becoming a data engineer. Therefore, I am learning Go, Advance Python and the cloud technologies such as Airflow, Kafka/Pub/Sub, BigQuery etc.",
+    "mentor": "Both",
+    "slug": "okan-karaduman",
+    "avatar": "https://avatars.githubusercontent.com/Valdym",
+    "displayInterests": "backend, data engineering",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
