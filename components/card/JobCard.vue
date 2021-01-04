@@ -60,31 +60,31 @@ const md = new Markdown({ toc: true, sanitize: true })
 
 export default {
   components: {
-    VClamp,
+    VClamp
   },
   props: {
     job: {
       type: Object,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      isVisibleDetail: false,
-      markdown: '',
+      required: true
     }
   },
-  created() {
+  data () {
+    return {
+      isVisibleDetail: false,
+      markdown: ''
+    }
+  },
+  created () {
     this.renderMarkdown()
   },
   methods: {
-    sendJobApplyEvent() {
+    sendJobApplyEvent () {
       send({ ...this.job, type: 'click', event: 'jobApply' })
     },
-    dateConvertDMY(date) {
+    dateConvertDMY (date) {
       return date.split(' ')[0]
     },
-    toggleDetail(job) {
+    toggleDetail (job) {
       this.isVisibleDetail = !this.isVisibleDetail
 
       if (this.isVisibleDetail) {
@@ -94,18 +94,18 @@ export default {
         this.setBaseDocumentTitle()
       }
     },
-    closeDetail() {
+    closeDetail () {
       this.isVisibleDetail = false
       this.setBaseDocumentTitle()
     },
-    setBaseDocumentTitle() {
+    setBaseDocumentTitle () {
       document.title = `${process.env.app.title}`
     },
-    async renderMarkdown() {
+    async renderMarkdown () {
       const { html } = await md.toMarkup(this.job.description)
       this.markdown = html
-    },
-  },
+    }
+  }
 }
 </script>
 
@@ -117,9 +117,11 @@ export default {
 
   &__logo {
     display: block;
-    max-width: 80%;
-    height: auto;
+    width: 100%;
+    height: 70px;
     margin: 0 auto;
+    padding: 0 0.6rem;
+    background-color: #fff;
     object-fit: contain;
 
     @include mq($until: desktop) {
