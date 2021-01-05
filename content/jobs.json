@@ -159,9 +159,12 @@
       "address": "https://www.linkedin.com/posts/hilaldurmus_iagnilanaft-activity-6750381858829164545-m1MM",
       "description": "Dijital ve analitik konulardaki en karmaşık problemleri çözmeye destek sağlayan müşterimiz için Software Developer arıyoruz.\n\n♦Pandemi süresince uzaktan çalışılmakta.\n♦Belirsiz süreli iş anlaşması yapılmaktadır.\n\n·        3+ years in teams applying modern agile software development practices\n·        B.Sc. in Computer Science or related Engineering is required, a Masters degree is desirable\n·        Proven skills in web and mobile application development for IoT-based platforms is a plus\n·        Experience working in CI, CD pipelines in terms of scripting and integration with git repository and Git Workflows is a plus.\n·        Practical knowledge of container solutions (e.g., Docker, Kubernetes,)\n·        Hands on experience on Object Oriented Design & Design Patterns & Test-Driven Development\n·        Proven track-record in software implementation in a developer role\n·        Working in high-scalable and available backend service solutions\n·        Excellent expertise in object-oriented programming (C# required) and one or more of NodeJS, JavaScript and Shell scripting\n·        Excellent expertise in HTML, CSS and VueJS\n·        Preferably experienced in Cassandra, ELK, Redis, RabbitMQ, ElasticSearch and RDBMS, or similar technologies at least\n·        Experience in Micro-service technologies and/or RESTful Web services\n·        Experience in MQTT, AMQP, TCP/IP, OPC or any other messaging technologies\n·        Excellent communication skills: writing well, speaking well, and listening well\n·        Strong problem solving and analytical skills\n·        Passionate for developing simple, clean and attractive code\n·        Participating in the full agile project lifecycle by designing, storyboarding, prototyping, developing, testing, deploying, and implementing custom business applications using the latest tools and technologies\n·        No military obligation for male candidates or postponed for at least 2 years\n·        Experience with source control (Git)\n·        Experience with Agile Method\n",
       "location": "Çamlıca İş Merkezi / İstanbul",
-      "logo": "https://lh3.googleusercontent.com/proxy/8f35ia0ZZL50h1Bi0qOjrJQadrYe2oU4FuNr1-coI4remWG-8KQ5d9N_5B7_xyePX0inFJhD",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/getdersim.appspot.com/o/logo.png?alt=media&token=dd2a7930-0957-43e3-b8ab-8bbcf078ec04",
       "tags": [
-        "#dotnet #html #css #c"
+        "dotnet",
+        "html",
+        "css",
+        "c"
       ],
       "remote": "Hayır",
       "isRemoveAllowed": false
@@ -173,9 +176,11 @@
       "address": "https://www.linkedin.com/posts/hilaldurmus_iagnilanaft-activity-6750381858829164545-m1MM",
       "description": "Dijital ve analitik konulardaki en karmaşık problemleri çözmeye destek sağlayan müşterimiz için Front End Developer arıyoruz.\n\nGood understanding of HTML5 and CSS3\nAware of the interplay between JavaScript and HTML & CSS, and able to dynamically create, modify, and style elements on a page with ease\nUnderstanding of all major browsers and mobile environments\nExperience with both consuming and designing RESTful APIs\nFamiliarity with server-side MVC web frameworks,\nAbility to write efficient, secure, well-documented, and clean JavaScript code\nHighly proficient with the JavaScript language and its modern ES6+ syntax and features\nHighly proficient with the JavaScript language and its modern TypeScript syntax and features\nBuilding modular and reusable components and libraries\nModern JavaScript frameworks (Vue.js, React or Angular) experience preferred\nStaying up-to-date with all recent developments in the JavaScript and Vue.js space\nDeveloping user-facing applications using Vue.js\nMinimum of 2 years working on production Vue projects\nDeep knowledge of the Vue router and routing system\nHighly proficient with Vue.js framework and its core principles such as components, reactivity, and the virtual DOM\nFamiliarity with the Vue.js ecosystem, including Vue CLI, Vuex, Vue Router, and Nuxt.js\nExperience with source control (Git)\nExperience with Agile Method",
       "location": "Çamlıca İş Merkezi / İstanbul",
-      "logo": "https://lh3.googleusercontent.com/proxy/8f35ia0ZZL50h1Bi0qOjrJQadrYe2oU4FuNr1-coI4remWG-8KQ5d9N_5B7_xyePX0inFJhD",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/getdersim.appspot.com/o/logo.png?alt=media&token=dd2a7930-0957-43e3-b8ab-8bbcf078ec04",
       "tags": [
-        "#frontend #html #css"
+        "frontend",
+        "html",
+        "css"
       ],
       "remote": "Hayır",
       "isRemoveAllowed": false
