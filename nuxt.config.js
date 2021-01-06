@@ -32,7 +32,6 @@ const create = async (feed, args) => {
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'server',
-
   env: {
     app: {
       title: 'Find Mentor & Mentees',

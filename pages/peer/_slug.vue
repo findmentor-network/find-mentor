@@ -7,14 +7,14 @@
         </div>
       </div>
       <div class="col-xl-8">
-        <template v-if="$fetchState.pending">
-          <span class="d-block text-center my-4">Loading..</span>
-        </template>
         <template v-if="$fetchState.error">
           <span class="text-error">Fetch Error..</span>
         </template>
         <template v-else>
           <PersonDetail v-if="person" :person="person" />
+        </template>
+        <template v-if="$fetchState.pending">
+          <span class="d-block text-center">Loading..</span>
         </template>
       </div>
       <div class="d-none d-xl-block col-xl-2">
