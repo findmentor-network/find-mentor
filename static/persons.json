@@ -16,7 +16,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -111,9 +111,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -203,30 +203,9 @@
         ]
       },
       {
-        "": "12.12.2020 00:20:43",
-        "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/entrylevel",
-        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
-        "slug": "entrylevel",
-        "contributors": [
-          {
-            "username": "tansionline",
-            "github_address": "https://github.com/tansionline",
-            "avatar": "https://avatars.githubusercontent.com/tansionline",
-            "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "cagataycali",
-            "github_address": "https://github.com/cagataycali",
-            "avatar": "https://avatars.githubusercontent.com/cagataycali",
-            "fmn_url": "/peer/cagatay-cali"
-          }
-        ]
-      },
-      {
         "": "15.12.2020 23:47:39",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/analytics",
+        "project_adress": "https://github.com/findmentor-network/analytics",
         "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
         "slug": "analytics",
         "contributors": [
@@ -243,10 +222,22 @@
             "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
             "username": "barisesen",
             "github_address": "https://github.com/barisesen",
             "avatar": "https://avatars.githubusercontent.com/barisesen",
             "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
           }
         ]
       }
@@ -255,7 +246,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -350,9 +341,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -438,27 +429,6 @@
             "github_address": "https://github.com/BerkanSezer",
             "avatar": "https://avatars.githubusercontent.com/BerkanSezer",
             "fmn_url": "/peer/berkan-sezer"
-          }
-        ]
-      },
-      {
-        "": "12.12.2020 00:20:43",
-        "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/entrylevel",
-        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
-        "slug": "entrylevel",
-        "contributors": [
-          {
-            "username": "tansionline",
-            "github_address": "https://github.com/tansionline",
-            "avatar": "https://avatars.githubusercontent.com/tansionline",
-            "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "cagataycali",
-            "github_address": "https://github.com/cagataycali",
-            "avatar": "https://avatars.githubusercontent.com/cagataycali",
-            "fmn_url": "/peer/cagatay-cali"
           }
         ]
       },
@@ -488,23 +458,23 @@
             "fmn_url": "/peer/cagatay-cali"
           },
           {
-            "username": "halitsoydemir",
-            "github_address": "https://github.com/halitsoydemir",
-            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
-            "fmn_url": ""
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
           }
         ]
       },
       {
         "": "15.12.2020 23:47:39",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/analytics",
+        "project_adress": "https://github.com/findmentor-network/analytics",
         "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
         "slug": "analytics",
         "contributors": [
@@ -521,10 +491,22 @@
             "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
             "username": "barisesen",
             "github_address": "https://github.com/barisesen",
             "avatar": "https://avatars.githubusercontent.com/barisesen",
             "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
           }
         ]
       }
@@ -642,7 +624,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -737,9 +719,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -936,6 +918,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
             "username": "sametpalitci",
             "github_address": "https://github.com/sametpalitci",
             "avatar": "https://avatars.githubusercontent.com/sametpalitci",
@@ -946,6 +934,24 @@
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
             "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
             "username": "tansionline",
@@ -1290,10 +1296,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -1326,7 +1332,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -1421,9 +1427,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -1526,10 +1532,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -1803,7 +1809,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -1898,9 +1904,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -1986,6 +1992,45 @@
             "github_address": "https://github.com/BerkanSezer",
             "avatar": "https://avatars.githubusercontent.com/BerkanSezer",
             "fmn_url": "/peer/berkan-sezer"
+          }
+        ]
+      },
+      {
+        "": "15.12.2020 23:47:39",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/findmentor-network/analytics",
+        "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
+        "slug": "analytics",
+        "contributors": [
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali",
+            "fmn_url": "/peer/cagatay-cali"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
+            "username": "barisesen",
+            "github_address": "https://github.com/barisesen",
+            "avatar": "https://avatars.githubusercontent.com/barisesen",
+            "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
           }
         ]
       },
@@ -2104,7 +2149,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -2199,9 +2244,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -2471,7 +2516,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -2566,9 +2611,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -3144,7 +3189,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -3239,9 +3284,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -3348,7 +3393,7 @@
       {
         "": "15.12.2020 23:47:39",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/analytics",
+        "project_adress": "https://github.com/findmentor-network/analytics",
         "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
         "slug": "analytics",
         "contributors": [
@@ -3365,10 +3410,22 @@
             "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
             "username": "barisesen",
             "github_address": "https://github.com/barisesen",
             "avatar": "https://avatars.githubusercontent.com/barisesen",
             "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
           }
         ]
       },
@@ -3390,6 +3447,63 @@
             "github_address": "https://github.com/mbugrayildiz",
             "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
             "fmn_url": "/peer/mustafa-b.-yildiz"
+          }
+        ]
+      },
+      {
+        "": "16.12.2020 23:45:03",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+        "goal": "https://github.com/FurkanPortakal/opensourceadam",
+        "slug": "opensourceadam",
+        "contributors": [
+          {
+            "username": "FurkanPortakal",
+            "github_address": "https://github.com/FurkanPortakal",
+            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
+            "fmn_url": "/peer/furkan-portakal"
+          },
+          {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
+            "username": "kayraberktuncer",
+            "github_address": "https://github.com/kayraberktuncer",
+            "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
+            "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline",
+            "fmn_url": "/peer/selcuk-tatar"
           }
         ]
       }
@@ -3638,21 +3752,27 @@
             "fmn_url": "/peer/emre-savci"
           },
           {
-            "username": "BRTZL",
-            "github_address": "https://github.com/BRTZL",
-            "avatar": "https://avatars.githubusercontent.com/BRTZL",
-            "fmn_url": "/peer/bartu-ozel"
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
           },
           {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
+          },
+          {
             "username": "ramazan",
             "github_address": "https://github.com/ramazan",
             "avatar": "https://avatars.githubusercontent.com/ramazan",
+            "fmn_url": ""
+          },
+          {
+            "username": "bilalcaliskan",
+            "github_address": "https://github.com/bilalcaliskan",
+            "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
             "fmn_url": ""
           }
         ]
@@ -3721,53 +3841,7 @@
     "isHireable": true,
     "mail": "burakyilmz17@gmail.com",
     "mentorships": [],
-    "contributions": [
-      {
-        "": "12.12.2020 17:46:29",
-        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
-        "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
-        "goal": "Flask kullanarak çevrim içi kitap galerisi oluşturulacaktır. Kitap bilgileri kitaplar-apiden çekilecek ve kitap bilgilerinin lstelendiği kategorize edildiği bir uygulama yazılacaktır. Bu uygulama sonunda Python, Flask, Html ve Css konularında yol katetmek hedeflenmiştir. Backend, Flask, Python, Css kelimeleri beni heyecanlandırıyor diyorsan koş gel :)",
-        "slug": "cevrimici-kitap-galerisi",
-        "contributors": [
-          {
-            "username": "ilteriskeskin",
-            "github_address": "https://github.com/ilteriskeskin",
-            "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-            "fmn_url": "/peer/ali-ilteris-keskin"
-          },
-          {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
-          },
-          {
-            "username": "tansionline",
-            "github_address": "https://github.com/tansionline",
-            "avatar": "https://avatars.githubusercontent.com/tansionline",
-            "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "emregeldegul",
-            "github_address": "https://github.com/emregeldegul",
-            "avatar": "https://avatars.githubusercontent.com/emregeldegul",
-            "fmn_url": "/peer/yunus-emre-geldegul"
-          },
-          {
-            "username": "ukeskin",
-            "github_address": "https://github.com/ukeskin",
-            "avatar": "https://avatars.githubusercontent.com/ukeskin",
-            "fmn_url": "/peer/umut-keskin"
-          },
-          {
-            "username": "HaciKandemir",
-            "github_address": "https://github.com/HaciKandemir",
-            "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
-            "fmn_url": "/peer/haci-kandemir"
-          }
-        ]
-      }
-    ]
+    "contributions": []
   },
   {
     "registered_at": "09.12.2020 14:59:06",
@@ -4139,7 +4213,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -4234,9 +4308,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -4736,16 +4810,16 @@
             "fmn_url": "/peer/cagatay-cali"
           },
           {
-            "username": "halitsoydemir",
-            "github_address": "https://github.com/halitsoydemir",
-            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
-            "fmn_url": ""
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
           }
         ]
       },
@@ -4811,21 +4885,27 @@
             "fmn_url": "/peer/emre-savci"
           },
           {
-            "username": "BRTZL",
-            "github_address": "https://github.com/BRTZL",
-            "avatar": "https://avatars.githubusercontent.com/BRTZL",
-            "fmn_url": "/peer/bartu-ozel"
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
           },
           {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
+          },
+          {
             "username": "ramazan",
             "github_address": "https://github.com/ramazan",
             "avatar": "https://avatars.githubusercontent.com/ramazan",
+            "fmn_url": ""
+          },
+          {
+            "username": "bilalcaliskan",
+            "github_address": "https://github.com/bilalcaliskan",
+            "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
             "fmn_url": ""
           }
         ]
@@ -4858,16 +4938,16 @@
             "fmn_url": "/peer/cagatay-cali"
           },
           {
-            "username": "halitsoydemir",
-            "github_address": "https://github.com/halitsoydemir",
-            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
-            "fmn_url": ""
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
           }
         ]
       },
@@ -4933,21 +5013,27 @@
             "fmn_url": "/peer/emre-savci"
           },
           {
-            "username": "BRTZL",
-            "github_address": "https://github.com/BRTZL",
-            "avatar": "https://avatars.githubusercontent.com/BRTZL",
-            "fmn_url": "/peer/bartu-ozel"
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
           },
           {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
+          },
+          {
             "username": "ramazan",
             "github_address": "https://github.com/ramazan",
             "avatar": "https://avatars.githubusercontent.com/ramazan",
+            "fmn_url": ""
+          },
+          {
+            "username": "bilalcaliskan",
+            "github_address": "https://github.com/bilalcaliskan",
+            "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
             "fmn_url": ""
           }
         ]
@@ -5130,7 +5216,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -5225,9 +5311,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -5368,7 +5454,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -5463,9 +5549,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -5712,6 +5798,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
             "username": "sametpalitci",
             "github_address": "https://github.com/sametpalitci",
             "avatar": "https://avatars.githubusercontent.com/sametpalitci",
@@ -5724,6 +5816,24 @@
             "fmn_url": "/peer/kayra-berk-tuncer"
           },
           {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
             "username": "tansionline",
             "github_address": "https://github.com/tansionline",
             "avatar": "https://avatars.githubusercontent.com/tansionline",
@@ -5732,7 +5842,65 @@
         ]
       }
     ],
-    "contributions": []
+    "contributions": [
+      {
+        "": "16.12.2020 23:45:03",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+        "goal": "https://github.com/FurkanPortakal/opensourceadam",
+        "slug": "opensourceadam",
+        "contributors": [
+          {
+            "username": "FurkanPortakal",
+            "github_address": "https://github.com/FurkanPortakal",
+            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
+            "fmn_url": "/peer/furkan-portakal"
+          },
+          {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
+            "username": "kayraberktuncer",
+            "github_address": "https://github.com/kayraberktuncer",
+            "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
+            "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline",
+            "fmn_url": "/peer/selcuk-tatar"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "13.12.2020 00:31:05",
@@ -5762,7 +5930,8 @@
     "slug": "can-gur",
     "avatar": "https://avatars.githubusercontent.com/cvngur",
     "displayInterests": "Backend, Frontend, Go",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "can.gur@yahoo.com",
     "mentorships": [],
     "contributions": []
   },
@@ -6409,7 +6578,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -6504,9 +6673,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -6631,7 +6800,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -6726,9 +6895,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -7206,10 +7375,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -7338,7 +7507,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -7433,9 +7602,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -7527,7 +7696,7 @@
       {
         "": "15.12.2020 23:47:39",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/analytics",
+        "project_adress": "https://github.com/findmentor-network/analytics",
         "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
         "slug": "analytics",
         "contributors": [
@@ -7544,10 +7713,22 @@
             "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
             "username": "barisesen",
             "github_address": "https://github.com/barisesen",
             "avatar": "https://avatars.githubusercontent.com/barisesen",
             "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
           }
         ]
       }
@@ -7585,21 +7766,6 @@
             "github_address": "https://github.com/Fexyler",
             "avatar": "https://avatars.githubusercontent.com/Fexyler",
             "fmn_url": "/peer/batuhan-isildak"
-          }
-        ]
-      },
-      {
-        "": "30.12.2020 17:13:31",
-        "mentor": "https://findmentor.network/peer/murat-terzioglu",
-        "project_adress": "https://github.com/muraterzioglu/djs-cli",
-        "goal": "Discord.js son zamanlarda aldığı güncellemeler ile birlikte gitgide komplike bir hal almaya başladı ve kendimi typescript alanında geliştirmek adına yaptığım bir çalışma.",
-        "slug": "djs-cli",
-        "contributors": [
-          {
-            "username": "muraterzioglu",
-            "github_address": "https://github.com/muraterzioglu",
-            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-            "fmn_url": "/peer/murat-terzioglu"
           }
         ]
       }
@@ -7691,21 +7857,6 @@
             "fmn_url": "/peer/murat-terzioglu"
           }
         ]
-      },
-      {
-        "": "30.12.2020 17:13:31",
-        "mentor": "https://findmentor.network/peer/murat-terzioglu",
-        "project_adress": "https://github.com/muraterzioglu/djs-cli",
-        "goal": "Discord.js son zamanlarda aldığı güncellemeler ile birlikte gitgide komplike bir hal almaya başladı ve kendimi typescript alanında geliştirmek adına yaptığım bir çalışma.",
-        "slug": "djs-cli",
-        "contributors": [
-          {
-            "username": "muraterzioglu",
-            "github_address": "https://github.com/muraterzioglu",
-            "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-            "fmn_url": "/peer/murat-terzioglu"
-          }
-        ]
       }
     ]
   },
@@ -7777,13 +7928,13 @@
     "registered_at": "16.12.2020 00:15:30",
     "name": "A. Onur Köseoğlu",
     "twitter_handle": "https://twitter.com/_onurkoseoglu",
-    "github": "",
+    "github": "https://github.com/onurkoseoglu1",
     "linkedin": "https://linkedin.com/in/onur-koseoglu",
     "interests": "digital project management, ui/ux, digital marketing, entrepreneur ceo",
     "goals": "I would like to share my experiences and know-how",
     "mentor": "Mentor",
     "slug": "a.-onur-koseoglu",
-    "avatar": "https://ui-avatars.com/api/?name=A. Onur Köseoğlu&size=256",
+    "avatar": "https://avatars.githubusercontent.com/onurkoseoglu1",
     "displayInterests": "Digital Project Management, UI/UX, Digital Marketing, Entrepreneur CEO",
     "isHireable": false,
     "mentorships": [],
@@ -8511,7 +8662,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -8606,9 +8757,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -8940,7 +9091,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -9035,9 +9186,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -9292,7 +9443,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -9387,9 +9538,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -10722,7 +10873,65 @@
     "displayInterests": "Frontend, React, Web Components, Next.Js, JS, Tailwindcss",
     "isHireable": false,
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "16.12.2020 23:45:03",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+        "goal": "https://github.com/FurkanPortakal/opensourceadam",
+        "slug": "opensourceadam",
+        "contributors": [
+          {
+            "username": "FurkanPortakal",
+            "github_address": "https://github.com/FurkanPortakal",
+            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
+            "fmn_url": "/peer/furkan-portakal"
+          },
+          {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
+            "username": "kayraberktuncer",
+            "github_address": "https://github.com/kayraberktuncer",
+            "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
+            "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline",
+            "fmn_url": "/peer/selcuk-tatar"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "28.12.2020 15:45:26",
@@ -11187,7 +11396,7 @@
     "linkedin": "https://linkedin.com/in/muhammed-kahraman-bb6890196",
     "interests": "backend,mobile",
     "goals": "My goal is to become a successful developer someday so I need a mentor because I don't feel like I'm on the right track.",
-    "mentor": "Mentor",
+    "mentor": "Mentee",
     "stackoverflow": "https://stackoverflow.com/users/14926449/muhammed-kahraman",
     "slug": "muhammed-kahraman",
     "avatar": "https://avatars.githubusercontent.com/Muhammed-Kahraman",
@@ -11508,6 +11717,313 @@
     "contributions": []
   },
   {
+    "registered_at": "05.01.2021 16:47:52",
+    "name": "ayşegül",
+    "twitter_handle": "",
+    "github": "https://github.com/msaysegul",
+    "linkedin": "https://linkedin.com/in/msaysegul",
+    "interests": "devops,golang,secops,back-end",
+    "goals": "Otomasyon alanında yenilikçi ve en çok içerik üreten bir geliştirici olmak istiyorum.",
+    "mentor": "Both",
+    "slug": "aysegul",
+    "avatar": "https://avatars.githubusercontent.com/msaysegul",
+    "displayInterests": "DevOps,Golang,SecOps,Back-End",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "05.01.2021 17:45:50",
+    "name": "Oğulcan Esen",
+    "twitter_handle": "https://twitter.com/canesen_",
+    "github": "https://github.com/dazedblack",
+    "linkedin": "https://linkedin.com/in/canesen7",
+    "interests": "frontend, backend",
+    "goals": "Im a Industrial Engineer student at, Kırıkkale University but I want to be a Developer. I need a mentor to ask questions and talk about new technologies.",
+    "mentor": "Mentee",
+    "slug": "ogulcan-esen",
+    "avatar": "https://avatars.githubusercontent.com/dazedblack",
+    "displayInterests": "Frontend, Backend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "05.01.2021 22:04:50",
+    "name": "Burak Kağan Özkan",
+    "twitter_handle": "",
+    "github": "https://github.com/bkaganozkan",
+    "linkedin": "https://linkedin.com/in/burak-kagan-ozkan-337696144",
+    "interests": "problem solving, cryptology, ai, image process",
+    "goals": "I lost my way, looking for exit.",
+    "mentor": "Mentor",
+    "slug": "burak-kagan-ozkan",
+    "avatar": "https://avatars.githubusercontent.com/bkaganozkan",
+    "displayInterests": "problem solving, cryptology, ai, image process",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "06.01.2021 14:54:33",
+    "name": "Yunus Emre Alpu",
+    "twitter_handle": "",
+    "github": "https://github.com/YunusEmreAlps",
+    "linkedin": "https://linkedin.com/in/yunus-emre-alpu-5b1496151",
+    "interests": "frontend, backend, web security, mobile",
+    "goals": "I want to be able to explain myself clearly and have people be receptive to my ideas. My goal is to prepare my ultimate goal by gaining experience with a mentor and network.",
+    "mentor": "Mentor",
+    "slug": "yunus-emre-alpu",
+    "avatar": "https://avatars.githubusercontent.com/YunusEmreAlps",
+    "displayInterests": "Frontend, Backend, Web Security, Mobile",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "07.01.2021 03:30:45",
+    "name": "Alper Hankendi",
+    "twitter_handle": "https://twitter.com/alper_hankendi",
+    "github": "https://github.com/alperhankendi",
+    "linkedin": "https://linkedin.com/in/alper-hankendi-25302a42",
+    "interests": "backend, devops, linux",
+    "goals": "paylaşıp,öğrenmek",
+    "mentor": "Both",
+    "slug": "alper-hankendi",
+    "avatar": "https://avatars.githubusercontent.com/alperhankendi",
+    "displayInterests": "backend, devops, linux",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "07.01.2021 23:17:26",
+    "name": "Semih Çakmak",
+    "twitter_handle": "",
+    "github": "https://github.com/semcak1",
+    "linkedin": "https://linkedin.com/in/semih-%C3%A7akmak-6b9b8b103",
+    "interests": "front-end angular-react  mobile react native",
+    "goals": "I am here to develop ourselves.",
+    "mentor": "Mentor",
+    "slug": "semih-cakmak",
+    "avatar": "https://avatars.githubusercontent.com/semcak1",
+    "displayInterests": "Front-End Angular-React  Mobile React Native",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 01:24:16",
+    "name": "Berke Can Pınar",
+    "twitter_handle": "https://twitter.com/blue_or4n_ge",
+    "github": "https://github.com/WosberbonDesu",
+    "linkedin": "https://linkedin.com/in/berkecanpinar",
+    "interests": "machine learning- python developer- deep learning",
+    "goals": "I want to be a respected developer in the field of artificial intelligence I want to improve myself in this field and make improvements that will contribute to the society.\n\n",
+    "mentor": "Mentor",
+    "slug": "berke-can-pinar",
+    "avatar": "https://avatars.githubusercontent.com/WosberbonDesu",
+    "displayInterests": "Machine Learning- Python Developer- Deep Learning",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 13:45:12",
+    "name": "Yunus Emre Alpu",
+    "twitter_handle": "",
+    "github": "https://github.com/YunusEmreAlps",
+    "linkedin": "https://linkedin.com/in/yunus-emre-alpu-5b1496151",
+    "interests": "frontend, backend, web security, mobile, devops ",
+    "goals": "I only ever want to be judged on the strength of my abilities and paid for it. And I want to be able to explain myself clearly, and have people be receptive to my ideas.",
+    "mentor": "Mentor",
+    "slug": "yunus-emre-alpu",
+    "avatar": "https://avatars.githubusercontent.com/YunusEmreAlps",
+    "displayInterests": "Frontend, Backend, Web Security, Mobile, DevOps ",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 15:55:16",
+    "name": "Doruk Alioğlu",
+    "twitter_handle": "",
+    "github": "https://github.com/dorukalioglu",
+    "linkedin": "https://linkedin.com/in/doruk-alioglu",
+    "interests": "cyber security, devops, backend, iot",
+    "goals": "I want to be a security software developer. ",
+    "mentor": "Mentor",
+    "slug": "doruk-alioglu",
+    "avatar": "https://avatars.githubusercontent.com/dorukalioglu",
+    "displayInterests": "cyber security, devops, backend, iot",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 18:09:43",
+    "name": "Tolga Yigit",
+    "twitter_handle": "https://twitter.com/TolgaYig",
+    "github": "https://github.com/TolgaYigit",
+    "linkedin": "https://linkedin.com/in/tolga-yigit",
+    "interests": "frontend, backend",
+    "goals": "I want to be a good web developer and use my skills in an international company.",
+    "mentor": "Both",
+    "slug": "tolga-yigit",
+    "avatar": "https://avatars.githubusercontent.com/TolgaYigit",
+    "displayInterests": "frontend, backend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 21:38:21",
+    "name": "Fatih Melih Ersoy",
+    "twitter_handle": "https://twitter.com/f4tih35",
+    "github": "https://github.com/f4tih35",
+    "linkedin": "https://linkedin.com/in/f4tih",
+    "interests": "backend, devops, secops",
+    "goals": "\nI'll edit this later",
+    "mentor": "Mentor",
+    "stackoverflow": "https://stackoverflow.com/users/11766585/fatih-melih-ersoy",
+    "slug": "fatih-melih-ersoy",
+    "avatar": "https://avatars.githubusercontent.com/f4tih35",
+    "displayInterests": "backend, devops, secops",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 21:36:55",
+    "name": "Süleyman Arif Karakılıç",
+    "twitter_handle": "",
+    "github": "https://github.com/Arifkarakilic",
+    "linkedin": "https://linkedin.com/in/arif-karak%C4%B1l%C4%B1%C3%A7-992a58150",
+    "interests": "backend, frontend, cyber security, devops, ",
+    "goals": "discovering and learning many branches of my profession",
+    "mentor": "Mentee",
+    "slug": "suleyman-arif-karakilic",
+    "avatar": "https://avatars.githubusercontent.com/Arifkarakilic",
+    "displayInterests": "backend, frontend, cyber security, devops, ",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 21:47:11",
+    "name": "Hasan Dogan",
+    "twitter_handle": "",
+    "github": "https://github.com/hasandogn",
+    "linkedin": "https://linkedin.com/in/hasandogn80",
+    "interests": "fullstack",
+    "goals": "I want to be the founder of an exporting company.\n",
+    "mentor": "Mentee",
+    "stackoverflow": "https://stackoverflow.com/users/12424047/hasan-do%c4%9fan?tab=profile",
+    "slug": "hasan-dogan",
+    "avatar": "https://avatars.githubusercontent.com/hasandogn",
+    "displayInterests": "fullstack",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "08.01.2021 22:51:21",
+    "name": "Mert Can Yılmaz",
+    "twitter_handle": "",
+    "github": "https://github.com/DEONSKY",
+    "linkedin": "https://linkedin.com/in/mert-can-5697a6195",
+    "interests": "fronted, backend, vue js, node js, c++, game development (unity or unreal ), machine learning, deep learning, .net core, mvc, flutter, ...",
+    "goals": "I am a 2nd grade computer science student. Currently, I want to try different technologies in different areas. Because I am searching for the best job that includes fun and a nice income with an optimal mixture. But to able to be that I think I should increase my options. Now, I contribute to the vue js, node js project of one of the communities I am a member of. I tried to develop a racing game at Unity that includes procedural map generation. I am not bad at data structures. I create a dynamic personal website with .net mvc and mssql. I got this website live on web. But it's not live now because of the host. I enjoy solving challenging problems. I've also dealt with artificial intelligence. But after a certain point, I did not continue. But I want to deal with it one more time. My main goal is to develop myself language-independent. I want to whatever I do, do my best.",
+    "mentor": "Mentee",
+    "slug": "mert-can-yilmaz",
+    "avatar": "https://avatars.githubusercontent.com/DEONSKY",
+    "displayInterests": "fronted, backend, vue js, node js, c++, game development (unity or unreal ), machine learning, deep learning, .net core, mvc, flutter, ...",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "09.01.2021 00:49:34",
+    "name": "Emir Muminoglu",
+    "twitter_handle": "",
+    "github": "https://github.com/emirmuminoglu",
+    "linkedin": "https://linkedin.com/in/emir-m%C3%BCmino%C4%9Flu-622a6a1bb",
+    "interests": "both front-end(vue, react ) and back-end(go, javascript, python).",
+    "goals": "I am currently studying in high school. Meanwhile I am working as a freelancer for past 6 months. I had chance to work with big companies like ASELSAN and Altair but not directly. So I am in the best position that I can ever have before graduate from high school and before be an adult. The law prevents me to get a job in a better position because of my age (I am 15 by the way). So I'm studying for get into a good university and working for IELTS or TOEFL. Maybe I'm in a wrong path and I don't believe that my co-workers can't be objective about my future so I am looking for a mentor that can judge my situation objectively.",
+    "mentor": "Mentor",
+    "slug": "emir-muminoglu",
+    "avatar": "https://avatars.githubusercontent.com/emirmuminoglu",
+    "displayInterests": "Both front-end(Vue, React ) and back-end(Go, Javascript, Python).",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "09.01.2021 15:15:40",
+    "name": "Gökhan Durmaz",
+    "twitter_handle": "https://twitter.com/_gdurmaz_",
+    "github": "https://github.com/GokhanDurmaz",
+    "linkedin": "https://linkedin.com/in/gökhan-durmaz-47b555a8",
+    "interests": "backend",
+    "goals": "Being one of the best android developer",
+    "mentor": "Mentor",
+    "slug": "gokhan-durmaz",
+    "avatar": "https://avatars.githubusercontent.com/GokhanDurmaz",
+    "displayInterests": "backend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "09.01.2021 16:58:25",
+    "name": "Gizemnur Kablan ",
+    "twitter_handle": "https://twitter.com/GGNNKK22",
+    "github": "https://github.com/GNK-LAB",
+    "linkedin": "https://linkedin.com/in/gizemnur-kablan-4a03301a2",
+    "interests": "ux /uı/cx/seo/sem/marketing/wordpress",
+    "goals": "I want to be ux/uı developer in the future.That's why I'm here",
+    "mentor": "Mentor",
+    "stackoverflow": "https://stackexchange.com/users/20408403/gizemnur-kablan",
+    "slug": "gizemnur-kablan",
+    "avatar": "https://avatars.githubusercontent.com/GNK-LAB",
+    "displayInterests": "ux /uı/cx/seo/sem/marketing/wordpress",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "09.01.2021 21:17:32",
+    "name": "Kemal Kanok",
+    "twitter_handle": "",
+    "github": "https://github.com/kemalkanok",
+    "linkedin": "https:///in/kemalkanok",
+    "interests": "backend devops",
+    "goals": "i want to train  as many as developers i can That's why I'm here",
+    "mentor": "Mentee",
+    "slug": "kemal-kanok",
+    "avatar": "https://avatars.githubusercontent.com/kemalkanok",
+    "displayInterests": "backend devops",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "09.01.2021 22:27:58",
+    "name": "Berkay Ayhan",
+    "twitter_handle": "https://twitter.com/BerkayAyhan_",
+    "github": "https://github.com/ahmetberkayayhan",
+    "linkedin": "https://linkedin.com/in/berkay-ayhan-3b826a147",
+    "interests": "backend, java, sql, c#, c++",
+    "goals": "I want to improve myself and i want to help here while improve.",
+    "mentor": "Mentee",
+    "slug": "berkay-ayhan",
+    "avatar": "https://avatars.githubusercontent.com/ahmetberkayayhan",
+    "displayInterests": "Backend, Java, SQL, C#, C++",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
     "registered_at": "",
     "name": "Emsal Cengiz",
     "twitter_handle": "https://twitter.com/emsalcngz",
@@ -11558,7 +12074,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -11653,9 +12169,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -11741,6 +12257,63 @@
             "github_address": "https://github.com/BerkanSezer",
             "avatar": "https://avatars.githubusercontent.com/BerkanSezer",
             "fmn_url": "/peer/berkan-sezer"
+          }
+        ]
+      },
+      {
+        "": "16.12.2020 23:45:03",
+        "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
+        "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
+        "goal": "https://github.com/FurkanPortakal/opensourceadam",
+        "slug": "opensourceadam",
+        "contributors": [
+          {
+            "username": "FurkanPortakal",
+            "github_address": "https://github.com/FurkanPortakal",
+            "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
+            "fmn_url": "/peer/furkan-portakal"
+          },
+          {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
+            "username": "sametpalitci",
+            "github_address": "https://github.com/sametpalitci",
+            "avatar": "https://avatars.githubusercontent.com/sametpalitci",
+            "fmn_url": ""
+          },
+          {
+            "username": "kayraberktuncer",
+            "github_address": "https://github.com/kayraberktuncer",
+            "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
+            "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "tansionline",
+            "github_address": "https://github.com/tansionline",
+            "avatar": "https://avatars.githubusercontent.com/tansionline",
+            "fmn_url": "/peer/selcuk-tatar"
           }
         ]
       }
@@ -11966,14 +12539,13 @@
     "slug": "selcuk-tatar",
     "avatar": "https://avatars.githubusercontent.com/tansionline",
     "displayInterests": "Frontend, Backend (Nodejs, React or Vue)",
-    "isHireable": true,
-    "mail": "tatarselcuk27@gmail.com",
+    "isHireable": false,
     "mentorships": [],
     "contributions": [
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -12068,9 +12640,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -12160,27 +12732,6 @@
         ]
       },
       {
-        "": "12.12.2020 00:20:43",
-        "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/entrylevel",
-        "goal": "Giriş seviyesinde (Junior, stajyer, part-time) iş ilanlarına erişmek güç, bu problemi bir iş ilanı listeleme sayfası yaparak çözeceğiz. Excel'den verileri alıp ekrana koyacağız. Find mentor alt yapısını direkt uygulayarak iş ilanı sitesi üreteceğiz.",
-        "slug": "entrylevel",
-        "contributors": [
-          {
-            "username": "tansionline",
-            "github_address": "https://github.com/tansionline",
-            "avatar": "https://avatars.githubusercontent.com/tansionline",
-            "fmn_url": "/peer/selcuk-tatar"
-          },
-          {
-            "username": "cagataycali",
-            "github_address": "https://github.com/cagataycali",
-            "avatar": "https://avatars.githubusercontent.com/cagataycali",
-            "fmn_url": "/peer/cagatay-cali"
-          }
-        ]
-      },
-      {
         "": "12.12.2020 17:46:29",
         "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
         "project_adress": "https://github.com/ilteriskeskin/cevrimici-kitap-galerisi",
@@ -12194,10 +12745,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -12239,6 +12790,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
             "username": "sametpalitci",
             "github_address": "https://github.com/sametpalitci",
             "avatar": "https://avatars.githubusercontent.com/sametpalitci",
@@ -12249,6 +12806,24 @@
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
             "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
             "username": "tansionline",
@@ -12376,10 +12951,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -12699,7 +13274,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -12794,9 +13369,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -13130,7 +13705,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -13225,9 +13800,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -13330,10 +13905,10 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
-            "username": "burakyilmaz55",
-            "github_address": "https://github.com/burakyilmaz55",
-            "avatar": "https://avatars.githubusercontent.com/burakyilmaz55",
-            "fmn_url": "/peer/burak-yilmaz"
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           },
           {
             "username": "tansionline",
@@ -13391,13 +13966,14 @@
     "slug": "kemal-ayhan",
     "avatar": "https://avatars.githubusercontent.com/kemalayhan",
     "displayInterests": "Backend Developer (Python / Django)",
-    "isHireable": false,
+    "isHireable": true,
+    "mail": "kemalayhan013@gmail.com",
     "mentorships": [],
     "contributions": [
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -13492,9 +14068,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -13619,7 +14195,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -13714,9 +14290,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -13858,7 +14434,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -13953,9 +14529,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -14058,6 +14634,12 @@
             "fmn_url": "/peer/furkan-portakal"
           },
           {
+            "username": "ozlemts",
+            "github_address": "https://github.com/ozlemts",
+            "avatar": "https://avatars.githubusercontent.com/ozlemts",
+            "fmn_url": "/peer/ozlem-sevindi"
+          },
+          {
             "username": "sametpalitci",
             "github_address": "https://github.com/sametpalitci",
             "avatar": "https://avatars.githubusercontent.com/sametpalitci",
@@ -14068,6 +14650,24 @@
             "github_address": "https://github.com/kayraberktuncer",
             "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
             "fmn_url": "/peer/kayra-berk-tuncer"
+          },
+          {
+            "username": "altaysimsek",
+            "github_address": "https://github.com/altaysimsek",
+            "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+            "fmn_url": "/peer/altay-simsek"
+          },
+          {
+            "username": "ahmetbcakici",
+            "github_address": "https://github.com/ahmetbcakici",
+            "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
+            "fmn_url": "/peer/ahmet-bugra-cakici"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
           },
           {
             "username": "tansionline",
@@ -14097,7 +14697,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -14192,9 +14792,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -14399,7 +14999,7 @@
       {
         "": "11.12.2020 14:13:50",
         "mentor": "https://findmentor.network/peer/cagatay-cali",
-        "project_adress": "https://github.com/cagataycali/find-mentor",
+        "project_adress": "https://github.com/findmentor-network/find-mentor",
         "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
         "slug": "find-mentor",
         "contributors": [
@@ -14494,9 +15094,9 @@
             "fmn_url": "/peer/batin-eryilmaz"
           },
           {
-            "username": "crx4",
-            "github_address": "https://github.com/crx4",
-            "avatar": "https://avatars.githubusercontent.com/crx4",
+            "username": "mcanvar",
+            "github_address": "https://github.com/mcanvar",
+            "avatar": "https://avatars.githubusercontent.com/mcanvar",
             "fmn_url": ""
           },
           {
@@ -14794,7 +15394,47 @@
     "displayInterests": "Backend, Golang, Devops",
     "isHireable": false,
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "15.12.2020 23:47:39",
+        "mentor": "https://findmentor.network/peer/cagatay-cali",
+        "project_adress": "https://github.com/findmentor-network/analytics",
+        "goal": "We want create new-gen analytics platform for developers to developers. This project aim is one click analytics solution for open-source projects & more.",
+        "slug": "analytics",
+        "contributors": [
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali",
+            "fmn_url": "/peer/cagatay-cali"
+          },
+          {
+            "username": "mbugrayildiz",
+            "github_address": "https://github.com/mbugrayildiz",
+            "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
+            "fmn_url": "/peer/mustafa-b.-yildiz"
+          },
+          {
+            "username": "batin",
+            "github_address": "https://github.com/batin",
+            "avatar": "https://avatars.githubusercontent.com/batin",
+            "fmn_url": "/peer/batin-eryilmaz"
+          },
+          {
+            "username": "barisesen",
+            "github_address": "https://github.com/barisesen",
+            "avatar": "https://avatars.githubusercontent.com/barisesen",
+            "fmn_url": "/peer/baris-esen"
+          },
+          {
+            "username": "boratanrikulu",
+            "github_address": "https://github.com/boratanrikulu",
+            "avatar": "https://avatars.githubusercontent.com/boratanrikulu",
+            "fmn_url": "/peer/bora-tanrikulu"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "",
@@ -15373,16 +16013,16 @@
             "fmn_url": "/peer/cagatay-cali"
           },
           {
-            "username": "halitsoydemir",
-            "github_address": "https://github.com/halitsoydemir",
-            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
-            "fmn_url": ""
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
           }
         ]
       },
@@ -15400,21 +16040,27 @@
             "fmn_url": "/peer/emre-savci"
           },
           {
-            "username": "BRTZL",
-            "github_address": "https://github.com/BRTZL",
-            "avatar": "https://avatars.githubusercontent.com/BRTZL",
-            "fmn_url": "/peer/bartu-ozel"
-          },
-          {
             "username": "MuratSs",
             "github_address": "https://github.com/MuratSs",
             "avatar": "https://avatars.githubusercontent.com/MuratSs",
             "fmn_url": "/peer/murat-mirgun-ercan"
           },
           {
+            "username": "BRTZL",
+            "github_address": "https://github.com/BRTZL",
+            "avatar": "https://avatars.githubusercontent.com/BRTZL",
+            "fmn_url": "/peer/bartu-ozel"
+          },
+          {
             "username": "ramazan",
             "github_address": "https://github.com/ramazan",
             "avatar": "https://avatars.githubusercontent.com/ramazan",
+            "fmn_url": ""
+          },
+          {
+            "username": "bilalcaliskan",
+            "github_address": "https://github.com/bilalcaliskan",
+            "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
             "fmn_url": ""
           }
         ]
@@ -15642,8 +16288,40 @@
     "avatar": "https://avatars.githubusercontent.com/peacecwz",
     "displayInterests": "Frontend, Backend, Mobile App, SDS, Product Development",
     "isHireable": false,
-    "mentorships": [],
-    "contributions": []
+    "mentorships": [
+      {
+        "": "09.01.2021 17:29:05",
+        "mentor": "https://findmentor.network/peer/baris-ceviz",
+        "project_adress": "https://github.com/koledeus/koledeus-api",
+        "goal": ".NET 5.0 ile farklı teknoloji ve yaklaşımları uygulayarak Desktime uygualamasının OSS versiyonu geliştirmeyi ve bu süreçte mentee lere bilgi/deneyim katmayı hedefliyoruz",
+        "slug": "koledeus-api",
+        "contributors": [
+          {
+            "username": "peacecwz",
+            "github_address": "https://github.com/peacecwz",
+            "avatar": "https://avatars.githubusercontent.com/peacecwz",
+            "fmn_url": "/peer/baris-ceviz"
+          }
+        ]
+      }
+    ],
+    "contributions": [
+      {
+        "": "09.01.2021 17:29:05",
+        "mentor": "https://findmentor.network/peer/baris-ceviz",
+        "project_adress": "https://github.com/koledeus/koledeus-api",
+        "goal": ".NET 5.0 ile farklı teknoloji ve yaklaşımları uygulayarak Desktime uygualamasının OSS versiyonu geliştirmeyi ve bu süreçte mentee lere bilgi/deneyim katmayı hedefliyoruz",
+        "slug": "koledeus-api",
+        "contributors": [
+          {
+            "username": "peacecwz",
+            "github_address": "https://github.com/peacecwz",
+            "avatar": "https://avatars.githubusercontent.com/peacecwz",
+            "fmn_url": "/peer/baris-ceviz"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "",

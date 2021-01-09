@@ -184,6 +184,78 @@
       ],
       "remote": "Hayır",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "06.01.2021 17:29:07",
+      "company": "Glosis Danışmanlık ve İnsan Kaynakları",
+      "position": "Data Engineer",
+      "address": "https://www.linkedin.com/feed/update/urn:li:activity:6752511971834241024",
+      "description": "Dünyada ve ülkemizde lider içecek markasının Ümraniye/İstanbul merkezindeki yazılım ekibinde görev alacak;\n\n✔️ İleri seviyede SQL bilgisine sahip,\n✔️ Python veya başka herhangi bir komut dosyası / programlama dili hakkında temel bilgi sahibi (veya Python öğrenmeye istekli),\n✔️ IBM DataStage ETL aracı tecrübesine sahip,\n✔️Tercihen Apache Airflow'da deneyimli, \n✔️Tercihen SAP ekosistemindeki deneyimli (SAP DataServices, BO, BW) Veri Mühendisi aramaktayız. \n\n➕Pandemi sebebiyle uzaktan çalışılmaktadır ve tüm görüşmelerimizin tümünü dijital yapıyoruz",
+      "location": "Ümraniye/İstanbul",
+      "logo": "http://www.glosis.net/img/logo.png",
+      "tags": [
+        "SQL",
+        "Python",
+        "IBM DataStage",
+        "ETL",
+        "SAP DataServices",
+        "BO",
+        "BW",
+        "data",
+        "veri",
+        "mühendis"
+      ],
+      "remote": "Hayır",
+      "isRemoveAllowed": false
+    },
+    {
+      "date": "07.01.2021 00:00:24",
+      "company": "Bytelus",
+      "position": "DevOps Engineer",
+      "address": "https://bytelus.com/join-us/",
+      "description": "About Bytelus:\n\nBytelus has the mission of “to produce products that will benefit the future of the world, the human race to reach a higher level with the revolutionary power of technology, and to support scientific and technological activities for this mission” and to serve this mission; Bytelus is a technology company established with the vision of developing and operating digital ventures and projects within its own structure. Born in Antalya, Turkey on 27 May 2020, established in Tallinn, Estonia on 26.11.2020 as a private limited company; Bytelus OÜ.\n\nBytelus born after Radiolize’s success, which became a global cloud SaaS that operates in digital audio streaming. Since we had more crazy ideas and strived to do more, instead of creating a conventional company called Radiolize, we created a roof company for our projects. The name comes from “Byte” and “Zeus” which also reminds us the lovely place Olympos in Antalya / Turkey. Also, that’s why we call our offices “Home of the Zeus of Bytes”.\n\nWe are trying to do revolutionary disruptive things other people think are crazy but we are super excited about. We know how hard it is, that’s why our motto is “ad astra per aspera”, which is a popular Latin phrase meaning “a rough road leads to the stars.”\n\nAbout Radiolize:\n\nRadiolize.com is a growing venture of Bytelus Labs. It's a SaaS (Software as a service) that people can create, run and manage their own online radio stations. In the market since July 2019.\n\nRadiolize provides all-in-one modern digital solutions for online audio broadcasting. Users can manage and broadcast their online radios and on-demand audio files from anywhere, anytime, any device. It's based on cloud technology. You can check more at radiolize.com\n\nLocation: Antalya Office or Remote\n\nResponsibilities and Duties:\n\nIn this role, you'll be scaling, automating and operating our current Docker infrastructure with container orchestration platforms. Set and automate the deployment, configuration, and management of complex cloud environments.\n\nSkills & Experiences:\n\n- A desire to automate everything and the wisdom to know when not to\n- Major cloud provider tooling (AWS, Azure, GCP, Bare-Metal)\n- Deep knowledge of Linux distros: deployment, management, and security\n- One or more container orchestration tools, platforms and frameworks (Kubernetes, Knative, Istio, Envoy)\n- Docker\n- Technical troubleshooting and problem-solving skills\n- Design, develop, test, deploy, maintain and improve in an agile environment.\n- CI/CD, Git tools\n- Awareness and or experience with cyber-security best practices, tools, procedures, coding standards, use of third-party software, etc.\n- A well-organized team player, having good communication skills.\n- Understanding of PHP backend is a plus but not must\n\nWe Offer:\n\n- Fantastic working environment built on the principles of scrum and self-organization\n- Fun, happy and politics-free work culture\n- Optionally, a room in our house of core developers in Antalya which is across the beautiful full-mountain view, 10 minutes walking to Konyaalti Plaji\n- No dress code, corporate speak or middle managers\n- Be an essential part of promising venture",
+      "location": "Konyaalti / Antalya",
+      "logo": "https://bytelus.com/wp-content/uploads/2020/06/bytelus.png",
+      "tags": [
+        "devops",
+        "docker",
+        "virtualization",
+        "kubernetes"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
+    },
+    {
+      "date": "07.01.2021 00:51:41",
+      "company": "Bytelus ",
+      "position": " DevOps Engineer",
+      "address": "https://bytelus.com/join-us/",
+      "description": "Hello guys! We are currently looking for a DevOps Engineer.\n\nResponsibilities and Duties:\n\nIn this role, you'll be scaling, automating and operating our current Docker infrastructure with container orchestration platforms or virtualization tools. Set and automate the deployment, configuration, and management of cloud environments.\n\nSkills & Experiences:\n\n- A desire to automate everything and the wisdom to know when not to\n- Major cloud provider tooling (AWS, Azure, GCP, Bare-Metal)\n- Deep knowledge of Linux distros: deployment, management, and security\n- Knowledge on container orchestration tools, platforms and frameworks (Kubernetes, Knative, Istio, Envoy)\n- Virtualization (KVM, VMWare etc.)\n- Docker\n- Technical troubleshooting and problem-solving skills\n- Design, develop, test, deploy, maintain and improve in an agile environment.\n- Awareness and or experience with cyber-security best practices, tools, procedures, coding standards, use of third-party software, etc.\n- A well-organized team player, having good communication skills.\n- Understanding of PHP backend is a plus but not must",
+      "location": "Antalya",
+      "logo": "https://bytelus.com/wp-content/uploads/2020/06/byteluswhitelogo.png",
+      "tags": [
+        "devops",
+        "aws",
+        "kubernetes",
+        "Virtualization"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
+    },
+    {
+      "date": "08.01.2021 17:38:16",
+      "company": "Bytelus ",
+      "position": " DevOps Engineer",
+      "address": "https://bytelus.com/join-us/",
+      "description": "Hello guys! We are currently looking for a DevOps Engineer.\n\nResponsibilities and Duties:\n\nIn this role, you'll be scaling, automating and operating our current Docker infrastructure with container orchestration platforms or virtualization tools. Set and automate the deployment, configuration, and management of cloud environments.\n\nSkills & Experiences:\n\n- A desire to automate everything and the wisdom to know when not to\n- Major cloud provider tooling (AWS, Azure, GCP, Bare-Metal)\n- Deep knowledge of Linux distros: deployment, management, and security\n- Knowledge on container orchestration tools, platforms and frameworks (Kubernetes, Knative, Istio, Envoy)\n- Virtualization (KVM, VMWare etc.)\n- Docker\n- Technical troubleshooting and problem-solving skills\n- Design, develop, test, deploy, maintain and improve in an agile environment.\n- Awareness and or experience with cyber-security best practices, tools, procedures, coding standards, use of third-party software, etc.\n- A well-organized team player, having good communication skills.\n- Understanding of PHP backend is a plus but not must",
+      "location": "Antalya",
+      "logo": "https://bytelus.com/wp-content/uploads/2020/06/BytelusAmblem-300x300.png",
+      "tags": [
+        "devops",
+        "virtualization"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
