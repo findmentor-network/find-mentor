@@ -68,16 +68,16 @@
                 "fmn_url": "/peer/cagatay-cali"
               },
               {
-                "username": "MuratSs",
-                "github_address": "https://github.com/MuratSs",
-                "avatar": "https://avatars.githubusercontent.com/MuratSs",
-                "fmn_url": "/peer/murat-mirgun-ercan"
-              },
-              {
                 "username": "halitsoydemir",
                 "github_address": "https://github.com/halitsoydemir",
                 "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
                 "fmn_url": ""
+              },
+              {
+                "username": "MuratSs",
+                "github_address": "https://github.com/MuratSs",
+                "avatar": "https://avatars.githubusercontent.com/MuratSs",
+                "fmn_url": "/peer/murat-mirgun-ercan"
               }
             ]
           },
@@ -99,6 +99,12 @@
                 "github_address": "https://github.com/MuratSs",
                 "avatar": "https://avatars.githubusercontent.com/MuratSs",
                 "fmn_url": "/peer/murat-mirgun-ercan"
+              },
+              {
+                "username": "cagataycali",
+                "github_address": "https://github.com/cagataycali",
+                "avatar": "https://avatars.githubusercontent.com/cagataycali",
+                "fmn_url": "/peer/cagatay-cali"
               },
               {
                 "username": "BRTZL",
