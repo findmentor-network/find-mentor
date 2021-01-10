@@ -192,7 +192,7 @@
       "address": "https://www.linkedin.com/feed/update/urn:li:activity:6752511971834241024",
       "description": "Dünyada ve ülkemizde lider içecek markasının Ümraniye/İstanbul merkezindeki yazılım ekibinde görev alacak;\n\n✔️ İleri seviyede SQL bilgisine sahip,\n✔️ Python veya başka herhangi bir komut dosyası / programlama dili hakkında temel bilgi sahibi (veya Python öğrenmeye istekli),\n✔️ IBM DataStage ETL aracı tecrübesine sahip,\n✔️Tercihen Apache Airflow'da deneyimli, \n✔️Tercihen SAP ekosistemindeki deneyimli (SAP DataServices, BO, BW) Veri Mühendisi aramaktayız. \n\n➕Pandemi sebebiyle uzaktan çalışılmaktadır ve tüm görüşmelerimizin tümünü dijital yapıyoruz",
       "location": "Ümraniye/İstanbul",
-      "logo": "http://www.glosis.net/img/logo.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/getdersim.appspot.com/o/logo.png?alt=media&token=dd2a7930-0957-43e3-b8ab-8bbcf078ec04",
       "tags": [
         "SQL",
         "Python",
@@ -232,7 +232,7 @@
       "address": "https://bytelus.com/join-us/",
       "description": "Hello guys! We are currently looking for a DevOps Engineer.\n\nResponsibilities and Duties:\n\nIn this role, you'll be scaling, automating and operating our current Docker infrastructure with container orchestration platforms or virtualization tools. Set and automate the deployment, configuration, and management of cloud environments.\n\nSkills & Experiences:\n\n- A desire to automate everything and the wisdom to know when not to\n- Major cloud provider tooling (AWS, Azure, GCP, Bare-Metal)\n- Deep knowledge of Linux distros: deployment, management, and security\n- Knowledge on container orchestration tools, platforms and frameworks (Kubernetes, Knative, Istio, Envoy)\n- Virtualization (KVM, VMWare etc.)\n- Docker\n- Technical troubleshooting and problem-solving skills\n- Design, develop, test, deploy, maintain and improve in an agile environment.\n- Awareness and or experience with cyber-security best practices, tools, procedures, coding standards, use of third-party software, etc.\n- A well-organized team player, having good communication skills.\n- Understanding of PHP backend is a plus but not must",
       "location": "Antalya",
-      "logo": "https://bytelus.com/wp-content/uploads/2020/06/byteluswhitelogo.png",
+      "logo": "https://bytelus.com/wp-content/uploads/2020/06/bytelus.png",
       "tags": [
         "devops",
         "aws",
