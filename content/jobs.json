@@ -256,6 +256,22 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "11.01.2021 12:14:27",
+      "company": "Infumar",
+      "position": "Vue JS Developer",
+      "address": "https://www.linkedin.com/jobs/view/2375922820/?refId=ou23I0JtSvKGe%2BYCvNRdNw%3D%3D",
+      "description": "Infumar; seçili markaları, influencerları, influencer ajanslarını/menajerlerini ve reklam ajanslarını bir araya getirerek işbirlikleri yapmalarını sağlayan influencer marketing platformudur. Şirketimize birlikte geleceği kodlayacağımız influencer marketing'e bakışı değiştireceğimiz ekip arkadaşları arıyoruz. \n\nInfumar olarak;\nYazılım analiz,geliştirme, test ve iyileştirme süreçlerinde aktif olarak rol alabilecek, güncel teknoloji ve mimarileri araştırmaktan keyif alan ekip arkadaşları arıyoruz.\nHali hazırda aktif olan projemize yeni feature'ların eklenmesi gerekiyor. Önümüzdeki 4 ay Full zamanlı proje bazlı çalışmak istiyoruz. 4 ayın sonunda sözleşmeli full zamanlı'ya geçmeyi konuşabiliriz.\n\nİlgili pozisyon için aranan nitelikler;\n\nAradığımız tadından yenmez özellikler:\nTakım çalışmasına yatkın ve sorumluluk sahibi,\nYeni şeyler öğrenme heyecanına sahip,\nİnsiyatif alıp aksiyon alabilmek,\nHTML && JS && CSS3 gibi Front-End teknolojilerini aktif olarak kullanmak\n\nUmursamadığımız özellikler:\nMühendislik Bölümlerinden Mezun\nAskerliğin tecilli olup olmaması\nÇok fazla deneyimin olup olmaması\n\nİlgili pozisyonda sizleri bir adım öne çıkaracak özellikler;\n* VueJS\n* AngularJS\n* NodeJS",
+      "location": "İstanbul",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGC9C_TNFYsgg/company-logo_200_200/0/1610300606254?e=1618444800&v=beta&t=sEvBPjbZZGgcWXRCnZRUe1pf7vyGSB1w6FLWN4S6_Ak",
+      "tags": [
+        "frontend",
+        "vuejs",
+        "web"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
