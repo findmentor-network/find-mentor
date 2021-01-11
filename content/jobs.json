@@ -272,6 +272,21 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "11.01.2021 23:25:12",
+      "company": "Kampbros",
+      "position": "Frontend Developer",
+      "address": "",
+      "description": "Kampbros, yeni rezervasyon modeli altyapısı için Frontend Developer arıyor. İdeal aday, frontend geliştirme konusunda 2 yıldan fazla deneyime sahip olmalıdır. Ruby on Rails ve React.js konusunda yeteneklere. Kamp ve doğa aktivitelerine tutkuyla bağlıysanız ve Türkiye'nin neredeyse her yerinden uzaktan, hızlı tempolu bir startup çalışmak istiyorsanız, sizinle çalışmak istiyoruz!\n\nKampbros Hakkında\n\nAktiviteleri herkes için daha ulaşılabilir hale getirmek amacıyla 2017 yılında Kampbros’a başladık. Amacımız Dünya’nın her yerinde insanların doğa yerlerini ve aktivite alanlarını keşfetmesini sağlamak.\n\nFrontend Developer\n\n2+ yıldan fazla frontend geliştirme deneyimine sahip,\nJavaScript, \nAngular, Vue veya React kullanan, \nNode.js, Express.js, GraphQL, HTML, CSS, Scss, Less bilen,\nRezervasyon ve harita yapıları ile çalışmayı seven,\nekip arkadaşları arıyoruz.\n\nÇalışma Ortamımız Hakkında\n\nSaatlere ve mekana değil sonuçlara odaklanıyoruz. Yetenekli insanların, açıkça tanımlanmış hedefleri en iyi sonuçlara ulaştırabildiğine inanıyoruz. Önemli bir amaç üzerinde çalışan farklı ekiplerin, birlikte olağanüstü şeyler başarabildiğinden eminiz.\n\nKampbros, fırsat eşitliği sunan bir girişimdir ve çeşitliliğe değer verir. Irk, din, renk, ulusal köken, cinsiyet, cinsel yönelim, yaş, medeni durum, gazilik durumu veya engellilik durumuna göre ayrımcılık yapmayız. Aslında farklılıklara sahip ve çeşitli kültürlere aşina olan kişilerin mükemmel sonuçlar ortaya çıkarttığından eminiz.\n\nGirişimimiz şartları doğrultusunda belirli ödeme veya hisse seçeneklerini sunmaktayız. Bunun yanı sıra doğa tatili ve aktiviteleri için ekibimize birçok ayrıcalık sağlamaktayız.",
+      "location": "Remote",
+      "logo": "https://kampbros.com/file/2020/07/kampbros-logo-2020.svg",
+      "tags": [
+        "frontend",
+        "node.js"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
