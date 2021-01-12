@@ -1389,6 +1389,27 @@
             "fmn_url": "/peer/haci-kandemir"
           }
         ]
+      },
+      {
+        "": "12.01.2021 21:48:28",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/django-ecommerce",
+        "goal": "Bu projede Django kullanarak bir e-ticaret sitesi yapılması hedefleniyor. Django orm yapısı, admin paneli, veritabanı tasarımı gibi konuların kodlanması ve öğrenilmesi hedeflenmektedir.",
+        "slug": "django-ecommerce",
+        "contributors": [
+          {
+            "username": "ilteriskeskin",
+            "github_address": "https://github.com/ilteriskeskin",
+            "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+            "fmn_url": "/peer/ali-ilteris-keskin"
+          },
+          {
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
+          }
+        ]
       }
     ],
     "contributions": [
@@ -1623,6 +1644,27 @@
             "github_address": "https://github.com/HaciKandemir",
             "avatar": "https://avatars.githubusercontent.com/HaciKandemir",
             "fmn_url": "/peer/haci-kandemir"
+          }
+        ]
+      },
+      {
+        "": "12.01.2021 21:48:28",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/django-ecommerce",
+        "goal": "Bu projede Django kullanarak bir e-ticaret sitesi yapılması hedefleniyor. Django orm yapısı, admin paneli, veritabanı tasarımı gibi konuların kodlanması ve öğrenilmesi hedeflenmektedir.",
+        "slug": "django-ecommerce",
+        "contributors": [
+          {
+            "username": "ilteriskeskin",
+            "github_address": "https://github.com/ilteriskeskin",
+            "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+            "fmn_url": "/peer/ali-ilteris-keskin"
+          },
+          {
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
           }
         ]
       }
