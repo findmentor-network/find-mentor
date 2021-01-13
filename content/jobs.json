@@ -287,6 +287,25 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "13.01.2021 14:06:17",
+      "company": "Glosis Danışmanlık ve İnsan Kaynakları",
+      "position": "Manuel Test Mühendisi ve Test Destek Mühendisi ",
+      "address": "https://www.linkedin.com/feed/update/urn:li:activity:6755076512933810176",
+      "description": "👉🏻 Manuel Test Mühendisi ve Test Destek Mühendisi arıyoruz. \n\nDünyada ve ülkemizde lider içecek markasının Ümraniye/İstanbul merkezindeki yazılım ekibinin test süreçlerinde görev alacak 2 ayrı arayışımız var;\n\n1. Manuel Test Mühendisi, (+4 sene deneyimli)\n🖇️ Manuel test süreçlerinde deneyimli,\n🖇️ Tüm test case’lerin yazılması, bug’ların açılması ve bugfix takibi yapacak,\n🖇️ UAT testlerinde kullanıcılara yol gösterecek /onlarla birlikte test yapabilecek,\n🖇️ Scrum sprintleri içerisinde kabul testlerini yapacak,\n\n2. Test Destek Mühendisi (+1 sene deneyimli)\n🖇️ Test süreçlerinde en az 1 sene aktif yer almış ve kariyer planlamasını bu yönde yapan\n🖇️ Destek ekibindeki sorumlulukları üstlenebilecek ekip arkadaşları arıyoruz.\n\n➕Pandemi sebebiyle uzaktan çalışılmaktadır ve tüm görüşmelerimizin tümünü dijital yapıyoruz.",
+      "location": "Ümraniye/İstanbul",
+      "logo": "http://www.glosis.net/img/logo.png",
+      "tags": [
+        "test",
+        "manueltest",
+        "sat",
+        "destek",
+        "support",
+        "bug"
+      ],
+      "remote": "Hayır",
+      "isRemoveAllowed": false
     }
   ]
 }

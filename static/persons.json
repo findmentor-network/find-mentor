@@ -8699,7 +8699,23 @@
     "avatar": "https://avatars.githubusercontent.com/theykk",
     "displayInterests": "DevOps, Backend, Golang, Docker, Kubernetes",
     "isHireable": false,
-    "mentorships": [],
+    "mentorships": [
+      {
+        "": "13.01.2021 17:30:06",
+        "mentor": "https://findmentor.network/peer/kaan-karakaya",
+        "project_adress": "https:// github.com/TheYkk/kubepwd",
+        "goal": "Bu proje ile kuberntesede bulunan servislerin portlarini local acacak bir uygulama yapacagiz. Normalde kubectl ile portu yonelndirmek icin servisin namespacini servis adini ve portlarini vermek gerkiyor. Biz bunun yerine go ile bir cli yazacagiz bu cli uzerinde secme islemi yaparak portu yonlendirecek.",
+        "slug": "kubepwd",
+        "contributors": [
+          {
+            "username": "TheYkk",
+            "github_address": "https://github.com/TheYkk",
+            "avatar": "https://avatars.githubusercontent.com/TheYkk",
+            "fmn_url": ""
+          }
+        ]
+      }
+    ],
     "contributions": []
   },
   {
@@ -12610,6 +12626,22 @@
     "slug": "merve-cengiz",
     "avatar": "https://avatars.githubusercontent.com/cengizmerve",
     "displayInterests": "Frontend",
+    "isHireable": false,
+    "mentorships": [],
+    "contributions": []
+  },
+  {
+    "registered_at": "13.01.2021 15:07:37",
+    "name": "Murat Benli",
+    "twitter_handle": "https://twitter.com/imuratbenli",
+    "github": "https://github.com/muratbenli",
+    "linkedin": "https://linkedin.com/in/murat-benli",
+    "interests": "frontend, react, react native, tailwindcss",
+    "goals": "I want to improve my technical skills in front-end development.",
+    "mentor": "Both",
+    "slug": "murat-benli",
+    "avatar": "https://avatars.githubusercontent.com/muratbenli",
+    "displayInterests": "Frontend, React, React Native, TailwindCSS",
     "isHireable": false,
     "mentorships": [],
     "contributions": []
