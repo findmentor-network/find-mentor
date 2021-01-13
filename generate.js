@@ -183,6 +183,26 @@ async function makeContent(name, data) {
   fs.writeFileSync(`static/${name}.json`, serialized_data)
 }
 
+function shuffle(array) {
+  var currentIndex = array.length,
+    temporaryValue,
+    randomIndex
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex)
+    currentIndex -= 1
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex]
+    array[currentIndex] = array[randomIndex]
+    array[randomIndex] = temporaryValue
+  }
+
+  return array
+}
+
 // entry point
 getData().then(({ status, data: { persons, activeMentorships, contribs, counts, jobs, hireable } }) => {
   if (status !== 200) {
@@ -190,7 +210,23 @@ getData().then(({ status, data: { persons, activeMentorships, contribs, counts, 
   }
 
   const mentorships = activeMentorships
-  makeContent('persons', persons)
+  makeContent('persons', shuffle(persons))
+  makeContent('activeMentorships', { mentorships })
+  makeContent('contribs', { contribs })
+  makeContent('jobs', { jobs })
+  makeContent('hireable', { hireable })
+  makeContent('info', counts)
+})
+
+
+// entry point
+getData().then(({ status, data: { persons, activeMentorships, contribs, counts, jobs, hireable } }) => {
+  if (status !== 200) {
+    throw new Error('Error when fetching data from spreadsheet')
+  }
+
+  const mentorships = activeMentorships
+  makeContent('persons', shuffle(persons))
   makeContent('activeMentorships', { mentorships })
   makeContent('contribs', { contribs })
   makeContent('jobs', { jobs })

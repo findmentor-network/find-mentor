@@ -28,7 +28,6 @@ export default {
       this.$content('info').fetch(),
       this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'Both'] } })
-        .sortBy('registered_at', 'desc')
         .limit(this.postList.mentor.limit)
         .skip(this.postList.mentor.skip)
         .fetch(),
@@ -56,7 +55,6 @@ export default {
 
       const mentors = await this.$content('persons')
         .where({ mentor: { $in: ['Mentor', 'Both'] } })
-        .sortBy('registered_at', 'desc')
         .limit(this.postList.mentor.limit)
         .skip(this.postList.mentor.skip)
         .fetch()

@@ -822,7 +822,7 @@
     {
       "": "13.01.2021 17:30:06",
       "mentor": "https://findmentor.network/peer/kaan-karakaya",
-      "project_adress": "https:// github.com/TheYkk/kubepwd",
+      "project_adress": "https://github.com/TheYkk/kubepwd",
       "goal": "Bu proje ile kuberntesede bulunan servislerin portlarini local acacak bir uygulama yapacagiz. Normalde kubectl ile portu yonelndirmek icin servisin namespacini servis adini ve portlarini vermek gerkiyor. Biz bunun yerine go ile bir cli yazacagiz bu cli uzerinde secme islemi yaparak portu yonlendirecek.",
       "slug": "kubepwd",
       "contributors": [
