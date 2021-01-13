@@ -70,7 +70,8 @@ const clearData = (posts) => {
 
 const clearMentorships = (posts) => {
   return posts.map((post) => {
-    post.project_adress = fixProtocol(post.project_adress)
+    post.mentor = post.mentor.trim()
+    post.project_adress = fixProtocol(post.project_adress.trim())
     const projectName = post.project_adress.split('/').pop()
     post.slug = projectName
     return post
