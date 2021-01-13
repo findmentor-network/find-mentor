@@ -218,7 +218,6 @@ getData().then(({ status, data: { persons, activeMentorships, contribs, counts, 
   makeContent('info', counts)
 })
 
-
 // entry point
 getData().then(({ status, data: { persons, activeMentorships, contribs, counts, jobs, hireable } }) => {
   if (status !== 200) {
