@@ -468,6 +468,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "muratdemirci",
+            "github_address": "https://github.com/muratdemirci",
+            "avatar": "https://avatars.githubusercontent.com/muratdemirci",
+            "fmn_url": "/peer/murat-demirci"
           }
         ]
       },
@@ -1404,6 +1410,24 @@
             "fmn_url": "/peer/ali-ilteris-keskin"
           },
           {
+            "username": "Ksenofanex",
+            "github_address": "https://github.com/Ksenofanex",
+            "avatar": "https://avatars.githubusercontent.com/Ksenofanex",
+            "fmn_url": ""
+          },
+          {
+            "username": "SFEH",
+            "github_address": "https://github.com/SFEH",
+            "avatar": "https://avatars.githubusercontent.com/SFEH",
+            "fmn_url": ""
+          },
+          {
+            "username": "ilter",
+            "github_address": "https://github.com/ilter",
+            "avatar": "https://avatars.githubusercontent.com/ilter",
+            "fmn_url": "/peer/ilter-kose"
+          },
+          {
             "username": "buurak",
             "github_address": "https://github.com/buurak",
             "avatar": "https://avatars.githubusercontent.com/buurak",
@@ -1659,6 +1683,24 @@
             "github_address": "https://github.com/ilteriskeskin",
             "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
             "fmn_url": "/peer/ali-ilteris-keskin"
+          },
+          {
+            "username": "Ksenofanex",
+            "github_address": "https://github.com/Ksenofanex",
+            "avatar": "https://avatars.githubusercontent.com/Ksenofanex",
+            "fmn_url": ""
+          },
+          {
+            "username": "SFEH",
+            "github_address": "https://github.com/SFEH",
+            "avatar": "https://avatars.githubusercontent.com/SFEH",
+            "fmn_url": ""
+          },
+          {
+            "username": "ilter",
+            "github_address": "https://github.com/ilter",
+            "avatar": "https://avatars.githubusercontent.com/ilter",
+            "fmn_url": "/peer/ilter-kose"
           },
           {
             "username": "buurak",
@@ -4949,6 +4991,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "muratdemirci",
+            "github_address": "https://github.com/muratdemirci",
+            "avatar": "https://avatars.githubusercontent.com/muratdemirci",
+            "fmn_url": "/peer/murat-demirci"
           }
         ]
       },
@@ -5083,6 +5131,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "muratdemirci",
+            "github_address": "https://github.com/muratdemirci",
+            "avatar": "https://avatars.githubusercontent.com/muratdemirci",
+            "fmn_url": "/peer/murat-demirci"
           }
         ]
       },
@@ -10321,7 +10375,53 @@
     "displayInterests": "Frontend, backend (LAMP & MERN Stack)",
     "isHireable": false,
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "12.12.2020 15:39:26",
+        "mentor": "https://findmentor.network/peer/emre-savci",
+        "project_adress": "https://github.com/mstrYoda/kubernetes-kitap",
+        "goal": "Community için kubernetes üzerine açık kaynak bir kitap oluşturuyoruz.",
+        "slug": "kubernetes-kitap",
+        "contributors": [
+          {
+            "username": "mstrYoda",
+            "github_address": "https://github.com/mstrYoda",
+            "avatar": "https://avatars.githubusercontent.com/mstrYoda",
+            "fmn_url": "/peer/emre-savci"
+          },
+          {
+            "username": "actions-user",
+            "github_address": "https://github.com/actions-user",
+            "avatar": "https://avatars.githubusercontent.com/actions-user",
+            "fmn_url": ""
+          },
+          {
+            "username": "cagataycali",
+            "github_address": "https://github.com/cagataycali",
+            "avatar": "https://avatars.githubusercontent.com/cagataycali",
+            "fmn_url": "/peer/cagatay-cali"
+          },
+          {
+            "username": "MuratSs",
+            "github_address": "https://github.com/MuratSs",
+            "avatar": "https://avatars.githubusercontent.com/MuratSs",
+            "fmn_url": "/peer/murat-mirgun-ercan"
+          },
+          {
+            "username": "halitsoydemir",
+            "github_address": "https://github.com/halitsoydemir",
+            "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
+            "fmn_url": ""
+          },
+          {
+            "username": "muratdemirci",
+            "github_address": "https://github.com/muratdemirci",
+            "avatar": "https://avatars.githubusercontent.com/muratdemirci",
+            "fmn_url": "/peer/murat-demirci"
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "23.12.2020 19:17:01",
@@ -12842,7 +12942,47 @@
     "displayInterests": "Swift,DevOps",
     "isHireable": false,
     "mentorships": [],
-    "contributions": []
+    "contributions": [
+      {
+        "": "12.01.2021 21:48:28",
+        "mentor": "https://findmentor.network/peer/ali-ilteris-keskin",
+        "project_adress": "https://github.com/ilteriskeskin/django-ecommerce",
+        "goal": "Bu projede Django kullanarak bir e-ticaret sitesi yapılması hedefleniyor. Django orm yapısı, admin paneli, veritabanı tasarımı gibi konuların kodlanması ve öğrenilmesi hedeflenmektedir.",
+        "slug": "django-ecommerce",
+        "contributors": [
+          {
+            "username": "ilteriskeskin",
+            "github_address": "https://github.com/ilteriskeskin",
+            "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+            "fmn_url": "/peer/ali-ilteris-keskin"
+          },
+          {
+            "username": "Ksenofanex",
+            "github_address": "https://github.com/Ksenofanex",
+            "avatar": "https://avatars.githubusercontent.com/Ksenofanex",
+            "fmn_url": ""
+          },
+          {
+            "username": "SFEH",
+            "github_address": "https://github.com/SFEH",
+            "avatar": "https://avatars.githubusercontent.com/SFEH",
+            "fmn_url": ""
+          },
+          {
+            "username": "ilter",
+            "github_address": "https://github.com/ilter",
+            "avatar": "https://avatars.githubusercontent.com/ilter",
+            "fmn_url": "/peer/ilter-kose"
+          },
+          {
+            "username": "buurak",
+            "github_address": "https://github.com/buurak",
+            "avatar": "https://avatars.githubusercontent.com/buurak",
+            "fmn_url": ""
+          }
+        ]
+      }
+    ]
   },
   {
     "registered_at": "",
@@ -16643,6 +16783,12 @@
             "github_address": "https://github.com/halitsoydemir",
             "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
             "fmn_url": ""
+          },
+          {
+            "username": "muratdemirci",
+            "github_address": "https://github.com/muratdemirci",
+            "avatar": "https://avatars.githubusercontent.com/muratdemirci",
+            "fmn_url": "/peer/murat-demirci"
           }
         ]
       },
