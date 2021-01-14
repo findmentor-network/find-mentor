@@ -800,6 +800,12 @@
           "fmn_url": ""
         },
         {
+          "username": "buurak",
+          "github_address": "https://github.com/buurak",
+          "avatar": "https://avatars.githubusercontent.com/buurak",
+          "fmn_url": ""
+        },
+        {
           "username": "SFEH",
           "github_address": "https://github.com/SFEH",
           "avatar": "https://avatars.githubusercontent.com/SFEH",
@@ -810,12 +816,6 @@
           "github_address": "https://github.com/ilter",
           "avatar": "https://avatars.githubusercontent.com/ilter",
           "fmn_url": "/peer/ilter-kose"
-        },
-        {
-          "username": "buurak",
-          "github_address": "https://github.com/buurak",
-          "avatar": "https://avatars.githubusercontent.com/buurak",
-          "fmn_url": ""
         }
       ]
     },
