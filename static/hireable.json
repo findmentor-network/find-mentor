@@ -1909,6 +1909,28 @@
           }
         ]
       }
+    },
+    {
+      "": "15.01.2021 23:16:59",
+      "profile": "https://findmentor.network/peer/vuslat-sena-emre",
+      "mail": "vuslatsena23@gmail.com",
+      "person": {
+        "registered_at": "",
+        "name": "Vuslat Sena Emre",
+        "twitter_handle": "https://twitter.com/NightmaresTown",
+        "github": "https://github.com/VuslatSena",
+        "linkedin": "https://linkedin.com/in/vuslat-sena-emre",
+        "interests": "mobile,backend, ml",
+        "goals": "I want to improve my competencies and to clear up my confusion with a mentor while progressing in areas I am curious about, and to equip myself as much as possible before graduating.",
+        "mentor": "Mentee",
+        "slug": "vuslat-sena-emre",
+        "avatar": "https://avatars.githubusercontent.com/VuslatSena",
+        "displayInterests": "Mobile,Backend, ML",
+        "isHireable": true,
+        "mail": "vuslatsena23@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
