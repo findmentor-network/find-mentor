@@ -434,16 +434,16 @@
           "fmn_url": "/peer/kayra-berk-tuncer"
         },
         {
-          "username": "yy34",
-          "github_address": "https://github.com/yy34",
-          "avatar": "https://avatars.githubusercontent.com/yy34",
-          "fmn_url": "/peer/yunus-yilmaz"
-        },
-        {
           "username": "altaysimsek",
           "github_address": "https://github.com/altaysimsek",
           "avatar": "https://avatars.githubusercontent.com/altaysimsek",
           "fmn_url": "/peer/altay-simsek"
+        },
+        {
+          "username": "yy34",
+          "github_address": "https://github.com/yy34",
+          "avatar": "https://avatars.githubusercontent.com/yy34",
+          "fmn_url": "/peer/yunus-yilmaz"
         },
         {
           "username": "ahmetbcakici",
