@@ -2293,6 +2293,28 @@
           }
         ]
       }
+    },
+    {
+      "": "17.01.2021 00:38:44",
+      "profile": "https://findmentor.network/peer/emre-ibrahim-arisoy",
+      "mail": "eibrahimarisoy@gmail.com",
+      "person": {
+        "registered_at": "17.01.2021 00:35:41",
+        "name": "Emre İbrahim Arısoy",
+        "twitter_handle": "",
+        "github": "https://github.com/eibrahimarisoy",
+        "linkedin": "https://linkedin.com/in/emre-ibrahim-ar%C4%B1soy",
+        "interests": "backend, django, flask, devops",
+        "goals": "I want to be worldwide developer in the future and contribute to the community",
+        "mentor": "Mentor",
+        "slug": "emre-ibrahim-arisoy",
+        "avatar": "https://avatars.githubusercontent.com/eibrahimarisoy",
+        "displayInterests": "Backend, Django, Flask, DevOps",
+        "isHireable": true,
+        "mail": "eibrahimarisoy@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
