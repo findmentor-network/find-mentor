@@ -306,6 +306,20 @@
       ],
       "remote": "Hayır",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "17.01.2021 21:01:39",
+      "company": "Commons",
+      "position": "Webflow developer",
+      "address": "",
+      "description": "Figma da design yaptigimiz sitenin webflow da gelistirilmesi. Ucret  10$/saat. 1 yillik Webflow tecrubesi gerekmektedir. support@commons.so email atabilirsiniz.",
+      "location": "remote",
+      "logo": "https://www.commons.so/src/assets/landing_imgV7.jpg",
+      "tags": [
+        "webflow"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
