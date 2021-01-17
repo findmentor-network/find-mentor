@@ -41,7 +41,9 @@
       <template v-else>
         <PersonList :persons="mentors" strict-type="mentors" />
       </template>
-      <NuxtLink class="text-center d-block mb-5" to="/mentors/"> 🤳 Click here for all mentors </NuxtLink>
+      <div class="text-center">
+        <NuxtLink class="text-center mb-5 btn btn-primary" to="/mentors/"> 🤳 Click here for all mentors </NuxtLink>
+      </div>
 
       <!-- Mentees -->
       <h2 class="title mb-4 mt-5">
@@ -56,7 +58,9 @@
       <template v-else>
         <PersonList :persons="mentees" strict-type="mentees" />
       </template>
-      <NuxtLink class="text-center d-block mb-5" to="/mentees/"> 🤳 Click here for all mentees </NuxtLink>
+      <div class="text-center">
+        <NuxtLink class="text-center mb-5 btn btn-primary" to="/mentees/"> 🤳 Click here for all mentees </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
