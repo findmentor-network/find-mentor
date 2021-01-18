@@ -450,16 +450,16 @@
                 "fmn_url": "/peer/mustafa-b.-yildiz"
               },
               {
-                "username": "berkaybeyaz1",
-                "github_address": "https://github.com/berkaybeyaz1",
-                "avatar": "https://avatars.githubusercontent.com/berkaybeyaz1",
-                "fmn_url": ""
-              },
-              {
                 "username": "batin",
                 "github_address": "https://github.com/batin",
                 "avatar": "https://avatars.githubusercontent.com/batin",
                 "fmn_url": "/peer/batin-eryilmaz"
+              },
+              {
+                "username": "berkaybeyaz1",
+                "github_address": "https://github.com/berkaybeyaz1",
+                "avatar": "https://avatars.githubusercontent.com/berkaybeyaz1",
+                "fmn_url": ""
               },
               {
                 "username": "barisesen",
