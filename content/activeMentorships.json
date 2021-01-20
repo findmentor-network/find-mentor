@@ -863,6 +863,21 @@
           "fmn_url": ""
         }
       ]
+    },
+    {
+      "": "20.01.2021 02:48:54",
+      "mentor": "https://findmentor.network/peer/murat-terzioglu",
+      "project_adress": "https://github.com/muraterzioglu/selfbox",
+      "goal": " selam, malum data'nın çok önemli olduğu bu günlerde artık not defterinde bile güvenemez olduk ben de buna itafen bir tane sadece sizde çalışıcak MongoDB ve Svelte (Muhteşem bir Front-end Framework'ü) ile çalışacak bir not defteri yapmak istiyorum bunu şimdilik;",
+      "slug": "selfbox",
+      "contributors": [
+        {
+          "username": "muraterzioglu",
+          "github_address": "https://github.com/muraterzioglu",
+          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+          "fmn_url": "/peer/murat-terzioglu"
+        }
+      ]
     }
   ]
 }
