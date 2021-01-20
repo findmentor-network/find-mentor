@@ -320,6 +320,23 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "20.01.2021 12:09:20",
+      "company": "Moneytolia",
+      "position": "Backend (Python) Developer",
+      "address": "https://www.linkedin.com/jobs/view/2374043664/",
+      "description": "Ödeme sistemleri ve elektronik para firması Moneytolia'da Python ile yazılmış cüzdan uygulamasının yeni ürünlerini tasarlayıp mevcut yapı ile entegrasyonunu sağlayacak aşağıdaki niteliklere sahip çalışma arkadaşları arıyoruz.\n\n - Python ve Flask framework tecrübesine sahip olan,\n- RestAPI, JSON ve HTTP hakkında bilgi sahibi,\n- PostgreSQL veya MYSQL veritabanları konusunda deneyimli,\n- Versiyon kontrol sistemi olarak GIT kullanmış,\n- Docker, Redis veya RabbitMQ teknolojilerinde tecrübeli,\n- TDD deneyimi olan.",
+      "location": "istanbul",
+      "logo": "https://i.hizliresim.com/5esYHe.png",
+      "tags": [
+        "backend",
+        "python",
+        "restapi",
+        "tdd"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
     }
   ]
 }

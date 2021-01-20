@@ -818,16 +818,16 @@
       "slug": "django-ecommerce",
       "contributors": [
         {
-          "username": "ilteriskeskin",
-          "github_address": "https://github.com/ilteriskeskin",
-          "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-          "fmn_url": "/peer/ali-ilteris-keskin"
-        },
-        {
           "username": "Ksenofanex",
           "github_address": "https://github.com/Ksenofanex",
           "avatar": "https://avatars.githubusercontent.com/Ksenofanex",
           "fmn_url": ""
+        },
+        {
+          "username": "ilteriskeskin",
+          "github_address": "https://github.com/ilteriskeskin",
+          "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
+          "fmn_url": "/peer/ali-ilteris-keskin"
         },
         {
           "username": "buurak",
