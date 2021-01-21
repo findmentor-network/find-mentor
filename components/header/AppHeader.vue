@@ -16,10 +16,10 @@
         <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
         <b-nav-item exact to="/hire" active-class="active"> Job Seekers </b-nav-item>
       </b-navbar-nav>
-      <b-navbar-nav class="ml-auto search">
-        <app-search-input class="ml-md-2" @searchTriggered="isCollapsed = false" />
-      </b-navbar-nav>
       <b-navbar-nav class="ml-auto" right>
+        <b-navbar-nav class="ml-auto search">
+          <app-search-input class="ml-md-2" @searchTriggered="isCollapsed = false" />
+        </b-navbar-nav>
         <cta-button class="mr-2" text="Join Now" to="https://forms.gle/pQwFZBXEyqBRDU2H9">
           <font-awesome-icon slot="prepend" class="mr-2 mt-1" :icon="['fas', 'user-plus']" color="#fff" />
         </cta-button>
@@ -67,6 +67,7 @@ export default {
 
   .search {
     margin-right: 16px;
+    width: 300px;
   }
 
   .cta-button {
