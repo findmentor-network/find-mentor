@@ -337,6 +337,22 @@
       ],
       "remote": "Hibrit",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "21.01.2021 23:43:16",
+      "company": "CoinPanel",
+      "position": "Senior React.js Developer",
+      "address": "https://www.linkedin.com/jobs/view/2368956513/",
+      "description": "Kendi basina sorunlara cozum getirebilen, 3-4 kisilik frontend takimini yonetecek cok iyi ve hizli birini ariyoruz. Maasi oldukca yuksek olacak.",
+      "location": "Stockholm, Sweden",
+      "logo": "https://coinpanel.com/assets/img/brand/coinpanel_color.svg",
+      "tags": [
+        "react",
+        "frontend",
+        "node.js"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
