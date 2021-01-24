@@ -353,6 +353,22 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "24.01.2021 20:27:31",
+      "company": "Earnado",
+      "position": "Önyüz Geliştirici (JavaScript, VueJS)",
+      "address": "",
+      "description": "Kesinlikle HTML, CSS bilgisine sahip,\nTemel JavaScript bilgisine sahip,\nVueJS bilgisine sahip,\nTailwindCss nedir bilen,\nYarı zamanlı olarak çalışacak ekip arkadaşları arıyoruz.",
+      "location": "Remote, Maslak/İstanbul",
+      "logo": "https://earnado.com/wp-content/uploads/2020/03/websitesilogo.svg",
+      "tags": [
+        "Frontend",
+        "JavaScript",
+        "VueJS"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
     }
   ]
 }
