@@ -452,12 +452,6 @@
           "fmn_url": "/peer/altay-simsek"
         },
         {
-          "username": "yy34",
-          "github_address": "https://github.com/yy34",
-          "avatar": "https://avatars.githubusercontent.com/yy34",
-          "fmn_url": "/peer/yunus-yilmaz"
-        },
-        {
           "username": "ahmetbcakici",
           "github_address": "https://github.com/ahmetbcakici",
           "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
@@ -560,6 +554,12 @@
           "fmn_url": "/peer/emre-savci"
         },
         {
+          "username": "berkguzel",
+          "github_address": "https://github.com/berkguzel",
+          "avatar": "https://avatars.githubusercontent.com/berkguzel",
+          "fmn_url": "/peer/berk-guzel"
+        },
+        {
           "username": "MuratSs",
           "github_address": "https://github.com/MuratSs",
           "avatar": "https://avatars.githubusercontent.com/MuratSs",
@@ -582,12 +582,6 @@
           "github_address": "https://github.com/ramazan",
           "avatar": "https://avatars.githubusercontent.com/ramazan",
           "fmn_url": ""
-        },
-        {
-          "username": "berkguzel",
-          "github_address": "https://github.com/berkguzel",
-          "avatar": "https://avatars.githubusercontent.com/berkguzel",
-          "fmn_url": "/peer/berk-guzel"
         },
         {
           "username": "bilalcaliskan",
