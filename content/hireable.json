@@ -113,6 +113,12 @@
                 "fmn_url": "/peer/berk-guzel"
               },
               {
+                "username": "bilalcaliskan",
+                "github_address": "https://github.com/bilalcaliskan",
+                "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
+                "fmn_url": ""
+              },
+              {
                 "username": "MuratSs",
                 "github_address": "https://github.com/MuratSs",
                 "avatar": "https://avatars.githubusercontent.com/MuratSs",
@@ -134,12 +140,6 @@
                 "username": "ramazan",
                 "github_address": "https://github.com/ramazan",
                 "avatar": "https://avatars.githubusercontent.com/ramazan",
-                "fmn_url": ""
-              },
-              {
-                "username": "bilalcaliskan",
-                "github_address": "https://github.com/bilalcaliskan",
-                "avatar": "https://avatars.githubusercontent.com/bilalcaliskan",
                 "fmn_url": ""
               }
             ]
