@@ -369,6 +369,22 @@
       ],
       "remote": "Hibrit",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "28.01.2021 20:27:36",
+      "company": "Krembi",
+      "position": "React Native Developer",
+      "address": "https://www.linkedin.com/posts/alihanbuker_krembi-activity-6758511930446548992-1Vim",
+      "description": "Merhaba, tam zamanlı “React Native” mobil geliştirici o harika takım arkadaşımızı  arıyoruz 🤛 Lokasyon: Maslak / İstanbul\n\nGirişimimiz yeni yatırım aldı ve uygulamamız çıkmak üzere. Teknolojimizi daha iyi bir yere götürmek adına aradığımız 2 husus var;\n\n1) Daha önce store’lara uygulama servis etmiş olması.\n2) Sıradanlıktan bıkmış, etik değerleri olan ve mutlu insanlarla  çalışmaya özlem duyması.\n\n*özel mesaj olur, alihan@krembi.com’a mail olur, dumanla olur :)",
+      "location": "Maslak/İstanbul",
+      "logo": "https://krembi.com/v1/img/logo.png",
+      "tags": [
+        "frontend",
+        "reactnative",
+        "mobile"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
     }
   ]
 }
