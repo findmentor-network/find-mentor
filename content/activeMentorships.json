@@ -221,6 +221,12 @@
           "fmn_url": "/peer/murat-mirgun-ercan"
         },
         {
+          "username": "dogukanturan",
+          "github_address": "https://github.com/dogukanturan",
+          "avatar": "https://avatars.githubusercontent.com/dogukanturan",
+          "fmn_url": ""
+        },
+        {
           "username": "halitsoydemir",
           "github_address": "https://github.com/halitsoydemir",
           "avatar": "https://avatars.githubusercontent.com/halitsoydemir",
@@ -236,6 +242,12 @@
           "username": "pingsensei",
           "github_address": "https://github.com/pingsensei",
           "avatar": "https://avatars.githubusercontent.com/pingsensei",
+          "fmn_url": ""
+        },
+        {
+          "username": "yilmazo",
+          "github_address": "https://github.com/yilmazo",
+          "avatar": "https://avatars.githubusercontent.com/yilmazo",
           "fmn_url": ""
         }
       ]
