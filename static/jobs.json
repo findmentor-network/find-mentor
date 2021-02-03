@@ -385,6 +385,22 @@
       ],
       "remote": "Hibrit",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "03.02.2021 16:01:24",
+      "company": "Krembi",
+      "position": "Jr. & Mid-Level PHP Developer",
+      "address": "https://www.linkedin.com/posts/alihanbuker_jr-mid-level-php-developer-tam-zamanl%C4%B1-activity-6762716229129027584-M8PE",
+      "description": "Jr. & Mid-Level PHP Developer (Tam Zamanlı)\n\nMerhaba arkadaşlar, geliştirmekte ve yatırım aldığımız startup'ımız için teknolojimizi daha da geliştirmek adına yeni takım arkadaşı arıyoruz.\nAşağıdaki kriterlere uygun ve gelişime açıksanız, bekliyoruz 🙂\n\n- HTML5, CSS,SASS/LESS, JavaScript (Jquery, AJAX) bilgisi olan,\n- OOP ve MVC mimarisine hakim\n- Tercihen framework tecrübesi olan (laravel, symfony, yii vb)\n- Tercihen, twig, blade, smarty vb tema motorlari ile calismis.\n- GIT (GitHub, Gitlab) bilgisi ve deneyimi olan,\n- Yeniden kullanılabilir, modüler ve iyi performans gösteren kod yazabilen\n\nYan Haklar\n- Yeni teknolojileri öğrenme konusunda eğitim ve kurs desteği\n- Esnek ve uzaktan çalışma imkanları.\n\nİş Modeli: Güzellik uzmanları ve kullanıcıları bir araya getiren, kullanıcıların bulunduğu lokasyonda hizmet almasını sağlayan yeni nesil pazar yeri.\n\nLokasyon: Maslak/İstanbul\nBaşvuru: alihan@krembi.com",
+      "location": "Maslak/İstanbul",
+      "logo": "https://krembi.com/v1/img/logo.png",
+      "tags": [
+        "backend",
+        "php",
+        ""
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
     }
   ]
 }
