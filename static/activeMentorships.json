@@ -215,16 +215,16 @@
           "fmn_url": "/peer/cagatay-cali"
         },
         {
-          "username": "MuratSs",
-          "github_address": "https://github.com/MuratSs",
-          "avatar": "https://avatars.githubusercontent.com/MuratSs",
-          "fmn_url": "/peer/murat-mirgun-ercan"
-        },
-        {
           "username": "dogukanturan",
           "github_address": "https://github.com/dogukanturan",
           "avatar": "https://avatars.githubusercontent.com/dogukanturan",
           "fmn_url": ""
+        },
+        {
+          "username": "MuratSs",
+          "github_address": "https://github.com/MuratSs",
+          "avatar": "https://avatars.githubusercontent.com/MuratSs",
+          "fmn_url": "/peer/murat-mirgun-ercan"
         },
         {
           "username": "halitsoydemir",
@@ -731,6 +731,12 @@
           "username": "cpeker-extenship",
           "github_address": "https://github.com/cpeker-extenship",
           "avatar": "https://avatars.githubusercontent.com/cpeker-extenship",
+          "fmn_url": ""
+        },
+        {
+          "username": "captainbuckkets",
+          "github_address": "https://github.com/captainbuckkets",
+          "avatar": "https://avatars.githubusercontent.com/captainbuckkets",
           "fmn_url": ""
         }
       ]
