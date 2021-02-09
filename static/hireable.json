@@ -2491,6 +2491,28 @@
           }
         ]
       }
+    },
+    {
+      "": "09.02.2021 23:01:33",
+      "profile": "https://findmentor.network/peer/ayse-ozacar",
+      "mail": "ayseozacar@gmail.com",
+      "person": {
+        "registered_at": "21.01.2021 20:12:41",
+        "name": "Ayse Ozacar",
+        "twitter_handle": "https://twitter.com/aysseozacar",
+        "github": "https://github.com/ayseozacar",
+        "linkedin": "https://linkedin.com/in/ayseozacar",
+        "interests": "frontend, devops, react",
+        "goals": "I want to be a successful developer, I'm ready to constantly improve myself.",
+        "mentor": "Mentee",
+        "slug": "ayse-ozacar",
+        "avatar": "https://avatars.githubusercontent.com/ayseozacar",
+        "displayInterests": "frontend, devops, react",
+        "isHireable": true,
+        "mail": "ayseozacar@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
