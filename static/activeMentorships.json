@@ -446,6 +446,12 @@
           "fmn_url": "/peer/ozlem-sevindi"
         },
         {
+          "username": "altaysimsek",
+          "github_address": "https://github.com/altaysimsek",
+          "avatar": "https://avatars.githubusercontent.com/altaysimsek",
+          "fmn_url": "/peer/altay-simsek"
+        },
+        {
           "username": "sametpalitci",
           "github_address": "https://github.com/sametpalitci",
           "avatar": "https://avatars.githubusercontent.com/sametpalitci",
@@ -458,10 +464,10 @@
           "fmn_url": "/peer/kayra-berk-tuncer"
         },
         {
-          "username": "altaysimsek",
-          "github_address": "https://github.com/altaysimsek",
-          "avatar": "https://avatars.githubusercontent.com/altaysimsek",
-          "fmn_url": "/peer/altay-simsek"
+          "username": "muraterzioglu",
+          "github_address": "https://github.com/muraterzioglu",
+          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
+          "fmn_url": "/peer/murat-terzioglu"
         },
         {
           "username": "ahmetbcakici",
@@ -476,22 +482,16 @@
           "fmn_url": "/peer/aykut-kardas"
         },
         {
-          "username": "veyselusta",
-          "github_address": "https://github.com/veyselusta",
-          "avatar": "https://avatars.githubusercontent.com/veyselusta",
-          "fmn_url": "/peer/veysel-usta"
-        },
-        {
           "username": "mbugrayildiz",
           "github_address": "https://github.com/mbugrayildiz",
           "avatar": "https://avatars.githubusercontent.com/mbugrayildiz",
           "fmn_url": "/peer/mustafa-b.-yildiz"
         },
         {
-          "username": "muraterzioglu",
-          "github_address": "https://github.com/muraterzioglu",
-          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-          "fmn_url": "/peer/murat-terzioglu"
+          "username": "veyselusta",
+          "github_address": "https://github.com/veyselusta",
+          "avatar": "https://avatars.githubusercontent.com/veyselusta",
+          "fmn_url": "/peer/veysel-usta"
         },
         {
           "username": "tansionline",
