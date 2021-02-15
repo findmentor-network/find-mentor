@@ -401,6 +401,22 @@
       ],
       "remote": "Hibrit",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "15.02.2021 18:38:36",
+      "company": "Kodluyoruz",
+      "position": "Video içerik üretici",
+      "address": "",
+      "description": "Gençlerin yazılım alanına sıfırdan girişlerinde onlara rehberlik etmek üzere ücretsiz ve açık kaynaklı içerikler oluşturuyoruz.\n\nAmacımız bir kişinin ilerlemek istediği alanı belirledikten sonra roadmap.sh platformundaki gibi adım adım öğrenmeleri gereken teknolojileri göstermek ve onlara kaliteli içerikleri sağlamak.\n**Bunlar:** Makale, Video ve iyi kurgulanmış ödevler.\n\n**Bu amaçta:** Kendi eğitmen ve mezunlarımızla GitHub'ta açık kaynaklı makaleler oluşturduk ve youtube'a video içerikler çektik.\n\n**Eksik kalan:**\n- ileri seviye javascript\n- node.js\n- react\n- java\n\niçerikler için topluluğa katkı vermeye istekli ve tecrübeli yazılımcılara ihtiyacımız var. \n\n**Örnek youtube içeriklerimiz:**\nBuradaki javascript, html, css listelerinde olduğu gibi video içeriklere ihtiyaç duyuyoruz: https://www.youtube.com/c/Kodluyoruz/playlists\n\n**Oluşturduğumuz GitHub reposu:**\nhttps://github.com/Kodluyoruz/taskforce/\n\nElbette bunun için bir bütçemiz var. İlgilenen arkadaşlarla tanışmayı çok isteriz!",
+      "location": "Remote",
+      "logo": "https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png",
+      "tags": [
+        "fullstack",
+        "backend",
+        "frontend"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
