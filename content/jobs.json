@@ -417,6 +417,25 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "16.02.2021 14:01:02",
+      "company": "Birebin Şans Oyunları A.Ş.",
+      "position": "Team Lead - Software Engineer",
+      "address": "",
+      "description": "Clear Understanding of Software Architectures, Design Patterns, UI/UX Issues..\n\nExperience on C#, .NET Core, SQL, Javascript, Web..\n\nFamiliar with Tfs, Git, Devops, Jenkins, Sonarqube, Kafka, Rest, etc..\n\nBaşvuru için careers@invenoa.com adresine eposta gönderebilirsiniz. ",
+      "location": "Ümraniye/İstanbul",
+      "logo": "https://www.birebin.com/",
+      "tags": [
+        "backend",
+        "c#",
+        "javascript",
+        ".NETCore",
+        "SQL",
+        "Web"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
