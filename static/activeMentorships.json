@@ -896,6 +896,21 @@
           "fmn_url": "/peer/murat-terzioglu"
         }
       ]
+    },
+    {
+      "": "23.02.2021 00:34:22",
+      "mentor": "https://findmentor.network/peer/nedim-akar",
+      "project_adress": "https://github.com/jack5341/invoice-printer",
+      "goal": "Kücük ve Orta seviye isyerleri icin otomatik bir fatura yazicisi.",
+      "slug": "invoice-printer",
+      "contributors": [
+        {
+          "username": "jack5341",
+          "github_address": "https://github.com/jack5341",
+          "avatar": "https://avatars.githubusercontent.com/jack5341",
+          "fmn_url": "/peer/nedim-akar"
+        }
+      ]
     }
   ]
 }
