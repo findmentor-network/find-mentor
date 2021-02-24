@@ -210,278 +210,7 @@
         "isHireable": true,
         "mail": "furkanportakalx@gmail.com",
         "mentorships": [],
-        "contributions": [
-          {
-            "": "11.12.2020 14:13:50",
-            "mentor": "https://findmentor.network/peer/cagatay-cali",
-            "project_adress": "https://github.com/findmentor-network/find-mentor",
-            "goal": "Mentor ve mentee'leri buluşturacak bir proje yapacağız. Bu projede node.js, vue.js, GitHub actions kullanmayı öğrenerek gerçek bir proje geliştirmiş ve bir eksiği kapatmış olacağız.",
-            "slug": "find-mentor",
-            "contributors": [
-              {
-                "username": "actions-user",
-                "github_address": "https://github.com/actions-user",
-                "avatar": "https://avatars.githubusercontent.com/actions-user",
-                "fmn_url": ""
-              },
-              {
-                "username": "cagataycali",
-                "github_address": "https://github.com/cagataycali",
-                "avatar": "https://avatars.githubusercontent.com/cagataycali",
-                "fmn_url": "/peer/cagatay-cali"
-              },
-              {
-                "username": "selimdoyranli",
-                "github_address": "https://github.com/selimdoyranli",
-                "avatar": "https://avatars.githubusercontent.com/selimdoyranli",
-                "fmn_url": ""
-              },
-              {
-                "username": "hasantezcan",
-                "github_address": "https://github.com/hasantezcan",
-                "avatar": "https://avatars.githubusercontent.com/hasantezcan",
-                "fmn_url": "/peer/hasan-tezcan"
-              },
-              {
-                "username": "ograsyilmaz",
-                "github_address": "https://github.com/ograsyilmaz",
-                "avatar": "https://avatars.githubusercontent.com/ograsyilmaz",
-                "fmn_url": "/peer/yilmaz-ogras"
-              },
-              {
-                "username": "tansionline",
-                "github_address": "https://github.com/tansionline",
-                "avatar": "https://avatars.githubusercontent.com/tansionline",
-                "fmn_url": "/peer/selcuk-tatar"
-              },
-              {
-                "username": "sevkioruc",
-                "github_address": "https://github.com/sevkioruc",
-                "avatar": "https://avatars.githubusercontent.com/sevkioruc",
-                "fmn_url": "/peer/sevki-oruc"
-              },
-              {
-                "username": "alpercun",
-                "github_address": "https://github.com/alpercun",
-                "avatar": "https://avatars.githubusercontent.com/alpercun",
-                "fmn_url": "/peer/alper-cun"
-              },
-              {
-                "username": "alihan",
-                "github_address": "https://github.com/alihan",
-                "avatar": "https://avatars.githubusercontent.com/alihan",
-                "fmn_url": "/peer/alihan-yilmaz"
-              },
-              {
-                "username": "barisesen",
-                "github_address": "https://github.com/barisesen",
-                "avatar": "https://avatars.githubusercontent.com/barisesen",
-                "fmn_url": "/peer/baris-esen"
-              },
-              {
-                "username": "altaysimsek",
-                "github_address": "https://github.com/altaysimsek",
-                "avatar": "https://avatars.githubusercontent.com/altaysimsek",
-                "fmn_url": "/peer/altay-simsek"
-              },
-              {
-                "username": "ahmetcanaydemir",
-                "github_address": "https://github.com/ahmetcanaydemir",
-                "avatar": "https://avatars.githubusercontent.com/ahmetcanaydemir",
-                "fmn_url": "/peer/ahmet-can-aydemir"
-              },
-              {
-                "username": "Adem68",
-                "github_address": "https://github.com/Adem68",
-                "avatar": "https://avatars.githubusercontent.com/Adem68",
-                "fmn_url": "/peer/adem-furkan-ozcan"
-              },
-              {
-                "username": "akgulem",
-                "github_address": "https://github.com/akgulem",
-                "avatar": "https://avatars.githubusercontent.com/akgulem",
-                "fmn_url": ""
-              },
-              {
-                "username": "batin",
-                "github_address": "https://github.com/batin",
-                "avatar": "https://avatars.githubusercontent.com/batin",
-                "fmn_url": "/peer/batin-eryilmaz"
-              },
-              {
-                "username": "mcanvar",
-                "github_address": "https://github.com/mcanvar",
-                "avatar": "https://avatars.githubusercontent.com/mcanvar",
-                "fmn_url": ""
-              },
-              {
-                "username": "mucahitbircan",
-                "github_address": "https://github.com/mucahitbircan",
-                "avatar": "https://avatars.githubusercontent.com/mucahitbircan",
-                "fmn_url": "/peer/mucahit-bircan"
-              },
-              {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
-              },
-              {
-                "username": "kemalayhan",
-                "github_address": "https://github.com/kemalayhan",
-                "avatar": "https://avatars.githubusercontent.com/kemalayhan",
-                "fmn_url": "/peer/kemal-ayhan"
-              },
-              {
-                "username": "mby",
-                "github_address": "https://github.com/mby",
-                "avatar": "https://avatars.githubusercontent.com/mby",
-                "fmn_url": ""
-              },
-              {
-                "username": "Buraksmn",
-                "github_address": "https://github.com/Buraksmn",
-                "avatar": "https://avatars.githubusercontent.com/Buraksmn",
-                "fmn_url": "/peer/burak-saman"
-              },
-              {
-                "username": "snowron",
-                "github_address": "https://github.com/snowron",
-                "avatar": "https://avatars.githubusercontent.com/snowron",
-                "fmn_url": "/peer/murat-turan"
-              },
-              {
-                "username": "makiftutuncu",
-                "github_address": "https://github.com/makiftutuncu",
-                "avatar": "https://avatars.githubusercontent.com/makiftutuncu",
-                "fmn_url": "/peer/mehmet-akif-tutuncu"
-              },
-              {
-                "username": "onuraksar",
-                "github_address": "https://github.com/onuraksar",
-                "avatar": "https://avatars.githubusercontent.com/onuraksar",
-                "fmn_url": "/peer/onur-aksar"
-              },
-              {
-                "username": "ukeskin",
-                "github_address": "https://github.com/ukeskin",
-                "avatar": "https://avatars.githubusercontent.com/ukeskin",
-                "fmn_url": "/peer/umut-keskin"
-              },
-              {
-                "username": "AbdullahAki",
-                "github_address": "https://github.com/AbdullahAki",
-                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
-                "fmn_url": "/peer/abdullah-aki"
-              },
-              {
-                "username": "ahmetelgun",
-                "github_address": "https://github.com/ahmetelgun",
-                "avatar": "https://avatars.githubusercontent.com/ahmetelgun",
-                "fmn_url": ""
-              },
-              {
-                "username": "ilteriskeskin",
-                "github_address": "https://github.com/ilteriskeskin",
-                "avatar": "https://avatars.githubusercontent.com/ilteriskeskin",
-                "fmn_url": "/peer/ali-ilteris-keskin"
-              },
-              {
-                "username": "aaabdyrahmanov",
-                "github_address": "https://github.com/aaabdyrahmanov",
-                "avatar": "https://avatars.githubusercontent.com/aaabdyrahmanov",
-                "fmn_url": "/peer/atamyrat-abdyrahmanov"
-              },
-              {
-                "username": "BerkanSezer",
-                "github_address": "https://github.com/BerkanSezer",
-                "avatar": "https://avatars.githubusercontent.com/BerkanSezer",
-                "fmn_url": "/peer/berkan-sezer"
-              }
-            ]
-          },
-          {
-            "": "16.12.2020 23:45:03",
-            "mentor": "https://findmentor.network/peer/ahmet-bugra-cakici",
-            "project_adress": "https://github.com/FurkanPortakal/opensourceadam",
-            "goal": "https://github.com/FurkanPortakal/opensourceadam",
-            "slug": "opensourceadam",
-            "contributors": [
-              {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
-              },
-              {
-                "username": "ozlemts",
-                "github_address": "https://github.com/ozlemts",
-                "avatar": "https://avatars.githubusercontent.com/ozlemts",
-                "fmn_url": "/peer/ozlem-sevindi"
-              },
-              {
-                "username": "altaysimsek",
-                "github_address": "https://github.com/altaysimsek",
-                "avatar": "https://avatars.githubusercontent.com/altaysimsek",
-                "fmn_url": "/peer/altay-simsek"
-              },
-              {
-                "username": "sametpalitci",
-                "github_address": "https://github.com/sametpalitci",
-                "avatar": "https://avatars.githubusercontent.com/sametpalitci",
-                "fmn_url": ""
-              },
-              {
-                "username": "kayraberktuncer",
-                "github_address": "https://github.com/kayraberktuncer",
-                "avatar": "https://avatars.githubusercontent.com/kayraberktuncer",
-                "fmn_url": "/peer/kayra-berk-tuncer"
-              },
-              {
-                "username": "muraterzioglu",
-                "github_address": "https://github.com/muraterzioglu",
-                "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-                "fmn_url": "/peer/murat-terzioglu"
-              },
-              {
-                "username": "ahmetbcakici",
-                "github_address": "https://github.com/ahmetbcakici",
-                "avatar": "https://avatars.githubusercontent.com/ahmetbcakici",
-                "fmn_url": "/peer/ahmet-bugra-cakici"
-              },
-              {
-                "username": "aykutkardas",
-                "github_address": "https://github.com/aykutkardas",
-                "avatar": "https://avatars.githubusercontent.com/aykutkardas",
-                "fmn_url": "/peer/aykut-kardas"
-              },
-              {
-                "username": "mby",
-                "github_address": "https://github.com/mby",
-                "avatar": "https://avatars.githubusercontent.com/mby",
-                "fmn_url": ""
-              },
-              {
-                "username": "veyselusta",
-                "github_address": "https://github.com/veyselusta",
-                "avatar": "https://avatars.githubusercontent.com/veyselusta",
-                "fmn_url": "/peer/veysel-usta"
-              },
-              {
-                "username": "tansionline",
-                "github_address": "https://github.com/tansionline",
-                "avatar": "https://avatars.githubusercontent.com/tansionline",
-                "fmn_url": "/peer/selcuk-tatar"
-              },
-              {
-                "username": "ukeskin",
-                "github_address": "https://github.com/ukeskin",
-                "avatar": "https://avatars.githubusercontent.com/ukeskin",
-                "fmn_url": "/peer/umut-keskin"
-              }
-            ]
-          }
-        ]
+        "contributions": []
       }
     },
     {
@@ -724,10 +453,10 @@
                 "fmn_url": "/peer/mucahit-bircan"
               },
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "kemalayhan",
@@ -811,10 +540,10 @@
             "slug": "opensourceadam",
             "contributors": [
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "ozlemts",
@@ -1327,10 +1056,10 @@
                 "fmn_url": "/peer/mucahit-bircan"
               },
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "kemalayhan",
@@ -1561,10 +1290,10 @@
                 "fmn_url": "/peer/mucahit-bircan"
               },
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "kemalayhan",
@@ -1693,10 +1422,10 @@
             "slug": "opensourceadam",
             "contributors": [
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "ozlemts",
@@ -1943,10 +1672,10 @@
                 "fmn_url": "/peer/mucahit-bircan"
               },
               {
-                "username": "FurkanPortakal",
-                "github_address": "https://github.com/FurkanPortakal",
-                "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-                "fmn_url": "/peer/furkan-portakal"
+                "username": "fport",
+                "github_address": "https://github.com/fport",
+                "avatar": "https://avatars.githubusercontent.com/fport",
+                "fmn_url": ""
               },
               {
                 "username": "kemalayhan",

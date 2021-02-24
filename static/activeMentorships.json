@@ -110,10 +110,10 @@
           "fmn_url": "/peer/mucahit-bircan"
         },
         {
-          "username": "FurkanPortakal",
-          "github_address": "https://github.com/FurkanPortakal",
-          "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-          "fmn_url": "/peer/furkan-portakal"
+          "username": "fport",
+          "github_address": "https://github.com/fport",
+          "avatar": "https://avatars.githubusercontent.com/fport",
+          "fmn_url": ""
         },
         {
           "username": "kemalayhan",
@@ -434,10 +434,10 @@
       "slug": "opensourceadam",
       "contributors": [
         {
-          "username": "FurkanPortakal",
-          "github_address": "https://github.com/FurkanPortakal",
-          "avatar": "https://avatars.githubusercontent.com/FurkanPortakal",
-          "fmn_url": "/peer/furkan-portakal"
+          "username": "fport",
+          "github_address": "https://github.com/fport",
+          "avatar": "https://avatars.githubusercontent.com/fport",
+          "fmn_url": ""
         },
         {
           "username": "ozlemts",
