@@ -35,6 +35,22 @@ export default {
       fields: [{ key: 'event_name' }, 'speakers', 'date', 'status'],
       events: [
         {
+          event_name: 'Code Crunching With Mentees',
+          speakers: [
+            {
+              name: 'Find Mentor',
+              twitter: 'https://twitter.com/findmentorapp',
+            },
+            {
+              name: 'Kodluyoruz',
+              twitter: 'https://twitter.com/kodluyoruz',
+            },
+          ],
+          link: 'https://www.hackerrank.com/code-crunching-with-mentees',
+          date: '2021/03/27',
+          status: 'upcoming',
+        },
+        {
           event_name: 'What is the findmentor.network? How was start?',
           speakers: [
             {
