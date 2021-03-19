@@ -82,6 +82,40 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "19.03.2021 09:14:35",
+      "company": "Pitcher AG",
+      "position": "Senior Front End Engineer",
+      "address": "https://tr.linkedin.com/jobs/view/front-end-engineer-at-pitcher-ag-2466280031",
+      "description": "Company Description\nFounded in Zurich, Switzerland, Pitcher is a Software-as-a-Service (SaaS) company offering a suite of products to support corporate sales representatives in their daily activities across a number of industries. Today this market is known as Sales Enablement and has grown rapidly since 2010 with further growth expected in the coming years. Pitcher has customers in over 136 countries with offices in Zurich (HQ), Barcelona, Istanbul, Ankara, New York, Mexico City, Vienna, Boston and Tokyo. The Pitcher solution is used by over 100,000 sales professionals every day.\n\nDue to strong growth we are expanding our engineering teams in Ankara & Istanbul and we are immediately looking for a Front End Engineer.\n\nJob Description\nOur Front End Engineer will be getting involved with our Product and Tech departments to provide dedicated UI development and support on key tech projects. We are looking for a Front End Engineer that helps us build our next products.\n\n\nRequirements\n3+ years of experience in developing web-based user interfaces\nBSc degree in Computer Science or similar field; or equivalent working or open-source experience.\nExperienced in JavaScript development (ES5 & ES6)\nGood knowledge of CSS/SCSS\nBuild pipeline experience\nAbility to craft SQL queries and an understanding of databases\nGit\nStrong debugging and problem solving skills\nGood communication skills both written and verbal\nAbility to drive and manage your own projects\nAbility to understand user psychology and needs, aligning them with product specifications\nAbility to collaborate with technical teams and translate business requirements\nAbility to communicate in English\nA passion for learning and technology\n\nNice to have:\nExperience Frontend frameworks are welcomed benefit e.g. Vue, React, Angular, Knockout\nExperience in Vuetify or Semantic UI\n\nWe Offer:\nOpportunity to impact a successful, growing scale-up and its software used by people worldwide\nWork in highly-motivated, international and cross-functional teams that push boundaries\nCompetitive salary\nAnnual performance bonus\nFlat hierarchy\nUnlimited access to Linkedin Learnings\nEnjoy yearly company events abroad\nPitcherasmus - Possibility to work from any of our offices worldwide, once a year\nFlexible working hours (Mon-Fri: Start between 08.00 - 10.00, end between 17.00-19.00)\nOffice relocation opportunities after 1 year (New York, Barcelona, Mexico, Zurich, Tokyo)\nWe are a company that value our co-workers and create an atmosphere of well-being ",
+      "location": "Ankara",
+      "logo": "https://www.pitcher.com/hubfs/identity/logos/anniversary-logo/210114_pitcher_logo_anniversary_RGB.svg",
+      "tags": [
+        "Javascript",
+        "Frontend",
+        "Vue",
+        "Vue.js"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
+    },
+    {
+      "date": "19.03.2021 09:17:30",
+      "company": "Pitcher AG",
+      "position": "Junior Front End Engineer",
+      "address": "https://tr.linkedin.com/jobs/view/junior-front-end-engineer-at-pitcher-ag-2465244037",
+      "description": "Company Description\n\nFounded in Zurich, Switzerland, Pitcher is a Software-as-a-Service (SaaS) company offering a suite of products to support corporate sales representatives in their daily activities across a number of industries. Today this market is known as Sales Enablement and has grown rapidly since 2010 with further growth expected in the coming years. Pitcher has customers in over 136 countries with offices in Zurich (HQ), Barcelona, Istanbul, Ankara, New York, Mexico City, Vienna, Boston and Tokyo. The Pitcher solution is used by over 100,000 sales professionals every day.\n\n\nDue to strong growth we are expanding our engineering teams in Istanbul & Ankara and are immediately looking for a Junior Front End Engineer.\n\n\nJob Description\n\nOur Junior Front End Engineer will be getting involved with our Product and Tech departments to provide dedicated UI development and support on key tech projects. We are looking for a Junior Front End Engineer that helps us build our next products.\n\n\nRequirements\n\n1+ years of experience in developing web-based user interfaces\nBSc degree in Computer Science or similar field; or equivalent working or open-source experience\nGood knowledge of JavaScript\nKnowledge of CSS, SQL and Git\nGood problem-solving skills and technical acumen\nGood communication skills both written and verbal\nAbility to adapt and thrive in a fast-paced environment\nAbility to communicate in English\nA passion for learning and technology\n \n\nNice to have:\n\nExperience Frontend frameworks are welcomed benefit e.g. Vue, React, Angular, Knockout\nExperience in Vuetify or Semantic UI\n\n\nWe Offer:\n\n· Opportunity to impact a successful, growing scale-up and its software used by people\n\nworldwide\n\n· Work in highly-motivated, international and cross-functional teams that push boundaries\n\n· Competitive salary\n\n· Annual performance bonus\n\n· Unlimited access to Linkedin Learnings\n\n· Flat hierarchy\n\n· Enjoy yearly company events abroad\n\n· Pitcherasmus - Possibility to work from any of our offices worldwide, once a year\n\n· Brand new offices in ITU Teknokent and Hacettepe Teknokent\n\n· Flexible working hours (Mon-Fri: Start between 08.00 - 10.00, end between 17.00-19.00)\n\n· Office relocation opportunities after 1 year (New York, Barcelona, Mexico, Zurich, Tokyo)\n\n· We are a company that value our co-workers and create an atmosphere of well-being ",
+      "location": "Ankara",
+      "logo": "https://www.pitcher.com/hubfs/identity/logos/anniversary-logo/210114_pitcher_logo_anniversary_RGB.svg",
+      "tags": [
+        "Vue.js",
+        "Vue",
+        "Javascript",
+        "Frontend"
+      ],
+      "remote": "Hibrit",
+      "isRemoveAllowed": false
     }
   ]
 }
