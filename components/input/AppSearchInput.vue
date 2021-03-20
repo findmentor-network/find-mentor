@@ -1,12 +1,12 @@
 <template>
   <div class="app-search-input">
     <b-form-input
-      v-model="search.value"
+      v-model="input.value"
       class="app-search-input__nativeInput"
-      :placeholder="search.placeholder"
-      @keypress.native.enter="searchPerson"
+      :placeholder="input.placeholder"
+      @keypress.native.enter="search"
     />
-    <button class="app-search-input__searchButton" :disabled="search.value.length < 1" @click="searchPerson">
+    <button class="app-search-input__searchButton" :disabled="input.value && input.value.length < 1" @click="search">
       <font-awesome-icon :icon="['fas', 'search']" color="var(--color-text-02)" />
     </button>
   </div>
@@ -19,45 +19,33 @@ export default {
     value: {
       type: String,
       required: false,
-      default: '',
+      default: ''
     },
     placeholder: {
       type: String,
       required: false,
-      default: 'Search in network',
-    },
-  },
-  data() {
-    return {
-      search: {
-        value: this.value,
-        placeholder: this.placeholder,
-      },
+      default: 'Search in network'
     }
   },
-  created() {
-    if (this.$route.params.keyword) {
-      this.search.value = this.$route.params.keyword
-    } else {
-      this.clearKeyword()
+  data () {
+    return {
+      input: {
+        value: this.value,
+        placeholder: this.placeholder
+      }
     }
   },
   methods: {
-    searchPerson() {
-      this.$emit('searchTriggered')
-
-      if (this.search.value.length > 0) {
-        this.$router.push({
-          name: 'search-keyword',
-          params: { keyword: this.search.value },
-        })
+    search () {
+      if (this.input.value && this.input.value.length > 0) {
+        this.$emit('searchTriggered', this.input.value)
         this.clearKeyword()
       }
     },
-    clearKeyword() {
-      this.search.value = ''
-    },
-  },
+    clearKeyword () {
+      this.input.value = ''
+    }
+  }
 }
 </script>
 
