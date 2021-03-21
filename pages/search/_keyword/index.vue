@@ -22,17 +22,17 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     this.postList.items = await this.$content('persons').search(this.$lowerCase(this.$route.params.keyword)).fetch()
   },
-  data () {
+  data() {
     return {
       postList: {
-        items: []
-      }
+        items: [],
+      },
     }
   },
-  head () {
+  head() {
     const title = 'Search | Find Mentor & Mentees Network'
     const description = 'Find in findmentork.network'
     const icon = 'https://findmentor.network/icon.png'
@@ -42,56 +42,56 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: title
+          content: title,
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: description
+          content: description,
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: title
+          content: title,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: description
+          content: description,
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: icon
+          content: icon,
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: description
-        }
-      ]
+          content: description,
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

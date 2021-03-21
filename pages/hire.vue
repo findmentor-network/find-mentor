@@ -1,9 +1,7 @@
 <template>
   <div class="page hire-page">
     <div class="container">
-      <h1 class="title">
-        Job Seekers
-      </h1>
+      <h1 class="title">Job Seekers</h1>
 
       <h3>
         <a href="https://forms.gle/RnBV3sPzr8YnDjRY9">Add yourself as a Job Seeker!</a>
@@ -12,15 +10,18 @@
       <p>This platform getting 1m+ page views per month. Add yourself as a job seeker, totally free to add!</p>
       <p>
         The job seekers are <b>sorted by contributions</b>. You can contribute to the
-        <nuxt-link to="/mentorships">
-          mentorship
-        </nuxt-link> projects, that's the way you can be shown your profile.
+        <nuxt-link to="/mentorships"> mentorship </nuxt-link> projects, that's the way you can be shown your profile.
       </p>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <div class="col-12 col-lg-4 my-4 px-0">
-        <app-search-input class="hire-page__keywordSearchFilter" :value="$route.query.interests_keyword || null" placeholder="Filter by interests" @searchTriggered="filterByInterests" />
+        <app-search-input
+          class="hire-page__keywordSearchFilter"
+          :value="$route.query.interests_keyword || null"
+          placeholder="Filter by interests"
+          @searchTriggered="filterByInterests"
+        />
       </div>
 
       <template v-if="$fetchState.pending">
@@ -48,9 +49,10 @@
 
 <script>
 export default {
-  async fetch () {
+  async fetch() {
     if (this.$route.query.interests_keyword) {
-      this.postList.hire.items = await this.$content('persons').where({ isHireable: true })
+      this.postList.hire.items = await this.$content('persons')
+        .where({ isHireable: true })
         .search('interests', this.$lowerCase(this.$route.query.interests_keyword))
         .sortBy('contributions', 'desc')
         .fetch()
@@ -63,19 +65,19 @@ export default {
         .fetch()
     }
   },
-  data () {
+  data() {
     return {
       postList: {
         hire: {
           items: [],
           limit: 16,
-          skip: 0
-        }
-      }
+          skip: 0,
+        },
+      },
     }
   },
   methods: {
-    async loadMorePersons ($state) {
+    async loadMorePersons($state) {
       this.postList.hire.skip += this.postList.hire.limit
 
       const hire = await this.$content('persons')
@@ -92,18 +94,19 @@ export default {
         $state.complete()
       }
     },
-    async filterByInterests (keyword) {
+    async filterByInterests(keyword) {
       this.$router.push({ query: { interests_keyword: keyword } })
-      this.postList.hire.items = await this.$content('persons').where({ isHireable: true })
+      this.postList.hire.items = await this.$content('persons')
+        .where({ isHireable: true })
         .search('interests', this.$lowerCase(keyword))
         .sortBy('contributions', 'desc')
         .fetch()
-    }
+    },
   },
-  watchQuery (newQuery, oldQuery) {
+  watchQuery(newQuery, oldQuery) {
     console.log(newQuery.interests_keyword)
   },
-  head () {
+  head() {
     const title = 'Job Seekers | Find Mentor & Mentees Network'
     const description = 'Discover job seekers!'
     const icon = 'https://findmentor.network/icon.png'
@@ -113,56 +116,56 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: title
+          content: title,
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: description
+          content: description,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: description
+          content: description,
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: title
+          content: title,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: description
+          content: description,
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: icon
+          content: icon,
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: icon
+          content: icon,
         },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: description
-        }
-      ]
+          content: description,
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

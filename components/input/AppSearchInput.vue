@@ -19,33 +19,33 @@ export default {
     value: {
       type: String,
       required: false,
-      default: ''
+      default: '',
     },
     placeholder: {
       type: String,
       required: false,
-      default: 'Search in network'
-    }
+      default: 'Search in network',
+    },
   },
-  data () {
+  data() {
     return {
       input: {
         value: this.value,
-        placeholder: this.placeholder
-      }
+        placeholder: this.placeholder,
+      },
     }
   },
   methods: {
-    search () {
+    search() {
       if (this.input.value && this.input.value.length > 0) {
         this.$emit('searchTriggered', this.input.value)
         this.clearKeyword()
       }
     },
-    clearKeyword () {
+    clearKeyword() {
       this.input.value = ''
-    }
-  }
+    },
+  },
 }
 </script>
 

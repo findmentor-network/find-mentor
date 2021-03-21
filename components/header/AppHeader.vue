@@ -8,27 +8,13 @@
 
     <b-collapse id="nav-collapse" v-model="isCollapsed" is-nav>
       <b-navbar-nav class="align-items-center">
-        <b-nav-item to="/guide/" active-class="active">
-          How It Works?
-        </b-nav-item>
-        <b-nav-item exact active-class="active" to="/mentorships/">
-          Mentorships
-        </b-nav-item>
-        <b-nav-item exact to="/mentees/" active-class="active">
-          Mentees
-        </b-nav-item>
-        <b-nav-item exact to="/mentors/" active-class="active">
-          Mentors
-        </b-nav-item>
-        <b-nav-item exact to="/events/" active-class="active">
-          Events
-        </b-nav-item>
-        <b-nav-item exact to="/jobs" active-class="active">
-          Jobs
-        </b-nav-item>
-        <b-nav-item exact to="/hire" active-class="active">
-          Job Seekers
-        </b-nav-item>
+        <b-nav-item to="/guide/" active-class="active"> How It Works? </b-nav-item>
+        <b-nav-item exact active-class="active" to="/mentorships/"> Mentorships </b-nav-item>
+        <b-nav-item exact to="/mentees/" active-class="active"> Mentees </b-nav-item>
+        <b-nav-item exact to="/mentors/" active-class="active"> Mentors </b-nav-item>
+        <b-nav-item exact to="/events/" active-class="active"> Events </b-nav-item>
+        <b-nav-item exact to="/jobs" active-class="active"> Jobs </b-nav-item>
+        <b-nav-item exact to="/hire" active-class="active"> Job Seekers </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto search">
         <app-search-input class="ml-md-2" :value="$route.params.keyword || null" @searchTriggered="searchPerson" />
@@ -53,20 +39,20 @@ import { revealHeader } from '@/mixins'
 
 export default {
   mixins: [revealHeader],
-  data () {
+  data() {
     return {
-      isCollapsed: false
+      isCollapsed: false,
     }
   },
   methods: {
-    searchPerson (keyword) {
+    searchPerson(keyword) {
       this.$router.push({
         name: 'search-keyword',
-        params: { keyword }
+        params: { keyword },
       })
       this.isCollapsed = false
-    }
-  }
+    },
+  },
 }
 </script>
 
