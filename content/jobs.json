@@ -116,6 +116,23 @@
       ],
       "remote": "Hibrit",
       "isRemoveAllowed": false
+    },
+    {
+      "date": "17.04.2021 17:59:26",
+      "company": "NK",
+      "position": "Frontend Developer | Tailwind",
+      "address": "",
+      "description": "Frontend,\nFigma to HTML yapicak frontend arkadaslar ariyoruz.\niletisim: DM at @necmttn  twitter.",
+      "location": "remote",
+      "logo": "https://pbs.twimg.com/profile_images/1381910157802631169/HmlSKG5v_400x400.jpg",
+      "tags": [
+        "frontend",
+        "tailwind",
+        "alpinejs",
+        "livewire"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
