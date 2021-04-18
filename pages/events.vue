@@ -48,7 +48,7 @@ export default {
           ],
           link: 'https://www.hackerrank.com/code-crunching-with-mentees',
           date: '2021/03/27',
-          status: 'upcoming',
+          status: 'done',
         },
         {
           event_name: 'What is the findmentor.network? How was start?',
