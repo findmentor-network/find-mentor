@@ -662,6 +662,27 @@
           "fmn_url": "/peer/nedim-akar"
         }
       ]
+    },
+    {
+      "": "21.04.2021 22:12:29",
+      "mentor": "https://findmentor.network/peer/selcuk-tatar",
+      "project_adress": "https://github.com/findmentor-network/entrylevel",
+      "goal": "Entry Level, sektörde yeni iş arayan ve şirketleri bir araya getiren bir platform. Projede NuxtJS ve Firebase kullanmayı planlıyoruz.",
+      "slug": "entrylevel",
+      "contributors": [
+        {
+          "username": "tansionline",
+          "github_address": "https://github.com/tansionline",
+          "avatar": "https://avatars.githubusercontent.com/tansionline",
+          "fmn_url": "/peer/selcuk-tatar"
+        },
+        {
+          "username": "cagataycali",
+          "github_address": "https://github.com/cagataycali",
+          "avatar": "https://avatars.githubusercontent.com/cagataycali",
+          "fmn_url": "/peer/cagatay-cali"
+        }
+      ]
     }
   ]
 }
