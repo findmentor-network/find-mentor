@@ -1145,6 +1145,28 @@
         "mentorships": [],
         "contributions": []
       }
+    },
+    {
+      "": "21.04.2021 23:35:14",
+      "profile": "https://findmentor.network/peer/yunus-inan",
+      "mail": "yns.inan1660@gmail.com",
+      "person": {
+        "registered_at": "21.04.2021 21:38:20",
+        "name": "Yunus İNAN",
+        "twitter_handle": "",
+        "github": "https://github.com/Ynsinan",
+        "linkedin": "https://linkedin.com/in/yunusinan",
+        "interests": "frontend",
+        "goals": "I am a third year computer engineering student who aims to improve myself in the field of frontend. I will develop myself in this field and take firm steps forward in the sector",
+        "mentor": "Mentee",
+        "slug": "yunus-inan",
+        "avatar": "https://avatars.githubusercontent.com/Ynsinan",
+        "displayInterests": "Frontend",
+        "isHireable": true,
+        "mail": "yns.inan1660@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
     }
   ]
 }
