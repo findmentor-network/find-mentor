@@ -82,7 +82,7 @@ const getData = async () => {
   try {
     // request datas
     const attendies_url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchGet?key=${apiKey}&fields=valueRanges(range,values)&ranges=Mentees&ranges=Aktif%20Mentorluklar&ranges=Jobs&ranges=Interns`
-    const contribs_url = 'https://api.github.com/repos/cagataycali/find-mentor/contributors'
+    const contribs_url = 'https://api.github.com/repos/findmentor-network/find-mentor/contributors'
     const [attendies, contribs] = await Promise.all([
       got(attendies_url).then((res) => JSON.parse(res.body)),
       got(contribs_url, {
