@@ -67,5 +67,13 @@ export default {
       }
     }
   }
+  &--members {
+    .person-card {
+      border-top-color: var(--color-ui-07) !important;
+      .name {
+        color: var(--color-ui-07) !important;
+      }
+    }
+  }
 }
 </style>
