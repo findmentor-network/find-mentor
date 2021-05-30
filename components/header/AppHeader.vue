@@ -10,6 +10,7 @@
       <b-navbar-nav class="align-items-center">
         <b-nav-item to="/guide/" active-class="active"> How It Works? </b-nav-item>
         <b-nav-item exact active-class="active" to="/mentorships/"> Mentorships </b-nav-item>
+        <b-nav-item exact to="/members/" active-class="active"> Members </b-nav-item>
         <b-nav-item exact to="/mentees/" active-class="active"> Mentees </b-nav-item>
         <b-nav-item exact to="/mentors/" active-class="active"> Mentors </b-nav-item>
         <b-nav-item exact to="/events/" active-class="active"> Events </b-nav-item>
