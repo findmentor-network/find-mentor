@@ -605,6 +605,12 @@
                 "fmn_url": "/peer/kemal-ayhan"
               },
               {
+                "username": "AbdullahAki",
+                "github_address": "https://github.com/AbdullahAki",
+                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+                "fmn_url": "/peer/abdullah-aki"
+              },
+              {
                 "username": "mby",
                 "github_address": "https://github.com/mby",
                 "avatar": "https://avatars.githubusercontent.com/mby",
@@ -639,12 +645,6 @@
                 "github_address": "https://github.com/ukeskin",
                 "avatar": "https://avatars.githubusercontent.com/ukeskin",
                 "fmn_url": "/peer/umut-keskin"
-              },
-              {
-                "username": "AbdullahAki",
-                "github_address": "https://github.com/AbdullahAki",
-                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
-                "fmn_url": "/peer/abdullah-aki"
               },
               {
                 "username": "ahmetelgun",
@@ -839,6 +839,12 @@
                 "fmn_url": "/peer/kemal-ayhan"
               },
               {
+                "username": "AbdullahAki",
+                "github_address": "https://github.com/AbdullahAki",
+                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+                "fmn_url": "/peer/abdullah-aki"
+              },
+              {
                 "username": "mby",
                 "github_address": "https://github.com/mby",
                 "avatar": "https://avatars.githubusercontent.com/mby",
@@ -873,12 +879,6 @@
                 "github_address": "https://github.com/ukeskin",
                 "avatar": "https://avatars.githubusercontent.com/ukeskin",
                 "fmn_url": "/peer/umut-keskin"
-              },
-              {
-                "username": "AbdullahAki",
-                "github_address": "https://github.com/AbdullahAki",
-                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
-                "fmn_url": "/peer/abdullah-aki"
               },
               {
                 "username": "ahmetelgun",
@@ -966,12 +966,6 @@
                 "github_address": "https://github.com/mby",
                 "avatar": "https://avatars.githubusercontent.com/mby",
                 "fmn_url": ""
-              },
-              {
-                "username": "veyselusta",
-                "github_address": "https://github.com/veyselusta",
-                "avatar": "https://avatars.githubusercontent.com/veyselusta",
-                "fmn_url": "/peer/veysel-usta"
               },
               {
                 "username": "tansionline",
@@ -1354,6 +1348,12 @@
                 "fmn_url": "/peer/kemal-ayhan"
               },
               {
+                "username": "AbdullahAki",
+                "github_address": "https://github.com/AbdullahAki",
+                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+                "fmn_url": "/peer/abdullah-aki"
+              },
+              {
                 "username": "mby",
                 "github_address": "https://github.com/mby",
                 "avatar": "https://avatars.githubusercontent.com/mby",
@@ -1388,12 +1388,6 @@
                 "github_address": "https://github.com/ukeskin",
                 "avatar": "https://avatars.githubusercontent.com/ukeskin",
                 "fmn_url": "/peer/umut-keskin"
-              },
-              {
-                "username": "AbdullahAki",
-                "github_address": "https://github.com/AbdullahAki",
-                "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
-                "fmn_url": "/peer/abdullah-aki"
               },
               {
                 "username": "ahmetelgun",
@@ -1483,6 +1477,12 @@
                 "fmn_url": ""
               },
               {
+                "username": "oguzhancevik",
+                "github_address": "https://github.com/oguzhancevik",
+                "avatar": "https://avatars.githubusercontent.com/oguzhancevik",
+                "fmn_url": ""
+              },
+              {
                 "username": "tansionline",
                 "github_address": "https://github.com/tansionline",
                 "avatar": "https://avatars.githubusercontent.com/tansionline",
@@ -1552,12 +1552,6 @@
                 "fmn_url": ""
               },
               {
-                "username": "veyselusta",
-                "github_address": "https://github.com/veyselusta",
-                "avatar": "https://avatars.githubusercontent.com/veyselusta",
-                "fmn_url": "/peer/veysel-usta"
-              },
-              {
                 "username": "tansionline",
                 "github_address": "https://github.com/tansionline",
                 "avatar": "https://avatars.githubusercontent.com/tansionline",
@@ -1613,6 +1607,28 @@
         "displayInterests": "Mobile,  frontend",
         "isHireable": true,
         "mail": "skubilayalbayrak@gmail.com",
+        "mentorships": [],
+        "contributions": []
+      }
+    },
+    {
+      "": "08.05.2021 23:37:52",
+      "profile": "https://findmentor.network/peer/banu-aggun",
+      "mail": "banuaggun@outlook.com",
+      "person": {
+        "registered_at": "22.02.2021 21:19:21",
+        "name": "Banu AĞGÜN",
+        "twitter_handle": "",
+        "github": "https://github.com/banuaggun",
+        "linkedin": "https://linkedin.com/in/banuaggun/?locale=en_US",
+        "interests": "frontend (css), ui/ux design",
+        "goals": "I want to be a famous web designer in the future. To explain, I want to be able to easily write and run the front-end codes of each web page I design and page animations if necessary.",
+        "mentor": "Mentee",
+        "slug": "banu-aggun",
+        "avatar": "https://avatars.githubusercontent.com/banuaggun",
+        "displayInterests": "frontend (css), ui/ux design",
+        "isHireable": true,
+        "mail": "banuaggun@outlook.com",
         "mentorships": [],
         "contributions": []
       }

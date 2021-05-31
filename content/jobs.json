@@ -133,6 +133,23 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "03.05.2021 18:25:05",
+      "company": "moneytolia",
+      "position": "Backend (Python) Developer",
+      "address": "",
+      "description": "Ödeme sistemleri ve elektronik para firması Moneytolia'da Python ile yazılmış cüzdan uygulamasının yeni ürünlerini tasarlayıp mevcut yapı ile entegrasyonunu sağlayacak aşağıdaki niteliklere sahip çalışma arkadaşları arıyoruz.\n\n  \n\n-   Python ve Flask framework tecrübesine sahip olan,\n-   RestAPI, JSON ve HTTP hakkında bilgi sahibi,\n-   PostgreSQL veya MYSQL veritabanları konusunda deneyimli,\n-   Versiyon kontrol sistemi olarak GIT kullanmış,\n-   Docker, Redis veya RabbitMQ teknolojilerinde tecrübeli,\n-   TDD deneyimi olan.",
+      "location": "remote",
+      "logo": "https://kodilan.ams3.digitaloceanspaces.com/companies/moneytolia.png",
+      "tags": [
+        "python",
+        "backend",
+        "fastapi",
+        "flask"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }

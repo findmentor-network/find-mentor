@@ -122,6 +122,12 @@
           "fmn_url": "/peer/kemal-ayhan"
         },
         {
+          "username": "AbdullahAki",
+          "github_address": "https://github.com/AbdullahAki",
+          "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
+          "fmn_url": "/peer/abdullah-aki"
+        },
+        {
           "username": "mby",
           "github_address": "https://github.com/mby",
           "avatar": "https://avatars.githubusercontent.com/mby",
@@ -156,12 +162,6 @@
           "github_address": "https://github.com/ukeskin",
           "avatar": "https://avatars.githubusercontent.com/ukeskin",
           "fmn_url": "/peer/umut-keskin"
-        },
-        {
-          "username": "AbdullahAki",
-          "github_address": "https://github.com/AbdullahAki",
-          "avatar": "https://avatars.githubusercontent.com/AbdullahAki",
-          "fmn_url": "/peer/abdullah-aki"
         },
         {
           "username": "ahmetelgun",
@@ -248,6 +248,12 @@
           "username": "yilmazo",
           "github_address": "https://github.com/yilmazo",
           "avatar": "https://avatars.githubusercontent.com/yilmazo",
+          "fmn_url": ""
+        },
+        {
+          "username": "oguzhancevik",
+          "github_address": "https://github.com/oguzhancevik",
+          "avatar": "https://avatars.githubusercontent.com/oguzhancevik",
           "fmn_url": ""
         },
         {
@@ -363,12 +369,6 @@
           "github_address": "https://github.com/mby",
           "avatar": "https://avatars.githubusercontent.com/mby",
           "fmn_url": ""
-        },
-        {
-          "username": "veyselusta",
-          "github_address": "https://github.com/veyselusta",
-          "avatar": "https://avatars.githubusercontent.com/veyselusta",
-          "fmn_url": "/peer/veysel-usta"
         },
         {
           "username": "tansionline",
@@ -630,21 +630,6 @@
           "github_address": "https://github.com/TheYkk",
           "avatar": "https://avatars.githubusercontent.com/TheYkk",
           "fmn_url": ""
-        }
-      ]
-    },
-    {
-      "": "20.01.2021 02:48:54",
-      "mentor": "https://findmentor.network/peer/murat-terzioglu",
-      "project_adress": "https://github.com/muraterzioglu/selfbox",
-      "goal": " selam, malum data'nın çok önemli olduğu bu günlerde artık not defterinde bile güvenemez olduk ben de buna itafen bir tane sadece sizde çalışıcak MongoDB ve Svelte (Muhteşem bir Front-end Framework'ü) ile çalışacak bir not defteri yapmak istiyorum bunu şimdilik;",
-      "slug": "selfbox",
-      "contributors": [
-        {
-          "username": "muraterzioglu",
-          "github_address": "https://github.com/muraterzioglu",
-          "avatar": "https://avatars.githubusercontent.com/muraterzioglu",
-          "fmn_url": "/peer/murat-terzioglu"
         }
       ]
     },
