@@ -150,6 +150,42 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "25.06.2021 15:15:40",
+      "company": "CodeThreat",
+      "position": "Full-Stack Developer",
+      "address": "https://www.linkedin.com/jobs/view/2581004213/?refId=bon3xnkpSnmj7prVNATcmA%3D%3D",
+      "description": "Herkese Merhaba, \n\nStatik kod analizi ürünümüz CodeThreat, aldığı güçlü yatırım ve desteklerle gelişmeye devam ediyor. Bir tutku olarak başlayıp hızla gelişen ve büyüyen projemizde sizleri de görmek istiyoruz!\n \nProjemizin web arayüzleri ve mikroservislerini geliştirmekle sorumlu olmak üzere,\n\n -  JavaScript ve asenkron programlama bilgisi/ilgisi olan,\n-   Microservis yapısı ile, Node.JS veya Deno runtime'ını kullanacak,\n-   Vue.JS web framework ile ilgi çekici önyüzler çıkaracak,\n-   Junior veya Senior geliştiriciler arıyoruz.\n\n> Sevgilerle,\n>  [CodeThreat](https://codethreat.com) Dev Team.",
+      "location": "Remote",
+      "logo": "https://codethreat.com/images/Codethreat-justLogo-p-500.png",
+      "tags": [
+        "nodejs",
+        "backend",
+        "frontend",
+        "deno",
+        "javascript",
+        "vuejs"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
+    },
+    {
+      "date": "25.06.2021 15:42:55",
+      "company": "CodeThreat",
+      "position": "Static Code Analysis Developer",
+      "address": "https://www.linkedin.com/jobs/view/2586894774/?refId=oncW%2F6uoSP%2BszsEfG13gqg%3D%3D",
+      "description": "Herkese Merhaba, \n\nStatik kod analizi ürünümüz CodeThreat, aldığı güçlü yatırım ve desteklerle gelişmeye devam ediyor. Bir tutku olarak başlayıp hızla gelişen ve büyüyen projemizde sizleri de görmek istiyoruz!\n \nKaynak kod üzerindeki zafiyetleri statik kod analizi teknik ve süreçlerini uygulayarak tespit eden uygulamalarımız için;\n\n-   Program analizi algoritmalarını kullanacak ve kodlayacak,\n-   Java/.NET/PHP gibi dilleri kullanmış,\n-   Tercihen, programlama dillerine veya derleyici tasarımına bilgisi/ilgisi olan,\n-   Junior veya Senior geliştiriciler arıyoruz.\n\n> Sevgilerle,\n>  [CodeThreat](https://stackedit.io/) Dev Team.",
+      "location": "Remote",
+      "logo": "https://codethreat.com/images/Codethreat-justLogo-p-500.png",
+      "tags": [
+        "ast",
+        "syntaxtree",
+        "syntax",
+        "compiler"
+      ],
+      "remote": "Evet",
+      "isRemoveAllowed": true
     }
   ]
 }
