@@ -608,8 +608,7 @@
       "received_events_url": "https://api.github.com/users/aaabdyrahmanov/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 1,
-      "fmn_url": "https://findmentor.network/peer/atamyrat-abdyrahmanov"
+      "contributions": 1
     },
     {
       "login": "BerkanSezer",
