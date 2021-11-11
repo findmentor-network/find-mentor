@@ -604,21 +604,6 @@
       ]
     },
     {
-      "": "09.01.2021 17:29:05",
-      "mentor": "https://findmentor.network/peer/baris-ceviz",
-      "project_adress": "https://github.com/koledeus/koledeus-api",
-      "goal": ".NET 5.0 ile farklı teknoloji ve yaklaşımları uygulayarak Desktime uygualamasının OSS versiyonu geliştirmeyi ve bu süreçte mentee lere bilgi/deneyim katmayı hedefliyoruz",
-      "slug": "koledeus-api",
-      "contributors": [
-        {
-          "username": "peacecwz",
-          "github_address": "https://github.com/peacecwz",
-          "avatar": "https://avatars.githubusercontent.com/peacecwz",
-          "fmn_url": "/peer/baris-ceviz"
-        }
-      ]
-    },
-    {
       "": "13.01.2021 17:30:06",
       "mentor": "https://findmentor.network/peer/kaan-karakaya",
       "project_adress": "https://github.com/TheYkk/kubepwd",

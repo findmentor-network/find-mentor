@@ -186,6 +186,21 @@
       ],
       "remote": "Evet",
       "isRemoveAllowed": true
+    },
+    {
+      "date": "15.10.2021 15:11:38",
+      "company": "Flat Games",
+      "position": "3D Artist",
+      "address": "mailto:info@flatgames.co",
+      "description": "Hacettepe Üniversitesi Teknokent'te faaliyet gösteren firmamız için aşağıdaki özelliklere sahip ekip arkadaşı aramaktayız.\n**Aranan nitelikler:**\n\n - Oyun fikirleri üretme ve seviyelere göre uygun tasarımlar yapabilme.\n - Game dizaynı ve level dizayn konusunda bilgi ve tecrübe sahibi.\n - Low-poly modelleme, karakter tasarımı ve animasyon bilgisi (3ds Max\n      veya Blender)  ve portfolyo sahibi. \n - UI/UX, ikon ve oyun logosu       tasarımı tecrübesi. Basit düzeyde\n   video editleme bilgisi.\n\n**İş Tanımı:**\n\tHyper-casual/Casual mobil oyun projelerimizin fikir aşamasından itibaren, karakter ve animasyonlarının oluşturulması, level dizaynı ve diğer level objelerinin modellenmesi ve marketing için gerekli assetleri ve videoların yapılması.\n\t\n**Not:**\nBaşvurularınızı cv ve portfolyo ile  info@flatgames.co adresine gönderebilirsiniz.",
+      "location": "Hacettepe Teknokent",
+      "logo": "http://www.flatgames.co/img/flatgameslogo.png",
+      "tags": [
+        "3d game artist",
+        "game designer"
+      ],
+      "remote": "Hayır",
+      "isRemoveAllowed": false
     }
   ]
 }
