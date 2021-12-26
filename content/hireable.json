@@ -1580,28 +1580,6 @@
         "mentorships": [],
         "contributions": []
       }
-    },
-    {
-      "": "08.05.2021 23:37:52",
-      "profile": "https://findmentor.network/peer/banu-aggun",
-      "mail": "banuaggun@outlook.com",
-      "person": {
-        "registered_at": "22.02.2021 21:19:21",
-        "name": "Banu AĞGÜN",
-        "twitter_handle": "",
-        "github": "https://github.com/banuaggun",
-        "linkedin": "https://linkedin.com/in/banuaggun/?locale=en_US",
-        "interests": "frontend (css), ui/ux design",
-        "goals": "I want to be a famous web designer in the future. To explain, I want to be able to easily write and run the front-end codes of each web page I design and page animations if necessary.",
-        "mentor": "Mentee",
-        "slug": "banu-aggun",
-        "avatar": "https://avatars.githubusercontent.com/banuaggun",
-        "displayInterests": "frontend (css), ui/ux design",
-        "isHireable": true,
-        "mail": "banuaggun@outlook.com",
-        "mentorships": [],
-        "contributions": []
-      }
     }
   ]
 }
