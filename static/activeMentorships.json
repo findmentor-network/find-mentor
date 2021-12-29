@@ -500,15 +500,15 @@
           "fmn_url": ""
         },
         {
-          "username": "hadialqattan",
-          "github_address": "https://github.com/hadialqattan",
-          "avatar": "https://avatars.githubusercontent.com/hadialqattan",
-          "fmn_url": ""
-        },
-        {
           "username": "pre-commit-ci[bot]",
           "github_address": "https://github.com/apps/pre-commit-ci",
           "avatar": "https://avatars.githubusercontent.com/pre-commit-ci[bot]",
+          "fmn_url": ""
+        },
+        {
+          "username": "hadialqattan",
+          "github_address": "https://github.com/hadialqattan",
+          "avatar": "https://avatars.githubusercontent.com/hadialqattan",
           "fmn_url": ""
         },
         {
