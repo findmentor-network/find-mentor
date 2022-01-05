@@ -494,15 +494,15 @@
           "fmn_url": "/peer/batuhan-taskaya"
         },
         {
-          "username": "isik-kaplan",
-          "github_address": "https://github.com/isik-kaplan",
-          "avatar": "https://avatars.githubusercontent.com/isik-kaplan",
-          "fmn_url": ""
-        },
-        {
           "username": "pre-commit-ci[bot]",
           "github_address": "https://github.com/apps/pre-commit-ci",
           "avatar": "https://avatars.githubusercontent.com/pre-commit-ci[bot]",
+          "fmn_url": ""
+        },
+        {
+          "username": "isik-kaplan",
+          "github_address": "https://github.com/isik-kaplan",
+          "avatar": "https://avatars.githubusercontent.com/isik-kaplan",
           "fmn_url": ""
         },
         {
