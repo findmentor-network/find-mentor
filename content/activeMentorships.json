@@ -128,12 +128,6 @@
           "fmn_url": "/peer/abdullah-aki"
         },
         {
-          "username": "mby",
-          "github_address": "https://github.com/mby",
-          "avatar": "https://avatars.githubusercontent.com/mby",
-          "fmn_url": ""
-        },
-        {
           "username": "Buraksmn",
           "github_address": "https://github.com/Buraksmn",
           "avatar": "https://avatars.githubusercontent.com/Buraksmn",
@@ -144,6 +138,12 @@
           "github_address": "https://github.com/snowron",
           "avatar": "https://avatars.githubusercontent.com/snowron",
           "fmn_url": "/peer/murat-turan"
+        },
+        {
+          "username": "mby",
+          "github_address": "https://github.com/mby",
+          "avatar": "https://avatars.githubusercontent.com/mby",
+          "fmn_url": ""
         },
         {
           "username": "makiftutuncu",
@@ -278,12 +278,6 @@
           "fmn_url": "/peer/cagatay-cali"
         },
         {
-          "username": "mby",
-          "github_address": "https://github.com/mby",
-          "avatar": "https://avatars.githubusercontent.com/mby",
-          "fmn_url": ""
-        },
-        {
           "username": "batin",
           "github_address": "https://github.com/batin",
           "avatar": "https://avatars.githubusercontent.com/batin",
@@ -357,12 +351,6 @@
           "github_address": "https://github.com/aykutkardas",
           "avatar": "https://avatars.githubusercontent.com/aykutkardas",
           "fmn_url": "/peer/aykut-kardas"
-        },
-        {
-          "username": "mby",
-          "github_address": "https://github.com/mby",
-          "avatar": "https://avatars.githubusercontent.com/mby",
-          "fmn_url": ""
         },
         {
           "username": "tansionline",
